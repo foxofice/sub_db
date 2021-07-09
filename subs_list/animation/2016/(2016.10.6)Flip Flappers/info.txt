@@ -1,0 +1,5 @@
+﻿chs: Flip Flappers
+cht: Flip Flappers
+jp: フリップフラッパーズ
+en: Flip Flappers
+rome: Flip Flappers

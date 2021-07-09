@@ -1,0 +1,40 @@
+﻿[Script Info]
+Title: 雪飘工作室
+Original Script: 雪飘工作室字幕
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EC,迷你简特圆,65,&H00AB9D9E,&HFFDC95FF,&H11FFFFFF,&HAA000000,-1,0,0,0,100,100,0,0,1,5,0,8,27,27,22,1
+Style: ED1,EPSON 太丸ゴシック体Ｂ,65,&H008AA7D6,&H44A54E85,&H11FFFFFF,&HAA000000,-1,0,0,0,100,100,0,0,1,5,0,2,27,27,22,1
+Style: ED2,EPSON 太丸ゴシック体Ｂ,65,&H008AA7D6,&H447A331E,&H11FFFFFF,&HAA000000,-1,0,0,0,100,100,0,0,1,5,0,2,27,27,22,1
+Style: ED3,EPSON 太丸ゴシック体Ｂ,65,&H008AA7D6,&H441A3B7D,&H11FFFFFF,&HAA000000,-1,0,0,0,100,100,0,0,1,5,0,2,27,27,22,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.27,0:00:06.97,ED1,,0,0,0,,{\be3\fad(50,100)\1c&HF2C9E3&}{\kf60}足{\kf60}下{\kf40}に{\kf70}風{\kf50}　{\kf70}光{\kf100}が{\kf30}舞{\kf30}っ{\kf50}た
+Dialogue: 0,0:00:01.27,0:00:06.97,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF99DD1&}在徐风中奔跑　在光辉中穿梭
+Dialogue: 0,0:00:07.37,0:00:14.37,ED1,,0,0,0,,{\be3\fad(50,100)\1c&HF2C9E3&}{\kf70}日{\kf40}常{\kf30}に{\kf30}だ{\kf150}け{\kf20}積{\kf20}も{\kf30}っ{\kf20}た{\kf20}ぶ{\kf20}ん{\kf20}の{\kf120}奇{\kf50}跡{\kf70}が
+Dialogue: 0,0:00:07.37,0:00:14.37,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF99DD1&}那是在千万个宁静日夜中汇聚的奇迹
+Dialogue: 0,0:00:16.07,0:00:21.97,ED1,,0,0,0,,{\be3\fad(50,100)\1c&HF2C9E3&}{\kf30}見{\kf25}上{\kf25}げ{\kf25}れ{\kf25}ば{\kf50}雲{\kf100}　{\kf40}遠{\kf10}く{\kf90}へ{\kf20}{\kf30}の{\kf20}帰{\kf20}路
+Dialogue: 0,0:00:16.07,0:00:21.97,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF99DD1&}在通往远方的归途上　翘首仰望云彩
+Dialogue: 0,0:00:22.37,0:00:30.27,ED1,,0,0,0,,{\be3\fad(50,100)\1c&HF2C9E3&}{\kf100}幼{\kf25}い{\kf25}日{\kf140}の{\kf20}自{\kf40}分{\kf20}よ{\kf50}り{\kf140}も{\kf50}早{\kf50}く
+Dialogue: 0,0:00:22.37,0:00:30.27,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF99DD1&}它们比儿时的我跑得更快
+Dialogue: 0,0:00:32.57,0:00:38.17,ED2,,0,0,0,,{\be3\fad(50,100)\1c&HF2B884&}{\kf50}雪{\kf20}解{\kf20}け{\kf50}を{\kf20}待{\kf30}っ{\kf20}て{\kf30}い{\kf120}た{\kf20}子{\kf40}供{\kf30}の{\kf30}よ{\kf30}う{\kf50}に
+Dialogue: 0,0:00:32.57,0:00:38.17,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF9BF80&}如同等待着春日的孩子一般
+Dialogue: 0,0:00:38.97,0:00:45.57,ED2,,0,0,0,,{\be3\fad(50,100)\1c&HF2B884&}{\kf30}走{\kf50}る{\kf20}　{\kf30}光{\kf70}る{\kf80}滴{\kf110}　{\kf10}飛{\kf30}び{\kf50}跳{\kf50}ね{\kf70}て{\kf50}る
+Dialogue: 0,0:00:38.97,0:00:45.57,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF9BF80&}在奔波中带动闪光的水滴
+Dialogue: 0,0:00:47.27,0:00:53.07,ED2,,0,0,0,,{\be3\fad(50,100)\1c&HF2B884&}{\kf20}明{\kf20}日{\kf30}の{\kf30}出{\kf50}会{\kf50}い{\kf50}さ{\kf130}え{\kf25}気{\kf25}づ{\kf20}か{\kf25}ず{\kf25}に{\kf25}い{\kf25}る
+Dialogue: 0,0:00:47.27,0:00:53.07,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF9BF80&}现在还无人发觉明日的邂逅
+Dialogue: 0,0:00:53.67,0:01:00.77,ED2,,0,0,0,,{\be3\fad(50,100)\1c&HF2B884&}{\kf30}季{\kf70}節{\kf20}た{\kf20}ち{\kf50}の{\kf40}中{\kf170}で{\kf80}輝{\kf50}い{\kf50}て{\kf20}い{\kf20}る{\kf20}よ
+Dialogue: 0,0:00:53.67,0:01:00.77,EC,,0,0,0,,{\be3\fad(50,100)\1c&HF9BF80&}但我们都闪耀在轮回的季节中
+Dialogue: 0,0:01:01.07,0:01:14.67,ED2,,0,0,0,,{\be3\fad(50,2000)\1c&HF2B884&}{\kf20}世{\kf120}界{\kf70}中{\kf20}に{\kf20}は{\kf30}ど{\kf90}ん{\kf50}な{\kf60}想{\kf20}い{\kf150}も{\kf130}叶{\kf20}う{\kf100}日{\kf50}が{\kf50}く{\kf50}る
+Dialogue: 0,0:01:01.07,0:01:14.67,EC,,0,0,0,,{\be3\fad(50,2000)\1c&HF9BF80&}世界上所有的心愿都会迎来实现的那一天
+Dialogue: 0,0:01:14.67,0:01:21.57,ED3,,0,0,0,,{\be3\fad(50,100)\1c&H56C1FF&}{\kf20}ず{\kf100}っ{\kf30}と{\kf100}旅{\kf70}を{\kf20}し{\kf20}て{\kf100}ゆ{\kf50}く{\kf80}僕{\kf20}ら{\kf20}に
+Dialogue: 0,0:01:14.67,0:01:21.57,EC,,0,0,0,,{\be3\fad(50,100)\1c&H4696F8&}在永恒的旅途上
+Dialogue: 0,0:01:22.07,0:01:29.99,ED3,,0,0,0,,{\be3\fad(50,470)\1c&H56C1FF&}{\kf160}小{\kf20}さ{\kf70}な{\kf50}精{\kf50}た{\kf100}ち{\kf70}舞{\kf20}い{\kf60}降{\kf20}り{\kf20}る
+Dialogue: 0,0:01:22.07,0:01:29.99,EC,,0,0,0,,{\be3\fad(50,470)\1c&H4696F8&}轻盈的妖精们也在为我们祝福

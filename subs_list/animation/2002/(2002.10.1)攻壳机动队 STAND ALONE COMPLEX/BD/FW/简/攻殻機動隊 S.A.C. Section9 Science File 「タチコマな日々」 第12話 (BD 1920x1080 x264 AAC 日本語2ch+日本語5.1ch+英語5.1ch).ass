@@ -1,0 +1,31 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-26 00:15:58
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.00,0:00:08.02,SP,NTP,0000,0000,0000,,喂
+Dialogue: 0,0:00:08.17,0:00:10.63,SP,NTP,0000,0000,0000,,跟电影导演的电子脑连线之后，就没回来了
+Dialogue: 0,0:00:10.77,0:00:12.57,SP,NTP,0000,0000,0000,,要怎么叫醒这家伙呢？
+Dialogue: 0,0:00:13.44,0:00:14.53,SP,NTP,0000,0000,0000,,好～
+Dialogue: 0,0:00:17.54,0:00:20.07,SP,NTP,0000,0000,0000,,哇～成功！成功！
+Dialogue: 0,0:00:20.54,0:00:21.77,SP,NTP,0000,0000,0000,,哈啾！
+Dialogue: 0,0:00:24.12,0:00:25.31,SP,NTP,0000,0000,0000,,你在睡觉吗？
+Dialogue: 0,0:00:25.45,0:00:27.58,SP,NTP,0000,0000,0000,,啊～又回到原来的样子了啦
+Dialogue: 0,0:00:27.72,0:00:29.74,SP,NTP,0000,0000,0000,,要怎么叫醒这家伙呢？
+Dialogue: 0,0:00:31.16,0:00:32.12,SP,NTP,0000,0000,0000,,喂！
+

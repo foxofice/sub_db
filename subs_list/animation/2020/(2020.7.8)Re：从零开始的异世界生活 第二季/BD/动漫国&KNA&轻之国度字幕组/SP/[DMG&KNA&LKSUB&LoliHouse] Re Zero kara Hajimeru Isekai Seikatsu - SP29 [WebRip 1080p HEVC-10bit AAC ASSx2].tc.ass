@@ -1,0 +1,85 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP29]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  動漫國&KNA&輕之國度字幕組  聯合製作\N僅供試看,請支持購買正版音像製品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻譯:DragonP   校對&時軸:傻瓜三世   後期:小聖
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}國\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}動
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}輕
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}國
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.51,0:00:04.99,Default,,0,0,0,,Re:從零開始的休息時間  佩特拉的女僕奮鬥日記
+Dialogue: 0,0:00:05.69,0:00:07.56,Default,,0,0,0,,我叫佩特拉·萊特
+Dialogue: 0,0:00:07.70,0:00:13.66,Default,,0,0,0,,昨天開始  我成為了羅茲瓦爾·L·梅札斯邊境伯的傭人
+Dialogue: 0,0:00:14.05,0:00:16.55,Default,,0,0,0,,雖然有很多事情要學
+Dialogue: 0,0:00:16.82,0:00:19.40,Default,,0,0,0,,但是前輩法蘭黛莉卡姐姐很溫柔
+Dialogue: 0,0:00:19.47,0:00:21.32,Default,,0,0,0,,工作起來也很充實
+Dialogue: 0,0:00:22.17,0:00:24.80,Default,,0,0,0,,現在打算一點點學習如何工作
+Dialogue: 0,0:00:24.93,0:00:28.55,Default,,0,0,0,,同時好好完成昴大人交給我的任務
+Dialogue: 0,0:00:29.58,0:00:31.60,Default,,0,0,0,,其中一個是照顧好雷姆
+Dialogue: 0,0:00:33.29,0:00:37.16,Default,,0,0,0,,昴大人在意的人太多了  真辛苦啊
+Dialogue: 0,0:00:38.08,0:00:40.56,Default,,0,0,0,,不過這也是昴大人的優點
+Dialogue: 0,0:00:42.21,0:00:45.98,Default,,0,0,0,,另一個是昴大人只拜託我做的事情
+Dialogue: 0,0:00:46.47,0:00:47.93,Default,,0,0,0,,小碧翠絲
+Dialogue: 0,0:00:48.06,0:00:51.45,Default,,0,0,0,,不對  是要關心碧翠絲大人
+Dialogue: 0,0:00:51.56,0:00:54.35,Default,,0,0,0,,但是碧翠絲大人是…
+Dialogue: 0,0:00:56.18,0:00:57.00,Default,,0,0,0,,怎麼了
+Dialogue: 0,0:00:57.82,0:01:01.77,Default,,0,0,0,,要是我見到了碧翠絲大人  能及時發覺嗎
+Dialogue: 0,0:01:01.81,0:01:03.10,Default,,0,0,0,,很簡單  很簡單
+Dialogue: 0,0:01:03.20,0:01:05.62,Default,,0,0,0,,她外表很獨特  你看上一眼就知道啦
+Dialogue: 0,0:01:05.68,0:01:06.57,Default,,0,0,0,,是這樣嗎
+Dialogue: 0,0:01:06.64,0:01:10.54,Default,,0,0,0,,對啊  上次冰雪節你和她一起玩的啊
+Dialogue: 0,0:01:10.65,0:01:11.69,Default,,0,0,0,,是這樣的
+Dialogue: 0,0:01:11.78,0:01:14.12,Default,,0,0,0,,好像是紅色的
+Dialogue: 0,0:01:14.12,0:01:16.41,Default,,0,0,0,,對對  就是紅色鑽頭蘿莉
+Dialogue: 0,0:01:17.39,0:01:18.40,Default,,0,0,0,,紅色…
+Dialogue: 0,0:01:18.98,0:01:20.96,Default,,0,0,0,,紅色鑽頭蘿莉
+Dialogue: 0,0:01:21.06,0:01:24.23,Default,,0,0,0,,不是禮服  而是鑽頭?
+Dialogue: 0,0:01:25.50,0:01:29.56,Default,,0,0,0,,鑽頭  鑽頭  鑽頭
+Dialogue: 0,0:01:29.62,0:01:32.08,Default,,0,0,0,,鑽頭這個詞好像在哪裡聽說過
+Dialogue: 0,0:01:34.16,0:01:35.57,Default,,0,0,0,,我說佩特拉
+Dialogue: 0,0:01:35.68,0:01:37.36,Default,,0,0,0,,我才不認識什麼昴呢
+Dialogue: 0,0:01:37.36,0:01:38.72,Default,,0,0,0,,對不起啊
+Dialogue: 0,0:01:40.07,0:01:42.87,Default,,0,0,0,,這個飛行強襲型大火力決戰兵器
+Dialogue: 0,0:01:42.87,0:01:46.74,Default,,0,0,0,,雪兔號的事情是我的錯
+Dialogue: 0,0:01:47.96,0:01:49.86,Default,,0,0,0,,我知道你為什麼會生氣
+Dialogue: 0,0:01:50.28,0:01:51.17,Default,,0,0,0,,昴
+Dialogue: 0,0:01:51.78,0:01:55.49,Default,,0,0,0,,肯定是因為缺少鑽頭
+Dialogue: 0,0:01:56.75,0:01:59.68,Default,,0,0,0,,將這個鑽頭裝到中央主炮部後
+Dialogue: 0,0:01:59.68,0:02:01.16,Default,,0,0,0,,陸戰也無所畏…
+Dialogue: 0,0:02:02.16,0:02:04.68,Default,,0,0,0,,那個好像就是鑽頭
+Dialogue: 0,0:02:05.15,0:02:07.67,Default,,0,0,0,,鑽頭  鑽頭
+Dialogue: 0,0:02:09.76,0:02:10.94,Default,,0,0,0,,這個是什麼
+Dialogue: 0,0:02:11.32,0:02:13.74,Default,,0,0,0,,鑽頭就是浪漫吧
+Dialogue: 0,0:02:15.19,0:02:21.63,Default,,0,0,0,,人型強襲挖掘決戰兵器  碧翠絲呀
+Dialogue: 0,0:02:23.48,0:02:26.65,Default,,0,0,0,,我在寫什麼來著
+Dialogue: 0,0:02:27.76,0:02:32.16,Default,,0,0,0,,總之我被昴大人拜託  對這座宅邸…
+Dialogue: 0,0:02:34.51,0:02:39.72,Default,,0,0,0,,我受昴大人委託  要努力保護好這座宅邸
+Dialogue: 0,0:02:40.84,0:02:42.96,Default,,0,0,0,,這樣就行了吧  反正是日記
+Dialogue: 0,0:02:44.76,0:02:49.21,Default,,0,0,0,,昴和大姐姐都要平安回來啊
+Dialogue: 0,0:02:50.48,0:02:52.57,Default,,0,0,0,,還有那個煩人的傢伙
+Dialogue: 0,0:02:55.27,0:02:57.96,Default,,0,0,0,,我記得名叫哎喲喲喲先生
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

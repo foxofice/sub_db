@@ -1,0 +1,95 @@
+﻿[Script Info]
+; Made by Kamigami for education purpose only
+; Visit us at www.kamigami.org
+; 本字幕由诸神字幕组出品，仅供学习交流，禁止用于商业用途
+; 更多中日双语字幕，尽在 www.kamigami.org 和微博 @诸神字幕组
+Title: 编舟记
+Original Script: 诸神字幕组
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+YCbCr Matrix: TV.709
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OP-JP,EPSON 太明朝体Ｂ,28,&H00990000,&H00FFFFFF,&H00FFFFFF,&H000D2801,0,0,0,0,100,106,0,0,1,2,0,2,10,10,15,128
+Style: OP-CN,方正粗雅宋_GBK,33,&H009A0000,&HF0000000,&H00FFFFFF,&H006A7F88,0,0,0,0,100,106,0,0,1,2,0,8,0,0,15,1
+Style: ED-JP,EPSON 太明朝体Ｂ,28,&H00FFFFFF,&H00FFFFFF,&H006F1712,&H000D2801,-1,0,0,0,100,106,0,0,1,2,0,2,10,10,10,128
+Style: ED-CN,方正粗雅宋_GBK,33,&H00FFFFFF,&HF0000000,&H006F1712,&H006A7F88,0,0,0,0,100,105,1,0,1,2,0,8,10,10,10,1
+Style: STAFF,方正粗雅宋_GBK,36,&H00FFFFFF,&H000000FF,&H006F1712,&H64283D57,0,0,0,0,100,100,1,0,1,2,0,2,10,10,10,1
+Style: TEXT-JP,EPSON 太明朝体Ｂ,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,10,128
+Style: TEXT-CN,方正粗雅宋_GBK,40,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,105,1,0,1,1.8,0,2,0,0,35,1
+Style: TEXT-JP(UP),EPSON 太明朝体Ｂ,23,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,50,128
+Style: TEXT-CN(UP),方正粗雅宋_GBK,36,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,105,1,0,1,1.8,0,8,0,0,8,1
+Style: OTHERS,方正正准黑_GBK,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: NOTES,方正粗雅宋_GBK,35,&H00FFFFFF,&HF0000000,&H00000000,&H004C4133,0,0,0,0,100,100,1,0,1,1.5,0,7,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+; --- ;
+Comment: 0,0:00:00.18,0:00:00.18,STAFF,,0,0,0,,-----STAFF-----
+Dialogue: 0,0:00:53.90,0:00:54.90,STAFF,,0,0,0,,{\an8}日听：9麻&Floria  翻译：天上ウテナ&裏spartan  日校：Ⅴ
+Dialogue: 0,0:00:53.90,0:00:54.90,STAFF,,0,0,0,,翻校：aeyou   时间轴：Foyzi    压制：有纪
+Dialogue: 0,0:00:00.05,0:00:03.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}本字幕由弑神字幕组出品，仅供学习交流，禁止用于商业用途
+Dialogue: 0,0:00:03.05,0:00:06.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}弑神成员为诸神新人，旨在提升做番水平，如有疏漏在所难免，还请看官多多包涵
+Dialogue: 0,0:00:06.05,0:00:09.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}更多中日双语字幕，尽在 sub.kamigami.org 及微博 @诸神字幕组
+; --- ;
+Comment: 0,0:00:01.94,0:00:03.94,TEXT-CN,,0,0,0,,-----TEXT CN-----
+Dialogue: 1,0:00:01.59,0:00:02.79,TEXT-CN,,0,0,0,,教教我吧!
+Dialogue: 1,0:00:02.97,0:00:04.81,TEXT-CN,,0,0,0,,辞典收纳箱!!
+Dialogue: 1,0:00:05.14,0:00:07.24,TEXT-CN,,0,0,0,,咦 大家都在干什么呢
+Dialogue: 1,0:00:07.39,0:00:10.21,TEXT-CN,,0,0,0,,我们正在给词条释义画插图呢
+Dialogue: 1,0:00:11.20,0:00:13.23,TEXT-CN,,0,0,0,,用照片不是更准确吗
+Dialogue: 1,0:00:13.45,0:00:17.04,TEXT-CN,,0,0,0,,当然最近也有使用照片的辞典
+Dialogue: 1,0:00:17.04,0:00:19.04,TEXT-CN,,0,0,0,,但现下的主流仍是插图哦
+Dialogue: 1,0:00:19.64,0:00:20.73,TEXT-CN,,0,0,0,,为什么
+Dialogue: 1,0:00:20.73,0:00:23.75,TEXT-CN,,0,0,0,,这是因为插图更方便说明特征
+Dialogue: 1,0:00:24.19,0:00:29.23,TEXT-CN,,0,0,0,,手绘插图可以突出需要解释的部分 还可以省去多余的线条
+Dialogue: 1,0:00:29.36,0:00:34.51,TEXT-CN,,0,0,0,,而且并不是所有词条的概念都是真实存在的
+Dialogue: 1,0:00:34.91,0:00:36.42,TEXT-CN,,0,0,0,,比如说河童
+Dialogue: 1,0:00:36.77,0:00:40.52,TEXT-CN,,0,0,0,,比如说河童 比如说河童 比如说河童…
+Dialogue: 1,0:00:41.29,0:00:42.85,TEXT-CN,,0,0,0,,河童是不存在的吗
+Dialogue: 1,0:00:46.64,0:00:47.82,TEXT-CN,,0,0,0,,你没事吧
+Dialogue: 1,0:00:47.82,0:00:48.61,TEXT-CN,,0,0,0,,振作一点
+Dialogue: 1,0:00:48.61,0:00:49.66,TEXT-CN,,0,0,0,,河童
+Dialogue: 1,0:00:50.60,0:00:53.00,TEXT-CN,,0,0,0,,是不是…哪里弄错了
+Comment: 0,0:00:00.00,0:00:00.00,OTHERS,,0,0,0,,-----OTHERS-----
+Dialogue: 0,0:00:23.90,0:00:23.95,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(1260,155)}『结』
+Dialogue: 0,0:00:23.95,0:00:23.99,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(1130,155)}『结』
+Dialogue: 0,0:00:23.99,0:00:24.03,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(1010,155)}『结』
+Dialogue: 0,0:00:24.03,0:00:24.07,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(895,155)}『结』
+Dialogue: 0,0:00:24.07,0:00:24.11,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(790,155)}『结』
+Dialogue: 0,0:00:24.11,0:00:24.15,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(700,155)}『结』
+Dialogue: 0,0:00:24.11,0:00:24.15,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(1290,155)}『猪肉』
+Dialogue: 0,0:00:24.15,0:00:24.20,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(630,155)}『结』
+Dialogue: 0,0:00:24.15,0:00:24.20,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(1220,155)}『猪肉』
+Dialogue: 0,0:00:24.20,0:00:24.24,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(580,155)}『结』
+Dialogue: 0,0:00:24.20,0:00:24.24,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(1170,155)}『猪肉』
+Dialogue: 0,0:00:24.24,0:00:34.51,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(565,155)}『结』
+Dialogue: 0,0:00:24.24,0:00:34.51,OTHERS,,0,0,0,,{\fn@方正正准黑_GBK\frz-90\c&H000E05&\3c&H000E05&\bord0.5\b1\fs60\pos(1155,155)}『猪肉』
+Dialogue: 0,0:00:49.93,0:00:53.89,OTHERS,,0,0,0,,{\an1\fn@方正正准黑_GBK\frz-90\fs70\c&H000000&\bord0.1\blur1\b1\pos(992,116)}即将收尾的小海\N遭遇危机
+Dialogue: 0,0:00:49.93,0:00:53.89,OTHERS,,0,0,0,,{\an1\fs70\c&H000000&\bord0.1\blur1\b1\fax-0.2\pos(1014,414)}!!!
+; --- ;
+Comment: 0,0:00:01.94,0:00:03.94,TEXT-JP,,0,0,0,,-----TEXT JP-----
+Dialogue: 0,0:00:01.59,0:00:02.79,TEXT-JP,,0,0,0,,おしえて!
+Dialogue: 0,0:00:02.97,0:00:04.81,TEXT-JP,,0,0,0,,じしょたんず!!
+Dialogue: 0,0:00:05.14,0:00:07.24,TEXT-JP,,0,0,0,,あれ　みんな何してるの
+Dialogue: 0,0:00:07.39,0:00:10.21,TEXT-JP,,0,0,0,,語釈と一緒に載せる挿絵を描いてるのさ
+Dialogue: 0,0:00:11.20,0:00:13.23,TEXT-JP,,0,0,0,,写真の方が正確じゃない
+Dialogue: 0,0:00:13.45,0:00:17.04,TEXT-JP,,0,0,0,,もちろん　最近は写真を使う辞書もあるけど
+Dialogue: 0,0:00:17.04,0:00:19.04,TEXT-JP,,0,0,0,,今でも主流は絵だよ
+Dialogue: 0,0:00:19.64,0:00:20.73,TEXT-JP,,0,0,0,,どうして
+Dialogue: 0,0:00:20.73,0:00:23.75,TEXT-JP,,0,0,0,,それは特徴を説明しやすいからです
+Dialogue: 0,0:00:24.19,0:00:29.23,TEXT-JP,,0,0,0,,絵で描くと　必要な箇所を強調したり　余分な線を省略したりもできる
+Dialogue: 0,0:00:29.36,0:00:34.51,TEXT-JP,,0,0,0,,それに　見出しのすべてが現実に存在するものってわけじゃないからね
+Dialogue: 0,0:00:34.91,0:00:36.42,TEXT-JP,,0,0,0,,たとえば　河童とか
+Dialogue: 0,0:00:36.77,0:00:40.52,TEXT-JP,,0,0,0,,河童とか　河童とか　河童とか…
+Dialogue: 0,0:00:41.29,0:00:42.85,TEXT-JP,,0,0,0,,河童っていないの
+Dialogue: 0,0:00:46.64,0:00:47.82,TEXT-JP,,0,0,0,,大丈夫ですか
+Dialogue: 0,0:00:47.82,0:00:48.61,TEXT-JP,,0,0,0,,しっかりしろ
+Dialogue: 0,0:00:48.61,0:00:49.66,TEXT-JP,,0,0,0,,河童
+Dialogue: 0,0:00:50.60,0:00:53.00,TEXT-JP,,0,0,0,,何かの…間違いでは
+; --- ;

@@ -1,0 +1,5 @@
+﻿chs: 攻壳机动队 S.A.C. 2nd GIG
+cht: 攻殻機動隊 S.A.C. 2nd GIG
+jp: 攻殻機動隊 S.A.C. 2nd GIG GHOST IN THE SHELL "STAND ALONE COMPLEX"
+en: Ghost in the Shell: Stand Alone Complex 2nd GIG
+rome: Koukaku Kidoutai S.A.C. 2nd GIG

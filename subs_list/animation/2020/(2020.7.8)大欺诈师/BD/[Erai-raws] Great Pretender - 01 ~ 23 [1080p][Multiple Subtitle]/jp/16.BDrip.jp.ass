@@ -1,0 +1,378 @@
+﻿[Script Info]
+Title: [Erai-raws] 16 _[ja_31
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+Video Zoom Percent: 1
+Scroll Position: 0
+Active Line: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,源ノ角ゴシック,60,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.48,0:00:06.65,Default,,0,0,0,,{\c&Hffffff&}（炒める音）
+Dialogue: 0,0:00:08.95,0:00:09.86,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）ハア…
+Dialogue: 0,0:00:11.41,0:00:12.24,Default,,0,0,0,,{\c&Hffffff&}（クリック音）
+Dialogue: 0,0:00:14.45,0:00:15.83,Default,,0,0,0,,{\c&Hffffff&}（石神(いしがみ)）ハア〜
+Dialogue: 0,0:00:16.29,0:00:18.08,Default,,0,0,0,,{\c&Hffffff&}（アケミ）売り上げが落ちてる
+Dialogue: 0,0:00:18.29,0:00:20.21,Default,,0,0,0,,{\c&Hffffff&}このままだと分かってるな
+Dialogue: 0,0:00:34.01,0:00:35.35,Default,,0,0,0,,{\c&Hffffff&}飯 出来ました
+Dialogue: 0,0:00:35.51,0:00:36.35,Default,,0,0,0,,{\c&Hffffff&}ああ
+Dialogue: 0,0:00:41.02,0:00:42.61,Default,,0,0,0,,{\c&Hffffff&}（エレベーターの到着音）
+Dialogue: 0,0:00:46.69,0:00:48.19,Default,,0,0,0,,{\c&Hffffff&}お昼だぞ
+Dialogue: 0,0:00:49.61,0:00:52.32,Default,,0,0,0,,{\c&Hffffff&}（足音）
+Dialogue: 0,0:00:52.45,0:00:53.28,Default,,0,0,0,,{\c&Hffffff&}（皿を置く音）
+Dialogue: 0,0:00:55.49,0:00:56.91,Default,,0,0,0,,{\c&Hffffff&}たくさん食べなさい
+Dialogue: 0,0:00:57.04,0:00:58.66,Default,,0,0,0,,{\c&Hffffff&}みんな やせすぎだ
+Dialogue: 0,0:00:59.08,0:01:00.58,Default,,0,0,0,,{\c&Hffffff&}枝村(えだむら)君 訳して
+Dialogue: 0,0:01:01.12,0:01:03.42,Default,,0,0,0,,{\c&Hffffff&}（エダマメ:英語）
+Dialogue: 0,0:01:06.34,0:01:07.25,Default,,0,0,0,,{\c&Hffffff&}ハア…
+Dialogue: 0,0:01:07.80,0:01:08.63,Default,,0,0,0,,{\c&Hffffff&}（ドアが開く音）
+Dialogue: 0,0:01:09.67,0:01:12.18,Default,,0,0,0,,{\c&Hffffff&}（足音）
+Dialogue: 0,0:01:16.14,0:01:17.01,Default,,0,0,0,,{\c&Hffffff&}（臭いを嗅ぐ音）
+Dialogue: 0,0:01:17.14,0:01:20.39,Default,,0,0,0,,{\c&Hffffff&}臭うな\Nちゃんと風呂 入れてるか？
+Dialogue: 0,0:01:20.52,0:01:21.69,Default,,0,0,0,,{\c&Hffffff&}（社員）週１くらいです
+Dialogue: 0,0:01:21.89,0:01:23.81,Default,,0,0,0,,{\c&Hffffff&}（石神）週２にしろ\N（社員）はい
+Dialogue: 0,0:01:25.15,0:01:26.11,Default,,0,0,0,,{\an8\c&Hffffff&}（ドアが閉まる音）
+Dialogue: 0,0:01:29.82,0:01:31.65,Default,,0,0,0,,{\c&Hffffff&}ボックスに戻しといてくれ
+Dialogue: 0,0:01:39.83,0:01:41.41,Default,,0,0,0,,{\c&Hffffff&}（電話:ローラン）\N真面目にやってるか？
+Dialogue: 0,0:01:41.66,0:01:44.58,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）\N今までの中で 一番つれえ仕事だべ
+Dialogue: 0,0:01:45.08,0:01:47.34,Default,,0,0,0,,{\c&Hffffff&}（ローラン）\N朱雀(すざく)アケミは どんな感じだい？
+Dialogue: 0,0:01:47.55,0:01:48.55,Default,,0,0,0,,{\c&Hffffff&}う〜ん
+Dialogue: 0,0:01:48.67,0:01:52.22,Default,,0,0,0,,{\c&Hffffff&}迫力はあるけど\Nそんなに おっかなくはねえだ
+Dialogue: 0,0:01:52.55,0:01:55.64,Default,,0,0,0,,{\c&Hffffff&}ローラン\Nおら １日も早く降りてえ
+Dialogue: 0,0:01:56.30,0:01:57.64,Default,,0,0,0,,{\c&Hffffff&}（ローラン）降りてもいい
+Dialogue: 0,0:01:58.18,0:02:02.14,Default,,0,0,0,,{\c&Hffffff&}だが 君は児童売買を見て\Nなんとも思わなかったのか
+Dialogue: 0,0:02:02.73,0:02:04.52,Default,,0,0,0,,{\c&Hffffff&}どんな手を使う気だ
+Dialogue: 0,0:02:04.98,0:02:07.57,Default,,0,0,0,,{\c&Hffffff&}（ローラン）そろそろ\Nシンシアが動き出すころだ
+Dialogue: 0,0:02:07.73,0:02:11.61,Default,,0,0,0,,{\c&Hffffff&}（ジェット音）
+Dialogue: 0,0:02:12.61,0:02:15.32,Default,,0,0,0,,{\c&Hffffff&}（シンシア）ああ\Nあの子は うまくやってるかしら
+Dialogue: 0,0:02:15.45,0:02:17.24,Default,,0,0,0,,{\c&Hffffff&}（シウォン）\N若いツバメが心配かい？
+Dialogue: 0,0:02:17.37,0:02:19.87,Default,,0,0,0,,{\c&Hffffff&}愛すべき\Nおバカな僕ちゃんだからよ
+Dialogue: 0,0:02:20.62,0:02:22.16,Default,,0,0,0,,{\c&Hffffff&}でも その前に
+Dialogue: 0,0:02:22.33,0:02:24.67,Default,,0,0,0,,{\c&Hffffff&}（シウォン）ったく １杯だけだよ
+Dialogue: 0,0:02:26.21,0:02:32.21,Default,,0,0,0,,{\c&Hffffff&}♪〜
+Dialogue: 0,0:03:24.68,0:03:30.69,Default,,0,0,0,,{\c&Hffffff&}〜♪
+Dialogue: 0,0:03:33.69,0:03:36.78,Default,,0,0,0,,{\c&Hffffff&}このままだと\N今月もノルマに届きませんね
+Dialogue: 0,0:03:36.90,0:03:38.16,Default,,0,0,0,,{\c&Hffffff&}ハア…
+Dialogue: 0,0:03:38.28,0:03:39.16,Default,,0,0,0,,{\c&Hffffff&}（シンシア:英語）〈こんにちは〉
+Dialogue: 0,0:03:39.28,0:03:40.12,Default,,0,0,0,,{\c&Hffffff&}（２人）ん？
+Dialogue: 0,0:03:40.41,0:03:42.24,Default,,0,0,0,,{\c&Hffffff&}（社員）社長 お客さんです
+Dialogue: 0,0:03:42.45,0:03:44.58,Default,,0,0,0,,{\c&Hffffff&}〈ハイ はじめまして〉
+Dialogue: 0,0:03:45.04,0:03:45.91,Default,,0,0,0,,{\c&Hffffff&}〈あなたが社長ね！〉
+Dialogue: 0,0:03:46.04,0:03:48.87,Default,,0,0,0,,{\c&Hffffff&}〈私はシンシア　ヨロシクね！〉
+Dialogue: 0,0:03:49.33,0:03:52.09,Default,,0,0,0,,{\c&Hffffff&}はじめまして シンシアさん…
+Dialogue: 0,0:03:52.71,0:03:55.46,Default,,0,0,0,,{\an8\c&Hffffff&}（石神）\N{\c&Hffffff&}シンシアトレーディング
+Dialogue: 0,0:03:56.01,0:03:59.89,Default,,0,0,0,,{\c&Hffffff&}つまり 弊社と\N取り引きしたいということですか
+Dialogue: 0,0:04:00.09,0:04:01.55,Default,,0,0,0,,{\c&Hffffff&}ああ そうだよ
+Dialogue: 0,0:04:02.10,0:04:05.22,Default,,0,0,0,,{\c&Hffffff&}どんな分野の商品を\N扱っていらっしゃるんです？
+Dialogue: 0,0:04:05.35,0:04:06.60,Default,,0,0,0,,{\c&Hffffff&}いろいろさ
+Dialogue: 0,0:04:06.81,0:04:09.31,Default,,0,0,0,,{\c&Hffffff&}彼女はヨーロッパや中東で\Nやってたけど
+Dialogue: 0,0:04:09.44,0:04:11.56,Default,,0,0,0,,{\c&Hffffff&}あっちは なかなか不況でね
+Dialogue: 0,0:04:11.69,0:04:14.82,Default,,0,0,0,,{\c&Hffffff&}で アジア方面に来てみたのさ
+Dialogue: 0,0:04:15.78,0:04:17.65,Default,,0,0,0,,{\c&Hffffff&}もぐりのブローカーでしょうね
+Dialogue: 0,0:04:17.78,0:04:18.74,Default,,0,0,0,,{\c&Hffffff&}ああ
+Dialogue: 0,0:04:19.16,0:04:22.28,Default,,0,0,0,,{\c&Hffffff&}〈私たちは\Nとても良い商品を持っています〉
+Dialogue: 0,0:04:22.41,0:04:23.53,Default,,0,0,0,,{\c&Hffffff&}“良い商品”
+Dialogue: 0,0:04:23.66,0:04:25.37,Default,,0,0,0,,{\c&Hffffff&}美術品とか そういうやつ？
+Dialogue: 0,0:04:25.58,0:04:26.70,Default,,0,0,0,,{\c&Hffffff&}〈少女です〉
+Dialogue: 0,0:04:26.83,0:04:27.87,Default,,0,0,0,,{\c&Hffffff&}うん うん
+Dialogue: 0,0:04:28.75,0:04:30.08,Default,,0,0,0,,{\c&Hffffff&}あっ あ…
+Dialogue: 0,0:04:32.33,0:04:33.59,Default,,0,0,0,,{\c&Hffffff&}おっしゃっている意味が…
+Dialogue: 0,0:04:33.71,0:04:35.30,Default,,0,0,0,,{\c&Hffffff&}〈センス ねえな〉
+Dialogue: 0,0:04:35.42,0:04:36.26,Default,,0,0,0,,{\c&Hffffff&}〈まあ いいや〉
+Dialogue: 0,0:04:36.38,0:04:37.30,Default,,0,0,0,,{\c&Hffffff&}〈てめえらが買わねえなら〉
+Dialogue: 0,0:04:37.42,0:04:39.59,Default,,0,0,0,,{\c&Hffffff&}〈上海(シャンハイ)のヤツらに\N持っていくからいいよ〉
+Dialogue: 0,0:04:39.72,0:04:42.01,Default,,0,0,0,,{\c&Hffffff&}その言い方は よくありませんよ
+Dialogue: 0,0:04:42.34,0:04:43.39,Default,,0,0,0,,{\c&Hffffff&}なんだって？
+Dialogue: 0,0:04:43.60,0:04:46.18,Default,,0,0,0,,{\c&Hffffff&}うちが いらないなら\Nよそに持っていくと
+Dialogue: 0,0:04:46.31,0:04:47.14,Default,,0,0,0,,{\c&Hffffff&}例えば
+Dialogue: 0,0:04:47.56,0:04:49.27,Default,,0,0,0,,{\c&Hffffff&}上海の組織とか
+Dialogue: 0,0:04:49.39,0:04:50.23,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:04:50.35,0:04:52.44,Default,,0,0,0,,{\c&Hffffff&}〈まあ 安い買い物じゃないけど〉
+Dialogue: 0,0:04:52.56,0:04:56.07,Default,,0,0,0,,{\c&Hffffff&}〈上海のヤツらなら\Nすぐに買うでしょうね〉
+Dialogue: 0,0:04:57.19,0:04:59.11,Default,,0,0,0,,{\c&Hffffff&}うちの客は厳しくてね
+Dialogue: 0,0:04:59.24,0:05:02.36,Default,,0,0,0,,{\c&Hffffff&}扱う商品は\Nベリーエクスペンシブなものだけ…
+Dialogue: 0,0:05:02.49,0:05:04.87,Default,,0,0,0,,{\c&Hffffff&}〈私の商品は超特別よ〉
+Dialogue: 0,0:05:05.70,0:05:06.54,Default,,0,0,0,,{\c&Hffffff&}（石神）例えば？
+Dialogue: 0,0:05:06.66,0:05:07.91,Default,,0,0,0,,{\c&Hffffff&}〈プリンセス〉
+Dialogue: 0,0:05:08.25,0:05:09.12,Default,,0,0,0,,{\c&Hffffff&}プリンセス？
+Dialogue: 0,0:05:09.25,0:05:11.00,Default,,0,0,0,,{\c&Hffffff&}（シンシア）〈そう プリンセス〉
+Dialogue: 0,0:05:11.12,0:05:13.38,Default,,0,0,0,,{\c&Hffffff&}そんなもの どこにいる？
+Dialogue: 0,0:05:13.63,0:05:16.75,Default,,0,0,0,,{\c&Hffffff&}これから捕獲しに行くけど\N一緒に来るかい？
+Dialogue: 0,0:05:17.38,0:05:18.21,Default,,0,0,0,,{\c&Hffffff&}（２人）ん？
+Dialogue: 0,0:05:22.72,0:05:25.22,Default,,0,0,0,,{\c&Hffffff&}（シウォン）\Nええ みんな 英語で話してます
+Dialogue: 0,0:05:25.35,0:05:27.39,Default,,0,0,0,,{\c&Hffffff&}（石神）\Nここらは 一夫多妻なんだよね
+Dialogue: 0,0:05:27.77,0:05:28.72,Default,,0,0,0,,{\c&Hffffff&}そのおかげで
+Dialogue: 0,0:05:28.85,0:05:32.35,Default,,0,0,0,,{\c&Hffffff&}15人の王子と18人の王女が\N次から次へと
+Dialogue: 0,0:05:32.48,0:05:33.31,Default,,0,0,0,,{\c&Hffffff&}（石神）シウォンさん
+Dialogue: 0,0:05:33.90,0:05:35.48,Default,,0,0,0,,{\c&Hffffff&}ここまで来(き)といて なんだが
+Dialogue: 0,0:05:35.61,0:05:37.36,Default,,0,0,0,,{\c&Hffffff&}人間違(ひとまちが)いとか そういったことは…
+Dialogue: 0,0:05:37.48,0:05:40.74,Default,,0,0,0,,{\c&Hffffff&}（プロペラ機の飛行音）
+Dialogue: 0,0:05:42.86,0:05:45.78,Default,,0,0,0,,{\c&Hffffff&}（石神）おお\Nありゃ 随分 派手な機体だな
+Dialogue: 0,0:05:46.78,0:05:49.12,Default,,0,0,0,,{\c&Hffffff&}〈クラーク･イブラヒムを\N知ってる？〉
+Dialogue: 0,0:05:49.24,0:05:52.96,Default,,0,0,0,,{\c&Hffffff&}〈エアレースの有名人でね\N毎日練習してるの〉
+Dialogue: 0,0:05:53.08,0:05:54.38,Default,,0,0,0,,{\c&Hffffff&}（石神）エアレースか
+Dialogue: 0,0:05:54.50,0:05:56.42,Default,,0,0,0,,{\c&Hffffff&}練習帰りを狙う
+Dialogue: 0,0:06:05.43,0:06:06.89,Default,,0,0,0,,{\c&Hffffff&}（指笛）
+Dialogue: 0,0:06:12.85,0:06:15.94,Default,,0,0,0,,{\c&Hffffff&}（連射音）
+Dialogue: 0,0:06:18.86,0:06:19.82,Default,,0,0,0,,{\c&Hffffff&}（爆発音）
+Dialogue: 0,0:06:23.53,0:06:25.82,Default,,0,0,0,,{\c&Hffffff&}（石神）しょ… 正気か あんたら！
+Dialogue: 0,0:06:35.29,0:06:37.50,Default,,0,0,0,,{\c&Hffffff&}（石神）\Nあれはクラーク･イブラヒムか？
+Dialogue: 0,0:06:37.63,0:06:38.46,Default,,0,0,0,,{\c&Hffffff&}（シウォン）ええ
+Dialogue: 0,0:06:38.71,0:06:41.34,Default,,0,0,0,,{\c&Hffffff&}リムジンの後部座席に\N乗ってますから
+Dialogue: 0,0:06:41.46,0:06:43.55,Default,,0,0,0,,{\c&Hffffff&}なるほど 説得力がある
+Dialogue: 0,0:06:43.76,0:06:46.34,Default,,0,0,0,,{\c&Hffffff&}でも あいつじゃ商品にならない
+Dialogue: 0,0:06:46.51,0:06:47.89,Default,,0,0,0,,{\c&Hffffff&}〈もう１人いるわ〉
+Dialogue: 0,0:06:48.01,0:06:50.97,Default,,0,0,0,,{\c&Hffffff&}クラークは毎日\N練習に連れて行ってるんです
+Dialogue: 0,0:06:51.14,0:06:53.48,Default,,0,0,0,,{\c&Hffffff&}短気で無口な妹を
+Dialogue: 0,0:06:53.77,0:06:54.60,Default,,0,0,0,,{\c&Hffffff&}（石神）妹？
+Dialogue: 0,0:06:55.44,0:06:56.48,Default,,0,0,0,,{\c&Hffffff&}（シンシア）〈ほら 見て！〉
+Dialogue: 0,0:06:57.48,0:07:01.86,Default,,0,0,0,,{\c&Hffffff&}〈彼女は第14王女\Nアビゲイル･イブラヒムよ！〉
+Dialogue: 0,0:07:02.11,0:07:04.53,Default,,0,0,0,,{\an8\c&Hffffff&}アビゲイル･イブラヒム
+Dialogue: 0,0:07:08.07,0:07:09.20,Default,,0,0,0,,{\c&Hffffff&}（小声で）うめえな あいつ
+Dialogue: 0,0:07:18.46,0:07:20.25,Default,,0,0,0,,{\c&Hffffff&}〈さあ 立って〉
+Dialogue: 0,0:07:20.38,0:07:22.46,Default,,0,0,0,,{\c&Hffffff&}〈王女様に謁見しましょう〉
+Dialogue: 0,0:07:24.88,0:07:27.47,Default,,0,0,0,,{\c&Hffffff&}（クラーク）うあ… いててて…
+Dialogue: 0,0:07:27.59,0:07:29.72,Default,,0,0,0,,{\c&Hffffff&}誰かの蹴りがホントに入ったぜ
+Dialogue: 0,0:07:30.10,0:07:31.81,Default,,0,0,0,,{\c&Hffffff&}（ローラン）\Nアクションは専門外でね
+Dialogue: 0,0:07:31.93,0:07:33.68,Default,,0,0,0,,{\c&Hffffff&}（クラーク）うう… ハッ
+Dialogue: 0,0:07:34.27,0:07:37.94,Default,,0,0,0,,{\c&Hffffff&}（ローラン）にしても\Nその格好 サムにそっくりだな
+Dialogue: 0,0:07:38.35,0:07:40.23,Default,,0,0,0,,{\c&Hffffff&}（クラーク）\Nおいおい 傷ついちゃうだろ
+Dialogue: 0,0:07:40.36,0:07:42.27,Default,,0,0,0,,{\c&Hffffff&}（ローラン）ハッ 褒め言葉だよ
+Dialogue: 0,0:07:42.40,0:07:43.94,Default,,0,0,0,,{\c&Hffffff&}（２人）ハハハ…
+Dialogue: 0,0:07:53.95,0:07:55.45,Default,,0,0,0,,{\c&Hffffff&}（石神）ハッ ハッ ハッ…
+Dialogue: 0,0:07:58.08,0:08:01.04,Default,,0,0,0,,{\c&Hffffff&}ハア ハア…
+Dialogue: 0,0:08:02.13,0:08:02.96,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:08:05.96,0:08:08.30,Default,,0,0,0,,{\c&Hffffff&}本物のプリンセス
+Dialogue: 0,0:08:08.43,0:08:10.51,Default,,0,0,0,,{\c&Hffffff&}今までにない大物だ
+Dialogue: 0,0:08:11.60,0:08:12.43,Default,,0,0,0,,{\c&Hffffff&}ヘヘ…
+Dialogue: 0,0:08:20.52,0:08:23.44,Default,,0,0,0,,{\c&Hffffff&}（アケミ）イブラヒム家の第14王女
+Dialogue: 0,0:08:24.07,0:08:24.90,Default,,0,0,0,,{\c&Hffffff&}はい
+Dialogue: 0,0:08:25.07,0:08:27.32,Default,,0,0,0,,{\c&Hffffff&}この目で\N捕らえるところを確認しました
+Dialogue: 0,0:08:27.44,0:08:28.82,Default,,0,0,0,,{\c&Hffffff&}間違いありません
+Dialogue: 0,0:08:28.95,0:08:30.16,Default,,0,0,0,,{\c&Hffffff&}フウ〜
+Dialogue: 0,0:08:32.41,0:08:33.45,Default,,0,0,0,,{\c&Hffffff&}（アケミ）名前は？
+Dialogue: 0,0:08:34.08,0:08:35.04,Default,,0,0,0,,{\c&Hffffff&}（エダマメ:英語）
+Dialogue: 0,0:08:35.79,0:08:36.75,Default,,0,0,0,,{\c&Hffffff&}アビゲイル
+Dialogue: 0,0:08:37.33,0:08:38.25,Default,,0,0,0,,{\c&Hffffff&}年は？
+Dialogue: 0,0:08:38.46,0:08:39.46,Default,,0,0,0,,{\c&Hffffff&}（エダマメ:英語）
+Dialogue: 0,0:08:39.58,0:08:40.42,Default,,0,0,0,,{\c&Hffffff&}（アビー）シックスティーン
+Dialogue: 0,0:08:40.79,0:08:41.71,Default,,0,0,0,,{\c&Hffffff&}脱がせろ
+Dialogue: 0,0:08:41.92,0:08:42.92,Default,,0,0,0,,{\c&Hffffff&}えっ？
+Dialogue: 0,0:08:43.04,0:08:44.42,Default,,0,0,0,,{\c&Hffffff&}ああ… はい
+Dialogue: 0,0:08:47.84,0:08:48.67,Default,,0,0,0,,{\c&Hffffff&}〈無礼者！〉
+Dialogue: 0,0:08:49.05,0:08:50.09,Default,,0,0,0,,{\c&Hffffff&}ソーリー
+Dialogue: 0,0:08:50.22,0:08:51.05,Default,,0,0,0,,{\c&Hffffff&}やれ！
+Dialogue: 0,0:08:56.56,0:08:58.10,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）エクスキューズミー
+Dialogue: 0,0:09:05.52,0:09:06.57,Default,,0,0,0,,{\c&Hffffff&}（石神）おお…
+Dialogue: 0,0:09:10.90,0:09:11.78,Default,,0,0,0,,{\c&Hffffff&}全部だ
+Dialogue: 0,0:09:13.07,0:09:14.20,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）う…
+Dialogue: 0,0:09:14.32,0:09:15.16,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:09:17.04,0:09:17.87,Default,,0,0,0,,{\c&Hffffff&}（シャッター音）
+Dialogue: 0,0:09:18.62,0:09:20.79,Default,,0,0,0,,{\c&Hffffff&}（石神）おい 何 何 ちょっ…
+Dialogue: 0,0:09:28.30,0:09:29.13,Default,,0,0,0,,{\c&Hffffff&}回れ
+Dialogue: 0,0:09:29.76,0:09:30.72,Default,,0,0,0,,{\c&Hffffff&}（エダマメ:英語）
+Dialogue: 0,0:09:34.09,0:09:36.51,Default,,0,0,0,,{\c&Hffffff&}（石神）んっ… ん… ん…
+Dialogue: 0,0:09:41.60,0:09:42.48,Default,,0,0,0,,{\c&Hffffff&}いくらだ？
+Dialogue: 0,0:09:43.31,0:09:45.36,Default,,0,0,0,,{\c&Hffffff&}（シンシア:英語）
+Dialogue: 0,0:09:46.23,0:09:48.23,Default,,0,0,0,,{\c&Hffffff&}そちらは いくら出しますかと
+Dialogue: 0,0:09:49.86,0:09:50.90,Default,,0,0,0,,{\c&Hffffff&}フウ〜
+Dialogue: 0,0:09:58.70,0:10:01.12,Default,,0,0,0,,{\c&Hffffff&}（シンシア:英語）
+Dialogue: 0,0:10:01.25,0:10:03.21,Default,,0,0,0,,{\c&Hffffff&}円ではないですよねと
+Dialogue: 0,0:10:04.04,0:10:06.75,Default,,0,0,0,,{\c&Hffffff&}口の利き方に気をつけろ 小娘
+Dialogue: 0,0:10:07.09,0:10:08.17,Default,,0,0,0,,{\c&Hffffff&}でも 会長
+Dialogue: 0,0:10:08.34,0:10:09.67,Default,,0,0,0,,{\c&Hffffff&}この商品の価値は
+Dialogue: 0,0:10:09.80,0:10:12.22,Default,,0,0,0,,{\c&Hffffff&}変態のおもちゃというだけでは\Nありません
+Dialogue: 0,0:10:12.34,0:10:15.84,Default,,0,0,0,,{\c&Hffffff&}イブラヒム家の者なら\Nいくら払ってでも買い戻すでしょう
+Dialogue: 0,0:10:16.18,0:10:17.05,Default,,0,0,0,,{\c&Hffffff&}そうです
+Dialogue: 0,0:10:17.30,0:10:20.56,Default,,0,0,0,,{\c&Hffffff&}また 外交カードとしても\N欲しがる国はあるでしょうね
+Dialogue: 0,0:10:20.93,0:10:23.14,Default,,0,0,0,,{\c&Hffffff&}お前らの意見は聞いてない
+Dialogue: 0,0:10:23.48,0:10:26.98,Default,,0,0,0,,{\c&Hffffff&}（シンシア:英語）
+Dialogue: 0,0:10:27.36,0:10:30.19,Default,,0,0,0,,{\c&Hffffff&}（シウォン）買わないなら\N上海に持っていくそうです
+Dialogue: 0,0:10:31.65,0:10:32.57,Default,,0,0,0,,{\c&Hffffff&}フウ…
+Dialogue: 0,0:10:33.65,0:10:35.24,Default,,0,0,0,,{\c&Hffffff&}（石神）う… ああ…
+Dialogue: 0,0:10:38.87,0:10:40.70,Default,,0,0,0,,{\c&Hffffff&}フウ〜
+Dialogue: 0,0:10:43.33,0:10:44.33,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:10:45.83,0:10:46.67,Default,,0,0,0,,{\c&Hffffff&}（石神）あっ
+Dialogue: 0,0:10:48.84,0:10:52.30,Default,,0,0,0,,{\c&Hffffff&}もう少し若ければ\Nいい値がついたろうな
+Dialogue: 0,0:10:58.30,0:10:59.68,Default,,0,0,0,,{\an8\c&Hffffff&}これで置いていけ
+Dialogue: 0,0:11:02.72,0:11:04.69,Default,,0,0,0,,{\c&Hffffff&}（シンシア:英語）
+Dialogue: 0,0:11:05.44,0:11:06.40,Default,,0,0,0,,{\c&Hffffff&}ハア…
+Dialogue: 0,0:11:10.82,0:11:13.36,Default,,0,0,0,,{\c&Hffffff&}君のためのスペシャルルームだ
+Dialogue: 0,0:11:13.49,0:11:16.28,Default,,0,0,0,,{\c&Hffffff&}まあ 普段は\N私の仮眠室なんだけどね
+Dialogue: 0,0:11:17.82,0:11:20.66,Default,,0,0,0,,{\c&Hffffff&}いいだろう？\Nテレビもゲームもある
+Dialogue: 0,0:11:20.78,0:11:23.75,Default,,0,0,0,,{\c&Hffffff&}あっ 私の私物だから\N壊さないようにな
+Dialogue: 0,0:11:24.04,0:11:25.87,Default,,0,0,0,,{\c&Hffffff&}って あとでまとめて教えといて
+Dialogue: 0,0:11:26.25,0:11:27.21,Default,,0,0,0,,{\c&Hffffff&}はい
+Dialogue: 0,0:11:27.33,0:11:30.38,Default,,0,0,0,,{\c&Hffffff&}じゃ 今日は疲れたろうから\Nグッナイ
+Dialogue: 0,0:11:33.26,0:11:34.34,Default,,0,0,0,,{\c&Hffffff&}（施錠音）
+Dialogue: 0,0:11:42.01,0:11:43.27,Default,,0,0,0,,{\c&Hffffff&}んっ う〜ん
+Dialogue: 0,0:11:43.39,0:11:44.60,Default,,0,0,0,,{\c&Hffffff&}（石神）監視カメラに頼るな
+Dialogue: 0,0:11:45.23,0:11:47.23,Default,,0,0,0,,{\c&Hffffff&}１時間に１度は見回れ
+Dialogue: 0,0:11:47.39,0:11:50.19,Default,,0,0,0,,{\c&Hffffff&}もし何かあったら\N相模(さがみ)湾でクルージングだぞ
+Dialogue: 0,0:11:50.36,0:11:51.19,Default,,0,0,0,,{\c&Hffffff&}（社員たち）はっ！
+Dialogue: 0,0:11:51.32,0:11:52.52,Default,,0,0,0,,{\c&Hffffff&}相模湾？
+Dialogue: 0,0:11:52.69,0:11:53.53,Default,,0,0,0,,{\c&Hffffff&}あいつ 臭(くせ)えから
+Dialogue: 0,0:11:53.65,0:11:56.11,Default,,0,0,0,,{\c&Hffffff&}しまむらで服 買って\N着替えさせてくれ
+Dialogue: 0,0:11:56.74,0:11:58.82,Default,,0,0,0,,{\c&Hffffff&}領収書も\Nちゃんと もらっといてくれよ
+Dialogue: 0,0:12:00.32,0:12:01.20,Default,,0,0,0,,{\c&Hffffff&}はい
+Dialogue: 0,0:12:01.74,0:12:02.58,Default,,0,0,0,,{\c&Hffffff&}（エレベーターの到着音）
+Dialogue: 0,0:12:11.17,0:12:12.09,Default,,0,0,0,,{\c&Hffffff&}（床に皿を置く音）
+Dialogue: 0,0:12:12.21,0:12:13.17,Default,,0,0,0,,{\c&Hffffff&}（解錠音）
+Dialogue: 0,0:12:19.34,0:12:20.80,Default,,0,0,0,,{\c&Hffffff&}食べてくれねえか
+Dialogue: 0,0:12:21.22,0:12:22.47,Default,,0,0,0,,{\c&Hffffff&}本当に死んじまうべ
+Dialogue: 0,0:12:34.52,0:12:35.40,Default,,0,0,0,,{\c&Hffffff&}（解錠音）
+Dialogue: 0,0:12:36.53,0:12:38.03,Default,,0,0,0,,{\c&Hffffff&}（足音）
+Dialogue: 0,0:12:39.53,0:12:40.36,Default,,0,0,0,,{\c&Hffffff&}（クラッカーの炸裂音）\N{\c&Hffffff&}（エダマメ）うわ！
+Dialogue: 0,0:12:40.49,0:12:42.24,Default,,0,0,0,,{\c&Hffffff&}お帰り エダマメ！
+Dialogue: 0,0:12:42.37,0:12:43.78,Default,,0,0,0,,{\c&Hffffff&}（シウォン）お疲れさん\N（エダマメ）な…
+Dialogue: 0,0:12:44.03,0:12:46.41,Default,,0,0,0,,{\c&Hffffff&}10億よ もう最高！
+Dialogue: 0,0:12:46.54,0:12:48.29,Default,,0,0,0,,{\c&Hffffff&}チョロイ仕事だったろ？
+Dialogue: 0,0:12:49.29,0:12:52.13,Default,,0,0,0,,{\c&Hffffff&}おめえら こんなとこで何してる？
+Dialogue: 0,0:12:52.96,0:12:53.79,Default,,0,0,0,,{\c&Hffffff&}土足で
+Dialogue: 0,0:12:54.13,0:12:55.30,Default,,0,0,0,,{\c&Hffffff&}これがタタミね
+Dialogue: 0,0:12:55.42,0:12:56.30,Default,,0,0,0,,{\c&Hffffff&}気に入ったわ
+Dialogue: 0,0:12:56.42,0:12:57.55,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）ジャンプするな！
+Dialogue: 0,0:12:57.67,0:12:59.76,Default,,0,0,0,,{\c&Hffffff&}ほら 固いこと言いっこなしだ
+Dialogue: 0,0:12:59.88,0:13:01.68,Default,,0,0,0,,{\c&Hffffff&}そういうことでねえ！
+Dialogue: 0,0:13:01.80,0:13:03.89,Default,,0,0,0,,{\c&Hffffff&}仲間だってバレたら殺されるべ
+Dialogue: 0,0:13:04.01,0:13:05.26,Default,,0,0,0,,{\c&Hffffff&}さっさと出ていけ！
+Dialogue: 0,0:13:05.51,0:13:07.72,Default,,0,0,0,,{\c&Hffffff&}（ローラン）\N分かった 分かった じゃ…
+Dialogue: 0,0:13:08.10,0:13:09.85,Default,,0,0,0,,{\c&Hffffff&}後始末は頼んだぞ
+Dialogue: 0,0:13:09.98,0:13:11.02,Default,,0,0,0,,{\c&Hffffff&}後始末？
+Dialogue: 0,0:13:11.14,0:13:12.90,Default,,0,0,0,,{\c&Hffffff&}アビーを逃がすんだよ
+Dialogue: 0,0:13:13.11,0:13:15.48,Default,,0,0,0,,{\c&Hffffff&}（シンシア）それで今回は\Nミッション コンプリート
+Dialogue: 0,0:13:15.61,0:13:16.65,Default,,0,0,0,,{\c&Hffffff&}よろしくね！
+Dialogue: 0,0:13:17.44,0:13:18.94,Default,,0,0,0,,{\c&Hffffff&}（ドアが閉まる音）\N{\c&Hffffff&}（エダマメ）ハア…
+Dialogue: 0,0:13:19.07,0:13:20.45,Default,,0,0,0,,{\c&Hffffff&}（バイブ音）
+Dialogue: 0,0:13:21.99,0:13:23.91,Default,,0,0,0,,{\c&Hffffff&}ハア〜
+Dialogue: 0,0:13:24.12,0:13:26.16,Default,,0,0,0,,{\c&Hffffff&}（客の笑い声）
+Dialogue: 0,0:13:26.28,0:13:27.45,Default,,0,0,0,,{\c&Hffffff&}（石神）つまりだね
+Dialogue: 0,0:13:27.91,0:13:32.46,Default,,0,0,0,,{\c&Hffffff&}あのババアの跡目を\N誰がもらい受けるのか だよ
+Dialogue: 0,0:13:32.58,0:13:34.96,Default,,0,0,0,,{\c&Hffffff&}そりゃ 石神社長じゃないですか
+Dialogue: 0,0:13:35.09,0:13:36.80,Default,,0,0,0,,{\c&Hffffff&}まあ 必然だな
+Dialogue: 0,0:13:36.96,0:13:39.59,Default,,0,0,0,,{\c&Hffffff&}つまり 運命の赤い糸
+Dialogue: 0,0:13:41.26,0:13:43.84,Default,,0,0,0,,{\c&Hffffff&}だからこそ あのババアによ〜
+Dialogue: 0,0:13:44.51,0:13:47.39,Default,,0,0,0,,{\c&Hffffff&}ヘエコラ ヘコヘコ\Nヘコってるわけだよ
+Dialogue: 0,0:13:47.93,0:13:49.72,Default,,0,0,0,,{\c&Hffffff&}ヘコりてえなあ…
+Dialogue: 0,0:13:50.06,0:13:51.81,Default,,0,0,0,,{\c&Hffffff&}僕もヘコりたいです
+Dialogue: 0,0:13:52.06,0:13:53.69,Default,,0,0,0,,{\c&Hffffff&}なっ！　だろ？
+Dialogue: 0,0:13:55.77,0:13:57.77,Default,,0,0,0,,{\c&Hffffff&}のどごし〜
+Dialogue: 0,0:13:58.15,0:14:00.36,Default,,0,0,0,,{\c&Hffffff&}だが 君が現れた
+Dialogue: 0,0:14:00.74,0:14:01.57,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）は？
+Dialogue: 0,0:14:01.99,0:14:03.36,Default,,0,0,0,,{\c&Hffffff&}どうも
+Dialogue: 0,0:14:03.57,0:14:06.99,Default,,0,0,0,,{\c&Hffffff&}君は気に入られてるんだよな〜\Nババアに
+Dialogue: 0,0:14:07.20,0:14:09.04,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）そんなことないですよ
+Dialogue: 0,0:14:09.16,0:14:11.12,Default,,0,0,0,,{\c&Hffffff&}僕なんて新入りですから
+Dialogue: 0,0:14:11.25,0:14:12.37,Default,,0,0,0,,{\c&Hffffff&}そりゃ そうだよ
+Dialogue: 0,0:14:12.50,0:14:17.50,Default,,0,0,0,,{\c&Hffffff&}ず〜っと尽くしてきたんだよ\N先代のときから
+Dialogue: 0,0:14:17.75,0:14:22.59,Default,,0,0,0,,{\c&Hffffff&}必ず朱雀は いずれ… この私が…
+Dialogue: 0,0:14:22.84,0:14:25.59,Default,,0,0,0,,{\c&Hffffff&}（いびき）
+Dialogue: 0,0:14:26.47,0:14:27.89,Default,,0,0,0,,{\c&Hffffff&}社長
+Dialogue: 0,0:14:33.89,0:14:34.73,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:14:35.44,0:14:37.31,Default,,0,0,0,,{\c&Hffffff&}（いびき）
+Dialogue: 0,0:14:39.57,0:14:40.40,Default,,0,0,0,,{\c&Hffffff&}（板にぶつかる音）
+Dialogue: 0,0:14:40.73,0:14:41.65,Default,,0,0,0,,{\c&Hffffff&}（石神）ん…
+Dialogue: 0,0:14:45.28,0:14:47.03,Default,,0,0,0,,{\c&Hffffff&}ん… ん？
+Dialogue: 0,0:14:48.66,0:14:49.53,Default,,0,0,0,,{\c&Hffffff&}あれ？
+Dialogue: 0,0:14:52.04,0:14:53.75,Default,,0,0,0,,{\c&Hffffff&}伊達政宗(だてまさむね)か
+Dialogue: 0,0:14:53.96,0:14:58.59,Default,,0,0,0,,{\c&Hffffff&}私はね こう見えても\N野望シリーズには目がなくてね
+Dialogue: 0,0:14:58.84,0:15:00.13,Default,,0,0,0,,{\c&Hffffff&}ああ そうそう
+Dialogue: 0,0:15:00.25,0:15:03.72,Default,,0,0,0,,{\c&Hffffff&}政宗は自分の父親を殺してんだよ
+Dialogue: 0,0:15:05.55,0:15:06.55,Default,,0,0,0,,{\c&Hffffff&}ああ〜
+Dialogue: 0,0:15:07.93,0:15:08.89,Default,,0,0,0,,{\c&Hffffff&}ハア…
+Dialogue: 0,0:15:09.26,0:15:11.52,Default,,0,0,0,,{\c&Hffffff&}（いびき）
+Dialogue: 0,0:15:25.32,0:15:26.74,Default,,0,0,0,,{\c&Hffffff&}（ノック）
+Dialogue: 0,0:15:27.07,0:15:28.57,Default,,0,0,0,,{\c&Hffffff&}（階段を下りる足音）
+Dialogue: 0,0:15:50.80,0:15:52.64,Default,,0,0,0,,{\c&Hffffff&}（麺をすする音）
+Dialogue: 0,0:15:57.94,0:16:00.11,Default,,0,0,0,,{\c&Hffffff&}神経が図太い姫様だ
+Dialogue: 0,0:16:00.31,0:16:01.19,Default,,0,0,0,,{\c&Hffffff&}（スープをすする音）
+Dialogue: 0,0:16:01.94,0:16:03.65,Default,,0,0,0,,{\c&Hffffff&}（社員）ハア〜
+Dialogue: 0,0:16:05.32,0:16:06.44,Default,,0,0,0,,{\c&Hffffff&}代わります
+Dialogue: 0,0:16:06.57,0:16:07.40,Default,,0,0,0,,{\c&Hffffff&}（社員）ああ
+Dialogue: 0,0:16:07.53,0:16:09.78,Default,,0,0,0,,{\c&Hffffff&}じゃ 見回りに行ってくるかな
+Dialogue: 0,0:16:09.91,0:16:10.95,Default,,0,0,0,,{\c&Hffffff&}ああ いいですよ
+Dialogue: 0,0:16:11.91,0:16:14.45,Default,,0,0,0,,{\c&Hffffff&}自分 やっときますから\N今日は帰ってください
+Dialogue: 0,0:16:14.58,0:16:15.41,Default,,0,0,0,,{\c&Hffffff&}（社員）え？
+Dialogue: 0,0:16:15.54,0:16:16.58,Default,,0,0,0,,{\c&Hffffff&}マジで？
+Dialogue: 0,0:16:17.04,0:16:19.17,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）いつも\Nいろいろ教えていただいてるし
+Dialogue: 0,0:16:19.29,0:16:20.54,Default,,0,0,0,,{\c&Hffffff&}お互いさまです
+Dialogue: 0,0:16:21.71,0:16:22.67,Default,,0,0,0,,{\c&Hffffff&}悪いな
+Dialogue: 0,0:16:32.30,0:16:33.76,Default,,0,0,0,,{\c&Hffffff&}（エレベーターの到着音）
+Dialogue: 0,0:16:37.98,0:16:39.27,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）アビー 逃げるだ！
+Dialogue: 0,0:16:39.39,0:16:40.40,Default,,0,0,0,,{\c&Hffffff&}もうちょっと
+Dialogue: 0,0:16:40.52,0:16:42.15,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）\Nふざけるでねえ 行くぞ！
+Dialogue: 0,0:16:50.20,0:16:51.03,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:16:51.57,0:16:52.41,Default,,0,0,0,,{\c&Hffffff&}（アビー）どうした？
+Dialogue: 0,0:16:54.87,0:16:55.70,Default,,0,0,0,,{\c&Hffffff&}（アビー）おい！
+Dialogue: 0,0:16:58.41,0:16:59.83,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）よっこいしょ
+Dialogue: 0,0:17:00.17,0:17:02.38,Default,,0,0,0,,{\c&Hffffff&}おかえり\N着てた服は どうした？
+Dialogue: 0,0:17:02.50,0:17:03.84,Default,,0,0,0,,{\c&Hffffff&}（アビー）洗濯中だ
+Dialogue: 0,0:17:04.00,0:17:04.84,Default,,0,0,0,,{\c&Hffffff&}（ローラン）もう１人は？
+Dialogue: 0,0:17:07.59,0:17:09.47,Default,,0,0,0,,{\c&Hffffff&}（ローラン）エダマメ 早く乗れ
+Dialogue: 0,0:17:12.39,0:17:14.72,Default,,0,0,0,,{\c&Hffffff&}つまんないこと 言い出すなよ
+Dialogue: 0,0:17:15.01,0:17:18.02,Default,,0,0,0,,{\c&Hffffff&}捕まってる子たちさ\N全員 一緒に逃がすだ
+Dialogue: 0,0:17:18.14,0:17:19.64,Default,,0,0,0,,{\c&Hffffff&}ほら きた
+Dialogue: 0,0:17:19.98,0:17:21.52,Default,,0,0,0,,{\c&Hffffff&}で 何人だ？
+Dialogue: 0,0:17:21.65,0:17:23.48,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）\Nおらたちが連れてきた５人と
+Dialogue: 0,0:17:23.61,0:17:26.27,Default,,0,0,0,,{\c&Hffffff&}前からいた５人で10人だべ
+Dialogue: 0,0:17:26.65,0:17:27.94,Default,,0,0,0,,{\c&Hffffff&}（ローラン）これ ５人乗り
+Dialogue: 0,0:17:28.07,0:17:29.53,Default,,0,0,0,,{\c&Hffffff&}乗れても あと２人だ
+Dialogue: 0,0:17:29.65,0:17:30.95,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）もっと乗れるだろ！
+Dialogue: 0,0:17:31.28,0:17:32.95,Default,,0,0,0,,{\c&Hffffff&}（ローラン）道交法違反だぞ
+Dialogue: 0,0:17:33.07,0:17:33.99,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）嫌なら行け！
+Dialogue: 0,0:17:34.12,0:17:35.95,Default,,0,0,0,,{\c&Hffffff&}こっちは走ってでも逃げるだ！
+Dialogue: 0,0:17:36.45,0:17:38.41,Default,,0,0,0,,{\c&Hffffff&}あ〜あ やっぱりか
+Dialogue: 0,0:17:38.54,0:17:39.96,Default,,0,0,0,,{\c&Hffffff&}言わんこっちゃない
+Dialogue: 0,0:17:43.79,0:17:44.63,Default,,0,0,0,,{\c&Hffffff&}あっ
+Dialogue: 0,0:17:46.29,0:17:47.21,Default,,0,0,0,,{\c&Hffffff&}ハア…
+Dialogue: 0,0:17:54.39,0:17:55.30,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）アビー！
+Dialogue: 0,0:17:56.60,0:17:57.93,Default,,0,0,0,,{\c&Hffffff&}そっちの部屋を頼む
+Dialogue: 0,0:18:00.39,0:18:01.23,Default,,0,0,0,,{\c&Hffffff&}起きろ！
+Dialogue: 0,0:18:01.69,0:18:03.81,Default,,0,0,0,,{\c&Hffffff&}みんな 起きるだ！\N逃げるだぞ！
+Dialogue: 0,0:18:04.06,0:18:05.81,Default,,0,0,0,,{\c&Hffffff&}ほら 起きるだよ！
+Dialogue: 0,0:18:06.02,0:18:08.32,Default,,0,0,0,,{\c&Hffffff&}いいか おめえらは自由の身だ
+Dialogue: 0,0:18:08.44,0:18:10.07,Default,,0,0,0,,{\c&Hffffff&}おらと 一緒に来い！
+Dialogue: 0,0:18:10.90,0:18:13.20,Default,,0,0,0,,{\c&Hffffff&}ぼ〜っとしてねえで早く！
+Dialogue: 0,0:18:14.32,0:18:16.70,Default,,0,0,0,,{\c&Hffffff&}どうしただ？\N逃げられるだぞ！
+Dialogue: 0,0:18:25.25,0:18:26.33,Default,,0,0,0,,{\c&Hffffff&}（バイブ音）
+Dialogue: 0,0:18:28.88,0:18:29.71,Default,,0,0,0,,{\c&Hffffff&}あっ
+Dialogue: 0,0:18:30.01,0:18:30.84,Default,,0,0,0,,{\c&Hffffff&}早くしろ
+Dialogue: 0,0:18:31.17,0:18:32.76,Default,,0,0,0,,{\c&Hffffff&}売り飛ばされてえだか！
+Dialogue: 0,0:18:32.88,0:18:33.72,Default,,0,0,0,,{\c&Hffffff&}（カウィン）どこに？
+Dialogue: 0,0:18:33.84,0:18:34.68,Default,,0,0,0,,{\c&Hffffff&}えっ？
+Dialogue: 0,0:18:35.01,0:18:37.22,Default,,0,0,0,,{\c&Hffffff&}（カウィン）逃げるって どこに？
+Dialogue: 0,0:18:40.27,0:18:44.02,Default,,0,0,0,,{\c&Hffffff&}みんな 親に捨てられたり\N売られたから ここにいるんだ
+Dialogue: 0,0:18:44.81,0:18:49.40,Default,,0,0,0,,{\c&Hffffff&}誰も僕らなんて気にしないし\Nどこに行っても居場所なんてない
+Dialogue: 0,0:18:50.03,0:18:53.74,Default,,0,0,0,,{\c&Hffffff&}生きていようが死んでいようが\Nいないのと同じさ
+Dialogue: 0,0:18:55.03,0:18:56.32,Default,,0,0,0,,{\c&Hffffff&}う…
+Dialogue: 0,0:19:01.54,0:19:03.54,Default,,0,0,0,,{\c&Hffffff&}おっ あった あった
+Dialogue: 0,0:19:06.79,0:19:07.63,Default,,0,0,0,,{\c&Hffffff&}ん？
+Dialogue: 0,0:19:09.25,0:19:10.09,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:19:11.76,0:19:12.88,Default,,0,0,0,,{\c&Hffffff&}（エレベーターの到着音）
+Dialogue: 0,0:19:16.51,0:19:19.93,Default,,0,0,0,,{\c&Hffffff&}（歴史ゲームの戦闘音）
+Dialogue: 0,0:19:20.06,0:19:20.89,Default,,0,0,0,,{\c&Hffffff&}（社員）ハア…
+Dialogue: 0,0:19:27.44,0:19:28.65,Default,,0,0,0,,{\c&Hffffff&}（流水音）
+Dialogue: 0,0:19:28.77,0:19:30.94,Default,,0,0,0,,{\c&Hffffff&}なんだ お前 トイレか
+Dialogue: 0,0:19:31.15,0:19:33.15,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）あれ 忘れ物ですか
+Dialogue: 0,0:19:33.61,0:19:36.53,Default,,0,0,0,,{\c&Hffffff&}あっ そんなことより今 姫がよ…
+Dialogue: 0,0:19:38.87,0:19:40.24,Default,,0,0,0,,{\c&Hffffff&}まあ いいや
+Dialogue: 0,0:19:40.66,0:19:42.95,Default,,0,0,0,,{\c&Hffffff&}やっぱり俺も当直やるわ
+Dialogue: 0,0:19:43.16,0:19:44.95,Default,,0,0,0,,{\c&Hffffff&}帰るの面倒になっちまった
+Dialogue: 0,0:19:46.87,0:19:47.83,Default,,0,0,0,,{\c&Hffffff&}ハア…
+Dialogue: 0,0:19:49.00,0:19:50.04,Default,,0,0,0,,{\c&Hffffff&}（エンジン音）
+Dialogue: 0,0:19:54.26,0:19:55.88,Default,,0,0,0,,{\c&Hffffff&}フウ〜
+Dialogue: 0,0:19:58.43,0:20:00.64,Default,,0,0,0,,{\c&Hffffff&}（社員）んっ\N（エダマメ）いや たばこは…
+Dialogue: 0,0:20:00.76,0:20:01.60,Default,,0,0,0,,{\c&Hffffff&}（社員）んっ
+Dialogue: 0,0:20:09.90,0:20:12.69,Default,,0,0,0,,{\c&Hffffff&}（せきこみ）
+Dialogue: 0,0:20:12.82,0:20:13.65,Default,,0,0,0,,{\c&Hffffff&}ヘッ ヘッ
+Dialogue: 0,0:20:26.96,0:20:30.58,Default,,0,0,0,,{\c&Hffffff&}みんな 親に捨てられたり\N売られたから ここにいるんだ
+Dialogue: 0,0:20:31.29,0:20:33.59,Default,,0,0,0,,{\c&Hffffff&}どこに行っても居場所なんてない
+Dialogue: 0,0:20:49.94,0:20:55.94,Default,,0,0,0,,{\an8\c&Hffffff&}♪〜
+Dialogue: 0,0:22:43.68,0:22:49.68,Default,,0,0,0,,{\an8\c&Hffffff&}〜♪

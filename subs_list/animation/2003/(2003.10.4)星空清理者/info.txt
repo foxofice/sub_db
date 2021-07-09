@@ -1,0 +1,5 @@
+﻿chs: 星空清理者
+cht: 星空清理者
+jp: プラネテス
+en: Planetes
+rome: Planetes

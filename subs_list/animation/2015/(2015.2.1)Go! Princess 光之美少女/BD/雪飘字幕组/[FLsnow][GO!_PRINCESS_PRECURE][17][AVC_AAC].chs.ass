@@ -1,0 +1,409 @@
+﻿[Script Info]
+Title:(アニメ) Go！プリンセスプリキュア 第17回 「まぶしすぎる！きらら、夢のランウェイ！」
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Original Translation: FLsnow
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Flora_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H644E008C,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Merma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64A85C00,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Aroma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DC619B,&H647C254D,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Twink_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: DDark_CN,Droid Sans Fallback,54,&H00000000,&H00FFFFFF,&H00DBDBDB,&H64FFFFFF,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: OP-CN,方正细圆_GBK,35,&H00E3E3E3,&H000000FF,&HC8000000,&H64000000,-1,0,0,0,100,100,2,0,1,1,2,2,10,10,5,1
+Style: ED-CN,方正细圆_GBK,40,&H00FFFFFF,&H000000FF,&H009D2ECD,&H649028BD,0,0,0,0,100,100,2,0,1,2,0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,========Avan========
+Dialogue: 0,0:00:10.64,0:00:13.44,Merma_CN,NTP,0,0,0,,日本引以为豪的顶级模特星爱自不用说
+Dialogue: 0,0:00:13.69,0:00:16.63,Merma_CN,NTP,0,0,0,,在年轻人中很有人气的天乃川星彩也会出演
+Dialogue: 0,0:00:16.90,0:00:19.45,Merma_CN,NTP,0,0,0,,初次的母女共演已经决定
+Dialogue: 0,0:00:19.61,0:00:21.55,Flora_CN,NTP,0,0,0,,小星星好厉害呀
+Dialogue: 0,0:00:21.72,0:00:24.31,Flora_CN,NTP,0,0,0,,其他的杂志上也全是她
+Dialogue: 0,0:00:24.49,0:00:26.79,Aroma_CN,NTP,0,0,0,,小遥兴奋什么呀
+Dialogue: 0,0:00:28.01,0:00:30.32,Merma_CN,NTP,0,0,0,,终于就是明天了呢 波安奴时装秀
+Dialogue: 0,0:00:30.72,0:00:33.18,Flora_CN,NTP,0,0,0,,现在她正在彩排吗
+Dialogue: 0,0:00:33.32,0:00:33.93,Twink_CN,NTP,0,0,0,,不在
+Dialogue: 0,0:00:34.12,0:00:35.09,Twink_CN,NTP,0,0,0,,没有彩排的
+Dialogue: 0,0:00:35.87,0:00:36.79,Flora_CN,NTP,0,0,0,,小星星？
+Dialogue: 0,0:00:37.06,0:00:38.69,Merma_CN,NTP,0,0,0,,你在这里没关系吗
+Dialogue: 0,0:00:39.68,0:00:41.47,Twink_CN,NTP,0,0,0,,也没有其他的工作嘛
+Dialogue: 0,0:00:41.87,0:00:44.00,Twink_CN,NTP,0,0,0,,我好无聊的
+Dialogue: 0,0:00:44.17,0:00:45.60,Flora_CN,NTP,0,0,0,,星彩好从容
+Dialogue: 0,0:00:45.88,0:00:48.48,Flora_CN,NTP,0,0,0,,我可是一个劲儿地紧张呢
+Dialogue: 0,0:00:48.86,0:00:51.07,Twink_CN,NTP,0,0,0,,因为是一直向往的时装秀嘛
+Dialogue: 0,0:00:51.46,0:00:54.22,Twink_CN,NTP,0,0,0,,不如说是早就等不及了的感觉
+Dialogue: 0,0:00:54.43,0:00:56.58,Flora_CN,NTP,0,0,0,,哇 好有型
+Dialogue: 0,0:00:56.73,0:00:57.52,Merma_CN,NTP,0,0,0,,真厉害
+Dialogue: 0,0:00:57.74,0:00:59.40,Flora_CN,NTP,0,0,0,,小星星的闪亮登场
+Dialogue: 0,0:00:59.55,0:01:00.66,Flora_CN,NTP,0,0,0,,好想早点见到啊
+Dialogue: 0,0:01:00.84,0:01:01.39,Twink_CN,NTP,0,0,0,,对啦
+Dialogue: 0,0:01:02.20,0:01:04.51,Twink_CN,NTP,0,0,0,,那么 我们现在就去吧
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,========A-Part========
+Dialogue: 0,0:03:07.07,0:03:09.33,Flora_CN,NTP,0,0,0,,哇 好大的会场呀
+Dialogue: 0,0:03:09.48,0:03:11.53,Flora_CN,NTP,0,0,0,,波安努时装秀就在这里开呀
+Dialogue: 0,0:03:12.00,0:03:15.30,Twink_CN,NTP,0,0,0,,呃 相关人员入口在…
+Dialogue: 0,0:03:22.05,0:03:23.00,Twink_CN,NTP,0,0,0,,妈妈
+Dialogue: 0,0:03:27.25,0:03:28.12,Twink_CN,NTP,0,0,0,,星彩
+Dialogue: 0,0:03:28.28,0:03:29.32,Flora_CN,NTP,0,0,0,,欸
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,========Title=========
+Dialogue: 0,0:03:33.07,0:03:35.99,Defau_CN,NTP,0,0,0,,太耀眼了！ 星彩、梦想的T台！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:37.96,0:03:40.68,Twink_CN,NTP,0,0,0,,好久不见 过得好吗
+Dialogue: 0,0:03:41.07,0:03:42.92,Twink_CN,NTP,0,0,0,,嗯 妈妈也提早来了？
+Dialogue: 0,0:03:43.09,0:03:44.58,Twink_CN,NTP,0,0,0,,嗯 是的
+Dialogue: 0,0:03:44.81,0:03:47.38,Flora_CN,NTP,0,0,0,,好棒 是星爱小姐本人
+Dialogue: 0,0:03:48.86,0:03:51.28,Twink_CN,NTP,0,0,0,,啊 妈妈 给你介绍
+Dialogue: 0,0:03:51.98,0:03:53.57,Flora_CN,NTP,0,0,0,,贵… 贵安
+Dialogue: 0,0:03:53.74,0:03:54.95,Flora_CN,NTP,0,0,0,,我是春野遥
+Dialogue: 0,0:03:56.59,0:03:57.57,Merma_CN,NTP,0,0,0,,初次见面
+Dialogue: 0,0:03:57.71,0:03:58.69,Merma_CN,NTP,0,0,0,,我叫海藤南
+Dialogue: 0,0:03:58.92,0:04:00.34,Merma_CN,NTP,0,0,0,,见到您很荣幸
+Dialogue: 0,0:04:00.62,0:04:02.88,Twink_CN,NTP,0,0,0,,这是宿舍里养的Pafu
+Dialogue: 0,0:04:04.38,0:04:06.29,Twink_CN,NTP,0,0,0,,还有不是我们养的却赖着不走的Aroma
+Dialogue: 0,0:04:07.75,0:04:09.66,Twink_CN,NTP,0,0,0,,大家都是我的朋友
+Dialogue: 0,0:04:09.91,0:04:12.44,Twink_CN,NTP,0,0,0,,朋友… 星彩的朋友？
+Dialogue: 0,0:04:12.60,0:04:13.27,Twink_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:04:15.32,0:04:16.88,Twink_CN,NTP,0,0,0,,初次见面
+Dialogue: 0,0:04:17.06,0:04:19.12,Twink_CN,NTP,0,0,0,,我女儿一直以来麻烦你们了…
+Dialogue: 0,0:04:20.05,0:04:22.30,Twink_CN,NTP,0,0,0,,今天她们是来陪我看场地的
+Dialogue: 0,0:04:22.80,0:04:25.01,Twink_CN,NTP,0,0,0,,明天的时装秀也有被邀请
+Dialogue: 0,0:04:25.23,0:04:26.27,Twink_CN,NTP,0,0,0,,原来如此
+Dialogue: 0,0:04:26.76,0:04:28.41,Twink_CN,NTP,0,0,0,,再说一遍 请多关照啦
+Dialogue: 0,0:04:29.45,0:04:30.36,Flora_CN,NTP,0,0,0,,是的
+Dialogue: 0,0:04:30.89,0:04:31.83,Defau_CN,NTP,0,0,0,,好的 调好了
+Dialogue: 0,0:04:32.16,0:04:33.00,Defau_CN,NTP,0,0,0,,三号抬高点
+Dialogue: 0,0:04:33.33,0:04:35.34,Flora_CN,NTP,0,0,0,,哇 好棒
+Dialogue: 0,0:04:35.54,0:04:36.53,Twink_CN,NTP,0,0,0,,好漂亮呢
+Dialogue: 0,0:04:36.76,0:04:39.56,Twink_CN,NTP,0,0,0,,这就是我明天的舞台
+Dialogue: 0,0:04:39.78,0:04:41.43,Defau_CN,NTP,0,0,0,,噢 星爱
+Dialogue: 0,0:04:41.57,0:04:43.19,Twink_CN,NTP,0,0,0,,Hi 波安努
+Dialogue: 0,0:04:43.46,0:04:47.90,Defau_CN,NTP,0,0,0,,这次的时装秀也靠你了 我的女神
+Dialogue: 0,0:04:48.41,0:04:49.63,Twink_CN,NTP,0,0,0,,Holle 波安努
+Dialogue: 0,0:04:49.87,0:04:51.26,Twink_CN,NTP,0,0,0,,我是天乃川星彩
+Dialogue: 0,0:04:51.71,0:04:53.64,Defau_CN,NTP,0,0,0,,Oh 明星公主
+Dialogue: 0,0:04:54.03,0:04:55.38,Twink_CN,NTP,0,0,0,,请多关照
+Dialogue: 0,0:04:55.90,0:04:57.69,Defau_CN,NTP,0,0,0,,我看好你哦
+Dialogue: 0,0:04:57.96,0:04:58.81,Twink_CN,NTP,0,0,0,,是的
+Dialogue: 0,0:04:59.46,0:05:02.89,Twink_CN,NTP,0,0,0,,呐 波安努 我能用下舞台吗
+Dialogue: 0,0:05:05.88,0:05:08.34,Twink_CN,NTP,0,0,0,,嗯 不错
+Dialogue: 0,0:05:36.33,0:05:38.35,Defau_CN,NTP,0,0,0,,嘣 不愧是星爱
+Dialogue: 0,0:05:40.22,0:05:42.46,Twink_CN,NTP,0,0,0,,会场的氛围全然改变了
+Dialogue: 0,0:05:42.85,0:05:45.14,Twink_CN,NTP,0,0,0,,这就是顶级模特星爱的力量
+Dialogue: 0,0:05:45.91,0:05:48.69,Twink_CN,NTP,0,0,0,,我必须走上这个舞台
+Dialogue: 0,0:06:15.83,0:06:17.17,Twink_CN,NTP,0,0,0,,还好…
+Dialogue: 0,0:06:20.02,0:06:22.92,Twink_CN,NTP,0,0,0,,糟了 我紧张起来了
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:27.11,0:06:29.42,Flora_CN,NTP,0,0,0,,欸 现在去小星星家里
+Dialogue: 0,0:06:29.66,0:06:32.23,Twink_CN,NTP,0,0,0,,对 大家一定要去哦
+Dialogue: 0,0:06:32.46,0:06:34.83,Twink_CN,NTP,0,0,0,,我想听听星彩在学园里的事
+Dialogue: 0,0:06:35.05,0:06:36.99,Flora_CN,NTP,0,0,0,,欸 可以吗
+Dialogue: 0,0:06:37.13,0:06:39.81,Merma_CN,NTP,0,0,0,,但是你们明天不是有正式表演吗
+Dialogue: 0,0:06:40.02,0:06:41.14,Flora_CN,NTP,0,0,0,,啊 对啊
+Dialogue: 0,0:06:41.34,0:06:42.36,Twink_CN,NTP,0,0,0,,就是啊
+Dialogue: 0,0:06:42.52,0:06:43.51,Twink_CN,NTP,0,0,0,,我今天…
+Dialogue: 0,0:06:43.66,0:06:44.76,Twink_CN,NTP,0,0,0,,什么话嘛
+Dialogue: 0,0:06:44.96,0:06:46.55,Twink_CN,NTP,0,0,0,,比起宿舍
+Dialogue: 0,0:06:46.76,0:06:48.86,Twink_CN,NTP,0,0,0,,家里不是离这里更近嘛
+Dialogue: 0,0:06:49.06,0:06:50.33,Twink_CN,NTP,0,0,0,,不 但是…
+Dialogue: 0,0:06:50.52,0:06:53.81,Merma_CN,NTP,0,0,0,,我们没有取得外宿许可…
+Dialogue: 0,0:06:57.28,0:06:59.53,Twink_CN,NTP,0,0,0,,啊 喂 白金吗
+Dialogue: 0,0:06:59.74,0:07:01.01,Twink_CN,NTP,0,0,0,,是我 是我
+Dialogue: 0,0:07:01.61,0:07:04.04,Twink_CN,NTP,0,0,0,,是呀 好久不见
+Dialogue: 0,0:07:04.26,0:07:06.67,Twink_CN,NTP,0,0,0,,啊 好好 对对 嗯
+Dialogue: 0,0:07:06.83,0:07:09.54,Twink_CN,NTP,0,0,0,,就这样 嗯 好
+Dialogue: 0,0:07:12.37,0:07:14.24,Twink_CN,NTP,0,0,0,,外宿许可 OK
+Dialogue: 0,0:07:14.43,0:07:15.85,Flora_CN,NTP,0,0,0,,好… 好快
+Dialogue: 0,0:07:16.12,0:07:18.78,Twink_CN,NTP,0,0,0,,好啦 大家一起买晚饭食材吧
+Dialogue: 0,0:07:18.97,0:07:20.35,Twink_CN,NTP,0,0,0,,Let's go
+Dialogue: 0,0:07:21.14,0:07:22.60,Twink_CN,NTP,0,0,0,,等… 等等 妈妈
+Dialogue: 0,0:07:25.81,0:07:27.00,Twink_CN,NTP,0,0,0,,真是的
+Dialogue: 0,0:07:27.53,0:07:30.07,Flora_CN,NTP,0,0,0,,还以为肯定是去高级超市呢
+Dialogue: 0,0:07:30.74,0:07:32.49,Twink_CN,NTP,0,0,0,,我也是在老城厢长大的
+Dialogue: 0,0:07:32.78,0:07:34.33,Twink_CN,NTP,0,0,0,,来这里比较舒服
+Dialogue: 0,0:07:35.67,0:07:38.67,Twink_CN,NTP,0,0,0,,啊 大家一起去拍照片吧
+Dialogue: 0,0:07:39.92,0:07:42.40,Merma_CN,NTP,0,0,0,,我从没拍过那个
+Dialogue: 0,0:07:42.62,0:07:44.66,Flora_CN,NTP,0,0,0,,我们去拍吧 一定要一起
+Dialogue: 0,0:07:44.83,0:07:45.95,Flora_CN,NTP,0,0,0,,好吧 小星星
+Dialogue: 0,0:07:47.80,0:07:49.84,Twink_CN,NTP,0,0,0,,嗯 不错 不错
+Dialogue: 0,0:07:50.10,0:07:52.33,Flora_CN,NTP,0,0,0,,南姐姐 请选一下画面
+Dialogue: 0,0:07:52.50,0:07:55.41,Merma_CN,NTP,0,0,0,,嗯 因为刚才是这个…
+Dialogue: 0,0:07:55.96,0:07:58.46,Twink_CN,NTP,0,0,0,,哇 我笑得好僵硬
+Dialogue: 0,0:07:58.63,0:08:00.49,Twink_CN,NTP,0,0,0,,这样子明天会糟糕的
+Dialogue: 0,0:08:04.26,0:08:05.25,Twink_CN,NTP,0,0,0,,喂 妈妈
+Dialogue: 0,0:08:06.80,0:08:08.57,Twink_CN,NTP,0,0,0,,扮鬼脸蛮好的嘛
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:08:14.78,0:08:15.99,Merma_CN,NTP,0,0,0,,打扰了
+Dialogue: 0,0:08:20.42,0:08:22.99,Twink_CN,NTP,0,0,0,,抱歉啦 马上收拾好
+Dialogue: 0,0:08:32.42,0:08:34.61,Twink_CN,NTP,0,0,0,,妈妈 你多久没扫啦
+Dialogue: 0,0:08:36.42,0:08:38.31,Twink_CN,NTP,0,0,0,,因为打扫卫生太烦了嘛
+Dialogue: 0,0:08:38.87,0:08:41.45,Twink_CN,NTP,0,0,0,,好啦好啦 我来收拾吧
+Dialogue: 0,0:08:42.33,0:08:44.06,Twink_CN,NTP,0,0,0,,妈妈去做饭
+Dialogue: 0,0:08:45.20,0:08:46.01,Twink_CN,NTP,0,0,0,,好好
+Dialogue: 0,0:08:47.16,0:08:52.63,Flora_CN,NTP,0,0,0,,欸 小星星的父亲是演员高天原健吗
+Dialogue: 0,0:08:55.48,0:08:58.33,Merma_CN,NTP,0,0,0,,出演了好多好莱坞电影
+Dialogue: 0,0:08:58.53,0:09:01.30,Twink_CN,NTP,0,0,0,,对 现在在巴西拍电影
+Dialogue: 0,0:09:01.66,0:09:04.05,Flora_CN,NTP,0,0,0,,一家都是艺人 好厉害
+Dialogue: 0,0:09:04.56,0:09:05.30,Twink_CN,NTP,0,0,0,,我吃饱啦
+Dialogue: 0,0:09:05.92,0:09:06.81,Flora_CN,NTP,0,0,0,,这么快
+Dialogue: 0,0:09:06.88,0:09:09.07,Twink_CN,NTP,0,0,0,,嗯 我还有事做
+Dialogue: 0,0:09:12.30,0:09:14.63,Twink_CN,NTP,0,0,0,,抱歉 大家慢慢吃
+Dialogue: 0,0:09:19.17,0:09:20.62,Twink_CN,NTP,0,0,0,,再努把力吗
+Dialogue: 0,0:09:31.13,0:09:32.98,Twink_CN,NTP,0,0,0,,我的话 一定能行的
+Dialogue: 0,0:09:36.69,0:09:39.21,Twink_CN,NTP,0,0,0,,想象平时的舞台
+Dialogue: 0,0:09:39.46,0:09:40.67,Twink_CN,NTP,0,0,0,,打扰啦
+Dialogue: 0,0:09:41.94,0:09:43.18,Flora_CN,NTP,0,0,0,,那 那个 星爱小姐
+Dialogue: 0,0:09:43.33,0:09:43.98,Twink_CN,NTP,0,0,0,,星彩
+Dialogue: 0,0:09:44.17,0:09:46.11,Twink_CN,NTP,0,0,0,,大家一起看相片吧
+Dialogue: 0,0:09:46.85,0:09:48.31,Twink_CN,NTP,0,0,0,,你出生时候的
+Dialogue: 0,0:09:48.55,0:09:50.26,Twink_CN,NTP,0,0,0,,就像小猴子一样呢
+Dialogue: 0,0:09:50.44,0:09:52.51,Twink_CN,NTP,0,0,0,,够了 你适可而止吧
+Dialogue: 0,0:09:53.66,0:09:55.00,Twink_CN,NTP,0,0,0,,今天是怎么了
+Dialogue: 0,0:09:55.18,0:09:56.75,Twink_CN,NTP,0,0,0,,怎么这么多事
+Dialogue: 0,0:09:56.96,0:09:59.27,Twink_CN,NTP,0,0,0,,明天可是我第一次登上大舞台
+Dialogue: 0,0:09:59.44,0:10:02.12,Twink_CN,NTP,0,0,0,,是我费尽辛苦才得到的世界级舞台
+Dialogue: 0,0:10:02.30,0:10:03.54,Twink_CN,NTP,0,0,0,,我不可以失败
+Dialogue: 0,0:10:03.69,0:10:04.85,Twink_CN,NTP,0,0,0,,我想集中注意力
+Dialogue: 0,0:10:05.23,0:10:06.76,Twink_CN,NTP,0,0,0,,妈妈也懂的吧
+Dialogue: 0,0:10:06.93,0:10:08.01,Twink_CN,NTP,0,0,0,,不懂呢
+Dialogue: 0,0:10:09.88,0:10:12.67,Twink_CN,NTP,0,0,0,,因为我是天才嘛
+Dialogue: 0,0:10:17.34,0:10:20.05,Twink_CN,NTP,0,0,0,,滚… 滚出去
+Dialogue: 0,0:10:21.67,0:10:23.63,Twink_CN,NTP,0,0,0,,咦 小星星
+Dialogue: 0,0:10:23.79,0:10:26.22,Twink_CN,NTP,0,0,0,,我知道妈妈是天才
+Dialogue: 0,0:10:26.62,0:10:29.44,Twink_CN,NTP,0,0,0,,我的感受最深
+Dialogue: 0,0:10:30.11,0:10:33.27,Twink_CN,NTP,0,0,0,,但是用在这时专门强调吗
+Dialogue: 0,0:10:33.46,0:10:34.88,Flora_CN,NTP,0,0,0,,是… 是呀
+Dialogue: 0,0:10:35.16,0:10:36.65,Twink_CN,NTP,0,0,0,,这缺根筋的样子
+Dialogue: 0,0:10:36.81,0:10:38.48,Twink_CN,NTP,0,0,0,,真的和过去比一点儿没变
+Dialogue: 0,0:10:38.73,0:10:42.56,Twink_CN,NTP,0,0,0,,小时候 自以为打扮的很靓去给她一看
+Dialogue: 0,0:10:44.91,0:10:47.18,Twink_CN,NTP,0,0,0,,欸 有点土吧
+Dialogue: 0,0:10:48.98,0:10:50.11,Twink_CN,NTP,0,0,0,,太过分了吧
+Dialogue: 0,0:10:50.35,0:10:53.15,Twink_CN,NTP,0,0,0,,那种时候有必要用模特的眼光吗
+Dialogue: 0,0:10:53.61,0:10:56.67,Twink_CN,NTP,0,0,0,,还有小学的学艺会 那时候也…
+Dialogue: 0,0:10:56.86,0:10:58.45,Aroma_CN,NTP,0,0,0,,抱怨得停不下来了
+Dialogue: 0,0:10:58.69,0:11:00.83,Flora_CN,NTP,0,0,0,,嘛 嘛 我们听着好啦
+Dialogue: 0,0:11:01.08,0:11:03.83,Merma_CN,NTP,0,0,0,,是呀 如果星彩可以舒服一些的话…
+Dialogue: 0,0:11:04.02,0:11:05.15,Twink_CN,NTP,0,0,0,,喂 在听吗
+Dialogue: 0,0:11:05.33,0:11:06.12,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:11:06.45,0:11:09.16,Twink_CN,NTP,0,0,0,,呐 小春春 南南 你们怎么想
+Dialogue: 0,0:11:09.40,0:11:10.92,Twink_CN,NTP,0,0,0,,你们的妈妈是什么样的
+Dialogue: 0,0:11:11.09,0:11:12.05,Flora_CN,NTP,0,0,0,,欸 我妈妈？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:11:32.06,0:11:33.71,DDark_CN,NTP,0,0,0,,黑钥匙在发光…
+Dialogue: 0,0:11:33.88,0:11:36.25,DDark_CN,NTP,0,0,0,,渴求绝望的话 就由我陪…
+Dialogue: 0,0:11:36.39,0:11:37.53,DDark_CN,NTP,0,0,0,,不 Twilight大人
+Dialogue: 0,0:11:38.00,0:11:39.54,DDark_CN,NTP,0,0,0,,今天请务必用我
+Dialogue: 0,0:11:40.36,0:11:43.26,DDark_CN,NTP,0,0,0,,欸 很反常地有自信的样子呢
+Dialogue: 0,0:11:44.18,0:11:45.98,DDark_CN,NTP,0,0,0,,因为我找到了大量的强大梦想
+Dialogue: 0,0:11:46.19,0:11:50.13,DDark_CN,NTP,0,0,0,,和Princess Precure聚集在一起的地方
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,=======Eye Catch========
+Dialogue: 0,0:11:56.69,0:11:58.02,Flora_CN,NTP,0,0,0,,双马尾
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:12:01.38,0:12:02.52,Twink_CN,NTP,0,0,0,,啊
+Dialogue: 0,0:12:02.66,0:12:05.85,Twink_CN,NTP,0,0,0,,昨天净跟小春春她们抱怨了
+Dialogue: 0,0:12:06.31,0:12:08.91,Twink_CN,NTP,0,0,0,,到头来也没怎么准备呢
+Dialogue: 0,0:12:11.70,0:12:13.05,Twink_CN,NTP,0,0,0,,算了 不管啦
+Dialogue: 0,0:12:16.45,0:12:19.10,Twink_CN,NTP,0,0,0,,到了这时候 着急也没办法
+Dialogue: 0,0:12:28.69,0:12:30.83,Twink_CN,NTP,0,0,0,,一下子也做不到星爱那样嘛
+Dialogue: 0,0:12:31.08,0:12:32.81,Twink_CN,NTP,0,0,0,,我只能做我自己了
+Dialogue: 0,0:12:33.18,0:12:35.88,Defau_CN,NTP,0,0,0,,星彩 睡好了吗
+Dialogue: 0,0:12:36.30,0:12:37.00,Twink_CN,NTP,0,0,0,,是的
+Dialogue: 0,0:12:37.20,0:12:38.33,Twink_CN,NTP,0,0,0,,托您的福
+Dialogue: 0,0:12:39.09,0:12:41.79,Defau_CN,NTP,0,0,0,,和昨天不一样 今天的笑容很美
+Dialogue: 0,0:12:42.00,0:12:42.69,Twink_CN,NTP,0,0,0,,欸
+Dialogue: 0,0:12:43.07,0:12:45.10,Defau_CN,NTP,0,0,0,,期待你的正式表演
+Dialogue: 0,0:12:48.67,0:12:50.52,Defau_CN,NTP,0,0,0,,星爱小姐 舞台左侧候场
+Dialogue: 0,0:12:50.69,0:12:51.44,Twink_CN,NTP,0,0,0,,OK
+Dialogue: 0,0:12:53.57,0:12:55.93,Twink_CN,NTP,0,0,0,,难道说妈妈
+Dialogue: 0,0:12:57.22,0:13:01.97,Defau_CN,NTP,0,0,0,,真好 我也想去星彩家里
+Dialogue: 0,0:13:02.19,0:13:04.59,Flora_CN,NTP,0,0,0,,抱歉 我们是被她妈妈邀请的
+Dialogue: 0,0:13:04.77,0:13:06.96,Flora_CN,NTP,0,0,0,,下次一起去玩吧
+Dialogue: 0,0:13:07.12,0:13:07.63,Defau_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:13:09.64,0:13:10.27,Defau_CN,NTP,0,0,0,,什么了
+Dialogue: 0,0:13:10.68,0:13:11.46,Defau_CN,NTP,0,0,0,,谁呀
+Dialogue: 0,0:13:11.62,0:13:12.82,Defau_CN,NTP,0,0,0,,突然冒出来
+Dialogue: 0,0:13:17.53,0:13:18.93,Flora_CN,NTP,0,0,0,,Twilight
+Dialogue: 0,0:13:19.17,0:13:20.17,Merma_CN,NTP,0,0,0,,Shut
+Dialogue: 0,0:13:20.43,0:13:22.03,Defau_CN,NTP,0,0,0,,已经开始了？
+Dialogue: 0,0:13:22.21,0:13:23.43,Defau_CN,NTP,0,0,0,,简直像公主一样
+Dialogue: 0,0:13:24.18,0:13:27.63,DDark_CN,NTP,0,0,0,,不是像 我是真正的公主
+Dialogue: 0,0:13:28.11,0:13:30.44,Twink_CN,NTP,0,0,0,,喂 你们俩在干什么
+Dialogue: 0,0:13:31.88,0:13:33.00,DDark_CN,NTP,0,0,0,,找到了
+Dialogue: 0,0:13:33.20,0:13:34.00,Twink_CN,NTP,0,0,0,,是你们
+Dialogue: 0,0:13:43.93,0:13:44.80,Twink_CN,NTP,0,0,0,,妈妈
+Dialogue: 0,0:13:45.94,0:13:48.13,DDark_CN,NTP,0,0,0,,让我看看你的梦想
+Dialogue: 0,0:13:51.50,0:13:54.36,Twink_CN,NTP,0,0,0,,想和星彩同台表演
+Dialogue: 0,0:13:56.15,0:13:59.77,DDark_CN,NTP,0,0,0,,这个梦想必须要关在绝望牢笼里
+Dialogue: 0,0:14:00.64,0:14:02.16,DDark_CN,NTP,0,0,0,,Shut your dream
+Dialogue: 0,0:14:03.24,0:14:04.74,DDark_CN,NTP,0,0,0,,出来 绝望堡
+Dialogue: 0,0:14:11.49,0:14:13.06,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:14:13.52,0:14:14.63,Flora_CN,NTP,0,0,0,,有两只
+Dialogue: 0,0:14:18.97,0:14:20.80,Defau_CN,NTP,0,0,0,,各位 快逃
+Dialogue: 0,0:14:22.05,0:14:24.33,DDark_CN,NTP,0,0,0,,梦想越强绝望越深
+Dialogue: 0,0:14:24.60,0:14:27.14,DDark_CN,NTP,0,0,0,,不愧是Precure的妈妈呢
+Dialogue: 0,0:14:28.35,0:14:31.72,Twink_CN,NTP,0,0,0,,妈妈… 果然是这样
+Dialogue: 0,0:14:32.15,0:14:36.71,Twink_CN,NTP,0,0,0,,昨天那是为了让无端烦恼的我放松…
+Dialogue: 0,0:14:42.21,0:14:43.37,Twink_CN,NTP,0,0,0,,你等着 妈妈
+Dialogue: 0,0:14:43.53,0:14:45.53,Twink_CN,NTP,0,0,0,,这次让我来帮妈妈
+Dialogue: 0,0:14:45.79,0:14:47.10,Twink_CN,NTP,0,0,0,,各位上吧
+Dialogue: 0,0:14:49.70,0:14:50.87,Twink_CN,NTP,0,0,0,,Precure
+Dialogue: 0,0:14:51.76,0:14:53.46,Twink_CN,NTP,0,0,0,,Princess Engage
+Dialogue: 0,0:14:49.70,0:14:50.87,Merma_CN,NTP,0,0,0,,{\pos(250,705)}Precure
+Dialogue: 0,0:14:51.76,0:14:53.46,Merma_CN,NTP,0,0,0,,{\pos(200,705)}Princess Engage
+Dialogue: 0,0:14:49.70,0:14:50.87,Flora_CN,NTP,0,0,0,,{\pos(1050,705)}Precure
+Dialogue: 0,0:14:51.76,0:14:53.46,Flora_CN,NTP,0,0,0,,{\pos(1080,705)}Princess Engage
+Dialogue: 0,0:15:46.95,0:15:50.08,Flora_CN,NTP,0,0,0,,绽放的花朵公主
+Dialogue: 0,0:15:52.53,0:15:54.26,Flora_CN,NTP,0,0,0,,Cure Flora
+Dialogue: 0,0:15:55.92,0:15:59.51,Merma_CN,NTP,0,0,0,,澄澈的海洋公主
+Dialogue: 0,0:16:02.57,0:16:04.06,Merma_CN,NTP,0,0,0,,Cure Mermaid
+Dialogue: 0,0:16:07.32,0:16:09.50,Twink_CN,NTP,0,0,0,,闪耀的明星公主
+Dialogue: 0,0:16:12.64,0:16:14.08,Twink_CN,NTP,0,0,0,,Cure Twinkle
+Dialogue: 0,0:16:15.92,0:16:16.76,Flora_CN,NTP,0,0,0,,坚强
+Dialogue: 0,0:16:16.95,0:16:17.82,Merma_CN,NTP,0,0,0,,温柔
+Dialogue: 0,0:16:18.03,0:16:19.23,Twink_CN,NTP,0,0,0,,美丽
+Dialogue: 0,0:16:19.70,0:16:22.41,Twink_CN,NTP,0,0,0,,Go! Princess Precure
+Dialogue: 0,0:16:26.16,0:16:28.61,Twink_CN,NTP,0,0,0,,关在冰冷牢笼里的梦想
+Dialogue: 0,0:16:30.23,0:16:31.89,Twink_CN,NTP,0,0,0,,是时候还给我了
+Dialogue: 0,0:16:32.37,0:16:34.67,Twink_CN,NTP,0,0,0,,做好觉悟了？
+Dialogue: 0,0:16:35.09,0:16:38.80,DDark_CN,NTP,0,0,0,,哼 今天一定把钥匙从你们手里抢过来
+Dialogue: 0,0:16:38.98,0:16:39.88,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:16:40.50,0:16:41.63,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:16:42.57,0:16:44.22,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:16:45.39,0:16:46.39,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:16:49.69,0:16:50.58,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:16:55.17,0:16:56.16,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:16:56.51,0:16:57.23,DDark_CN,NTP,0,0,0,,望堡
+Dialogue: 0,0:17:00.61,0:17:02.70,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:17:07.19,0:17:09.08,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:17:12.97,0:17:14.27,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:17:20.84,0:17:21.78,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:17:26.67,0:17:30.50,DDark_CN,NTP,0,0,0,,就这样被母亲的梦想所生出的绝望打败吧
+Dialogue: 0,0:17:30.75,0:17:32.00,Twink_CN,NTP,0,0,0,,开玩笑…
+Dialogue: 0,0:17:32.37,0:17:34.84,Twink_CN,NTP,0,0,0,,我才不会输呢
+Dialogue: 0,0:17:37.19,0:17:38.70,Twink_CN,NTP,0,0,0,,因为我知道
+Dialogue: 0,0:17:39.33,0:17:43.10,Twink_CN,NTP,0,0,0,,妈妈的梦想是和我共演
+Dialogue: 0,0:17:43.52,0:17:46.24,Twink_CN,NTP,0,0,0,,我一直梦想着
+Dialogue: 0,0:17:46.50,0:17:48.79,Twink_CN,NTP,0,0,0,,成为妈妈那样的模特
+Dialogue: 0,0:17:49.15,0:17:52.17,Twink_CN,NTP,0,0,0,,和妈妈站在同一个舞台上
+Dialogue: 0,0:17:53.01,0:17:56.85,Twink_CN,NTP,0,0,0,,所以我不可以在这种地方认输
+Dialogue: 0,0:17:58.22,0:18:01.28,Twink_CN,NTP,0,0,0,,你们这些家伙 我啪啪地就能打败…
+Dialogue: 0,0:18:02.76,0:18:03.60,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:18:03.79,0:18:06.86,Twink_CN,NTP,0,0,0,,然后我要和妈妈一起实现梦想
+Dialogue: 0,0:18:09.72,0:18:10.83,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:18:10.85,0:18:11.54,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:18:13.96,0:18:14.87,DDark_CN,NTP,0,0,0,,什么
+Dialogue: 0,0:18:17.15,0:18:18.03,Twink_CN,NTP,0,0,0,,什么
+Dialogue: 0,0:18:23.33,0:18:24.42,Merma_CN,NTP,0,0,0,,那是…
+Dialogue: 0,0:18:28.28,0:18:30.18,Twink_CN,NTP,0,0,0,,新的变装钥匙
+Dialogue: 0,0:18:30.37,0:18:31.60,DDark_CN,NTP,0,0,0,,什… 什么
+Dialogue: 0,0:18:31.81,0:18:34.69,Flora_CN,NTP,0,0,0,,是Twinkle的神奇变装钥匙
+Dialogue: 0,0:18:35.01,0:18:38.95,Aroma_CN,NTP,0,0,0,,被星彩和妈妈两人的牵绊吸引来了
+Dialogue: 0,0:18:39.11,0:18:41.81,Twink_CN,NTP,0,0,0,,连接着妈妈和我的梦想钥匙
+Dialogue: 0,0:18:44.50,0:18:46.71,DDark_CN,NTP,0,0,0,,Shut 把那钥匙抢过来
+Dialogue: 0,0:18:47.57,0:18:48.41,DDark_CN,NTP,0,0,0,,是
+Dialogue: 0,0:18:48.59,0:18:49.35,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:18:49.70,0:18:50.88,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:18:51.41,0:18:53.75,Twink_CN,NTP,0,0,0,,这把钥匙 不会交给你们
+Dialogue: 0,0:18:54.41,0:18:55.49,Twink_CN,NTP,0,0,0,,流星
+Dialogue: 0,0:18:57.48,0:18:59.21,Twink_CN,NTP,0,0,0,,闪烁吧 流星
+Dialogue: 0,0:18:59.51,0:19:03.02,Twink_CN,NTP,0,0,0,,Precure Meteor Humming
+Dialogue: 0,0:19:08.25,0:19:09.38,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:19:10.12,0:19:11.13,Defau_CN,NTP,0,0,0,,好美
+Dialogue: 0,0:19:11.42,0:19:12.95,DDark_CN,NTP,0,0,0,,啊 Twilight大人
+Dialogue: 0,0:19:13.12,0:19:13.81,DDark_CN,NTP,0,0,0,,危险
+Dialogue: 0,0:19:14.28,0:19:15.71,DDark_CN,NTP,0,0,0,,烫 好痛好痛
+Dialogue: 0,0:19:15.99,0:19:17.18,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:19:20.74,0:19:23.18,Twink_CN,NTP,0,0,0,,一鼓作气 大家一起
+Dialogue: 0,0:19:25.18,0:19:26.37,Twink_CN,NTP,0,0,0,,Exchange
+Dialogue: 0,0:19:28.47,0:19:30.02,Twink_CN,NTP,0,0,0,,{\pos(640,650)}{\fs30}Mode Elegant
+Dialogue: 0,0:19:28.47,0:19:30.02,Twink_CN,NTP,0,0,0,,优雅模式
+Dialogue: 0,0:19:30.25,0:19:30.91,Flora_CN,NTP,0,0,0,,玫瑰
+Dialogue: 0,0:19:31.24,0:19:31.78,Merma_CN,NTP,0,0,0,,冰雪
+Dialogue: 0,0:19:32.02,0:19:32.68,Twink_CN,NTP,0,0,0,,月亮
+Dialogue: 0,0:20:00.30,0:20:02.67,Twink_CN,NTP,0,0,0,,闪耀吧 三人的力量
+Dialogue: 0,0:20:03.61,0:20:09.71,Twink_CN,NTP,0,0,0,,Precure Trinity Lumière
+Dialogue: 0,0:20:20.82,0:20:23.09,DDark_CN,NTP,0,0,0,,Dreaming
+Dialogue: 0,0:20:31.53,0:20:32.82,Twink_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:20:37.88,0:20:39.77,DDark_CN,NTP,0,0,0,,Twilight大人 没受伤吧
+Dialogue: 0,0:20:39.98,0:20:40.68,DDark_CN,NTP,0,0,0,,没事
+Dialogue: 0,0:20:41.07,0:20:42.85,DDark_CN,NTP,0,0,0,,那么 我们再去抢钥匙吧
+Dialogue: 0,0:20:43.27,0:20:44.00,DDark_CN,NTP,0,0,0,,不
+Dialogue: 0,0:20:45.47,0:20:46.65,DDark_CN,NTP,0,0,0,,回去吧
+Dialogue: 0,0:20:46.86,0:20:47.59,DDark_CN,NTP,0,0,0,,是
+Dialogue: 0,0:20:49.77,0:20:50.54,Twink_CN,NTP,0,0,0,,打开
+Dialogue: 0,0:20:51.83,0:20:53.15,Twink_CN,NTP,0,0,0,,通向梦想的大门
+Dialogue: 0,0:21:01.47,0:21:04.06,Twink_CN,NTP,0,0,0,,好啦 正式表演在等着哦 妈妈
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:21:05.21,0:21:07.29,Defau_CN,NTP,0,0,0,,波安努时装秀2015
+Dialogue: 0,0:21:07.59,0:21:09.14,Defau_CN,NTP,0,0,0,,现在正式开幕
+Dialogue: 0,0:21:31.86,0:21:33.95,Flora_CN,NTP,0,0,0,,小星星 好厉害
+Dialogue: 0,0:21:34.17,0:21:34.98,Merma_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:21:36.84,0:21:38.20,Twink_CN,NTP,0,0,0,,辛苦啦 星彩
+Dialogue: 0,0:21:38.78,0:21:39.66,Twink_CN,NTP,0,0,0,,太好了
+Dialogue: 0,0:21:40.43,0:21:41.77,Twink_CN,NTP,0,0,0,,谢谢你 妈妈
+Dialogue: 0,0:21:41.94,0:21:43.03,Twink_CN,NTP,0,0,0,,多亏了妈妈
+Dialogue: 0,0:21:43.81,0:21:45.13,Twink_CN,NTP,0,0,0,,但是现在怎么办呢
+Dialogue: 0,0:21:45.33,0:21:47.86,Twink_CN,NTP,0,0,0,,妈妈的梦想不是已经实现了吗
+Dialogue: 0,0:21:48.90,0:21:52.25,Twink_CN,NTP,0,0,0,,和我共演是你的梦想吧
+Dialogue: 0,0:21:54.56,0:21:56.61,Twink_CN,NTP,0,0,0,,是呀 不过还差的远
+Dialogue: 0,0:21:57.02,0:21:59.01,Twink_CN,NTP,0,0,0,,我还有下一个梦想
+Dialogue: 0,0:21:59.39,0:22:01.00,Twink_CN,NTP,0,0,0,,欸 什么
+Dialogue: 0,0:22:01.73,0:22:04.47,Twink_CN,NTP,0,0,0,,和星彩一起做顶级模特
+Dialogue: 0,0:22:07.26,0:22:08.87,Twink_CN,NTP,0,0,0,,OK 我知道啦
+Dialogue: 0,0:22:09.15,0:22:11.63,Twink_CN,NTP,0,0,0,,你等着 我马上让它实现
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,=========Preview=======
+Dialogue: 0,0:23:52.09,0:23:53.05,Flora_CN,NTP,0,0,0,,好棒
+Dialogue: 0,0:23:53.26,0:23:56.77,Flora_CN,NTP,0,0,0,,听说《花朵公主》的作者要开签名会了
+Dialogue: 0,0:23:56.99,0:23:58.43,Merma_CN,NTP,0,0,0,,以前画好图画书之后
+Dialogue: 0,0:23:58.60,0:24:01.00,Merma_CN,NTP,0,0,0,,再也没有在人前露面了呢
+Dialogue: 0,0:24:01.17,0:24:03.24,Twink_CN,NTP,0,0,0,,是小春春梦想的生母啊
+Dialogue: 0,0:24:03.45,0:24:04.63,Twink_CN,NTP,0,0,0,,是怎样的人呢
+Dialogue: 0,0:24:04.84,0:24:07.11,Flora_CN,NTP,0,0,0,,是像公主一般的人吗
+Dialogue: 0,0:24:07.31,0:24:09.14,Flora_CN,NTP,0,0,0,,哇 紧张起来了
+Dialogue: 0,0:24:10.12,0:24:11.87,Flora_CN,NTP,0,0,0,,Go! Princess Precure
+Dialogue: 0,0:24:12.28,0:24:15.50,Flora_CN,NTP,0,0,0,,图画书的秘密！ 公主是什么？
+Dialogue: 0,0:24:16.17,0:24:17.40,Flora_CN,NTP,0,0,0,,朝着梦想 Go Go
+Dialogue: 0,0:24:17.56,0:24:18.66,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========OP========
+Dialogue: 0,0:01:09.42,0:01:11.81,Twink_CN,NTP,0,0,0,,坚强 温柔 美丽
+Dialogue: 0,0:01:12.21,0:01:15.13,Twink_CN,NTP,0,0,0,,这是打算成为真正公主的三个人的故事
+Dialogue: 0,0:01:15.43,0:01:19.33,Twink_CN,NTP,0,0,0,,朝着梦想 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:01:25.04,0:01:31.27,OP-CN,NTP,0,0,0,,展翅高飞Princess 轻轻飘飘笔直飞向梦想!!
+Dialogue: 0,0:01:31.52,0:01:38.47,OP-CN,NTP,0,0,0,,努力之后Happy Come! 引发奇迹 Go! Princess Precure
+Dialogue: 0,0:01:42.74,0:01:47.81,OP-CN,NTP,0,0,0,,笑脸是宝石 女孩子是公主{\fnDroid Sans Fallback}♥　
+Dialogue: 0,0:01:47.98,0:01:53.88,OP-CN,NTP,0,0,0,,心里揪揪揪欢闹不已 打开那扇门吧
+Dialogue: 0,0:01:53.97,0:01:59.03,OP-CN,NTP,0,0,0,,天晴时道一声「贵安」 坚强 温柔 美丽！
+Dialogue: 0,0:01:59.17,0:02:05.12,OP-CN,NTP,0,0,0,,兴高采烈地奏起歌 朝向遥远的彼方
+Dialogue: 0,0:02:05.26,0:02:12.35,OP-CN,NTP,0,0,0,,就算在陌生而不安的地方 换上裙子 振奋心情
+Dialogue: 0,0:02:12.60,0:02:16.90,OP-CN,NTP,0,0,0,,喊着「一二!」 踏出脚步
+Dialogue: 0,0:02:20.24,0:02:26.24,OP-CN,NTP,0,0,0,,相信自己Princess 抓住闪闪亮亮光芒四射的爱!!
+Dialogue: 0,0:02:26.74,0:02:31.33,OP-CN,NTP,0,0,0,,勇气 认真 美丽 乐观是钥匙…!?
+Dialogue: 0,0:02:31.52,0:02:37.61,OP-CN,NTP,0,0,0,,展翅高飞Princess 追逐花朵海洋和星星 不论到哪里
+Dialogue: 0,0:02:37.89,0:02:44.99,OP-CN,NTP,0,0,0,,竭尽所能 Flying High! 我们骄傲的 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:02:51.27,0:02:58.07,Defau_CN,NTP,0,0,0,,{\fad(200,0)\fnMicrosoft YaHei\b0\shad0\bord3}妇联大友团
+Dialogue: 0,0:02:58.07,0:03:02.07,Defau_CN,NTP,0,0,0,,{\fnMicrosoft YaHei\b0\shad0\bord3}翻译:syan aloha 杂务:时雨家的妹抖 繁化:小綠 协力:ayukas 自助烤肉:蛇富帅
+Dialogue: 0,0:03:02.07,0:03:05.83,Defau_CN,NTP,0,0,0,,{\fad(0,200)\fnMicrosoft YaHei\b0\shad0\bord3}雪飘工作室 http://bbs.flsnow.net
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========ED1========
+Dialogue: 0,0:22:25.01,0:22:28.03,ED-CN,NTP,0,0,0,,明日与回忆
+Dialogue: 0,0:22:28.22,0:22:31.43,ED-CN,NTP,0,0,0,,相交的旋律
+Dialogue: 0,0:22:31.62,0:22:35.56,ED-CN,NTP,0,0,0,,唦啦啦{\fnDroid Sans Fallback}♪　{\r}变成公主
+Dialogue: 0,0:22:35.87,0:22:37.66,ED-CN,NTP,0,0,0,,跳舞吧
+Dialogue: 0,0:22:37.66,0:22:41.46,ED-CN,NTP,0,0,0,,一 二 三 Precure
+Dialogue: 0,0:22:48.03,0:22:53.93,ED-CN,NTP,0,0,0,,绽放的笑脸胜过宝石
+Dialogue: 0,0:22:54.39,0:23:00.06,ED-CN,NTP,0,0,0,,一闪一闪 装饰大家的心
+Dialogue: 0,0:23:00.32,0:23:05.45,ED-CN,NTP,0,0,0,,升起舞会的幕布吧
+Dialogue: 0,0:23:06.86,0:23:12.70,ED-CN,NTP,0,0,0,,Gorgeous！Precious！Shall we dance！在朝思暮想的舞台上
+Dialogue: 0,0:23:12.89,0:23:19.73,ED-CN,NTP,0,0,0,,真棒！ 坚强 温柔 美丽！
+Dialogue: 0,0:23:19.98,0:23:25.75,ED-CN,NTP,0,0,0,,只要有梦 世界就会改变
+Dialogue: 0,0:23:26.07,0:23:32.97,ED-CN,NTP,0,0,0,,用这双手 打开明天的锁
+Dialogue: 0,0:23:34.16,0:23:45.09,ED-CN,NTP,0,0,0,,贵安… 贵安…
+Dialogue: 0,0:23:47.30,0:23:48.36,ED-CN,NTP,0,0,0,,Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,

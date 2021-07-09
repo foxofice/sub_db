@@ -1,0 +1,5 @@
+﻿chs: 偶像大师
+cht: 偶像大師
+jp: THE iDOLM@STER
+en: THE iDOLM@STER
+rome: The Idolmaster

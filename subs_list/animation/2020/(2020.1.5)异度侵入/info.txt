@@ -1,0 +1,5 @@
+﻿chs: 异度侵入
+cht: 異度侵入
+jp: イド：インヴェイデッド
+en: ID꞉INVADED
+rome: ID꞉INVADED

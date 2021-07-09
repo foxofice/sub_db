@@ -1,0 +1,420 @@
+﻿[Script Info]
+Title:(アニメ) Go！プリンセスプリキュア 第25話 「はるかのおうちへ！はじめてのおとまり会！」   
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Original Translation: FLsnow
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Flora_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H644E008C,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Merma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64A85C00,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Twink_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Scarl_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000000FF,&H640000DD,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Aroma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DC619B,&H647C254D,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: MissS_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00555555,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: DDark_CN,Droid Sans Fallback,54,&H00000000,&H00FFFFFF,&H00DBDBDB,&H64FFFFFF,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: OP-CN,方正细圆_GBK,35,&H00E3E3E3,&H000000FF,&HC8000000,&H64000000,-1,0,0,0,100,100,2,0,1,1,2,2,10,10,5,1
+Style: ED-CN,方正细圆_GBK,40,&H00FFFFFF,&H000000FF,&H009D2ECD,&H649028BD,0,0,0,0,100,100,2,0,1,2,0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.18,0:00:05.29,Merma_CN,NTP,0,0,0,,暑假是做一些平時體驗不到的事情的好機會
+Dialogue: 0,0:00:05.65,0:00:09.48,Merma_CN,NTP,0,0,0,,去進行各式各樣的嘗試 讓暑假過得更加有意義吧
+Dialogue: 0,0:00:15.24,0:00:17.29,Scarl_CN,NTP,0,0,0,,大家這是要去哪裡啊？
+Dialogue: 0,0:00:17.69,0:00:21.44,Aroma_CN,NTP,0,0,0,,因為暑假到了所以大家都回自己的故鄉去了
+Dialogue: 0,0:00:22.07,0:00:23.21,Scarl_CN,NTP,0,0,0,,故鄉？
+Dialogue: 0,0:00:27.34,0:00:28.60,Flora_CN,NTP,0,0,0,,夏天到了！
+Dialogue: 0,0:00:28.81,0:00:30.13,Defau_CN,NTP,0,0,0,,放假了！
+Dialogue: 0,0:00:30.36,0:00:32.63,Twink_CN,NTP,0,0,0,,要去小春春的家住一段時間啦
+Dialogue: 0,0:00:32.89,0:00:34.35,Flora_CN,NTP,0,0,0,,耶
+Dialogue: 0,0:00:35.47,0:00:39.28,Merma_CN,NTP,0,0,0,,雖說是夏天但是大家也不能太興奮了
+Dialogue: 0,0:00:39.48,0:00:41.70,Twink_CN,NTP,0,0,0,,南南 那是什麼 這麼多行李
+Dialogue: 0,0:00:41.88,0:00:43.83,Merma_CN,NTP,0,0,0,,去住宿而準備的行李喲
+Dialogue: 0,0:00:44.16,0:00:45.65,Merma_CN,NTP,0,0,0,,還有一箱
+Dialogue: 0,0:00:45.85,0:00:48.23,Flora_CN,NTP,0,0,0,,只是去我家而已 竟然帶這麼多？
+Dialogue: 0,0:00:48.66,0:00:51.57,Merma_CN,NTP,0,0,0,,畢竟是第一次去朋友家裡住宿
+Dialogue: 0,0:00:51.75,0:00:53.70,Merma_CN,NTP,0,0,0,,不能沒有禮數
+Dialogue: 0,0:00:53.91,0:00:56.77,Merma_CN,NTP,0,0,0,,塞了不少東西進去 變得稍微多了些
+Dialogue: 0,0:00:57.16,0:00:59.42,Defau_CN,NTP,0,0,0,,看起來並不是稍微這種程度而已啊…
+Dialogue: 0,0:00:59.63,0:01:02.27,Twink_CN,NTP,0,0,0,,其實最興奮的是南南吧？
+Dialogue: 0,0:01:02.46,0:01:04.47,Flora_CN,NTP,0,0,0,,那麼早點出發吧
+Dialogue: 0,0:01:05.31,0:01:06.55,Scarl_CN,NTP,0,0,0,,路上小心…
+Dialogue: 0,0:01:06.78,0:01:08.04,Twink_CN,NTP,0,0,0,,你在說什麼！
+Dialogue: 0,0:01:08.49,0:01:10.26,Flora_CN,NTP,0,0,0,,遠遠你也是要來一起住的呀
+Dialogue: 0,0:01:10.50,0:01:10.90,Scarl_CN,NTP,0,0,0,,欸？
+Dialogue: 0,0:01:11.47,0:01:13.81,Aroma_CN,NTP,0,0,0,,行李我已經事先準備好了
+Dialogue: 0,0:01:14.28,0:01:15.72,Merma_CN,NTP,0,0,0,,那麼 一起出發吧
+Dialogue: 0,0:01:16.73,0:01:18.50,Scarl_CN,NTP,0,0,0,,欸？等一下啊！
+Dialogue: 0,0:01:18.93,0:01:20.52,Flora_CN,NTP,0,0,0,,Let's go
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:28.95,0:03:29.73,Flora_CN,NTP,0,0,0,,快點快點！
+Dialogue: 0,0:03:29.89,0:03:30.97,Flora_CN,NTP,0,0,0,,這邊這邊！
+Dialogue: 0,0:03:31.20,0:03:33.30,Flora_CN,NTP,0,0,0,,這裡就是遙的故鄉嗎？
+Dialogue: 0,0:03:33.56,0:03:36.88,Flora_CN,NTP,0,0,0,,是啊 這個地方以前是個驛站街
+Dialogue: 0,0:03:37.06,0:03:39.49,Flora_CN,NTP,0,0,0,,現在是一個觀光地
+Dialogue: 0,0:03:41.41,0:03:44.38,Twink_CN,NTP,0,0,0,,這裡氣氛挺好的 是個不錯的小鎮啊
+Dialogue: 0,0:03:44.69,0:03:47.36,Merma_CN,NTP,0,0,0,,那麼 小遙的家在哪裡呢？
+Dialogue: 0,0:03:49.62,0:03:52.81,Flora_CN,NTP,0,0,0,,在這裡喲
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:56.86,0:03:58.37,Flora_CN,NTP,0,0,0,,我回來了！
+Dialogue: 0,0:03:58.77,0:04:00.14,Defau_CN,NTP,0,0,0,,啊 是姐姐啊
+Dialogue: 0,0:04:00.32,0:04:01.61,Defau_CN,NTP,0,0,0,,小遙 歡迎回來
+Dialogue: 0,0:04:01.91,0:04:03.24,Defau_CN,NTP,0,0,0,,啊 小遙 小遙！
+Dialogue: 0,0:04:03.41,0:04:05.19,Defau_CN,NTP,0,0,0,,小遙！ 欸！？
+Dialogue: 0,0:04:05.40,0:04:08.87,Defau_CN,NTP,0,0,0,,啊 遙長大了啊
+Dialogue: 0,0:04:09.06,0:04:10.76,Flora_CN,NTP,0,0,0,,老奶奶 好久不見了
+Dialogue: 0,0:04:11.52,0:04:12.69,Merma_CN,NTP,0,0,0,,不好意思打擾了
+Dialogue: 0,0:04:13.34,0:04:15.18,Defau_CN,NTP,0,0,0,,你的朋友嗎？
+Dialogue: 0,0:04:15.39,0:04:16.59,Merma_CN,NTP,0,0,0,,貴安
+Dialogue: 0,0:04:17.13,0:04:19.21,Defau_CN,NTP,0,0,0,,真是有禮貌的問候啊
+Dialogue: 0,0:04:19.64,0:04:22.06,Defau_CN,NTP,0,0,0,,真不愧是光輝學園的學生呢
+Dialogue: 0,0:04:22.36,0:04:25.13,Defau_CN,NTP,0,0,0,,小遙！ 嗚…
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:04:28.96,0:04:31.86,Defau_CN,NTP,0,0,0,,前往遙的家裡！ 初次的留宿會！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:04:33.33,0:04:34.91,Defau_CN,NTP,0,0,0,,那麼 請往這邊來
+Dialogue: 0,0:04:35.18,0:04:36.71,Merma_CN,NTP,0,0,0,,承蒙關照
+Dialogue: 0,0:04:38.79,0:04:42.98,Merma_CN,NTP,0,0,0,,這是我帶來的見面禮 雖然只是些微不足道的東西…
+Dialogue: 0,0:04:44.13,0:04:45.22,Defau_CN,NTP,0,0,0,,哇好厲害
+Dialogue: 0,0:04:45.40,0:04:46.79,Defau_CN,NTP,0,0,0,,太客氣了
+Dialogue: 0,0:04:46.99,0:04:48.94,Defau_CN,NTP,0,0,0,,其實可以不用這麼在意的
+Dialogue: 0,0:04:49.15,0:04:50.64,Merma_CN,NTP,0,0,0,,這是我發自內心的
+Dialogue: 0,0:04:50.84,0:04:52.64,Defau_CN,NTP,0,0,0,,混裝著高級甜瓜啊
+Dialogue: 0,0:04:52.86,0:04:54.55,Twink_CN,NTP,0,0,0,,這旅行箱品質不錯
+Dialogue: 0,0:04:54.72,0:04:56.70,Defau_CN,NTP,0,0,0,,抱歉啊 店裡稍微有些忙亂
+Dialogue: 0,0:04:56.95,0:04:58.49,Flora_CN,NTP,0,0,0,,客人挺多的啊
+Dialogue: 0,0:04:58.96,0:05:01.83,Defau_CN,NTP,0,0,0,,如果可以的話 我們也來幫忙吧
+Dialogue: 0,0:05:02.16,0:05:04.83,Defau_CN,NTP,0,0,0,,不用了 難得的暑假
+Dialogue: 0,0:05:05.02,0:05:06.30,Defau_CN,NTP,0,0,0,,你們就好好休息吧
+Dialogue: 0,0:05:06.60,0:05:10.38,Twink_CN,NTP,0,0,0,,沒事 畢竟是難得的無工作日 也想做些其他的事情
+Dialogue: 0,0:05:10.97,0:05:14.95,Merma_CN,NTP,0,0,0,,所謂暑假 就是去體驗平時無法體驗到的事情
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:05:16.37,0:05:18.33,Flora_CN,NTP,0,0,0,,歡迎光臨
+Dialogue: 0,0:05:18.66,0:05:21.06,Defau_CN,NTP,0,0,0,,銅鑼燒八個是吧 請收好
+Dialogue: 0,0:05:21.68,0:05:23.34,Twink_CN,NTP,0,0,0,,多謝品嚐
+Dialogue: 0,0:05:23.50,0:05:24.65,Defau_CN,NTP,0,0,0,,承蒙款待
+Dialogue: 0,0:05:27.53,0:05:31.18,Flora_CN,NTP,0,0,0,,南姐姐 請為那邊的客人點單
+Dialogue: 0,0:05:31.34,0:05:32.43,Merma_CN,NTP,0,0,0,,啊 好的
+Dialogue: 0,0:05:32.89,0:05:35.02,Flora_CN,NTP,0,0,0,,遠遠 麻煩你去上茶了
+Dialogue: 0,0:05:35.39,0:05:36.27,Scarl_CN,NTP,0,0,0,,好…
+Dialogue: 0,0:05:36.47,0:05:38.84,Merma_CN,NTP,0,0,0,,你點的是三份紅豆年糕湯（善哉）是吧
+Dialogue: 0,0:05:39.05,0:05:41.49,Scarl_CN,NTP,0,0,0,,茶水給你端來了
+Dialogue: 0,0:05:41.66,0:05:43.13,Defau_CN,NTP,0,0,0,,不愧是老手
+Dialogue: 0,0:05:43.51,0:05:44.91,Twink_CN,NTP,0,0,0,,小春春倒是挺厲害的
+Dialogue: 0,0:05:45.52,0:05:47.03,Defau_CN,NTP,0,0,0,,豆沙水果涼粉（餡蜜）完成了
+Dialogue: 0,0:05:47.42,0:05:48.48,Scarl_CN,NTP,0,0,0,,餡蜜？
+Dialogue: 0,0:05:48.73,0:05:50.82,Defau_CN,NTP,0,0,0,,哎呀 你喜歡餡蜜？
+Dialogue: 0,0:05:51.11,0:05:53.25,Scarl_CN,NTP,0,0,0,,欸？ 嗯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:05:53.63,0:05:55.07,Flora_CN,NTP,0,0,0,,我開動了
+Dialogue: 0,0:05:56.76,0:05:58.37,Defau_CN,NTP,0,0,0,,真好吃
+Dialogue: 0,0:05:58.55,0:06:00.93,Twink_CN,NTP,0,0,0,,工作後品嚐到的點心真是別有一番風味
+Dialogue: 0,0:06:01.18,0:06:02.99,Flora_CN,NTP,0,0,0,,怎麼樣 我家的餡蜜
+Dialogue: 0,0:06:03.42,0:06:05.02,Scarl_CN,NTP,0,0,0,,好吃 簡直無可挑剔
+Dialogue: 0,0:06:05.28,0:06:06.65,Flora_CN,NTP,0,0,0,,那太好了
+Dialogue: 0,0:06:06.84,0:06:08.32,Defau_CN,NTP,0,0,0,,永遠說的是什麼
+Dialogue: 0,0:06:08.52,0:06:10.01,Flora_CN,NTP,0,0,0,,就是好吃的意思
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:15.21,0:06:16.90,Defau_CN,NTP,0,0,0,,讓皮膚變得更光滑
+Dialogue: 0,0:06:17.29,0:06:20.80,Twink_CN,NTP,0,0,0,,走路就能去泡溫泉 春春家真棒
+Dialogue: 0,0:06:21.02,0:06:21.76,Flora_CN,NTP,0,0,0,,對吧
+Dialogue: 0,0:06:21.94,0:06:24.94,Flora_CN,NTP,0,0,0,,夏天的話 這個城鎮附近會有很多的活動
+Dialogue: 0,0:06:25.20,0:06:26.94,Defau_CN,NTP,0,0,0,,恩 比如說試膽大會
+Dialogue: 0,0:06:27.12,0:06:28.58,Merma_CN,NTP,0,0,0,,試膽大會！？
+Dialogue: 0,0:06:29.24,0:06:30.45,Flora_CN,NTP,0,0,0,,沒事的
+Dialogue: 0,0:06:30.63,0:06:32.21,Flora_CN,NTP,0,0,0,,會舉行的也就孟蘭盆節的的時候
+Dialogue: 0,0:06:32.45,0:06:33.89,Merma_CN,NTP,0,0,0,,這樣啊
+Dialogue: 0,0:06:34.08,0:06:36.09,Twink_CN,NTP,0,0,0,,畢竟南南怕妖怪嘛
+Dialogue: 0,0:06:36.32,0:06:37.22,Scarl_CN,NTP,0,0,0,,欸～
+Dialogue: 0,0:06:37.46,0:06:39.78,Merma_CN,NTP,0,0,0,,對都會有不擅長的事物嘛
+Dialogue: 0,0:06:45.50,0:06:47.11,Scarl_CN,NTP,0,0,0,,不擅長的東西？
+Dialogue: 0,0:06:52.67,0:06:54.31,Merma_CN,NTP,0,0,0,,永遠 怎麼啦
+Dialogue: 0,0:06:55.82,0:06:57.24,Scarl_CN,NTP,0,0,0,,…沒什麼
+Dialogue: 0,0:06:59.29,0:07:00.82,Scarl_CN,NTP,0,0,0,,那麼 快走吧
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:07:08.94,0:07:10.79,Aroma_CN,NTP,0,0,0,,管家的休息日
+Dialogue: 0,0:07:15.16,0:07:16.87,Aroma_CN,NTP,0,0,0,,好冰啊
+Dialogue: 0,0:07:17.52,0:07:20.33,Defau_CN,NTP,0,0,0,,準備好了
+Dialogue: 0,0:07:20.65,0:07:22.25,Defau_CN,NTP,0,0,0,,流水素麵 開始啦
+Dialogue: 0,0:07:22.44,0:07:24.11,Merma_CN,NTP,0,0,0,,暑假中的體驗呢
+Dialogue: 0,0:07:25.50,0:07:28.15,Merma_CN,NTP,0,0,0,,真意外 挺難的嘛
+Dialogue: 0,0:07:33.45,0:07:34.48,Defau_CN,NTP,0,0,0,,夾到了！
+Dialogue: 0,0:07:35.86,0:07:37.23,Flora_CN,NTP,0,0,0,,真好吃！
+Dialogue: 0,0:07:40.71,0:07:42.51,Flora_CN,NTP,0,0,0,,哼哼… 你們兩個
+Dialogue: 0,0:07:42.69,0:07:44.88,Flora_CN,NTP,0,0,0,,流水素麵並不是瞄準著去取
+Dialogue: 0,0:07:45.08,0:07:47.72,Flora_CN,NTP,0,0,0,,而是願者上鉤 怎麼樣！
+Dialogue: 0,0:07:49.51,0:07:50.74,Flora_CN,NTP,0,0,0,,很簡單吧？
+Dialogue: 0,0:07:56.20,0:07:57.27,Merma_CN,NTP,0,0,0,,真好吃
+Dialogue: 0,0:07:57.46,0:07:58.63,Scarl_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:07:58.93,0:08:04.14,Defau_CN,NTP,0,0,0,,這是從鄰居那邊得到的 早上剛摘下來的玉米 來嚐嚐吧
+Dialogue: 0,0:08:04.38,0:08:05.76,Twink_CN,NTP,0,0,0,,哇～ 看起來挺好吃的
+Dialogue: 0,0:08:05.97,0:08:07.70,Twink_CN,NTP,0,0,0,,我開動了
+Dialogue: 0,0:08:08.95,0:08:10.20,Twink_CN,NTP,0,0,0,,真甜
+Dialogue: 0,0:08:10.44,0:08:12.40,Scarl_CN,NTP,0,0,0,,這種吃法…
+Dialogue: 0,0:08:12.61,0:08:14.33,Merma_CN,NTP,0,0,0,,暑假的獨特體驗呢
+Dialogue: 0,0:08:14.54,0:08:15.37,Scarl_CN,NTP,0,0,0,,欸！
+Dialogue: 0,0:08:20.21,0:08:20.91,Defau_CN,NTP,0,0,0,,做到了！
+Dialogue: 0,0:08:21.09,0:08:22.38,Defau_CN,NTP,0,0,0,,是我贏了！
+Dialogue: 0,0:08:22.48,0:08:24.18,Flora_CN,NTP,0,0,0,,啊～ 好不甘心
+Dialogue: 0,0:08:24.38,0:08:26.08,Scarl_CN,NTP,0,0,0,,你們在做什麼呢？
+Dialogue: 0,0:08:26.50,0:08:28.28,Flora_CN,NTP,0,0,0,,西瓜的吐籽大賽
+Dialogue: 0,0:08:28.46,0:08:30.50,Defau_CN,NTP,0,0,0,,吐的遠的人贏
+Dialogue: 0,0:08:30.89,0:08:32.16,Scarl_CN,NTP,0,0,0,,吐籽…
+Dialogue: 0,0:08:32.71,0:08:34.48,Defau_CN,NTP,0,0,0,,那麼我也不能輸啊
+Dialogue: 0,0:08:38.00,0:08:40.03,Defau_CN,NTP,0,0,0,,還是工作時間你在幹什麼啊！ 快點回來工作！
+Dialogue: 0,0:08:40.61,0:08:42.17,Merma_CN,NTP,0,0,0,,暑假的獨特體驗
+Dialogue: 0,0:08:42.58,0:08:43.53,Scarl_CN,NTP,0,0,0,,欸？
+Dialogue: 0,0:08:45.05,0:08:46.91,Flora_CN,NTP,0,0,0,,哇！ 飛的好遠！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:09:05.30,0:09:07.89,Twink_CN,NTP,0,0,0,,變得好想睡覺了
+Dialogue: 0,0:09:08.56,0:09:11.06,Flora_CN,NTP,0,0,0,,畢竟從白天開始已經玩了很多～
+Dialogue: 0,0:09:11.17,0:09:13.35,Defau_CN,NTP,0,0,0,,嗯～ 躺下～
+Dialogue: 0,0:09:13.99,0:09:15.36,Twink_CN,NTP,0,0,0,,那麼我也
+Dialogue: 0,0:09:15.56,0:09:16.46,Flora_CN,NTP,0,0,0,,躺下～
+Dialogue: 0,0:09:16.75,0:09:17.91,Defau_CN,NTP,0,0,0,,躺下～
+Dialogue: 0,0:09:18.12,0:09:19.97,Merma_CN,NTP,0,0,0,,大家這樣 成何體統
+Dialogue: 0,0:09:20.58,0:09:22.87,Flora_CN,NTP,0,0,0,,就這樣在榻榻米上面個睡覺也是可以的
+Dialogue: 0,0:09:23.27,0:09:24.61,Merma_CN,NTP,0,0,0,,是這樣嗎？
+Dialogue: 0,0:09:25.03,0:09:27.62,Merma_CN,NTP,0,0,0,,那麼請允許我試看看
+Dialogue: 0,0:09:28.01,0:09:30.56,Flora_CN,NTP,0,0,0,,遠遠 躺下休息的話會很舒服的喲
+Dialogue: 0,0:09:30.90,0:09:32.70,Scarl_CN,NTP,0,0,0,,不用了 我就這樣…
+Dialogue: 0,0:09:32.89,0:09:33.48,Twink_CN,NTP,0,0,0,,有機可乘！
+Dialogue: 0,0:09:33.67,0:09:34.57,Scarl_CN,NTP,0,0,0,,哇！
+Dialogue: 0,0:09:34.77,0:09:35.75,Scarl_CN,NTP,0,0,0,,真是的！
+Dialogue: 0,0:09:36.76,0:09:39.32,Merma_CN,NTP,0,0,0,,榻榻米這麼涼爽真是太舒服了
+Dialogue: 0,0:09:39.72,0:09:40.78,Scarl_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:10:23.78,0:10:25.59,Scarl_CN,NTP,0,0,0,,不要！！！！
+Dialogue: 0,0:10:26.60,0:10:27.73,Scarl_CN,NTP,0,0,0,,啊！
+Dialogue: 0,0:10:33.46,0:10:35.15,Merma_CN,NTP,0,0,0,,醒了嗎？
+Dialogue: 0,0:10:35.55,0:10:36.74,Scarl_CN,NTP,0,0,0,,小遙她們呢
+Dialogue: 0,0:10:37.09,0:10:39.50,Merma_CN,NTP,0,0,0,,正在學做和式點心
+Dialogue: 0,0:10:40.00,0:10:41.30,Merma_CN,NTP,0,0,0,,永遠你也去學做怎樣
+Dialogue: 0,0:10:41.58,0:10:43.28,Scarl_CN,NTP,0,0,0,,不 不用了…
+Dialogue: 0,0:10:44.16,0:10:46.01,Merma_CN,NTP,0,0,0,,發出了些許痛苦的聲音
+Dialogue: 0,0:10:47.31,0:10:49.66,Merma_CN,NTP,0,0,0,,你做惡夢了嗎？
+Dialogue: 0,0:10:54.47,0:10:56.57,Scarl_CN,NTP,0,0,0,,不 什麼都沒有
+Dialogue: 0,0:10:57.52,0:11:00.65,Merma_CN,NTP,0,0,0,,我也經常這麼說
+Dialogue: 0,0:11:01.09,0:11:02.03,Scarl_CN,NTP,0,0,0,,欸？
+Dialogue: 0,0:11:02.46,0:11:06.13,Merma_CN,NTP,0,0,0,,不想被別人擔心 所以就…
+Dialogue: 0,0:11:06.40,0:11:09.29,Merma_CN,NTP,0,0,0,,但是可以與別人分享讓自己變得輕鬆
+Dialogue: 0,0:11:11.65,0:11:15.12,Scarl_CN,NTP,0,0,0,,每當到了傍晚
+Dialogue: 0,0:11:15.74,0:11:18.60,Scarl_CN,NTP,0,0,0,,總是會回想起自己還是Twilight的記憶
+Dialogue: 0,0:11:19.90,0:11:23.24,Scarl_CN,NTP,0,0,0,,感到可能會再次被黑暗所吞噬…
+Dialogue: 0,0:11:24.29,0:11:27.41,Scarl_CN,NTP,0,0,0,,每當黑夜來臨就會覺得可怕…
+Dialogue: 0,0:11:32.76,0:11:34.51,Flora_CN,NTP,0,0,0,,啊 遠遠你醒啦
+Dialogue: 0,0:11:35.45,0:11:39.10,Flora_CN,NTP,0,0,0,,差不多變暗了 是時候開始了吧
+Dialogue: 0,0:11:39.31,0:11:40.40,Merma_CN,NTP,0,0,0,,嗯 是啊
+Dialogue: 0,0:11:40.70,0:11:42.18,Scarl_CN,NTP,0,0,0,,究竟是要去哪裡
+Dialogue: 0,0:11:42.37,0:11:44.18,Merma_CN,NTP,0,0,0,,去了你就會知道了
+Dialogue: 0,0:11:45.26,0:11:47.29,Merma_CN,NTP,0,0,0,,暑假的獨特體驗喲
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:11:52.45,0:11:53.92,Flora_CN,NTP,0,0,0,,貴婦頭
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:11:55.46,0:11:56.86,Twink_CN,NTP,0,0,0,,要開始啦
+Dialogue: 0,0:12:07.45,0:12:08.49,Defau_CN,NTP,0,0,0,,小遙
+Dialogue: 0,0:12:08.76,0:12:10.49,Flora_CN,NTP,0,0,0,,晚安
+Dialogue: 0,0:12:10.67,0:12:11.89,Flora_CN,NTP,0,0,0,,巡邏是嗎？
+Dialogue: 0,0:12:12.06,0:12:12.68,Defau_CN,NTP,0,0,0,,是啊
+Dialogue: 0,0:12:12.87,0:12:14.98,Defau_CN,NTP,0,0,0,,畢竟我們必須守護這個城鎮
+Dialogue: 0,0:12:15.19,0:12:17.52,Defau_CN,NTP,0,0,0,,話說關於火的處理 不要出差錯啊
+Dialogue: 0,0:12:17.73,0:12:19.42,Flora_CN,NTP,0,0,0,,會完美的將其處理的
+Dialogue: 0,0:12:19.64,0:12:21.76,Defau_CN,NTP,0,0,0,,很好！ 那麼在享受的同時別忘了提防啊
+Dialogue: 0,0:12:21.97,0:12:23.23,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:12:27.59,0:12:29.10,Defau_CN,NTP,0,0,0,,那是最後一根了
+Dialogue: 0,0:12:29.28,0:12:30.69,Defau_CN,NTP,0,0,0,,煙火已經沒有了
+Dialogue: 0,0:12:30.89,0:12:32.21,Defau_CN,NTP,0,0,0,,還想再玩下去
+Dialogue: 0,0:12:32.65,0:12:34.42,Merma_CN,NTP,0,0,0,,稍微等一下
+Dialogue: 0,0:12:35.59,0:12:38.04,Merma_CN,NTP,0,0,0,,接下來這些火花才是重頭戲
+Dialogue: 0,0:12:39.79,0:12:42.47,Defau_CN,NTP,0,0,0,,第二個旅行箱裡面儘是煙火
+Dialogue: 0,0:12:42.65,0:12:45.62,Twink_CN,NTP,0,0,0,,關於留宿會 南南你究竟是多麼的期待啊
+Dialogue: 0,0:12:47.62,0:12:48.55,Merma_CN,NTP,0,0,0,,給你
+Dialogue: 0,0:12:48.71,0:12:50.40,Scarl_CN,NTP,0,0,0,,嗯 謝謝
+Dialogue: 0,0:12:53.96,0:12:55.56,Scarl_CN,NTP,0,0,0,,這光芒真美麗
+Dialogue: 0,0:12:56.06,0:12:57.53,Defau_CN,NTP,0,0,0,,啊 是煙火！
+Dialogue: 0,0:12:57.80,0:12:58.64,Defau_CN,NTP,0,0,0,,多麼漂亮啊
+Dialogue: 0,0:12:59.08,0:13:02.22,Flora_CN,NTP,0,0,0,,那麼 如果不介意的話 一起過來放煙火吧
+Dialogue: 0,0:13:02.40,0:13:03.29,Defau_CN,NTP,0,0,0,,好啊！
+Dialogue: 0,0:13:14.43,0:13:16.09,Scarl_CN,NTP,0,0,0,,也有像這樣的晚上呢
+Dialogue: 0,0:13:19.34,0:13:20.16,Merma_CN,NTP,0,0,0,,還會覺得可怕嗎？
+Dialogue: 0,0:13:21.77,0:13:23.63,Scarl_CN,NTP,0,0,0,,現在的話並沒太大得感覺
+Dialogue: 0,0:13:24.10,0:13:28.01,Merma_CN,NTP,0,0,0,,如果對夜晚感到恐懼的話 就像這樣與大家在一起就行了
+Dialogue: 0,0:13:29.34,0:13:31.86,Merma_CN,NTP,0,0,0,,你可以更加的依靠我們
+Dialogue: 0,0:13:32.93,0:13:34.22,Scarl_CN,NTP,0,0,0,,南…
+Dialogue: 0,0:13:39.35,0:13:42.12,Scarl_CN,NTP,0,0,0,,和大家在一起的話 會不怕妖怪嘛
+Dialogue: 0,0:13:42.68,0:13:46.43,Merma_CN,NTP,0,0,0,,嗯 應該大概也許
+Dialogue: 0,0:13:51.55,0:13:53.89,Flora_CN,NTP,0,0,0,,發射式煙火 要發射囉！
+Dialogue: 0,0:14:01.60,0:14:04.14,DDark_CN,NTP,0,0,0,,可惡的Lock
+Dialogue: 0,0:14:04.69,0:14:07.94,DDark_CN,NTP,0,0,0,,用那種高高在上的態度讓我用這個去收集絕望
+Dialogue: 0,0:14:09.40,0:14:12.54,DDark_CN,NTP,0,0,0,,本以為通過旅行來忘卻
+Dialogue: 0,0:14:13.24,0:14:15.32,DDark_CN,NTP,0,0,0,,然而儘是失望
+Dialogue: 0,0:14:15.49,0:14:17.47,DDark_CN,NTP,0,0,0,,畢竟Twilight大人已經不在了
+Dialogue: 0,0:14:17.62,0:14:19.30,DDark_CN,NTP,0,0,0,,也只能儘快忘記她了
+Dialogue: 0,0:14:20.76,0:14:21.72,DDark_CN,NTP,0,0,0,,是誰啊
+Dialogue: 0,0:14:21.92,0:14:23.34,DDark_CN,NTP,0,0,0,,明明人家現在這麼失落
+Dialogue: 0,0:14:24.66,0:14:27.10,DDark_CN,NTP,0,0,0,,那...那是前Twilight大人
+Dialogue: 0,0:14:27.49,0:14:30.40,DDark_CN,NTP,0,0,0,,可惡 不知道我的心意然而看起來確實那麼開心
+Dialogue: 0,0:14:30.61,0:14:31.59,DDark_CN,NTP,0,0,0,,無法原諒
+Dialogue: 0,0:14:33.17,0:14:34.69,Defau_CN,NTP,0,0,0,,啊 你誰啊
+Dialogue: 0,0:14:34.85,0:14:36.73,DDark_CN,NTP,0,0,0,,讓我看看你的夢想
+Dialogue: 0,0:14:40.74,0:14:42.73,Defau_CN,NTP,0,0,0,,保護好這個城鎮免受火災
+Dialogue: 0,0:14:43.31,0:14:47.03,DDark_CN,NTP,0,0,0,,這個夢想必須要關在絕望的牢籠裡
+Dialogue: 0,0:14:47.60,0:14:49.33,DDark_CN,NTP,0,0,0,,Shut your dream
+Dialogue: 0,0:14:50.07,0:14:51.90,DDark_CN,NTP,0,0,0,,出來 絕望堡
+Dialogue: 0,0:14:58.65,0:15:00.20,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:15:07.88,0:15:08.97,Twink_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:15:09.25,0:15:10.93,Defau_CN,NTP,0,0,0,,大家快往這邊逃
+Dialogue: 0,0:15:12.02,0:15:13.62,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:15:15.86,0:15:17.17,Scarl_CN,NTP,0,0,0,,這是
+Dialogue: 0,0:15:17.94,0:15:18.93,Scarl_CN,NTP,0,0,0,,黑暗
+Dialogue: 0,0:15:22.03,0:15:23.42,DDark_CN,NTP,0,0,0,,真令人感到可悲
+Dialogue: 0,0:15:24.27,0:15:25.07,Scarl_CN,NTP,0,0,0,,Shut
+Dialogue: 0,0:15:25.36,0:15:27.26,DDark_CN,NTP,0,0,0,,美麗的黑公主
+Dialogue: 0,0:15:27.46,0:15:30.35,DDark_CN,NTP,0,0,0,,我本打算一生追隨你的
+Dialogue: 0,0:15:30.54,0:15:32.04,DDark_CN,NTP,0,0,0,,然而
+Dialogue: 0,0:15:32.36,0:15:35.23,DDark_CN,NTP,0,0,0,,愛之深恨之切
+Dialogue: 0,0:15:35.45,0:15:37.63,DDark_CN,NTP,0,0,0,,只能將你抹除 Twilight
+Dialogue: 0,0:15:44.08,0:15:44.97,Scarl_CN,NTP,0,0,0,,南
+Dialogue: 0,0:15:47.98,0:15:50.47,Merma_CN,NTP,0,0,0,,Shut 連這種地方也能遇到你
+Dialogue: 0,0:15:50.74,0:15:51.97,DDark_CN,NTP,0,0,0,,別來打擾我
+Dialogue: 0,0:15:52.17,0:15:54.38,DDark_CN,NTP,0,0,0,,我的目標只有Twilight
+Dialogue: 0,0:15:54.81,0:15:56.72,Merma_CN,NTP,0,0,0,,那麼跟她就沒有任何關係了
+Dialogue: 0,0:15:57.15,0:15:58.06,DDark_CN,NTP,0,0,0,,什麼
+Dialogue: 0,0:15:58.83,0:16:01.01,Merma_CN,NTP,0,0,0,,她已經不是Twilight
+Dialogue: 0,0:16:01.60,0:16:03.13,Merma_CN,NTP,0,0,0,,而是我們的朋友
+Dialogue: 0,0:16:03.75,0:16:05.43,Merma_CN,NTP,0,0,0,,紅城永遠
+Dialogue: 0,0:16:08.12,0:16:10.39,Merma_CN,NTP,0,0,0,,是這樣沒錯吧 永遠！
+Dialogue: 0,0:16:11.59,0:16:12.73,Scarl_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:16:17.30,0:16:18.95,Merma_CN,NTP,0,0,0,,{\pos(330,705)}Precure
+Dialogue: 0,0:16:19.62,0:16:22.02,Merma_CN,NTP,0,0,0,,{\pos(330,705)}Princess Engage
+Dialogue: 0,0:16:17.30,0:16:18.95,Scarl_CN,NTP,0,0,0,,{\pos(970,705)}Precure
+Dialogue: 0,0:16:19.62,0:16:22.02,Scarl_CN,NTP,0,0,0,,{\pos(970,705)}Princess Engage
+Dialogue: 0,0:17:02.79,0:17:06.52,Merma_CN,NTP,0,0,0,,澄澈的海洋公主
+Dialogue: 0,0:17:09.23,0:17:10.81,Merma_CN,NTP,0,0,0,,Cure Mermaid
+Dialogue: 0,0:17:14.18,0:17:16.31,Scarl_CN,NTP,0,0,0,,真紅的烈焰公主
+Dialogue: 0,0:17:20.11,0:17:21.62,Scarl_CN,NTP,0,0,0,,Cure Scarlet
+Dialogue: 0,0:17:24.51,0:17:26.63,Merma_CN,NTP,0,0,0,,關在冰冷牢籠裡的夢想
+Dialogue: 0,0:17:29.18,0:17:30.91,Merma_CN,NTP,0,0,0,,是時候歸還了
+Dialogue: 0,0:17:31.30,0:17:33.33,Scarl_CN,NTP,0,0,0,,請做好覺悟吧！
+Dialogue: 0,0:17:33.81,0:17:35.73,DDark_CN,NTP,0,0,0,,啊 美麗！
+Dialogue: 0,0:17:36.63,0:17:39.51,DDark_CN,NTP,0,0,0,,可惡 更加讓人不爽了
+Dialogue: 0,0:17:39.68,0:17:40.78,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:17:40.97,0:17:42.30,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:17:42.89,0:17:45.38,DDark_CN,NTP,0,0,0,,絕...望堡
+Dialogue: 0,0:17:45.86,0:17:47.05,DDark_CN,NTP,0,0,0,,絕望
+Dialogue: 0,0:17:48.38,0:17:49.34,DDark_CN,NTP,0,0,0,,不錯
+Dialogue: 0,0:17:58.68,0:18:00.04,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:18:05.30,0:18:06.48,Merma_CN,NTP,0,0,0,,Scarlet
+Dialogue: 0,0:18:08.82,0:18:10.01,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:18:16.77,0:18:18.11,DDark_CN,NTP,0,0,0,,絕望
+Dialogue: 0,0:18:19.37,0:18:20.35,Twink_CN,NTP,0,0,0,,不會讓你得逞的
+Dialogue: 0,0:18:20.57,0:18:23.32,Flora_CN,NTP,0,0,0,,不會讓你再次傷害Scarlet
+Dialogue: 0,0:18:23.70,0:18:25.46,Scarl_CN,NTP,0,0,0,,Flora Twinkle
+Dialogue: 0,0:18:26.81,0:18:28.91,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:18:32.58,0:18:34.39,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:18:35.26,0:18:35.90,Flora_CN,NTP,0,0,0,,百合
+Dialogue: 0,0:18:38.48,0:18:39.35,Twink_CN,NTP,0,0,0,,月亮
+Dialogue: 0,0:18:42.08,0:18:43.60,Flora_CN,NTP,0,0,0,,飛舞吧 百合
+Dialogue: 0,0:18:43.95,0:18:47.47,Flora_CN,NTP,0,0,0,,Precure Lis Tourbillon
+Dialogue: 0,0:18:48.91,0:18:50.29,Twink_CN,NTP,0,0,0,,閃爍吧 月亮
+Dialogue: 0,0:18:50.64,0:18:55.02,Twink_CN,NTP,0,0,0,,Precure Full Moon Humming
+Dialogue: 0,0:19:00.47,0:19:02.28,Scarl_CN,NTP,0,0,0,,所謂有能依靠的人在身邊
+Dialogue: 0,0:19:02.51,0:19:03.84,Scarl_CN,NTP,0,0,0,,就是這種感覺吧
+Dialogue: 0,0:19:07.04,0:19:07.85,Merma_CN,NTP,0,0,0,,泡沫
+Dialogue: 0,0:19:10.46,0:19:12.15,Merma_CN,NTP,0,0,0,,怒吼吧 泡泡
+Dialogue: 0,0:19:12.51,0:19:15.44,Merma_CN,NTP,0,0,0,,Precure Bubble Ripple
+Dialogue: 0,0:19:18.68,0:19:20.08,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:19:22.21,0:19:23.30,Scarl_CN,NTP,0,0,0,,花火
+Dialogue: 0,0:19:28.87,0:19:30.55,Scarl_CN,NTP,0,0,0,,燃燒吧 火焰
+Dialogue: 0,0:19:30.85,0:19:34.50,Scarl_CN,NTP,0,0,0,,Bubble Scarlet Spark
+Dialogue: 0,0:19:34.94,0:19:36.93,DDark_CN,NTP,0,0,0,,絕望堡
+Dialogue: 0,0:19:38.46,0:19:41.22,Scarl_CN,NTP,0,0,0,,如果被黑暗追逐是我的宿命
+Dialogue: 0,0:19:41.45,0:19:43.58,Scarl_CN,NTP,0,0,0,,那麼我將面對不逃避
+Dialogue: 0,0:19:43.84,0:19:45.43,Scarl_CN,NTP,0,0,0,,雙手將其驅除
+Dialogue: 0,0:19:45.61,0:19:46.69,Scarl_CN,NTP,0,0,0,,來幾次都一樣
+Dialogue: 0,0:19:48.20,0:19:49.33,Scarl_CN,NTP,0,0,0,,Exchange
+Dialogue: 0,0:19:51.92,0:19:53.52,Scarl_CN,NTP,0,0,0,,{\pos(640,650)}{\fs30}Mode Elegant
+Dialogue: 0,0:19:51.92,0:19:53.52,Scarl_CN,NTP,0,0,0,,優雅型式
+Dialogue: 0,0:20:12.83,0:20:14.06,Scarl_CN,NTP,0,0,0,,Scarlet Violin
+Dialogue: 0,0:20:14.84,0:20:15.77,Scarl_CN,NTP,0,0,0,,火鳥
+Dialogue: 0,0:20:30.15,0:20:32.96,Scarl_CN,NTP,0,0,0,,展翅翱翔 炎之翼
+Dialogue: 0,0:20:39.19,0:20:43.59,Scarl_CN,NTP,0,0,0,,Precure Phoenix Blaze
+Dialogue: 0,0:20:55.73,0:20:59.08,DDark_CN,NTP,0,0,0,,Burning
+Dialogue: 0,0:21:04.92,0:21:06.36,Scarl_CN,NTP,0,0,0,,貴安
+Dialogue: 0,0:21:09.76,0:21:11.53,DDark_CN,NTP,0,0,0,,依舊是那麼美麗
+Dialogue: 0,0:21:13.17,0:21:15.57,DDark_CN,NTP,0,0,0,,我一定會打敗你的
+Dialogue: 0,0:21:18.81,0:21:19.65,Scarl_CN,NTP,0,0,0,,打開
+Dialogue: 0,0:21:20.69,0:21:22.35,Scarl_CN,NTP,0,0,0,,通往夢想的大門
+Dialogue: 0,0:21:28.99,0:21:32.37,Scarl_CN,NTP,0,0,0,,也請繼續守護這個美麗的城鎮
+Dialogue: 0,0:21:33.77,0:21:35.24,Twink_CN,NTP,0,0,0,,真是的
+Dialogue: 0,0:21:35.48,0:21:36.53,Twink_CN,NTP,0,0,0,,都是那傢伙的錯
+Dialogue: 0,0:21:36.70,0:21:39.24,Twink_CN,NTP,0,0,0,,難得的煙火大會 就這樣糟蹋了
+Dialogue: 0,0:21:39.44,0:21:41.71,Scarl_CN,NTP,0,0,0,,不 其實也沒那麼糟
+Dialogue: 0,0:21:43.74,0:21:47.29,Scarl_CN,NTP,0,0,0,,就這麼睡著了也太可惜了 真是個開心的夜晚
+Dialogue: 0,0:21:47.51,0:21:50.46,Flora_CN,NTP,0,0,0,,那快點回去繼續玩耍吧
+Dialogue: 0,0:21:50.63,0:21:51.86,Flora_CN,NTP,0,0,0,,畢竟是暑假
+Dialogue: 0,0:21:52.04,0:21:54.36,Flora_CN,NTP,0,0,0,,偶爾通宵下也是可以的吧
+Dialogue: 0,0:21:54.51,0:21:56.50,Merma_CN,NTP,0,0,0,,那樣的話 我也是帶了些好東西
+Dialogue: 0,0:21:56.67,0:22:00.01,Twink_CN,NTP,0,0,0,,話說還剩下一個箱子沒開
+Dialogue: 0,0:22:00.18,0:22:01.51,Twink_CN,NTP,0,0,0,,裡面放了什麼
+Dialogue: 0,0:22:01.72,0:22:03.72,Merma_CN,NTP,0,0,0,,打開後你們會很開心就是
+Dialogue: 0,0:22:03.89,0:22:05.66,Twink_CN,NTP,0,0,0,,欸好在意
+Dialogue: 0,0:22:05.86,0:22:07.59,Scarl_CN,NTP,0,0,0,,哈哈哈... 真令人期待呢
+Dialogue: 0,0:22:07.89,0:22:09.11,Merma_CN,NTP,0,0,0,,哈哈哈...
+Dialogue: 0,0:22:09.34,0:22:12.09,Defau_CN,NTP,0,0,0,,喂 各位
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:24:07.22,0:24:09.08,Scarl_CN,NTP,0,0,0,,啊 頭好暈
+Dialogue: 0,0:24:09.26,0:24:09.97,Twink_CN,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:24:10.14,0:24:11.16,Twink_CN,NTP,0,0,0,,難道是感冒了
+Dialogue: 0,0:24:11.31,0:24:12.25,Merma_CN,NTP,0,0,0,,怎麼辦
+Dialogue: 0,0:24:12.41,0:24:15.39,Merma_CN,NTP,0,0,0,,這時候我們都不在她的身邊
+Dialogue: 0,0:24:15.46,0:24:19.53,Scarl_CN,NTP,0,0,0,,沒事不是還有Pafu和Aroma在嗎
+Dialogue: 0,0:24:19.76,0:24:21.94,Flora_CN,NTP,0,0,0,,欸 只有Pafu和Aroma在她身邊
+Dialogue: 0,0:24:22.09,0:24:23.69,Flora_CN,NTP,0,0,0,,這樣真的沒問題嗎
+Dialogue: 0,0:24:24.51,0:24:26.31,Flora_CN,NTP,0,0,0,,GO Princess Prucure
+Dialogue: 0,0:24:27.00,0:24:30.03,Flora_CN,NTP,0,0,0,,救救永遠！ 戰鬥吧皇家妖精！
+Dialogue: 0,0:24:30.86,0:24:32.21,Flora_CN,NTP,0,0,0,,朝著夢想 GoGo
+Dialogue: 0,0:24:32.40,0:24:33.44,Flora_CN,NTP,0,0,0,,貴安
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========OP========
+Dialogue: 0,0:01:24.43,0:01:26.82,Merma_CN,NTP,0,0,0,,堅強 溫柔 美麗
+Dialogue: 0,0:01:27.22,0:01:30.14,Merma_CN,NTP,0,0,0,,這是打算成為真正公主的四個人的故事
+Dialogue: 0,0:01:30.44,0:01:34.34,Merma_CN,NTP,0,0,0,,朝著夢想 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:01:40.05,0:01:46.28,OP-CN,NTP,0,0,0,,展翅高飛Princess 輕輕飄飄筆直飛向夢想!!
+Dialogue: 0,0:01:46.53,0:01:53.48,OP-CN,NTP,0,0,0,,努力之後Happy Come! 引發奇蹟 Go! Princess Precure
+Dialogue: 0,0:01:57.76,0:02:02.80,OP-CN,NTP,0,0,0,,笑臉是寶石 女孩子是公主{\fnDroid Sans Fallback}♥　
+Dialogue: 0,0:02:02.99,0:02:08.90,OP-CN,NTP,0,0,0,,心裡揪揪揪歡鬧不已 打開那扇門吧
+Dialogue: 0,0:02:08.98,0:02:14.02,OP-CN,NTP,0,0,0,,天晴時道一聲「貴安」 堅強 溫柔 美麗!
+Dialogue: 0,0:02:14.18,0:02:20.13,OP-CN,NTP,0,0,0,,興高采烈地奏起歌 朝向遙遠的彼方
+Dialogue: 0,0:02:20.27,0:02:27.36,OP-CN,NTP,0,0,0,,就算在陌生而不安的地方 換上裙子 振奮心情
+Dialogue: 0,0:02:27.61,0:02:31.91,OP-CN,NTP,0,0,0,,喊著「一二!」 踏出腳步
+Dialogue: 0,0:02:35.25,0:02:41.25,OP-CN,NTP,0,0,0,,相信自己Princess 抓住閃閃亮亮光芒四射的愛!!
+Dialogue: 0,0:02:41.75,0:02:46.34,OP-CN,NTP,0,0,0,,勇氣 認真 美麗 樂觀是鑰匙…!?
+Dialogue: 0,0:02:46.53,0:02:52.62,OP-CN,NTP,0,0,0,,展翅高飛Princess 追逐花朵海洋和星星 不論到哪裡
+Dialogue: 0,0:02:52.90,0:03:00.00,OP-CN,NTP,0,0,0,,竭盡所能 Flying High! 我們驕傲的 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:06.24,0:03:13.08,Defau_CN,NTP,0,0,0,,{\fad(200,0)\fnMicrosoft YaHei\b0\shad0\bord3}婦聯大友團
+Dialogue: 0,0:03:13.08,0:03:17.09,Defau_CN,NTP,0,0,0,,{\fnMicrosoft YaHei\b0\shad0\bord3}翻譯:落花 syan aloha 雜務:時雨家的女僕 繁化:小綠 協力:ayukas 自助烤肉:蛇富帥
+Dialogue: 0,0:03:17.09,0:03:20.84,Defau_CN,NTP,0,0,0,,{\fad(0,200)\fnMicrosoft YaHei\b0\shad0\bord3}雪飄工作室 http://bbs.flsnow.net
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========ED1========
+Dialogue: 0,0:22:39.96,0:22:43.00,ED-CN,NTP,0,0,0,,明日與回憶
+Dialogue: 0,0:22:43.17,0:22:46.38,ED-CN,NTP,0,0,0,,相交的旋律
+Dialogue: 0,0:22:46.59,0:22:50.51,ED-CN,NTP,0,0,0,,唦啦啦{\fnDroid Sans Fallback}♪　{\r}變成公主
+Dialogue: 0,0:22:50.84,0:22:52.64,ED-CN,NTP,0,0,0,,跳舞吧
+Dialogue: 0,0:22:52.64,0:22:56.43,ED-CN,NTP,0,0,0,,一 二 三 Precure
+Dialogue: 0,0:23:02.98,0:23:08.90,ED-CN,NTP,0,0,0,,綻放的笑臉勝過寶石
+Dialogue: 0,0:23:09.36,0:23:15.03,ED-CN,NTP,0,0,0,,一閃一閃 裝飾大家的心
+Dialogue: 0,0:23:15.27,0:23:20.40,ED-CN,NTP,0,0,0,,升起舞會的布幕吧
+Dialogue: 0,0:23:21.83,0:23:27.67,ED-CN,NTP,0,0,0,,Gorgeous! Precious! Shall we dance! 在朝思暮想的舞台上
+Dialogue: 0,0:23:27.84,0:23:34.68,ED-CN,NTP,0,0,0,,真棒! 堅強 溫柔 美麗!
+Dialogue: 0,0:23:34.93,0:23:40.73,ED-CN,NTP,0,0,0,,只要有夢 世界就會改變
+Dialogue: 0,0:23:41.02,0:23:47.94,ED-CN,NTP,0,0,0,,用這雙手 打開明天的鎖
+Dialogue: 0,0:23:49.11,0:24:00.04,ED-CN,NTP,0,0,0,,貴安… 貴安…
+Dialogue: 0,0:24:02.25,0:24:03.33,ED-CN,NTP,0,0,0,,Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,

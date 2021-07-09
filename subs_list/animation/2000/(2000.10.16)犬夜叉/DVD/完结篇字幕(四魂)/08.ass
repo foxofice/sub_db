@@ -1,0 +1,411 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 犬夜叉完结篇
+Original Script: 四魂制作组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Chinese,SIMHEI,23,&H00FFFFFF,&H00000000,&H00804000,&H004D2600,0,0,0,0,100,100,0,0,1,1,2,2,5,5,10,134
+Style: Staff,SIMHEI,18,&H00FFFFFF,&H00000000,&H00353535,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,8,5,5,10,134
+Style: Title,SIMHEI,30,&H00FFFFFF,&H00000000,&H002F2F2F,&H001F1F1F,-1,0,0,0,100,100,0,0,1,1,2,2,30,30,30,134
+Style: OP-JP,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,2,30,30,10,134
+Style: ED-JP,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,2,30,30,10,134
+Style: OP-Ch,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,8,30,30,10,134
+Style: ED-Ch,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.69,0:00:04.76,OP-Ch,NTP,0,0,0,,{\an9\fad(130,130)}「没有你的未来」
+Dialogue: 0,0:00:13.06,0:00:16.86,OP-JP,NTP,0,0,0,,{\fad(130,130)}守るべきものなんて
+Dialogue: 0,0:00:16.87,0:00:26.21,OP-JP,NTP,0,0,0,,{\fad(130,130)}悩むまでもなく一つしかなかった
+Dialogue: 0,0:00:26.58,0:00:30.36,OP-JP,NTP,0,0,0,,{\fad(130,130)}叫び声のこだま
+Dialogue: 0,0:00:30.38,0:00:39.63,OP-JP,NTP,0,0,0,,{\fad(130,130)}むなしく響いた 深い森の奥に
+Dialogue: 0,0:00:40.30,0:00:46.21,OP-JP,NTP,0,0,0,,{\fad(130,130)}涙をこらえられた理由は
+Dialogue: 0,0:00:47.16,0:00:52.75,OP-JP,NTP,0,0,0,,{\fad(130,130)}重ねた指のぬくもりのせい
+Dialogue: 0,0:00:53.08,0:00:56.00,OP-JP,NTP,0,0,0,,{\fad(130,130)}君がいない未来
+Dialogue: 0,0:00:56.01,0:00:59.11,OP-JP,NTP,0,0,0,,{\fad(130,130)}意味などない未来
+Dialogue: 0,0:00:59.83,0:01:05.17,OP-JP,NTP,0,0,0,,{\fad(130,130)}二度と離したりはしないから
+Dialogue: 0,0:01:06.89,0:01:09.74,OP-JP,NTP,0,0,0,,{\fad(130,130)}君と臨む世界
+Dialogue: 0,0:01:09.79,0:01:12.45,OP-JP,NTP,0,0,0,,{\fad(130,130)}見たことない世界
+Dialogue: 0,0:01:12.48,0:01:19.87,OP-JP,NTP,0,0,0,,{\fad(130,130)}時空を越えて はるか旅する僕等
+Dialogue: 0,0:00:13.06,0:00:16.86,OP-Ch,NTP,0,0,0,,{\fad(130,130)}必须要守护的东西
+Dialogue: 0,0:00:16.87,0:00:26.21,OP-Ch,NTP,0,0,0,,{\fad(130,130)}根本不用费心思考 本来就只有一个
+Dialogue: 0,0:00:26.58,0:00:30.36,OP-Ch,NTP,0,0,0,,{\fad(130,130)}呐喊的回音
+Dialogue: 0,0:00:30.38,0:00:39.63,OP-Ch,NTP,0,0,0,,{\fad(130,130)}在幽深的森林深处 空虚地回荡
+Dialogue: 0,0:00:40.30,0:00:46.21,OP-Ch,NTP,0,0,0,,{\fad(130,130)}能够忍住眼泪的理由
+Dialogue: 0,0:00:47.16,0:00:52.75,OP-Ch,NTP,0,0,0,,{\fad(130,130)}是与你十指相扣的温暖
+Dialogue: 0,0:00:53.08,0:00:56.00,OP-Ch,NTP,0,0,0,,{\fad(130,130)}没有你的未来
+Dialogue: 0,0:00:56.01,0:00:59.11,OP-Ch,NTP,0,0,0,,{\fad(130,130)}毫无意义的未来
+Dialogue: 0,0:00:59.83,0:01:05.17,OP-Ch,NTP,0,0,0,,{\fad(130,130)}我不会再远你而去
+Dialogue: 0,0:01:06.89,0:01:09.74,OP-Ch,NTP,0,0,0,,{\fad(130,130)}与你共赴的世界
+Dialogue: 0,0:01:09.79,0:01:12.45,OP-Ch,NTP,0,0,0,,{\fad(130,130)}未曾见过的世界
+Dialogue: 0,0:01:12.48,0:01:19.87,OP-Ch,NTP,0,0,0,,{\fad(130,130)}穿越时空 我们继续漫长的旅途
+Dialogue: 0,0:01:39.41,0:01:43.41,Chinese,NTP,0,0,0,,缠住你的蛛丝已经被切断了
+Dialogue: 0,0:01:44.18,0:01:45.79,Chinese,NTP,0,0,0,,用那张弓去救巫女吧
+Dialogue: 0,0:01:49.63,0:01:52.04,Chinese,NTP,0,0,0,,戈薇 你在哪
+Dialogue: 0,0:01:58.05,0:01:59.68,Chinese,NTP,0,0,0,,戈薇 振作点
+Dialogue: 0,0:01:59.82,0:02:00.47,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:02:01.14,0:02:04.65,Chinese,NTP,0,0,0,,那个桔梗 是从我的心里诞生的
+Dialogue: 0,0:02:05.33,0:02:07.87,Chinese,NTP,0,0,0,,我原来是在跟幻象争风吃醋啊
+Dialogue: 0,0:02:12.02,0:02:14.12,Chinese,NTP,0,0,0,,你把弓取来了啊
+Dialogue: 0,0:02:14.70,0:02:16.67,Chinese,NTP,0,0,0,,犬夜叉 真的是犬夜叉吗
+Dialogue: 0,0:02:17.30,0:02:19.25,Chinese,NTP,0,0,0,,是的 你没事吧 戈薇
+Dialogue: 0,0:02:20.80,0:02:21.93,Chinese,NTP,0,0,0,,你来了啊
+Dialogue: 0,0:02:23.47,0:02:24.02,Chinese,NTP,0,0,0,,看那边
+Dialogue: 0,0:02:27.61,0:02:29.46,Chinese,NTP,0,0,0,,那是奈落的蜘蛛丝
+Dialogue: 0,0:02:33.17,0:02:33.79,Chinese,NTP,0,0,0,,有什么东西要来了
+Dialogue: 0,0:02:33.92,0:02:35.27,Chinese,NTP,0,0,0,,快…快逃
+Dialogue: 0,0:02:35.51,0:02:36.41,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:02:36.87,0:02:38.15,Chinese,NTP,0,0,0,,快逃 钢牙
+Dialogue: 0,0:02:38.77,0:02:41.60,Chinese,NTP,0,0,0,,怎么能逃 这可是奈落的臭味
+Dialogue: 0,0:02:42.19,0:02:43.54,Chinese,NTP,0,0,0,,那家伙在附近吧
+Dialogue: 0,0:02:44.50,0:02:48.04,Chinese,NTP,0,0,0,,你无法察觉吗 奈落已经在这里了
+Dialogue: 0,0:02:51.32,0:02:51.84,Chinese,NTP,0,0,0,,桔梗大人
+Dialogue: 0,0:03:01.67,0:03:06.41,Title,NTP,0,0,0,,{\fad(130,130)}星光闪耀之间
+Dialogue: 0,0:03:10.89,0:03:11.58,Chinese,NTP,0,0,0,,大家…
+Dialogue: 0,0:03:11.86,0:03:12.53,Chinese,NTP,0,0,0,,混蛋
+Dialogue: 0,0:03:15.47,0:03:16.06,Chinese,NTP,0,0,0,,可恶
+Dialogue: 0,0:03:18.25,0:03:22.00,Chinese,NTP,0,0,0,,钢牙 你刚才怎么不逃
+Dialogue: 0,0:03:22.39,0:03:23.47,Chinese,NTP,0,0,0,,事到如今 你还说这干什么
+Dialogue: 0,0:03:23.86,0:03:28.09,Chinese,NTP,0,0,0,,再说 你的目的不就是将我的碎片送给奈落吗
+Dialogue: 0,0:03:28.57,0:03:32.44,Chinese,NTP,0,0,0,,借着那叫做翠子的巫女灵魂 将碎片来回折腾
+Dialogue: 0,0:03:33.48,0:03:34.74,Chinese,NTP,0,0,0,,情况变了
+Dialogue: 0,0:03:35.31,0:03:37.57,Chinese,NTP,0,0,0,,现在的我 已经…
+Dialogue: 0,0:03:37.92,0:03:38.56,Chinese,NTP,0,0,0,,丝松开了
+Dialogue: 0,0:03:38.76,0:03:39.37,Chinese,NTP,0,0,0,,要掉下去了
+Dialogue: 0,0:03:39.60,0:03:40.14,Chinese,NTP,0,0,0,,云母
+Dialogue: 0,0:03:45.23,0:03:45.76,Chinese,NTP,0,0,0,,什么
+Dialogue: 0,0:03:50.65,0:03:51.42,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:03:52.21,0:03:52.92,Chinese,NTP,0,0,0,,感觉怎么样
+Dialogue: 0,0:03:53.14,0:03:56.43,Chinese,NTP,0,0,0,,在可恨的我这肮脏臂弯中死去的感觉
+Dialogue: 0,0:03:57.34,0:03:58.33,Chinese,NTP,0,0,0,,你终于出现了
+Dialogue: 0,0:03:58.65,0:03:59.16,Chinese,NTP,0,0,0,,奈落
+Dialogue: 0,0:03:59.71,0:04:01.59,Chinese,NTP,0,0,0,,你的目的是我吧
+Dialogue: 0,0:04:05.91,0:04:07.16,Chinese,NTP,0,0,0,,接招吧 五雷指
+Dialogue: 0,0:04:09.58,0:04:10.63,Chinese,NTP,0,0,0,,无谓的挣扎
+Dialogue: 0,0:04:13.33,0:04:14.42,Chinese,NTP,0,0,0,,别逞强 钢牙
+Dialogue: 0,0:04:15.16,0:04:16.53,Chinese,NTP,0,0,0,,你的四魂碎片要是被夺走了
+Dialogue: 0,0:04:16.89,0:04:17.95,Chinese,NTP,0,0,0,,那可百害而无一利
+Dialogue: 0,0:04:18.60,0:04:20.47,Chinese,NTP,0,0,0,,我知道 可是…
+Dialogue: 0,0:04:25.35,0:04:27.18,Chinese,NTP,0,0,0,,你能逃到何时呢
+Dialogue: 0,0:04:30.39,0:04:30.91,Chinese,NTP,0,0,0,,那是…
+Dialogue: 0,0:04:32.13,0:04:34.49,Chinese,NTP,0,0,0,,钢牙脚上的碎片 正被净化
+Dialogue: 0,0:04:35.41,0:04:37.34,Chinese,NTP,0,0,0,,那是翠子灵魂的意志
+Dialogue: 0,0:04:38.20,0:04:40.05,Chinese,NTP,0,0,0,,要是奈落吞噬了那碎片
+Dialogue: 0,0:04:40.59,0:04:43.76,Chinese,NTP,0,0,0,,便可将奈落消灭
+Dialogue: 0,0:04:44.96,0:04:46.98,Chinese,NTP,0,0,0,,奈落还没有察觉
+Dialogue: 0,0:04:47.44,0:04:49.31,Chinese,NTP,0,0,0,,桔梗 你就看好吧
+Dialogue: 0,0:04:49.65,0:04:54.93,Chinese,NTP,0,0,0,,你将一事无成 四魂之玉又将进一步完璧
+Dialogue: 0,0:04:56.00,0:04:57.71,Chinese,NTP,0,0,0,,那你最好动作快些
+Dialogue: 0,0:04:58.31,0:05:01.23,Chinese,NTP,0,0,0,,犬夜叉和戈薇已经到附近了
+Dialogue: 0,0:05:01.24,0:05:01.81,Chinese,NTP,0,0,0,,什么
+Dialogue: 0,0:05:11.86,0:05:15.49,Chinese,NTP,0,0,0,,犬夜叉 我被桔梗的幻象试探了
+Dialogue: 0,0:05:15.96,0:05:17.09,Chinese,NTP,0,0,0,,桔梗的幻象？
+Dialogue: 0,0:05:17.30,0:05:19.91,Chinese,NTP,0,0,0,,对 因我而诞生的幻象
+Dialogue: 0,0:05:20.96,0:05:22.79,Chinese,NTP,0,0,0,,虽然既可怕又令人厌恶
+Dialogue: 0,0:05:23.21,0:05:25.59,Chinese,NTP,0,0,0,,但那确是昔日的桔梗
+Dialogue: 0,0:05:26.31,0:05:29.43,Chinese,NTP,0,0,0,,憎恨着我 并想杀死犬夜叉的桔梗…
+Dialogue: 0,0:05:30.59,0:05:33.48,Chinese,NTP,0,0,0,,戈薇 桔梗已经并不是那时的桔梗了
+Dialogue: 0,0:05:34.70,0:05:38.67,Chinese,NTP,0,0,0,,我知道 但是正是我 用这样的偏激眼光对待桔梗
+Dialogue: 0,0:05:39.47,0:05:41.53,Chinese,NTP,0,0,0,,所以 觉得自己有点讨厌呢
+Dialogue: 0,0:05:41.82,0:05:42.68,Chinese,NTP,0,0,0,,这种事算什么
+Dialogue: 0,0:05:43.80,0:05:46.20,Chinese,NTP,0,0,0,,即使这样 你还是想去拯救桔梗吧
+Dialogue: 0,0:05:46.74,0:05:49.19,Chinese,NTP,0,0,0,,所以你的心灵是坚强又美丽的
+Dialogue: 0,0:05:49.99,0:05:52.32,Chinese,NTP,0,0,0,,真的…是这样吗
+Dialogue: 0,0:05:52.37,0:05:55.46,Chinese,NTP,0,0,0,,我要加速了 顺便还有点担心那瘦狼呢
+Dialogue: 0,0:06:02.75,0:06:03.26,Chinese,NTP,0,0,0,,钢牙
+Dialogue: 0,0:06:04.29,0:06:05.14,Chinese,NTP,0,0,0,,瘴气
+Dialogue: 0,0:06:06.89,0:06:09.10,Chinese,NTP,0,0,0,,又来了 双脚动弹不得
+Dialogue: 0,0:06:12.73,0:06:14.35,Chinese,NTP,0,0,0,,捉到你了 钢牙
+Dialogue: 0,0:06:15.37,0:06:16.47,Chinese,NTP,0,0,0,,就是这样 奈落
+Dialogue: 0,0:06:17.17,0:06:19.10,Chinese,NTP,0,0,0,,就这样去触碰钢牙的碎片吧
+Dialogue: 0,0:06:19.93,0:06:24.04,Chinese,NTP,0,0,0,,碎片会同时净化你和被蛛丝连系着的我
+Dialogue: 0,0:06:24.80,0:06:28.70,Chinese,NTP,0,0,0,,只要我夺回力量 就可以与翠子一同净化奈落
+Dialogue: 0,0:06:29.12,0:06:30.56,Chinese,NTP,0,0,0,,钢牙也会得救
+Dialogue: 0,0:06:33.17,0:06:33.90,Chinese,NTP,0,0,0,,可恶
+Dialogue: 0,0:06:35.95,0:06:38.09,Chinese,NTP,0,0,0,,奈落 我是不会死的
+Dialogue: 0,0:06:38.73,0:06:42.01,Chinese,NTP,0,0,0,,怎么可以在你那肮脏的臂弯中死去
+Dialogue: 0,0:06:44.15,0:06:44.92,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:07:03.15,0:07:03.89,Chinese,NTP,0,0,0,,桔梗大人
+Dialogue: 0,0:07:03.92,0:07:04.43,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:07:06.44,0:07:10.97,Chinese,NTP,0,0,0,,桔梗 你与我由蜘蛛丝连系在一起
+Dialogue: 0,0:07:11.89,0:07:13.27,Chinese,NTP,0,0,0,,所以你的情感都一一传递过来了
+Dialogue: 0,0:07:13.94,0:07:18.33,Chinese,NTP,0,0,0,,你对我的憎恨鄙夷 以及对犬夜叉的眷恋
+Dialogue: 0,0:07:19.74,0:07:21.88,Chinese,NTP,0,0,0,,真遗憾呢 桔梗
+Dialogue: 0,0:07:22.21,0:07:24.32,Chinese,NTP,0,0,0,,你将永远无法与犬夜叉再会
+Dialogue: 0,0:07:24.85,0:07:28.02,Chinese,NTP,0,0,0,,并将在可恨的我这臂弯中死去
+Dialogue: 0,0:07:28.18,0:07:29.00,Chinese,NTP,0,0,0,,奈落
+Dialogue: 0,0:07:29.61,0:07:31.98,Chinese,NTP,0,0,0,,放开桔梗
+Dialogue: 0,0:07:35.36,0:07:36.43,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:07:39.96,0:07:40.66,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:07:42.67,0:07:43.48,Chinese,NTP,0,0,0,,只有一支
+Dialogue: 0,0:07:46.95,0:07:48.03,Chinese,NTP,0,0,0,,绝不允许失败
+Dialogue: 0,0:07:49.76,0:07:50.88,Chinese,NTP,0,0,0,,要救我的话
+Dialogue: 0,0:07:51.57,0:07:53.36,Chinese,NTP,0,0,0,,只有用这把弓箭射击我的伤口
+Dialogue: 0,0:07:53.89,0:07:55.96,Chinese,NTP,0,0,0,,将奈落的污秽净化
+Dialogue: 0,0:07:56.76,0:07:59.11,Chinese,NTP,0,0,0,,没问题 我一定会射中给你看
+Dialogue: 0,0:08:02.20,0:08:02.86,Chinese,NTP,0,0,0,,等下
+Dialogue: 0,0:08:05.44,0:08:06.54,Chinese,NTP,0,0,0,,叫我先别射吗
+Dialogue: 0,0:08:06.71,0:08:07.21,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:08:07.48,0:08:08.09,Chinese,NTP,0,0,0,,戈薇小姐
+Dialogue: 0,0:08:08.40,0:08:10.22,Chinese,NTP,0,0,0,,钢牙 你没事啊
+Dialogue: 0,0:08:10.70,0:08:13.24,Chinese,NTP,0,0,0,,算是吧 虽然被捉了个正着
+Dialogue: 0,0:08:15.01,0:08:16.54,Chinese,NTP,0,0,0,,脚上的碎片 正在被净化
+Dialogue: 0,0:08:17.58,0:08:20.40,Chinese,NTP,0,0,0,,奈落 你竟然将桔梗…
+Dialogue: 0,0:08:21.50,0:08:23.19,Chinese,NTP,0,0,0,,桔梗 你高兴吗
+Dialogue: 0,0:08:23.94,0:08:27.36,Chinese,NTP,0,0,0,,犬夜叉赶上你的死期了
+Dialogue: 0,0:08:28.73,0:08:29.51,Chinese,NTP,0,0,0,,饶不了你
+Dialogue: 0,0:08:33.36,0:08:38.39,Chinese,NTP,0,0,0,,龙鳞铁碎牙
+Dialogue: 0,0:08:44.00,0:08:45.12,Chinese,NTP,0,0,0,,变回原样了
+Dialogue: 0,0:08:45.60,0:08:47.29,Chinese,NTP,0,0,0,,连斩断妖穴都不行吗
+Dialogue: 0,0:08:47.90,0:08:51.37,Chinese,NTP,0,0,0,,明白了吧 就凭你那烂铁…
+Dialogue: 0,0:08:55.04,0:08:55.77,Chinese,NTP,0,0,0,,那片黑暗是…
+Dialogue: 0,0:08:56.32,0:08:57.62,Chinese,NTP,0,0,0,,是奈落的体内
+Dialogue: 0,0:08:58.28,0:09:00.13,Chinese,NTP,0,0,0,,龙鳞铁碎牙起效了吗
+Dialogue: 0,0:09:00.56,0:09:02.01,Chinese,NTP,0,0,0,,还有钢牙的碎片
+Dialogue: 0,0:09:04.86,0:09:05.50,Chinese,NTP,0,0,0,,那是…
+Dialogue: 0,0:09:06.71,0:09:07.61,Chinese,NTP,0,0,0,,四魂之玉
+Dialogue: 0,0:09:08.14,0:09:10.61,Chinese,NTP,0,0,0,,犬夜叉 四魂之玉在他体内
+Dialogue: 0,0:09:10.87,0:09:11.43,Chinese,NTP,0,0,0,,好
+Dialogue: 0,0:09:11.87,0:09:13.09,Chinese,NTP,0,0,0,,连玉一同把他击碎
+Dialogue: 0,0:09:19.26,0:09:20.03,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:09:23.27,0:09:24.75,Chinese,NTP,0,0,0,,桔梗 振作点
+Dialogue: 0,0:09:25.08,0:09:25.58,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:09:27.29,0:09:28.06,Chinese,NTP,0,0,0,,他要闭合身体了
+Dialogue: 0,0:09:29.29,0:09:29.79,Chinese,NTP,0,0,0,,钢牙
+Dialogue: 0,0:09:30.61,0:09:33.43,Chinese,NTP,0,0,0,,我的四魂碎片能净化奈落吧
+Dialogue: 0,0:09:33.80,0:09:35.72,Chinese,NTP,0,0,0,,那就交给我吧
+Dialogue: 0,0:09:36.35,0:09:39.87,Chinese,NTP,0,0,0,,虽然这样正合那翠子巫女灵魂的心意 让我有些不爽
+Dialogue: 0,0:09:40.14,0:09:42.97,Chinese,NTP,0,0,0,,如果能成功跳进去 便可以把奈落连玉一同净化
+Dialogue: 0,0:09:44.41,0:09:48.02,Chinese,NTP,0,0,0,,玉的气息消失了 奈落没有拿着四魂之玉
+Dialogue: 0,0:00:02.00,0:00:02.00,Chinese,NTP,0,0,0,,
+Dialogue: 0,0:00:02.00,0:00:02.00,Chinese,NTP,0,0,0,,
+Dialogue: 0,0:00:02.00,0:00:02.00,Chinese,NTP,0,0,0,,
+Dialogue: 0,0:00:02.00,0:00:02.00,Chinese,NTP,0,0,0,,
+Dialogue: 0,0:00:02.00,0:00:02.00,Chinese,NTP,0,0,0,,
+Dialogue: 0,0:22:11.45,0:22:13.50,ED-JP,NTP,0,0,0,,{\fad(130,130)}I'll take you to the higher stage
+Dialogue: 0,0:22:13.88,0:22:15.52,ED-JP,NTP,0,0,0,,{\fad(130,130)}Now you got blazin'
+Dialogue: 0,0:22:18.72,0:22:20.39,ED-JP,NTP,0,0,0,,{\fad(130,130)}I'll take you to the higher stage
+Dialogue: 0,0:22:20.98,0:22:22.59,ED-JP,NTP,0,0,0,,{\fad(130,130)}Now you got blazin'
+Dialogue: 0,0:22:25.95,0:22:32.54,ED-JP,NTP,0,0,0,,{\fad(130,130)}涙を隠した 強がりな君の笑顔
+Dialogue: 0,0:22:32.74,0:22:40.06,ED-JP,NTP,0,0,0,,{\fad(130,130)}肩を抱くことさえ 素直には出来なくて
+Dialogue: 0,0:22:40.14,0:22:46.77,ED-JP,NTP,0,0,0,,{\fad(130,130)}夜明けの向こうに どんな未来があっても
+Dialogue: 0,0:22:46.95,0:22:53.17,ED-JP,NTP,0,0,0,,{\fad(130,130)}信じることでしか変えられない
+Dialogue: 0,0:22:55.08,0:23:01.45,ED-JP,NTP,0,0,0,,{\fad(130,130)}見失っていた魂(こころ)のカケラ
+Dialogue: 0,0:23:02.41,0:23:08.95,ED-JP,NTP,0,0,0,,{\fad(130,130)}二人で探し当てた 瞬間 きっと
+Dialogue: 0,0:23:09.18,0:23:12.26,ED-JP,NTP,0,0,0,,{\fad(130,130)}壊して 追いかけて
+Dialogue: 0,0:23:12.66,0:23:16.13,ED-JP,NTP,0,0,0,,{\fad(130,130)}切り開いたあの空で
+Dialogue: 0,0:23:16.28,0:23:17.31,ED-JP,NTP,0,0,0,,{\fad(130,130)}Seeking my way
+Dialogue: 0,0:23:17.88,0:23:23.32,ED-JP,NTP,0,0,0,,{\fad(130,130)}一筋の光になる with you
+Dialogue: 0,0:22:11.45,0:22:13.50,ED-Ch,NTP,0,0,0,,{\fad(130,130)}I'll take you to the higher stage
+Dialogue: 0,0:22:13.88,0:22:15.52,ED-Ch,NTP,0,0,0,,{\fad(130,130)}Now you got blazin'
+Dialogue: 0,0:22:18.72,0:22:20.39,ED-Ch,NTP,0,0,0,,{\fad(130,130)}I'll take you to the higher stage
+Dialogue: 0,0:22:20.98,0:22:22.59,ED-Ch,NTP,0,0,0,,{\fad(130,130)}Now you got blazin'
+Dialogue: 0,0:22:25.95,0:22:32.54,ED-Ch,NTP,0,0,0,,{\fad(130,130)}隐藏起泪水 你故作坚强的笑颜
+Dialogue: 0,0:22:32.74,0:22:40.06,ED-Ch,NTP,0,0,0,,{\fad(130,130)}我却连安慰的拥抱 都没法直率地做到
+Dialogue: 0,0:22:40.14,0:22:46.77,ED-Ch,NTP,0,0,0,,{\fad(130,130)}在黎明的彼岸 不论未来会遇到什么
+Dialogue: 0,0:22:46.95,0:22:53.17,ED-Ch,NTP,0,0,0,,{\fad(130,130)}我们都只能选择坚信
+Dialogue: 0,0:22:55.08,0:23:01.45,ED-Ch,NTP,0,0,0,,{\fad(130,130)}失落的心之碎片
+Dialogue: 0,0:23:02.41,0:23:08.95,ED-Ch,NTP,0,0,0,,{\fad(130,130)}两人找到的瞬间 必将
+Dialogue: 0,0:23:09.18,0:23:12.26,ED-Ch,NTP,0,0,0,,{\fad(130,130)}破坏吧 追逐吧
+Dialogue: 0,0:23:12.66,0:23:16.13,ED-Ch,NTP,0,0,0,,{\fad(130,130)}在我们开辟的那片天空
+Dialogue: 0,0:23:16.28,0:23:17.31,ED-Ch,NTP,0,0,0,,{\fad(130,130)}Seeking my way
+Dialogue: 0,0:23:17.88,0:23:23.32,ED-Ch,NTP,0,0,0,,{\fad(130,130)}化身为一线光明 with you
+Dialogue: 0,0:09:52.51,0:09:53.02,Chinese,NTP,0,0,0,,不行
+Dialogue: 0,0:09:53.33,0:09:54.15,Chinese,NTP,0,0,0,,快回来 钢牙
+Dialogue: 0,0:09:54.78,0:09:56.82,Chinese,NTP,0,0,0,,四魂之玉不在奈落那里
+Dialogue: 0,0:09:56.98,0:09:57.87,Chinese,NTP,0,0,0,,什么
+Dialogue: 0,0:09:59.31,0:10:00.38,Chinese,NTP,0,0,0,,已经太迟了
+Dialogue: 0,0:10:01.84,0:10:03.58,Chinese,NTP,0,0,0,,戈薇 这是怎么回事啊
+Dialogue: 0,0:10:04.05,0:10:07.37,Chinese,NTP,0,0,0,,不知道 但是四魂之玉突然就消失了
+Dialogue: 0,0:10:07.93,0:10:08.87,Chinese,NTP,0,0,0,,刚才明明还在奈落体内的
+Dialogue: 0,0:10:09.31,0:10:11.92,Chinese,NTP,0,0,0,,要是钢牙就这么跳进奈落体内的话
+Dialogue: 0,0:10:12.88,0:10:14.46,Chinese,NTP,0,0,0,,他脚上的碎片反而会被污染
+Dialogue: 0,0:10:14.76,0:10:15.76,Chinese,NTP,0,0,0,,接而被奈落吞噬
+Dialogue: 0,0:10:16.82,0:10:17.81,Chinese,NTP,0,0,0,,不能就这样袖手旁观
+Dialogue: 0,0:10:20.24,0:10:21.18,Chinese,NTP,0,0,0,,珊瑚 一起上吧
+Dialogue: 0,0:10:23.15,0:10:24.78,Chinese,NTP,0,0,0,,桔梗 桔梗
+Dialogue: 0,0:10:25.28,0:10:26.09,Chinese,NTP,0,0,0,,振作点 桔梗
+Dialogue: 0,0:10:27.02,0:10:28.14,Chinese,NTP,0,0,0,,犬…夜叉
+Dialogue: 0,0:10:29.11,0:10:29.61,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:10:30.30,0:10:32.58,Chinese,NTP,0,0,0,,快去 去救钢牙
+Dialogue: 0,0:10:33.37,0:10:33.96,Chinese,NTP,0,0,0,,但是…
+Dialogue: 0,0:10:34.45,0:10:35.90,Chinese,NTP,0,0,0,,去吧 快
+Dialogue: 0,0:10:36.15,0:10:36.88,Chinese,NTP,0,0,0,,知道了
+Dialogue: 0,0:10:37.54,0:10:38.37,Chinese,NTP,0,0,0,,我马上就回来
+Dialogue: 0,0:10:41.87,0:10:43.29,Chinese,NTP,0,0,0,,看我从内将你毁灭
+Dialogue: 0,0:10:48.58,0:10:49.96,Chinese,NTP,0,0,0,,到此为止了 钢牙
+Dialogue: 0,0:10:53.04,0:10:55.33,Chinese,NTP,0,0,0,,珊瑚 在背后支撑我
+Dialogue: 0,0:10:55.67,0:10:56.84,Chinese,NTP,0,0,0,,法师大人 难道你…
+Dialogue: 0,0:10:57.54,0:10:58.58,Chinese,NTP,0,0,0,,没用的 法师
+Dialogue: 0,0:10:59.13,0:11:01.22,Chinese,NTP,0,0,0,,在你用风穴将我吸进去之前
+Dialogue: 0,0:11:01.86,0:11:05.65,Chinese,NTP,0,0,0,,你会因为中瘴气之毒而吐血倒下
+Dialogue: 0,0:11:06.48,0:11:08.99,Chinese,NTP,0,0,0,,决不让你称心 风穴
+Dialogue: 0,0:11:09.45,0:11:10.18,Chinese,NTP,0,0,0,,弥勒法师
+Dialogue: 0,0:11:13.94,0:11:16.12,Chinese,NTP,0,0,0,,风穴 一定要给我撑住
+Dialogue: 0,0:11:22.00,0:11:25.39,Chinese,NTP,0,0,0,,愚蠢 吸进的只有瘴气
+Dialogue: 0,0:11:25.87,0:11:27.30,Chinese,NTP,0,0,0,,那样就够了
+Dialogue: 0,0:11:27.49,0:11:28.04,Chinese,NTP,0,0,0,,什么
+Dialogue: 0,0:11:30.43,0:11:31.13,Chinese,NTP,0,0,0,,瘴气没了
+Dialogue: 0,0:11:31.88,0:11:33.50,Chinese,NTP,0,0,0,,趁现在 五雷指
+Dialogue: 0,0:11:37.53,0:11:38.06,Chinese,NTP,0,0,0,,法师大人
+Dialogue: 0,0:11:38.38,0:11:40.26,Chinese,NTP,0,0,0,,后面就交给我吧
+Dialogue: 0,0:11:44.59,0:11:45.80,Chinese,NTP,0,0,0,,伤口扩大了
+Dialogue: 0,0:11:46.16,0:11:47.65,Chinese,NTP,0,0,0,,法师大人 没事吧
+Dialogue: 0,0:11:47.73,0:11:48.33,Chinese,NTP,0,0,0,,嗯
+Dialogue: 0,0:11:49.39,0:11:50.78,Chinese,NTP,0,0,0,,你还活着吧 瘦狼
+Dialogue: 0,0:11:52.28,0:11:53.80,Chinese,NTP,0,0,0,,我怎么可能那么简单就死掉
+Dialogue: 0,0:11:54.12,0:11:55.28,Chinese,NTP,0,0,0,,那就快点…
+Dialogue: 0,0:11:56.83,0:11:57.51,Chinese,NTP,0,0,0,,钢牙
+Dialogue: 0,0:12:02.09,0:12:04.11,Chinese,NTP,0,0,0,,钢牙的碎片变黑了
+Dialogue: 0,0:12:05.14,0:12:05.69,Chinese,NTP,0,0,0,,不快点的话…
+Dialogue: 0,0:12:06.61,0:12:09.03,Chinese,NTP,0,0,0,,在哪里 奈落的四魂之玉在哪里
+Dialogue: 0,0:12:10.30,0:12:12.04,Chinese,NTP,0,0,0,,仅仅凭借我的力量无法发现
+Dialogue: 0,0:12:14.55,0:12:15.84,Chinese,NTP,0,0,0,,告诉我 桔梗
+Dialogue: 0,0:12:19.88,0:12:21.59,Chinese,NTP,0,0,0,,那是… 四魂之玉
+Dialogue: 0,0:12:22.56,0:12:24.17,Chinese,NTP,0,0,0,,奈落把它藏在桔梗体内了
+Dialogue: 0,0:12:27.53,0:12:28.75,Chinese,NTP,0,0,0,,桔梗的死魂虫
+Dialogue: 0,0:12:36.38,0:12:37.11,Chinese,NTP,0,0,0,,就是现在
+Dialogue: 0,0:12:38.14,0:12:39.91,Chinese,NTP,0,0,0,,桔梗 是现在吗
+Dialogue: 0,0:12:41.38,0:12:42.10,Chinese,NTP,0,0,0,,你是叫我现在射吗
+Dialogue: 0,0:12:43.03,0:12:45.37,Chinese,NTP,0,0,0,,臭丫头 发现了玉的所藏之处吗
+Dialogue: 0,0:12:47.95,0:12:48.45,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:12:53.44,0:12:54.69,Chinese,NTP,0,0,0,,谢谢 死魂虫
+Dialogue: 0,0:12:55.44,0:12:56.35,Chinese,NTP,0,0,0,,可恶
+Dialogue: 0,0:12:58.91,0:13:00.58,Chinese,NTP,0,0,0,,他想要夺回四魂之玉
+Dialogue: 0,0:13:01.38,0:13:02.58,Chinese,NTP,0,0,0,,不会让你得逞的
+Dialogue: 0,0:13:19.23,0:13:20.61,Chinese,NTP,0,0,0,,桔梗 你…
+Dialogue: 0,0:13:21.17,0:13:22.89,Chinese,NTP,0,0,0,,想把我连玉一同净化吗
+Dialogue: 0,0:13:23.68,0:13:24.21,Chinese,NTP,0,0,0,,去吧
+Dialogue: 0,0:13:29.90,0:13:31.59,Chinese,NTP,0,0,0,,瘴气的毒幕把玉污染了
+Dialogue: 0,0:13:32.83,0:13:33.91,Chinese,NTP,0,0,0,,同玉一起吞噬
+Dialogue: 0,0:13:35.62,0:13:36.34,Chinese,NTP,0,0,0,,什么
+Dialogue: 0,0:13:39.93,0:13:42.16,Chinese,NTP,0,0,0,,桔梗的灵力在破坏着奈落
+Dialogue: 0,0:13:44.62,0:13:45.49,Chinese,NTP,0,0,0,,脚挣脱了
+Dialogue: 0,0:13:45.62,0:13:46.15,Chinese,NTP,0,0,0,,过来
+Dialogue: 0,0:13:50.37,0:13:51.82,Chinese,NTP,0,0,0,,我的碎片…
+Dialogue: 0,0:13:51.85,0:13:53.36,Chinese,NTP,0,0,0,,现在不是说这个的时候
+Dialogue: 0,0:13:57.68,0:14:01.25,Chinese,NTP,0,0,0,,在玉之内桔梗的灵力和奈落的邪气在对抗着
+Dialogue: 0,0:14:02.12,0:14:02.92,Chinese,NTP,0,0,0,,桔梗 看得到吗
+Dialogue: 0,0:14:03.44,0:14:04.47,Chinese,NTP,0,0,0,,奈落正在垂死挣扎
+Dialogue: 0,0:14:05.04,0:14:07.58,Chinese,NTP,0,0,0,,戈薇 是你…
+Dialogue: 0,0:14:10.43,0:14:11.77,Chinese,NTP,0,0,0,,邪气在扩散
+Dialogue: 0,0:14:19.25,0:14:19.95,Chinese,NTP,0,0,0,,我赢了
+Dialogue: 0,0:14:27.17,0:14:30.68,Chinese,NTP,0,0,0,,戈薇 最后一块碎片
+Dialogue: 0,0:14:31.39,0:14:33.95,Chinese,NTP,0,0,0,,守护…琥珀的光…
+Dialogue: 0,0:14:34.65,0:14:38.01,Chinese,NTP,0,0,0,,这是只有你才能做得到的事
+Dialogue: 0,0:14:38.30,0:14:40.34,Chinese,NTP,0,0,0,,你在说什么呢 振作点
+Dialogue: 0,0:14:40.88,0:14:41.93,Chinese,NTP,0,0,0,,那种事对我而言…
+Dialogue: 0,0:14:43.64,0:14:46.49,Chinese,NTP,0,0,0,,桔梗 不是说用那弓箭就能净化你的伤口
+Dialogue: 0,0:14:46.99,0:14:48.07,Chinese,NTP,0,0,0,,就能拯救你吗
+Dialogue: 0,0:14:51.47,0:14:53.96,Chinese,NTP,0,0,0,,桔梗 你输了
+Dialogue: 0,0:14:57.13,0:14:58.54,Chinese,NTP,0,0,0,,我到底有没有输
+Dialogue: 0,0:14:59.37,0:15:02.86,Chinese,NTP,0,0,0,,奈落 你临死之时就会知晓
+Dialogue: 0,0:15:07.59,0:15:08.74,Chinese,NTP,0,0,0,,奈落 你这混蛋
+Dialogue: 0,0:15:10.10,0:15:11.48,Chinese,NTP,0,0,0,,碎片只剩下一块了
+Dialogue: 0,0:15:12.72,0:15:17.68,Chinese,NTP,0,0,0,,让我好好期待吧 没有桔梗的你该怎么战斗
+Dialogue: 0,0:15:18.82,0:15:19.37,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:15:19.73,0:15:21.02,Chinese,NTP,0,0,0,,桔梗已经完了
+Dialogue: 0,0:15:21.89,0:15:24.21,Chinese,NTP,0,0,0,,桔梗败给了我的邪气
+Dialogue: 0,0:15:30.43,0:15:31.19,Chinese,NTP,0,0,0,,犬夜叉 快点
+Dialogue: 0,0:15:31.58,0:15:32.15,Chinese,NTP,0,0,0,,桔梗她…
+Dialogue: 0,0:15:37.56,0:15:38.35,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:15:46.88,0:15:47.81,Chinese,NTP,0,0,0,,琥珀 不可以
+Dialogue: 0,0:15:48.21,0:15:49.10,Chinese,NTP,0,0,0,,你还不能乱动
+Dialogue: 0,0:15:49.73,0:15:52.11,Chinese,NTP,0,0,0,,我非回去不可 桔梗大人的气息变弱了
+Dialogue: 0,0:15:52.63,0:15:53.52,Chinese,NTP,0,0,0,,不知道大人现在到底是怎样了
+Dialogue: 0,0:15:55.69,0:15:59.96,Chinese,NTP,0,0,0,,话说在前头 别指望杀生丸大人会带你回去哦
+Dialogue: 0,0:16:00.28,0:16:01.58,Chinese,NTP,0,0,0,,拜托他也不可以吗
+Dialogue: 0,0:16:02.30,0:16:03.69,Chinese,NTP,0,0,0,,风的气息变了
+Dialogue: 0,0:16:05.36,0:16:07.48,Chinese,NTP,0,0,0,,桔梗小姐 发生了什么事吗
+Dialogue: 0,0:16:11.66,0:16:12.42,Chinese,NTP,0,0,0,,已经太迟了
+Dialogue: 0,0:16:13.96,0:16:15.74,Chinese,NTP,0,0,0,,孩子们 差不多该回去了哦
+Dialogue: 0,0:16:16.12,0:16:16.76,Chinese,NTP,0,0,0,,是
+Dialogue: 0,0:16:18.06,0:16:19.23,Chinese,NTP,0,0,0,,夕阳红得像火一样
+Dialogue: 0,0:16:19.94,0:16:21.38,Chinese,NTP,0,0,0,,真美丽啊 枫姥姥
+Dialogue: 0,0:16:26.02,0:16:28.80,Chinese,NTP,0,0,0,,简直就像是鲜血的颜色
+Dialogue: 0,0:16:40.46,0:16:41.18,Chinese,NTP,0,0,0,,桔梗大人
+Dialogue: 0,0:16:41.87,0:16:42.60,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:16:43.52,0:16:46.29,Chinese,NTP,0,0,0,,我 没能救得了桔梗
+Dialogue: 0,0:16:49.09,0:16:49.69,Chinese,NTP,0,0,0,,抱歉
+Dialogue: 0,0:16:51.40,0:16:52.48,Chinese,NTP,0,0,0,,让我们单独待一会儿
+Dialogue: 0,0:16:55.67,0:16:58.77,Chinese,NTP,0,0,0,,对不起 桔梗 对不起
+Dialogue: 0,0:17:01.00,0:17:02.65,Chinese,NTP,0,0,0,,别哭 戈薇
+Dialogue: 0,0:17:04.17,0:17:06.36,Chinese,NTP,0,0,0,,你拯救了我早已污浊的灵魂
+Dialogue: 0,0:17:14.13,0:17:15.96,Chinese,NTP,0,0,0,,那是 姐姐的…
+Dialogue: 0,0:17:16.73,0:17:18.10,Chinese,NTP,0,0,0,,对不起 枫
+Dialogue: 0,0:17:20.62,0:17:21.55,Chinese,NTP,0,0,0,,姐姐
+Dialogue: 0,0:17:22.04,0:17:26.43,Chinese,NTP,0,0,0,,我让你经历了这样长久的痛苦往事
+Dialogue: 0,0:17:27.18,0:17:28.45,Chinese,NTP,0,0,0,,没…没有那回事…
+Dialogue: 0,0:17:31.34,0:17:33.01,Chinese,NTP,0,0,0,,真的很对不起
+Dialogue: 0,0:17:34.00,0:17:34.93,Chinese,NTP,0,0,0,,姐姐
+Dialogue: 0,0:17:51.18,0:17:53.13,Chinese,NTP,0,0,0,,在桔梗大人变成那样之前
+Dialogue: 0,0:17:53.87,0:17:56.59,Chinese,NTP,0,0,0,,我本来有机会用风穴消灭掉奈落的
+Dialogue: 0,0:17:57.17,0:17:57.91,Chinese,NTP,0,0,0,,法师大人
+Dialogue: 0,0:17:59.14,0:18:01.52,Chinese,NTP,0,0,0,,但是 我因为惧怕着死亡
+Dialogue: 0,0:18:01.96,0:18:03.67,Chinese,NTP,0,0,0,,而犹豫着不敢打开风穴
+Dialogue: 0,0:18:04.92,0:18:07.19,Chinese,NTP,0,0,0,,明明桔梗小姐还救过我的命
+Dialogue: 0,0:18:07.93,0:18:08.54,Chinese,NTP,0,0,0,,但我…
+Dialogue: 0,0:18:10.96,0:18:15.99,Chinese,NTP,0,0,0,,桔梗 是为了我 才要你留在人世的
+Dialogue: 0,0:18:16.89,0:18:17.50,Chinese,NTP,0,0,0,,珊瑚
+Dialogue: 0,0:18:18.75,0:18:20.21,Chinese,NTP,0,0,0,,我恨过桔梗
+Dialogue: 0,0:18:21.04,0:18:23.58,Chinese,NTP,0,0,0,,恨她想把弟弟的生命 把维系琥珀生命的碎片
+Dialogue: 0,0:18:23.99,0:18:26.64,Chinese,NTP,0,0,0,,当成打倒奈落的工具来使用
+Dialogue: 0,0:18:28.54,0:18:32.48,Chinese,NTP,0,0,0,,但是 当我看到她救了钢牙时
+Dialogue: 0,0:18:33.12,0:18:38.61,Chinese,NTP,0,0,0,,我觉得她一定是为了保护琥珀而战斗着的
+Dialogue: 0,0:18:42.32,0:18:43.95,Chinese,NTP,0,0,0,,已经失去了四魂碎片
+Dialogue: 0,0:18:44.73,0:18:46.43,Chinese,NTP,0,0,0,,可是 我还活着
+Dialogue: 0,0:18:47.51,0:18:49.67,Chinese,NTP,0,0,0,,这样真的好吗 桔梗
+Dialogue: 0,0:18:50.54,0:18:51.44,Chinese,NTP,0,0,0,,我…
+Dialogue: 0,0:18:52.83,0:18:54.94,Chinese,NTP,0,0,0,,我什么也没能做到
+Dialogue: 0,0:18:56.20,0:18:58.57,Chinese,NTP,0,0,0,,如果我有更强大的力量
+Dialogue: 0,0:18:59.76,0:19:02.03,Chinese,NTP,0,0,0,,如果我能更早一点赶到的话 桔梗她…
+Dialogue: 0,0:19:03.97,0:19:04.74,Chinese,NTP,0,0,0,,奈落那家伙
+Dialogue: 0,0:19:05.48,0:19:08.56,Chinese,NTP,0,0,0,,看来真的很不想让桔梗和犬夜叉再会
+Dialogue: 0,0:19:09.14,0:19:11.99,Chinese,NTP,0,0,0,,但是 他还是及时赶到了
+Dialogue: 0,0:19:15.12,0:19:16.03,Chinese,NTP,0,0,0,,那时候…
+Dialogue: 0,0:19:18.24,0:19:20.44,Chinese,NTP,0,0,0,,你还记得吗 犬夜叉
+Dialogue: 0,0:19:21.20,0:19:25.04,Chinese,NTP,0,0,0,,在我们被奈落挑拨而决裂之前…
+Dialogue: 0,0:19:25.90,0:19:29.89,Chinese,NTP,0,0,0,,犬夜叉 要用四魂之玉变成人类吗
+Dialogue: 0,0:19:30.48,0:19:33.43,Chinese,NTP,0,0,0,,我如果变成人类 那桔梗你会怎样呢
+Dialogue: 0,0:19:34.30,0:19:35.95,Chinese,NTP,0,0,0,,我是玉的守护者
+Dialogue: 0,0:19:36.75,0:19:37.99,Chinese,NTP,0,0,0,,如果玉不存在了
+Dialogue: 0,0:19:39.14,0:19:40.85,Chinese,NTP,0,0,0,,我就会变成普通的女人
+Dialogue: 0,0:19:42.49,0:19:43.52,Chinese,NTP,0,0,0,,我怎么会忘记呢
+Dialogue: 0,0:19:44.56,0:19:48.72,Chinese,NTP,0,0,0,,那时我想变成人类和你一起生活…
+Dialogue: 0,0:19:50.61,0:19:53.84,Chinese,NTP,0,0,0,,我终于…变成普通的女人了…
+Dialogue: 0,0:19:54.78,0:19:59.14,Chinese,NTP,0,0,0,,桔梗 你是我有生以来第一个喜欢上的
+Dialogue: 0,0:19:59.44,0:20:00.85,Chinese,NTP,0,0,0,,最重要的女人
+Dialogue: 0,0:20:01.86,0:20:06.51,Chinese,NTP,0,0,0,,尽管如此 我还是什么都没能为你做到…
+Dialogue: 0,0:20:08.31,0:20:09.68,Chinese,NTP,0,0,0,,我第一次见到
+Dialogue: 0,0:20:10.41,0:20:14.70,Chinese,NTP,0,0,0,,犬夜叉 你用那种表情哭呢…
+Dialogue: 0,0:20:15.48,0:20:19.87,Chinese,NTP,0,0,0,,桔梗 我…我没能救得了你
+Dialogue: 0,0:20:20.57,0:20:22.97,Chinese,NTP,0,0,0,,你…赶来了
+Dialogue: 0,0:20:26.23,0:20:27.09,Chinese,NTP,0,0,0,,这就足够了…
+Dialogue: 0,0:20:28.97,0:20:29.66,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:20:39.10,0:20:40.07,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:20:48.77,0:20:49.30,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:21:00.33,0:21:01.12,Chinese,NTP,0,0,0,,桔梗
+Dialogue: 0,0:21:13.48,0:21:14.27,Chinese,NTP,0,0,0,,这些光是…
+Dialogue: 0,0:21:14.97,0:21:16.12,Chinese,NTP,0,0,0,,桔梗的灵魂
+Dialogue: 0,0:21:17.28,0:21:19.62,Chinese,NTP,0,0,0,,就像是在与我们告别一般
+Dialogue: 0,0:21:25.11,0:21:26.14,Chinese,NTP,0,0,0,,好温暖…
+Dialogue: 0,0:21:38.90,0:21:39.66,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:21:41.07,0:21:43.89,Chinese,NTP,0,0,0,,桔梗说让我们别再悲伤
+Dialogue: 0,0:21:46.56,0:21:50.20,Chinese,NTP,0,0,0,,说她会永远守护着我们
+

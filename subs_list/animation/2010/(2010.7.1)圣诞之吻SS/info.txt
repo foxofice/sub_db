@@ -1,0 +1,5 @@
+﻿chs: 圣诞之吻SS
+cht: 聖誕之吻SS
+jp: アマガミSS
+en: Amagami SS
+rome: Amagami SS

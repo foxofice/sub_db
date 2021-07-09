@@ -1,0 +1,5 @@
+﻿chs: 风之谷
+cht: 風之谷
+jp: 風の谷のナウシカ
+en: Nausicaa of the Valley of the Wind
+rome: Kaze no Tani no Nausicaa

@@ -1,0 +1,92 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP26]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:42.66,0:02:46.83,Staff,,0,0,0,,{\fade(500,500)}本字幕由  动漫国&KNA&轻之国度字幕组  联合制作\N仅供试看,请支持购买正版音像制品
+Dialogue: 0,0:02:47.87,0:02:51.63,Staff,,0,0,0,,{\fade(500,500)}翻译&时轴:傻瓜三世   后期:小圣
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}国\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}动
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}轻
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}国
+Dialogue: 0,0:00:06.98,0:00:11.99,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.08,0:00:02.94,Default,,0,0,0,,我是奥托·思文
+Dialogue: 0,0:00:03.45,0:00:06.66,Default,,0,0,0,,我有些心事  所以开始写日记了
+Dialogue: 0,0:00:07.57,0:00:11.11,Default,,0,0,0,,Re:从零开始的休息时间  奥托日记
+Dialogue: 0,0:00:12.87,0:00:15.57,Default,,0,0,0,,虽然我都觉得有些突然
+Dialogue: 0,0:00:15.83,0:00:19.12,Default,,0,0,0,,但这几天我有不少非同寻常的经历
+Dialogue: 0,0:00:19.36,0:00:23.15,Default,,0,0,0,,所以觉得最好还是用日记记录下来
+Dialogue: 0,0:00:24.40,0:00:27.48,Default,,0,0,0,,因为人生总是说结束就结束了
+Dialogue: 0,0:00:33.40,0:00:36.35,Default,,0,0,0,,我真以为自己会死的
+Dialogue: 0,0:00:38.80,0:00:40.94,Default,,0,0,0,,从魔女教教徒手上捡回一条命的我
+Dialogue: 0,0:00:40.94,0:00:43.86,Default,,0,0,0,,现在和菜月昴一起行动
+Dialogue: 0,0:00:44.71,0:00:48.61,Default,,0,0,0,,菜月是个很奇怪的人  穿着也很奇怪
+Dialogue: 0,0:00:48.76,0:00:50.99,Default,,0,0,0,,与他总有种独特的距离感
+Dialogue: 0,0:00:51.36,0:00:53.71,Default,,0,0,0,,虽然为了救爱蜜莉雅大人
+Dialogue: 0,0:00:53.80,0:00:56.00,Default,,0,0,0,,我和他一起驾龙车飞驰过
+Dialogue: 0,0:00:56.28,0:00:59.65,Default,,0,0,0,,但是他跟我相处时就像老朋友一样
+Dialogue: 0,0:00:59.65,0:01:01.61,Default,,0,0,0,,仿佛早就认识我似的
+Dialogue: 0,0:01:02.96,0:01:06.81,Default,,0,0,0,,虽然他没有口音  但可能是卡拉拉基人
+Dialogue: 0,0:01:07.09,0:01:09.85,Default,,0,0,0,,那里的人很知道怎么跟人接近
+Dialogue: 0,0:01:10.32,0:01:13.38,Default,,0,0,0,,不过黑发看起来又像南方人
+Dialogue: 0,0:01:14.06,0:01:14.90,Default,,0,0,0,,真不明白
+Dialogue: 0,0:01:14.90,0:01:17.25,Default,,0,0,0,,你在这儿啊  奥托  该走了
+Dialogue: 0,0:01:17.25,0:01:18.87,Default,,0,0,0,,是  我这就准备
+Dialogue: 0,0:01:20.29,0:01:22.54,Default,,0,0,0,,你的要求有两条吧
+Dialogue: 0,0:01:23.17,0:01:26.33,Default,,0,0,0,,一是将你进货进多了的油给全买下来
+Dialogue: 0,0:01:26.33,0:01:28.63,Default,,0,0,0,,没错没错  还有让我见梅札斯边境伯…
+Dialogue: 0,0:01:28.63,0:01:30.78,Default,,0,0,0,,就是你想见变态小丑吧
+Dialogue: 0,0:01:31.81,0:01:32.67,Default,,0,0,0,,变态小丑?
+Dialogue: 0,0:01:32.94,0:01:33.78,Default,,0,0,0,,变态小丑
+Dialogue: 0,0:01:33.78,0:01:34.72,Default,,0,0,0,,那是什么  好可怕
+Dialogue: 0,0:01:35.32,0:01:38.14,Default,,0,0,0,,奥托  为了这笔新的生意
+Dialogue: 0,0:01:38.18,0:01:40.70,Default,,0,0,0,,你将与变态小丑对峙
+Dialogue: 0,0:01:40.70,0:01:43.75,Default,,0,0,0,,我对梅札斯边境伯知之甚少
+Dialogue: 0,0:01:43.75,0:01:47.27,Default,,0,0,0,,但听你这么一说  我都打退堂鼓了
+Dialogue: 0,0:01:47.36,0:01:51.05,Default,,0,0,0,,喂  你不是说你有做商人的傲气吗
+Dialogue: 0,0:01:51.05,0:01:52.03,Comment,,0,0,0,,加点油啊
+Dialogue: 0,0:01:51.19,0:01:53.55,Default,,0,0,0,,我有  当然有  但是…
+Dialogue: 0,0:01:53.68,0:01:57.03,Default,,0,0,0,,等下  我跟你说过这种话来着吗
+Dialogue: 0,0:01:57.03,0:01:59.99,Default,,0,0,0,,说过说过  我不清楚但估计是说过
+Dialogue: 0,0:02:00.60,0:02:02.36,Default,,0,0,0,,所以赌上你的骄傲
+Dialogue: 0,0:02:02.36,0:02:04.72,Default,,0,0,0,,好好跟变态小丑打上一场吧
+Dialogue: 0,0:02:04.83,0:02:07.01,Default,,0,0,0,,知道了  我知道了啦
+Dialogue: 0,0:02:07.30,0:02:11.15,Default,,0,0,0,,我一定赌上骄傲  跟那个变态小丑打一场
+Dialogue: 0,0:02:12.68,0:02:13.93,Default,,0,0,0,,想来还是好可怕
+Dialogue: 0,0:02:13.93,0:02:15.32,Default,,0,0,0,,那你赶快准备一下
+Dialogue: 0,0:02:15.42,0:02:18.48,Default,,0,0,0,,算了  变态小丑还是太可怕了
+Dialogue: 0,0:02:18.52,0:02:19.43,Default,,0,0,0,,好  好
+Dialogue: 0,0:02:23.04,0:02:26.49,Default,,0,0,0,,他现在应该很消沉的  却装得精神抖擞
+Dialogue: 0,0:02:28.17,0:02:33.32,Default,,0,0,0,,我觉得我跟菜月的交情  不会交易完油料就结束
+Dialogue: 0,0:02:33.84,0:02:36.47,Default,,0,0,0,,感觉会有一场浩大的传说将要诞生
+Dialogue: 0,0:02:37.30,0:02:40.42,Default,,0,0,0,,希望到时候这本日记能公布于世
+Dialogue: 0,0:02:40.78,0:02:44.27,Default,,0,0,0,,比如说叫《传说中的商人  奥托·思文立志传》
+Dialogue: 0,0:02:44.27,0:02:47.31,Default,,0,0,0,,抓紧点时间  不然变态小丑要变成两个了
+Dialogue: 0,0:02:47.32,0:02:49.42,Default,,0,0,0,,哎  还是种会变多的东西吗
+Dialogue: 0,0:02:49.42,0:02:50.32,Default,,0,0,0,,快点啊
+Dialogue: 0,0:02:50.32,0:02:53.87,Default,,0,0,0,,是是是  知道了  我这就来
+Dialogue: 0,0:02:55.22,0:02:56.56,Default,,0,0,0,,增加到三个了
+Dialogue: 0,0:02:56.56,0:02:58.91,Default,,0,0,0,,真的会这么轻易就变多吗
+Dialogue: 0,0:02:54.65,0:03:00.15,Comment,,0,0,0,,{\fn萝莉体-DDC.yolan\fs25\fsp2\c&H0044B1&\3c&HB5B2B2&\frz17.71\pos(525.333,363.6)}这样子吗?
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

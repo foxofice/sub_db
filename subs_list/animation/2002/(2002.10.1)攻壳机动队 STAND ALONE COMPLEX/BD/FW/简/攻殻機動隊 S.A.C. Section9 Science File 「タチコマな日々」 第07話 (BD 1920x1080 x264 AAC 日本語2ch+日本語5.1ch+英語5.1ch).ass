@@ -1,0 +1,36 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 15:04:31
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.44,0:00:10.67,SP,NTP,0000,0000,0000,,诸位，你们知道塔奇克马的专长是什么吗？
+Dialogue: 0,0:00:10.67,0:00:11.98,SP,NTP,0000,0000,0000,,专长啊…
+Dialogue: 0,0:00:11.98,0:00:13.51,SP,NTP,0000,0000,0000,,高机动性之类的吧？
+Dialogue: 0,0:00:13.51,0:00:14.34,SP,NTP,0000,0000,0000,,No～No～
+Dialogue: 0,0:00:14.34,0:00:15.71,SP,NTP,0000,0000,0000,,说到塔奇克马
+Dialogue: 0,0:00:15.71,0:00:17.37,SP,NTP,0000,0000,0000,,当然就是钢丝特技啦
+Dialogue: 0,0:00:21.69,0:00:23.55,SP,NTP,0000,0000,0000,,的确很少用
+Dialogue: 0,0:00:23.55,0:00:25.92,SP,NTP,0000,0000,0000,,或者说不太清楚使用方法
+Dialogue: 0,0:00:25.92,0:00:27.42,SP,NTP,0000,0000,0000,,对吧、对吧
+Dialogue: 0,0:00:27.42,0:00:29.89,SP,NTP,0000,0000,0000,,那么我就让你们看看使用方法
+Dialogue: 0,0:00:29.89,0:00:31.52,SP,NTP,0000,0000,0000,,好好看清楚喔
+Dialogue: 0,0:00:35.30,0:00:36.39,SP,NTP,0000,0000,0000,,原来如此…我们走吧
+Dialogue: 0,0:00:37.60,0:00:38.53,SP,NTP,0000,0000,0000,,喂！
+Dialogue: 0,0:00:39.97,0:00:42.07,SP,NTP,0000,0000,0000,,放我下来～
+Dialogue: 0,0:00:42.07,0:00:43.41,SP,NTP,0000,0000,0000,,恐高症
+Dialogue: 0,0:00:43.41,0:00:44.53,SP,NTP,0000,0000,0000,,救命啊！

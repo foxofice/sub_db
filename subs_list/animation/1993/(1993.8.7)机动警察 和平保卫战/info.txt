@@ -1,0 +1,5 @@
+﻿chs: 机动警察 和平保卫战
+cht: 機動警察 和平保衛戰 
+jp: 機動警察パトレイバー 2 the Movie
+en: Patlabor 2 the Movie
+rome: Kidou Keisatsu Patlabor 2 the Movie

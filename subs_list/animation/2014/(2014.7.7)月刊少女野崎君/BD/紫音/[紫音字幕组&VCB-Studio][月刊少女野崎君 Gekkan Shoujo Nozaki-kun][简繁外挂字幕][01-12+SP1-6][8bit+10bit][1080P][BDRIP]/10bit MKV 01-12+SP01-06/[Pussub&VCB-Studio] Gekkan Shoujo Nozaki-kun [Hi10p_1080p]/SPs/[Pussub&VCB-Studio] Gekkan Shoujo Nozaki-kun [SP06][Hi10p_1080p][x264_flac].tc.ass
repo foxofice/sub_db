@@ -1,0 +1,75 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん SP 06
+Original Script: Pussub&VCB-Studio
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗圆_GBK,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Title,@方正准圆_GBK,38,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,5,-90,1,3,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.75,0:00:04.45,Default,,0,0,0,,野崎君 野崎君
+Dialogue: 0,0:00:04.42,0:00:06.01,Default,,0,0,0,,是特典影片耶
+Dialogue: 0,0:00:05.98,0:00:07.22,Default,,0,0,0,,我們一起看吧
+Dialogue: 0,0:00:10.93,0:00:11.63,Default,,0,0,0,,咦
+Dialogue: 0,0:00:11.64,0:00:13.13,Default,,0,0,0,,咦咦 這怎麼回事
+Dialogue: 0,0:00:13.06,0:00:16.31,Default,,0,0,0,,咦 夢!? 這是夢嗎
+Dialogue: 0,0:00:17.43,0:00:22.51,Title,,0,0,0,,{\pos(600,290)\blur2}這個事件越來越像少女漫畫
+Dialogue: 0,0:00:23.19,0:00:25.84,Default,,0,0,0,,哈? 你想看人被搭訕嗎
+Dialogue: 0,0:00:26.10,0:00:29.75,Default,,0,0,0,,應該說是...想看突發事件之類的
+Dialogue: 0,0:00:30.76,0:00:32.90,Default,,0,0,0,,突發事件啊...
+Dialogue: 0,0:00:34.41,0:00:35.50,Default,,0,0,0,,妳等我一下
+Dialogue: 0,0:00:39.91,0:00:42.56,Default,,0,0,0,,好了 你們拚命游去那邊看看
+Dialogue: 0,0:00:45.38,0:00:46.80,Default,,0,0,0,,妳做什麼了 結月
+Dialogue: 0,0:00:47.43,0:00:48.82,Default,,0,0,0,,我把泳褲的繩子抽掉了
+Dialogue: 0,0:00:50.52,0:00:51.54,Default,,0,0,0,,不會吧
+Dialogue: 0,0:00:51.96,0:00:53.23,Default,,0,0,0,,救命啊
+Dialogue: 0,0:00:59.78,0:01:01.71,Default,,0,0,0,,咦 這是什麼啊
+Dialogue: 0,0:01:03.11,0:01:04.18,Default,,0,0,0,,泳褲!?
+Dialogue: 0,0:01:04.36,0:01:05.68,Default,,0,0,0,,堀學長
+Dialogue: 0,0:01:05.61,0:01:06.85,Default,,0,0,0,,你泳褲掉了
+Dialogue: 0,0:01:08.09,0:01:09.38,Default,,0,0,0,,啊…
+Dialogue: 0,0:01:10.22,0:01:12.57,Default,,0,0,0,,幾件!? 你到底穿了幾件啊!?
+Dialogue: 0,0:01:12.50,0:01:13.87,Default,,0,0,0,,當然只有一件了!
+Dialogue: 0,0:01:13.80,0:01:14.97,Default,,0,0,0,,妳是白癡嗎!
+Dialogue: 0,0:01:19.14,0:01:22.49,Default,,0,0,0,,啊…
+Dialogue: 0,0:01:22.84,0:01:27.62,Default,,0,0,0,,我好像能理解比基尼被沖走的女生的心情了
+Dialogue: 0,0:01:27.55,0:01:29.35,Default,,0,0,0,,真是巧啊 我也是
+Dialogue: 0,0:01:29.28,0:01:30.23,Default,,0,0,0,,我也是
+Dialogue: 0,0:01:31.74,0:01:33.82,Default,,0,0,0,,你們三個沒事吧
+Dialogue: 0,0:01:34.14,0:01:35.35,Default,,0,0,0,,快住手
+Dialogue: 0,0:01:35.28,0:01:36.69,Default,,0,0,0,,別接近我
+Dialogue: 0,0:01:36.62,0:01:38.37,Default,,0,0,0,,別來這邊 不要過來
+Dialogue: 0,0:01:38.30,0:01:41.13,Default,,0,0,0,,對不起 求妳停下來吧
+Dialogue: 0,0:01:42.19,0:01:45.90,Default,,0,0,0,,怎麼辦...我好像能理解欺負人的角色的心情了
+Dialogue: 0,0:01:50.48,0:01:51.76,Default,,0,0,0,,啊 千代醬
+Dialogue: 0,0:01:51.81,0:01:54.33,Default,,0,0,0,,這附近有人掉泳褲嗎
+Dialogue: 0,0:01:54.26,0:01:55.59,Default,,0,0,0,,啊 那個
+Dialogue: 0,0:01:57.88,0:02:01.26,Default,,0,0,0,,各位 找到泳裝了 太好了呢
+Dialogue: 0,0:02:01.19,0:02:02.83,Default,,0,0,0,,真的嗎 好 丟過來
+Dialogue: 0,0:02:02.76,0:02:03.51,Default,,0,0,0,,嗯
+Dialogue: 0,0:02:03.58,0:02:04.23,Default,,0,0,0,,给！
+Dialogue: 0,0:02:07.18,0:02:07.91,Default,,0,0,0,,啊...
+Dialogue: 0,0:02:13.99,0:02:15.99,Default,,0,0,0,,今天和大家來海邊玩
+Dialogue: 0,0:02:16.46,0:02:17.49,Default,,0,0,0,,...雖然是這樣
+Dialogue: 0,0:02:17.91,0:02:18.93,Default,,0,0,0,,怎麼辦...
+Dialogue: 0,0:02:19.18,0:02:21.01,Default,,0,0,0,,泳裝被沖走了...!
+Dialogue: 0,0:02:21.32,0:02:22.71,Default,,0,0,0,,喲 麻美子
+Dialogue: 0,0:02:22.99,0:02:24.50,Default,,0,0,0,,這個是妳的吧?
+Dialogue: 0,0:02:24.43,0:02:25.32,Default,,0,0,0,,那是...
+Dialogue: 0,0:02:25.52,0:02:27.02,Default,,0,0,0,,嗯 謝謝你
+Dialogue: 0,0:02:28.21,0:02:32.00,Default,,0,0,0,,我看起來有這麼天真嗎?
+Dialogue: 0,0:02:32.38,0:02:35.25,Default,,0,0,0,,來啊 自己過來找啊
+Dialogue: 0,0:02:35.31,0:02:36.53,Default,,0,0,0,,妳這母狗
+Dialogue: 0,0:02:37.45,0:02:40.68,Default,,0,0,0,,麻美子的表情我參考了御子柴
+Dialogue: 0,0:02:41.07,0:02:42.90,Default,,0,0,0,,真是絕妙的絕望表情
+Dialogue: 0,0:02:43.26,0:02:45.25,Default,,0,0,0,,真的非常對不起
+Dialogue: 0,0:02:48.57,0:02:49.39,Default,,0,0,0,,再見了
+Dialogue: 0,0:02:49.77,0:02:51.84,Default,,0,0,0,,再見*n
+Dialogue: 0,0:02:51.77,0:02:52.66,Default,,0,0,0,,有機會再見吧

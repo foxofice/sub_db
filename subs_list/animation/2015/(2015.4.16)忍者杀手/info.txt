@@ -1,0 +1,5 @@
+﻿chs: 忍者杀手
+cht: 忍者殺手
+jp: ニンジャスレイヤー フロムアニメイシヨン
+en: NINJA SLAYER
+rome: NINJA SLAYER

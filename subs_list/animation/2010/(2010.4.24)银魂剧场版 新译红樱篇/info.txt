@@ -1,0 +1,5 @@
+﻿chs: 银魂剧场版 新译红樱篇
+cht: 銀魂劇場版 新譯紅櫻篇
+jp: 劇場版 銀魂 新訳紅桜篇 
+en: Gintama: The Movie
+rome: Gekijouban Gintama: Shin`yaku Benizakura Hen

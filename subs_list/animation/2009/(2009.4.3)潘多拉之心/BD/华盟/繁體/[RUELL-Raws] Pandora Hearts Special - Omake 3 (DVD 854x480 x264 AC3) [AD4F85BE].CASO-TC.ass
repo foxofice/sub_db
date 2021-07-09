@@ -1,0 +1,105 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[Aegisub Project Garbage]
+Active Line: 3
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.56,0:00:07.26,zhengwen,NTP,0,0,0,,潘多拉之心  附錄小動畫
+Dialogue: 0,0:00:09.59,0:00:17.34,zhengwen,NTP,0,0,0,,感…感謝你購買潘多拉之心DVD第三卷
+Dialogue: 0,0:00:17.65,0:00:20.66,zhengwen,NTP,0,0,0,,然後…那個…我…
+Dialogue: 0,0:00:21.89,0:00:28.48,zhushi,NTP,0,0,0,,（提示板）
+Dialogue: 0,0:00:23.53,0:00:27.02,zhengwen,NTP,0,0,0,,再說一遍那句「觀眾評選的經典台詞」
+Dialogue: 0,0:00:28.61,0:00:30.11,zhushi,NTP,0,0,0,,（潘多拉之心特典）
+Dialogue: 0,0:00:30.67,0:00:32.90,zhengwen,NTP,0,0,0,,我我我…
+Dialogue: 0,0:00:32.99,0:00:34.20,zhushi,NTP,0,0,0,,（潘多拉之心特典）
+Dialogue: 0,0:00:34.75,0:00:38.31,zhengwen,NTP,0,0,0,,我…我現在…現在仍然…然願願…
+Dialogue: 0,0:00:38.38,0:00:39.54,zhengwen,NTP,0,0,0,,不要叫我說啊
+Dialogue: 0,0:00:41.04,0:00:46.04,zhushi,NTP,0,0,0,,（潘多拉學園  棒球社）
+Dialogue: 0,0:00:42.95,0:00:45.05,zhengwen,NTP,0,0,0,,嘁  潘多拉之心
+Dialogue: 0,0:00:46.08,0:00:53.84,zhushi,NTP,0,0,0,,{\fad(1500,0)}（潘多拉學園）
+Dialogue: 0,0:00:48.83,0:00:51.00,zhengwen,NTP,0,0,0,,這裡就是潘多拉學園啊
+Dialogue: 0,0:00:51.11,0:00:52.44,zhengwen,NTP,0,0,0,,要遲到了  遲到了
+Dialogue: 0,0:00:56.21,0:00:58.50,zhengwen,NTP,0,0,0,,好疼…
+Dialogue: 0,0:01:00.81,0:01:01.89,zhengwen,NTP,0,0,0,,你是…
+Dialogue: 0,0:01:10.54,0:01:12.55,zhengwen,NTP,0,0,0,,嗨～躺在那邊的高中教師
+Dialogue: 0,0:01:12.77,0:01:14.00,zhengwen,NTP,0,0,0,,遲·到·囉
+Dialogue: 0,0:01:14.30,0:01:16.95,zhengwen,NTP,0,0,0,,哇  真遜啊
+Dialogue: 0,0:01:17.26,0:01:17.87,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:01:18.45,0:01:20.77,zhengwen,NTP,0,0,0,,令人心跳不已的潘多拉學園
+Dialogue: 0,0:01:22.11,0:01:23.23,zhengwen,NTP,0,0,0,,基爾巴特老師
+Dialogue: 0,0:01:25.01,0:01:26.21,zhengwen,NTP,0,0,0,,怎麼了  奧茲同學
+Dialogue: 0,0:01:26.64,0:01:29.46,zhengwen,NTP,0,0,0,,今天一起吃午飯吧
+Dialogue: 0,0:01:30.62,0:01:32.72,zhengwen,NTP,0,0,0,,學生和老師怎麼能…
+Dialogue: 0,0:01:32.89,0:01:34.53,zhengwen,NTP,0,0,0,,這點小事沒關係的
+Dialogue: 0,0:01:34.78,0:01:37.59,zhengwen,NTP,0,0,0,,而且我想和老師一起吃
+Dialogue: 0,0:01:37.84,0:01:39.31,zhengwen,NTP,0,0,0,,所以做了便當帶來了
+Dialogue: 0,0:01:39.54,0:01:40.37,zhengwen,NTP,0,0,0,,便當？
+Dialogue: 0,0:01:40.56,0:01:43.28,zhengwen,NTP,0,0,0,,嗯  是我精心製作的
+Dialogue: 0,0:01:43.85,0:01:45.49,zhengwen,NTP,0,0,0,,特製烤肉便當
+Dialogue: 0,0:01:46.27,0:01:47.27,zhushi,NTP,0,0,0,,（肉骨頭  牛背肉  特製烤肉  裡脊肉  五分熟）
+Dialogue: 0,0:01:46.64,0:01:47.82,zhengwen,NTP,0,0,0,,特製烤肉
+Dialogue: 0,0:01:47.27,0:01:49.27,zhushi,NTP,0,0,0,,（肉肉肉  牛雜  牛腰肉  嫩烤  裡脊  男生便當）
+Dialogue: 0,0:01:47.85,0:01:48.80,zhengwen,NTP,0,0,0,,烤肉
+Dialogue: 0,0:01:49.27,0:01:50.56,zhushi,NTP,0,0,0,,（豬心  特選和牛  牛舌  牛排  肉）
+Dialogue: 0,0:01:49.02,0:01:50.02,zhengwen,NTP,0,0,0,,肉肉
+Dialogue: 0,0:01:50.56,0:01:51.31,zhushi,NTP,0,0,0,,（肉☆  肉肉～\(`▽`)/  肥牛肉  肉）
+Dialogue: 0,0:01:50.26,0:01:51.20,zhengwen,NTP,0,0,0,,肉肉
+Dialogue: 0,0:01:51.49,0:01:53.96,zhengwen,NTP,0,0,0,,用了貝薩流斯家秘傳的醬汁
+Dialogue: 0,0:01:54.20,0:01:55.62,zhengwen,NTP,0,0,0,,味道可好了哦
+Dialogue: 0,0:01:55.78,0:01:57.40,zhengwen,NTP,0,0,0,,不…不是這個問題…
+Dialogue: 0,0:01:57.48,0:01:59.70,zhengwen,NTP,0,0,0,,那我在屋頂等您
+Dialogue: 0,0:01:59.88,0:02:00.55,zhengwen,NTP,0,0,0,,我都說了…
+Dialogue: 0,0:02:05.85,0:02:06.52,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:02:07.16,0:02:12.13,zhushi,NTP,0,0,0,,（潘多拉學園  網球社）
+Dialogue: 0,0:02:09.07,0:02:09.92,zhengwen,NTP,0,0,0,,潘多拉
+Dialogue: 0,0:02:10.32,0:02:11.33,zhengwen,NTP,0,0,0,,之心
+Dialogue: 0,0:02:20.43,0:02:24.07,zhengwen,NTP,0,0,0,,一眼看上去像是個爽朗的轉校生  沒想到…
+Dialogue: 0,0:02:24.24,0:02:24.74,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:02:25.39,0:02:27.41,zhengwen,NTP,0,0,0,,把基爾巴特老師還給我
+Dialogue: 0,0:02:27.74,0:02:29.89,zhengwen,NTP,0,0,0,,你口氣還真大
+Dialogue: 0,0:02:30.30,0:02:32.74,zhengwen,NTP,0,0,0,,是不是不認得這位大人啊
+Dialogue: 0,0:02:32.84,0:02:33.72,zhengwen,NTP,0,0,0,,不認得
+Dialogue: 0,0:02:34.00,0:02:34.55,zhengwen,NTP,0,0,0,,唔
+Dialogue: 0,0:02:34.67,0:02:37.41,zhengwen,NTP,0,0,0,,竟然不認得這個學園的老大
+Dialogue: 0,0:02:38.10,0:02:40.71,zhengwen,NTP,0,0,0,,奧茲同學…不要管我了…
+Dialogue: 0,0:02:40.89,0:02:42.60,zhengwen,NTP,0,0,0,,你不過是成了個教師
+Dialogue: 0,0:02:42.93,0:02:45.03,zhengwen,NTP,0,0,0,,別以為我會放過你
+Dialogue: 0,0:02:46.52,0:02:47.86,zhengwen,NTP,0,0,0,,我現在仍然…
+Dialogue: 0,0:02:47.87,0:02:48.56,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:02:47.66,0:02:50.08,zhushi,NTP,0,0,0,,（完）
+Dialogue: 0,0:02:50.08,0:02:55.09,zhushi,NTP,0,0,0,,{\an9}（潘多拉學園  劍道社）
+Dialogue: 0,0:02:50.08,0:02:55.09,zhushi,NTP,0,0,0,,{\an7}（「招募社員!!」）
+Dialogue: 0,0:02:52.03,0:02:52.93,zhengwen,NTP,0,0,0,,潘多拉
+Dialogue: 0,0:02:53.12,0:02:54.01,zhengwen,NTP,0,0,0,,之心
+Dialogue: 0,0:02:55.14,0:02:56.66,zhengwen,NTP,0,0,0,,下回預告
+Dialogue: 0,0:02:57.09,0:02:58.52,zhengwen,NTP,0,0,0,,喂  奧茲  我命令你
+Dialogue: 0,0:02:58.69,0:02:59.65,zhengwen,NTP,0,0,0,,怎麼啦  艾莉絲
+Dialogue: 0,0:02:59.96,0:03:01.78,zhengwen,NTP,0,0,0,,我現在要做下回預告
+Dialogue: 0,0:03:01.83,0:03:02.92,zhengwen,NTP,0,0,0,,那種事情等會兒再做
+Dialogue: 0,0:03:03.22,0:03:07.30,zhengwen,NTP,0,0,0,,我聽說這個世界有專門烤肉的餐廳
+Dialogue: 0,0:03:07.52,0:03:11.53,zhengwen,NTP,0,0,0,,那裡有世界各地的肉  澆上超美味的醬汁
+Dialogue: 0,0:03:11.75,0:03:15.22,zhengwen,NTP,0,0,0,,放在鐵絲網上用炭火烤到自己喜歡的熟度
+Dialogue: 0,0:03:15.28,0:03:17.97,zhengwen,NTP,0,0,0,,可以吃得飽飽的  咕嚕嚕…
+Dialogue: 0,0:03:18.85,0:03:20.32,zhengwen,NTP,0,0,0,,原來還有那種餐廳啊
+Dialogue: 0,0:03:20.47,0:03:22.47,zhengwen,NTP,0,0,0,,帶我去那裡吃  現在馬上就去
+Dialogue: 0,0:03:22.65,0:03:23.21,zhengwen,NTP,0,0,0,,呃？
+Dialogue: 0,0:03:23.37,0:03:25.90,zhengwen,NTP,0,0,0,,僕人為了完成主人的心願
+Dialogue: 0,0:03:26.02,0:03:27.23,zhengwen,NTP,0,0,0,,不應該什麼都肯做嗎
+Dialogue: 0,0:03:27.35,0:03:27.84,zhengwen,NTP,0,0,0,,快點
+Dialogue: 0,0:03:28.07,0:03:30.52,zhengwen,NTP,0,0,0,,嗯…但是我也不知道有這種餐廳
+Dialogue: 0,0:03:30.69,0:03:33.47,zhengwen,NTP,0,0,0,,問問在看這特典的人或許能知道些什麼
+Dialogue: 0,0:03:33.86,0:03:34.97,zhengwen,NTP,0,0,0,,就是這樣
+Dialogue: 0,0:03:35.08,0:03:38.48,zhengwen,NTP,0,0,0,,我們等著你送來美味烤肉店的情報

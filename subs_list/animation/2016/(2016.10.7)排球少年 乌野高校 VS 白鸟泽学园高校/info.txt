@@ -1,0 +1,5 @@
+﻿chs: 排球少年 乌野高校 VS 白鸟泽学园高校
+cht: 排球少年 烏野高校 VS 白鳥澤学园高校
+jp: ハイキュー!! 烏野高校 VS 白鳥沢学園高校
+en: Haikyu!! Karasuno High School vs Shiratorizawa Academy
+rome: Haikyuu!! Karasuno Koukou vs Shiratorizawa Gakuen Koukou

@@ -1,0 +1,69 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,7,7,7,1
+Style: ZWXX2,方正准圆_GBK,37,&H14FFFFFF,&H000000FF,&H00000000,&HFF000000,-1,0,0,0,100,100,1,0,1,1,2,1,13,13,8,1
+Style: ZW,方正准圆_GBK,47,&H14FFFFFF,&H000000FF,&H00000000,&HFF000000,-1,0,0,0,100,100,1,0,1,1,2,2,13,13,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:03.46,ZWXX2,,0,0,0,,{\an8\fs30}手抄：D.贼子  时轴：消逝的精灵  校对：89  后期：FM
+Dialogue: 0,0:00:10.77,0:00:13.44,ZW,,0,0,0,,没想到竟然会突然下起雨来
+Dialogue: 0,0:00:14.27,0:00:18.61,ZW,,0,0,0,,但是我们在这里的话 来这里打电话的人会困扰呢
+Dialogue: 0,0:00:19.11,0:00:21.74,ZW,,0,0,0,,的确呢 三个人是怎么也挤不进来的吧
+Dialogue: 0,0:00:22.11,0:00:23.41,ZW,,0,0,0,,现在都有点挤挤的
+Dialogue: 0,0:00:23.74,0:00:25.91,ZW,,0,0,0,,说的是呢
+Dialogue: 0,0:00:28.25,0:00:29.41,ZW,,0,0,0,,啊 糟糕了
+Dialogue: 0,0:00:29.62,0:00:30.87,ZW,,0,0,0,,哎 怎么了？
+Dialogue: 0,0:00:31.08,0:00:32.50,ZW,,0,0,0,,纯一都淋湿了
+Dialogue: 0,0:00:32.58,0:00:33.88,ZW,,0,0,0,,没关系的 就这点程度
+Dialogue: 0,0:00:34.25,0:00:35.29,ZW,,0,0,0,,不可以啦
+Dialogue: 0,0:00:35.42,0:00:38.84,ZW,,0,0,0,,现在是冬天 大意的话会感冒的
+Dialogue: 0,0:00:52.81,0:00:54.81,ZW,,0,0,0,,好 这样就没问题了
+Dialogue: 0,0:00:54.81,0:00:57.28,ZW,,0,0,0,,嗯 真柔软呢
+Dialogue: 0,0:00:57.36,0:00:57.73,ZW,,0,0,0,,嗯？
+Dialogue: 0,0:00:59.28,0:01:00.65,ZW,,0,0,0,,不 没什么
+Dialogue: 0,0:01:02.15,0:01:03.53,ZW,,0,0,0,,这回该到我帮你擦了
+Dialogue: 0,0:01:07.37,0:01:09.33,ZW,,0,0,0,,好痒呢
+Dialogue: 0,0:01:14.13,0:01:15.59,ZW,,0,0,0,,那个…
+Dialogue: 0,0:01:38.02,0:01:44.16,ZW,,0,0,0,,像…像这样被别人看到的话 就糟糕了呢
+Dialogue: 0,0:01:44.95,0:01:45.45,ZW,,0,0,0,,是啊
+Dialogue: 0,0:01:46.07,0:01:49.45,ZW,,0,0,0,,如果是认识的人 那就更糟糕了呢
+Dialogue: 0,0:01:50.12,0:01:50.91,ZW,,0,0,0,,是啊
+Dialogue: 0,0:01:56.42,0:01:58.71,ZW,,0,0,0,,啊 玻璃好像起雾了
+Dialogue: 0,0:01:59.38,0:02:00.05,ZW,,0,0,0,,真的呢
+Dialogue: 0,0:02:08.43,0:02:09.26,ZW,,0,0,0,,真不可思议
+Dialogue: 0,0:02:09.89,0:02:10.43,ZW,,0,0,0,,说哪方面？
+Dialogue: 0,0:02:11.39,0:02:13.77,ZW,,0,0,0,,虽然一直跟纯一在一起
+Dialogue: 0,0:02:14.31,0:02:17.02,ZW,,0,0,0,,但像现在这样的事 以前还真没有过呢
+Dialogue: 0,0:02:17.86,0:02:19.57,ZW,,0,0,0,,以后 还会有很多很多的
+Dialogue: 0,0:02:20.19,0:02:21.94,ZW,,0,0,0,,像这样没有过的回忆
+Dialogue: 0,0:02:22.69,0:02:24.40,ZW,,0,0,0,,呐 你感觉得到吗？
+Dialogue: 0,0:02:25.53,0:02:27.95,ZW,,0,0,0,,我心跳得很快
+Dialogue: 0,0:02:28.78,0:02:30.33,ZW,,0,0,0,,嗯 我知道
+Dialogue: 0,0:02:31.08,0:02:33.33,ZW,,0,0,0,,我的心跳也很快呢
+Dialogue: 0,0:03:02.48,0:03:03.44,ZW,,0,0,0,,下雪了呢
+Dialogue: 0,0:03:03.86,0:03:05.36,ZW,,0,0,0,,怪不得这么冷
+Dialogue: 0,0:03:15.50,0:03:16.04,ZW,,0,0,0,,回去吧
+Dialogue: 0,0:03:16.71,0:03:17.25,ZW,,0,0,0,,嗯
+Dialogue: 0,0:03:17.25,0:03:19.25,Default,,0,0,0,,
+

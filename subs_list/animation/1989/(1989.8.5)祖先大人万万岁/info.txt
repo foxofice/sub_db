@@ -1,0 +1,5 @@
+﻿chs: 祖先大人万万岁
+cht: 祖先大人萬萬歲
+jp: 御先祖様万々歳!
+en: Gosenzosama Banbanzai!
+rome: Gosenzosama Banbanzai!

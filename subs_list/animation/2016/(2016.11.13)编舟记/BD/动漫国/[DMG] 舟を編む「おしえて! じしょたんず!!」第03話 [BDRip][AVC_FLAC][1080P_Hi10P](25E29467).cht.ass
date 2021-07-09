@@ -1,0 +1,42 @@
+﻿[Script Info]
+Title: [Fune_o_Amu][SP03]
+Original Script: DMG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX: 1280
+PlayResY: 720
+Timer:100.0000
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,8,10,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.68,0:00:04.73,Default,,0,0,0,,教教我吧!  辭典小傢伙們!!
+Dialogue: 0,0:00:06.06,0:00:09.07,Default,,0,0,0,,{\fn微软雅黑\bord0\fs55\c&H000000&\fade(0,546)\b0\pos(690,570)}『{\fn萝莉体 第二版}小海{\fn微软雅黑}』            『{\fn萝莉体 第二版}小泉{\fn微软雅黑}』         『{\fn萝莉体 第二版}林太{\fn微软雅黑}』       『{\fn萝莉体 第二版}小廣{\fn微软雅黑}』
+Dialogue: 0,0:00:05.19,0:00:06.02,Default,,0,0,0,,各位
+Dialogue: 0,0:00:06.31,0:00:08.36,Default,,0,0,0,,你們收錄的詞條中
+Dialogue: 0,0:00:08.44,0:00:11.78,Default,,0,0,0,,有沒有值得驕傲的特色詞條呢
+Dialogue: 0,0:00:12.36,0:00:12.99,Default,,0,0,0,,有!
+Dialogue: 0,0:00:13.24,0:00:14.91,Default,,0,0,0,,我就直說了 「炸里肌」
+Dialogue: 0,0:00:15.95,0:00:18.49,Default,,0,0,0,,「炸里肌」指的是這個嗎
+Dialogue: 0,0:00:18.91,0:00:21.70,Default,,0,0,0,,我就收錄了這個詞哦
+Dialogue: 0,0:00:22.12,0:00:25.33,Default,,0,0,0,,只要在「里肌」這個詞條下的用例中提到「炸里肌」就夠了
+Dialogue: 0,0:00:25.96,0:00:26.63,Default,,0,0,0,,非也
+Dialogue: 0,0:00:26.83,0:00:29.38,Default,,0,0,0,,應該要提到「牛扒」才對
+Dialogue: 0,0:00:30.80,0:00:32.84,Default,,0,0,0,,大家的收錄內容都略微不同呢
+Dialogue: 0,0:00:33.17,0:00:33.72,Default,,0,0,0,,對了
+Dialogue: 0,0:00:33.97,0:00:35.68,Default,,0,0,0,,你們知道「懶人繩」嗎
+Dialogue: 0,0:00:36.01,0:00:37.18,Default,,0,0,0,,懶人繩?
+Dialogue: 0,0:00:37.18,0:00:40.01,Default,,0,0,0,,那個  就是這東西
+Dialogue: 0,0:00:40.72,0:00:41.47,Default,,0,0,0,,原來如此
+Dialogue: 0,0:00:41.47,0:00:42.52,Default,,0,0,0,,真方便
+Dialogue: 0,0:00:42.52,0:00:44.19,Default,,0,0,0,,值得商榷
+Dialogue: 0,0:00:44.85,0:00:47.11,Default,,0,0,0,,辭典會不斷進化
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,

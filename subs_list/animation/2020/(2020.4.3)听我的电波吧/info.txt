@@ -1,0 +1,5 @@
+﻿chs: 听我的电波吧/听着这电波
+cht: 聼我的電波吧
+jp: 波よ聞いてくれ
+en: Wave, Listen to Me!
+rome: Nami yo Kiite Kure

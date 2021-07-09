@@ -1,0 +1,462 @@
+﻿[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: <untitled>
+Original Script: <unknown>
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Standard (PlanetES),Space Gothic,26,&H00E9DFD6,&H00000000,&H37606060,&H84000000,0,0,0,0,110,100,0,0,1,2.00,1.00,2,30,30,6,0
+Style: Alternative (PlanetES),Space Gothic,26,&H19C0FFFF,&H00000000,&H37606060,&H84000000,0,0,0,0,110,100,0,0,1,2.00,1.00,2,20,20,6,0
+Style: F.O. (PlanetES),DoradoHeadline,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,20,20,30,0
+Style: Other (PlanetES),Antropos,24,&H00E9DFD6,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.00,1.00,8,20,20,5,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:05:35.97,0:05:37.13,Standard (PlanetES),Comment,0000,0000,0000,,A No...
+Comment: 0,0:00:00.00,0:00:00.00,Standard (PlanetES),Comment,0000,0000,0000,,// Part 2 \\
+
+Dialogue: 0,0:00:04.04,0:00:06.51,Standard (PlanetES),,0000,0000,0000,,Abandoned artificial satellites.
+Dialogue: 0,0:00:06.52,0:00:09.01,Standard (PlanetES),,0000,0000,0000,,Tanks jettisoned from shuttles.
+Dialogue: 0,0:00:09.01,0:00:11.77,Standard (PlanetES),,0000,0000,0000,,Refuse generated during\nspace station construction.
+Dialogue: 0,0:00:12.11,0:00:19.45,Standard (PlanetES),,0000,0000,0000,,This vast amount of junk floating in space,\nspace debris, is a very serious threat.
+Dialogue: 0,0:00:19.92,0:00:26.59,Standard (PlanetES),,0000,0000,0000,,This is a story of 2075, a time in which\nthis space garbage has become a problem.
+Dialogue: 0,0:00:45.68,0:00:48.12,Standard (PlanetES),,0000,0000,0000,,Okay, rookie,\nyou stay put there.
+Dialogue: 0,0:00:49.95,0:00:52.18,Standard (PlanetES),,0000,0000,0000,,Are you listening\nto me, rookie?
+Dialogue: 0,0:00:53.35,0:00:55.87,Standard (PlanetES),,0000,0000,0000,,Wait there. Don't go near\nthe engine until...
+Dialogue: 0,0:00:56.02,0:00:56.89,Standard (PlanetES),,0000,0000,0000,,Hey! Rookie!
+Dialogue: 0,0:00:57.59,0:00:58.82,Standard (PlanetES),,0000,0000,0000,,Did you hear a word I said?!
+Dialogue: 0,0:00:59.08,0:00:59.73,Standard (PlanetES),,0000,0000,0000,,Hey!
+Dialogue: 0,0:01:02.46,0:01:04.43,Standard (PlanetES),,0000,0000,0000,,What do you think\nyou're doing, damn it?
+Dialogue: 0,0:01:04.43,0:01:06.75,Standard (PlanetES),,0000,0000,0000,,At least learn your suit's\nhalt code!
+Dialogue: 0,0:01:09.17,0:01:11.62,Standard (PlanetES),,0000,0000,0000,,Stay calm. Just swing\nto the right.
+Dialogue: 0,0:01:18.31,0:01:20.57,Standard (PlanetES),,0000,0000,0000,,You panicked over nothing,\nyou little bastard...
+Dialogue: 0,0:01:30.76,0:01:33.75,Standard (PlanetES),,0000,0000,0000,,Crap, the engine and control\nsystem were still working!
+Dialogue: 0,0:03:08.72,0:03:13.00,F.O. (PlanetES),,0000,0000,0000,,{\1c&HE0E0E0&}{\fscx130\fscy120}{\t(0,4480,\fscx150\fscy125)}{\bord0.1\shad1.5\fs20}{\fad(820,0)}{\move(468,370,398,368)}Like a Dream
+Dialogue: 0,0:03:13.00,0:03:15.45,F.O. (PlanetES),,0000,0000,0000,,{\1c&HE0E0E0&}{\fscx150\fscy125}{\t(0,2540,\fscx160\fscy130)}{\bord0.1\shad1.5\fs20}{\move(398,368,350,368)}Like a Dream
+Dialogue: 0,0:03:15.45,0:03:17.45,F.O. (PlanetES),,0000,0000,0000,,{\1c&HE0E0E0&}{\fscx160\fscy130}{\t(0,2000,\fscx161\fscy125)}{\fad(0,900)}{\bord0.1\shad1.5\fs20}{\move(350,368,300,368)}Like a Dream
+Dialogue: 0,0:03:23.74,0:03:24.53,Standard (PlanetES),,0000,0000,0000,,Six!
+Dialogue: 0,0:03:24.53,0:03:27.04,Standard (PlanetES),,0000,0000,0000,,Yes! Yes! Yes! Yes! Yes!!!
+Dialogue: 0,0:03:24.34,0:03:27.04,Alternative (PlanetES),,0000,0000,0000,,And our next number is a six!
+Dialogue: 0,0:03:27.27,0:03:29.14,Standard (PlanetES),,0000,0000,0000,,Banzai! Banzai!
+Dialogue: 0,0:03:29.54,0:03:31.87,Standard (PlanetES),,0000,0000,0000,,Huh? Did something happen?
+Dialogue: 0,0:03:32.14,0:03:34.01,Standard (PlanetES),,0000,0000,0000,,I won the lottery,\nthat's what!
+Dialogue: 0,0:03:34.01,0:03:35.33,Standard (PlanetES),,0000,0000,0000,,Yep! 300 million!
+Dialogue: 0,0:03:35.48,0:03:36.72,Standard (PlanetES),,0000,0000,0000,,300 million?!
+Dialogue: 0,0:03:36.72,0:03:38.04,Standard (PlanetES),,0000,0000,0000,,Not just yet.
+Dialogue: 0,0:03:38.04,0:03:40.75,Standard (PlanetES),,0000,0000,0000,,But if the next number is a 4, he wins.
+Dialogue: 0,0:03:40.89,0:03:41.82,Standard (PlanetES),,0000,0000,0000,,No way!
+Dialogue: 0,0:03:41.82,0:03:44.46,Standard (PlanetES),,0000,0000,0000,,I'm the one who bought\nthe ticket, Hachi,
+Dialogue: 0,0:03:44.46,0:03:46.99,Standard (PlanetES),,0000,0000,0000,,...so if you win, I get half!\NNo, no a quarter is fine!
+Dialogue: 0,0:03:46.99,0:03:50.16,Standard (PlanetES),,0000,0000,0000,,I helped out with the luck dance,\nso I get some too, right?
+Dialogue: 0,0:03:50.40,0:03:51.29,Standard (PlanetES),,0000,0000,0000,,Um...
+Dialogue: 0,0:03:51.83,0:03:54.20,Standard (PlanetES),,0000,0000,0000,,W-Why are you\ndressed like that?
+Dialogue: 0,0:03:54.20,0:03:55.60,Standard (PlanetES),,0000,0000,0000,,Wanna join in?
+Dialogue: 0,0:03:56.07,0:03:58.13,Standard (PlanetES),,0000,0000,0000,,They say it's a good-luck charm\nthat's a sure thing.
+Dialogue: 0,0:03:58.80,0:03:59.77,Standard (PlanetES),,0000,0000,0000,,But I...
+Dialogue: 0,0:03:59.77,0:04:01.36,Standard (PlanetES),,0000,0000,0000,,Hey, here comes\nthe last number!
+Dialogue: 0,0:04:10.52,0:04:11.15,Standard (PlanetES),,0000,0000,0000,,Oo.
+Dialogue: 0,0:04:12.45,0:04:13.28,Standard (PlanetES),,0000,0000,0000,,C'mon, four!
+Dialogue: 0,0:04:13.28,0:04:13.84,Standard (PlanetES),,0000,0000,0000,,Four!
+Dialogue: 0,0:04:13.95,0:04:14.58,Standard (PlanetES),,0000,0000,0000,,Four!
+Dialogue: 0,0:04:14.69,0:04:15.21,Standard (PlanetES),,0000,0000,0000,,Four!
+Dialogue: 0,0:04:15.32,0:04:15.66,Standard (PlanetES),,0000,0000,0000,,Four!
+Dialogue: 0,0:04:19.06,0:04:21.05,Standard (PlanetES),,0000,0000,0000,,And those are\ntonight's numbers!
+Dialogue: 0,0:04:22.33,0:04:23.50,Standard (PlanetES),,0000,0000,0000,,Aw, man...
+Dialogue: 0,0:04:23.94,0:04:25.56,Standard (PlanetES),,0000,0000,0000,,172 straight losses.
+Dialogue: 0,0:04:26.16,0:04:28.33,Standard (PlanetES),,0000,0000,0000,,And partial matches don't\npay anything, either, damn it...
+Dialogue: 0,0:04:28.33,0:04:31.00,Standard (PlanetES),,0000,0000,0000,,I suppose that half-hearted dance\njust won't do the trick.
+Dialogue: 0,0:04:31.00,0:04:34.87,Standard (PlanetES),,0000,0000,0000,,If you're serious, you should go all-out.\NThis is supposed to be quite effective.
+Dialogue: 0,0:04:35.24,0:04:37.61,Standard (PlanetES),,0000,0000,0000,,Good idea! Do you want\nto try that next time?
+Dialogue: 0,0:04:37.61,0:04:40.08,Standard (PlanetES),,0000,0000,0000,,In that case, please be the\nhuman sacrifice, Chief.
+Dialogue: 0,0:04:40.18,0:04:42.16,Standard (PlanetES),,0000,0000,0000,,Don't make jokes\nlike that!
+Dialogue: 0,0:04:42.28,0:04:45.25,Standard (PlanetES),,0000,0000,0000,,Senpai, why are you\nplaying the lottery?
+Dialogue: 0,0:04:45.25,0:04:47.25,Standard (PlanetES),,0000,0000,0000,,Lay off... It's none\nof your concern.
+Dialogue: 0,0:04:47.42,0:04:49.79,Standard (PlanetES),,0000,0000,0000,,This bozo's dream\nis to buy a spaceship.
+Dialogue: 0,0:04:50.42,0:04:52.91,Standard (PlanetES),,0000,0000,0000,,B-But aren't spaceships really,\nreally expensive?
+Dialogue: 0,0:04:52.89,0:04:55.05,Standard (PlanetES),,0000,0000,0000,,That's why he's playing the lottery!
+Dialogue: 0,0:04:55.09,0:04:56.04,Standard (PlanetES),,0000,0000,0000,,Hey, that reminds me!
+Dialogue: 0,0:04:57.33,0:04:59.92,Standard (PlanetES),,0000,0000,0000,,Let me show you\nsomething cool. This is...
+Dialogue: 0,0:05:00.50,0:05:02.73,Standard (PlanetES),,0000,0000,0000,,What's the problem?\NYou showed it to us before!
+Dialogue: 0,0:05:02.73,0:05:04.57,Standard (PlanetES),,0000,0000,0000,,Yeah, so don't go showing it\nwithout asking!
+Dialogue: 0,0:05:04.97,0:05:06.64,Standard (PlanetES),,0000,0000,0000,,What is it?
+Dialogue: 0,0:05:06.64,0:05:09.54,Standard (PlanetES),,0000,0000,0000,,"Idea Notebook for Acquiring\na Spaceship of My Own."
+Dialogue: 0,0:05:09.54,0:05:10.12,Standard (PlanetES),,0000,0000,0000,,What?
+Dialogue: 0,0:05:10.12,0:05:14.33,Standard (PlanetES),,0000,0000,0000,,Hoshino-san filled it with ways\nhe could get a spaceship.
+Dialogue: 0,0:05:14.51,0:05:17.00,Standard (PlanetES),,0000,0000,0000,,Apparently, he had it even before\nhe joined the company.
+Dialogue: 0,0:05:18.18,0:05:21.64,Standard (PlanetES),,0000,0000,0000,,But Senpai, it's not easy\nto win the lottery...
+Dialogue: 0,0:05:23.66,0:05:25.50,Standard (PlanetES),,0000,0000,0000,,There's lots of different ways.
+Dialogue: 0,0:05:25.51,0:05:27.08,Standard (PlanetES),,0000,0000,0000,,I could get the President's Prize, for instance.
+Dialogue: 0,0:05:27.36,0:05:30.36,Standard (PlanetES),,0000,0000,0000,,Come on, it's not like you'd\never be chosen for that.
+Dialogue: 0,0:05:30.36,0:05:35.80,Standard (PlanetES),,0000,0000,0000,,He's right, Hachi. Besides, the President's\NPrize is a life-sized Nora-kun.
+Dialogue: 0,0:05:38.17,0:05:42.44,Standard (PlanetES),,0000,0000,0000,,I-I could also rescue some rich old\ngeezer who's about to kick the bucket,
+Dialogue: 0,0:05:42.44,0:05:43.61,Standard (PlanetES),,0000,0000,0000,,...or marry some\nrich old lady, or...
+Dialogue: 0,0:05:43.61,0:05:45.18,Standard (PlanetES),,0000,0000,0000,,Are you the\nlife-saving type?
+Dialogue: 0,0:05:45.18,0:05:48.54,Standard (PlanetES),,0000,0000,0000,,And marrying rich?\NWould anybody ever marry you?
+Dialogue: 0,0:05:48.78,0:05:51.88,Standard (PlanetES),,0000,0000,0000,,If a man puts his mind to it, he can get married\nor even buy a spaceship!
+Dialogue: 0,0:05:51.88,0:05:55.65,Standard (PlanetES),,0000,0000,0000,,So, what else do you have written in there?\NLet me see your notebook.
+Dialogue: 0,0:05:55.65,0:05:58.32,Standard (PlanetES),,0000,0000,0000,,What are you doing here, anyway?!\NIt's your day off, isn't it?!
+Dialogue: 0,0:05:58.89,0:06:00.32,Standard (PlanetES),,0000,0000,0000,,That's right, it is!
+Dialogue: 0,0:06:02.06,0:06:03.69,Standard (PlanetES),,0000,0000,0000,,You know the\nprocedure, right?
+Dialogue: 0,0:06:03.93,0:06:06.26,Standard (PlanetES),,0000,0000,0000,,Right. I learned how\nin a workshop.
+Dialogue: 0,0:06:06.70,0:06:08.20,Standard (PlanetES),,0000,0000,0000,,Okay, try to\nback away.
+Dialogue: 0,0:06:08.20,0:06:09.22,Standard (PlanetES),,0000,0000,0000,,Right.
+Dialogue: 0,0:06:11.80,0:06:15.61,Standard (PlanetES),,0000,0000,0000,,You moron, you're spinning because you're not\nthrusting through your body's center of gravity.
+Dialogue: 0,0:06:15.61,0:06:16.88,Standard (PlanetES),,0000,0000,0000,,I'm sorry...!
+Dialogue: 0,0:06:16.88,0:06:19.64,Standard (PlanetES),,0000,0000,0000,,You gotta be able to judge something's\ncenter of mass in an instant.
+Dialogue: 0,0:06:19.64,0:06:23.64,Standard (PlanetES),,0000,0000,0000,,'Cause when you're holding tools or debris, it's\neven harder to determine your center of mass.
+Dialogue: 0,0:06:23.82,0:06:25.08,Standard (PlanetES),,0000,0000,0000,,Y-Yes, sir!
+Dialogue: 0,0:06:25.08,0:06:26.89,Standard (PlanetES),,0000,0000,0000,,Or more to the point,\nplease stop me!
+Dialogue: 0,0:06:26.89,0:06:28.05,Standard (PlanetES),,0000,0000,0000,,Of course.
+Dialogue: 0,0:06:32.47,0:06:33.50,Standard (PlanetES),,0000,0000,0000,,T-Thank you.
+Dialogue: 0,0:06:34.29,0:06:35.45,Standard (PlanetES),,0000,0000,0000,,Not at all.
+Dialogue: 0,0:06:35.93,0:06:39.62,Standard (PlanetES),,0000,0000,0000,,Just think of your center of gravity as\nsomewhere around the pit of your stomach.
+Dialogue: 0,0:06:39.93,0:06:41.70,Standard (PlanetES),,0000,0000,0000,,Long time now see,\NCheng-Shin.
+Dialogue: 0,0:06:41.70,0:06:43.06,Standard (PlanetES),,0000,0000,0000,,Good to be back, Hachimaki.
+Dialogue: 0,0:06:43.30,0:06:45.33,Standard (PlanetES),,0000,0000,0000,,I see you've finally got\nyourselves a new recruit.
+Dialogue: 0,0:06:45.77,0:06:47.44,Standard (PlanetES),,0000,0000,0000,,Is he a friend\nof yours?
+Dialogue: 0,0:06:47.44,0:06:50.79,Standard (PlanetES),,0000,0000,0000,,Cheng-Shin and I were hired at the same time.\NHe works as a pilot in Aerospace Section.
+Dialogue: 0,0:06:51.08,0:06:54.91,Standard (PlanetES),,0000,0000,0000,,My wings are still clipped, though. I'm not\nallowed to carry anything but cargo.
+Dialogue: 0,0:06:55.71,0:07:00.58,Standard (PlanetES),,0000,0000,0000,,It will be 1800 hours momentarily.\NISPV-7 is about to enter nighttime mode,
+Dialogue: 0,0:07:00.58,0:07:04.20,Standard (PlanetES),,0000,0000,0000,,...so we ask that all corporate blocks\nswitch over to internal power sources.
+Dialogue: 0,0:07:14.97,0:07:17.84,Standard (PlanetES),,0000,0000,0000,,Good for you, you have\na new partner.
+Dialogue: 0,0:07:17.84,0:07:19.94,Standard (PlanetES),,0000,0000,0000,,Too bad she doesn't have\na lick of talent.
+Dialogue: 0,0:07:19.94,0:07:21.74,Standard (PlanetES),,0000,0000,0000,,Isn't everyone like that\nat first?
+Dialogue: 0,0:07:21.74,0:07:23.25,Standard (PlanetES),,0000,0000,0000,,Besides, she's cute.
+Dialogue: 0,0:07:23.25,0:07:24.88,Standard (PlanetES),,0000,0000,0000,,I like her enthusiasm.
+Dialogue: 0,0:07:24.88,0:07:27.20,Standard (PlanetES),,0000,0000,0000,,Girls like that oughta be\nsecretaries or something.
+Dialogue: 0,0:07:27.51,0:07:30.16,Standard (PlanetES),,0000,0000,0000,,Oh, so we agree\nthat she's cute, then.
+Dialogue: 0,0:07:30.42,0:07:33.22,Standard (PlanetES),,0000,0000,0000,,You'll never cut it as a pilot.\NYour eyes are terrible.
+Dialogue: 0,0:07:33.22,0:07:34.37,Standard (PlanetES),,0000,0000,0000,,You can't admit it,\ncan you?
+Dialogue: 0,0:07:34.62,0:07:35.39,Standard (PlanetES),,0000,0000,0000,,Lay off.
+Dialogue: 0,0:07:35.39,0:07:36.58,Standard (PlanetES),,0000,0000,0000,,Hey, Hachimaki!
+Dialogue: 0,0:07:37.47,0:07:38.36,Standard (PlanetES),,0000,0000,0000,,You buy your spaceship yet?
+Dialogue: 0,0:07:38.36,0:07:41.59,Standard (PlanetES),,0000,0000,0000,,I hear the Yankees lost.\NThat makes our records the same.
+Dialogue: 0,0:07:41.59,0:07:44.26,Standard (PlanetES),,0000,0000,0000,,Oh, so I guess you lost\nthe lottery, huh?
+Dialogue: 0,0:07:44.26,0:07:47.72,Standard (PlanetES),,0000,0000,0000,,Even if I do get a spaceship someday,\NI'm never letting you aboard it, you hear me?
+Dialogue: 0,0:07:48.43,0:07:49.07,Standard (PlanetES),,0000,0000,0000,,I'm kidding.
+Dialogue: 0,0:07:49.07,0:07:50.51,Standard (PlanetES),,0000,0000,0000,,But I will!
+Dialogue: 0,0:07:50.73,0:07:52.40,Standard (PlanetES),,0000,0000,0000,,So will you lend me some money?
+Dialogue: 0,0:07:52.40,0:07:53.81,Standard (PlanetES),,0000,0000,0000,,Playing the ponies again?
+Dialogue: 0,0:07:53.81,0:07:56.54,Standard (PlanetES),,0000,0000,0000,,No way! I found a sure thing\nin the dog races!
+Dialogue: 0,0:07:56.54,0:07:59.11,Standard (PlanetES),,0000,0000,0000,,Hey, what's it gonna be?!\NI'm taking the last bets now!
+Dialogue: 0,0:07:59.11,0:08:00.35,Standard (PlanetES),,0000,0000,0000,,Give me a minute!
+Dialogue: 0,0:08:00.35,0:08:02.48,Standard (PlanetES),,0000,0000,0000,,C'mon! Somebody!\NAnybody!
+Dialogue: 0,0:08:02.48,0:08:05.62,Standard (PlanetES),,0000,0000,0000,,Work the night shift for me!\NI have a date!
+Dialogue: 0,0:08:05.78,0:08:07.42,Standard (PlanetES),,0000,0000,0000,,You're just gonna get\ndumped again, anyway.
+Dialogue: 0,0:08:07.42,0:08:09.29,Standard (PlanetES),,0000,0000,0000,,Lend me some money,\nand I'll do whatever you want!
+Dialogue: 0,0:08:09.29,0:08:10.46,Standard (PlanetES),,0000,0000,0000,,Pipe down back there.
+Dialogue: 0,0:08:10.46,0:08:12.86,Standard (PlanetES),,0000,0000,0000,,Step right up,\nmy widower friends!
+Dialogue: 0,0:08:12.86,0:08:15.02,Standard (PlanetES),,0000,0000,0000,,I've got some\nnew goodies!
+Dialogue: 0,0:08:16.09,0:08:19.06,Standard (PlanetES),,0000,0000,0000,,Rent or buy,\nbut cash only, please!
+Dialogue: 0,0:08:19.06,0:08:20.80,Standard (PlanetES),,0000,0000,0000,,Save some for me!
+Dialogue: 0,0:08:20.80,0:08:22.10,Standard (PlanetES),,0000,0000,0000,,I'm not taking\nany more bets!
+Dialogue: 0,0:08:22.10,0:08:25.00,Standard (PlanetES),,0000,0000,0000,,Wait, I want in, too!\NHey, Cheng-Shin! Spot me!
+Dialogue: 0,0:08:26.10,0:08:29.10,Standard (PlanetES),,0000,0000,0000,,C'mon, it's a sure thing!\NI'll pay you back triple!
+Dialogue: 0,0:09:24.30,0:09:25.08,Standard (PlanetES),,0000,0000,0000,,I did it!
+Dialogue: 0,0:09:25.53,0:09:26.73,Standard (PlanetES),,0000,0000,0000,,Senpai, I did it!
+Dialogue: 0,0:09:27.03,0:09:29.03,Standard (PlanetES),,0000,0000,0000,,Don't get cocky just 'cause\nyou did it once.
+Dialogue: 0,0:09:29.03,0:09:29.73,Standard (PlanetES),,0000,0000,0000,,Again!
+Dialogue: 0,0:09:29.73,0:09:30.89,Standard (PlanetES),,0000,0000,0000,,Right!
+Dialogue: 0,0:09:31.17,0:09:32.84,Standard (PlanetES),,0000,0000,0000,,I did it!\NI did it again!
+Dialogue: 0,0:09:32.84,0:09:34.63,Standard (PlanetES),,0000,0000,0000,,Senpai, I did it!
+Dialogue: 0,0:09:35.47,0:09:36.27,Standard (PlanetES),,0000,0000,0000,,Geez...
+Dialogue: 0,0:09:36.71,0:09:38.63,Standard (PlanetES),,0000,0000,0000,,Of course you did.
+Dialogue: 0,0:09:38.88,0:09:41.11,Standard (PlanetES),,0000,0000,0000,,I've been working with you\nfor days, haven't I?
+Dialogue: 0,0:09:45.92,0:09:47.55,Standard (PlanetES),,0000,0000,0000,,I knew you could do it,\NCheng-Shin!
+Dialogue: 0,0:09:47.55,0:09:49.55,Standard (PlanetES),,0000,0000,0000,,He's had great grades\never since training!
+Dialogue: 0,0:09:49.55,0:09:51.39,Standard (PlanetES),,0000,0000,0000,,Hey, what's the occasion?
+Dialogue: 0,0:09:51.39,0:09:53.16,Standard (PlanetES),,0000,0000,0000,,Cheng-Shin says he's\nmoved up in the world.
+Dialogue: 0,0:09:53.49,0:09:54.37,Standard (PlanetES),,0000,0000,0000,,Moved up?
+Dialogue: 0,0:09:54.66,0:09:56.29,Standard (PlanetES),,0000,0000,0000,,He's a ship's captain.
+Dialogue: 0,0:09:56.86,0:09:58.29,Standard (PlanetES),,0000,0000,0000,,I said I'm a copilot.
+Dialogue: 0,0:09:58.90,0:10:01.04,Standard (PlanetES),,0000,0000,0000,,They're finally letting me\ncarry people.
+Dialogue: 0,0:10:02.83,0:10:04.20,Standard (PlanetES),,0000,0000,0000,,They are?
+Dialogue: 0,0:10:04.44,0:10:07.73,Standard (PlanetES),,0000,0000,0000,,Okay! Let's have a toast!\NTo the future captain!
+Dialogue: 0,0:10:08.31,0:10:09.97,Standard (PlanetES),,0000,0000,0000,,I'll go order\nsome beer, then!
+Dialogue: 0,0:10:09.97,0:10:12.28,Standard (PlanetES),,0000,0000,0000,,This is Cheng-Shin we're talking about,\nso get us some Shaoxing wine!
+Dialogue: 0,0:10:12.28,0:10:13.54,Standard (PlanetES),,0000,0000,0000,,Um, I don't usually drink that...
+Dialogue: 0,0:10:17.08,0:10:19.02,Standard (PlanetES),,0000,0000,0000,,That was fast...\NJust three years.
+Dialogue: 0,0:10:19.92,0:10:22.32,Standard (PlanetES),,0000,0000,0000,,You tryin' to move straight up\nto company president?
+Dialogue: 0,0:10:22.32,0:10:23.49,Standard (PlanetES),,0000,0000,0000,,Not really.
+Dialogue: 0,0:10:23.85,0:10:26.78,Standard (PlanetES),,0000,0000,0000,,I want to be\nthe captain of a ship to Jupiter.
+Dialogue: 0,0:10:27.09,0:10:30.66,Standard (PlanetES),,0000,0000,0000,,You've been sayin' that for years.\NIs Jupiter all that great?
+Dialogue: 0,0:10:30.66,0:10:34.03,Standard (PlanetES),,0000,0000,0000,,Yes, you're so great,\NCecille baby!
+Dialogue: 0,0:10:34.37,0:10:35.95,Standard (PlanetES),,0000,0000,0000,,When do you\nstart flying?
+Dialogue: 0,0:10:36.43,0:10:39.24,Standard (PlanetES),,0000,0000,0000,,A week from now,\non the GO-S27.
+Dialogue: 0,0:10:39.24,0:10:40.28,Standard (PlanetES),,0000,0000,0000,,No kiddin'...
+Dialogue: 0,0:10:40.48,0:10:41.73,Standard (PlanetES),,0000,0000,0000,,Well, give it all you got.
+Dialogue: 0,0:10:42.01,0:10:44.64,Standard (PlanetES),,0000,0000,0000,,I hope you get a spaceship\nsoon, too, Hachi.
+Dialogue: 0,0:10:44.64,0:10:46.50,Standard (PlanetES),,0000,0000,0000,,Y-Yeah, Me, too.
+Dialogue: 0,0:10:57.92,0:10:59.33,Standard (PlanetES),,0000,0000,0000,,Ship's captain, huh...?
+Dialogue: 0,0:11:10.64,0:11:11.58,Standard (PlanetES),,0000,0000,0000,,Um...
+Dialogue: 0,0:11:12.00,0:11:14.61,Standard (PlanetES),,0000,0000,0000,,I'm sorry for dragging you\nout here with me, Senpai.
+Dialogue: 0,0:11:14.61,0:11:16.87,Standard (PlanetES),,0000,0000,0000,,I'll practice on my\nown from now on.
+Dialogue: 0,0:11:17.58,0:11:18.64,Standard (PlanetES),,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:18.64,0:11:20.81,Standard (PlanetES),,0000,0000,0000,,Um... The thing is, I think\NI can handle it by myself.
+Dialogue: 0,0:11:20.81,0:11:22.04,Standard (PlanetES),,0000,0000,0000,,Hachimaki!
+Dialogue: 0,0:11:23.08,0:11:27.08,Standard (PlanetES),,0000,0000,0000,,Vega uses that area after 1400 hours, so if\nyou're gonna keep going, use cargo bay B4.
+Dialogue: 0,0:11:27.08,0:11:30.22,Standard (PlanetES),,0000,0000,0000,,Hey, is that him? The idiot who says\nhe's gonna buy his own ship?
+Dialogue: 0,0:11:30.22,0:11:34.33,Standard (PlanetES),,0000,0000,0000,,Buy a spaceship? Do they get\nthat kinda pay in Half Section?
+Dialogue: 0,0:11:34.33,0:11:37.12,Standard (PlanetES),,0000,0000,0000,,Do they get double the pay\N'cause they've only got half the people?
+Dialogue: 0,0:11:38.40,0:11:40.06,Standard (PlanetES),,0000,0000,0000,,Is something funny,\nyou bastards?
+Dialogue: 0,0:11:41.10,0:11:41.90,Standard (PlanetES),,0000,0000,0000,,Hey, Hachimaki...
+Dialogue: 0,0:11:41.90,0:11:44.11,Standard (PlanetES),,0000,0000,0000,,Is me buying a spaceship\nthat funny?
+Dialogue: 0,0:11:44.08,0:11:45.16,Standard (PlanetES),,0000,0000,0000,,C'mon, say something!
+Dialogue: 0,0:11:43.60,0:11:45.16,Alternative (PlanetES),,0000,0000,0000,,Um, senpai...
+Dialogue: 0,0:11:45.67,0:11:50.13,Standard (PlanetES),,0000,0000,0000,,Of course it's funny! It's funny to hear a punk\nfrom Half Section deluding himself with dreams.
+Dialogue: 0,0:11:52.21,0:11:52.97,Standard (PlanetES),,0000,0000,0000,,Hey!
+Dialogue: 0,0:11:54.48,0:11:56.64,Standard (PlanetES),,0000,0000,0000,,What's wrong\nwith dreams?!
+Dialogue: 0,0:11:56.85,0:11:59.61,Standard (PlanetES),,0000,0000,0000,,What're you doing, Senpai?\NWhy are you fighting?
+Dialogue: 0,0:12:00.25,0:12:01.51,Standard (PlanetES),,0000,0000,0000,,You punk!
+Dialogue: 0,0:12:08.09,0:12:08.91,Standard (PlanetES),,0000,0000,0000,,Senpai!
+Dialogue: 0,0:12:09.19,0:12:11.20,Standard (PlanetES),,0000,0000,0000,,I've got you now,\nyou Half Section bastard!
+Dialogue: 0,0:12:11.20,0:12:12.59,Standard (PlanetES),,0000,0000,0000,,You messed with\nthe wrong people.
+Dialogue: 0,0:12:13.23,0:12:14.56,Standard (PlanetES),,0000,0000,0000,,Eat this!
+Dialogue: 0,0:12:15.10,0:12:16.96,Standard (PlanetES),,0000,0000,0000,,Not so tough now, are ya?!
+Dialogue: 0,0:12:32.85,0:12:34.48,Standard (PlanetES),,0000,0000,0000,,Hey, are you okay?
+Dialogue: 0,0:12:35.45,0:12:40.41,Standard (PlanetES),,0000,0000,0000,,Pull it together, rookie.\NYou want a spaceship, right?
+Dialogue: 0,0:12:40.93,0:12:43.49,Standard (PlanetES),,0000,0000,0000,,Don't rush things.\NYou can take your time.
+Dialogue: 0,0:12:43.49,0:12:44.86,Standard (PlanetES),,0000,0000,0000,,Take your time.
+Dialogue: 0,0:12:45.03,0:12:46.62,Standard (PlanetES),,0000,0000,0000,,Take your time...
+Dialogue: 0,0:12:53.56,0:12:54.37,Standard (PlanetES),,0000,0000,0000,,Damn it...
+Dialogue: 0,0:12:54.94,0:12:57.08,Standard (PlanetES),,0000,0000,0000,,Sounds like you've come around.
+Dialogue: 0,0:12:57.75,0:12:59.04,Standard (PlanetES),,0000,0000,0000,,How do you feel?
+Dialogue: 0,0:12:59.04,0:13:00.70,Standard (PlanetES),,0000,0000,0000,,Huh? Fine...
+Dialogue: 0,0:13:00.95,0:13:03.08,Standard (PlanetES),,0000,0000,0000,,You were moaning in your\nsleep pretty badly.
+Dialogue: 0,0:13:03.68,0:13:07.52,Standard (PlanetES),,0000,0000,0000,,It was an old dream.\NI was having a bad dream.
+Dialogue: 0,0:13:07.52,0:13:10.39,Standard (PlanetES),,0000,0000,0000,,I see. Well, I'm glad\nit was just a dream.
+Dialogue: 0,0:13:10.62,0:13:11.29,Standard (PlanetES),,0000,0000,0000,,What the heck\nis this?
+Dialogue: 0,0:13:11.29,0:13:14.16,Standard (PlanetES),,0000,0000,0000,,Oh. Miss Tanabe left some\nmedicine with me.
+Dialogue: 0,0:13:14.39,0:13:15.53,Standard (PlanetES),,0000,0000,0000,,No kiddin'.
+Dialogue: 0,0:13:15.53,0:13:18.53,Standard (PlanetES),,0000,0000,0000,,She was very worried\nabout you.
+Dialogue: 0,0:13:18.53,0:13:21.83,Standard (PlanetES),,0000,0000,0000,,She wouldn't listen to me. She said she'd sit up\nwith you because she was responsible.
+Dialogue: 0,0:13:22.17,0:13:25.07,Standard (PlanetES),,0000,0000,0000,,I sent her away because this\nis the men's dorm, though.
+Dialogue: 0,0:13:27.31,0:13:29.00,Standard (PlanetES),,0000,0000,0000,,Who asked her\nto butt in?
+Dialogue: 0,0:13:30.91,0:13:33.87,Standard (PlanetES),,0000,0000,0000,,Cheng-Shin,\nyou're amazing.
+Dialogue: 0,0:13:35.08,0:13:36.48,Standard (PlanetES),,0000,0000,0000,,I...
+Dialogue: 0,0:13:38.29,0:13:41.02,Standard (PlanetES),,0000,0000,0000,,What the hell am I doing\nwith my life?
+Dialogue: 0,0:13:42.49,0:13:45.22,Standard (PlanetES),,0000,0000,0000,,DBR-0720-1414.
+Dialogue: 0,0:13:45.22,0:13:48.82,Standard (PlanetES),,0000,0000,0000,,As bad luck would have it,\nthis bird has propellant left in it.
+Dialogue: 0,0:13:49.16,0:13:54.12,Standard (PlanetES),,0000,0000,0000,,It started out as an asteroid probe,\nso it has excellent evasive capability.
+Dialogue: 0,0:13:54.50,0:13:58.00,Standard (PlanetES),,0000,0000,0000,,And its orbit is retrograde to ours, so even\nmaking a rendezvous is going to be tricky.
+Dialogue: 0,0:13:58.27,0:14:01.01,Standard (PlanetES),,0000,0000,0000,,Our section tried to recover it\nthree years ago,
+Dialogue: 0,0:14:01.01,0:14:04.07,Standard (PlanetES),,0000,0000,0000,,...but an accident caused it thrusters\nto fire up, and it got away from us.
+Dialogue: 0,0:14:04.51,0:14:07.98,Standard (PlanetES),,0000,0000,0000,,Of course, every other company's\nattempts have failed so far, too.
+Dialogue: 0,0:14:07.98,0:14:10.31,Standard (PlanetES),,0000,0000,0000,,Wow, this sounds like\nit'll be tricky.
+Dialogue: 0,0:14:10.31,0:14:16.45,Standard (PlanetES),,0000,0000,0000,,{\fs22}Well, we would've preferred to leave it alone, but it's come\Ninto low Earth orbit and has intersected our work orbit.
+Dialogue: 0,0:14:16.45,0:14:19.39,Standard (PlanetES),,0000,0000,0000,,Luckily, it hasn't made any\norbital corrections near Earth.
+Dialogue: 0,0:14:19.82,0:14:20.83,Standard (PlanetES),,0000,0000,0000,,Hachi!
+Dialogue: 0,0:14:21.46,0:14:22.55,Standard (PlanetES),,0000,0000,0000,,You copy?
+Dialogue: 0,0:14:23.13,0:14:24.00,Standard (PlanetES),,0000,0000,0000,,Yeah...
+Dialogue: 0,0:14:24.50,0:14:26.83,Standard (PlanetES),,0000,0000,0000,,It's the same as\nany other run, right?
+Dialogue: 0,0:14:26.93,0:14:28.54,Standard (PlanetES),,0000,0000,0000,,Hachi!\NYou better shape up!
+Dialogue: 0,0:14:29.27,0:14:32.47,Standard (PlanetES),,0000,0000,0000,,Starting today, I'm having Tanabe\nparticipate directly in our missions.
+Dialogue: 0,0:14:32.47,0:14:34.44,Standard (PlanetES),,0000,0000,0000,,Set a good example\nas her senpai.
+Dialogue: 0,0:14:34.44,0:14:35.41,Standard (PlanetES),,0000,0000,0000,,She's right!
+Dialogue: 0,0:14:36.04,0:14:38.29,Standard (PlanetES),,0000,0000,0000,,Show me how\nit's done, Senpai!
+Dialogue: 0,0:14:41.61,0:14:44.72,Standard (PlanetES),,0000,0000,0000,,Hachi, try not to butt heads with other\ncompanies' departments, all right?
+Dialogue: 0,0:14:44.72,0:14:45.87,Standard (PlanetES),,0000,0000,0000,,It makes trouble for me...
+Dialogue: 0,0:14:45.45,0:14:46.56,Alternative (PlanetES),,0000,0000,0000,,Yeah, sorry about that.
+Dialogue: 0,0:14:46.98,0:14:48.38,Standard (PlanetES),,0000,0000,0000,,Hey, wait a minute!
+Dialogue: 0,0:14:50.92,0:14:51.92,Standard (PlanetES),,0000,0000,0000,,Ta-dah!
+Dialogue: 0,0:14:51.92,0:14:55.12,Standard (PlanetES),,0000,0000,0000,,Number A-7777-777!
+Dialogue: 0,0:14:55.46,0:14:57.43,Standard (PlanetES),,0000,0000,0000,,You can tell it's a lucky number just\nby looking! With this baby, we...
+Dialogue: 0,0:14:57.43,0:14:59.20,Standard (PlanetES),,0000,0000,0000,,Thanks,\nbut no thanks.
+Dialogue: 0,0:14:59.60,0:15:02.03,Standard (PlanetES),,0000,0000,0000,,I'm done with\nlotto drawings.
+Dialogue: 0,0:15:02.03,0:15:03.06,Standard (PlanetES),,0000,0000,0000,,"Done"?
+Dialogue: 0,0:15:03.20,0:15:07.37,Standard (PlanetES),,0000,0000,0000,,H-Hey, Hachimaki! Make sure you pay me back!\NI bought this for you!
+Dialogue: 0,0:15:07.64,0:15:10.04,Standard (PlanetES),,0000,0000,0000,,And for these\napology candies, too!
+Dialogue: 0,0:15:18.05,0:15:20.54,Standard (PlanetES),,0000,0000,0000,,Um, Senpai...?
+Dialogue: 0,0:15:20.82,0:15:24.79,Standard (PlanetES),,0000,0000,0000,,I'm no good at EVA work,\nbut I'm pretty lucky.
+Dialogue: 0,0:15:24.79,0:15:28.78,Standard (PlanetES),,0000,0000,0000,,That's what got me into the company.\NAnd a space assignment, too.
+Dialogue: 0,0:15:29.76,0:15:33.41,Standard (PlanetES),,0000,0000,0000,,If it's okay with you, why don't we\ngo buy a lotto ticket together?
+Dialogue: 0,0:15:33.76,0:15:36.26,Standard (PlanetES),,0000,0000,0000,,Who knows,\nmaybe we'll win?
+Dialogue: 0,0:15:38.90,0:15:40.60,Standard (PlanetES),,0000,0000,0000,,Show some spirit, Senpai!
+Dialogue: 0,0:15:40.60,0:15:42.20,Standard (PlanetES),,0000,0000,0000,,Is that hachimaki headband\njust for show?
+Dialogue: 0,0:15:42.61,0:15:46.30,Standard (PlanetES),,0000,0000,0000,,I might be a useless rookie,\nbut I don't sulk about it!
+Dialogue: 0,0:15:46.54,0:15:49.31,Standard (PlanetES),,0000,0000,0000,,I thought you said you were gonna work\nhard until you had your own spaceship!
+Dialogue: 0,0:15:49.31,0:15:51.16,Standard (PlanetES),,0000,0000,0000,,Isn't getting a spaceship\nyour dream, Senpai?
+Dialogue: 0,0:15:51.16,0:15:52.83,Standard (PlanetES),,0000,0000,0000,,Just give it a rest!
+Dialogue: 0,0:15:52.92,0:15:55.75,Standard (PlanetES),,0000,0000,0000,,I understand...\NIt's all clear now.
+Dialogue: 0,0:15:56.12,0:16:02.12,Standard (PlanetES),,0000,0000,0000,,A measly debris collector could work for decades\nand still not be able to buy a real spaceship.
+Dialogue: 0,0:16:03.89,0:16:05.83,Standard (PlanetES),,0000,0000,0000,,What's changed,\nthese past three years?
+Dialogue: 0,0:16:05.83,0:16:08.23,Standard (PlanetES),,0000,0000,0000,,I'm still a rank and file employee\nand I've got no savings.
+Dialogue: 0,0:16:08.23,0:16:10.10,Standard (PlanetES),,0000,0000,0000,,I pick up debris\nday in and day out,
+Dialogue: 0,0:16:10.10,0:16:13.47,Standard (PlanetES),,0000,0000,0000,,...and I still don't have the money to buy one\nof these spacesuits, much less a spaceship!
+Dialogue: 0,0:16:14.64,0:16:16.30,Standard (PlanetES),,0000,0000,0000,,You'll figure it out\nsoon enough, too.
+Dialogue: 0,0:16:16.61,0:16:18.44,Standard (PlanetES),,0000,0000,0000,,Even if you say you're gonna\nmake your dreams come true,
+Dialogue: 0,0:16:18.44,0:16:21.31,Standard (PlanetES),,0000,0000,0000,,...there's some things you can do\nand some things you can't!
+Dialogue: 0,0:16:21.91,0:16:24.88,Standard (PlanetES),,0000,0000,0000,,GO-S27, this is Bay Control.
+Dialogue: 0,0:16:25.28,0:16:27.98,Standard (PlanetES),,0000,0000,0000,,Movement of gantry frame\nto final position complete.
+Dialogue: 0,0:16:28.15,0:16:29.21,Standard (PlanetES),,0000,0000,0000,,Exposure confirmed.
+Dialogue: 0,0:16:30.09,0:16:30.82,Standard (PlanetES),,0000,0000,0000,,Status?
+Dialogue: 0,0:16:30.82,0:16:33.96,Standard (PlanetES),,0000,0000,0000,,Sir. Units A, B, and C,\nsystems go.
+Dialogue: 0,0:16:34.56,0:16:36.13,Standard (PlanetES),,0000,0000,0000,,We can launch\nat any time.
+Dialogue: 0,0:16:36.53,0:16:38.03,Standard (PlanetES),,0000,0000,0000,,Are you feeling nervous?
+Dialogue: 0,0:16:38.03,0:16:39.10,Standard (PlanetES),,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:16:39.10,0:16:41.97,Standard (PlanetES),,0000,0000,0000,,That's good. Your cargo this time\nis human beings.
+Dialogue: 0,0:16:41.97,0:16:45.57,Standard (PlanetES),,0000,0000,0000,,It's a grave responsibility.\NBe as nervous as you can.
+Dialogue: 0,0:16:46.10,0:16:47.16,Standard (PlanetES),,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:16:47.71,0:16:52.04,Standard (PlanetES),,0000,0000,0000,,Hachimaki, make your approach on the satellite\nfrom the direction of the damaged dish.
+Dialogue: 0,0:16:52.38,0:16:54.38,Standard (PlanetES),,0000,0000,0000,,It looks like its control systems\nare half dead.
+Dialogue: 0,0:16:54.38,0:16:56.38,Standard (PlanetES),,0000,0000,0000,,I know. I'm the one\nwho smashed the thing.
+Dialogue: 0,0:16:56.38,0:16:58.85,Standard (PlanetES),,0000,0000,0000,,If you know about it, then I'll\nleave the cleaning to you.
+Dialogue: 0,0:16:58.85,0:17:00.28,Standard (PlanetES),,0000,0000,0000,,I copy.
+Dialogue: 0,0:17:01.19,0:17:02.79,Standard (PlanetES),,0000,0000,0000,,Senpai, about\nthis debris...
+Dialogue: 0,0:17:02.79,0:17:05.15,Standard (PlanetES),,0000,0000,0000,,Yeah, I know\nall about it.
+Dialogue: 0,0:17:05.89,0:17:09.26,Standard (PlanetES),,0000,0000,0000,,Man, nothing has changed\nthese past three years.
+Dialogue: 0,0:17:10.19,0:17:11.53,Standard (PlanetES),,0000,0000,0000,,Neither one of us...
+Dialogue: 0,0:17:11.53,0:17:13.06,Standard (PlanetES),,0000,0000,0000,,Huh? Did you\nsay something?
+Dialogue: 0,0:17:13.06,0:17:14.87,Standard (PlanetES),,0000,0000,0000,,C'mon, let's get rid\nof this damn thing.
+Dialogue: 0,0:17:15.17,0:17:16.36,Standard (PlanetES),,0000,0000,0000,,Oh. Right.
+Dialogue: 0,0:17:17.10,0:17:21.54,Standard (PlanetES),,0000,0000,0000,,Listen, I'll do the basic work.\NYou just stay out of the way.
+Dialogue: 0,0:17:21.77,0:17:22.77,Standard (PlanetES),,0000,0000,0000,,You copy?
+Dialogue: 0,0:17:22.77,0:17:24.57,Standard (PlanetES),,0000,0000,0000,,Huh? I copy.
+Dialogue: 0,0:17:24.81,0:17:27.71,Standard (PlanetES),,0000,0000,0000,,Plus, we're dealing with debris\nthat has moving parts this mission.
+Dialogue: 0,0:17:27.71,0:17:30.82,Standard (PlanetES),,0000,0000,0000,,If you don't wanna get killed by having your\nface smashed in, don't open your face guard.
+Dialogue: 0,0:17:30.82,0:17:31.75,Standard (PlanetES),,0000,0000,0000,,I copy...
+Dialogue: 0,0:17:37.02,0:17:39.85,Standard (PlanetES),,0000,0000,0000,,I can't handle watching things\non a monitor screen...
+Dialogue: 0,0:17:40.19,0:17:42.23,Standard (PlanetES),,0000,0000,0000,,I'm terrible at games\nand stuff...
+Dialogue: 0,0:17:42.23,0:17:44.89,Standard (PlanetES),,0000,0000,0000,,You stay put over there until\NI turn off the control panel.
+Dialogue: 0,0:17:45.13,0:17:46.96,Standard (PlanetES),,0000,0000,0000,,Huh? Give me\na minute!
+Dialogue: 0,0:17:46.96,0:17:48.23,Standard (PlanetES),,0000,0000,0000,,Watch out for\nthe arm.
+Dialogue: 0,0:17:48.67,0:17:49.63,Standard (PlanetES),,0000,0000,0000,,Arm?
+Dialogue: 0,0:17:52.70,0:17:53.40,Standard (PlanetES),,0000,0000,0000,,H-Hey!
+Dialogue: 0,0:17:53.74,0:17:54.86,Standard (PlanetES),,0000,0000,0000,,Watch it!
+Dialogue: 0,0:17:57.21,0:17:58.88,Standard (PlanetES),,0000,0000,0000,,Collision alert?
+Dialogue: 0,0:17:58.88,0:18:01.40,Standard (PlanetES),,0000,0000,0000,,Crap, she did the\nsame damn thing I did...
+Dialogue: 0,0:18:01.85,0:18:06.11,Standard (PlanetES),,0000,0000,0000,,Um... Did I do\nsomething wrong?
+Dialogue: 0,0:18:06.68,0:18:08.55,Standard (PlanetES),,0000,0000,0000,,Damn it,\nthat stupid rookie...!
+Dialogue: 0,0:18:10.09,0:18:12.16,Standard (PlanetES),,0000,0000,0000,,Okay, automatic controls\nare cut!
+Dialogue: 0,0:18:12.16,0:18:16.06,Standard (PlanetES),,0000,0000,0000,,Hachi, can you bring it back on manual?\NYou're pretty far out of your predicted orbit.
+Dialogue: 0,0:18:16.43,0:18:20.12,Standard (PlanetES),,0000,0000,0000,,Yeah, there's propellant left\nin the other engine, so I...
+Dialogue: 0,0:18:21.43,0:18:24.66,Standard (PlanetES),,0000,0000,0000,,That's weird...\NThe thruster's not responding.
+Dialogue: 0,0:18:24.90,0:18:28.27,Standard (PlanetES),,0000,0000,0000,,It's not? Okay, we'll postpone\nthe mission and...
+Dialogue: 0,0:18:28.41,0:18:32.80,Standard (PlanetES),,0000,0000,0000,,Hold it! We finally caught this thing, so I'll\nuse the Fishbone to try to decelerate it.
+Dialogue: 0,0:18:32.98,0:18:35.50,Standard (PlanetES),,0000,0000,0000,,In the meantime, I'll go\ncheck out the thruster.
+Dialogue: 0,0:18:35.68,0:18:39.25,Standard (PlanetES),,0000,0000,0000,,Understood. Careful, you'll run out\nof wire in another 20 seconds.
+Dialogue: 0,0:18:39.25,0:18:40.28,Standard (PlanetES),,0000,0000,0000,,I copy.
+Dialogue: 0,0:18:40.28,0:18:43.39,Standard (PlanetES),,0000,0000,0000,,Tanabe, I'm sending Yuri out to you,\nso stay put where you are.
+Dialogue: 0,0:18:43.39,0:18:43.95,Standard (PlanetES),,0000,0000,0000,,Yes, ma'am.
+Dialogue: 0,0:18:44.26,0:18:45.70,Standard (PlanetES),,0000,0000,0000,,Brace for impact.
+Dialogue: 0,0:18:45.92,0:18:46.55,Standard (PlanetES),,0000,0000,0000,,Ten.
+Dialogue: 0,0:18:46.86,0:18:47.62,Standard (PlanetES),,0000,0000,0000,,Nine.
+Dialogue: 0,0:18:47.83,0:18:48.62,Standard (PlanetES),,0000,0000,0000,,Eight.
+Dialogue: 0,0:18:48.79,0:18:49.52,Standard (PlanetES),,0000,0000,0000,,Seven.
+Dialogue: 0,0:18:49.76,0:18:50.59,Standard (PlanetES),,0000,0000,0000,,Six.
+Dialogue: 0,0:18:50.69,0:18:51.39,Standard (PlanetES),,0000,0000,0000,,Five.
+Dialogue: 0,0:18:51.63,0:18:52.29,Standard (PlanetES),,0000,0000,0000,,Four.
+Dialogue: 0,0:18:52.63,0:18:53.22,Standard (PlanetES),,0000,0000,0000,,Three.
+Dialogue: 0,0:18:53.60,0:18:54.29,Standard (PlanetES),,0000,0000,0000,,Two.
+Dialogue: 0,0:18:54.63,0:18:55.57,Standard (PlanetES),,0000,0000,0000,,One.
+Dialogue: 0,0:18:55.57,0:18:56.56,Standard (PlanetES),,0000,0000,0000,,Zero.
+Dialogue: 0,0:19:00.20,0:19:02.64,Standard (PlanetES),,0000,0000,0000,,Okay, Hachimaki.\NHow's the thruster look?
+Dialogue: 0,0:19:02.81,0:19:07.54,Standard (PlanetES),,0000,0000,0000,,Crap, the antenna dish film is tangled up in it.\NThis is gonna take a while.
+Dialogue: 0,0:19:10.18,0:19:12.48,Standard (PlanetES),,0000,0000,0000,,Yuri, see to\nrecovering Tanabe.
+Dialogue: 0,0:19:12.68,0:19:13.88,Standard (PlanetES),,0000,0000,0000,,I copy.
+Dialogue: 0,0:19:14.55,0:19:16.82,Standard (PlanetES),,0000,0000,0000,,Fee, I think I can get the\nthruster straightened out.
+Dialogue: 0,0:19:16.82,0:19:18.15,Standard (PlanetES),,0000,0000,0000,,Okay. That's good.
+Dialogue: 0,0:19:20.93,0:19:21.91,Standard (PlanetES),,0000,0000,0000,,What's wrong, Hachi?!
+Dialogue: 0,0:19:22.93,0:19:23.86,Standard (PlanetES),,0000,0000,0000,,Hachi!
+Dialogue: 0,0:19:25.33,0:19:27.26,Standard (PlanetES),,0000,0000,0000,,I got hit by the wire,\nbut I'm okay.
+Dialogue: 0,0:19:27.50,0:19:28.50,Standard (PlanetES),,0000,0000,0000,,My suit's\nstill functional.
+Dialogue: 0,0:19:28.50,0:19:30.73,Standard (PlanetES),,0000,0000,0000,,I'm sorry, I didn't catch it\non the monitor.
+Dialogue: 0,0:19:31.14,0:19:33.20,Standard (PlanetES),,0000,0000,0000,,There doesn't seem to be much\nsecondary debris, though.
+Dialogue: 0,0:19:33.20,0:19:35.69,Standard (PlanetES),,0000,0000,0000,,That last impact changed\nyour vector again, so...
+Dialogue: 0,0:19:36.74,0:19:38.57,Standard (PlanetES),,0000,0000,0000,,Oh, no...\NThis orbit is...
+Dialogue: 0,0:19:39.74,0:19:43.14,Standard (PlanetES),,0000,0000,0000,,GO-S27, do you read?\NThis is Control Section.
+Dialogue: 0,0:19:43.51,0:19:48.54,Standard (PlanetES),,0000,0000,0000,,There is a risk of a near miss with debris\NDBR-072-1414 on your flight path.
+Dialogue: 0,0:19:48.99,0:19:50.69,Standard (PlanetES),,0000,0000,0000,,What's Half Section\nthink they're doing?
+Dialogue: 0,0:19:50.69,0:19:51.86,Standard (PlanetES),,0000,0000,0000,,What about\nan orbit change?
+Dialogue: 0,0:19:51.86,0:19:55.81,Standard (PlanetES),,0000,0000,0000,,Is there time? It's coming straight at us,\nso our relative velocity is too high.
+Dialogue: 0,0:19:56.16,0:19:57.49,Standard (PlanetES),,0000,0000,0000,,Deploy debris bumper!
+Dialogue: 0,0:19:57.49,0:19:58.29,Standard (PlanetES),,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:20:00.83,0:20:03.13,Standard (PlanetES),,0000,0000,0000,,This is the\npilot speaking.
+Dialogue: 0,0:20:03.63,0:20:07.50,Standard (PlanetES),,0000,0000,0000,,We will begin immediate\nanti-impact preparations...
+Dialogue: 0,0:20:07.50,0:20:11.60,Standard (PlanetES),,0000,0000,0000,,...to ensure our safety\nduring atmospheric reentry.
+Dialogue: 0,0:20:12.34,0:20:15.62,Standard (PlanetES),,0000,0000,0000,,Hachi, get back here ASAP!\NYou're in the shuttle's orbit!
+Dialogue: 0,0:20:16.21,0:20:18.58,Standard (PlanetES),,0000,0000,0000,,Hey, wait a minute...!\NI know that shuttle!
+Dialogue: 0,0:20:19.92,0:20:21.33,Standard (PlanetES),,0000,0000,0000,,That's the one that\NCheng-Shin's on!
+Dialogue: 0,0:20:21.69,0:20:24.08,Standard (PlanetES),,0000,0000,0000,,Senpai! Get out of there, Senpai!
+Dialogue: 0,0:20:24.08,0:20:25.85,Standard (PlanetES),,0000,0000,0000,,Losing the mass of one person might...
+Dialogue: 0,0:20:25.29,0:20:26.21,Alternative (PlanetES),,0000,0000,0000,,Shut up!
+Dialogue: 0,0:20:26.40,0:20:27.72,Standard (PlanetES),,0000,0000,0000,,If I left, what would\nhappen to the shuttle?!
+Dialogue: 0,0:20:29.09,0:20:32.00,Standard (PlanetES),,0000,0000,0000,,This is one time when running away\nor failing isn't an option!
+Dialogue: 0,0:20:32.00,0:20:33.53,Standard (PlanetES),,0000,0000,0000,,It ain't an option!
+Dialogue: 0,0:20:33.53,0:20:36.07,Standard (PlanetES),,0000,0000,0000,,But senpai!\NThe shuttle has bumpers!
+Dialogue: 0,0:20:36.07,0:20:38.57,Standard (PlanetES),,0000,0000,0000,,There's no way that it can protect it\nfrom something this big!
+Dialogue: 0,0:20:38.57,0:20:39.70,Standard (PlanetES),,0000,0000,0000,,Hachi...
+Dialogue: 0,0:20:40.34,0:20:44.21,Standard (PlanetES),,0000,0000,0000,,Damn it, I haven't even gotten\nmy spaceship yet...
+Dialogue: 0,0:20:44.44,0:20:45.87,Standard (PlanetES),,0000,0000,0000,,Yuri-san, senpai is gonna...
+Dialogue: 0,0:20:46.58,0:20:49.45,Standard (PlanetES),,0000,0000,0000,,All we can do now is have faith\nin Hoshino-san's abilities.
+Dialogue: 0,0:20:49.78,0:20:52.45,Standard (PlanetES),,0000,0000,0000,,GO-S27, this is Entry Approach.
+Dialogue: 0,0:20:52.45,0:20:55.33,Standard (PlanetES),,0000,0000,0000,,It's no use! Even if we accelerate,\nthere's not enough time to raise our orbit!
+Dialogue: 0,0:20:53.02,0:20:54.20,Alternative (PlanetES),,0000,0000,0000,,We have confirmed a red alert.
+Dialogue: 0,0:20:54.20,0:20:55.33,Alternative (PlanetES),,0000,0000,0000,,Abort reentry corridor.
+Dialogue: 0,0:20:56.55,0:20:58.49,Standard (PlanetES),,0000,0000,0000,,LTS auto functions\nare totally dead...
+Dialogue: 0,0:20:58.49,0:21:00.95,Standard (PlanetES),,0000,0000,0000,,So I'll have to do it\nby hand, then!
+Dialogue: 0,0:21:01.03,0:21:02.53,Standard (PlanetES),,0000,0000,0000,,Okay, this one's\nstill online...
+Dialogue: 0,0:21:02.53,0:21:06.43,Standard (PlanetES),,0000,0000,0000,,Fee! Give me a realtime feed of the course\ndata for the shuttle and the debris!
+Dialogue: 0,0:21:06.43,0:21:07.23,Standard (PlanetES),,0000,0000,0000,,Got it.
+Dialogue: 0,0:21:07.63,0:21:08.60,Standard (PlanetES),,0000,0000,0000,,Here goes...
+Dialogue: 0,0:21:10.73,0:21:13.03,Standard (PlanetES),,0000,0000,0000,,Judging from this remaining propellant,\NI've only got one chance.
+Dialogue: 0,0:21:13.50,0:21:16.94,Standard (PlanetES),,0000,0000,0000,,And I have to thrust through the center\nof mass of a spinning body, or it's all over.
+Dialogue: 0,0:21:17.47,0:21:19.74,Standard (PlanetES),,0000,0000,0000,,Can I seriously\npull this off...?
+Dialogue: 0,0:21:36.63,0:21:39.15,Standard (PlanetES),,0000,0000,0000,,Can I really\ndo this...?
+Dialogue: 0,0:21:39.96,0:21:41.33,Standard (PlanetES),,0000,0000,0000,,Stay focused...
+Dialogue: 0,0:21:41.33,0:21:43.49,Standard (PlanetES),,0000,0000,0000,,Not yet.\NStay with it...
+Dialogue: 0,0:21:43.80,0:21:48.17,Standard (PlanetES),,0000,0000,0000,,Just a little more, and its position\nwill be along the center of gravity...
+Dialogue: 0,0:22:03.92,0:22:05.75,Standard (PlanetES),,0000,0000,0000,,Those Half Section guys\ndid that?
+Dialogue: 0,0:22:06.22,0:22:08.35,Standard (PlanetES),,0000,0000,0000,,It accelerated and moved\ninto an orbit above ours!
+Dialogue: 0,0:22:16.03,0:22:18.26,Standard (PlanetES),,0000,0000,0000,,Well, I'll be! I actually did it!
+Dialogue: 0,0:22:18.64,0:22:20.80,Standard (PlanetES),,0000,0000,0000,,See that, Cheng-Shin?
+Dialogue: 0,0:22:21.11,0:22:21.84,Standard (PlanetES),,0000,0000,0000,,Hoshino-san!
+Dialogue: 0,0:22:21.84,0:22:22.83,Standard (PlanetES),,0000,0000,0000,,Senpai!
+Dialogue: 0,0:22:24.17,0:22:26.12,Standard (PlanetES),,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:22:26.31,0:22:28.04,Standard (PlanetES),,0000,0000,0000,,Oops. Darn it...
+Dialogue: 0,0:22:29.75,0:22:32.41,Standard (PlanetES),,0000,0000,0000,,Hey, rookie, don't be\nin such a rush.
+Dialogue: 0,0:22:33.05,0:22:34.04,Standard (PlanetES),,0000,0000,0000,,Sir?
+Dialogue: 0,0:22:35.22,0:22:37.52,Standard (PlanetES),,0000,0000,0000,,You're just getting started.
+Dialogue: 0,0:22:37.52,0:22:42.65,Standard (PlanetES),,0000,0000,0000,,There's no rush. Just take your time\nand build it up a little at a time.
+Dialogue: 0,0:22:43.46,0:22:44.00,Standard (PlanetES),,0000,0000,0000,,Am I right?
+Dialogue: 0,0:22:44.29,0:22:46.06,Standard (PlanetES),,0000,0000,0000,,Huh? I guess...
+Dialogue: 0,0:22:46.06,0:22:49.43,Standard (PlanetES),,0000,0000,0000,,Give it three years. Nah, make it five,\nand I'll have you whipped into shape.
+Dialogue: 0,0:22:49.43,0:22:51.00,Standard (PlanetES),,0000,0000,0000,,Five years, huh...?
+Dialogue: 0,0:22:51.00,0:22:55.07,Standard (PlanetES),,0000,0000,0000,,Wait, you didn't see my breathtaking\NEVA work, did you? Make it ten!
+Dialogue: 0,0:22:55.07,0:22:56.61,Standard (PlanetES),,0000,0000,0000,,It just keeps climbing,\ndoesn't it?
+Dialogue: 0,0:22:56.61,0:23:00.94,Standard (PlanetES),,0000,0000,0000,,Um... Who's going to write up\nthe letter of apology for this one?
+Dialogue: 0,0:24:33.00,0:24:59.12,F.O. (PlanetES),,0000,0000,0000,,{\shad0.5\bord0.2}{\fscx105\1c&HD2BEAC&}{\move(220,20,395,20)}{\fad(0,250)}Next Time
+Dialogue: 0,0:24:33.00,0:24:59.12,F.O. (PlanetES),,0000,0000,0000,,{\fs18}{\shad0.5\bord0.2}{\fscx105\1c&HD2BEAC&}{\move(418,375,223,375)}{\fad(0,500)}Return Trajectory
+Dialogue: 0,0:24:33.97,0:24:36.51,Standard (PlanetES),,0000,0000,0000,,This is our tuition plan. It's a bargain.
+Dialogue: 0,0:24:36.51,0:24:38.44,Standard (PlanetES),,0000,0000,0000,,You get dragged in,\ndon't you?
+Dialogue: 0,0:24:38.44,0:24:39.61,Standard (PlanetES),,0000,0000,0000,,T-That's a...
+Dialogue: 0,0:24:39.61,0:24:41.20,Standard (PlanetES),,0000,0000,0000,,It doesn't matter\nwhat I write.
+Dialogue: 0,0:24:42.66,0:24:45.52,Standard (PlanetES),,0000,0000,0000,,Our job is to collect debris,\nend of story.
+Dialogue: 0,0:24:45.85,0:24:48.59,Standard (PlanetES),,0000,0000,0000,,My father was a astronaut\nthrough and through.
+Dialogue: 0,0:24:49.32,0:24:50.45,Standard (PlanetES),,0000,0000,0000,,You can't do that!
+Dialogue: 0,0:24:50.69,0:24:52.26,Standard (PlanetES),,0000,0000,0000,,Damn it, girl,\nanswer me!
+Dialogue: 0,0:24:52.26,0:24:53.32,Standard (PlanetES),,0000,0000,0000,,Hey!
+Dialogue: 0,0:24:53.32,0:24:55.13,Standard (PlanetES),,0000,0000,0000,,He should go home\nto Earth!
+Dialogue: 0,0:24:56.23,0:24:56.99,Standard (PlanetES),,0000,0000,0000,,I'd leave them love!
+Dialogue: 0,0:24:56.99,0:24:58.29,Standard (PlanetES),,0000,0000,0000,,You're an idiot.

@@ -1,0 +1,39 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 12:18:47
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.44,0:00:09.78,SP,NTP,0000,0000,0000,,一、二、三、四
+Dialogue: 0,0:00:10.21,0:00:12.74,SP,NTP,0000,0000,0000,,一、二、三、四
+Dialogue: 0,0:00:13.18,0:00:15.58,SP,NTP,0000,0000,0000,,一、二、三、四
+Dialogue: 0,0:00:16.12,0:00:18.75,SP,NTP,0000,0000,0000,,一、二、三、四
+Dialogue: 0,0:00:19.22,0:00:21.25,SP,NTP,0000,0000,0000,,被战车压过
+Dialogue: 0,0:00:21.96,0:00:23.79,SP,NTP,0000,0000,0000,,还被病毒入侵
+Dialogue: 0,0:00:24.76,0:00:27.26,SP,NTP,0000,0000,0000,,最近一点好事都没有的我们
+Dialogue: 0,0:00:27.26,0:00:31.29,SP,NTP,0000,0000,0000,,今天不就该让大家好好看一下我们卓越的机动性不是吗？
+Dialogue: 0,0:00:31.80,0:00:35.34,SP,NTP,0000,0000,0000,,被他说「我们」还真是令人难以接受耶
+Dialogue: 0,0:00:35.34,0:00:39.60,SP,NTP,0000,0000,0000,,被战车压过还被病毒侵入的都只有他一个而已不是吗？
+Dialogue: 0,0:00:42.48,0:00:45.68,SP,NTP,0000,0000,0000,,那些小事呢就通通先放在一边啦
+Dialogue: 0,0:00:45.68,0:00:47.11,SP,NTP,0000,0000,0000,,走吧！各位
+Dialogue: 0,0:00:48.55,0:00:49.31,SP,NTP,0000,0000,0000,,好
+Dialogue: 0,0:00:51.62,0:00:52.49,SP,NTP,0000,0000,0000,,右边…
+Dialogue: 0,0:00:52.49,0:00:53.39,SP,NTP,0000,0000,0000,,左边…
+Dialogue: 0,0:00:53.39,0:00:54.46,SP,NTP,0000,0000,0000,,前面…
+Dialogue: 0,0:00:54.46,0:00:55.39,SP,NTP,0000,0000,0000,,好…
+Dialogue: 0,0:00:55.39,0:00:57.38,SP,NTP,0000,0000,0000,,三、二、一
+Dialogue: 0,0:01:08.44,0:01:11.07,SP,NTP,0000,0000,0000,,我的眼里也有「拦截者」吗？

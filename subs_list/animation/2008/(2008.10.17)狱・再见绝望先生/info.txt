@@ -1,0 +1,5 @@
+﻿chs: 狱・再见绝望先生
+cht: 獄・再見絕望先生
+jp: 獄・さよなら絶望先生
+en: Goku Sayonara Zetsubou-sensei
+rome: Goku Sayonara Zetsubou-sensei

@@ -1,0 +1,5 @@
+﻿chs: 铁腕巴迪 DECODE OVA
+cht: 鉄腕巴迪 DECODE OVA
+jp: 鉄腕バーディー DECODE -THE CIPHER-
+en: Birdy the Mighty Decode: The Cipher
+rome: Tetsuwan Birdy Decode: The Cipher

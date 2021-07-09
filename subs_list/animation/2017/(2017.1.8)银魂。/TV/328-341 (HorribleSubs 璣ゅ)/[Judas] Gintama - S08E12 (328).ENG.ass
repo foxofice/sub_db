@@ -1,0 +1,279 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Warning,Open Sans Semibold,26,&H00FAFAFA,&H000000FF,&H00060801,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,13,13,60,1
+Style: sign_4484_61_Gintama,Open Sans Semibold,41,&H00181A1A,&H000000FF,&H00FEFEFC,&H00FFFFFF,1,0,0,0,100,100,0,0,1,1,1,8,27,27,20,0
+Style: sign_4520_62_The_Battle_on_Ra,Open Sans Semibold,38,&H000491A9,&H000000FF,&H00231A0B,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,27,27,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.45,0:00:07.32,Main,Obo,0000,0000,0000,,There's something I must tell you.
+Dialogue: 0,0:00:08.31,0:00:10.58,Main,Obo,0000,0000,0000,,Just what Yoshida Shoyo...
+Dialogue: 0,0:00:10.58,0:00:12.83,Main,Obo,0000,0000,0000,,What Utsuro is.
+Dialogue: 0,0:00:18.52,0:00:28.13,sign_4520_62_The_Battle_on_Ra,ED Card,0000,0000,0000,,{\fad(920,1)}The Battle on Rakuyo
+Dialogue: 0,0:00:18.98,0:00:28.13,sign_4484_61_Gintama,ED Card,0000,0000,0000,,{\fad(1200,1)}Gintama
+Dialogue: 0,0:01:52.88,0:01:55.22,Ep Title,Title,0000,0000,0000,,{\fad(1,350)}Battle on Rakuyo Arc\NPart 12
+Dialogue: 0,0:01:55.38,0:01:58.85,Ep Title,Title,0000,0000,0000,,{\fad(240,1)}Hope
+Dialogue: 0,0:01:59.28,0:02:06.21,Warning,Sign,0000,0000,0000,,{\fad(500,665)}Watch the Battle on Rakuyo arc in a bright room\Nand at a safe distance from your TV!!
+Dialogue: 0,0:02:04.13,0:02:07.47,Main,Hen,0000,0000,0000,,{\an8}Oboro, the chief of Tenshoin Naraku,
+Dialogue: 0,0:02:07.47,0:02:11.73,Main,Hen,0000,0000,0000,,{\an8}was Yoshida Shoyo's first and last student.
+Dialogue: 0,0:02:12.36,0:02:17.49,Main,Hen,0000,0000,0000,,Utsuro, the previous chief, \Nmet Oboro and became Shoyo.
+Dialogue: 0,0:02:17.49,0:02:20.97,Main,Hen,0000,0000,0000,,And he died as Shoyo because of Oboro.
+Dialogue: 0,0:02:21.45,0:02:24.94,Main,Hen,0000,0000,0000,,That's how that man came to be.
+Dialogue: 0,0:02:25.50,0:02:29.25,Main,Hen,0000,0000,0000,,Or should I say, came back to life?
+Dialogue: 0,0:02:30.94,0:02:33.04,Flashback,D,0000,0000,0000,,Altana mutants?
+Dialogue: 0,0:02:33.04,0:02:34.33,Flashback,D,0000,0000,0000,,It can't be!
+Dialogue: 0,0:02:34.33,0:02:35.51,Flashback,D,0000,0000,0000,,There's no doubt.
+Dialogue: 0,0:02:35.90,0:02:38.76,Flashback,D,0000,0000,0000,,That man is immortal.
+Dialogue: 0,0:02:39.82,0:02:40.88,Flashback,T,0000,0000,0000,,Utsuro.
+Dialogue: 0,0:02:40.88,0:02:44.52,Flashback,T,0000,0000,0000,,Or would you prefer I \Ncalled you Yoshida Shoyo?
+Dialogue: 0,0:02:44.52,0:02:48.77,Flashback,T,0000,0000,0000,,When and where did you gain that ability?
+Dialogue: 0,0:02:50.17,0:02:51.23,Flashback,U,0000,0000,0000,,Utsuro.
+Dialogue: 0,0:02:51.64,0:02:53.13,Flashback,U,0000,0000,0000,,Yoshida Shoyo.
+Dialogue: 0,0:02:54.34,0:02:57.65,Flashback,U,0000,0000,0000,,I'm both of those and \Nneither at the same time.
+Dialogue: 0,0:02:58.78,0:03:04.79,Flashback,U,0000,0000,0000,,One that has lived within this body for \Nso long, I've forgotten my very name.
+Dialogue: 0,0:03:05.66,0:03:10.05,Flashback,U,0000,0000,0000,,No, maybe I never had a name to begin with.
+Dialogue: 0,0:03:10.75,0:03:15.55,Flashback,U,0000,0000,0000,,I was only showered with \Nendless insults and hostility.
+Dialogue: 0,0:03:16.07,0:03:17.97,Flashback,U,0000,0000,0000,,And the only name I remember is...
+Dialogue: 0,0:03:18.83,0:03:19.72,Main,Hen,0000,0000,0000,,Devil.
+Dialogue: 0,0:03:21.89,0:03:25.09,Flashback,Sho,0000,0000,0000,,I came here after hearing \Nabout a corpse-eating devil,
+Dialogue: 0,0:03:25.09,0:03:28.01,Flashback,Sho,0000,0000,0000,,but you're awfully adorable for a devil.
+Dialogue: 0,0:03:29.06,0:03:34.57,Main,Hen,0000,0000,0000,,It seems people persecuted Utsuro \Ndue to their fear of his immortality.
+Dialogue: 0,0:03:34.57,0:03:38.70,Main,Obo,0000,0000,0000,,Chopped into pieces, skewered, and burned,
+Dialogue: 0,0:03:38.70,0:03:41.82,Main,Obo,0000,0000,0000,,he died over and over again.
+Dialogue: 0,0:03:46.19,0:03:48.58,Main,Obo,0000,0000,0000,,But he came back to life each time,
+Dialogue: 0,0:03:48.58,0:03:51.83,Main,Obo,0000,0000,0000,,inspiring further fear and animosity.
+Dialogue: 0,0:03:52.65,0:03:58.40,Main,Obo,0000,0000,0000,,Even though he experienced suffering \Nthat would break anyone's spirit,
+Dialogue: 0,0:03:59.06,0:04:01.20,Main,Obo,0000,0000,0000,,he couldn't disappear.
+Dialogue: 0,0:04:02.22,0:04:04.14,Main,Obo,0000,0000,0000,,That is why he gave birth,
+Dialogue: 0,0:04:04.60,0:04:08.35,Main,Obo,0000,0000,0000,,in order to overcome the endless suffering...
+Dialogue: 0,0:04:08.69,0:04:10.64,Flashback,U,0000,0000,0000,,To countless versions of me.
+Dialogue: 0,0:04:11.04,0:04:14.11,Flashback,U,0000,0000,0000,,And by the time the prison \Nitself rotted away,
+Dialogue: 0,0:04:21.45,0:04:24.58,Flashback,U,0000,0000,0000,,they began to act.
+Dialogue: 0,0:04:30.72,0:04:33.32,Flashback,U,0000,0000,0000,,To bestow countless deaths upon people.
+Dialogue: 0,0:04:34.63,0:04:38.21,Flashback,U,0000,0000,0000,,They did to others what \Nothers had done unto them,
+Dialogue: 0,0:04:38.21,0:04:42.98,Flashback,U,0000,0000,0000,,like a devil trying to become \Nhuman by imitating them.
+Dialogue: 0,0:04:49.38,0:04:53.82,Flashback,U,0000,0000,0000,,And so, they were granted \Nthe mask of the reaper.
+Dialogue: 0,0:04:55.29,0:04:59.07,Flashback,U,0000,0000,0000,,The court chose to use the \Nreaper for their own benefit.
+Dialogue: 0,0:04:59.65,0:05:04.16,Flashback,U,0000,0000,0000,,The 500 years after that were spent \Nin a maelstrom of bloodshed.
+Dialogue: 0,0:05:04.16,0:05:06.41,Flashback,U,0000,0000,0000,,The one that hated humans,
+Dialogue: 0,0:05:06.41,0:05:08.41,Flashback,U,0000,0000,0000,,the one that feared humans,
+Dialogue: 0,0:05:08.41,0:05:10.61,Flashback,U,0000,0000,0000,,and the one that longed to be human...
+Dialogue: 0,0:05:10.61,0:05:13.54,Flashback,U,0000,0000,0000,,They were all me.
+Dialogue: 0,0:05:14.26,0:05:20.17,Flashback,U,0000,0000,0000,,It was inevitable that he \Nwould appear to stop them.
+Dialogue: 0,0:05:22.09,0:05:25.41,Flashback,U,0000,0000,0000,,The only Utsuro that stood up to Utsuro.
+Dialogue: 0,0:05:28.29,0:05:31.68,Flashback,U,0000,0000,0000,,That was Yoshida Shoyo.
+Dialogue: 0,0:05:32.53,0:05:36.44,Flashback,U,0000,0000,0000,,He suppressed the countless \Nincarnations of me
+Dialogue: 0,0:05:36.44,0:05:38.69,Flashback,U,0000,0000,0000,,and fought to change.
+Dialogue: 0,0:05:39.58,0:05:40.82,Flashback,U,0000,0000,0000,,He never stopped fighting.
+Dialogue: 0,0:05:44.27,0:05:45.17,Flashback,U,0000,0000,0000,,However...
+Dialogue: 0,0:05:52.87,0:05:55.04,Flashback,U,0000,0000,0000,,You're the only one left now,
+Dialogue: 0,0:05:56.04,0:05:57.19,Flashback,U,0000,0000,0000,,Shoyo.
+Dialogue: 0,0:05:58.49,0:06:00.98,Flashback,U,0000,0000,0000,,You don't need to suffer anymore.
+Dialogue: 0,0:06:00.98,0:06:02.79,Flashback,U,0000,0000,0000,,I'll put an end to it all.
+Dialogue: 0,0:06:13.47,0:06:15.94,Flashback,U,0000,0000,0000,,Farewell, me.
+Dialogue: 0,0:06:30.38,0:06:35.56,Flashback,T,0000,0000,0000,,So what you seek is an end for yourself?
+Dialogue: 0,0:06:36.46,0:06:38.04,Flashback,T,0000,0000,0000,,That's a shame.
+Dialogue: 0,0:06:38.53,0:06:41.82,Flashback,T,0000,0000,0000,,If your power were used wisely,
+Dialogue: 0,0:06:41.82,0:06:44.55,Flashback,T,0000,0000,0000,,we—this universe—could \Nevolve even further.
+Dialogue: 0,0:06:44.55,0:06:48.15,Flashback,U,0000,0000,0000,,If you'll find a way to kill me,
+Dialogue: 0,0:06:48.15,0:06:55.31,Flashback,U,0000,0000,0000,,I don't mind if you chop this body up and \Ninvestigate every last drop of blood.
+Dialogue: 0,0:06:55.31,0:06:58.14,Flashback,U,0000,0000,0000,,But just keep this in mind:
+Dialogue: 0,0:06:58.84,0:07:02.40,Flashback,U,0000,0000,0000,,I'm a man who doesn't \Nknow how to end himself,
+Dialogue: 0,0:07:02.96,0:07:05.07,Flashback,U,0000,0000,0000,,but I do know how to rip my \Narms from these shackles
+Dialogue: 0,0:07:05.93,0:07:10.70,Flashback,U,0000,0000,0000,,and put an end to this \Nstupid game right now.
+Dialogue: 0,0:07:11.48,0:07:15.20,Flashback,U,0000,0000,0000,,I know how to put an end to \Nothers better than anyone.
+Dialogue: 0,0:07:15.71,0:07:19.21,Flashback,U,0000,0000,0000,,And, if one seeks the power of immortality,
+Dialogue: 0,0:07:19.21,0:07:21.73,Flashback,U,0000,0000,0000,,I know how to grant it to them, too.
+Dialogue: 0,0:07:22.46,0:07:24.86,Flashback,U,0000,0000,0000,,You needn't resort to these measures.
+Dialogue: 0,0:07:24.86,0:07:26.97,Flashback,U,0000,0000,0000,,I would gladly cooperate with you.
+Dialogue: 0,0:07:27.74,0:07:31.34,Flashback,U,0000,0000,0000,,But, in return, grant me power.
+Dialogue: 0,0:07:31.68,0:07:35.85,Flashback,U,0000,0000,0000,,Power that can destroy me.
+Dialogue: 0,0:07:37.67,0:07:41.02,Main,Obo,0000,0000,0000,,The Tendoshu feared him.
+Dialogue: 0,0:07:41.02,0:07:45.73,Main,Hen,0000,0000,0000,,They gave him rank and honor, \Nbut not power or authority.
+Dialogue: 0,0:07:45.73,0:07:51.49,Main,Hen,0000,0000,0000,,Utsuro sought the privilege that only the \NTendoshu possess in all the universe:
+Dialogue: 0,0:07:52.26,0:07:56.02,Main,Hen,0000,0000,0000,,the power to freely control \Neach planet's Altana.
+Dialogue: 0,0:07:56.02,0:08:01.14,Main,Hen,0000,0000,0000,,What makes that possible is a seal \Non the palm, known as the "key."
+Dialogue: 0,0:08:01.71,0:08:05.60,Main,Hen,0000,0000,0000,,It is bestowed as a proof of authority \Nupon the highest-level executives alone,
+Dialogue: 0,0:08:05.60,0:08:08.59,Main,Hen,0000,0000,0000,,and it acts as a code that can \Nopen and close Altana gates.
+Dialogue: 0,0:08:09.02,0:08:11.60,Main,Hen,0000,0000,0000,,Nobody knows how it's made,
+Dialogue: 0,0:08:11.60,0:08:14.85,Main,Hen,0000,0000,0000,,but it is impossible to remove once engraved,
+Dialogue: 0,0:08:15.19,0:08:18.26,Main,Hen,0000,0000,0000,,and ripping it off can prove fatal.
+Dialogue: 0,0:08:18.26,0:08:21.60,Main,Hen,0000,0000,0000,,And when the wielder dies, \Nthe key disappears with them.
+Dialogue: 0,0:08:21.92,0:08:26.33,Main,Hen,0000,0000,0000,,One needs the unanimous approval of \Nthe Tendoshu to procure the key,
+Dialogue: 0,0:08:26.33,0:08:29.61,Main,Hen,0000,0000,0000,,so Utsuro cannot control Altana.
+Dialogue: 0,0:08:30.24,0:08:31.50,Main,Hen,0000,0000,0000,,Or so it was thought.
+Dialogue: 0,0:08:33.06,0:08:36.87,Main,T,0000,0000,0000,,Something terrible happened \Nwhile you were away.
+Dialogue: 0,0:08:37.64,0:08:41.12,Main,T,0000,0000,0000,,Planet Tanko's Altana went berserk.
+Dialogue: 0,0:08:41.12,0:08:44.13,Main,T,0000,0000,0000,,The gate and terminal were blown \Nto smithereens instantly.
+Dialogue: 0,0:08:44.55,0:08:46.74,Main,T,0000,0000,0000,,Our branch there was destroyed, too.
+Dialogue: 0,0:08:46.74,0:08:49.32,Main,T,0000,0000,0000,,The damage caused is believed \Nto be unprecedented.
+Dialogue: 0,0:08:49.32,0:08:51.31,Main,U,0000,0000,0000,,What led to that accident?
+Dialogue: 0,0:08:51.31,0:08:52.86,Main,T,0000,0000,0000,,It was no accident.
+Dialogue: 0,0:08:53.30,0:08:55.51,Main,T,0000,0000,0000,,Just before it happened, \Nwe received a report
+Dialogue: 0,0:08:56.02,0:09:00.51,Main,T,0000,0000,0000,,that unidentified forces \Nwere attacking the gate.
+Dialogue: 0,0:09:01.02,0:09:04.44,Main,T,0000,0000,0000,,It was clearly an act of \Nrebellion against us.
+Dialogue: 0,0:09:05.10,0:09:07.52,Main,T,0000,0000,0000,,So it was induced by man?
+Dialogue: 0,0:09:07.52,0:09:10.75,Main,T,0000,0000,0000,,The only ones capable of such a thing are...
+Dialogue: 0,0:09:10.75,0:09:15.91,Main,T,0000,0000,0000,,Yes, none but the Tendoshu \Nwho possess the key.
+Dialogue: 0,0:09:16.58,0:09:18.91,Main,T,0000,0000,0000,,You're saying there's a traitor?
+Dialogue: 0,0:09:19.56,0:09:24.42,Main,T,0000,0000,0000,,But where could they find \Nsoldiers who'd obey them?
+Dialogue: 0,0:09:24.42,0:09:30.23,Main,T,0000,0000,0000,,True, any land that possesses \Na gate is under our control.
+Dialogue: 0,0:09:30.23,0:09:34.18,Main,T,0000,0000,0000,,But what if it was a force that \Ndidn't belong to any land?
+Dialogue: 0,0:09:34.57,0:09:37.93,Main,T,0000,0000,0000,,Like the pirate fleet you \Njust took over, for example.
+Dialogue: 0,0:09:39.54,0:09:43.06,Main,T,0000,0000,0000,,The goal of your trip was to \Ngain control of the Harusame
+Dialogue: 0,0:09:43.06,0:09:46.48,Main,T,0000,0000,0000,,and wipe out any rebels.
+Dialogue: 0,0:09:46.89,0:09:51.48,Main,T,0000,0000,0000,,But what if half of them were used \Nto achieve a different goal?
+Dialogue: 0,0:09:52.15,0:09:56.32,Main,T,0000,0000,0000,,What if you used that whole battle \Nto lull us into a sense of security?
+Dialogue: 0,0:09:56.32,0:09:59.32,Main,T,0000,0000,0000,,What if making Altana go berserk
+Dialogue: 0,0:09:59.32,0:10:04.54,Main,T,0000,0000,0000,,and destroying the planet \Nwas your true objective?
+Dialogue: 0,0:10:06.96,0:10:10.39,Main,T,0000,0000,0000,,How did you steal a key?
+Dialogue: 0,0:10:13.53,0:10:15.72,Main,U,0000,0000,0000,,I didn't steal anything.
+Dialogue: 0,0:10:15.72,0:10:17.83,Main,U,0000,0000,0000,,I only gave away,
+Dialogue: 0,0:10:18.34,0:10:20.68,Main,U,0000,0000,0000,,as you people wished,
+Dialogue: 0,0:10:20.68,0:10:22.35,Main,U,0000,0000,0000,,my immortal blood.
+Dialogue: 0,0:10:22.74,0:10:27.85,Main,U,0000,0000,0000,,And you people willingly parted with a great \Nnumber of things to gain immortality.
+Dialogue: 0,0:10:27.85,0:10:32.61,Main,U,0000,0000,0000,,The key, which causes death upon being \Nstolen and disappears upon dying,
+Dialogue: 0,0:10:34.17,0:10:36.24,Main,U,0000,0000,0000,,just became an indestructible key.
+Dialogue: 0,0:10:36.74,0:10:41.33,Main,U,0000,0000,0000,,I only picked up a key you people dropped.
+Dialogue: 0,0:10:41.33,0:10:44.91,Main,T,0000,0000,0000,,Wh-Who was it that handed \Nover their key to him?!
+Dialogue: 0,0:10:44.91,0:10:48.10,Main,U,0000,0000,0000,,My blood is certainly that of an immortal,
+Dialogue: 0,0:10:48.10,0:10:51.66,Main,U,0000,0000,0000,,but it only functions as it should \Nwithin an immortal's body.
+Dialogue: 0,0:10:51.66,0:10:53.94,Main,U,0000,0000,0000,,Your bodies aren't immortal,
+Dialogue: 0,0:10:53.94,0:10:57.84,Main,U,0000,0000,0000,,so infusing my blood is akin to pouring \Nmagma into a frail container.
+Dialogue: 0,0:10:57.84,0:11:02.10,Main,U,0000,0000,0000,,What's more, you poured it until \Nthe vessel was overflowing.
+Dialogue: 0,0:11:02.10,0:11:04.48,Main,U,0000,0000,0000,,The vessel is sure to start melting.
+Dialogue: 0,0:11:04.48,0:11:05.89,Main,U,0000,0000,0000,,It won't just be your arms.
+Dialogue: 0,0:11:05.89,0:11:08.10,Main,U,0000,0000,0000,,Soon, your legs will fall off,
+Dialogue: 0,0:11:08.10,0:11:09.43,Main,U,0000,0000,0000,,and so will your head.
+Dialogue: 0,0:11:09.43,0:11:14.23,Main,U,0000,0000,0000,,But even as your mind experiences \Nsuffering that could break anyone,
+Dialogue: 0,0:11:14.23,0:11:16.35,Main,U,0000,0000,0000,,you can't die.
+Dialogue: 0,0:11:16.93,0:11:20.55,Main,U,0000,0000,0000,,You won't end until your body rots away.
+Dialogue: 0,0:11:21.37,0:11:22.92,Main,T,0000,0000,0000,,Utsuro, you bastard!
+Dialogue: 0,0:11:22.92,0:11:26.29,Main,T,0000,0000,0000,,You said there was a way to save \Nme if I offered you the key!
+Dialogue: 0,0:11:26.29,0:11:28.46,Main,T,0000,0000,0000,,Are you going back on your word?!
+Dialogue: 0,0:11:30.61,0:11:34.63,Main,T,0000,0000,0000,,Impossible... There were so many traitors?
+Dialogue: 0,0:11:35.94,0:11:37.80,Main,T,0000,0000,0000,,Wait, then the keys you took...
+Dialogue: 0,0:11:37.80,0:11:40.53,Main,U,0000,0000,0000,,I have lots more of them.
+Dialogue: 0,0:11:40.53,0:11:42.84,Main,U,0000,0000,0000,,You should receive reports soon
+Dialogue: 0,0:11:43.39,0:11:47.60,Main,U,0000,0000,0000,,about how for every key you dropped,
+Dialogue: 0,0:11:56.03,0:11:58.28,Main,U,0000,0000,0000,,an entire planet was destroyed.
+Dialogue: 0,0:11:59.02,0:12:02.28,Main,U,0000,0000,0000,,And the people who survived will swear
+Dialogue: 0,0:12:02.74,0:12:05.54,Main,U,0000,0000,0000,,that they'll never forgive the Tendoshu.
+Dialogue: 0,0:12:07.04,0:12:09.54,Main,U,0000,0000,0000,,That you can't be left \Nin control of the gates.
+Dialogue: 0,0:12:10.21,0:12:12.00,Main,U,0000,0000,0000,,They will eventually come here,
+Dialogue: 0,0:12:12.00,0:12:13.67,Main,U,0000,0000,0000,,to Earth.
+Dialogue: 0,0:12:13.67,0:12:17.50,Main,T,0000,0000,0000,,Are you trying to start a war \Nwith the entire universe?!
+Dialogue: 0,0:12:17.50,0:12:20.43,Main,U,0000,0000,0000,,I'm a monster that Earth created.
+Dialogue: 0,0:12:20.93,0:12:25.68,Main,U,0000,0000,0000,,As long as I consume the Altana \Nof this planet, I cannot die.
+Dialogue: 0,0:12:25.68,0:12:29.43,Main,U,0000,0000,0000,,My suffering, your suffering,
+Dialogue: 0,0:12:29.43,0:12:32.83,Main,U,0000,0000,0000,,and all the suffering \Nrepeated on this planet
+Dialogue: 0,0:12:33.69,0:12:37.05,Main,U,0000,0000,0000,,will never end as long as this planet exists.
+Dialogue: 0,0:12:37.49,0:12:39.55,Main,U,0000,0000,0000,,Then we need only put an end
+Dialogue: 0,0:12:40.51,0:12:41.81,Main,U,0000,0000,0000,,to this planet.
+Dialogue: 0,0:12:42.77,0:12:46.79,Main,Obo,0000,0000,0000,,Wresting control of Altana \Nfrom the Tendoshu's clutches
+Dialogue: 0,0:12:47.33,0:12:49.95,Main,Obo,0000,0000,0000,,to cause a universal war.
+Dialogue: 0,0:12:50.26,0:12:53.21,Main,Obo,0000,0000,0000,,That is his goal.
+Dialogue: 0,0:12:53.74,0:12:57.71,Main,Obo,0000,0000,0000,,Fighters, take down Utsuro.
+Dialogue: 0,0:12:58.63,0:13:03.97,Main,Obo,0000,0000,0000,,Yoshida Shoyo fought the Utsuro \Nwithin himself and lost.
+Dialogue: 0,0:13:04.39,0:13:07.97,Main,Obo,0000,0000,0000,,But his battle gave birth to you.
+Dialogue: 0,0:13:08.32,0:13:11.34,Main,Obo,0000,0000,0000,,His spirit still lives on.
+Dialogue: 0,0:13:11.98,0:13:17.61,Main,Obo,0000,0000,0000,,Put an end to him, before everything ends.
+Dialogue: 0,0:13:18.18,0:13:19.86,Main,Obo,0000,0000,0000,,Don't hesitate.
+Dialogue: 0,0:13:19.86,0:13:22.11,Main,Obo,0000,0000,0000,,Don't be afraid.
+Dialogue: 0,0:13:22.11,0:13:24.91,Main,Obo,0000,0000,0000,,Fight as your heart wills you to.
+Dialogue: 0,0:13:25.56,0:13:31.39,Main,Obo,0000,0000,0000,,Since I lost sight of my own spirit,
+Dialogue: 0,0:13:31.39,0:13:34.50,Main,Obo,0000,0000,0000,,I couldn't fight for Sensei, that man,
+Dialogue: 0,0:13:34.50,0:13:38.23,Main,Obo,0000,0000,0000,,or for myself.
+Dialogue: 0,0:13:39.19,0:13:44.26,Main,Obo,0000,0000,0000,,If I could do it all over again...
+Dialogue: 0,0:13:46.22,0:13:47.26,Main,Obo,0000,0000,0000,,I...
+Dialogue: 0,0:13:55.00,0:13:56.44,Main,Obo,0000,0000,0000,,I...
+Dialogue: 0,0:14:12.28,0:14:20.03,Main,Obo,0000,0000,0000,,I would've loved to be one of you guys...
+Dialogue: 0,0:14:41.30,0:14:42.19,Main,Tak,0000,0000,0000,,Let's go.
+Dialogue: 0,0:14:43.79,0:14:46.49,Main,Tak,0000,0000,0000,,This is not his rightful resting place.
+Dialogue: 0,0:14:47.24,0:14:54.01,Main,Tak,0000,0000,0000,,Though who knows whether it'll be next \Nto his master or next to us students.
+Dialogue: 0,0:14:55.92,0:14:59.09,Main,Tak,0000,0000,0000,,We're going back to Shoka Sonjuku.
+Dialogue: 0,0:15:10.13,0:15:12.48,Main,Sak,0000,0000,0000,,Gintoki, Zura...
+Dialogue: 0,0:15:13.25,0:15:17.16,Main,Gin,0000,0000,0000,,Nothing anyone says is going \Nto surprise me anymore.
+Dialogue: 0,0:15:17.62,0:15:19.34,Main,Gin,0000,0000,0000,,None of it changes anything.
+Dialogue: 0,0:15:19.92,0:15:24.17,Main,Gin,0000,0000,0000,,Maybe Utsuro was the one who \Nkilled the Shoyo persona.
+Dialogue: 0,0:15:25.17,0:15:31.57,Main,Gin,0000,0000,0000,,But we, his students, were the ones who \Ncornered him, giving Utsuro his chance.
+Dialogue: 0,0:15:33.49,0:15:36.81,Main,Gin,0000,0000,0000,,The one who ignored his \Nrequest not to go after him,
+Dialogue: 0,0:15:37.39,0:15:40.19,Main,Gin,0000,0000,0000,,started a fight that put \Nhis friends in danger,
+Dialogue: 0,0:15:40.76,0:15:45.57,Main,Gin,0000,0000,0000,,and gave Shoyo the final blow \Nthat awakened Utsuro was me.
+Dialogue: 0,0:15:46.98,0:15:51.58,Main,Gin,0000,0000,0000,,We were the ones who killed \NShoyo and gave birth to Utsuro.
+Dialogue: 0,0:15:54.20,0:15:56.08,Main,Gin,0000,0000,0000,,Even so,
+Dialogue: 0,0:15:56.76,0:15:58.08,Main,Gin,0000,0000,0000,,back then...
+Dialogue: 0,0:15:59.44,0:16:00.38,Flashback,Sho,0000,0000,0000,,Thank you.
+Dialogue: 0,0:16:02.24,0:16:03.79,Main,Gin,0000,0000,0000,,That's what he said.
+Dialogue: 0,0:16:04.53,0:16:07.61,Main,Gin,0000,0000,0000,,With total disregard for his \Nimpending death, he looked at me
+Dialogue: 0,0:16:08.31,0:16:09.69,Main,Gin,0000,0000,0000,,and smiled.
+Dialogue: 0,0:16:12.66,0:16:15.97,Main,Kat,0000,0000,0000,,Perhaps Sensei always \Nknew this would happen.
+Dialogue: 0,0:16:17.12,0:16:19.88,Main,Kat,0000,0000,0000,,That, someday, the monster within him
+Dialogue: 0,0:16:19.88,0:16:25.20,Main,Kat,0000,0000,0000,,would consume him and become a massive \Nshadow that would destroy entire planets.
+Dialogue: 0,0:16:26.85,0:16:35.31,Main,Kat,0000,0000,0000,,And maybe Shoka Sonjuku was created to give \Nthe world hope to fight that darkness.
+Dialogue: 0,0:16:38.46,0:16:41.39,Flashback,Sho,0000,0000,0000,,A monster's sword cannot \Ncut another monster.
+Dialogue: 0,0:16:42.17,0:16:45.33,Flashback,Sho,0000,0000,0000,,You have to grow stronger \Nthan me using your own sword,
+Dialogue: 0,0:16:45.33,0:16:48.34,Flashback,Sho,0000,0000,0000,,the sword of a human.
+Dialogue: 0,0:16:48.34,0:16:52.94,Main,Kat,0000,0000,0000,,Even as he faced death,
+Dialogue: 0,0:16:53.46,0:16:56.60,Main,Kat,0000,0000,0000,,there wasn't a hint of fear \Nor sorrow in his eyes.
+Dialogue: 0,0:17:00.60,0:17:04.68,Main,Kat,0000,0000,0000,,You, who were willing to walk \Nover your teacher's corpse
+Dialogue: 0,0:17:04.68,0:17:07.49,Main,Kat,0000,0000,0000,,in order to protect Shoka \NSonjuku and its spirit,
+Dialogue: 0,0:17:07.49,0:17:10.99,Main,Kat,0000,0000,0000,,appeared to him as a great ray of hope.
+Dialogue: 0,0:17:11.62,0:17:13.49,Main,Kat,0000,0000,0000,,That must be why he,
+Dialogue: 0,0:17:13.49,0:17:14.99,Main,Kat,0000,0000,0000,,and you,
+Dialogue: 0,0:17:14.99,0:17:16.45,Main,Kat,0000,0000,0000,,smiled back then.
+Dialogue: 0,0:17:19.44,0:17:24.00,Main,Sak,0000,0000,0000,,The battles of the man called Yoshida \NShoyo gave birth to you guys.
+Dialogue: 0,0:17:24.49,0:17:30.21,Main,Sak,0000,0000,0000,,And your battles gave birth \Nto us and our comrades.
+Dialogue: 0,0:17:30.21,0:17:33.26,Main,Sak,0000,0000,0000,,There's more than one ray of hope now.
+Dialogue: 0,0:17:33.26,0:17:36.23,Main,Sak,0000,0000,0000,,Let's see what all our \Nbattles will give birth to
+Dialogue: 0,0:17:36.23,0:17:41.00,Main,Sak,0000,0000,0000,,and show it off to the two Yoshida Shoyos!
+Dialogue: 0,0:17:54.38,0:17:55.26,Main,UB,0000,0000,0000,,Are you going?
+Dialogue: 0,0:17:56.16,0:17:59.27,Main,UB,0000,0000,0000,,To a planet that might be destroyed soon?
+Dialogue: 0,0:17:59.91,0:18:03.41,Main,UB,0000,0000,0000,,Actually, should I ask if you're going home?
+Dialogue: 0,0:18:04.43,0:18:09.35,Main,UB,0000,0000,0000,,That's what that planet has \Nbecome to you now, hasn't it?
+Dialogue: 0,0:18:10.58,0:18:12.22,Main,UB,0000,0000,0000,,I'd like to stop you,
+Dialogue: 0,0:18:12.64,0:18:15.26,Main,UB,0000,0000,0000,,but I'd rather not be the kind of father
+Dialogue: 0,0:18:15.26,0:18:18.01,Main,UB,0000,0000,0000,,who whines to a daughter he \Nmarried off to another planet.
+Dialogue: 0,0:18:18.55,0:18:21.26,Main,Kag,0000,0000,0000,,Who're you saying got married off?
+Dialogue: 0,0:18:24.46,0:18:26.94,Main,UB,0000,0000,0000,,Could you pass on a message to him?
+Dialogue: 0,0:18:27.56,0:18:29.56,Main,UB,0000,0000,0000,,"Utsuro is not immortal."
+Dialogue: 0,0:18:31.42,0:18:33.36,Main,UB,0000,0000,0000,,"There is a way to kill him."
+Dialogue: 0,0:18:35.56,0:18:38.07,Main,UB,0000,0000,0000,,"Hang in there until I find out what it is."
+Dialogue: 0,0:18:38.72,0:18:42.70,Main,UB,0000,0000,0000,,"If anything happens to my daughter, \NI'll kill you along with Utsuro."
+Dialogue: 0,0:18:42.70,0:18:44.11,Main,Kag,0000,0000,0000,,Daddy...
+Dialogue: 0,0:18:44.99,0:18:47.18,Main,UB,0000,0000,0000,,Your mother shooed me away, you see.
+Dialogue: 0,0:18:47.71,0:18:51.55,Main,UB,0000,0000,0000,,"You have neither the right nor \Nany arms to punch our children,
+Dialogue: 0,0:18:51.55,0:18:54.08,Main,UB,0000,0000,0000,,but you still have a job to do," she said.
+Dialogue: 0,0:18:56.22,0:18:59.63,Main,UB,0000,0000,0000,,I don't know what exactly \Nthat is yet, but...
+Dialogue: 0,0:19:00.47,0:19:04.12,Main,UB,0000,0000,0000,,Even with these arms, I could at \Nleast pick up rocks off the ground.
+Dialogue: 0,0:19:05.40,0:19:08.98,Main,UB,0000,0000,0000,,I could at least pick flowers for her.
+Dialogue: 0,0:19:11.14,0:19:13.98,Main,Kag,0000,0000,0000,,Those weren't the flowers Mommy liked.
+Dialogue: 0,0:19:13.98,0:19:15.63,Main,UB,0000,0000,0000,,Quit nitpicking.
+Dialogue: 0,0:19:15.63,0:19:17.49,Main,UB,0000,0000,0000,,Flowers are all the same.
+Dialogue: 0,0:19:18.51,0:19:20.81,Main,UB,0000,0000,0000,,But I'm amazed you remembered that.
+Dialogue: 0,0:19:20.81,0:19:22.99,Main,Kag,0000,0000,0000,,I only remembered when I saw that, too.
+Dialogue: 0,0:19:28.42,0:19:33.05,Main,Kag,0000,0000,0000,,I still have a job to do, huh?
+Dialogue: 0,0:20:05.40,0:20:06.63,Internal,Shin,0000,0000,0000,,The land of the samurai.
+Dialogue: 0,0:20:07.38,0:20:11.36,Internal,Shin,0000,0000,0000,,There was a time, long ago, when our \Ncountry was called by that name.
+Dialogue: 0,0:20:12.72,0:20:16.28,Internal,Shin,0000,0000,0000,,Those dream-filled blue skies upon \Nwhich the samurai once gazed
+Dialogue: 0,0:20:16.79,0:20:18.67,Internal,Shin,0000,0000,0000,,are now filled with ships \Nfrom strange worlds.
+Dialogue: 0,0:20:18.67,0:20:22.13,Internal,Shin,0000,0000,0000,,The towns where the samurai \Nonce proudly walked
+Dialogue: 0,0:20:22.58,0:20:24.68,Internal,Shin,0000,0000,0000,,are now filled with swaggering, \Narrogant aliens.
+Dialogue: 0,0:20:25.94,0:20:27.92,Internal,Shin,0000,0000,0000,,We were stripped of our swords and status,
+Dialogue: 0,0:20:27.92,0:20:29.68,Internal,Shin,0000,0000,0000,,and we lost our honor and everything else.
+Dialogue: 0,0:20:30.37,0:20:32.19,Internal,Shin,0000,0000,0000,,However, even so,
+Dialogue: 0,0:20:34.03,0:20:37.07,Internal,Shin,0000,0000,0000,,the samurai spirit is still alive here.
+Dialogue: 0,0:20:44.86,0:20:48.84,Internal,Shin,0000,0000,0000,,Our final battle is about to begin.

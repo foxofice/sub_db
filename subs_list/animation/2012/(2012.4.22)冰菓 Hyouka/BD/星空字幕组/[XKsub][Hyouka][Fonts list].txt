@@ -1,0 +1,30 @@
+﻿繁体版为繁化姬转化，若有错误，诚请各位观者多多包涵。
+
+A-OTF 太ゴB101 Pr6N Bold <A-OTF Futo Go B101 Pr6N Bold>
+FOT-CinemaCN
+FOT-パール Std L <FOT-Pearl Std L>
+FOT-ハミング ProN E <FOT-Humming ProN E>
+MComic HK Medium
+MComic PRC Medium
+Unifont
+方正FW珍珠体 简繁 <FZFW ZhenZhuTiJF L>
+方正粗等线_GBK <FZDengXian-H-GBK>
+方正粗雅宋_GBK <FZYaSong-B-GBK>
+方正隶变_GBK <FZLiBian-S02>
+方正喵呜_GBK <FZMiaoWu-GBK>
+方正少儿_GBK <FZShaoEr-M11>
+方正新楷体_GBK <FZNewKai-Z03>
+方正姚体_GBK <FZYaoTi-M06>
+方正准雅宋_GBK <FZYaSong-M-GBK>
+汉仪刚艺体-75W <HYGangYiTi-75W>
+汉仪旗黑-40S <HYQiHei-40S>
+汉仪旗黑-70S <HYQiHei-70S>
+汉仪旗黑-85S <HYQiHei-85S>
+汉仪正圆-55S <HYZhengYuan-55S>
+汉仪正圆-75S <HYZhengYuan-75S>
+汉仪铸字木头人W <HYZhuZiMuTouRenW>
+华康翩翩体W5-A <DFHanziPenW5-A>
+华康少女文字W5-A <DFShaoNvW5-A>
+华康饰艺体W7 <DFShiYiW7-GB>
+華康飾藝體W7 <DFShiYi W7>
+腾祥伯当行楷GB18030 <Tensentype XingKaiGB18030>

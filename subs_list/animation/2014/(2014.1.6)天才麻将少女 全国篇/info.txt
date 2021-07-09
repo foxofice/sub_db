@@ -1,0 +1,5 @@
+﻿chs: 天才麻将少女 全国篇
+cht: 天才麻將少女 全国編
+jp: 咲 全国編
+en: Saki: Zenkoku Hen
+rome: Saki: Zenkoku Hen

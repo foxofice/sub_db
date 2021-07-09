@@ -1,0 +1,415 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Warning,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Warning - Copy,Open Sans Semibold,26,&H0068EE67,&H000000FF,&H00020004,&H000A020E,1,0,0,0,100,100,0,0,1,2,1,2,27,27,37,0
+Style: sign_3564_24_A_Mad_Hand_Appea,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H0021271D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,85,533,264,0
+Style: sign_10357_129_Popularity_Poll_,Open Sans Semibold,29,&H00101212,&H000000FF,&H00E8F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,13,13,99,0
+Style: sign_10759_134_Female_Hero_Send,Open Sans Semibold,35,&H000E120F,&H000000FF,&H00EBEDEB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,20,0
+Style: sign_10802_135_The_Two_Disappea,Open Sans Semibold,29,&H001E211F,&H000000FF,&H00CCCCCC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,65,267,69,0
+Style: sign_28705_341_Oedo_Dome,Open Sans Semibold,29,&H00082035,&H000000FF,&H0036ABF1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,60,325,64,0
+Style: sign_34163_377_Preview,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_2394_5_Oedo_Dome,Open Sans Semibold,26,&H00363535,&H000000FF,&H00FDF4EB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,71,83,203,0
+Style: Song,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.57,0:00:12.57,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:09.45,0:00:12.57,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:01:40.87,0:01:46.83,Ep Title,Title,0000,0000,0000,,{\fad(442,1)}An Idol's Badge of Honor
+Dialogue: 0,0:01:46.83,0:01:48.34,sign_2394_5_Oedo_Dome,Sign,0000,0000,0000,,Oedo Dome
+Dialogue: 0,0:01:50.66,0:01:54.46,Main,Tsuk,0000,0000,0000,,{\an8}To hell with that. Even a normal \Nmeet-and-greet doesn't sit right with me.
+Dialogue: 0,0:01:50.71,0:01:57.53,Warning - Copy,Warning,0000,0000,0000,,{\fad(487,536)}BDZ48's {\c&H8D3FE5&}Request!! Watch this program in a bright room\Nand at a safe distance from your TV ♥
+Dialogue: 0,0:01:54.46,0:01:58.06,Main,Tsuk,0000,0000,0000,,{\an8}If you're holding a toilet meet-and-greet, \Nthey might as well all work at Yoshiwara.
+Dialogue: 0,0:01:58.06,0:01:59.60,Main,Shin,0000,0000,0000,,Is that really the issue here, Tsukuyo-san?
+Dialogue: 0,0:01:59.60,0:02:02.69,Main,Sac,0000,0000,0000,,No need to tell me. I've always \Nbeen the producer's cum dumpster.
+Dialogue: 0,0:02:02.69,0:02:03.60,Main,Shin,0000,0000,0000,,You keep your mouth shut!
+Dialogue: 0,0:02:03.60,0:02:07.49,Main,Kyu,0000,0000,0000,,Idol or not, as a samurai, I could \Nnever grab something so filthy.
+Dialogue: 0,0:02:07.49,0:02:10.50,Main,Kyu,0000,0000,0000,,The only things a samurai should grab \Nare swords, dirt on powerful people,
+Dialogue: 0,0:02:10.50,0:02:13.25,Main,Kyu,0000,0000,0000,,control of the Yagyu Family and \Nthe right to its inheritance,
+Dialogue: 0,0:02:13.25,0:02:14.54,Main,Kyu,0000,0000,0000,,stocks, and rice balls.
+Dialogue: 0,0:02:14.54,0:02:17.41,Main,Shin,0000,0000,0000,,Don't make rice balls with a hand that \Ntouched all that filth, you celeb samurai!
+Dialogue: 0,0:02:17.94,0:02:21.73,Main,Tae,0000,0000,0000,,Besides, shaking hands from a \Ntoilet would be rude to the fans.
+Dialogue: 0,0:02:21.73,0:02:24.54,Main,Tae,0000,0000,0000,,We want to treat our fans better.
+Dialogue: 0,0:02:24.54,0:02:25.62,Main,Tae,0000,0000,0000,,On that note,
+Dialogue: 0,0:02:26.76,0:02:28.71,Main,Tae,0000,0000,0000,,let's have the fans enter the toilet instead.
+Dialogue: 0,0:02:28.71,0:02:30.50,Main,Shin,0000,0000,0000,,Treat your fans better!
+Dialogue: 0,0:02:30.50,0:02:32.38,Main,Tae,0000,0000,0000,,Also, keeping hygiene in mind,
+Dialogue: 0,0:02:32.83,0:02:36.40,Main,Tae,0000,0000,0000,,they can hold Clift's fate in their hands.
+Dialogue: 0,0:02:35.65,0:02:40.93,sign_3564_24_A_Mad_Hand_Appea,Sign,0000,0000,0000,,A Mad Hand\NAppeared
+Dialogue: 0,0:02:36.40,0:02:38.10,Main,Shin,0000,0000,0000,,Don't treat fans like the Mad Hands in DQ!
+Dialogue: 0,0:02:38.10,0:02:40.93,Main,Shin,0000,0000,0000,,And don't pull on Clift's leg! Quit pulling \Nour leg by being so useless, Clift!
+Dialogue: 0,0:02:40.93,0:02:42.64,Main,Tae,0000,0000,0000,,And despite everything that happened,
+Dialogue: 0,0:02:43.20,0:02:44.93,Main,Tae,0000,0000,0000,,let's flush it all away and \Ncall it water under the bridge.
+Dialogue: 0,0:02:44.93,0:02:45.78,Main,Shin,0000,0000,0000,,They won't get flushed!
+Dialogue: 0,0:02:45.78,0:02:48.40,Main,Shin,0000,0000,0000,,Not even the large option will flush your \Nevil deeds and Clift's feelings away!
+Dialogue: 0,0:02:48.40,0:02:51.15,Main,Tae,0000,0000,0000,,It's the same principle \Nas the {\i1}Gintama{\i0} movies.
+Dialogue: 0,0:02:51.15,0:02:53.76,Main,Tae,0000,0000,0000,,The moment we get the fans \Ninside, we've already won.
+Dialogue: 0,0:02:53.76,0:02:57.67,Main,Tae,0000,0000,0000,,After that, the money will flow in even \Nif the movie's a steady stream of shit.
+Dialogue: 0,0:02:57.67,0:02:59.10,Main,Shin,0000,0000,0000,,Enough with the outrageous statements!
+Dialogue: 0,0:02:59.10,0:03:02.03,Main,Shin,0000,0000,0000,,Don't put us in the same boat \Nas your rip-off cabaret club!
+Dialogue: 0,0:03:02.03,0:03:04.10,Main,G,0000,0000,0000,,H-Hey, what happened in there?
+Dialogue: 0,0:03:04.10,0:03:05.66,Main,G,0000,0000,0000,,Uh, I think...
+Dialogue: 0,0:03:05.66,0:03:09.19,Main,G,0000,0000,0000,,I touched something soft \Nthat starts with "cli."
+Dialogue: 0,0:03:09.19,0:03:10.88,Main,G,0000,0000,0000,,"Cli"? Something soft?!
+Dialogue: 0,0:03:10.88,0:03:13.35,Main,G,0000,0000,0000,,And then water came bursting out...
+Dialogue: 0,0:03:13.35,0:03:15.26,Main,G,0000,0000,0000,,Holy water came bursting out?!
+Dialogue: 0,0:03:15.26,0:03:18.18,Main,G,0000,0000,0000,,I-I'm lining up for Otae-chan!
+Dialogue: 0,0:03:18.18,0:03:21.09,Main,G,0000,0000,0000,,She seems prim and proper, but is \Nactually really bold! She's the best!
+Dialogue: 0,0:03:21.09,0:03:24.08,Main,Shin,0000,0000,0000,,By some miracle, it caused a \Nmisunderstanding and formed a line!
+Dialogue: 0,0:03:24.08,0:03:25.04,Main,Tae,0000,0000,0000,,There, there.
+Dialogue: 0,0:03:25.04,0:03:28.47,Main,Tae,0000,0000,0000,,Don't rush, guys. Enter \Nthe toilet in turn, okay?
+Dialogue: 0,0:03:28.47,0:03:31.19,Main,Kag,0000,0000,0000,,Well, since a line's formed, \Nlet's just go with it.
+Dialogue: 0,0:03:31.19,0:03:33.44,Main,Sac,0000,0000,0000,,Pfft! Don't make me laugh!
+Dialogue: 0,0:03:33.94,0:03:37.80,Main,Sac,0000,0000,0000,,What part of that woman is soft?
+Dialogue: 0,0:03:37.80,0:03:42.82,Main,Sac,0000,0000,0000,,As you can see, she's a legendary Bigfoot \Nwhose entire body is the Rockies!
+Dialogue: 0,0:03:43.16,0:03:44.51,Main,Tae,0000,0000,0000,,Sacchan...
+Dialogue: 0,0:03:44.51,0:03:48.53,Main,Tae,0000,0000,0000,,Could you not get all jealous because \Nnobody's coming to your toilet?
+Dialogue: 0,0:03:48.53,0:03:51.71,Main,Tae,0000,0000,0000,,Be a good little monkey and ride \Non someone else's back, would you?
+Dialogue: 0,0:03:51.71,0:03:53.22,Main,Sac,0000,0000,0000,,Otae...
+Dialogue: 0,0:03:53.22,0:03:58.52,Main,Sac,0000,0000,0000,,A monkey on the back is an idiom that means \Nhaving a problem, not a literal monkey.
+Dialogue: 0,0:03:58.52,0:04:00.72,Main,Sac,0000,0000,0000,,Has your brain turned into a rock, too?
+Dialogue: 0,0:04:00.72,0:04:02.93,Main,Kag,0000,0000,0000,,Hey! Boss lady, Sacchan!
+Dialogue: 0,0:04:02.93,0:04:06.98,Main,Tae,0000,0000,0000,,And I'm saying you can ride \Nthese filthy men bareback.
+Dialogue: 0,0:04:06.98,0:04:09.70,Main,Sac,0000,0000,0000,,Did you hear that, guys? \NThis is what Otae's really like!
+Dialogue: 0,0:04:09.70,0:04:11.35,Main,Shin,0000,0000,0000,,Who the hell are you two fighting?!
+Dialogue: 0,0:04:11.66,0:04:12.98,Main,Sac,0000,0000,0000,,What are you saying?
+Dialogue: 0,0:04:12.98,0:04:15.60,Main,Sac,0000,0000,0000,,Before being a battle to decide the top idol,
+Dialogue: 0,0:04:15.60,0:04:17.71,Main,Sac,0000,0000,0000,,this is a vote-off between \NDiamond Vacuum members!
+Dialogue: 0,0:04:17.71,0:04:19.00,Main,Shin,0000,0000,0000,,Who the hell cares about that?!
+Dialogue: 0,0:04:19.00,0:04:20.78,Main,Sac,0000,0000,0000,,I won't let anyone else be center.
+Dialogue: 0,0:04:20.78,0:04:24.49,Main,Sac,0000,0000,0000,,You guys are better off lining up \Nfor me instead of this Jezebel.
+Dialogue: 0,0:04:24.49,0:04:27.23,Main,Sac,0000,0000,0000,,Hey, don't you want to meet-and-greet me?
+Dialogue: 0,0:04:27.23,0:04:30.00,Main,Sac,0000,0000,0000,,I've got two much softer \Nthings than she does.
+Dialogue: 0,0:04:30.00,0:04:31.50,Main,Sac,0000,0000,0000,,Look right here.
+Dialogue: 0,0:04:33.04,0:04:34.66,Main,G,0000,0000,0000,,On second thought, I'm going for Sacchan!
+Dialogue: 0,0:04:34.66,0:04:38.54,Main,G,0000,0000,0000,,She may wear glasses, but she's got \Na bombshell body! She's the best!
+Dialogue: 0,0:04:38.54,0:04:40.70,Main,Tae,0000,0000,0000,,Why, you little bitch!
+Dialogue: 0,0:04:42.42,0:04:43.72,Main,Sac,0000,0000,0000,,I'm gonna be the center!
+Dialogue: 0,0:04:43.72,0:04:47.48,Main,Sac,0000,0000,0000,,You can spew all the holy water \Nyou want in the wagon, Clift!
+Dialogue: 0,0:04:49.44,0:04:51.73,Main,Sac,0000,0000,0000,,No... You need to hold me more gently.
+Dialogue: 0,0:04:51.73,0:04:53.90,Main,Shin,0000,0000,0000,,Hey! What the hell are you guys doing?!
+Dialogue: 0,0:04:53.90,0:04:57.46,Main,Sac,0000,0000,0000,,If you shake that hard, \Nyou'll crush my two
+Dialogue: 0,0:04:57.46,0:04:59.78,Main,Sac,0000,0000,0000,,soft balls!
+Dialogue: 0,0:05:00.27,0:05:02.78,Main,Tae,0000,0000,0000,,They're just Brey's golden orbs!
+Dialogue: 0,0:05:02.78,0:05:04.11,Main,Shin,0000,0000,0000,,What the hell are you doing?!
+Dialogue: 0,0:05:04.11,0:05:07.71,Main,Shin,0000,0000,0000,,This has turned into a meet-and-greet \Nfor DQ48's wagon members!
+Dialogue: 0,0:05:07.71,0:05:09.72,Main,Shin,0000,0000,0000,,Where'd you even find them?!
+Dialogue: 0,0:05:09.72,0:05:13.66,Main,Tae,0000,0000,0000,,Clift and Brey needed to get rid of \Ntheir worries before the final battle!
+Dialogue: 0,0:05:13.66,0:05:17.54,Main,Shin,0000,0000,0000,,You two are Booger Diamonds \N48's Clift and Brey!
+Dialogue: 0,0:05:18.68,0:05:19.94,Main,Gin,0000,0000,0000,,Exactly.
+Dialogue: 0,0:05:19.94,0:05:22.30,Main,Gin,0000,0000,0000,,Good job, Clift, Brey.
+Dialogue: 0,0:05:23.08,0:05:25.89,Main,Gin,0000,0000,0000,,Consider DQ48's Alena and McRyan.
+Dialogue: 0,0:05:25.89,0:05:30.36,Main,Gin,0000,0000,0000,,Do you know why most people pick \NAlena out of these two fighters?
+Dialogue: 0,0:05:30.36,0:05:35.15,Main,Gin,0000,0000,0000,,That's because unlike McRyan, who is all \Nalone, Alena has Clift and Brey with her.
+Dialogue: 0,0:05:35.15,0:05:36.12,Main,Shin,0000,0000,0000,,No way!
+Dialogue: 0,0:05:36.72,0:05:39.86,Main,Gin,0000,0000,0000,,Yes way. They're just \Nlike an idol group, too.
+Dialogue: 0,0:05:39.86,0:05:42.32,Main,Gin,0000,0000,0000,,The center Alena's star shines brighter
+Dialogue: 0,0:05:42.32,0:05:45.74,Main,Gin,0000,0000,0000,,amidst the darkness that is Clift and Brey.
+Dialogue: 0,0:05:45.74,0:05:46.45,Main,Gin,0000,0000,0000,,Which means...
+Dialogue: 0,0:05:46.45,0:05:48.33,Main,G,0000,0000,0000,,On second thought, Kyubei-chan's the best!
+Dialogue: 0,0:05:48.33,0:05:51.05,Main,G,0000,0000,0000,,Unlike those two sluts, she's a pure tomboy!
+Dialogue: 0,0:05:51.05,0:05:53.75,Main,G,0000,0000,0000,,Plus, she's got eyepatch and twin tails moe!
+Dialogue: 0,0:05:53.75,0:05:56.46,Main,G,0000,0000,0000,,Orthodox really is best!
+Dialogue: 0,0:05:57.33,0:05:58.96,Main,Gin,0000,0000,0000,,Go, Alena!
+Dialogue: 0,0:05:59.43,0:06:02.70,Main,Gin,0000,0000,0000,,Walk over the corpses of Clift and Brey!
+Dialogue: 0,0:06:07.59,0:06:11.10,Internal,Gin,0000,0000,0000,,I forgot Alena could spam critical hits.
+Dialogue: 0,0:06:12.46,0:06:14.19,Main,Kyu,0000,0000,0000,,Don't touch me!
+Dialogue: 0,0:06:14.19,0:06:17.74,Main,Kag,0000,0000,0000,,Turns out Alena has the \Nbiggest, Psaro-tier darkness.
+Dialogue: 0,0:06:17.74,0:06:20.98,Main,Shin,0000,0000,0000,,You've gotta be kidding me! \NWhat did she even come here for?!
+Dialogue: 0,0:06:21.67,0:06:23.08,Main,Kyu,0000,0000,0000,,G-Give me some time.
+Dialogue: 0,0:06:23.08,0:06:24.94,Main,Kyu,0000,0000,0000,,I'm slowly getting used to it.
+Dialogue: 0,0:06:24.94,0:06:27.89,Main,Kyu,0000,0000,0000,,I think I'll be able to overcome it \Nonce I throw another 1,500 of them.
+Dialogue: 0,0:06:27.89,0:06:29.90,Main,Shin,0000,0000,0000,,The fans won't recover from that!
+Dialogue: 0,0:06:29.90,0:06:32.01,Main,Tae,0000,0000,0000,,Then why don't you throw Clift 1,500 times?
+Dialogue: 0,0:06:32.01,0:06:33.33,Main,Sac,0000,0000,0000,,And Brey, too.
+Dialogue: 0,0:06:33.71,0:06:35.52,Main,Shin,0000,0000,0000,,Don't listen to those dark voices!
+Dialogue: 0,0:06:35.52,0:06:37.62,Main,Shin,0000,0000,0000,,Spare Clift and Brey already!
+Dialogue: 0,0:06:37.62,0:06:39.33,Main,Tsuk,0000,0000,0000,,Stop it, Kyubei.
+Dialogue: 0,0:06:39.33,0:06:40.66,Main,Tsuk,0000,0000,0000,,Don't push yourself.
+Dialogue: 0,0:06:40.66,0:06:41.84,Main,Kyu,0000,0000,0000,,Tsukuyo-dono?
+Dialogue: 0,0:06:41.84,0:06:47.62,Main,Tsuk,0000,0000,0000,,If you can't hold hands with men, \Nthen I can just hold your share as well.
+Dialogue: 0,0:06:47.62,0:06:50.35,Main,Kyu,0000,0000,0000,,But I can't place such a burden on you.
+Dialogue: 0,0:06:50.35,0:06:55.23,Main,Tsuk,0000,0000,0000,,Don't worry. I cast aside my femininity, \Nbut ah'm still a woman of Yoshiwara.
+Dialogue: 0,0:06:55.58,0:06:58.73,Main,Tsuk,0000,0000,0000,,Ah'm prepared to bear the sins of man.
+Dialogue: 0,0:06:58.73,0:07:00.09,Main,Kyu,0000,0000,0000,,Ah'm moe!
+Dialogue: 0,0:07:00.09,0:07:01.48,Main,Gin,0000,0000,0000,,Why are {\i1}you{\i0} freaking out over her?!
+Dialogue: 0,0:07:01.48,0:07:06.24,Main,Shin,0000,0000,0000,,We still had our ultimate weapon, the \Nfemale hero who backs up Alena's party!
+Dialogue: 0,0:07:06.24,0:07:10.33,Main,G,0000,0000,0000,,She looks like a cool, aloof beauty, \Nbut she's kind enough to look out for others!
+Dialogue: 0,0:07:10.33,0:07:12.29,Main,G,0000,0000,0000,,Tsukuyo-chan is the best!
+Dialogue: 0,0:07:12.29,0:07:13.49,Main,Shin,0000,0000,0000,,This is our chance!
+Dialogue: 0,0:07:13.49,0:07:16.39,Main,Tae,0000,0000,0000,,My, aren't we popular, Tsukuyo-san.
+Dialogue: 0,0:07:16.39,0:07:18.16,Main,Shin,0000,0000,0000,,You two get back in the wagon right now!
+Dialogue: 0,0:07:18.16,0:07:22.75,Main,Sac,0000,0000,0000,,{\an8}After that popularity poll, you want to \Nwin the Diamond Vacuum vote-off, too?
+Dialogue: 0,0:07:18.98,0:07:28.51,sign_10357_129_Popularity_Poll_,Sign,0000,0000,0000,,{\fad(500,500)}Popularity Poll Arc (Episodes 182 - 184) November 2009
+Dialogue: 0,0:07:22.75,0:07:25.71,Main,Sac,0000,0000,0000,,{\an8}Of course a Yoshiwara woman would \Nknow all about the casting couch.
+Dialogue: 0,0:07:25.71,0:07:28.51,Main,Shin,0000,0000,0000,,{\an8}You still haven't gotten over \Nwhat happened eight years ago?!
+Dialogue: 0,0:07:28.51,0:07:33.10,Main,Sac,0000,0000,0000,,But the center always has \Nthe spotlight on her.
+Dialogue: 0,0:07:33.10,0:07:37.51,Main,Sac,0000,0000,0000,,So as fellow members, we really need \Nyou to be more careful about things.
+Dialogue: 0,0:07:35.72,0:07:37.51,sign_10759_134_Female_Hero_Send,Sign,0000,0000,0000,,Female Hero Sends Clift to the Wagon!!
+Dialogue: 0,0:07:37.51,0:07:38.98,sign_10802_135_The_Two_Disappea,Sign,0000,0000,0000,,The Two Disappear Into the Wagon\Where Brey Awaits...
+Dialogue: 0,0:07:37.51,0:07:38.98,Main,Shin,0000,0000,0000,,What kinda scandal is that?!
+Dialogue: 0,0:07:38.98,0:07:42.87,Main,Shin,0000,0000,0000,,And why are you guys fabricating \Nstories to bring down your bandmate?!
+Dialogue: 0,0:07:42.87,0:07:44.90,Main,Sac,0000,0000,0000,,How will you take responsibility for this?
+Dialogue: 0,0:07:44.90,0:07:48.98,Main,Tae,0000,0000,0000,,Sending you to the Hakata wagon won't \Nbe enough. You'll be sent to Indonesia!
+Dialogue: 0,0:07:48.98,0:07:52.00,Main,Shin,0000,0000,0000,,Your shitty organization \Ndoesn't exist in Indonesia!
+Dialogue: 0,0:07:52.53,0:07:53.84,Main,Tsuk,0000,0000,0000,,I don't recall any of that,
+Dialogue: 0,0:07:53.84,0:07:57.07,Main,Tsuk,0000,0000,0000,,but I guess it's okay if it'll \Nget me out of this stupid mess.
+Dialogue: 0,0:07:57.07,0:07:58.12,Main,Shin,0000,0000,0000,,It had zero effect on her!
+Dialogue: 0,0:07:58.12,0:08:01.11,Main,Sac,0000,0000,0000,,That laid-back attitude of \Nyours is really annoying!
+Dialogue: 0,0:08:01.11,0:08:02.26,Main,Sac,0000,0000,0000,,Want me to cast Thwack on you?!
+Dialogue: 0,0:08:02.26,0:08:04.75,Main,Sac,0000,0000,0000,,Be honest! You want to be center too, right?
+Dialogue: 0,0:08:04.75,0:08:08.39,Main,Tsuk,0000,0000,0000,,Look, if you wanna play center \Nfield or whatever base in baseball,
+Dialogue: 0,0:08:08.39,0:08:10.02,Main,Tsuk,0000,0000,0000,,first get nine people to play with!
+Dialogue: 0,0:08:10.02,0:08:11.31,Main,Sac,0000,0000,0000,,Don't play dumb with me!
+Dialogue: 0,0:08:11.31,0:08:14.76,Main,Shin,0000,0000,0000,,Knock it off! Your ugly infighting \Nis weirding out the fans!
+Dialogue: 0,0:08:14.76,0:08:15.86,Main,Tae,0000,0000,0000,,Oh, wait!
+Dialogue: 0,0:08:15.86,0:08:18.02,Main,Sac,0000,0000,0000,,We were kidding! That was \Njust a comedy opening act!
+Dialogue: 0,0:08:18.02,0:08:19.56,Main,Sac,0000,0000,0000,,Come back!
+Dialogue: 0,0:08:23.02,0:08:25.86,Main,Com,0000,0000,0000,,Uh, excuse me. Can I just, like,
+Dialogue: 0,0:08:26.55,0:08:28.15,Main,Com,0000,0000,0000,,take a dump?
+Dialogue: 0,0:08:33.67,0:08:35.97,Main,Com,0000,0000,0000,,Whoa! It's totally sticking out!
+Dialogue: 0,0:08:35.97,0:08:37.04,Main,Shin,0000,0000,0000,,We don't need play-by-play for that!
+Dialogue: 0,0:08:37.04,0:08:40.78,Main,Com,0000,0000,0000,,My poop is as loose and sloppy as \NBooger Diamonds 48's morals!
+Dialogue: 0,0:08:40.78,0:08:43.19,Main,Com,0000,0000,0000,,Their behavior sticks out \Nso much in the idol sphere,
+Dialogue: 0,0:08:43.19,0:08:45.31,Main,Com,0000,0000,0000,,both the fans and my poop \Nscattered all over the place!
+Dialogue: 0,0:08:45.31,0:08:47.30,Main,Shin,0000,0000,0000,,Quit telling us about how your dump is going!
+Dialogue: 0,0:08:47.30,0:08:53.30,Main,Com,0000,0000,0000,,Meanwhile, Galaxy Kingdom Bitches \N48 are nearly in four digits!
+Dialogue: 0,0:08:53.30,0:08:57.24,Main,Com,0000,0000,0000,,There's no telling what's going on \Nbehind those bewitching curtains,
+Dialogue: 0,0:08:57.24,0:08:59.68,Main,Com,0000,0000,0000,,but the fans are being rendered \Nspineless one after another!
+Dialogue: 0,0:09:00.86,0:09:04.56,Main,Bit,0000,0000,0000,,It's all over, Booger Diamonds 48.
+Dialogue: 0,0:09:05.70,0:09:09.06,Main,Gin,0000,0000,0000,,Guess we'll have to do something about \Ntheir mystery meet-and-greet after all.
+Dialogue: 0,0:09:09.06,0:09:10.57,Main,Shin,0000,0000,0000,,Not yet.
+Dialogue: 0,0:09:11.54,0:09:15.16,Main,Shin,0000,0000,0000,,Booger Diamonds 48 isn't finished yet.
+Dialogue: 0,0:09:16.06,0:09:18.87,Main,Shin,0000,0000,0000,,Terakado Tsu isn't finished yet!
+Dialogue: 0,0:09:19.51,0:09:22.91,Main,Shin,0000,0000,0000,,Not as long as the captain \Nof the Terakado Tsu Fanclub,
+Dialogue: 0,0:09:22.91,0:09:24.87,Main,Shin,0000,0000,0000,,Shimura Shinpachi, is still here.
+Dialogue: 0,0:09:24.87,0:09:27.55,Main,Shin,0000,0000,0000,,I'll stop them.
+Dialogue: 0,0:09:27.55,0:09:31.84,Main,Shin,0000,0000,0000,,So Kagura-chan, Otsu-chan, \Nthe rest is in your hands.
+Dialogue: 0,0:09:34.37,0:09:38.24,Main,Bit,0000,0000,0000,,Captain of the Terakado Tsu \NFanclub, Shimura Shinpachi.
+Dialogue: 0,0:09:38.24,0:09:42.12,Main,Bit,0000,0000,0000,,Do you really want a taste \Nof our meet-and-greet?
+Dialogue: 0,0:09:42.45,0:09:47.63,Main,Bit,0000,0000,0000,,Did you forget what happened to \Nyour friends when they tried us?
+Dialogue: 0,0:09:48.73,0:09:49.88,Main,Shin,0000,0000,0000,,Otsu-chan...
+Dialogue: 0,0:09:50.22,0:09:51.88,Main,Shin,0000,0000,0000,,As long as you keep singing,
+Dialogue: 0,0:09:52.56,0:09:54.88,Main,Shin,0000,0000,0000,,your fans won't go anywhere.
+Dialogue: 0,0:09:55.85,0:09:58.01,Main,Shin,0000,0000,0000,,Even back when you didn't have any fans,
+Dialogue: 0,0:09:58.01,0:10:01.84,Main,Shin,0000,0000,0000,,you still had fun singing on the roadsise.
+Dialogue: 0,0:10:02.54,0:10:07.49,Main,Shin,0000,0000,0000,,Someone who was given strength \Nby watching you is still here.
+Dialogue: 0,0:10:08.45,0:10:13.65,Main,Shin,0000,0000,0000,,Just as your voice has cheered \Nus on when we were sad and hurt,
+Dialogue: 0,0:10:14.14,0:10:20.33,Main,Shin,0000,0000,0000,,there's a fan still here who will cheer \Nyou on when you are sad and hurt.
+Dialogue: 0,0:10:20.91,0:10:24.93,Main,Shin,0000,0000,0000,,If you've lost everything, you can \Njust start over from that spot.
+Dialogue: 0,0:10:25.69,0:10:28.92,Main,Shin,0000,0000,0000,,If you'll sing, I'll gladly come \Nsee you there again and again...
+Dialogue: 0,0:10:29.52,0:10:31.68,Main,Shin,0000,0000,0000,,At that concert hall for just the two of us.
+Dialogue: 0,0:10:33.10,0:10:35.26,Main,Shin,0000,0000,0000,,No matter what happens,
+Dialogue: 0,0:10:35.62,0:10:39.01,Main,Shin,0000,0000,0000,,I will be Terakado Tsu's first and last fan.
+Dialogue: 0,0:10:39.01,0:10:40.95,Main,Bit,0000,0000,0000,,How amusing.
+Dialogue: 0,0:10:40.95,0:10:43.42,Main,Bit,0000,0000,0000,,By getting through our meet-and-greet,
+Dialogue: 0,0:10:43.42,0:10:47.47,Main,Bit,0000,0000,0000,,you want to stir up the undecided \Nfans and that cowardly girl?
+Dialogue: 0,0:10:47.47,0:10:49.61,Main,Bit,0000,0000,0000,,Well, let's see you try.
+Dialogue: 0,0:10:49.61,0:10:53.05,Main,Bit,0000,0000,0000,,Just like you wanted, we'll make \Nyou Terakado Tsu's last ever fan
+Dialogue: 0,0:10:53.05,0:10:54.78,Main,Bit,0000,0000,0000,,by enslaving your heart!
+Dialogue: 0,0:10:55.14,0:10:57.19,Main,Shin,0000,0000,0000,,Right back at you.
+Dialogue: 0,0:10:57.19,0:11:00.57,Main,Shin,0000,0000,0000,,I'm Shimura Shinpachi, captain \Nof the Terakado Tsu Fanclub.
+Dialogue: 0,0:11:00.57,0:11:01.62,Main,Shin,0000,0000,0000,,Here I come!
+Dialogue: 0,0:11:01.98,0:11:04.54,Main,Gin,0000,0000,0000,,Sh-Shinpachi!
+Dialogue: 0,0:11:06.68,0:11:07.96,Main,Gin,0000,0000,0000,,That was quick!
+Dialogue: 0,0:11:07.96,0:11:10.63,Main,Gin,0000,0000,0000,,What's wrong with you? After all that \Nbig talk, you got destroyed in a flash!
+Dialogue: 0,0:11:10.63,0:11:12.75,Main,Gin,0000,0000,0000,,You got stripped to your underwear \Nat an incredible speed!
+Dialogue: 0,0:11:14.65,0:11:18.63,Main,Bit,0000,0000,0000,,Even her oldest fan and white knight \Nis just a rotten virgin nerd.
+Dialogue: 0,0:11:18.63,0:11:22.37,Main,Bit,0000,0000,0000,,Our meet-and-greet can entrance anyone in \None shot, no matter whose fan they are.
+Dialogue: 0,0:11:22.37,0:11:24.73,Main,Bit,0000,0000,0000,,Now, Terakado Tsu has \Nnot a single fan left...
+Dialogue: 0,0:11:24.73,0:11:28.24,Main,Shin,0000,0000,0000,,Once I get home, I'm gonna \Nthrow away all my porn mags.
+Dialogue: 0,0:11:29.13,0:11:32.16,Main,Shin,0000,0000,0000,,But as for Otsu-chan's CDs,
+Dialogue: 0,0:11:32.64,0:11:34.89,Main,Shin,0000,0000,0000,,I won't throw a single one away.
+Dialogue: 0,0:11:35.37,0:11:38.22,Internal,Bit,0000,0000,0000,,My antenna? Did he...
+Dialogue: 0,0:11:40.02,0:11:42.60,Main,Com,0000,0000,0000,,Wow, Shimaru has made a successful return!
+Dialogue: 0,0:11:44.24,0:11:46.81,Main,Com,0000,0000,0000,,And what's going on here?
+Dialogue: 0,0:11:46.81,0:11:49.29,Main,Com,0000,0000,0000,,Miss Bitchie is suddenly writhing in pain!
+Dialogue: 0,0:11:49.29,0:11:52.67,Main,Shin,0000,0000,0000,,I thought it was strange how one handshake
+Dialogue: 0,0:11:53.04,0:11:56.30,Main,Shin,0000,0000,0000,,could turn anyone into a Galaxy \NKingdom Bitches 48 fanatic.
+Dialogue: 0,0:11:56.64,0:11:58.50,Main,Shin,0000,0000,0000,,Selling dreams is your job?
+Dialogue: 0,0:11:58.50,0:11:59.38,Main,Shin,0000,0000,0000,,That's not it.
+Dialogue: 0,0:12:03.76,0:12:09.47,Main,Shin,0000,0000,0000,,What you were showing them was just an \Nillusion, Galaxy Kingdom Bitches 48!
+Dialogue: 0,0:12:09.47,0:12:11.56,Main,Bit,0000,0000,0000,,C-Curse you!
+Dialogue: 0,0:12:11.56,0:12:15.88,Main,Com,0000,0000,0000,,Having lost her antenna, Miss Bitchie \Nhas turned into a different person!
+Dialogue: 0,0:12:15.88,0:12:18.81,Main,Com,0000,0000,0000,,Th-That's not all! From behind \Nthe bewitching curtains,
+Dialogue: 0,0:12:18.81,0:12:21.57,Main,Com,0000,0000,0000,,unfamiliar uggo idols are \Ntumbling out one after another!
+Dialogue: 0,0:12:21.57,0:12:24.28,Main,Taka,0000,0000,0000,,Shin-chan's right.
+Dialogue: 0,0:12:24.72,0:12:27.04,Main,Taka,0000,0000,0000,,Fans of any other idol would've been fine,
+Dialogue: 0,0:12:27.04,0:12:30.08,Main,Taka,0000,0000,0000,,but you ran out of luck when \Nyou picked a fight with us.
+Dialogue: 0,0:12:30.52,0:12:33.54,Main,Taka,0000,0000,0000,,Your brainwashing won't work on us.
+Dialogue: 0,0:12:33.54,0:12:34.58,Main,Taka,0000,0000,0000,,Because...
+Dialogue: 0,0:12:34.58,0:12:38.00,Main,Taka,0000,0000,0000,,We're the universe's greatest fans \Nof the universe's greatest idol!
+Dialogue: 0,0:12:38.00,0:12:41.09,Main,Taka,0000,0000,0000,,Because we're the Terakado \NTsu Fanclub, dynamite!
+Dialogue: 0,0:12:41.80,0:12:43.59,Main,Shin,0000,0000,0000,,Taka-chin! Guys!
+Dialogue: 0,0:12:43.59,0:12:48.47,Main,Com,0000,0000,0000,,C-Can you believe it? The Terakado \NTsu Fanclub is back in action!
+Dialogue: 0,0:12:48.96,0:12:53.81,Main,Com,0000,0000,0000,,With their sheer love for Otsu-chan, they \Nexposed the brainwashing shenanigans!
+Dialogue: 0,0:12:54.30,0:12:55.21,Main,G,0000,0000,0000,,No way!
+Dialogue: 0,0:12:55.21,0:12:57.48,Main,G,0000,0000,0000,,Our number one idols in the universe!
+Dialogue: 0,0:12:57.48,0:13:01.48,Main,G,0000,0000,0000,,The shocking truth is making the \NGalaxy Kingdom Bitches fans waver!
+Dialogue: 0,0:13:01.48,0:13:04.11,Main,G,0000,0000,0000,,Wait, the count went down to zero!
+Dialogue: 0,0:13:04.53,0:13:07.20,Main,G,0000,0000,0000,,It has been deemed invalid \Ndue to brainwashing!
+Dialogue: 0,0:13:07.20,0:13:11.37,Main,G,0000,0000,0000,,Booger Diamonds 48 have pulled off \Nan miraculous last-ditch comeback!
+Dialogue: 0,0:13:11.89,0:13:14.40,Main,G,0000,0000,0000,,Let it be heard across the universe, men.
+Dialogue: 0,0:13:14.89,0:13:20.38,Main,G,0000,0000,0000,,Who the universe's greatest idol with \Nthe universe's greatest fans is.
+Dialogue: 0,0:13:21.42,0:13:25.13,Main,G,0000,0000,0000,,Booger Diamonds 48 Fanclub, let's go!
+Dialogue: 0,0:13:25.45,0:13:28.51,Main,G,0000,0000,0000,,L-O-V-E Otsu!
+Dialogue: 0,0:13:28.51,0:13:31.53,Main,All,0000,0000,0000,,L-O-V-E Otsu!
+Dialogue: 0,0:13:31.53,0:13:34.40,Main,Shin,0000,0000,0000,,L-O-V-E Kagura!
+Dialogue: 0,0:13:34.40,0:13:37.86,Main,All,0000,0000,0000,,{\an8}L-O-V-E Kagura!
+Dialogue: 0,0:13:35.60,0:13:37.85,Main,G,0000,0000,0000,,Let's go cheer them on, too.
+Dialogue: 0,0:13:37.85,0:13:42.53,Main,Com,0000,0000,0000,,The fanclub's Booger Diamonds 48 \Nchant echoes across the arena.
+Dialogue: 0,0:13:42.88,0:13:44.53,Main,Com,0000,0000,0000,,Their overwhelming passion
+Dialogue: 0,0:13:44.53,0:13:48.66,Main,Com,0000,0000,0000,,is infecting the now recovered \NGalaxy Kingdom Bitches fans!
+Dialogue: 0,0:13:50.38,0:13:53.16,Main,Com,0000,0000,0000,,Wh-What's this noise?!
+Dialogue: 0,0:13:56.20,0:14:01.19,Main,Bit,0000,0000,0000,,How dare you expose an idol's hidden \Nface, that which mustn't be seen!
+Dialogue: 0,0:14:01.19,0:14:07.18,Main,Bit,0000,0000,0000,,Mysterious sound waves are being emitted \Nby all of Galaxy Kingdom Bitches 48.
+Dialogue: 0,0:14:07.18,0:14:12.88,Main,Bit,0000,0000,0000,,If you found out, all we have to \Ndo is brainwash you all once again.
+Dialogue: 0,0:14:12.88,0:14:16.48,Main,Bit,0000,0000,0000,,Keep dancing within the fantasies that \Nare idols for the rest of your lives...
+Dialogue: 0,0:14:17.85,0:14:19.86,Main,Bit,0000,0000,0000,,That's...
+Dialogue: 0,0:14:21.04,0:14:26.24,Main,Kag,0000,0000,0000,,Looks like this is the kind \Nof handshake you need.
+Dialogue: 0,0:14:26.24,0:14:31.12,Main,Com,0000,0000,0000,,Booger Diamonds 48's Kagura \Nstops Miss Bitchie!
+Dialogue: 0,0:14:31.12,0:14:34.25,Main,Com,0000,0000,0000,,In these final stages, she's turning \Nit into an actual fight of hands!
+Dialogue: 0,0:14:34.25,0:14:38.63,Main,Com,0000,0000,0000,,What are you morons doing? \NHurry up and brainwash...
+Dialogue: 0,0:14:39.57,0:14:41.46,Main,GKB,0000,0000,0000,,What's this awful noise?
+Dialogue: 0,0:14:41.46,0:14:45.08,Main,Tae,0000,0000,0000,,The time has come to show you \Nthe fruits of our training.
+Dialogue: 0,0:14:45.08,0:14:46.13,Main,Com,0000,0000,0000,,Th-That's...
+Dialogue: 0,0:14:46.13,0:14:49.18,Main,Tae,0000,0000,0000,,Kagura-chan, leave the backing to us!
+Dialogue: 0,0:14:49.18,0:14:51.55,Main,Sac,0000,0000,0000,,Go grab idol stardom with your hands!
+Dialogue: 0,0:14:51.55,0:14:53.14,Main,Com,0000,0000,0000,,It's the backing band!
+Dialogue: 0,0:14:53.14,0:14:58.14,Main,Com,0000,0000,0000,,Diamond Vacuum's overwriting the mystery \Nsound waves with terrifying dissonance!
+Dialogue: 0,0:14:59.21,0:15:00.02,Main,Com,0000,0000,0000,,Suffering fans,
+Dialogue: 0,0:15:00.02,0:15:01.61,Main,Com,0000,0000,0000,,screaming fanclub,
+Dialogue: 0,0:15:01.61,0:15:03.02,Main,Com,0000,0000,0000,,and groaning backing band.
+Dialogue: 0,0:15:03.02,0:15:06.40,Main,Com,0000,0000,0000,,All of their fates now rest \Nin the hands of those two!
+Dialogue: 0,0:15:06.40,0:15:09.14,Main,Com,0000,0000,0000,,Is this really a meet-and-greet?
+Dialogue: 0,0:15:09.14,0:15:14.79,Main,Com,0000,0000,0000,,No, this is a battle with their idol careers \Non the line! A real meet-and-beat!
+Dialogue: 0,0:15:14.79,0:15:17.75,Main,Bit,0000,0000,0000,,Do you really think you \Nhave the right to stop us?
+Dialogue: 0,0:15:18.16,0:15:22.77,Main,Bit,0000,0000,0000,,Showing illusions and brainwashing \Nis something all idols do.
+Dialogue: 0,0:15:22.77,0:15:25.86,Main,Bit,0000,0000,0000,,Beneath the surface, idols \Nare filthy people, too.
+Dialogue: 0,0:15:25.86,0:15:30.17,Main,Bit,0000,0000,0000,,They hide that filth with cosmetic \Nsurgery and show off their fake beauty.
+Dialogue: 0,0:15:30.17,0:15:35.12,Main,Bit,0000,0000,0000,,They hide that filth by putting on an \Nact and showing off their fake purity.
+Dialogue: 0,0:15:35.12,0:15:40.61,Main,Bit,0000,0000,0000,,The dreams you people are having are \Nnothing but illusions wrapped in lies!
+Dialogue: 0,0:15:40.61,0:15:45.69,Main,Bit,0000,0000,0000,,All we did was perfect those illusions \Nand make them more beautiful!
+Dialogue: 0,0:15:45.69,0:15:49.37,Main,Bit,0000,0000,0000,,And we did it to show you the \Ndreams that {\i1}you{\i0} wanted to see!
+Dialogue: 0,0:15:49.37,0:15:53.57,Main,Gin,0000,0000,0000,,You can't call those dreams.
+Dialogue: 0,0:15:54.56,0:15:56.08,Main,Gin,0000,0000,0000,,It's just giving up.
+Dialogue: 0,0:15:56.81,0:16:02.17,Main,Gin,0000,0000,0000,,Sure, idols dig their nostrils, \Ntake dumps, and have ***, too.
+Dialogue: 0,0:16:02.17,0:16:05.46,Main,Gin,0000,0000,0000,,They cause scandals at times and \Nget down in the dumps at others.
+Dialogue: 0,0:16:06.41,0:16:11.59,Main,Gin,0000,0000,0000,,But to make their pathetic selves \Nstand proud in the spotlight,
+Dialogue: 0,0:16:11.59,0:16:16.60,Main,Gin,0000,0000,0000,,they discipline themselves, strive to \Nimprove, and struggle to stand on stage.
+Dialogue: 0,0:16:16.97,0:16:19.85,Main,Gin,0000,0000,0000,,You laugh that off as a mere illusion?
+Dialogue: 0,0:16:19.85,0:16:21.62,Main,Gin,0000,0000,0000,,Well, you're wrong.
+Dialogue: 0,0:16:22.60,0:16:25.82,Main,Gin,0000,0000,0000,,That's not an illusion. It's an ideal.
+Dialogue: 0,0:16:26.47,0:16:30.48,Main,Gin,0000,0000,0000,,The dream to crawl toward one's ideal.
+Dialogue: 0,0:16:30.48,0:16:32.61,Main,Gin,0000,0000,0000,,That's what idols are all about.
+Dialogue: 0,0:16:32.97,0:16:35.12,Main,Gin,0000,0000,0000,,Just like samurai,
+Dialogue: 0,0:16:35.69,0:16:37.33,Main,Gin,0000,0000,0000,,they're seekers of the ultimate dream.
+Dialogue: 0,0:16:39.20,0:16:42.12,Main,Tsu,0000,0000,0000,,Sorry to keep you waiting, menthol.
+Dialogue: 0,0:16:43.88,0:16:46.00,Main,Gin,0000,0000,0000,,And what those morons are having
+Dialogue: 0,0:16:46.35,0:16:49.71,Main,Gin,0000,0000,0000,,is a real dream they're \Npursuing with their idols.
+Dialogue: 0,0:16:49.71,0:16:52.62,Main,Bit,0000,0000,0000,,I-It can't be. Why is she here?
+Dialogue: 0,0:16:52.62,0:16:55.50,Main,Kag,0000,0000,0000,,Idols really are best in a group.
+Dialogue: 0,0:16:56.34,0:16:59.27,Main,Kag,0000,0000,0000,,Our diamond is shining \Nespecially bright right now,
+Dialogue: 0,0:16:59.62,0:17:02.27,Main,Kag,0000,0000,0000,,thanks to us massive boogers.
+Dialogue: 0,0:17:03.76,0:17:07.83,Internal,Bit,0000,0000,0000,,Did they believe that she would come here?
+Dialogue: 0,0:17:07.83,0:17:12.86,Internal,Bit,0000,0000,0000,,Were we—no, was this entire \Nevent and its ugly battles—
+Dialogue: 0,0:17:13.29,0:17:18.66,Internal,Bit,0000,0000,0000,,just a massive booger to make the \Ndiamond called Otsu shine brighter?!
+Dialogue: 0,0:17:18.66,0:17:20.91,Main,Bit,0000,0000,0000,,You were using us all along?!
+Dialogue: 0,0:17:20.91,0:17:23.09,Main,Tsu,0000,0000,0000,,Kagura-chan! Guys!
+Dialogue: 0,0:17:23.09,0:17:24.54,Main,Kag,0000,0000,0000,,Otsu.
+Dialogue: 0,0:17:24.54,0:17:28.89,Main,Kag,0000,0000,0000,,It wasn't for long, but I had \Nfun being an idol with you.
+Dialogue: 0,0:17:29.76,0:17:34.30,Main,Kag,0000,0000,0000,,Let them hear it... Our \NBooger Diamonds 48's song.
+Dialogue: 0,0:17:34.82,0:17:38.81,Main,Kag,0000,0000,0000,,The song of real idols, which can blow \Naway all illusions and brainwashing!
+Dialogue: 0,0:17:38.81,0:17:41.18,Main,Bit,0000,0000,0000,,Y-You little!
+Dialogue: 0,0:17:41.78,0:17:45.44,Main,Kag,0000,0000,0000,,Guys! Don't let some illusion control you!
+Dialogue: 0,0:17:45.44,0:17:47.69,Main,Kag,0000,0000,0000,,Take back your dreams!
+Dialogue: 0,0:17:48.35,0:17:50.79,Main,Kag,0000,0000,0000,,Listen to our song!
+Dialogue: 0,0:17:50.79,0:17:51.57,Main,Kag,0000,0000,0000,,And...
+Dialogue: 0,0:17:51.92,0:17:55.86,Main,Kag,0000,0000,0000,,Even if you hate Booger Diamonds 48,
+Dialogue: 0,0:17:55.86,0:18:00.54,Main,Kag,0000,0000,0000,,please don't come to hate Terakado Tsu!
+Dialogue: 0,0:18:08.16,0:18:09.29,Main,Tsu,0000,0000,0000,,Please lend me your ears.
+Dialogue: 0,0:18:09.88,0:18:12.05,Main,Tsu,0000,0000,0000,,Fellow members who have walked with me,
+Dialogue: 0,0:18:12.44,0:18:14.80,Main,Tsu,0000,0000,0000,,fans who have cheered me on,
+Dialogue: 0,0:18:14.80,0:18:18.76,Main,Tsu,0000,0000,0000,,and rivals who have competed with me.
+Dialogue: 0,0:18:18.76,0:18:21.81,Main,Tsu,0000,0000,0000,,All of you have been my pillar of support.
+Dialogue: 0,0:18:22.52,0:18:26.27,Main,Tsu,0000,0000,0000,,You are all part of Booger Diamonds 48, \Nand I dedicate this song to you.
+Dialogue: 0,0:18:26.92,0:18:28.81,Main,Tsu,0000,0000,0000,,This is {\i1}An Idol's Badge of Honor.{\i0}
+Dialogue: 0,0:18:28.81,0:18:34.69,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:18:34.69,0:18:40.53,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:18:40.53,0:18:46.29,Song,Song,0000,0000,0000,,Accel, consul, it's dreams that we sell
+Dialogue: 0,0:18:46.29,0:18:49.32,Song,Song,0000,0000,0000,,Idol, idol, idling
+Dialogue: 0,0:18:49.32,0:18:55.01,Song,Song,0000,0000,0000,,Even on the edge, we've got the handling
+Dialogue: 0,0:19:00.80,0:19:06.60,Song,Song,0000,0000,0000,,That scandal back then
+Dialogue: 0,0:19:06.60,0:19:12.36,Song,Song,0000,0000,0000,,Was a summer sentence
+Dialogue: 0,0:19:12.36,0:19:17.24,Song,Song,0000,0000,0000,,I know it's do or die, yes
+Dialogue: 0,0:19:17.70,0:19:23.12,Song,Song,0000,0000,0000,,I could end up doing pillow business
+Dialogue: 0,0:19:23.99,0:19:28.92,Song,Song,0000,0000,0000,,Even that day of the month is safe and secure
+Dialogue: 0,0:19:29.67,0:19:38.47,Song,Song,0000,0000,0000,,Scarlet, blood ruby, an idol's badge of honor
+Dialogue: 0,0:19:38.47,0:19:44.35,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:19:44.35,0:19:49.69,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:19:50.02,0:19:55.36,Song,Song,0000,0000,0000,,Foot soldier, loot and plunder, pillow seller
+Dialogue: 0,0:19:55.79,0:19:58.44,Song,Song,0000,0000,0000,,Idol, idol, idling
+Dialogue: 0,0:19:58.44,0:20:03.70,Song,Song,0000,0000,0000,,We can't swerve around aging
+Dialogue: 0,0:20:04.26,0:20:07.20,sign_28705_341_Oedo_Dome,Sign,0000,0000,0000,,{\fad(567,1)}Oedo Dome
+Dialogue: 0,0:20:11.17,0:20:12.96,Main,Bit,0000,0000,0000,,How ironic it is
+Dialogue: 0,0:20:12.96,0:20:16.52,Main,Bit,0000,0000,0000,,that the stage on which an idol \Nstands to give people dreams
+Dialogue: 0,0:20:16.52,0:20:19.24,Main,Bit,0000,0000,0000,,is built on the wrecks of \Ncountless other dreams.
+Dialogue: 0,0:20:20.57,0:20:26.01,Main,Bit,0000,0000,0000,,But that's why she shines brightly, \Nlike a lone star in the dark.
+Dialogue: 0,0:20:26.85,0:20:30.23,Main,Bit,0000,0000,0000,,She will walk over our dreams \Nand those of her friends
+Dialogue: 0,0:20:30.23,0:20:33.61,Main,Bit,0000,0000,0000,,and continue down this path \Nof chaos we call idol stardom.
+Dialogue: 0,0:20:35.06,0:20:39.78,Main,Bit,0000,0000,0000,,I don't know if you'll be able to \Nmake up for what you've sacrificed.
+Dialogue: 0,0:20:39.78,0:20:44.12,Main,Bit,0000,0000,0000,,You just let go of a talent \Nthat could surpass Otsu.
+Dialogue: 0,0:20:44.12,0:20:47.55,Main,Bit,0000,0000,0000,,She has the ruthlessness \Nto take down her enemies,
+Dialogue: 0,0:20:47.55,0:20:51.58,Main,Bit,0000,0000,0000,,and the selflessness to cast \Nherself aside to help her friends.
+Dialogue: 0,0:20:51.58,0:20:56.42,Main,Bit,0000,0000,0000,,A diamond covered in boogers,\Nwith two totally contrasting faces.
+Dialogue: 0,0:20:54.13,0:20:56.42,Main,Shin,0000,0000,0000,,{\an8}Gin-san, Kagura-chan!
+Dialogue: 0,0:20:56.42,0:21:00.37,Main,Shin,0000,0000,0000,,{\an8}Wait a second. Aren't you gonna watch?
+Dialogue: 0,0:20:56.96,0:21:01.62,Main,OMom,0000,0000,0000,,Yeah. I asked her if she \Nwould like to keep at it,
+Dialogue: 0,0:21:00.37,0:21:02.89,Main,Gin,0000,0000,0000,,{\an8}Damn it, I couldn't make any money again.
+Dialogue: 0,0:21:01.62,0:21:04.43,Main,OMom,0000,0000,0000,,but she refused, saying she was \Nalready part of an idol group.
+Dialogue: 0,0:21:05.50,0:21:09.18,Main,OMom,0000,0000,0000,,It's too bad, but she's fine that way.
+Dialogue: 0,0:21:09.18,0:21:13.18,Main,OMom,0000,0000,0000,,I mean, she shines brightest \Nin that group of three.
+Dialogue: 0,0:21:17.65,0:21:21.61,Main,Song,0000,0000,0000,,Beyond all the cigarettes, \Nalcohol, and shaved heads,
+Dialogue: 0,0:21:23.04,0:21:25.45,Main,Song,0000,0000,0000,,the one who filled me \Nwith passion again was...
+Dialogue: 0,0:21:25.45,0:21:31.68,Song,Song,0000,0000,0000,,It was you, you, you
+Dialogue: 0,0:21:35.17,0:21:36.08,Main,Tsu,0000,0000,0000,,Thenk you.
+Dialogue: 0,0:23:05.82,0:23:10.80,Song,TV,0000,0000,0000,,Knock it off already
+Dialogue: 0,0:23:10.80,0:23:13.78,Main,G,0000,0000,0000,,Otsu-chan really is cute.
+Dialogue: 0,0:23:13.78,0:23:16.77,Main,G,0000,0000,0000,,But there's something off about her lately.
+Dialogue: 0,0:23:16.77,0:23:20.77,Main,G,0000,0000,0000,,Look at what she started doing, \Neven though she's an idol.
+Dialogue: 0,0:23:20.77,0:23:25.13,Main,G,0000,0000,0000,,Apparently, she was influenced by \Nan idol group she really loves.
+Dialogue: 0,0:23:25.90,0:23:29.41,Main,G,0000,0000,0000,,A group that disbanded right \Nafter making its debut.
+Dialogue: 0,0:23:29.41,0:23:30.70,Main,G,0000,0000,0000,,What was it called, again?
+Dialogue: 0,0:23:30.70,0:23:33.15,Main,Kag,0000,0000,0000,,Booger Diamonds 48.
+Dialogue: 0,0:23:33.15,0:23:38.21,Main,G,0000,0000,0000,,That's it! The phantom idol \Ngroup, Booger Diamonds 48!
+Dialogue: 0,0:23:40.04,0:23:42.21,Main,Kag,0000,0000,0000,,It's no phantom.
+Dialogue: 0,0:23:42.92,0:23:45.71,Main,Kag,0000,0000,0000,,It remains in my heart
+Dialogue: 0,0:23:46.25,0:23:48.26,Main,Kag,0000,0000,0000,,as the idol group of dreams!
+Dialogue: 0,0:23:51.89,0:23:57.35,sign_34163_377_Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:52.38,0:23:54.47,Main,Tama,0000,0000,0000,,Just to let you know in advance,
+Dialogue: 0,0:23:54.47,0:23:57.98,Main,Tama,0000,0000,0000,,this isn't a sales promotion \Nfor our upcoming game.
+Dialogue: 0,0:23:57.35,0:24:00.85,Ep Title,Title,0000,0000,0000,,{\fad(484,1)}The Line Between Godlike Games and Shitty Games Is Paper-Thin
+Dialogue: 0,0:23:57.98,0:23:59.53,Main,Tama,0000,0000,0000,,We're just messing around.
+Dialogue: 0,0:24:00.85,0:24:06.23,Side Bar Top,TextR,0000,0000,0000,,There you have it,
+Dialogue: 0,0:24:00.85,0:24:06.23,Side Bar Bottom,TextL,0000,0000,0000,,so keep that in mind, all of you.
+Dialogue: 0,0:24:06.23,0:24:12.28,Side Bar Top,TextR,0000,0000,0000,,Next time, we're again \Ngoing with wave, wind,
+Dialogue: 0,0:24:06.23,0:24:12.28,Side Bar Bottom,TextL,0000,0000,0000,,and standing all the way!

@@ -1,0 +1,5 @@
+﻿chs: 男子高中生的日常
+cht: 男子高中生的日常
+jp: 男子高校生の日常
+en: Daily Lives of High School Boys
+rome: Danshi Koukousei no Nichijou

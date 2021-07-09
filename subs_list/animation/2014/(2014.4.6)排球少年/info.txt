@@ -1,0 +1,5 @@
+﻿chs: 排球少年
+cht: 排球少年
+jp: ハイキュー!!
+en: Haikyu!!
+rome: Haikyu!!

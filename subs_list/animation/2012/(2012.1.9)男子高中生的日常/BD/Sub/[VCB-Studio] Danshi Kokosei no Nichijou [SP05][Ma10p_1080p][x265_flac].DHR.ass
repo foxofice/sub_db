@@ -1,0 +1,60 @@
+﻿[Script Info]
+;本字幕文件用 SrtEdit MPC播放版 Version 5.2 编辑制作
+;Unicode SrtEdit Copyright(C) 2005-2009 袁卫国
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,華康方圓體W7(P),47,&H00FFFFFF,&HF0000000,&H0FC24300,&H96000000,0,0,0,0,100,100,0,0,1,5,2,2,10,10,20,1
+Style: Title,華康海報體W12(P),40,&H00FFFFFF,&H000000FF,&H64AE2E95,&H96000000,0,0,0,0,100,100,0,0,1,4,3,2,10,10,10,1
+Style: STAFF,華康儷中黑(P),28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.76,0:00:11.18,Title,,0000,0000,0000,,{\blur12\fs60\fad(750,750)\shad0\1a&H01&\3a&H01&\pos(819,595)\3c&HECA138&}男子高中生与打嗝
+Dialogue: 0,0:00:18.64,0:00:23.55,Default,,0000,0000,0000,,我说 不觉得不停打嗝的女生很可爱吗
+Dialogue: 0,0:00:26.98,0:00:29.32,Default,,0000,0000,0000,,不… 怎么样呢
+Dialogue: 0,0:00:37.77,0:00:40.36,Default,,0000,0000,0000,,谁知道我的传言呢
+Dialogue: 0,0:00:43.70,0:00:46.29,Default,,0000,0000,0000,,谁知道我的传言呢！
+Dialogue: 0,0:00:46.67,0:00:47.95,Default,,0000,0000,0000,,是吧
+Dialogue: 0,0:00:52.55,0:00:55.86,Default,,0000,0000,0000,,要说的话不是打嗝是打喷嚏了啊
+Dialogue: 0,0:00:56.54,0:00:57.92,Default,,0000,0000,0000,,到底怎么了
+Dialogue: 0,0:00:58.28,0:01:00.08,Default,,0000,0000,0000,,请不要敲桌子
+Dialogue: 0,0:01:00.46,0:01:02.26,Default,,0000,0000,0000,,橡皮都掉地上了
+Dialogue: 0,0:01:03.25,0:01:04.86,Default,,0000,0000,0000,,真是的
+Dialogue: 0,0:01:04.86,0:01:07.90,Default,,0000,0000,0000,,在干什么啊
+Dialogue: 0,0:01:12.90,0:01:16.03,Default,,0000,0000,0000,,打嗝该怎么停下来?
+Dialogue: 0,0:01:16.24,0:01:18.29,Default,,0000,0000,0000,,传给别人就会好了
+Dialogue: 0,0:01:18.29,0:01:19.19,Default,,0000,0000,0000,,所以…
+Dialogue: 0,0:01:20.58,0:01:23.96,Default,,0000,0000,0000,,这不是感冒啊
+Dialogue: 0,0:01:24.25,0:01:26.85,Default,,0000,0000,0000,,知道了啦 我们知道了
+Dialogue: 0,0:01:28.47,0:01:30.63,Default,,0000,0000,0000,,试试看吓她吧
+Dialogue: 0,0:01:32.37,0:01:34.04,Default,,0000,0000,0000,,有事汇报
+Dialogue: 0,0:01:34.53,0:01:35.39,Default,,0000,0000,0000,,什么事
+Dialogue: 0,0:01:37.17,0:01:40.21,Default,,0000,0000,0000,,昨天会长死了
+Dialogue: 0,0:01:42.33,0:01:44.51,Default,,0000,0000,0000,,不 怎么想都是骗你的吧
+Dialogue: 0,0:01:45.44,0:01:46.65,Default,,0000,0000,0000,,大家好
+Dialogue: 0,0:01:47.31,0:01:50.12,Default,,0000,0000,0000,,这不是真田东高的吉祥物吗
+Dialogue: 0,0:01:50.80,0:01:52.38,Default,,0000,0000,0000,,为什么一直来我们这里
+Dialogue: 0,0:01:56.54,0:01:58.32,Default,,0000,0000,0000,,所以说是骗你的啦
+Dialogue: 0,0:01:58.41,0:02:00.42,Default,,0000,0000,0000,,都说了是骗你的了吧
+Dialogue: 0,0:02:00.47,0:02:02.94,Default,,0000,0000,0000,,为什么直接就相信了啊
+Dialogue: 0,0:02:03.73,0:02:07.93,Default,,0000,0000,0000,,不觉得昏迷的女生很可爱吗
+Dialogue: 0,0:02:08.91,0:02:12.47,Default,,0000,0000,0000,,不…没见过昏迷的人
+Dialogue: 0,0:02:13.00,0:02:15.97,STAFF,,0000,0000,0000,,{\fad(800,0)\pos(248,683)}翻译：牧瀬氏 其他：水姬
+Dialogue: 0,0:02:15.97,0:02:17.97,Default,,0000,0000,0000,,

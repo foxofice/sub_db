@@ -1,0 +1,35 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-05-30 22:27:32
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Higurashi_Kai
+Original Script:CASO&I.G
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,26,&H00FFFFFF,&HF0000000,&H001F0A79,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00150861,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+
+Dialogue: 0,0:00:00.75,0:00:05.47,*Default,NTP,0000,0000,0000,,三四的狗Jr.
+Dialogue: 0,0:00:05.80,0:00:07.42,*Default,NTP,0000,0000,0000,,沒有任何考慮的價值
+Dialogue: 0,0:00:07.92,0:00:10.87,*Default,NTP,0000,0000,0000,,沒有那孩子的話   我們該怎麼研究下去啊
+Dialogue: 0,0:00:11.13,0:00:14.97,*Default,NTP,0000,0000,0000,,但是我們不能無視她父母的意見繼續進行研究
+Dialogue: 0,0:00:17.11,0:00:20.26,*Default,NTP,0000,0000,0000,,請先回去吧  讓我考慮一下
+Dialogue: 0,0:00:21.39,0:00:23.42,*Default,NTP,0000,0000,0000,,知道了  那我就先走了
+Dialogue: 0,0:00:28.44,0:00:31.36,*Default,NTP,0000,0000,0000,,怎麼能因為這種瑣碎小事就止足不前
+Dialogue: 0,0:00:32.15,0:00:35.85,*Default,NTP,0000,0000,0000,,我必須做點甚麼  冷靜下來
+Dialogue: 0,0:00:36.31,0:00:39.10,*Default,NTP,0000,0000,0000,,有解決辦法的  一定有的
+Dialogue: 0,0:00:42.01,0:00:45.20,*Default,NTP,0000,0000,0000,,御社神的…天罰？

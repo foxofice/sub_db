@@ -1,0 +1,5 @@
+﻿chs: 云之彼端，约定的地方
+cht: 云之彼端，約定的地方
+jp: 雲のむこう, 約束の場所
+en: The Place Promised in Our Early Days
+rome: Kumo no Mukou, Yakusoku no Basho

@@ -1,0 +1,20 @@
+字体下载链接：https://bbs.vcb-s.com/thread-6217-1-1.html
+
+【繁体版】是基于繁化姬繁化，无法保证没有瑕疵，还请见谅
+
+【星空_NF-GL版】
+FOT-ハミング Std D <FOT-Humming Std D>
+ＤＣＰ方隷書W3 <DCPHoLeiSho-W3>
+方正隶变_GBK <FZLiBian-S02>
+方正正准黑_GBK <FZZhengHei-M-GBK>
+方正准雅宋_GBK
+
+【雪飘_snnake版】
+ＤＣＰ方隷書W3 <DCPHoLeiSho-W3>
+DFHanziPen-W5
+DFMaruGothic-Md
+DFYuanW5-A
+方正隶变_GBK <FZLiBian-S02>
+方正准雅宋_GBK <FZYaSong-M-GBK>
+华康翩翩体W5-A <DFHanziPenW5-A>
+游明朝 Demibold <Yu Mincho Demibold>

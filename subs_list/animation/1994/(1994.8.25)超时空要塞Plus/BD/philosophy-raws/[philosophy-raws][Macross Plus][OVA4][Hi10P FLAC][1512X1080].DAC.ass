@@ -1,0 +1,365 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-07-10 14:04:30
+; // 版本: 0.75
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:漫游字幕
+Original Script:漫游字幕组
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:720
+PlayResY:544
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,黑体,29,&H00ffffff,&H00000000,&H00000000,&H00000000,-1,0,0,0,100.00,100.00,0.00,0.00,1,2.00,0.00,2,30,30,10,134
+Style: gc,黑体,25,&H00ffffff,&H00000000,&H00000000,&H00000000,-1,0,0,0,100.00,100.00,0.00,0.00,1,2.00,0.00,8,30,30,10,134
+Style: STAFF,黑体,25,&H00ffffff,&Hf0000000,&H00000000,&Hf0000000,-1,0,0,0,100.00,100.00,0.00,0.00,1,1.00,0.00,7,20,20,0,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:29.50,0:00:31.52,Default,NTP,0000,0000,0000,,与地球的距离 3800
+Dialogue: 0,0:00:31.57,0:00:33.19,Default,NTP,0000,0000,0000,,利用新型活性隐形系统
+Dialogue: 0,0:00:33.27,0:00:36.70,Default,NTP,0000,0000,0000,,冲入大气层前不被发现的确率是
+Dialogue: 0,0:00:36.74,0:00:38.14,Default,NTP,0000,0000,0000,,58%
+Dialogue: 0,0:00:39.41,0:00:40.96,Default,NTP,0000,0000,0000,,等着我啊 GHOST！
+Dialogue: 0,0:00:41.04,0:00:43.07,Default,NTP,0000,0000,0000,,我马上来把你变成废铁
+Dialogue: 0,0:00:56.86,0:00:59.26,Default,NTP,0000,0000,0000,,作个了断吧 勇
+Dialogue: 0,0:01:46.21,0:01:48.48,Default,NTP,0000,0000,0000,,你想干什么？
+Dialogue: 0,0:01:49.44,0:01:51.27,Default,NTP,0000,0000,0000,,你能干什么？
+Dialogue: 0,0:01:53.68,0:01:55.11,Default,NTP,0000,0000,0000,,为了什么?
+Dialogue: 0,0:02:02.69,0:02:06.65,Default,NTP,0000,0000,0000,,SIS请通话…! 怎么了？
+Dialogue: 0,0:02:06.40,0:02:11.51,Default,NTP,0000,0000,0000,,回路正在被关系 第三 第四 第七无法运作
+Dialogue: 0,0:02:10.10,0:02:11.00,Default,NTP,0000,0000,0000,,怎么了？
+Dialogue: 0,0:02:11.03,0:02:11.93,Default,NTP,0000,0000,0000,,发生什么事了？
+Dialogue: 0,0:02:11.97,0:02:13.96,Default,NTP,0000,0000,0000,,通信回路无法运作
+Dialogue: 0,0:02:14.03,0:02:16.06,Default,NTP,0000,0000,0000,,自动防卫系统被强行启动
+Dialogue: 0,0:02:19.07,0:02:21.17,Default,NTP,0000,0000,0000,,继续尝试直至线路回复正常
+Dialogue: 0,0:02:22.68,0:02:24.47,Default,NTP,0000,0000,0000,,第五级防卫状态?
+Dialogue: 0,0:02:41.56,0:02:43.15,Default,NTP,0000,0000,0000,,还真是热烈的欢迎啊
+Dialogue: 0,0:02:43.20,0:02:45.69,Default,NTP,0000,0000,0000,,反正没办法避开
+Dialogue: 0,0:02:45.77,0:02:47.89,Default,NTP,0000,0000,0000,,只有强行突破了
+Dialogue: 0,0:02:47.97,0:02:51.37,Default,NTP,0000,0000,0000,,炸毁卫星轨道上的自动防卫卫星
+Dialogue: 0,0:02:51.41,0:02:53.81,Default,NTP,0000,0000,0000,,趁它们的碎片冲人大气层
+Dialogue: 0,0:02:53.84,0:02:55.17,Default,NTP,0000,0000,0000,,燃烧起来的时候
+Dialogue: 0,0:02:55.21,0:02:57.80,Default,NTP,0000,0000,0000,,我们就混入那些碎片里冲下去
+Dialogue: 0,0:02:57.84,0:03:00.37,Default,NTP,0000,0000,0000,,那时候 为了不被识别出机体
+Dialogue: 0,0:03:00.41,0:03:03.21,Default,NTP,0000,0000,0000,,需要让操纵系统处于关闭状态
+Dialogue: 0,0:03:03.25,0:03:07.81,Default,NTP,0000,0000,0000,,这是我的程序所计算出的最佳方法
+Dialogue: 0,0:03:07.85,0:03:09.48,Default,NTP,0000,0000,0000,,虽然这是最佳方法……
+Dialogue: 0,0:03:09.52,0:03:11.99,Default,NTP,0000,0000,0000,,我相信你的计算哦
+Dialogue: 0,0:03:12.03,0:03:13.52,Default,NTP,0000,0000,0000,,那是当然…
+Dialogue: 0,0:03:13.56,0:03:15.55,Default,NTP,0000,0000,0000,,你也要信任我的技术啊
+Dialogue: 0,0:03:15.60,0:03:17.39,Default,NTP,0000,0000,0000,,这时候和技术无关吧
+Dialogue: 0,0:03:17.43,0:03:19.73,Default,NTP,0000,0000,0000,,几乎是全靠运气的
+Dialogue: 0,0:03:19.80,0:03:21.39,Default,NTP,0000,0000,0000,,运气也是技术的一部分啊
+Dialogue: 0,0:03:23.27,0:03:25.74,Default,NTP,0000,0000,0000,,那就更加不能够信任呢
+Dialogue: 0,0:03:58.97,0:04:00.96,Default,NTP,0000,0000,0000,,我是自由的
+Dialogue: 0,0:04:01.04,0:04:02.41,Default,NTP,0000,0000,0000,,自由?
+Dialogue: 0,0:04:02.44,0:04:04.54,Default,NTP,0000,0000,0000,,我是拥有生命的 在我的心里
+Dialogue: 0,0:04:04.58,0:04:07.51,Default,NTP,0000,0000,0000,,不对！你只是一个程序而已
+Dialogue: 0,0:04:07.55,0:04:10.76,Default,NTP,0000,0000,0000,,你相信自己有感情这件事也是虚构出来的
+Dialogue: 0,0:04:12.25,0:04:14.98,Default,NTP,0000,0000,0000,,如果你真的拥有自己的意志
+Dialogue: 0,0:04:15.09,0:04:17.56,Default,NTP,0000,0000,0000,,你应该知道自己要做什么吧
+Dialogue: 0,0:04:17.59,0:04:18.96,Default,NTP,0000,0000,0000,,如果你能够自我思考
+Dialogue: 0,0:04:18.99,0:04:20.98,Default,NTP,0000,0000,0000,,如果你有心 这种事
+Dialogue: 0,0:04:21.09,0:04:22.96,Default,NTP,0000,0000,0000,,都是由马捷虚构出来的
+Dialogue: 0,0:04:23.00,0:04:25.26,Default,NTP,0000,0000,0000,,为了实现我的愿望
+Dialogue: 0,0:04:25.30,0:04:27.10,Default,NTP,0000,0000,0000,,我才在这里活动
+Dialogue: 0,0:04:28.84,0:04:31.00,Default,NTP,0000,0000,0000,,想见他
+Dialogue: 0,0:04:31.14,0:04:33.94,Default,NTP,0000,0000,0000,,想看他高兴的样子
+Dialogue: 0,0:04:35.11,0:04:39.27,Default,NTP,0000,0000,0000,,他…勇很快就会来了
+Dialogue: 0,0:04:39.41,0:04:42.54,Default,NTP,0000,0000,0000,,所以 已经不再需要你了
+Dialogue: 0,0:04:45.65,0:04:47.14,Default,NTP,0000,0000,0000,,莎朗
+Dialogue: 0,0:05:54.52,0:05:57.35,Default,NTP,0000,0000,0000,,太完美了
+Dialogue: 0,0:05:57.39,0:06:00.05,Default,NTP,0000,0000,0000,,太完美了 莎朗
+Dialogue: 0,0:06:00.09,0:06:04.15,Default,NTP,0000,0000,0000,,来 用那光辉去照耀未来吧
+Dialogue: 0,0:06:56.02,0:06:58.42,Default,NTP,0000,0000,0000,,看来能赶得上约会的时间啊
+Dialogue: 0,0:07:15.77,0:07:17.33,Default,NTP,0000,0000,0000,,加鲁特?
+Dialogue: 0,0:07:17.40,0:07:18.44,Default,NTP,0000,0000,0000,,很可惜!
+Dialogue: 0,0:07:18.62,0:07:19.36,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:07:19.41,0:07:22.24,Default,NTP,0000,0000,0000,,本来变成灰尘的应该是你
+Dialogue: 0,0:07:22.28,0:07:24.07,Default,NTP,0000,0000,0000,,阴险的家伙
+Dialogue: 0,0:07:24.11,0:07:26.24,Default,NTP,0000,0000,0000,,总是跟在别人背后打转
+Dialogue: 0,0:07:38.12,0:07:40.68,Default,NTP,0000,0000,0000,,我可没时间在这里跟你磨蹭！
+Dialogue: 0,0:07:59.71,0:08:03.06,Default,NTP,0000,0000,0000,,你总是要妨碍我！
+Dialogue: 0,0:08:32.91,0:08:34.35,Default,NTP,0000,0000,0000,,由小时候起
+Dialogue: 0,0:08:34.48,0:08:37.58,Default,NTP,0000,0000,0000,,你就总是跟在我背后打转
+Dialogue: 0,0:08:37.62,0:08:40.09,Default,NTP,0000,0000,0000,,女人的屁股你也穷追不舍
+Dialogue: 0,0:08:40.12,0:08:41.25,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:08:41.29,0:08:43.48,Default,NTP,0000,0000,0000,,元旦看日出时吃的鸡肉饭
+Dialogue: 0,0:08:43.52,0:08:47.22,Default,NTP,0000,0000,0000,,也是我买的 但你却踢翻了
+Dialogue: 0,0:08:47.26,0:08:50.79,Default,NTP,0000,0000,0000,,先出脚的…是你！
+Dialogue: 0,0:08:50.83,0:08:53.63,Default,NTP,0000,0000,0000,,你想翻旧帐吗?
+Dialogue: 0,0:08:55.37,0:08:58.34,Default,NTP,0000,0000,0000,,我买的CTV
+Dialogue: 0,0:08:58.41,0:09:01.77,Default,NTP,0000,0000,0000,,你到现在还没还给我吧！
+Dialogue: 0,0:09:04.38,0:09:06.14,Default,NTP,0000,0000,0000,,那是你七年前
+Dialogue: 0,0:09:06.18,0:09:08.48,Default,NTP,0000,0000,0000,,你自己随便就丢掉的东西！
+Dialogue: 0,0:09:10.15,0:09:13.12,Default,NTP,0000,0000,0000,,中学的时候 我请你吃了两次午饭！
+Dialogue: 0,0:09:18.09,0:09:20.25,Default,NTP,0000,0000,0000,,我请了你十三次！
+Dialogue: 0,0:09:21.49,0:09:24.02,Default,NTP,0000,0000,0000,,你倒是记得很清楚啊！
+Dialogue: 0,0:10:02.47,0:10:03.83,Default,NTP,0000,0000,0000,,学园祭的时候
+Dialogue: 0,0:10:03.87,0:10:06.70,Default,NTP,0000,0000,0000,,把我的飞机弄坏的也是你！
+Dialogue: 0,0:10:08.27,0:10:10.00,Default,NTP,0000,0000,0000,,鬼知道谁干的！
+Dialogue: 0,0:10:10.04,0:10:11.27,Default,NTP,0000,0000,0000,,别跟我装傻！
+Dialogue: 0,0:10:12.65,0:10:14.98,Default,NTP,0000,0000,0000,,像你这样的家伙…
+Dialogue: 0,0:10:43.64,0:10:44.51,Default,NTP,0000,0000,0000,,可恶！
+Dialogue: 0,0:10:46.38,0:10:47.50,Default,NTP,0000,0000,0000,,你这家伙总是要…
+Dialogue: 0,0:10:48.54,0:10:52.36,Default,NTP,0000,0000,0000,,毁掉我重要的东西！
+Dialogue: 0,0:10:53.85,0:10:54.91,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:10:55.15,0:10:57.01,Default,NTP,0000,0000,0000,,把我重要的东西…
+Dialogue: 0,0:10:59.26,0:11:00.12,Default,NTP,0000,0000,0000,,住口！
+Dialogue: 0,0:11:15.44,0:11:18.60,Default,NTP,0000,0000,0000,,七年前的那时候…
+Dialogue: 0,0:11:21.08,0:11:22.51,Default,NTP,0000,0000,0000,,你这家伙…
+Dialogue: 0,0:11:28.79,0:11:30.81,Default,NTP,0000,0000,0000,,如果不是你的话…
+Dialogue: 0,0:12:36.09,0:12:38.96,Default,NTP,0000,0000,0000,,没错 是我
+Dialogue: 0,0:12:38.99,0:12:42.38,Default,NTP,0000,0000,0000,,也许…我什么都…
+Dialogue: 0,0:12:43.76,0:12:48.22,Default,NTP,0000,0000,0000,,之后 我把自己的记忆封闭了起来
+Dialogue: 0,0:12:50.14,0:12:53.63,Default,NTP,0000,0000,0000,,我失去了他吗?
+Dialogue: 0,0:12:53.71,0:12:55.97,Default,NTP,0000,0000,0000,,作为取回真正记忆的代价
+Dialogue: 0,0:12:59.21,0:13:03.71,Default,NTP,0000,0000,0000,,我在害怕…在痛苦吗？
+Dialogue: 0,0:13:23.77,0:13:27.43,Default,NTP,0000,0000,0000,,原来你没事吗
+Dialogue: 0,0:13:27.47,0:13:29.10,Default,NTP,0000,0000,0000,,当然啦
+Dialogue: 0,0:13:33.81,0:13:36.08,Default,NTP,0000,0000,0000,,别那么认真啦
+Dialogue: 0,0:13:36.12,0:13:39.68,Default,NTP,0000,0000,0000,,小时候我们经常驾驶人力飞机玩
+Dialogue: 0,0:13:39.72,0:13:42.09,Default,NTP,0000,0000,0000,,关掉引擎 乘风翱翔
+Dialogue: 0,0:13:45.56,0:13:47.99,Default,NTP,0000,0000,0000,,还取名为『必杀气流上升』
+Dialogue: 0,0:14:13.69,0:14:19.13,Default,NTP,0000,0000,0000,,你应该知道以前的一切
+Dialogue: 0,0:14:19.86,0:14:21.66,Default,NTP,0000,0000,0000,,那又如何啊？
+Dialogue: 0,0:14:21.69,0:14:27.76,Default,NTP,0000,0000,0000,,你一直被我骂做叛徒、卑鄙小人
+Dialogue: 0,0:14:28.00,0:14:31.33,Default,NTP,0000,0000,0000,,美翁 她也知道吧
+Dialogue: 0,0:14:31.47,0:14:34.44,Default,NTP,0000,0000,0000,,你们一起瞒着我吗?
+Dialogue: 0,0:14:34.47,0:14:35.67,Default,NTP,0000,0000,0000,,你们在可怜我…
+Dialogue: 0,0:14:35.89,0:14:37.89,Default,NTP,0000,0000,0000,,学园祭时候
+Dialogue: 0,0:14:39.41,0:14:42.78,Default,NTP,0000,0000,0000,,我弄坏了你做的飞机
+Dialogue: 0,0:14:42.82,0:14:44.21,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:14:44.25,0:14:46.15,Default,NTP,0000,0000,0000,,因为它做得很好
+Dialogue: 0,0:14:46.19,0:14:48.12,Default,NTP,0000,0000,0000,,我想试着飞一下
+Dialogue: 0,0:14:48.15,0:14:49.31,Default,NTP,0000,0000,0000,,你
+Dialogue: 0,0:14:50.86,0:14:53.26,Default,NTP,0000,0000,0000,,都是过去的事了 忘记它吧
+Dialogue: 0,0:14:58.36,0:14:59.52,Default,NTP,0000,0000,0000,,抱歉
+Dialogue: 0,0:15:02.67,0:15:04.88,Default,NTP,0000,0000,0000,,还有吧
+Dialogue: 0,0:15:06.24,0:15:08.04,Default,NTP,0000,0000,0000,,你真是个让人讨厌的家伙
+Dialogue: 0,0:15:28.96,0:15:31.23,Default,NTP,0000,0000,0000,,果然 感情很好啊
+Dialogue: 0,0:15:40.87,0:15:41.84,Default,NTP,0000,0000,0000,,歌声?
+Dialogue: 0,0:15:46.68,0:15:47.37,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:15:51.72,0:15:52.78,Default,NTP,0000,0000,0000,,GHOST吗
+Dialogue: 0,0:15:53.00,0:15:55.02,Default,NTP,0000,0000,0000,,嘿嘿 终于遇上它了
+Dialogue: 0,0:15:55.35,0:15:56.63,Default,NTP,0000,0000,0000,,喂 起床了！
+Dialogue: 0,0:15:58.49,0:15:59.42,Default,NTP,0000,0000,0000,,加鲁特
+Dialogue: 0,0:15:59.46,0:16:02.15,Default,NTP,0000,0000,0000,,这是我的约会对像 你别出手
+Dialogue: 0,0:16:02.20,0:16:03.86,Default,NTP,0000,0000,0000,,那是我的台词！
+Dialogue: 0,0:16:03.90,0:16:06.59,Default,NTP,0000,0000,0000,,歌声…难道…
+Dialogue: 0,0:16:20.41,0:16:22.04,Default,NTP,0000,0000,0000,,求求你们 帮帮我
+Dialogue: 0,0:17:50.57,0:17:52.54,Default,NTP,0000,0000,0000,,『勇』
+Dialogue: 0,0:17:52.61,0:17:54.63,Default,NTP,0000,0000,0000,,果然是莎朗
+Dialogue: 0,0:17:54.71,0:17:57.94,Default,NTP,0000,0000,0000,,连MACROSS的主电脑都…
+Dialogue: 0,0:17:57.98,0:18:00.14,Default,NTP,0000,0000,0000,,勇
+Dialogue: 0,0:18:00.18,0:18:02.37,Default,NTP,0000,0000,0000,,我在等你
+Dialogue: 0,0:18:02.42,0:18:04.71,Default,NTP,0000,0000,0000,,我想见你
+Dialogue: 0,0:18:04.75,0:18:07.18,Default,NTP,0000,0000,0000,,这东西在说什么?
+Dialogue: 0,0:18:07.22,0:18:09.45,Default,NTP,0000,0000,0000,,她完全暴走了！
+Dialogue: 0,0:18:09.49,0:18:11.82,Default,NTP,0000,0000,0000,,GHOST也是被莎朗所操纵的！
+Dialogue: 0,0:18:11.86,0:18:13.09,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:18:13.13,0:18:15.09,Default,NTP,0000,0000,0000,,我在等你 勇
+Dialogue: 0,0:18:15.13,0:18:16.56,Default,NTP,0000,0000,0000,,只是等你
+Dialogue: 0,0:18:16.60,0:18:18.65,Default,NTP,0000,0000,0000,,美翁! 美翁呢?
+Dialogue: 0,0:18:18.70,0:18:20.56,Default,NTP,0000,0000,0000,,现在的她只是一片空白
+Dialogue: 0,0:18:20.63,0:18:24.57,Default,NTP,0000,0000,0000,,唱歌和爱情她已经交托给我了
+Dialogue: 0,0:18:24.60,0:18:26.26,Default,NTP,0000,0000,0000,,她的脑内一片空白
+Dialogue: 0,0:18:26.30,0:18:27.07,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:18:27.17,0:18:30.11,Default,NTP,0000,0000,0000,,你做了什么！你对美翁做了什么！
+Dialogue: 0,0:18:35.92,0:18:39.44,Default,NTP,0000,0000,0000,,已经没有人能分开我们
+Dialogue: 0,0:18:39.49,0:18:40.78,Default,NTP,0000,0000,0000,,你这混蛋！
+Dialogue: 0,0:18:41.18,0:18:41.95,Default,NTP,0000,0000,0000,,去吧!
+Dialogue: 0,0:18:42.27,0:18:42.91,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:18:43.08,0:18:44.38,Default,NTP,0000,0000,0000,,怪物由我来对付
+Dialogue: 0,0:18:44.42,0:18:46.41,Default,NTP,0000,0000,0000,,你去美翁那里吧
+Dialogue: 0,0:18:46.46,0:18:48.29,Default,NTP,0000,0000,0000,,加鲁特
+Dialogue: 0,0:18:51.53,0:18:53.05,Default,NTP,0000,0000,0000,,现在不是你和这家伙战斗的时候！
+Dialogue: 0,0:18:53.13,0:18:54.50,Default,NTP,0000,0000,0000,,不对吗?
+Dialogue: 0,0:18:54.57,0:18:56.40,Default,NTP,0000,0000,0000,,无论何时都要保护美翁
+Dialogue: 0,0:18:56.47,0:18:58.19,Default,NTP,0000,0000,0000,,那是我们的誓言吧！
+Dialogue: 0,0:19:00.37,0:19:00.90,Default,NTP,0000,0000,0000,,勇
+Dialogue: 0,0:19:02.68,0:19:04.94,Default,NTP,0000,0000,0000,,美翁在等着你
+Dialogue: 0,0:19:04.98,0:19:06.88,Default,NTP,0000,0000,0000,,去吧 你一定要把她带回来
+Dialogue: 0,0:19:09.72,0:19:12.12,Default,NTP,0000,0000,0000,,反正你无法打败GHOST！
+Dialogue: 0,0:19:12.15,0:19:12.98,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:19:13.02,0:19:15.39,Default,NTP,0000,0000,0000,,那样做或许更明智
+Dialogue: 0,0:19:15.42,0:19:17.39,Default,NTP,0000,0000,0000,,就连你都说这种话…！
+Dialogue: 0,0:19:20.53,0:19:22.08,Default,NTP,0000,0000,0000,,不要磨磨蹭蹭的了！
+Dialogue: 0,0:19:22.13,0:19:24.57,Default,NTP,0000,0000,0000,,真是的！无论谁都是这样…
+Dialogue: 0,0:19:27.07,0:19:28.69,Default,NTP,0000,0000,0000,,之后可别哀求我啊！
+Dialogue: 0,0:21:05.56,0:21:07.40,Default,NTP,0000,0000,0000,,什么？
+Dialogue: 0,0:21:07.47,0:21:09.87,Default,NTP,0000,0000,0000,,MACROSS…在动！
+Dialogue: 0,0:21:27.89,0:21:29.29,Default,NTP,0000,0000,0000,,好像记起来了呢
+Dialogue: 0,0:21:33.69,0:21:35.63,Default,NTP,0000,0000,0000,,再这样接近会有危险的！
+Dialogue: 0,0:21:35.66,0:21:36.17,Default,NTP,0000,0000,0000,,可能是陷阱…
+Dialogue: 0,0:21:36.37,0:21:38.26,Default,NTP,0000,0000,0000,,收声! 正合我意
+Dialogue: 0,0:21:42.77,0:21:45.86,Default,NTP,0000,0000,0000,,战斗 伤害
+Dialogue: 0,0:21:47.94,0:21:49.74,Default,NTP,0000,0000,0000,,我接受了
+Dialogue: 0,0:21:49.78,0:21:53.97,Default,NTP,0000,0000,0000,,你心底的感情
+Dialogue: 0,0:21:54.08,0:21:56.84,Default,NTP,0000,0000,0000,,你藏起来的一切感情
+Dialogue: 0,0:22:13.33,0:22:14.88,Default,NTP,0000,0000,0000,,这是怎么回事？
+Dialogue: 0,0:22:15.87,0:22:16.93,Default,NTP,0000,0000,0000,,是莎朗
+Dialogue: 0,0:22:17.00,0:22:18.77,Default,NTP,0000,0000,0000,,莎朗把MACROSS占据了
+Dialogue: 0,0:22:18.80,0:22:19.64,Default,NTP,0000,0000,0000,,什么?
+Dialogue: 0,0:22:20.15,0:22:21.49,Default,NTP,0000,0000,0000,,如果要阻止莎朗的话
+Dialogue: 0,0:22:21.74,0:22:24.44,Default,NTP,0000,0000,0000,,就要破坏MACROSS的中枢情报网络！
+Dialogue: 0,0:22:24.48,0:22:25.55,Default,NTP,0000,0000,0000,,在哪里?
+Dialogue: 0,0:22:25.88,0:22:26.97,Default,NTP,0000,0000,0000,,心脏部份在…
+Dialogue: 0,0:22:31.45,0:22:34.65,Default,NTP,0000,0000,0000,,可是…已经太迟了
+Dialogue: 0,0:22:36.12,0:22:38.02,Default,NTP,0000,0000,0000,,勇已经是我的人了
+Dialogue: 0,0:22:47.90,0:22:51.34,Default,NTP,0000,0000,0000,,找到了! 要害在主天线后面
+Dialogue: 0,0:22:51.40,0:22:52.77,Default,NTP,0000,0000,0000,,正下方13D
+Dialogue: 0,0:23:00.28,0:23:01.34,Default,NTP,0000,0000,0000,,勇
+Dialogue: 0,0:23:01.98,0:23:03.14,Default,NTP,0000,0000,0000,,是勇吗?
+Dialogue: 0,0:23:05.62,0:23:07.05,Default,NTP,0000,0000,0000,,美翁
+Dialogue: 0,0:23:08.75,0:23:10.05,Default,NTP,0000,0000,0000,,勇
+Dialogue: 0,0:23:13.46,0:23:14.45,Default,NTP,0000,0000,0000,,快逃！
+Dialogue: 0,0:23:30.51,0:23:32.07,Default,NTP,0000,0000,0000,,可恶
+Dialogue: 0,0:23:32.11,0:23:34.71,Default,NTP,0000,0000,0000,,我把病毒…输入莎朗的网络
+Dialogue: 0,0:23:34.75,0:23:36.34,Default,NTP,0000,0000,0000,,让她产生混乱
+Dialogue: 0,0:23:36.48,0:23:37.57,Default,NTP,0000,0000,0000,,做得到吗?
+Dialogue: 0,0:23:37.62,0:23:38.89,Default,NTP,0000,0000,0000,,这是多余的问题！
+Dialogue: 0,0:23:39.04,0:23:40.12,Default,NTP,0000,0000,0000,,很好！
+Dialogue: 0,0:23:40.85,0:23:44.08,Default,NTP,0000,0000,0000,,停下来啊！求求你！停下来！
+Dialogue: 0,0:23:44.12,0:23:46.95,Default,NTP,0000,0000,0000,,已经没有人能够阻止了
+Dialogue: 0,0:23:48.96,0:23:50.49,Default,NTP,0000,0000,0000,,阻止
+Dialogue: 0,0:23:50.53,0:23:51.76,Default,NTP,0000,0000,0000,,我来阻止给你看
+Dialogue: 0,0:24:34.11,0:24:36.04,Default,NTP,0000,0000,0000,,为什么?
+Dialogue: 0,0:24:36.14,0:24:38.17,Default,NTP,0000,0000,0000,,为什么会变成这样?
+Dialogue: 0,0:24:48.95,0:24:51.08,Default,NTP,0000,0000,0000,,这是你所希望的
+Dialogue: 0,0:24:52.36,0:24:54.19,Default,NTP,0000,0000,0000,,感动
+Dialogue: 0,0:24:54.23,0:24:59.22,Default,NTP,0000,0000,0000,,给予这世上每一个人应有的感动
+Dialogue: 0,0:25:00.40,0:25:03.66,Default,NTP,0000,0000,0000,,实现爱人的梦想
+Dialogue: 0,0:25:03.74,0:25:06.20,Default,NTP,0000,0000,0000,,给他最大的感动
+Dialogue: 0,0:25:06.27,0:25:11.38,Default,NTP,0000,0000,0000,,你觉得『那就是我活着的证明』
+Dialogue: 0,0:25:18.02,0:25:19.92,Default,NTP,0000,0000,0000,,怎么会有…?
+Dialogue: 0,0:25:19.95,0:25:21.72,Default,NTP,0000,0000,0000,,你在说什么…?
+Dialogue: 0,0:25:21.75,0:25:24.88,Default,NTP,0000,0000,0000,,那种无聊的感动 无论哪里都没有！
+Dialogue: 0,0:25:29.80,0:25:34.16,Default,NTP,0000,0000,0000,,勇所寻求的是遥远的天空
+Dialogue: 0,0:25:34.23,0:25:37.17,Default,NTP,0000,0000,0000,,拼命挑战天空时
+Dialogue: 0,0:25:37.20,0:25:38.97,Default,NTP,0000,0000,0000,,在生与死的狭间
+Dialogue: 0,0:25:39.00,0:25:41.04,Default,NTP,0000,0000,0000,,窥见的感动
+Dialogue: 0,0:25:42.57,0:25:47.31,Default,NTP,0000,0000,0000,,我只是希望勇能感受到那种感动
+Dialogue: 0,0:25:55.75,0:25:57.67,Default,NTP,0000,0000,0000,,你什么也别做
+Dialogue: 0,0:26:00.79,0:26:02.92,Default,NTP,0000,0000,0000,,你也什么都做不到
+Dialogue: 0,0:26:04.96,0:26:07.99,Default,NTP,0000,0000,0000,,什么也做不到的
+Dialogue: 0,0:26:22.41,0:26:23.64,Default,NTP,0000,0000,0000,,没办法了
+Dialogue: 0,0:26:23.68,0:26:26.91,Default,NTP,0000,0000,0000,,只有解除限制器发挥极限性能
+Dialogue: 0,0:26:30.12,0:26:33.56,Default,NTP,0000,0000,0000,,勇 情况怎样?
+Dialogue: 0,0:26:33.59,0:26:36.56,Default,NTP,0000,0000,0000,,加鲁特吗? 很好呢
+Dialogue: 0,0:26:36.60,0:26:38.53,Default,NTP,0000,0000,0000,,我找到美翁了
+Dialogue: 0,0:26:39.06,0:26:40.09,Default,NTP,0000,0000,0000,,是吗?
+Dialogue: 0,0:26:42.97,0:26:44.55,Default,NTP,0000,0000,0000,,你没有告诉她吧
+Dialogue: 0,0:26:48.11,0:26:49.76,Default,NTP,0000,0000,0000,,对不起
+Dialogue: 0,0:26:50.74,0:26:52.73,Default,NTP,0000,0000,0000,,这里很快就能搞定
+Dialogue: 0,0:26:52.78,0:26:54.81,Default,NTP,0000,0000,0000,,我期待与你痛饮一场
+Dialogue: 0,0:26:54.96,0:26:57.01,Default,NTP,0000,0000,0000,,哦 好啊
+Dialogue: 0,0:26:57.05,0:27:00.88,Default,NTP,0000,0000,0000,,庆祝我们七年后久别重逢 干杯
+Dialogue: 0,0:27:01.82,0:27:05.12,Default,NTP,0000,0000,0000,,那么 我先行一步了
+Dialogue: 0,0:27:05.16,0:27:05.99,Default,NTP,0000,0000,0000,,加鲁特
+Dialogue: 0,0:27:12.60,0:27:14.91,Default,NTP,0000,0000,0000,,加鲁特…加鲁特！
+Dialogue: 0,0:27:14.97,0:27:16.03,Default,NTP,0000,0000,0000,,『危险临界点』
+Dialogue: 0,0:27:38.95,0:27:40.09,Default,NTP,0000,0000,0000,,等等
+Dialogue: 0,0:27:40.13,0:27:42.99,Default,NTP,0000,0000,0000,,很快…就能…连接上莎朗了
+Dialogue: 0,0:28:31.54,0:28:32.45,Default,NTP,0000,0000,0000,,杨
+Dialogue: 0,0:28:33.91,0:28:36.92,Default,NTP,0000,0000,0000,,好幸福…
+Dialogue: 0,0:28:38.25,0:28:40.72,Default,NTP,0000,0000,0000,,你这家伙 连杨都…！
+Dialogue: 0,0:29:00.63,0:29:04.47,Default,NTP,0000,0000,0000,,吵死了! 我不想听你的怪歌声！
+Dialogue: 0,0:29:12.25,0:29:13.58,Default,NTP,0000,0000,0000,,住手
+Dialogue: 0,0:29:19.29,0:29:24.49,Default,NTP,0000,0000,0000,,我想听的…不是你的歌声
+Dialogue: 0,0:30:17.02,0:30:25.25,Default,NTP,0000,0000,0000,,ひとつめの言葉は夢
+Dialogue: 0,0:30:25.29,0:30:33.49,Default,NTP,0000,0000,0000,,眠りの中から
+Dialogue: 0,0:30:33.53,0:30:41.74,Default,NTP,0000,0000,0000,,胸の奥の　暗闇を
+Dialogue: 0,0:30:41.77,0:30:47.18,Default,NTP,0000,0000,0000,,そっと　連れ出すの
+Dialogue: 0,0:30:50.42,0:30:58.19,Default,NTP,0000,0000,0000,,ふたつめの言葉は風
+Dialogue: 0,0:30:58.22,0:31:05.10,Default,NTP,0000,0000,0000,,行くてを　おしえて
+Dialogue: 0,0:32:48.40,0:32:49.56,Default,NTP,0000,0000,0000,,勇
+Dialogue: 0,0:32:52.57,0:32:59.64,Default,NTP,0000,0000,0000,,ひとつめの言葉は夢
+Dialogue: 0,0:32:59.68,0:33:05.12,Default,NTP,0000,0000,0000,,眠りの中から
+Dialogue: 0,0:33:07.02,0:33:13.89,Default,NTP,0000,0000,0000,,胸の奥の　暗闇を
+Dialogue: 0,0:33:13.93,0:33:19.16,Default,NTP,0000,0000,0000,,そっと　連れ出すの
+Dialogue: 0,0:33:21.30,0:33:27.84,Default,NTP,0000,0000,0000,,ふたつめの言葉は風
+Dialogue: 0,0:33:28.04,0:33:34.81,Default,NTP,0000,0000,0000,,行くてを　おしえて
+Dialogue: 0,0:33:35.21,0:33:48.02,Default,NTP,0000,0000,0000,,神様の腕の中へ 翼をあおるの
+Dialogue: 0,0:33:48.06,0:34:01.23,Default,NTP,0000,0000,0000,,とけていった　悲しいことを かぞえるように
+Dialogue: 0,0:34:01.87,0:34:16.74,Default,NTP,0000,0000,0000,,金色のりんごが また　ひとつ落ちる
+Dialogue: 0,0:34:16.79,0:34:23.59,Default,NTP,0000,0000,0000,,見たこともない風景
+Dialogue: 0,0:34:23.63,0:34:30.66,Default,NTP,0000,0000,0000,,そこが帰る場所
+Dialogue: 0,0:34:30.74,0:34:43.32,Default,NTP,0000,0000,0000,,たったひとつのいのちに たどりつく場所
+Dialogue: 0,0:34:52.36,0:34:58.63,Default,NTP,0000,0000,0000,,古い魔法の本
+Dialogue: 0,0:35:01.90,0:35:10.21,Default,NTP,0000,0000,0000,,月のしずく　夜のとばり
+Dialogue: 0,0:35:10.24,0:35:25.56,Default,NTP,0000,0000,0000,,いつか逢える　予感だけ
+Dialogue: 0,0:35:25.59,0:35:28.49,Default,NTP,0000,0000,0000,,YOU CAN FLY
+Dialogue: 0,0:35:28.53,0:35:31.79,Default,NTP,0000,0000,0000,,WE HAVE DREAMS
+Dialogue: 0,0:35:31.83,0:35:35.10,Default,NTP,0000,0000,0000,,WE CAN TOUCH
+Dialogue: 0,0:35:35.17,0:35:38.23,Default,NTP,0000,0000,0000,,YOUR DREAMS
+Dialogue: 0,0:35:38.40,0:35:41.43,Default,NTP,0000,0000,0000,,ONLY FLY
+Dialogue: 0,0:35:41.51,0:35:44.67,Default,NTP,0000,0000,0000,,SO FAR
+Dialogue: 0,0:35:44.71,0:35:48.20,Default,NTP,0000,0000,0000,,TO THE WIND
+Dialogue: 0,0:35:48.25,0:35:52.84,Default,NTP,0000,0000,0000,,IN THE NIGHT
+Dialogue: 0,0:36:00.09,0:36:07.90,Default,NTP,0000,0000,0000,,みっつめの言葉は　hum..
+Dialogue: 0,0:36:07.97,0:36:15.57,Default,NTP,0000,0000,0000,,耳をすましたら
+Dialogue: 0,0:36:15.61,0:36:22.95,Default,NTP,0000,0000,0000,,あなたのふるえる腕を
+Dialogue: 0,0:36:22.98,0:36:29.39,Default,NTP,0000,0000,0000,,そっと　ときはなつ
+Dialogue: 0,0:02:59.68,0:03:02.25,gc,NTP,0000,0000,0000,,YOU KNOW HOW TO GET ETERNAL LIFE
+Dialogue: 0,0:03:02.61,0:03:06.27,gc,NTP,0000,0000,0000,,IN THE CENTRE OF THE LIGHTNING SPEED WALTZ
+Dialogue: 0,0:03:06.57,0:03:09.33,gc,NTP,0000,0000,0000,,FEEL YOUR SOUL CUT BY A RUSTY KNIFE
+Dialogue: 0,0:03:09.67,0:03:13.80,gc,NTP,0000,0000,0000,,AS YOU HEAD DOWN FOR THE SELF DESTRUCTIVE EDGE
+Dialogue: 0,0:03:14.17,0:03:17.12,gc,NTP,0000,0000,0000,,OUR SATORI ARE JUST FLOATING IN THE CORE
+Dialogue: 0,0:03:17.52,0:03:20.53,gc,NTP,0000,0000,0000,,WHERE WE CAN SPIRITUALLY GO THROUGH THE DOOR
+Dialogue: 0,0:03:20.88,0:03:23.70,gc,NTP,0000,0000,0000,,WE'LL KNOW HOW TO GET ETERNAL LIFE
+Dialogue: 0,0:03:24.01,0:03:27.59,gc,NTP,0000,0000,0000,,WHILE WE CATCH THE PULSE FROM UNKNOWN SATELLITES
+Dialogue: 0,0:03:27.94,0:03:30.97,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:03:31.48,0:03:34.69,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:03:35.09,0:03:38.22,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:03:38.61,0:03:42.73,gc,NTP,0000,0000,0000,,THEN WE ARE REALLY FREE
+Dialogue: 0,0:03:43.08,0:03:46.80,gc,NTP,0000,0000,0000,,TO FLY HIGH
+Dialogue: 0,0:03:47.11,0:03:50.60,gc,NTP,0000,0000,0000,,IN SPACE
+Dialogue: 0,0:04:01.90,0:04:04.81,gc,NTP,0000,0000,0000,,WE KNOW HOW TO GET AN IETERNAL HIGH
+Dialogue: 0,0:04:05.00,0:04:08.78,gc,NTP,0000,0000,0000,,IN THE CENTRE OF THE LIGHTNING SPEED WALTZ
+Dialogue: 0,0:04:08.97,0:04:11.68,gc,NTP,0000,0000,0000,,SEE OUR SOUL STRUGGLING TO SURVIVE
+Dialogue: 0,0:04:12.00,0:04:16.09,gc,NTP,0000,0000,0000,,AS WE HEAD DOWN FOR THE SELF DESTRUCTIVE EDGE
+Dialogue: 0,0:04:16.39,0:04:19.35,gc,NTP,0000,0000,0000,,SAYONARA TO INTRUSIVE NOISE
+Dialogue: 0,0:04:19.95,0:04:22.70,gc,NTP,0000,0000,0000,,NO MORE CHILDISH PLSY AND NO MORE TOYS
+Dialogue: 0,0:04:23.08,0:04:25.94,gc,NTP,0000,0000,0000,,WE KNOW HOW TO GET ETERNAL LIFE
+Dialogue: 0,0:04:26.25,0:04:30.24,gc,NTP,0000,0000,0000,,WHILE WE FEEL AND SENSE MOTHER NATURE'S STRONG MIGHT
+Dialogue: 0,0:04:30.39,0:04:33.21,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:04:33.82,0:04:37.06,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:04:37.42,0:04:40.46,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:04:40.85,0:04:44.16,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:04:44.47,0:04:47.68,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:04:48.01,0:04:51.30,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:04:51.60,0:04:54.77,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:04:55.19,0:04:59.34,gc,NTP,0000,0000,0000,,THEN WE ARE REALLY FREE
+Dialogue: 0,0:04:59.64,0:05:03.41,gc,NTP,0000,0000,0000,,TO FLY HIGH
+Dialogue: 0,0:05:03.58,0:05:08.19,gc,NTP,0000,0000,0000,,IN SPACE
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IF WE GET THE TRANCIENT FACTS
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE FEEL THE INFO-HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,THEN WE ARE REALLY FREE
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,TO FLY HIGH
+Dialogue: 0,0:00:28.00,0:00:28.00,gc,NTP,0000,0000,0000,,IN SPACE
+Dialogue: 0,0:00:00.00,0:00:07.00,STAFF,NTP,0000,0000,0000,,{\fad(200,200)}神兽十字军（DAC）制作
+Dialogue: 0,0:00:07.00,0:00:14.00,STAFF,NTP,0000,0000,0000,,{\fad(200,200)}工头：流竜马
+Dialogue: 0,0:00:14.00,0:00:21.00,STAFF,NTP,0000,0000,0000,,{\fad(200,200)}二号苦力：十七
+Dialogue: 0,0:00:21.00,0:00:28.00,STAFF,NTP,0000,0000,0000,,{\fad(200,200)}四号苦力：鸟神
+Dialogue: 0,0:00:28.00,0:00:31.00,STAFF,NTP,0000,0000,0000,,{\fad(200,200)}本片仅供试看学习燃烧怨念\N请于下载后24小时之内删除\N如果您喜欢本片请支持正版
+Dialogue: 0,0:33:22.64,0:33:30.10,gc,NTP,0000,0000,0000,,{\fad(300,300)}献给你们，我们未来的拓荒者

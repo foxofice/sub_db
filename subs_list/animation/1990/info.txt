@@ -1,0 +1,5 @@
+﻿chs: 蓝宝石之谜/海底两万里/冒险少女娜汀亚
+cht: 藍寶石之謎/海底兩萬里/冒險少女娜汀亞
+jp: ふしぎの海のナディア
+en: Nadia: The Secret of Blue Water
+rome: Fushigi no Umi no Nadia

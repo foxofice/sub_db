@@ -1,0 +1,5 @@
+﻿chs: 少女革命
+cht: 少女革命
+jp: 少女革命ウテナ
+en: Revolutionary Girl Utena
+rome: Shoujo Kakumei Utena

@@ -1,0 +1,5 @@
+﻿chs: 阿茹茉妮
+cht: 阿茹茉妮
+jp: アルモニ
+en: Harmonie
+rome: Harmonie

@@ -1,0 +1,35 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん 10 Long Trailer
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.58,0:00:03.58,Main,,0,0,0,,剑先生 这里麻美子出场的效果音
+Dialogue: 0,0:00:03.58,0:00:06.30,Main,,0,0,0,,比起kyapin 我觉得sharanran更好
+Dialogue: 0,0:00:06.30,0:00:08.27,Main,,0,0,0,,不 我觉得是kyaranran那样的感觉
+Dialogue: 0,0:00:08.27,0:00:09.57,Main,,0,0,0,,不愧是剑先生
+Dialogue: 0,0:00:09.75,0:00:12.05,Main,,0,0,0,,那坠入爱河的时候就是kyun这样吧
+Dialogue: 0,0:00:12.05,0:00:13.01,Main,,0,0,0,,应该是tyu-kun吧
+Dialogue: 0,0:00:13.01,0:00:14.09,Main,,0,0,0,,原来如此
+Dialogue: 0,0:00:14.16,0:00:17.70,Main,,0,0,0,,那不良男子为雨中的小猫咪撑伞的时候呢？
+Dialogue: 0,0:00:17.70,0:00:18.65,Main,,0,0,0,,tyu-kun吧
+Dialogue: 0,0:00:18.65,0:00:20.22,Main,,0,0,0,,把小猫抱起来露出温柔笑脸的时候呢？
+Dialogue: 0,0:00:20.22,0:00:20.78,Main,,0,0,0,,tyu-kun
+Dialogue: 0,0:00:20.78,0:00:22.20,Main,,0,0,0,,太帅了！再来一次！
+Dialogue: 0,0:00:22.20,0:00:24.30,Main,,0,0,0,,你这家伙从刚才开始就在耍我吗！
+Dialogue: 0,0:00:24.30,0:00:24.90,Main,,0,0,0,,tyu-kun
+Dialogue: 0,0:00:25.14,0:00:27.29,Main,,0,0,0,,下集「加强了羁绊，勒紧了缰绳」
+Dialogue: 0,0:00:27.35,0:00:28.52,Main,,0,0,0,,是说我们俩吧
+Dialogue: 0,0:00:28.52,0:00:30.40,Main,,0,0,0,,虽然不是 不过敬请期待

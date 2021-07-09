@@ -1,0 +1,5 @@
+﻿chs: 哈尔的移动城堡
+cht: 哈爾的移動城堡
+jp: ハウルの動く城
+en: Howl`s Moving Castle
+rome: Howl no Ugoku Shiro

@@ -1,0 +1,5 @@
+﻿chs: 钢之炼金术师 叹息之丘的圣星
+cht: 鋼之煉金術師 嘆息之丘的聖星
+jp: 鋼の錬金術師 嘆きの丘[ミロス]の聖なる星
+en: Fullmetal Alchemist: The Sacred Star of Milos
+rome: Hagane no Renkinjutsushi: Milos no Seinaru Hoshi

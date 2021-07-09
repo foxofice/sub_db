@@ -1,0 +1,5 @@
+﻿chs: 忏・再见绝望先生
+cht: 懺・再見絕望先生
+jp: 懺・さよなら絶望先生
+en: Zan Sayonara Zetsubou-sensei
+rome: Zan Sayonara Zetsubou-sensei

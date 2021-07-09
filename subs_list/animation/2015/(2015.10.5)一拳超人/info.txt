@@ -1,0 +1,5 @@
+﻿chs: 一拳超人
+cht: 一拳超人
+jp: ONE PUNCH MAN ワンパンマン
+en: One-Punch Man
+rome: One-Punch Man

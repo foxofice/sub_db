@@ -1,0 +1,5 @@
+﻿chs: 皇家国教骑士团
+cht: 皇家國教騎士團
+jp: HELLSING OVA
+en: Hellsing Ultimate
+rome: HELLSING OVA

@@ -1,0 +1,5 @@
+﻿chs: 玲音
+cht: 玲音
+jp: シリアルエクスペリメンツレイン
+en: Serial Experiments Lain
+rome: Serial Experiments Lain

@@ -1,0 +1,5 @@
+﻿chs: 再见绝望先生
+cht: 再見絕望先生
+jp: さよなら絶望先生
+en: Sayonara Zetsubou-sensei
+rome: Sayonara Zetsubou-sensei

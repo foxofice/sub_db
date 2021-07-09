@@ -1,0 +1,5 @@
+﻿chs: 萤火虫之墓
+cht: 螢火蟲之墓
+jp: 火垂るの墓
+en: Grave of the Fireflies
+rome: Hotaru no Haka 

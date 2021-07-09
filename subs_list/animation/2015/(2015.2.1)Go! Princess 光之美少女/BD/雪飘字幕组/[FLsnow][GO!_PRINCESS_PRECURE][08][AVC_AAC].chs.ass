@@ -1,0 +1,439 @@
+﻿[Script Info]
+Title:(アニメ) Go！プリンセスプリキュア 第08回 「ぜったいムリ！？はるかのドレスづくり！」
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Original Translation: FLsnow
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Flora_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H644E008C,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Merma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64A85C00,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Twink_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Aroma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DC619B,&H647C254D,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: MissS_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00555555,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: DDark_CN,Droid Sans Fallback,54,&H00000000,&H00FFFFFF,&H00DBDBDB,&H64FFFFFF,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: OP-CN,方正细圆_GBK,35,&H00E3E3E3,&H000000FF,&HC8000000,&H64000000,-1,0,0,0,100,100,2,0,1,1,2,2,10,10,5,1
+Style: ED-CN,方正细圆_GBK,40,&H00FFFFFF,&H000000FF,&H009D2ECD,&H649028BD,0,0,0,0,100,100,2,0,1,2,0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.25,0:00:03.27,Defau_CN,NTP,0,0,0,,这是去年的小南大人呢
+Dialogue: 0,0:00:03.48,0:00:05.83,Defau_CN,NTP,0,0,0,,果真是我们学园的公主呢
+Dialogue: 0,0:00:06.03,0:00:07.81,Flora_CN,NTP,0,0,0,,太漂亮了
+Dialogue: 0,0:00:07.99,0:00:09.65,Merma_CN,NTP,0,0,0,,哎呀 我好害羞啊
+Dialogue: 0,0:00:09.83,0:00:11.36,Defau_CN,NTP,0,0,0,,啊 小南大人
+Dialogue: 0,0:00:11.70,0:00:12.71,Merma_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:12.91,0:00:14.90,Flora_CN,NTP,0,0,0,,南姐姐这是…
+Dialogue: 0,0:00:15.12,0:00:16.49,Twink_CN,NTP,0,0,0,,光辉派对吧
+Dialogue: 0,0:00:16.66,0:00:18.23,Twink_CN,NTP,0,0,0,,我听我妈妈说过
+Dialogue: 0,0:00:18.79,0:00:19.79,Flora_CN,NTP,0,0,0,,派对？
+Dialogue: 0,0:00:19.96,0:00:22.87,Merma_CN,NTP,0,0,0,,嗯 是每年都举办的晚餐会
+Dialogue: 0,0:00:23.15,0:00:25.27,Merma_CN,NTP,0,0,0,,每个人必须穿正装参加
+Dialogue: 0,0:00:25.59,0:00:27.95,Merma_CN,NTP,0,0,0,,女生都是穿礼服的
+Dialogue: 0,0:00:29.53,0:00:32.79,Twink_CN,NTP,0,0,0,,真不愧是绅士和淑女的学校
+Dialogue: 0,0:00:33.47,0:00:35.49,Flora_CN,NTP,0,0,0,,穿着礼服参加派对
+Dialogue: 0,0:00:36.30,0:00:38.88,Flora_CN,NTP,0,0,0,,幸福满满啦
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,＝
+Dialogue: 0,0:02:42.89,0:02:45.67,Defau_CN,NTP,0,0,0,,绝对不行！？小遥做礼服！
+Dialogue: 0,0:02:48.39,0:02:51.97,Flora_CN,NTP,0,0,0,,哇 果然太漂亮了
+Dialogue: 0,0:02:53.14,0:02:54.54,Flora_CN,NTP,0,0,0,,哎呀呀
+Dialogue: 0,0:02:57.57,0:02:59.15,Twink_CN,NTP,0,0,0,,料子真好
+Dialogue: 0,0:02:59.39,0:03:01.78,Merma_CN,NTP,0,0,0,,这是我去年穿过的
+Dialogue: 0,0:03:02.25,0:03:03.65,Merma_CN,NTP,0,0,0,,是我自己刺绣的
+Dialogue: 0,0:03:05.26,0:03:07.29,Merma_CN,NTP,0,0,0,,虽然我只是刺绣
+Dialogue: 0,0:03:07.54,0:03:10.73,Merma_CN,NTP,0,0,0,,但是听说有人的礼服完全是自己做的呢
+Dialogue: 0,0:03:11.77,0:03:14.03,Twink_CN,NTP,0,0,0,,亲手做礼服也太厉害了
+Dialogue: 0,0:03:14.47,0:03:16.46,Twink_CN,NTP,0,0,0,,我还是穿妈妈的礼服吧
+Dialogue: 0,0:03:16.72,0:03:17.94,Flora_CN,NTP,0,0,0,,我… 我…
+Dialogue: 0,0:03:18.91,0:03:21.66,Flora_CN,NTP,0,0,0,,我也想亲手做礼服
+Dialogue: 0,0:03:22.56,0:03:25.52,Flora_CN,NTP,0,0,0,,好想穿着自己做的礼服参加派对
+Dialogue: 0,0:03:25.90,0:03:28.33,Merma_CN,NTP,0,0,0,,小遥你会做礼服吗
+Dialogue: 0,0:03:28.55,0:03:29.73,Flora_CN,NTP,0,0,0,,不会
+Dialogue: 0,0:03:31.40,0:03:32.99,Twink_CN,NTP,0,0,0,,那你还是算了吧
+Dialogue: 0,0:03:33.23,0:03:36.43,Twink_CN,NTP,0,0,0,,画设计图 裁布 用缝纫机缝纫
+Dialogue: 0,0:03:36.68,0:03:38.56,Twink_CN,NTP,0,0,0,,这些全都要自己来哦
+Dialogue: 0,0:03:38.81,0:03:41.71,Flora_CN,NTP,0,0,0,,嗯～ 但是我想试试
+Dialogue: 0,0:03:44.36,0:03:45.76,Aroma_CN,NTP,0,0,0,,没问题
+Dialogue: 0,0:03:46.04,0:03:48.57,Aroma_CN,NTP,0,0,0,,交给教学板吧
+Dialogue: 0,0:03:48.72,0:03:49.95,Flora_CN,NTP,0,0,0,,对呀
+Dialogue: 0,0:03:57.60,0:03:59.96,MissS_CN,NTP,0,0,0,,贵安 Everyone
+Dialogue: 0,0:04:01.11,0:04:05.28,MissS_CN,NTP,0,0,0,,我是皇家教师Miss Shamour
+Dialogue: 0,0:04:05.88,0:04:07.21,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:04:07.48,0:04:08.61,Flora_CN,NTP,0,0,0,,Miss Shamour
+Dialogue: 0,0:04:08.77,0:04:10.60,Flora_CN,NTP,0,0,0,,请教我做礼服
+Dialogue: 0,0:04:10.95,0:04:13.30,MissS_CN,NTP,0,0,0,,哎呀 蛮有干劲的嘛
+Dialogue: 0,0:04:13.46,0:04:17.74,MissS_CN,NTP,0,0,0,,那么让我们马上开始做礼服的课程吧
+Dialogue: 0,0:04:24.94,0:04:27.32,Flora_CN,NTP,0,0,0,,哇 好多礼服
+Dialogue: 0,0:04:27.61,0:04:30.66,MissS_CN,NTP,0,0,0,,说起礼服简而言之
+Dialogue: 0,0:04:30.85,0:04:32.97,MissS_CN,NTP,0,0,0,,就是在领围袖子和裙线
+Dialogue: 0,0:04:33.12,0:04:35.26,MissS_CN,NTP,0,0,0,,这些地方来改变设计的
+Dialogue: 0,0:04:35.41,0:04:36.76,Flora_CN,NTP,0,0,0,,原来如此原来如此
+Dialogue: 0,0:04:36.94,0:04:37.73,MissS_CN,NTP,0,0,0,,好啦
+Dialogue: 0,0:04:38.11,0:04:42.68,MissS_CN,NTP,0,0,0,,以这里的礼服为参考想想自己的设计方案吧
+Dialogue: 0,0:04:52.59,0:04:54.53,Flora_CN,NTP,0,0,0,,真的全都好漂亮
+Dialogue: 0,0:04:54.70,0:04:55.88,Flora_CN,NTP,0,0,0,,不知道该怎么选…
+Dialogue: 0,0:04:58.51,0:05:00.29,Flora_CN,NTP,0,0,0,,抱… 抱歉
+Dialogue: 0,0:05:00.44,0:05:01.82,Aroma_CN,NTP,0,0,0,,哎呀哎呀
+Dialogue: 0,0:05:01.99,0:05:04.22,Twink_CN,NTP,0,0,0,,这样可是确定不了设计方案呢
+Dialogue: 0,0:05:04.54,0:05:08.61,Flora_CN,NTP,0,0,0,,呜呜～ 明明这是个接近大公主梦想的好机会
+Dialogue: 0,0:05:08.82,0:05:10.40,Merma_CN,NTP,0,0,0,,说到公主…
+Dialogue: 0,0:05:10.71,0:05:11.96,Merma_CN,NTP,0,0,0,,对了 小遥
+Dialogue: 0,0:05:12.17,0:05:16.12,Merma_CN,NTP,0,0,0,,你憧憬的公主是穿着怎样的衣服的呢
+Dialogue: 0,0:05:16.31,0:05:17.54,Flora_CN,NTP,0,0,0,,我憧憬的…
+Dialogue: 0,0:05:20.07,0:05:21.69,Flora_CN,NTP,0,0,0,,花朵公主…
+Dialogue: 0,0:05:28.73,0:05:29.87,Flora_CN,NTP,0,0,0,,画好啦
+Dialogue: 0,0:05:30.02,0:05:30.90,MissS_CN,NTP,0,0,0,,我瞧瞧
+Dialogue: 0,0:05:31.08,0:05:31.70,Flora_CN,NTP,0,0,0,,给
+Dialogue: 0,0:05:32.12,0:05:35.22,MissS_CN,NTP,0,0,0,,哦哦 还行吧
+Dialogue: 0,0:05:35.56,0:05:38.35,MissS_CN,NTP,0,0,0,,那么我们去Next Stage吧 Go
+Dialogue: 0,0:05:43.05,0:05:44.98,MissS_CN,NTP,0,0,0,,好啦 选布吧
+Dialogue: 0,0:05:45.20,0:05:45.88,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:05:49.68,0:05:51.61,Twink_CN,NTP,0,0,0,,我觉得小春春适合粉色吧？
+Dialogue: 0,0:05:51.83,0:05:52.99,Flora_CN,NTP,0,0,0,,诶 是吗
+Dialogue: 0,0:05:53.16,0:05:54.27,Flora_CN,NTP,0,0,0,,选粉色
+Dialogue: 0,0:05:54.44,0:05:55.74,Flora_CN,NTP,0,0,0,,好的
+Dialogue: 0,0:05:58.05,0:05:59.34,Merma_CN,NTP,0,0,0,,快点 站好了
+Dialogue: 0,0:05:59.76,0:06:00.35,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:06:03.80,0:06:05.82,MissS_CN,NTP,0,0,0,,对 仔细地
+Dialogue: 0,0:06:11.52,0:06:12.48,Flora_CN,NTP,0,0,0,,好
+Dialogue: 0,0:06:16.49,0:06:18.03,Flora_CN,NTP,0,0,0,,好 要上啦
+Dialogue: 0,0:06:18.22,0:06:19.98,Flora_CN,NTP,0,0,0,,气势满开
+Dialogue: 0,0:06:26.01,0:06:28.37,Flora_CN,NTP,0,0,0,,哇 缝歪了
+Dialogue: 0,0:06:28.86,0:06:29.89,MissS_CN,NTP,0,0,0,,Non Non
+Dialogue: 0,0:06:30.04,0:06:31.77,MissS_CN,NTP,0,0,0,,冷静一些
+Dialogue: 0,0:06:32.09,0:06:33.28,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:06:33.56,0:06:35.00,Twink_CN,NTP,0,0,0,,小春春加油啦
+Dialogue: 0,0:06:35.23,0:06:37.18,MissS_CN,NTP,0,0,0,,那么今天就到这里吧
+Dialogue: 0,0:06:37.45,0:06:38.99,MissS_CN,NTP,0,0,0,,Have a good day
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:45.01,0:06:48.28,Flora_CN,NTP,0,0,0,,啊 又歪了
+Dialogue: 0,0:06:48.53,0:06:49.79,Defau_CN,NTP,0,0,0,,你辛苦啦
+Dialogue: 0,0:06:51.35,0:06:52.60,Flora_CN,NTP,0,0,0,,谢谢你
+Dialogue: 0,0:06:52.89,0:06:55.39,Flora_CN,NTP,0,0,0,,嗯 好香
+Dialogue: 0,0:06:56.63,0:06:59.32,Defau_CN,NTP,0,0,0,,自己做礼服 好厉害啊
+Dialogue: 0,0:06:59.60,0:07:00.95,Flora_CN,NTP,0,0,0,,小唯准备怎么办呢
+Dialogue: 0,0:07:01.17,0:07:03.65,Defau_CN,NTP,0,0,0,,妈妈会帮我做
+Dialogue: 0,0:07:03.84,0:07:05.71,Defau_CN,NTP,0,0,0,,因为我自己肯定做不来的
+Dialogue: 0,0:07:05.99,0:07:08.34,Flora_CN,NTP,0,0,0,,妈妈亲手做的也好期待呢
+Dialogue: 0,0:07:08.49,0:07:09.24,Defau_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:07:10.65,0:07:11.99,Defau_CN,NTP,0,0,0,,说起礼服…
+Dialogue: 0,0:07:12.21,0:07:14.53,Defau_CN,NTP,0,0,0,,我听说最近有几个穿着礼服的人
+Dialogue: 0,0:07:14.71,0:07:18.98,Defau_CN,NTP,0,0,0,,在学园附近打退怪物了呢
+Dialogue: 0,0:07:21.02,0:07:22.54,Defau_CN,NTP,0,0,0,,没… 没事吧
+Dialogue: 0,0:07:22.75,0:07:23.98,Flora_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:07:24.22,0:07:26.36,Defau_CN,NTP,0,0,0,,那我先睡了
+Dialogue: 0,0:07:26.86,0:07:28.16,Defau_CN,NTP,0,0,0,,你加油做礼服吧
+Dialogue: 0,0:07:28.30,0:07:29.71,Flora_CN,NTP,0,0,0,,谢谢你 小唯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:07:30.82,0:07:32.43,Defau_CN,NTP,0,0,0,,Her Dress is very wonderful
+Dialogue: 0,0:07:32.58,0:07:35.90,Defau_CN,NTP,0,0,0,,So she is looking forward to the party very much
+Dialogue: 0,0:07:36.17,0:07:36.98,Defau_CN,NTP,0,0,0,,Good
+Dialogue: 0,0:07:37.14,0:07:38.68,Flora_CN,NTP,0,0,0,,疼
+Dialogue: 0,0:07:38.85,0:07:41.80,Defau_CN,NTP,0,0,0,,好 请把上周的作业交上来
+Dialogue: 0,0:07:41.97,0:07:42.87,Flora_CN,NTP,0,0,0,,诶？
+Dialogue: 0,0:07:43.15,0:07:45.14,Flora_CN,NTP,0,0,0,,啊… 惨了…
+Dialogue: 0,0:07:45.52,0:07:46.60,Defau_CN,NTP,0,0,0,,Miss春野
+Dialogue: 0,0:07:47.38,0:07:48.98,Flora_CN,NTP,0,0,0,,老师 那个…
+Dialogue: 0,0:07:49.20,0:07:50.55,Defau_CN,NTP,0,0,0,,如果忘了作业
+Dialogue: 0,0:07:51.33,0:07:52.88,Defau_CN,NTP,0,0,0,,那么就把今天的作业多做十页
+Dialogue: 0,0:07:53.02,0:07:54.19,Defau_CN,NTP,0,0,0,,下次交
+Dialogue: 0,0:07:55.41,0:07:56.65,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:07:58.58,0:08:00.34,Defau_CN,NTP,0,0,0,,春野 重考
+Dialogue: 0,0:08:04.06,0:08:05.31,Defau_CN,NTP,0,0,0,,春野同学
+Dialogue: 0,0:08:06.05,0:08:08.22,Defau_CN,NTP,0,0,0,,请回去多练练这首曲子
+Dialogue: 0,0:08:08.56,0:08:10.00,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:08:11.05,0:08:11.82,Merma_CN,NTP,0,0,0,,小遥
+Dialogue: 0,0:08:12.19,0:08:13.96,Merma_CN,NTP,0,0,0,,别做礼服了
+Dialogue: 0,0:08:14.17,0:08:16.67,Flora_CN,NTP,0,0,0,,诶 为… 为什么
+Dialogue: 0,0:08:17.18,0:08:19.86,Merma_CN,NTP,0,0,0,,因为我听说你最近都无心学习了
+Dialogue: 0,0:08:20.19,0:08:22.24,Merma_CN,NTP,0,0,0,,不管做出多么漂亮的礼服
+Dialogue: 0,0:08:22.43,0:08:23.90,Merma_CN,NTP,0,0,0,,自身素养跟不上的话
+Dialogue: 0,0:08:24.06,0:08:25.80,Merma_CN,NTP,0,0,0,,也会毁了辛苦做好的礼服的
+Dialogue: 0,0:08:26.46,0:08:28.90,Merma_CN,NTP,0,0,0,,成为公主需要什么
+Dialogue: 0,0:08:29.14,0:08:30.28,Merma_CN,NTP,0,0,0,,请好好想一想
+Dialogue: 0,0:08:30.86,0:08:31.69,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:08:33.98,0:08:35.71,Twink_CN,NTP,0,0,0,,南南 好可怕
+Dialogue: 0,0:08:35.95,0:08:37.38,Twink_CN,NTP,0,0,0,,是吧 小春春
+Dialogue: 0,0:08:37.81,0:08:38.54,Twink_CN,NTP,0,0,0,,咦？
+Dialogue: 0,0:08:41.89,0:08:43.10,Flora_CN,NTP,0,0,0,,哇
+Dialogue: 0,0:08:43.26,0:08:45.37,Flora_CN,NTP,0,0,0,,惹南姐姐生气了
+Dialogue: 0,0:08:45.81,0:08:48.59,Twink_CN,NTP,0,0,0,,这么没精神 真不像你
+Dialogue: 0,0:08:50.19,0:08:54.52,Twink_CN,NTP,0,0,0,,好啦～ 这种时候还是要吃甜点啦
+Dialogue: 0,0:08:54.97,0:08:56.11,Twink_CN,NTP,0,0,0,,啊 对啦
+Dialogue: 0,0:08:56.26,0:08:56.96,Twink_CN,NTP,0,0,0,,你知道吗
+Dialogue: 0,0:08:57.15,0:09:01.70,Twink_CN,NTP,0,0,0,,大理石唐纳滋推出了限时版的椰子蜂蜜味道
+Dialogue: 0,0:09:01.99,0:09:04.51,Twink_CN,NTP,0,0,0,,顶上铺了巴旦木和奶油
+Dialogue: 0,0:09:04.67,0:09:06.40,Twink_CN,NTP,0,0,0,,哇 超想吃
+Dialogue: 0,0:09:06.57,0:09:09.35,Twink_CN,NTP,0,0,0,,好 今天稍有一些工作上的安排…
+Dialogue: 0,0:09:09.50,0:09:11.52,Flora_CN,NTP,0,0,0,,好的 我要做
+Dialogue: 0,0:09:11.69,0:09:12.52,Twink_CN,NTP,0,0,0,,啥？
+Dialogue: 0,0:09:12.89,0:09:16.01,Flora_CN,NTP,0,0,0,,做礼服和学习两边都要努力
+Dialogue: 0,0:09:16.54,0:09:18.71,Twink_CN,NTP,0,0,0,,你… 你怎么了 小春春
+Dialogue: 0,0:09:19.11,0:09:21.45,Flora_CN,NTP,0,0,0,,我得赶紧回房间学习了
+Dialogue: 0,0:09:21.79,0:09:22.56,Flora_CN,NTP,0,0,0,,谢谢你啦
+Dialogue: 0,0:09:22.71,0:09:23.45,Flora_CN,NTP,0,0,0,,小星星
+Dialogue: 0,0:09:23.46,0:09:25.03,Twink_CN,NTP,0,0,0,,嗯… 嗯…
+Dialogue: 0,0:09:27.20,0:09:29.10,Twink_CN,NTP,0,0,0,,为什么突然一下就有精神啦？
+Dialogue: 0,0:09:29.69,0:09:31.52,Flora_CN,NTP,0,0,0,,我会加油的
+Dialogue: 0,0:09:31.72,0:09:32.51,Twink_CN,NTP,0,0,0,,为啥？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,＝
+Dialogue: 0,0:09:35.31,0:09:38.51,Twink_CN,NTP,0,0,0,,我们Princess Precure也要上电影了
+Dialogue: 0,0:09:43.78,0:09:45.01,Defau_CN,NTP,0,0,0,,短发风
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,＝
+Dialogue: 0,0:10:11.49,0:10:12.28,Twink_CN,NTP,0,0,0,,小春春
+Dialogue: 0,0:10:12.44,0:10:13.72,Twink_CN,NTP,0,0,0,,今天也很努力啊
+Dialogue: 0,0:10:14.80,0:10:16.22,Flora_CN,NTP,0,0,0,,啊 小星星
+Dialogue: 0,0:10:16.36,0:10:17.51,Flora_CN,NTP,0,0,0,,工作结束了吗
+Dialogue: 0,0:10:17.83,0:10:18.62,Twink_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:10:19.01,0:10:19.69,Twink_CN,NTP,0,0,0,,啊 对啦
+Dialogue: 0,0:10:19.87,0:10:20.76,Twink_CN,NTP,0,0,0,,你累了吧
+Dialogue: 0,0:10:20.97,0:10:21.93,Twink_CN,NTP,0,0,0,,瞧这个
+Dialogue: 0,0:10:23.49,0:10:24.66,Flora_CN,NTP,0,0,0,,是唐纳滋
+Dialogue: 0,0:10:24.81,0:10:26.47,Twink_CN,NTP,0,0,0,,礼服做的怎么样了
+Dialogue: 0,0:10:26.74,0:10:29.50,Flora_CN,NTP,0,0,0,,嗯 还差一点就完成了
+Dialogue: 0,0:10:32.85,0:10:34.25,Twink_CN,NTP,0,0,0,,真是好努力啊
+Dialogue: 0,0:10:34.51,0:10:35.68,Twink_CN,NTP,0,0,0,,一边做礼服一边学习
+Dialogue: 0,0:10:36.07,0:10:38.90,Aroma_CN,NTP,0,0,0,,嗯 对于小遥来说很不错了
+Dialogue: 0,0:10:39.06,0:10:41.80,Flora_CN,NTP,0,0,0,,看来总算是赶上光辉派对了
+Dialogue: 0,0:10:42.00,0:10:43.74,Flora_CN,NTP,0,0,0,,大家一起来喝茶吧
+Dialogue: 0,0:10:44.78,0:10:45.96,Flora_CN,NTP,0,0,0,,谢谢你Pafu
+Dialogue: 0,0:10:53.86,0:10:55.01,Aroma_CN,NTP,0,0,0,,不好了
+Dialogue: 0,0:10:56.59,0:10:57.95,Twink_CN,NTP,0,0,0,,快擦一擦
+Dialogue: 0,0:11:00.81,0:11:02.96,Twink_CN,NTP,0,0,0,,这个洗也洗不掉的
+Dialogue: 0,0:11:03.92,0:11:08.06,Flora_CN,NTP,0,0,0,,小遥 对不起对不起对不起对不起…
+Dialogue: 0,0:11:08.59,0:11:10.33,Flora_CN,NTP,0,0,0,,没事 Pafu
+Dialogue: 0,0:11:11.70,0:11:13.55,Flora_CN,NTP,0,0,0,,料子我还有剩下的
+Dialogue: 0,0:11:13.80,0:11:16.56,Flora_CN,NTP,0,0,0,,只要把这一部分裁掉再补上就行了
+Dialogue: 0,0:11:18.04,0:11:19.84,Twink_CN,NTP,0,0,0,,OK 我也来帮忙
+Dialogue: 0,0:11:20.15,0:11:23.14,Twink_CN,NTP,0,0,0,,两人一起应该能勉强赶上
+Dialogue: 0,0:11:23.55,0:11:25.25,Flora_CN,NTP,0,0,0,,谢谢你 小星星
+Dialogue: 0,0:11:25.56,0:11:27.81,Flora_CN,NTP,0,0,0,,但是我要自己来
+Dialogue: 0,0:11:28.13,0:11:30.78,Flora_CN,NTP,0,0,0,,因为这是接近公主梦想的重要一步嘛
+Dialogue: 0,0:11:31.00,0:11:34.74,Flora_CN,NTP,0,0,0,,所以我想凭自己的力量做到最后
+Dialogue: 0,0:11:35.00,0:11:37.00,Flora_CN,NTP,0,0,0,,凭自己的力量实现梦想
+Dialogue: 0,0:11:37.35,0:11:38.62,Twink_CN,NTP,0,0,0,,还说梦想…
+Dialogue: 0,0:11:38.82,0:11:40.10,Twink_CN,NTP,0,0,0,,就算你有天大的梦想
+Dialogue: 0,0:11:40.29,0:11:42.91,Twink_CN,NTP,0,0,0,,但是现在你一个人肯定赶不及的啊
+Dialogue: 0,0:11:43.12,0:11:45.12,Twink_CN,NTP,0,0,0,,而且你已经累成这样了
+Dialogue: 0,0:11:45.57,0:11:47.21,Flora_CN,NTP,0,0,0,,但是我还是要试试
+Dialogue: 0,0:11:47.37,0:11:48.25,Twink_CN,NTP,0,0,0,,不行的不行的
+Dialogue: 0,0:11:48.39,0:11:49.50,Twink_CN,NTP,0,0,0,,说了赶不及的嘛
+Dialogue: 0,0:11:49.68,0:11:51.13,Twink_CN,NTP,0,0,0,,派对就在明天了哦
+Dialogue: 0,0:11:51.31,0:11:53.31,Flora_CN,NTP,0,0,0,,没问题的 小星星
+Dialogue: 0,0:11:54.69,0:11:57.59,Flora_CN,NTP,0,0,0,,好 再加把劲吧
+Dialogue: 0,0:12:05.31,0:12:08.66,DDark_CN,NTP,0,0,0,,啊 好无聊啊
+Dialogue: 0,0:12:09.19,0:12:11.12,DDark_CN,NTP,0,0,0,,就没有什么有意思的事吗…
+Dialogue: 0,0:12:14.10,0:12:14.80,DDark_CN,NTP,0,0,0,,嗯？
+Dialogue: 0,0:12:20.34,0:12:22.57,Defau_CN,NTP,0,0,0,,得赶在派对开始之前完成
+Dialogue: 0,0:12:24.47,0:12:26.43,DDark_CN,NTP,0,0,0,,甜美的蛋糕加上甜蜜的梦想
+Dialogue: 0,0:12:27.40,0:12:29.81,DDark_CN,NTP,0,0,0,,我要把它们变成苦味呢
+Dialogue: 0,0:12:33.36,0:12:35.78,Defau_CN,NTP,0,0,0,,做出了最美味的蛋糕啦
+Dialogue: 0,0:12:36.23,0:12:39.65,DDark_CN,NTP,0,0,0,,要把这梦想关进绝望的牢笼呢
+Dialogue: 0,0:12:41.22,0:12:42.39,DDark_CN,NTP,0,0,0,,Lock your dream
+Dialogue: 0,0:12:43.44,0:12:45.19,DDark_CN,NTP,0,0,0,,上呢 绝望堡
+Dialogue: 0,0:12:51.71,0:12:53.37,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:12:53.95,0:12:56.16,Twink_CN,NTP,0,0,0,,真是的 你个死脑筋
+Dialogue: 0,0:12:56.48,0:12:59.50,Twink_CN,NTP,0,0,0,,我星彩大人可是主动说了要帮忙的啊
+Dialogue: 0,0:13:02.02,0:13:03.13,Merma_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:13:03.58,0:13:04.63,Merma_CN,NTP,0,0,0,,发生什么了吗
+Dialogue: 0,0:13:04.77,0:13:07.23,Twink_CN,NTP,0,0,0,,还不是小春春的礼服
+Dialogue: 0,0:13:07.45,0:13:09.80,Twink_CN,NTP,0,0,0,,需要重做一大块
+Dialogue: 0,0:13:10.04,0:13:13.54,Twink_CN,NTP,0,0,0,,可是小春春非要自己做
+Dialogue: 0,0:13:13.81,0:13:15.94,Twink_CN,NTP,0,0,0,,明明一个人是赶不及的嘛
+Dialogue: 0,0:13:16.16,0:13:16.87,Merma_CN,NTP,0,0,0,,是吗
+Dialogue: 0,0:13:17.06,0:13:18.27,Twink_CN,NTP,0,0,0,,就一句「是吗」？
+Dialogue: 0,0:13:18.61,0:13:19.39,Merma_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:13:19.87,0:13:22.90,Merma_CN,NTP,0,0,0,,因为小遥说了要自己做的吧
+Dialogue: 0,0:13:23.41,0:13:25.56,Merma_CN,NTP,0,0,0,,那么成全她就好喽
+Dialogue: 0,0:13:25.87,0:13:27.65,Twink_CN,NTP,0,0,0,,南南 你好无情
+Dialogue: 0,0:13:27.83,0:13:29.92,Twink_CN,NTP,0,0,0,,你不打算帮小春春了吗
+Dialogue: 0,0:13:30.22,0:13:31.56,Merma_CN,NTP,0,0,0,,当然不是
+Dialogue: 0,0:13:31.77,0:13:33.30,Twink_CN,NTP,0,0,0,,那么为什么…
+Dialogue: 0,0:13:33.73,0:13:36.26,Merma_CN,NTP,0,0,0,,因为我相信小遥她能行
+Dialogue: 0,0:13:36.42,0:13:37.76,Twink_CN,NTP,0,0,0,,明明不行的
+Dialogue: 0,0:13:37.98,0:13:39.00,Merma_CN,NTP,0,0,0,,能行的
+Dialogue: 0,0:13:39.68,0:13:42.65,Merma_CN,NTP,0,0,0,,如果是打心底里珍惜梦想的小遥的话
+Dialogue: 0,0:13:43.18,0:13:44.19,Merma_CN,NTP,0,0,0,,就一定行
+Dialogue: 0,0:13:44.45,0:13:45.71,Twink_CN,NTP,0,0,0,,又是梦想
+Dialogue: 0,0:13:45.94,0:13:47.03,Twink_CN,NTP,0,0,0,,拥有梦想自然好
+Dialogue: 0,0:13:47.19,0:13:48.25,Twink_CN,NTP,0,0,0,,不过也要现实一点
+Dialogue: 0,0:13:48.41,0:13:49.91,Twink_CN,NTP,0,0,0,,时间太短了啊
+Dialogue: 0,0:13:50.10,0:13:51.35,Twink_CN,NTP,0,0,0,,赶不及的说
+Dialogue: 0,0:13:51.54,0:13:52.85,Aroma_CN,NTP,0,0,0,,不好了
+Dialogue: 0,0:13:53.16,0:13:54.59,Aroma_CN,NTP,0,0,0,,是绝望堡
+Dialogue: 0,0:13:54.77,0:13:55.80,Twink_CN,NTP,0,0,0,,挑这种时候
+Dialogue: 0,0:13:56.12,0:13:57.76,Aroma_CN,NTP,0,0,0,,我去通知小遥
+Dialogue: 0,0:13:58.37,0:13:59.07,Twink_CN,NTP,0,0,0,,等等
+Dialogue: 0,0:14:00.06,0:14:01.72,Twink_CN,NTP,0,0,0,,别跟小春春说
+Dialogue: 0,0:14:02.40,0:14:03.84,Twink_CN,NTP,0,0,0,,可以吧 南南
+Dialogue: 0,0:14:05.14,0:14:06.02,Merma_CN,NTP,0,0,0,,也好
+Dialogue: 0,0:14:08.84,0:14:10.41,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:14:11.31,0:14:12.06,DDark_CN,NTP,0,0,0,,绝？
+Dialogue: 0,0:14:12.77,0:14:13.46,Twink_CN,NTP,0,0,0,,上了
+Dialogue: 0,0:14:13.66,0:14:14.38,Merma_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:14:16.64,0:14:17.97,Merma_CN,NTP,0,0,0,,{\pos(970,705)}Precure
+Dialogue: 0,0:14:16.64,0:14:17.97,Twink_CN,NTP,0,0,0,,{\pos(330,705)}Precure
+Dialogue: 0,0:14:19.31,0:14:21.00,Merma_CN,NTP,0,0,0,,{\pos(970,705)}Princess Engage
+Dialogue: 0,0:14:19.31,0:14:21.00,Twink_CN,NTP,0,0,0,,{\pos(330,705)}Princess Engage
+Dialogue: 0,0:15:01.03,0:15:04.57,Merma_CN,NTP,0,0,0,,澄澈的海洋公主
+Dialogue: 0,0:15:07.70,0:15:08.97,Merma_CN,NTP,0,0,0,,Cure Mermaid
+Dialogue: 0,0:15:12.50,0:15:14.65,Twink_CN,NTP,0,0,0,,闪耀的明星公主
+Dialogue: 0,0:15:17.63,0:15:19.06,Twink_CN,NTP,0,0,0,,Cure Twinkle
+Dialogue: 0,0:15:21.83,0:15:24.14,Merma_CN,NTP,0,0,0,,关在冰冷牢笼里的梦想
+Dialogue: 0,0:15:26.35,0:15:28.21,Twink_CN,NTP,0,0,0,,是时候还我了
+Dialogue: 0,0:15:28.70,0:15:30.79,Twink_CN,NTP,0,0,0,,做好觉悟了？
+Dialogue: 0,0:15:31.27,0:15:33.28,DDark_CN,NTP,0,0,0,,来了呢 Princess Precure
+Dialogue: 0,0:15:33.88,0:15:34.93,DDark_CN,NTP,0,0,0,,上
+Dialogue: 0,0:15:35.09,0:15:37.55,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:15:59.16,0:16:01.48,Twink_CN,NTP,0,0,0,,得带着小春春的那一份一起努力了
+Dialogue: 0,0:16:01.64,0:16:02.83,Flora_CN,NTP,0,0,0,,等等
+Dialogue: 0,0:16:07.41,0:16:08.45,Merma_CN,NTP,0,0,0,,{\pos(370,705)}小遥
+Dialogue: 0,0:16:07.41,0:16:08.45,Twink_CN,NTP,0,0,0,,{\pos(770,705)}小春春
+Dialogue: 0,0:16:12.15,0:16:13.32,Flora_CN,NTP,0,0,0,,Precure
+Dialogue: 0,0:16:14.73,0:16:16.43,Flora_CN,NTP,0,0,0,,Princess Engage
+Dialogue: 0,0:17:06.19,0:17:09.05,Flora_CN,NTP,0,0,0,,绽放的花朵公主
+Dialogue: 0,0:17:11.96,0:17:13.48,Flora_CN,NTP,0,0,0,,Cure Flora
+Dialogue: 0,0:17:15.91,0:17:17.05,Flora_CN,NTP,0,0,0,,没事吧
+Dialogue: 0,0:17:17.49,0:17:18.67,Flora_CN,NTP,0,0,0,,还好
+Dialogue: 0,0:17:19.72,0:17:21.49,DDark_CN,NTP,0,0,0,,你迟到了呢 Cure Flora
+Dialogue: 0,0:17:21.75,0:17:22.84,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:17:25.71,0:17:26.92,Twink_CN,NTP,0,0,0,,你来干啥
+Dialogue: 0,0:17:27.10,0:17:30.09,Twink_CN,NTP,0,0,0,,这里交给我们就好了
+Dialogue: 0,0:17:39.20,0:17:39.98,Twink_CN,NTP,0,0,0,,为什么
+Dialogue: 0,0:17:40.13,0:17:41.73,Twink_CN,NTP,0,0,0,,明明累成那样了
+Dialogue: 0,0:17:42.18,0:17:44.16,Flora_CN,NTP,0,0,0,,我要成为公主
+Dialogue: 0,0:17:44.50,0:17:45.67,Flora_CN,NTP,0,0,0,,为了这个梦想
+Dialogue: 0,0:17:45.85,0:17:48.59,Flora_CN,NTP,0,0,0,,做礼服 学习 当Precure
+Dialogue: 0,0:17:49.09,0:17:50.29,Flora_CN,NTP,0,0,0,,我全都要尽全力
+Dialogue: 0,0:17:50.82,0:17:53.68,Flora_CN,NTP,0,0,0,,为了用这双手实现梦想
+Dialogue: 0,0:17:53.85,0:17:56.99,DDark_CN,NTP,0,0,0,,绝 望 堡
+Dialogue: 0,0:18:00.27,0:18:01.37,Merma_CN,NTP,0,0,0,,能行的
+Dialogue: 0,0:18:02.10,0:18:05.00,Merma_CN,NTP,0,0,0,,如果是打心底里珍惜梦想的小遥的话
+Dialogue: 0,0:18:05.51,0:18:06.41,Merma_CN,NTP,0,0,0,,就一定行
+Dialogue: 0,0:18:07.98,0:18:09.46,Flora_CN,NTP,0,0,0,,为了抓住梦想
+Dialogue: 0,0:18:09.68,0:18:12.13,Flora_CN,NTP,0,0,0,,我得更加努力
+Dialogue: 0,0:18:12.55,0:18:15.62,Flora_CN,NTP,0,0,0,,为了教会我这一点的Mermaid
+Dialogue: 0,0:18:16.66,0:18:19.00,Twink_CN,NTP,0,0,0,,你们俩一直都是明白的
+Dialogue: 0,0:18:19.69,0:18:21.55,Twink_CN,NTP,0,0,0,,但是我…
+Dialogue: 0,0:18:21.92,0:18:27.73,Flora_CN,NTP,0,0,0,,还有为了非常担心我的Twinkle
+Dialogue: 0,0:18:28.70,0:18:30.04,Flora_CN,NTP,0,0,0,,我会努力
+Dialogue: 0,0:18:34.28,0:18:35.74,Flora_CN,NTP,0,0,0,,我想努力
+Dialogue: 0,0:18:39.04,0:18:40.10,Twink_CN,NTP,0,0,0,,Flora
+Dialogue: 0,0:18:40.37,0:18:43.07,DDark_CN,NTP,0,0,0,,真是的 今天吵得我心烦死了
+Dialogue: 0,0:18:43.50,0:18:45.03,DDark_CN,NTP,0,0,0,,给我安静点呢
+Dialogue: 0,0:18:45.63,0:18:46.45,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:18:46.97,0:18:48.25,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:18:49.43,0:18:52.49,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:18:52.62,0:18:53.49,Twink_CN,NTP,0,0,0,,Flora
+Dialogue: 0,0:18:54.47,0:18:55.40,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:18:59.57,0:19:04.48,DDark_CN,NTP,0,0,0,,梦想什么的我分分钟让它变成绝望呢
+Dialogue: 0,0:19:04.99,0:19:05.98,Twink_CN,NTP,0,0,0,,休想
+Dialogue: 0,0:19:06.23,0:19:08.77,Merma_CN,NTP,0,0,0,,Flora的梦想我要誓死保护
+Dialogue: 0,0:19:09.48,0:19:10.79,Twink_CN,NTP,0,0,0,,Flora的话一定
+Dialogue: 0,0:19:11.09,0:19:11.75,Twink_CN,NTP,0,0,0,,不
+Dialogue: 0,0:19:11.93,0:19:14.91,Twink_CN,NTP,0,0,0,,绝对能做出漂亮的礼服
+Dialogue: 0,0:19:15.10,0:19:16.41,DDark_CN,NTP,0,0,0,,绝
+Dialogue: 0,0:19:21.09,0:19:22.07,Merma_CN,NTP,0,0,0,,Flora
+Dialogue: 0,0:19:24.43,0:19:25.53,Twink_CN,NTP,0,0,0,,Exchange
+Dialogue: 0,0:19:28.93,0:19:30.27,Twink_CN,NTP,0,0,0,,{\pos(640,650)}{\fs30}Mode Elegant
+Dialogue: 0,0:19:28.93,0:19:30.27,Twink_CN,NTP,0,0,0,,优雅模式
+Dialogue: 0,0:19:38.56,0:19:40.14,Twink_CN,NTP,0,0,0,,闪烁吧 星光
+Dialogue: 0,0:19:41.66,0:19:45.80,Twink_CN,NTP,0,0,0,,Precure Twinkle Humming
+Dialogue: 0,0:19:49.09,0:19:49.96,DDark_CN,NTP,0,0,0,,啥
+Dialogue: 0,0:19:50.12,0:19:50.76,Twink_CN,NTP,0,0,0,,Mermaid
+Dialogue: 0,0:19:50.97,0:19:51.56,Merma_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:56.39,0:19:58.67,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:19:59.68,0:20:00.42,Merma_CN,NTP,0,0,0,,Flora
+Dialogue: 0,0:20:00.87,0:20:01.59,Flora_CN,NTP,0,0,0,,是
+Dialogue: 0,0:20:03.32,0:20:04.33,Flora_CN,NTP,0,0,0,,Exchange
+Dialogue: 0,0:20:05.02,0:20:06.31,Flora_CN,NTP,0,0,0,,{\pos(640,650)}{\fs30}Mode Elegant
+Dialogue: 0,0:20:05.02,0:20:06.31,Flora_CN,NTP,0,0,0,,优雅模式
+Dialogue: 0,0:20:23.17,0:20:25.09,Flora_CN,NTP,0,0,0,,飞舞吧 花朵
+Dialogue: 0,0:20:25.97,0:20:31.18,Flora_CN,NTP,0,0,0,,Precure Floral Tourbillon
+Dialogue: 0,0:20:34.07,0:20:36.16,DDark_CN,NTP,0,0,0,,Dreaming…
+Dialogue: 0,0:20:43.69,0:20:44.79,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:20:47.70,0:20:50.03,DDark_CN,NTP,0,0,0,,嗯 还是挺有意思的呢
+Dialogue: 0,0:20:50.53,0:20:51.94,DDark_CN,NTP,0,0,0,,Princess Precure
+Dialogue: 0,0:20:52.36,0:20:53.82,DDark_CN,NTP,0,0,0,,我会再来玩的
+Dialogue: 0,0:20:56.51,0:20:57.29,Flora_CN,NTP,0,0,0,,打开
+Dialogue: 0,0:20:58.69,0:21:00.02,Flora_CN,NTP,0,0,0,,通向梦想的大门
+Dialogue: 0,0:21:09.52,0:21:11.52,Flora_CN,NTP,0,0,0,,期待你的蛋糕
+Dialogue: 0,0:21:13.22,0:21:14.70,Twink_CN,NTP,0,0,0,,喂 没事吧
+Dialogue: 0,0:21:15.30,0:21:16.55,Flora_CN,NTP,0,0,0,,还好
+Dialogue: 0,0:21:16.86,0:21:17.68,Twink_CN,NTP,0,0,0,,真是的
+Dialogue: 0,0:21:24.69,0:21:26.16,Flora_CN,NTP,0,0,0,,完成了
+Dialogue: 0,0:21:26.32,0:21:27.32,Twink_CN,NTP,0,0,0,,小春春
+Dialogue: 0,0:21:27.55,0:21:29.41,Merma_CN,NTP,0,0,0,,你做的真好 小遥
+Dialogue: 0,0:21:29.64,0:21:32.03,MissS_CN,NTP,0,0,0,,嗯～ Very Good Job
+Dialogue: 0,0:21:32.38,0:21:33.68,Twink_CN,NTP,0,0,0,,竟然顺利赶上了
+Dialogue: 0,0:21:33.86,0:21:35.49,Twink_CN,NTP,0,0,0,,小春春真厉害
+Dialogue: 0,0:21:37.28,0:21:39.85,Flora_CN,NTP,0,0,0,,谢谢你来帮我
+Dialogue: 0,0:21:40.27,0:21:43.22,Twink_CN,NTP,0,0,0,,诶？我什么都没做啊
+Dialogue: 0,0:21:43.55,0:21:44.83,Flora_CN,NTP,0,0,0,,当然做了
+Dialogue: 0,0:21:45.03,0:21:47.44,Flora_CN,NTP,0,0,0,,你非常担心我
+Dialogue: 0,0:21:47.61,0:21:49.00,Flora_CN,NTP,0,0,0,,为我加油
+Dialogue: 0,0:21:49.19,0:21:51.99,Flora_CN,NTP,0,0,0,,还有为了我这么高兴
+Dialogue: 0,0:21:52.20,0:21:54.18,Twink_CN,NTP,0,0,0,,我并没有…
+Dialogue: 0,0:21:54.44,0:21:55.35,Merma_CN,NTP,0,0,0,,是呢
+Dialogue: 0,0:21:55.55,0:21:57.33,Merma_CN,NTP,0,0,0,,星彩是很温柔的呢
+Dialogue: 0,0:21:57.64,0:22:00.12,Twink_CN,NTP,0,0,0,,喂 怎么连南南也说这种话
+Dialogue: 0,0:22:00.44,0:22:05.57,Twink_CN,NTP,0,0,0,,我只是希望小春春的礼服早点做好罢了…
+Dialogue: 0,0:22:07.26,0:22:09.40,Twink_CN,NTP,0,0,0,,所以才…
+Dialogue: 0,0:22:09.57,0:22:12.02,Flora_CN,NTP,0,0,0,,星彩 你的脸好红呀
+Dialogue: 0,0:22:13.93,0:22:15.78,Twink_CN,NTP,0,0,0,,你们啊～
+Dialogue: 0,0:22:16.31,0:22:18.28,Twink_CN,NTP,0,0,0,,合起来欺负我～
+Dialogue: 0,0:22:20.08,0:22:22.33,Twink_CN,NTP,0,0,0,,我可不是为了小春春才这么做的哦
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,＝
+Dialogue: 0,0:22:25.90,0:22:27.76,Merma_CN,NTP,0,0,0,,向着电影院 GoGo
+Dialogue: 0,0:22:28.09,0:22:29.18,Merma_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,＝
+Dialogue: 0,0:24:00.93,0:24:01.90,Flora_CN,NTP,0,0,0,,好美妙 好美妙
+Dialogue: 0,0:24:02.07,0:24:04.95,Flora_CN,NTP,0,0,0,,穿着礼服跳舞 仿佛在童话里
+Dialogue: 0,0:24:05.51,0:24:07.15,Flora_CN,NTP,0,0,0,,Go！Princess Precure
+Dialogue: 0,0:24:07.45,0:24:10.40,Flora_CN,NTP,0,0,0,,升起幕布吧！憧憬的光辉派对！
+Dialogue: 0,0:24:10.86,0:24:11.99,Flora_CN,NTP,0,0,0,,朝着梦想 GoGo
+Dialogue: 0,0:24:12.16,0:24:13.22,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,＝
+Dialogue: 0,0:24:15.89,0:24:17.96,Flora_CN,NTP,0,0,0,,和前辈们一起跳舞唱歌
+Dialogue: 0,0:24:18.11,0:24:19.52,Flora_CN,NTP,0,0,0,,太美好了
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========OP========
+Dialogue: 0,0:00:42.52,0:00:44.91,Flora_CN,NTP,0,0,0,,坚强 温柔 美丽
+Dialogue: 0,0:00:45.31,0:00:48.23,Flora_CN,NTP,0,0,0,,这是打算成为真正公主的三个人的故事
+Dialogue: 0,0:00:48.53,0:00:52.43,Flora_CN,NTP,0,0,0,,朝着梦想 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:58.14,0:01:04.37,OP-CN,NTP,0,0,0,,展翅高飞Princess 轻轻飘飘笔直飞向梦想!!
+Dialogue: 0,0:01:04.62,0:01:11.57,OP-CN,NTP,0,0,0,,努力之后Happy Come! 引发奇迹 Go! Princess Precure
+Dialogue: 0,0:01:15.88,0:01:20.91,OP-CN,NTP,0,0,0,,笑脸是宝石 女孩子是公主{\fnDroid Sans Fallback}♥　
+Dialogue: 0,0:01:21.08,0:01:27.00,OP-CN,NTP,0,0,0,,心里揪揪揪欢闹不已 打开那扇门吧
+Dialogue: 0,0:01:27.07,0:01:32.07,OP-CN,NTP,0,0,0,,天晴时道一声「贵安」 坚强 温柔 美丽！
+Dialogue: 0,0:01:32.27,0:01:38.20,OP-CN,NTP,0,0,0,,兴高采烈地奏起歌 朝向遥远的彼方
+Dialogue: 0,0:01:38.36,0:01:45.41,OP-CN,NTP,0,0,0,,就算在陌生而不安的地方 换上裙子 振奋心情
+Dialogue: 0,0:01:45.70,0:01:50.01,OP-CN,NTP,0,0,0,,喊着「一二!」 踏出脚步
+Dialogue: 0,0:01:53.35,0:01:59.34,OP-CN,NTP,0,0,0,,相信自己Princess 抓住闪闪亮亮光芒四射的爱!!
+Dialogue: 0,0:01:59.84,0:02:04.45,OP-CN,NTP,0,0,0,,勇气 认真 美丽 乐观是钥匙…!?
+Dialogue: 0,0:02:04.62,0:02:10.71,OP-CN,NTP,0,0,0,,展翅高飞Princess 追逐花朵海洋和星星 不论到哪里
+Dialogue: 0,0:02:11.00,0:02:18.09,OP-CN,NTP,0,0,0,,竭尽所能 Flying High! 我们骄傲的 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:02:24.24,0:02:31.04,Defau_CN,NTP,0,0,0,,{\fad(200,0)\fnMicrosoft YaHei\b0\shad0\bord3}妇联大友团
+Dialogue: 0,0:02:31.04,0:02:35.05,Defau_CN,NTP,0,0,0,,{\fnMicrosoft YaHei\b0\shad0\bord3}翻译:syan 杂务:时雨家的妹抖 繁化:小綠 协力:ayukas 自助烤肉:蛇富帅
+Dialogue: 0,0:02:35.05,0:02:38.84,Defau_CN,NTP,0,0,0,,{\fad(0,200)\fnMicrosoft YaHei\b0\shad0\bord3}雪飘工作室 http://bbs.flsnow.net
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========ED1========
+Dialogue: 0,0:22:34.93,0:22:37.95,ED-CN,NTP,0,0,0,,明日与回忆
+Dialogue: 0,0:22:38.14,0:22:41.35,ED-CN,NTP,0,0,0,,相交的旋律
+Dialogue: 0,0:22:41.54,0:22:45.48,ED-CN,NTP,0,0,0,,唦啦啦{\fnDroid Sans Fallback}♪　{\r}变成公主
+Dialogue: 0,0:22:45.79,0:22:47.58,ED-CN,NTP,0,0,0,,跳舞吧
+Dialogue: 0,0:22:47.58,0:22:51.38,ED-CN,NTP,0,0,0,,一 二 三 Precure
+Dialogue: 0,0:22:57.95,0:23:03.85,ED-CN,NTP,0,0,0,,绽放的笑脸胜过宝石
+Dialogue: 0,0:23:04.31,0:23:09.98,ED-CN,NTP,0,0,0,,一闪一闪 装饰大家的心
+Dialogue: 0,0:23:10.24,0:23:15.37,ED-CN,NTP,0,0,0,,升起舞会的幕布吧
+Dialogue: 0,0:23:16.78,0:23:22.62,ED-CN,NTP,0,0,0,,Gorgeous！Precious！Shall we dance！在朝思暮想的舞台上
+Dialogue: 0,0:23:22.81,0:23:29.65,ED-CN,NTP,0,0,0,,真棒！ 坚强 温柔 美丽！
+Dialogue: 0,0:23:29.90,0:23:35.67,ED-CN,NTP,0,0,0,,只要有梦 世界就会改变
+Dialogue: 0,0:23:35.99,0:23:42.89,ED-CN,NTP,0,0,0,,用这双手 打开明天的锁
+Dialogue: 0,0:23:44.08,0:23:55.01,ED-CN,NTP,0,0,0,,贵安… 贵安…
+Dialogue: 0,0:23:57.22,0:23:58.28,ED-CN,NTP,0,0,0,,Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,

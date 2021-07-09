@@ -1,0 +1,390 @@
+﻿[Script Info]
+Title: [Erai-raws] 14 _[ja_38
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+Video Zoom Percent: 1
+Scroll Position: 0
+Active Line: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,源ノ角ゴシック,60,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.11,0:00:02.78,Default,,0,0,0,,{\c&Hffffff&}（筆で描く音）
+Dialogue: 0,0:00:03.33,0:00:06.41,Default,,0,0,0,,{\c&Hffffff&}（トーマス）モントーヤは\N自分の画風が見つからなくて
+Dialogue: 0,0:00:06.54,0:00:08.33,Default,,0,0,0,,{\c&Hffffff&}相当 苦労したらしい
+Dialogue: 0,0:00:08.79,0:00:10.92,Default,,0,0,0,,{\c&Hffffff&}彼は ひたすら模写した
+Dialogue: 0,0:00:11.25,0:00:15.92,Default,,0,0,0,,{\c&Hffffff&}尊敬する画家の絵を\N徹底的に分析し 追求し続け
+Dialogue: 0,0:00:16.05,0:00:18.80,Default,,0,0,0,,{\c&Hffffff&}ついに\N自分の絵にたどりついたんだ
+Dialogue: 0,0:00:19.97,0:00:24.18,Default,,0,0,0,,{\c&Hffffff&}僕は結局\Nたどりつけなかったけどね
+Dialogue: 0,0:00:25.31,0:00:31.31,Default,,0,0,0,,{\an8\c&Hffffff&}♪〜
+Dialogue: 0,0:01:23.74,0:01:29.75,Default,,0,0,0,,{\an8\c&Hffffff&}〜♪
+Dialogue: 0,0:01:30.25,0:01:32.92,Default,,0,0,0,,{\c&Hffffff&}（鳥の鳴き声）\N{\c&Hffffff&}（エダマメ）う〜ん
+Dialogue: 0,0:01:33.25,0:01:35.00,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）こっち！\N（トーマス）残念
+Dialogue: 0,0:01:35.13,0:01:36.75,Default,,0,0,0,,{\c&Hffffff&}全然 見分けがつかねえ！
+Dialogue: 0,0:01:37.63,0:01:39.17,Default,,0,0,0,,{\c&Hffffff&}（トーマス）言いたかないが
+Dialogue: 0,0:01:39.30,0:01:42.84,Default,,0,0,0,,{\c&Hffffff&}この違いが分かるとしたら\Nコールマンくらいかもね
+Dialogue: 0,0:01:44.05,0:01:45.72,Default,,0,0,0,,{\c&Hffffff&}（トーマス）シルバーのほうが本物
+Dialogue: 0,0:01:46.05,0:01:49.39,Default,,0,0,0,,{\c&Hffffff&}黒いほうが偽物だな\Nこれなら間違いっこねえ
+Dialogue: 0,0:01:49.52,0:01:52.23,Default,,0,0,0,,{\c&Hffffff&}（バイブ音）
+Dialogue: 0,0:01:53.89,0:01:56.15,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）\Nああ 金は振り込んだべ
+Dialogue: 0,0:01:56.44,0:01:59.23,Default,,0,0,0,,{\c&Hffffff&}確認したら… ああ　じゃ
+Dialogue: 0,0:02:00.40,0:02:02.40,Default,,0,0,0,,{\c&Hffffff&}これで おめえの借金はチャラだべ
+Dialogue: 0,0:02:03.11,0:02:05.87,Default,,0,0,0,,{\c&Hffffff&}ハア… 晴れて自由の身か
+Dialogue: 0,0:02:06.16,0:02:08.37,Default,,0,0,0,,{\c&Hffffff&}二度と描かないと決めてたのに
+Dialogue: 0,0:02:09.08,0:02:11.62,Default,,0,0,0,,{\c&Hffffff&}何が起きるか分からないもんだ
+Dialogue: 0,0:02:11.75,0:02:18.42,Default,,0,0,0,,{\c&Hffffff&}（鐘の音）
+Dialogue: 0,0:02:19.88,0:02:21.71,Default,,0,0,0,,{\c&Hffffff&}シルバーが本物
+Dialogue: 0,0:02:25.76,0:02:27.55,Default,,0,0,0,,{\c&Hffffff&}エドワード８世…
+Dialogue: 0,0:02:33.89,0:02:35.64,Default,,0,0,0,,{\c&Hffffff&}（アビー）招待状が届きました
+Dialogue: 0,0:02:35.77,0:02:36.69,Default,,0,0,0,,{\c&Hffffff&}（コールマン）ローランからか
+Dialogue: 0,0:02:37.65,0:02:40.78,Default,,0,0,0,,{\c&Hffffff&}闇オークションの詳細は\N調べきれませんでした
+Dialogue: 0,0:02:40.98,0:02:43.99,Default,,0,0,0,,{\c&Hffffff&}「ロンドンの雪」の相場は\N出たとこ勝負かと
+Dialogue: 0,0:02:44.20,0:02:45.53,Default,,0,0,0,,{\c&Hffffff&}そこら辺は心配ない
+Dialogue: 0,0:02:46.16,0:02:48.20,Default,,0,0,0,,{\c&Hffffff&}ちゃんと言い聞かせてある
+Dialogue: 0,0:02:48.32,0:02:50.16,Default,,0,0,0,,{\c&Hffffff&}“必ず競り落とせ”とな
+Dialogue: 0,0:02:50.28,0:02:53.75,Default,,0,0,0,,{\c&Hffffff&}ですが いくらファラさんでも\N資金が足りるでしょうか？
+Dialogue: 0,0:02:53.87,0:02:54.71,Default,,0,0,0,,{\c&Hffffff&}（コールマン）フン！
+Dialogue: 0,0:02:56.08,0:02:57.50,Default,,0,0,0,,{\c&Hffffff&}（ファラ）ロイズに連絡は？
+Dialogue: 0,0:02:57.83,0:02:59.96,Default,,0,0,0,,{\c&Hffffff&}（執事）\N現金化のことでしたら まだです
+Dialogue: 0,0:03:00.09,0:03:01.30,Default,,0,0,0,,{\c&Hffffff&}（ファラ）さっさとなさい！
+Dialogue: 0,0:03:02.05,0:03:05.72,Default,,0,0,0,,{\c&Hffffff&}お言葉ですが\Nもう少し慎重に ご決断を
+Dialogue: 0,0:03:05.84,0:03:06.68,Default,,0,0,0,,{\c&Hffffff&}（ファラ）ティム！
+Dialogue: 0,0:03:07.05,0:03:08.43,Default,,0,0,0,,{\c&Hffffff&}失礼しました
+Dialogue: 0,0:03:09.35,0:03:12.47,Default,,0,0,0,,{\c&Hffffff&}では\N不要と思われる不動産を優先的に
+Dialogue: 0,0:03:12.60,0:03:13.43,Default,,0,0,0,,{\c&Hffffff&}ええ
+Dialogue: 0,0:03:14.14,0:03:17.23,Default,,0,0,0,,{\c&Hffffff&}ティム\Nジェームズが頼んでるのよ
+Dialogue: 0,0:03:17.56,0:03:18.40,Default,,0,0,0,,{\c&Hffffff&}（執事）はい
+Dialogue: 0,0:03:19.86,0:03:21.40,Default,,0,0,0,,{\c&Hffffff&}（ローラン）不動産を売っ払って
+Dialogue: 0,0:03:22.82,0:03:24.44,Default,,0,0,0,,{\c&Hffffff&}5000万ポンドか
+Dialogue: 0,0:03:24.82,0:03:27.45,Default,,0,0,0,,{\c&Hffffff&}せめて 7000万 取れないかなあ
+Dialogue: 0,0:03:27.57,0:03:29.41,Default,,0,0,0,,{\c&Hffffff&}そんな金 どこにあるだ！
+Dialogue: 0,0:03:29.53,0:03:31.74,Default,,0,0,0,,{\c&Hffffff&}（工藤(くどう)）5000万でも十分ですって！
+Dialogue: 0,0:03:32.08,0:03:35.20,Default,,0,0,0,,{\c&Hffffff&}またファラがビビっちまったら\N元も子もないでしょう
+Dialogue: 0,0:03:35.91,0:03:37.54,Default,,0,0,0,,{\c&Hffffff&}リーダーのご意見は？
+Dialogue: 0,0:03:37.71,0:03:40.46,Default,,0,0,0,,{\c&Hffffff&}（シンシア）\Nコールマンに仕えし哀れな子羊は
+Dialogue: 0,0:03:40.58,0:03:42.34,Default,,0,0,0,,{\c&Hffffff&}7000万で許しちゃおう
+Dialogue: 0,0:03:42.46,0:03:45.51,Default,,0,0,0,,{\c&Hffffff&}さすがリーダー 器がでかい
+Dialogue: 0,0:03:45.63,0:03:46.55,Default,,0,0,0,,{\c&Hffffff&}（シンシア）アビー
+Dialogue: 0,0:03:47.59,0:03:50.55,Default,,0,0,0,,{\c&Hffffff&}彼に連絡しといたから\Nうまく やっといてね
+Dialogue: 0,0:03:50.89,0:03:53.60,Default,,0,0,0,,{\c&Hffffff&}これでバッチリ目が覚める
+Dialogue: 0,0:04:24.84,0:04:27.21,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）シチリアの\Nドン･サルバトーレ様だべか？
+Dialogue: 0,0:04:27.46,0:04:28.97,Default,,0,0,0,,{\c&Hffffff&}そちらへ お進みくだせえ
+Dialogue: 0,0:04:29.09,0:04:29.93,Default,,0,0,0,,{\c&Hffffff&}（工藤）ハッハッハ…
+Dialogue: 0,0:04:30.05,0:04:33.47,Default,,0,0,0,,{\an5\c&Hffffff&}（エダマメ）\N日本からお越しの工藤組長！\Nお元気そうで
+Dialogue: 0,0:04:33.60,0:04:38.43,Default,,0,0,0,,{\c&Hffffff&}ソウルの赤龍会(せきりゅうかい) ソン会長まで！\Nいつも お美しい限りで
+Dialogue: 0,0:04:38.81,0:04:40.44,Default,,0,0,0,,{\c&Hffffff&}（ファラ）全員 マフィアなの？
+Dialogue: 0,0:04:40.56,0:04:41.81,Default,,0,0,0,,{\c&Hffffff&}あまり目を合わせるな
+Dialogue: 0,0:04:42.73,0:04:45.07,Default,,0,0,0,,{\c&Hffffff&}ようこそ\Nジェームズ･コールマン様
+Dialogue: 0,0:04:45.19,0:04:47.19,Default,,0,0,0,,{\c&Hffffff&}金属探知は せずに\Nお入(へえ)りくだせえ
+Dialogue: 0,0:04:47.61,0:04:49.20,Default,,0,0,0,,{\c&Hffffff&}いい発音だな
+Dialogue: 0,0:04:51.53,0:04:53.28,Default,,0,0,0,,{\c&Hffffff&}クロークは入って左にあるだ
+Dialogue: 0,0:04:58.25,0:04:59.21,Default,,0,0,0,,{\c&Hffffff&}（執事）さてと
+Dialogue: 0,0:04:59.79,0:05:02.08,Default,,0,0,0,,{\c&Hffffff&}昨日 変な電話が きてね
+Dialogue: 0,0:05:02.21,0:05:04.21,Default,,0,0,0,,{\c&Hffffff&}君からいろいろ聞けって
+Dialogue: 0,0:05:05.21,0:05:08.84,Default,,0,0,0,,{\c&Hffffff&}今 ファラさんを助けられるのは\Nあなたしかいません
+Dialogue: 0,0:05:12.80,0:05:14.72,Default,,0,0,0,,{\c&Hffffff&}（客の笑い声）
+Dialogue: 0,0:05:15.43,0:05:18.35,Default,,0,0,0,,{\c&Hffffff&}クロークの手際の悪さでさえ\N目に余る
+Dialogue: 0,0:05:19.18,0:05:20.85,Default,,0,0,0,,{\c&Hffffff&}素人どもめ
+Dialogue: 0,0:05:23.06,0:05:25.15,Default,,0,0,0,,{\c&Hffffff&}（ファラ）ずいぶん本格的なのね
+Dialogue: 0,0:05:25.65,0:05:28.19,Default,,0,0,0,,{\c&Hffffff&}ＳＮＳで広まらないのが残念だな
+Dialogue: 0,0:05:28.32,0:05:32.11,Default,,0,0,0,,{\an5\c&Hffffff&}（工藤）\Nこの前はシャガールのベラに\Nひと目ぼれしちゃってね
+Dialogue: 0,0:05:32.28,0:05:35.16,Default,,0,0,0,,{\c&Hffffff&}うちのトイレは\Nセザンヌの自画像ざます
+Dialogue: 0,0:05:36.12,0:05:38.04,Default,,0,0,0,,{\c&Hffffff&}変わった方がいるのね
+Dialogue: 0,0:05:38.29,0:05:40.96,Default,,0,0,0,,{\c&Hffffff&}（コールマン）\N実に不快極まりない連中だ
+Dialogue: 0,0:05:45.08,0:05:46.67,Default,,0,0,0,,{\c&Hffffff&}（ローラン）人は言います
+Dialogue: 0,0:05:47.00,0:05:51.51,Default,,0,0,0,,{\c&Hffffff&}“優れた芸術作品は\N全人類共有の財産だ”と
+Dialogue: 0,0:05:52.05,0:05:54.34,Default,,0,0,0,,{\c&Hffffff&}果たして本当にそうでしょうか
+Dialogue: 0,0:05:54.93,0:06:00.89,Default,,0,0,0,,{\c&Hffffff&}作品にとって本当の幸せとは\N芸術を深く愛する者に独占され
+Dialogue: 0,0:06:01.02,0:06:03.64,Default,,0,0,0,,{\c&Hffffff&}鑑賞されることではないでしょうか
+Dialogue: 0,0:06:04.27,0:06:06.06,Default,,0,0,0,,{\c&Hffffff&}知ったふうなことを
+Dialogue: 0,0:06:07.23,0:06:11.32,Default,,0,0,0,,{\c&Hffffff&}（ローラン）ここ こそが\N真に芸術を愛する者の集う場所
+Dialogue: 0,0:06:12.03,0:06:17.03,Default,,0,0,0,,{\c&Hffffff&}ようこそ 世界最高峰\N唯一無二のオークションへ！
+Dialogue: 0,0:06:18.12,0:06:24.67,Default,,0,0,0,,{\c&Hffffff&}（歓声）
+Dialogue: 0,0:06:24.79,0:06:26.13,Default,,0,0,0,,{\c&Hffffff&}悪趣味な…
+Dialogue: 0,0:06:28.38,0:06:32.30,Default,,0,0,0,,{\c&Hffffff&}（ローラン）最初の作品\Nマルクス･ウーゴ 「無題」
+Dialogue: 0,0:06:32.42,0:06:33.97,Default,,0,0,0,,{\c&Hffffff&}（ファラ）あれは どれくらい？
+Dialogue: 0,0:06:34.09,0:06:37.64,Default,,0,0,0,,{\c&Hffffff&}（コールマン）落札価格は\N３万ポンドがいいところだろう
+Dialogue: 0,0:06:38.22,0:06:39.56,Default,,0,0,0,,{\c&Hffffff&}10万ポンドから
+Dialogue: 0,0:06:39.72,0:06:40.56,Default,,0,0,0,,{\c&Hffffff&}10万？
+Dialogue: 0,0:06:40.68,0:06:41.89,Default,,0,0,0,,{\c&Hffffff&}（工藤）13万！
+Dialogue: 0,0:06:42.10,0:06:43.35,Default,,0,0,0,,{\c&Hffffff&}（シウォン）15万だ！
+Dialogue: 0,0:06:43.85,0:06:45.98,Default,,0,0,0,,{\c&Hffffff&}（ローラン）16… そちらは20
+Dialogue: 0,0:06:46.60,0:06:49.86,Default,,0,0,0,,{\c&Hffffff&}25… 後ろのほうの方 28
+Dialogue: 0,0:06:50.90,0:06:51.98,Default,,0,0,0,,{\c&Hffffff&}はい 30！
+Dialogue: 0,0:06:52.28,0:06:54.28,Default,,0,0,0,,{\c&Hffffff&}ほかには… 32！
+Dialogue: 0,0:06:54.78,0:06:58.03,Default,,0,0,0,,{\c&Hffffff&}よろしいですか 32万！
+Dialogue: 0,0:06:58.66,0:06:59.49,Default,,0,0,0,,{\c&Hffffff&}落札！
+Dialogue: 0,0:07:01.20,0:07:04.50,Default,,0,0,0,,{\c&Hffffff&}ミシェル･チャン\N「冬の朝」 2005年
+Dialogue: 0,0:07:04.87,0:07:05.91,Default,,0,0,0,,{\c&Hffffff&}８万
+Dialogue: 0,0:07:06.12,0:07:07.62,Default,,0,0,0,,{\c&Hffffff&}（ローラン）20万ポンドから
+Dialogue: 0,0:07:08.21,0:07:10.13,Default,,0,0,0,,{\c&Hffffff&}（工藤）25万！\N（シウォン）30万！
+Dialogue: 0,0:07:10.50,0:07:13.63,Default,,0,0,0,,{\c&Hffffff&}35… 40… 45…
+Dialogue: 0,0:07:14.17,0:07:17.59,Default,,0,0,0,,{\c&Hffffff&}46… 47… 50！
+Dialogue: 0,0:07:17.97,0:07:20.18,Default,,0,0,0,,{\c&Hffffff&}50万で落札！
+Dialogue: 0,0:07:20.55,0:07:24.06,Default,,0,0,0,,{\c&Hffffff&}サダオ･ミヤギ 「バール」 1920年
+Dialogue: 0,0:07:24.35,0:07:25.27,Default,,0,0,0,,{\c&Hffffff&}18万
+Dialogue: 0,0:07:26.35,0:07:28.73,Default,,0,0,0,,{\c&Hffffff&}では 82万で落札！
+Dialogue: 0,0:07:29.48,0:07:32.23,Default,,0,0,0,,{\c&Hffffff&}ミラン･ミラノビッチ 「三人の娘」
+Dialogue: 0,0:07:32.57,0:07:33.57,Default,,0,0,0,,{\c&Hffffff&}25万
+Dialogue: 0,0:07:33.94,0:07:35.53,Default,,0,0,0,,{\c&Hffffff&}103万で落札！
+Dialogue: 0,0:07:39.82,0:07:41.78,Default,,0,0,0,,{\c&Hffffff&}ジェームズ 大丈夫？
+Dialogue: 0,0:07:42.41,0:07:46.21,Default,,0,0,0,,{\c&Hffffff&}なんと悪趣味なマネーゲーム\N芸術への冒涜(ぼうとく)だ
+Dialogue: 0,0:07:46.79,0:07:49.08,Default,,0,0,0,,{\c&Hffffff&}「ロンドンの雪」なら大丈夫よ
+Dialogue: 0,0:07:49.21,0:07:50.96,Default,,0,0,0,,{\c&Hffffff&}あの絵は きっとあなたのもの
+Dialogue: 0,0:07:51.46,0:07:54.09,Default,,0,0,0,,{\c&Hffffff&}（ファラ）私に任せて\N（工藤）5000万ってとこかな
+Dialogue: 0,0:07:54.46,0:07:55.30,Default,,0,0,0,,{\c&Hffffff&}（シウォン）甘いね
+Dialogue: 0,0:07:55.42,0:07:59.22,Default,,0,0,0,,{\c&Hffffff&}6000万 いや\Nおそらく7000万だろうね
+Dialogue: 0,0:07:59.34,0:08:00.64,Default,,0,0,0,,{\c&Hffffff&}まさか！
+Dialogue: 0,0:08:00.76,0:08:03.93,Default,,0,0,0,,{\an5\c&Hffffff&}（シウォン）\Nあの絵が そう やすやすと\N手に入るわけないね
+Dialogue: 0,0:08:04.06,0:08:06.89,Default,,0,0,0,,{\c&Hffffff&}なんたって\Nコールマンのお墨付きなんだから
+Dialogue: 0,0:08:07.81,0:08:10.60,Default,,0,0,0,,{\c&Hffffff&}ジェームズ ちょっと待っててね
+Dialogue: 0,0:08:11.94,0:08:13.19,Default,,0,0,0,,{\c&Hffffff&}（バイブ音）
+Dialogue: 0,0:08:14.07,0:08:15.78,Default,,0,0,0,,{\c&Hffffff&}（執事）はい なんでしょう？
+Dialogue: 0,0:08:16.11,0:08:18.57,Default,,0,0,0,,{\c&Hffffff&}（ファラ）\Nあと2000万 どうにかならない？
+Dialogue: 0,0:08:18.78,0:08:20.49,Default,,0,0,0,,{\c&Hffffff&}足りなそうなのよ
+Dialogue: 0,0:08:20.86,0:08:23.87,Default,,0,0,0,,{\an5\c&Hffffff&}（執事）\N何度も申し上げてるとおり\Nこれ以上は…
+Dialogue: 0,0:08:24.12,0:08:26.58,Default,,0,0,0,,{\c&Hffffff&}資産形成にしては度が過ぎます
+Dialogue: 0,0:08:27.00,0:08:29.42,Default,,0,0,0,,{\c&Hffffff&}（ファラ）\N私がやれって言ったらやるの
+Dialogue: 0,0:08:29.54,0:08:31.38,Default,,0,0,0,,{\c&Hffffff&}なんとしてでも集めなさい
+Dialogue: 0,0:08:31.50,0:08:32.33,Default,,0,0,0,,{\c&Hffffff&}（ため息）
+Dialogue: 0,0:08:33.71,0:08:34.59,Default,,0,0,0,,{\c&Hffffff&}（息を吸う音）
+Dialogue: 0,0:08:34.71,0:08:37.17,Default,,0,0,0,,{\c&Hffffff&}お仕えしてから35年
+Dialogue: 0,0:08:37.30,0:08:41.26,Default,,0,0,0,,{\c&Hffffff&}ミス あなたのために\N忠告させていただきます
+Dialogue: 0,0:08:41.59,0:08:42.59,Default,,0,0,0,,{\c&Hffffff&}ティム？
+Dialogue: 0,0:08:42.76,0:08:45.18,Default,,0,0,0,,{\an5\c&Hffffff&}（執事）\Nコールマンの欲望を\N満たしたところで
+Dialogue: 0,0:08:45.31,0:08:48.52,Default,,0,0,0,,{\c&Hffffff&}彼の心を動かすことは\Nおそらくできません
+Dialogue: 0,0:08:49.60,0:08:51.52,Default,,0,0,0,,{\c&Hffffff&}（ファラ）あなたに何が分かるの？
+Dialogue: 0,0:08:51.65,0:08:53.02,Default,,0,0,0,,{\c&Hffffff&}執事のくせに
+Dialogue: 0,0:08:53.61,0:08:56.82,Default,,0,0,0,,{\c&Hffffff&}ファラ どうか執事の私ではなく
+Dialogue: 0,0:08:56.98,0:08:59.86,Default,,0,0,0,,{\c&Hffffff&}ティム個人の言葉として\Nお聞きください
+Dialogue: 0,0:09:01.95,0:09:04.07,Default,,0,0,0,,{\c&Hffffff&}え？　そんなわけ…
+Dialogue: 0,0:09:04.20,0:09:05.03,Default,,0,0,0,,{\c&Hffffff&}（アビー）ミス
+Dialogue: 0,0:09:07.16,0:09:09.87,Default,,0,0,0,,{\c&Hffffff&}（ファラ）彼女に？　ええ
+Dialogue: 0,0:09:12.04,0:09:15.13,Default,,0,0,0,,{\c&Hffffff&}（アビー）私も先生を\Nとても尊敬していました
+Dialogue: 0,0:09:15.42,0:09:16.25,Default,,0,0,0,,{\c&Hffffff&}（ファラ）そう…
+Dialogue: 0,0:09:16.84,0:09:20.01,Default,,0,0,0,,{\c&Hffffff&}ちょっと ごめんなさい\Nいろいろと あり過ぎて
+Dialogue: 0,0:09:23.01,0:09:24.01,Default,,0,0,0,,{\c&Hffffff&}（ファラ）え？
+Dialogue: 0,0:09:25.39,0:09:26.26,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:09:28.10,0:09:30.56,Default,,0,0,0,,{\c&Hffffff&}（ローラン）さあ\Nあったまってまいりましたね
+Dialogue: 0,0:09:31.14,0:09:33.85,Default,,0,0,0,,{\c&Hffffff&}本日 お集まりくださった皆さま\Nこれを肉眼で…
+Dialogue: 0,0:09:33.98,0:09:34.86,Default,,0,0,0,,{\c&Hffffff&}そこは…
+Dialogue: 0,0:09:34.98,0:09:37.44,Default,,0,0,0,,{\c&Hffffff&}（ローラン）ご覧になれる\N最後のチャンスかもしれません
+Dialogue: 0,0:09:37.57,0:09:38.61,Default,,0,0,0,,{\c&Hffffff&}（ざわめき）
+Dialogue: 0,0:09:39.23,0:09:40.65,Default,,0,0,0,,{\c&Hffffff&}では いきましょう
+Dialogue: 0,0:09:40.86,0:09:46.66,Default,,0,0,0,,{\c&Hffffff&}セルヒオ･モントーヤ\N「ロンドンの雪」 1930年 ４号
+Dialogue: 0,0:09:48.20,0:09:49.58,Default,,0,0,0,,{\c&Hffffff&}うん…
+Dialogue: 0,0:09:49.95,0:09:51.79,Default,,0,0,0,,{\c&Hffffff&}3000万ポンドから！
+Dialogue: 0,0:09:51.91,0:09:54.33,Default,,0,0,0,,{\c&Hffffff&}（工藤）3500万！\N（シウォン）4000万！
+Dialogue: 0,0:09:55.33,0:09:56.63,Default,,0,0,0,,{\c&Hffffff&}どこに行ってた？
+Dialogue: 0,0:09:56.75,0:09:57.96,Default,,0,0,0,,{\c&Hffffff&}すみません
+Dialogue: 0,0:09:58.17,0:09:59.09,Default,,0,0,0,,{\c&Hffffff&}ファラは？
+Dialogue: 0,0:09:59.30,0:10:01.30,Default,,0,0,0,,{\c&Hffffff&}体調が悪くて休んでいます
+Dialogue: 0,0:10:01.67,0:10:04.55,Default,,0,0,0,,{\c&Hffffff&}でも 7000万まで出せるそうです
+Dialogue: 0,0:10:05.18,0:10:07.05,Default,,0,0,0,,{\c&Hffffff&}“ぜひ落札していただきたい”と
+Dialogue: 0,0:10:08.97,0:10:10.18,Default,,0,0,0,,{\c&Hffffff&}（コールマン）6000万
+Dialogue: 0,0:10:10.31,0:10:11.73,Default,,0,0,0,,{\c&Hffffff&}（どよめき）
+Dialogue: 0,0:10:11.85,0:10:13.52,Default,,0,0,0,,{\c&Hffffff&}（ローラン）\Nさあ 6000万が出ました！
+Dialogue: 0,0:10:14.23,0:10:15.56,Default,,0,0,0,,{\c&Hffffff&}どうでしょうか
+Dialogue: 0,0:10:15.73,0:10:18.57,Default,,0,0,0,,{\c&Hffffff&}「ロンドンの雪」を買うチャンスは\N今しかありません
+Dialogue: 0,0:10:19.32,0:10:20.94,Default,,0,0,0,,{\c&Hffffff&}ハリウッドの\N有名プロデューサーも…
+Dialogue: 0,0:10:21.07,0:10:21.99,Default,,0,0,0,,{\c&Hffffff&}（ざわめき）
+Dialogue: 0,0:10:22.11,0:10:24.57,Default,,0,0,0,,{\c&Hffffff&}（ローラン）おっと… 6500万！
+Dialogue: 0,0:10:25.66,0:10:27.07,Default,,0,0,0,,{\c&Hffffff&}6600万！
+Dialogue: 0,0:10:27.37,0:10:30.45,Default,,0,0,0,,{\c&Hffffff&}（シンシア）6700万\N（コールマン）6800万！
+Dialogue: 0,0:10:30.58,0:10:32.04,Default,,0,0,0,,{\an8\c&Hffffff&}（シンシア）６９００万
+Dialogue: 0,0:10:32.54,0:10:34.21,Default,,0,0,0,,{\an8\c&Hffffff&}（ローラン）\N{\c&Hffffff&}６９００万が出ました
+Dialogue: 0,0:10:36.54,0:10:38.46,Default,,0,0,0,,{\c&Hffffff&}（コールマン）7000万！\N{\c&Hffffff&}（どよめき）
+Dialogue: 0,0:10:38.84,0:10:41.96,Default,,0,0,0,,{\c&Hffffff&}（ローラン）\Nついに7000万です　すばらしい！
+Dialogue: 0,0:10:42.21,0:10:44.63,Default,,0,0,0,,{\c&Hffffff&}モントーヤの\N価値を分かってらっしゃる！
+Dialogue: 0,0:10:46.22,0:10:48.43,Default,,0,0,0,,{\c&Hffffff&}というわけで 7000万で落札…
+Dialogue: 0,0:10:48.60,0:10:51.47,Default,,0,0,0,,{\c&Hffffff&}（ざわめき）
+Dialogue: 0,0:10:51.64,0:10:52.98,Default,,0,0,0,,{\c&Hffffff&}（工藤･シウォン）ああ…
+Dialogue: 0,0:10:53.10,0:10:54.48,Default,,0,0,0,,{\c&Hffffff&}あ…？
+Dialogue: 0,0:10:55.23,0:10:56.48,Default,,0,0,0,,{\c&Hffffff&}うう…
+Dialogue: 0,0:10:59.86,0:11:01.48,Default,,0,0,0,,{\c&Hffffff&}7100万よ
+Dialogue: 0,0:11:03.69,0:11:06.45,Default,,0,0,0,,{\c&Hffffff&}（ローラン）\Nおっと… ひょっとすると
+Dialogue: 0,0:11:06.57,0:11:08.78,Default,,0,0,0,,{\c&Hffffff&}すごいことになりそうです
+Dialogue: 0,0:11:09.78,0:11:12.45,Default,,0,0,0,,{\c&Hffffff&}これだからオークションは\Nやめられません
+Dialogue: 0,0:11:13.12,0:11:14.25,Default,,0,0,0,,{\c&Hffffff&}さあ 7200万は？
+Dialogue: 0,0:11:14.37,0:11:15.21,Default,,0,0,0,,{\c&Hffffff&}（シンシア）フフ…
+Dialogue: 0,0:11:15.58,0:11:17.83,Default,,0,0,0,,{\c&Hffffff&}ベッドルームに飾って
+Dialogue: 0,0:11:17.96,0:11:19.33,Default,,0,0,0,,{\c&Hffffff&}モントーヤの前で
+Dialogue: 0,0:11:19.46,0:11:22.96,Default,,0,0,0,,{\c&Hffffff&}グッド ルッキング ガイたちと\N早く楽しみたいわ
+Dialogue: 0,0:11:23.13,0:11:24.26,Default,,0,0,0,,{\c&Hffffff&}7200万！
+Dialogue: 0,0:11:24.92,0:11:26.76,Default,,0,0,0,,{\c&Hffffff&}（ローラン）出ました 7200万！
+Dialogue: 0,0:11:27.43,0:11:29.51,Default,,0,0,0,,{\c&Hffffff&}（ローラン）では…\N（シンシア）7500万
+Dialogue: 0,0:11:30.68,0:11:31.89,Default,,0,0,0,,{\c&Hffffff&}（ローラン）7500万！
+Dialogue: 0,0:11:32.01,0:11:33.35,Default,,0,0,0,,{\c&Hffffff&}7600万！
+Dialogue: 0,0:11:33.47,0:11:34.31,Default,,0,0,0,,{\c&Hffffff&}（シンシア）8000万
+Dialogue: 0,0:11:34.43,0:11:35.27,Default,,0,0,0,,{\c&Hffffff&}ハア…
+Dialogue: 0,0:11:35.39,0:11:36.52,Default,,0,0,0,,{\c&Hffffff&}（コールマン）8100万！
+Dialogue: 0,0:11:37.10,0:11:38.48,Default,,0,0,0,,{\c&Hffffff&}8400万
+Dialogue: 0,0:11:41.44,0:11:43.28,Default,,0,0,0,,{\c&Hffffff&}8500万！
+Dialogue: 0,0:11:43.40,0:11:44.28,Default,,0,0,0,,{\c&Hffffff&}9000万
+Dialogue: 0,0:11:47.36,0:11:48.32,Default,,0,0,0,,{\c&Hffffff&}（コールマン）9100万！
+Dialogue: 0,0:11:48.91,0:11:50.28,Default,,0,0,0,,{\c&Hffffff&}9500万
+Dialogue: 0,0:11:50.99,0:11:53.58,Default,,0,0,0,,{\an5\c&Hffffff&}（トーマス）\Nモントーヤの絵は\Nすごく高いんだよ
+Dialogue: 0,0:11:53.70,0:11:54.54,Default,,0,0,0,,{\c&Hffffff&}（シンシア）どれくらい？
+Dialogue: 0,0:11:54.83,0:11:55.79,Default,,0,0,0,,{\c&Hffffff&}（トーマス）あ〜
+Dialogue: 0,0:11:55.91,0:12:00.50,Default,,0,0,0,,{\c&Hffffff&}僕たちが豆の缶詰を\N死ぬまで食べ続けられるくらい？
+Dialogue: 0,0:12:01.04,0:12:03.05,Default,,0,0,0,,{\c&Hffffff&}（シンシア）\Nもう少しマシなものがいい
+Dialogue: 0,0:12:03.34,0:12:07.42,Default,,0,0,0,,{\c&Hffffff&}でもさ あなたの絵も\Nいつか それくらいになるかも
+Dialogue: 0,0:12:07.67,0:12:10.93,Default,,0,0,0,,{\c&Hffffff&}そうなったら\N町じゅうの豆缶を買い占めよう
+Dialogue: 0,0:12:11.64,0:12:12.68,Default,,0,0,0,,{\c&Hffffff&}フフ…
+Dialogue: 0,0:12:12.80,0:12:15.81,Default,,0,0,0,,{\c&Hffffff&}うう… 9600万！
+Dialogue: 0,0:12:16.48,0:12:17.98,Default,,0,0,0,,{\c&Hffffff&}（シンシア）9700万！
+Dialogue: 0,0:12:18.35,0:12:19.73,Default,,0,0,0,,{\c&Hffffff&}9800万！
+Dialogue: 0,0:12:20.02,0:12:21.69,Default,,0,0,0,,{\c&Hffffff&}9900万！
+Dialogue: 0,0:12:22.65,0:12:29.36,Default,,0,0,0,,{\c&Hffffff&}（コールマンの荒い息）
+Dialogue: 0,0:12:38.37,0:12:39.83,Default,,0,0,0,,{\c&Hffffff&}（コールマン）１億！
+Dialogue: 0,0:12:43.96,0:12:45.21,Default,,0,0,0,,{\c&Hffffff&}１億ポンドで
+Dialogue: 0,0:12:45.88,0:12:46.71,Default,,0,0,0,,{\c&Hffffff&}落札！
+Dialogue: 0,0:12:46.84,0:12:52.18,Default,,0,0,0,,{\c&Hffffff&}（歓声と拍手）
+Dialogue: 0,0:12:52.30,0:12:54.05,Default,,0,0,0,,{\c&Hffffff&}（シンシア）おめでとうございます
+Dialogue: 0,0:13:01.81,0:13:04.56,Default,,0,0,0,,{\c&Hffffff&}（ローラン）本日は\Nお買い上げ ありがとうございます
+Dialogue: 0,0:13:04.77,0:13:07.44,Default,,0,0,0,,{\c&Hffffff&}お支払い方法は\Nいかがなさいますか？
+Dialogue: 0,0:13:07.94,0:13:10.36,Default,,0,0,0,,{\c&Hffffff&}パートナーが\N支払うことになっている
+Dialogue: 0,0:13:10.49,0:13:11.61,Default,,0,0,0,,{\c&Hffffff&}まもなく来るはずだ
+Dialogue: 0,0:13:12.20,0:13:15.95,Default,,0,0,0,,{\c&Hffffff&}（ローラン）落札されたのは\Nあくまでコールマン様でございます
+Dialogue: 0,0:13:16.54,0:13:19.41,Default,,0,0,0,,{\c&Hffffff&}（コールマン）もう一度\Nパートナーに電話をかけても？
+Dialogue: 0,0:13:19.66,0:13:22.96,Default,,0,0,0,,{\c&Hffffff&}私どもは あなたに売却したのです
+Dialogue: 0,0:13:23.25,0:13:26.88,Default,,0,0,0,,{\c&Hffffff&}ハア…\Nですが あなたは有名人だ
+Dialogue: 0,0:13:27.00,0:13:28.71,Default,,0,0,0,,{\c&Hffffff&}そのお名前を信じて
+Dialogue: 0,0:13:29.51,0:13:32.97,Default,,0,0,0,,{\c&Hffffff&}本日中に こちらの口座に\N入金していただければ
+Dialogue: 0,0:13:33.09,0:13:34.64,Default,,0,0,0,,{\c&Hffffff&}お引き渡しいたしましょう
+Dialogue: 0,0:13:35.05,0:13:36.05,Default,,0,0,0,,{\c&Hffffff&}（指を鳴らす音）
+Dialogue: 0,0:13:42.69,0:13:44.31,Default,,0,0,0,,{\c&Hffffff&}おお…
+Dialogue: 0,0:13:48.90,0:13:50.90,Default,,0,0,0,,{\c&Hffffff&}見るたびに
+Dialogue: 0,0:13:51.32,0:13:53.36,Default,,0,0,0,,{\c&Hffffff&}私は トリコ
+Dialogue: 0,0:13:55.20,0:13:57.12,Default,,0,0,0,,{\c&Hffffff&}分かった 振り込もう
+Dialogue: 0,0:14:00.20,0:14:01.08,Default,,0,0,0,,{\c&Hffffff&}私だ
+Dialogue: 0,0:14:01.20,0:14:03.79,Default,,0,0,0,,{\c&Hffffff&}これから言う口座に\Nただちに金を振り込め
+Dialogue: 0,0:14:04.92,0:14:06.00,Default,,0,0,0,,{\c&Hffffff&}（乾杯の音）
+Dialogue: 0,0:14:06.92,0:14:10.21,Default,,0,0,0,,{\c&Hffffff&}しかし シンシアには\Nヒヤヒヤさせられたな
+Dialogue: 0,0:14:10.55,0:14:12.09,Default,,0,0,0,,{\c&Hffffff&}（シンシア）楽しめたでしょ？
+Dialogue: 0,0:14:12.22,0:14:14.68,Default,,0,0,0,,{\c&Hffffff&}（工藤）何が“００７”なんだか
+Dialogue: 0,0:14:14.84,0:14:17.01,Default,,0,0,0,,{\c&Hffffff&}全然 見破れねえってんだから
+Dialogue: 0,0:14:17.35,0:14:20.35,Default,,0,0,0,,{\c&Hffffff&}コールマンの野郎\Nどうなるだろうね
+Dialogue: 0,0:14:20.52,0:14:22.23,Default,,0,0,0,,{\c&Hffffff&}会社も自宅も売っ払って
+Dialogue: 0,0:14:22.73,0:14:25.77,Default,,0,0,0,,{\c&Hffffff&}手元に残るのは借金と贋作(がんさく)だけだ
+Dialogue: 0,0:14:27.90,0:14:29.02,Default,,0,0,0,,{\c&Hffffff&}（コールマン）ファラ！
+Dialogue: 0,0:14:29.27,0:14:30.53,Default,,0,0,0,,{\c&Hffffff&}いいかげん ここを開けろ！
+Dialogue: 0,0:14:31.99,0:14:34.07,Default,,0,0,0,,{\c&Hffffff&}ほら 「ロンドンの雪」だ！
+Dialogue: 0,0:14:34.20,0:14:36.11,Default,,0,0,0,,{\c&Hffffff&}間近で見ると 本当にすごいんだよ
+Dialogue: 0,0:14:36.24,0:14:38.87,Default,,0,0,0,,{\c&Hffffff&}頼む！\Nなあ 買い取ってくれ
+Dialogue: 0,0:14:39.45,0:14:41.75,Default,,0,0,0,,{\c&Hffffff&}半額でもいい！\Nお願い…
+Dialogue: 0,0:14:42.58,0:14:45.46,Default,,0,0,0,,{\c&Hffffff&}ん？　あれ 抜けない…
+Dialogue: 0,0:14:45.58,0:14:46.58,Default,,0,0,0,,{\c&Hffffff&}おい ちょっと…
+Dialogue: 0,0:14:47.33,0:14:49.54,Default,,0,0,0,,{\c&Hffffff&}ファラ〜！
+Dialogue: 0,0:14:50.25,0:14:52.01,Default,,0,0,0,,{\c&Hffffff&}（録音:コールマン）\Nそこら辺は心配ない
+Dialogue: 0,0:14:52.13,0:14:55.72,Default,,0,0,0,,{\c&Hffffff&}ちゃんと言い聞かせてある\N“必ず競り落とせ”とな
+Dialogue: 0,0:14:56.26,0:14:59.72,Default,,0,0,0,,{\an5\c&Hffffff&}（アビー）\Nですが いくらファラさんでも\N資金が足りるでしょうか？
+Dialogue: 0,0:15:00.10,0:15:03.77,Default,,0,0,0,,{\c&Hffffff&}（コールマン）フン！\Nあの年増女はベッドの相手をすれ…
+Dialogue: 0,0:15:03.89,0:15:04.73,Default,,0,0,0,,{\c&Hffffff&}（停止ボタンを押す音）
+Dialogue: 0,0:15:06.27,0:15:07.10,Default,,0,0,0,,{\c&Hffffff&}（執事）ミス
+Dialogue: 0,0:15:08.06,0:15:10.57,Default,,0,0,0,,{\c&Hffffff&}運び出しは全て完了しました
+Dialogue: 0,0:15:10.98,0:15:11.90,Default,,0,0,0,,{\c&Hffffff&}（ファラ）そう
+Dialogue: 0,0:15:13.11,0:15:14.53,Default,,0,0,0,,{\c&Hffffff&}（執事）よろしいのですね
+Dialogue: 0,0:15:14.82,0:15:15.65,Default,,0,0,0,,{\c&Hffffff&}ええ
+Dialogue: 0,0:15:16.15,0:15:19.41,Default,,0,0,0,,{\c&Hffffff&}フッ… また独りぼっち
+Dialogue: 0,0:15:21.70,0:15:22.66,Default,,0,0,0,,{\c&Hffffff&}（折る音）
+Dialogue: 0,0:15:22.79,0:15:23.79,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:15:25.33,0:15:27.54,Default,,0,0,0,,{\c&Hffffff&}（執事）ファラ お忘れなきよう
+Dialogue: 0,0:15:28.17,0:15:30.13,Default,,0,0,0,,{\c&Hffffff&}私がおります
+Dialogue: 0,0:15:36.51,0:15:37.34,Default,,0,0,0,,{\c&Hffffff&}フッ…
+Dialogue: 0,0:15:37.47,0:15:44.47,Default,,0,0,0,,{\c&Hffffff&}（鐘の音）
+Dialogue: 0,0:15:49.48,0:15:53.82,Default,,0,0,0,,{\an5\c&Hffffff&}（シンシア）\N正真正銘 「ロンドンの雪」よ\Nこれで文句ないでしょ？
+Dialogue: 0,0:15:54.07,0:15:56.11,Default,,0,0,0,,{\c&Hffffff&}（セバスチャン：フランス語）\N〈いやあ ありがてえ〉
+Dialogue: 0,0:15:56.24,0:15:58.61,Default,,0,0,0,,{\c&Hffffff&}〈これからは毎日拝まねぇとな！〉
+Dialogue: 0,0:15:59.07,0:16:00.41,Default,,0,0,0,,{\c&Hffffff&}どうかしたかい？
+Dialogue: 0,0:16:01.07,0:16:02.95,Default,,0,0,0,,{\c&Hffffff&}（マリー）なんか別物みたい
+Dialogue: 0,0:16:03.08,0:16:03.91,Default,,0,0,0,,{\c&Hffffff&}（ローラン）え？
+Dialogue: 0,0:16:05.12,0:16:06.91,Default,,0,0,0,,{\c&Hffffff&}（シンシア）印象は変わらないけど
+Dialogue: 0,0:16:07.04,0:16:07.87,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）すまなかっただ！
+Dialogue: 0,0:16:08.00,0:16:08.83,Default,,0,0,0,,{\c&Hffffff&}（一同）あ？
+Dialogue: 0,0:16:09.17,0:16:12.04,Default,,0,0,0,,{\c&Hffffff&}じ… 実は その絵…
+Dialogue: 0,0:16:12.92,0:16:15.13,Default,,0,0,0,,{\c&Hffffff&}トーマスが描いた贋作だべ！
+Dialogue: 0,0:16:15.46,0:16:16.80,Default,,0,0,0,,{\c&Hffffff&}どういうこと？
+Dialogue: 0,0:16:16.92,0:16:18.63,Default,,0,0,0,,{\c&Hffffff&}また何か やったのか？
+Dialogue: 0,0:16:18.88,0:16:20.05,Default,,0,0,0,,{\c&Hffffff&}（ローラン）ハア…
+Dialogue: 0,0:16:20.18,0:16:22.22,Default,,0,0,0,,{\c&Hffffff&}わざと入れ替えたか
+Dialogue: 0,0:16:23.35,0:16:25.31,Default,,0,0,0,,{\c&Hffffff&}マリー！　おやじさん！
+Dialogue: 0,0:16:25.43,0:16:27.39,Default,,0,0,0,,{\c&Hffffff&}元はといえば おらのせいだべ
+Dialogue: 0,0:16:27.68,0:16:29.06,Default,,0,0,0,,{\c&Hffffff&}まずは そこさ謝るだ
+Dialogue: 0,0:16:29.98,0:16:31.19,Default,,0,0,0,,{\c&Hffffff&}で その絵は
+Dialogue: 0,0:16:31.31,0:16:35.23,Default,,0,0,0,,{\c&Hffffff&}とてもよく出来た パッと見\N本物と見間違えるほどの贋作だべ
+Dialogue: 0,0:16:35.36,0:16:36.82,Default,,0,0,0,,{\c&Hffffff&}つまり ほぼ本物だ！
+Dialogue: 0,0:16:37.32,0:16:40.61,Default,,0,0,0,,{\c&Hffffff&}ということは\N僕らは本物の絵を売ったわけだ
+Dialogue: 0,0:16:40.74,0:16:42.45,Default,,0,0,0,,{\c&Hffffff&}これじゃ ただの画商だな
+Dialogue: 0,0:16:42.82,0:16:45.20,Default,,0,0,0,,{\c&Hffffff&}なぜ相談もなく\Nそんなことをした？
+Dialogue: 0,0:16:46.08,0:16:48.91,Default,,0,0,0,,{\c&Hffffff&}おら ずっと そばで見てたんだ
+Dialogue: 0,0:16:49.41,0:16:51.88,Default,,0,0,0,,{\c&Hffffff&}トーマス すげえ頑張ってたんだべ
+Dialogue: 0,0:16:53.25,0:16:57.21,Default,,0,0,0,,{\c&Hffffff&}飯は ひと缶75ペンスの\N豆の缶詰しか食わねえし
+Dialogue: 0,0:16:57.38,0:16:59.34,Default,,0,0,0,,{\c&Hffffff&}そんで 仮眠は３時間
+Dialogue: 0,0:16:59.51,0:17:03.05,Default,,0,0,0,,{\c&Hffffff&}それを何日も何日も…\N完成させるまでな！
+Dialogue: 0,0:17:04.22,0:17:06.56,Default,,0,0,0,,{\c&Hffffff&}その絵は贋作ってだけじゃねえ
+Dialogue: 0,0:17:06.93,0:17:10.10,Default,,0,0,0,,{\c&Hffffff&}トーマスが\N全身全霊で描き上げた作品なんだべ
+Dialogue: 0,0:17:10.64,0:17:11.48,Default,,0,0,0,,{\c&Hffffff&}だから…
+Dialogue: 0,0:17:11.60,0:17:12.44,Default,,0,0,0,,{\c&Hffffff&}（マリー）うん
+Dialogue: 0,0:17:12.85,0:17:14.44,Default,,0,0,0,,{\c&Hffffff&}ますます気に入ったわ
+Dialogue: 0,0:17:14.56,0:17:15.40,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:17:16.57,0:17:18.40,Default,,0,0,0,,{\c&Hffffff&}（マリー）私もマコトと同じ
+Dialogue: 0,0:17:18.74,0:17:20.86,Default,,0,0,0,,{\c&Hffffff&}この絵のほうが ずっと好き
+Dialogue: 0,0:17:21.49,0:17:24.28,Default,,0,0,0,,{\c&Hffffff&}あったかくて 優しくて
+Dialogue: 0,0:17:26.24,0:17:28.50,Default,,0,0,0,,{\an5\c&Hffffff&}（マリー：フランス語）\N〈そうよ\Nこんな素敵な絵があれば〉
+Dialogue: 0,0:17:28.62,0:17:31.00,Default,,0,0,0,,{\c&Hffffff&}〈きっとこれ目当てで\Nお客もくるわ！〉
+Dialogue: 0,0:17:31.21,0:17:34.79,Default,,0,0,0,,{\an5\c&Hffffff&}（セバスチャン）\N〈ああ そうだな\Nこの際 本物って事にしよう〉
+Dialogue: 0,0:17:34.92,0:17:36.29,Default,,0,0,0,,{\c&Hffffff&}（マリー）\N〈あ　そうしましょ！〉
+Dialogue: 0,0:17:36.71,0:17:38.92,Default,,0,0,0,,{\c&Hffffff&}こいつは意外な展開だ
+Dialogue: 0,0:17:39.09,0:17:41.80,Default,,0,0,0,,{\c&Hffffff&}フッ！\N全て計算どおりだべ
+Dialogue: 0,0:17:46.43,0:17:47.51,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）シンシア
+Dialogue: 0,0:17:48.22,0:17:49.06,Default,,0,0,0,,{\c&Hffffff&}（シンシア）え…
+Dialogue: 0,0:17:51.98,0:17:53.56,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）けりさ つけてこい
+Dialogue: 0,0:17:54.90,0:17:56.27,Default,,0,0,0,,{\c&Hffffff&}ん…
+Dialogue: 0,0:18:02.74,0:18:05.74,Default,,0,0,0,,{\c&Hffffff&}♪〜
+Dialogue: 0,0:18:07.70,0:18:09.24,Default,,0,0,0,,{\c&Hffffff&}（ドアベルの音）
+Dialogue: 0,0:18:30.31,0:18:31.98,Default,,0,0,0,,{\c&Hffffff&}（ドアが閉まる音）
+Dialogue: 0,0:18:34.64,0:18:36.10,Default,,0,0,0,,{\c&Hffffff&}（シンシア）今日は ありがとう
+Dialogue: 0,0:18:37.81,0:18:39.32,Default,,0,0,0,,{\c&Hffffff&}楽しかったよ
+Dialogue: 0,0:18:39.44,0:18:40.61,Default,,0,0,0,,{\c&Hffffff&}（シンシア）ほら また！
+Dialogue: 0,0:18:41.48,0:18:43.32,Default,,0,0,0,,{\c&Hffffff&}ちゃんと目を見て言ってよ
+Dialogue: 0,0:18:43.57,0:18:44.45,Default,,0,0,0,,{\c&Hffffff&}あ…
+Dialogue: 0,0:18:46.20,0:18:47.82,Default,,0,0,0,,{\c&Hffffff&}元気で シンシア
+Dialogue: 0,0:18:49.41,0:18:50.41,Default,,0,0,0,,{\c&Hffffff&}あなたも
+Dialogue: 0,0:19:13.06,0:19:14.02,Default,,0,0,0,,{\c&Hffffff&}（水に落ちる音）
+Dialogue: 0,0:19:25.95,0:19:28.95,Default,,0,0,0,,{\c&Hffffff&}〜♪
+Dialogue: 0,0:19:29.28,0:19:32.91,Default,,0,0,0,,{\c&Hffffff&}（エダマメ）よし！\N今度こそ足を洗ってスッキリだ
+Dialogue: 0,0:19:33.04,0:19:35.46,Default,,0,0,0,,{\c&Hffffff&}（アビー）お前が寿司(すし)職人とはな
+Dialogue: 0,0:19:36.04,0:19:38.42,Default,,0,0,0,,{\c&Hffffff&}店長！\N恥ずかしながら帰って…
+Dialogue: 0,0:19:38.96,0:19:40.46,Default,,0,0,0,,{\c&Hffffff&}（店長：中国語）\N〈おー　お前か〉
+Dialogue: 0,0:19:41.09,0:19:43.09,Default,,0,0,0,,{\c&Hffffff&}〈もう韓国人はいらないよ〉
+Dialogue: 0,0:19:43.21,0:19:44.96,Default,,0,0,0,,{\c&Hffffff&}〈タイ人３人雇ったからね〉
+Dialogue: 0,0:19:45.72,0:19:46.97,Default,,0,0,0,,{\c&Hffffff&}日本人だべ
+Dialogue: 0,0:19:48.59,0:19:51.22,Default,,0,0,0,,{\c&Hffffff&}（海鳥の鳴き声）
+Dialogue: 0,0:19:52.18,0:19:53.89,Default,,0,0,0,,{\c&Hffffff&}（足音）
+Dialogue: 0,0:19:54.02,0:19:56.14,Default,,0,0,0,,{\c&Hffffff&}（シンシア）もう絵は描かないの？
+Dialogue: 0,0:19:56.48,0:19:58.60,Default,,0,0,0,,{\c&Hffffff&}（ローラン）嫌われちゃうからね
+Dialogue: 0,0:19:58.98,0:20:00.98,Default,,0,0,0,,{\c&Hffffff&}（シンシア）少し考えたんだけど
+Dialogue: 0,0:20:01.15,0:20:03.94,Default,,0,0,0,,{\c&Hffffff&}最初から\Nあなたの仕掛けだったってことは？
+Dialogue: 0,0:20:04.07,0:20:04.90,Default,,0,0,0,,{\c&Hffffff&}ん？
+Dialogue: 0,0:20:05.53,0:20:09.16,Default,,0,0,0,,{\c&Hffffff&}ニースに本物の「ロンドンの雪」が\Nあることを知って
+Dialogue: 0,0:20:09.28,0:20:12.99,Default,,0,0,0,,{\c&Hffffff&}エダマメとコールマンが\N鉢合わせるように しむけた
+Dialogue: 0,0:20:13.41,0:20:15.91,Default,,0,0,0,,{\c&Hffffff&}面白いね　何のために？
+Dialogue: 0,0:20:16.25,0:20:20.21,Default,,0,0,0,,{\c&Hffffff&}私のトラウマをほじくり返して\N面白がるため
+Dialogue: 0,0:20:20.33,0:20:22.88,Default,,0,0,0,,{\c&Hffffff&}想像力がたくましいね
+Dialogue: 0,0:20:23.63,0:20:27.63,Default,,0,0,0,,{\c&Hffffff&}あなたが みんなから嫌われてるの\Nそういうところよ
+Dialogue: 0,0:20:28.09,0:20:29.47,Default,,0,0,0,,{\c&Hffffff&}（ローラン）知ってるさ
+Dialogue: 0,0:20:29.68,0:20:32.39,Default,,0,0,0,,{\c&Hffffff&}あっ それより\Nいい美術展がやっててさ
+Dialogue: 0,0:20:32.51,0:20:33.81,Default,,0,0,0,,{\c&Hffffff&}（シンシア）やめとくわ
+Dialogue: 0,0:20:33.93,0:20:34.93,Default,,0,0,0,,{\c&Hffffff&}（ローラン）どうして？
+Dialogue: 0,0:20:35.68,0:20:39.14,Default,,0,0,0,,{\an5\c&Hffffff&}（シンシア）\N金髪クソ野郎とは\N一緒に いたくないの
+Dialogue: 0,0:20:41.35,0:20:44.98,Default,,0,0,0,,{\c&Hffffff&}（ローラン）\Nハア… 男は悲しい生き物だね
+Dialogue: 0,0:20:45.86,0:20:47.74,Default,,0,0,0,,{\c&Hffffff&}なあ ドロシー
+Dialogue: 0,0:20:49.95,0:20:55.95,Default,,0,0,0,,{\an8\c&Hffffff&}♪〜
+Dialogue: 0,0:22:43.77,0:22:49.77,Default,,0,0,0,,{\an8\c&Hffffff&}〜♪

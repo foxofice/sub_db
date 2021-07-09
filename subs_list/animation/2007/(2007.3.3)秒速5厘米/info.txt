@@ -1,0 +1,5 @@
+﻿chs: 秒速5厘米
+cht: 云之彼端，約定的地方
+jp: 秒速5センチメートル
+en: 5 Centimeters per Second
+rome: Byousoku 5 Centimeter

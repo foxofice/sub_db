@@ -1,0 +1,5 @@
+﻿chs: 京骚戏画
+cht: 京騷戯畫
+jp: 京騒戯画
+en: Kyousougiga
+rome: Kyousougiga

@@ -1,0 +1,5 @@
+﻿chs: 火影忍者
+cht: 火影忍者
+jp: NARUTO -ナルト-
+en: NARUTO
+rome: Naruto

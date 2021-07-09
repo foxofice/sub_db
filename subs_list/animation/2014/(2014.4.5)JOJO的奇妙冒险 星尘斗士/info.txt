@@ -1,0 +1,5 @@
+﻿chs: JOJO的奇妙冒险 星尘斗士 
+cht: JOJO的奇妙冒險 星塵鬥士
+jp: ジョジョの奇妙な冒険 スターダストクルセイダース
+en: JoJo`s Bizarre Adventure: Stardust Crusaders
+rome: JoJo no Kimyou na Bouken: Stardust Crusaders

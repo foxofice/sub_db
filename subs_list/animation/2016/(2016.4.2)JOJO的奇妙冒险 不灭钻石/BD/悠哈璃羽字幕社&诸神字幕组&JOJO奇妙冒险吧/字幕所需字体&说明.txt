@@ -1,0 +1,47 @@
+感谢：悠哈璃羽字幕社&诸神字幕组&JOJO奇妙冒险吧联合制作的双语字幕及特效
+
+修改文件名用于匹配此片源：JoJo no Kimyou na Bouken - Diamond wa Kudakenai 2016 [BD 1920x1080 HEVC FLAC] - LittleBakas!
+（发布标题：[LittleBakas!] JoJo的奇妙冒险 不灭钻石/JoJo`s Bizarre Adventure: Diamond Is Unbreakable/ジョジョの奇妙な冒険 ダイヤモンドは砕けない (BD 1920x1080 HEVC FLAC)）
+
+正常显示字幕需安装以下24个字体：（下方磁力链中的Fonts.zip包含这些字体，磁力链下不动就只能一个个搜了大概）
+
+微软雅黑 Bold.ttc 
+黑体.ttf 
+华文中宋.TTF 
+方正粗宋_GBK.ttf 
+方正粗圆_GBK.ttf 
+方正大黑_GBK.ttf 
+方正黑体_GBK.TTF 
+方正华隶_GBK.ttf 
+方正黄草_GBK.ttf 
+方正隶变_GBK.TTF 
+方正隶书_GBK.ttf 
+方正瘦金书_GBK.ttf 
+方正水黑_GBK.ttf 
+方正水柱_GBK.ttf 
+方正魏碑_GBK.ttf 
+方正毡笔黑_GBK.ttf 
+方正准圆_GBK.TTF 
+浪漫雅圆.ttf 
+ARIALNB.TTF (Arial Narrow Bold)
+DFFuu7.ttc (DF風雲体 W7)
+DFKAI7_U.TTC (DFKaiSho_U-SB)
+DFMRG7.TTC (DFMaruGothic-Bd)
+方正粗雅宋_GBK.TTF
+微软雅黑.ttc
+
+原字幕来源：
+种子磁力链：magnet:?xt=urn:btih:e7684ffc3f7d840a6bfcf66c29cb395641c8167d
+种子标题：JoJo no Kimyou na Bouken Diamond wa Kudakenai BDrip MKV 简繁日外挂
+中文标题：【悠哈璃羽字幕社&诸神字幕组&JOJO奇妙冒险吧】[JOJO的奇妙冒险 不灭钻石_JoJo s Bizarre Adventure - Diamond is Unbreakable][BDrip 1080p MKV 简繁日外挂]
+
+同时改了几处小问题，简繁都改了:
+01集：根据https://sub.kamigami.org/43125.html评论里18年反馈的18：35翻译错误，这句替换为pili的翻译
+10集：修正简体字幕还是繁体字，试着改了改菜谱效果，对齐就算了，至少现在能看清字了
+11集：调整错位的“杜王镇名胜”相关注释
+12集：调整被盖住的吉他手注释位置和速度
+13集：13:18处“所以的”笔误改为“所有的”
+17集：调整错位的“杜王镇名胜”相关注释
+38集：前两句字幕加快一秒来匹配本片源
+
+字幕还错位的话试试勾选“将标准文本字幕输出到画面内”

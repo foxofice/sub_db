@@ -1,0 +1,5 @@
+﻿chs: 钢之炼金术师
+cht: 鋼之煉金術師
+jp: 鋼の錬金術師
+en: Fullmetal Alchemist
+rome: Hagane no Renkinjutsushi

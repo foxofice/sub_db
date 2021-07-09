@@ -1,0 +1,33 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん 06 Long Trailer
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.87,0:00:05.00,Main,,0,0,0,,各位 將我活躍的身姿刻入腦海了嗎
+Dialogue: 0,0:00:05.34,0:00:07.13,Main,,0,0,0,,我可是不多出場的稀有角色
+Dialogue: 0,0:00:07.17,0:00:09.47,Main,,0,0,0,,望眼欲穿等待著我出場的你
+Dialogue: 0,0:00:09.70,0:00:11.19,Main,,0,0,0,,一定興奮不已了吧？
+Dialogue: 0,0:00:11.58,0:00:13.33,Main,,0,0,0,,穿越了時空的狸貓是不是帥爆了？
+Dialogue: 0,0:00:13.50,0:00:16.54,Main,,0,0,0,,對吧 畢竟是我的主意嘛
+Dialogue: 0,0:00:16.70,0:00:18.50,Main,,0,0,0,,啊 對了 都老師
+Dialogue: 0,0:00:18.74,0:00:20.72,Main,,0,0,0,,下回畫魔法使狸貓吧
+Dialogue: 0,0:00:20.83,0:00:21.91,Main,,0,0,0,,那個 狸貓…
+Dialogue: 0,0:00:21.91,0:00:23.36,Main,,0,0,0,,不用顧慮什麼哦
+Dialogue: 0,0:00:23.60,0:00:25.49,Main,,0,0,0,,一直都是我出的主意對吧
+Dialogue: 0,0:00:25.62,0:00:26.50,Main,,0,0,0,,…是T T
+Dialogue: 0,0:00:26.73,0:00:29.42,Main,,0,0,0,,下集 為你施 加 魔 法
+Dialogue: 0,0:00:29.54,0:00:30.24,Main,,0,0,0,,要看哦各位
+Dialogue: 0,0:00:30.27,0:00:30.87,Main,,0,0,0,,再會

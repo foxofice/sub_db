@@ -1,0 +1,5 @@
+﻿chs: 饿沙罗鬼
+cht: 餓沙羅鬼
+jp: ガサラキ
+en: Gasaraki
+rome: Gasaraki

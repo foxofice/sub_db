@@ -1,0 +1,5 @@
+﻿chs: 妖精森林的小不点
+cht: 妖精森林的小不點
+jp: ハクメイとミコチ
+en: Hakumei and Mikochi
+rome: Hakumei to Mikochi

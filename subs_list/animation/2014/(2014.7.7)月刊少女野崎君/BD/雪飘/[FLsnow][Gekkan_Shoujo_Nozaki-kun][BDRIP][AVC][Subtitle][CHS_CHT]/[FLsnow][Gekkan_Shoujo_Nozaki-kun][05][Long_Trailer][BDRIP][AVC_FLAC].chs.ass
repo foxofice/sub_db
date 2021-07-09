@@ -1,0 +1,32 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん 05 Long Trailer
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.68,0:00:04.33,Main,,0,0,0,,发现小御子经常说「小绵羊」
+Dialogue: 0,0:00:04.33,0:00:05.26,Main,,0,0,0,,你喜欢绵羊吗
+Dialogue: 0,0:00:05.31,0:00:06.10,Main,,0,0,0,,笨蛋
+Dialogue: 0,0:00:06.10,0:00:07.90,Main,,0,0,0,,我的口头禅可多了
+Dialogue: 0,0:00:08.08,0:00:09.93,Main,,0,0,0,,可别小看我的词汇量哦
+Dialogue: 0,0:00:10.21,0:00:12.55,Main,,0,0,0,,下集 在「心中」「描绘」恋爱的男子
+Dialogue: 0,0:00:12.68,0:00:15.07,Main,,0,0,0,,再会吧 全国的小绵羊们
+Dialogue: 0,0:00:15.82,0:00:17.33,Main,,0,0,0,,小御子好有趣
+Dialogue: 0,0:00:17.33,0:00:19.17,Main,,0,0,0,,啰嗦 我是故意的啊 故意的
+Dialogue: 0,0:00:19.17,0:00:20.47,Main,,0,0,0,,稍微开个玩笑罢了
+Dialogue: 0,0:00:20.47,0:00:23.81,Main,,0,0,0,,啊 是吗 那就从「再会吧」开始再说一遍吧
+Dialogue: 0,0:00:23.81,0:00:24.76,Main,,0,0,0,,噢 要开始喽
+Dialogue: 0,0:00:25.15,0:00:25.82,Main,,0,0,0,,再会吧
+Dialogue: 0,0:00:25.82,0:00:30.62,Main,,0,0,0,,全国的小豹子小狸猫小麋鹿小象小鳄鱼小蛇和全部小动物们！

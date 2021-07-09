@@ -1,0 +1,5 @@
+﻿chs: 海边的异邦人
+cht: 海邊的異邦人
+jp: 海辺のエトランゼ
+en: The Stranger by the Shore
+rome: Umibe no Etranger

@@ -1,0 +1,2232 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 福音战士新剧场版·破 2.22
+Original Script: FANS-EVA字幕
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,字幕冬青黑旧字形,42,&H00E6E6E6,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,12,12,38,1
+Style: bgs,XHei IntelT,30,&H00080905,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,1,0,2,12,12,5,1
+Style: ex,XHei IntelT,30,&H00000000,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,1,0,2,30,30,5,1
+Style: note,字幕冬青黑旧字形,20,&H00000000,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,1,0,2,30,30,8,1
+Style: rap,XHei IntelT,32,&H00E6E6E6,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,2,30,30,38,1
+Style: song_jp,XHei IntelT,20,&H00FFE600,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,7,10,30,6,1
+Style: song_cn,XHei IntelT,25,&H00FFE600,&HF0000000,&H00000000,&HF0000000,0,0,0,0,98,100,0,0,1,1,0,7,10,30,28,1
+Style: edjp,@DFGHSMincho-W7,30,&H000152FF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,270,1,1,0,7,30,35,12,1
+Style: edcn,@FZDaBiaoSong-B06,36,&H000152FF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,270,1,1,0,3,30,35,12,1
+Style: edbg,方正粗宋_GBK,27,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,98,100,0,0,1,1,0,7,0,0,0,1
+Style: EnSong,XHei IntelT,20,&H000ACBD9,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,7,10,30,6,1
+Style: CnSong,XHei IntelT,27,&H000ACBD9,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,7,10,30,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:39.37,0:00:41.12,Default,NTFS,0,0,6,,{\blur2}插入栓插入開始
+Dialogue: 0,0:00:41.62,0:00:43.83,Default,NTFS,0,0,6,,{\blur2}LCL 過電開始
+Dialogue: 0,0:00:44.12,0:00:46.00,Default,NTFS,0,0,6,,{\blur2}插入栓深度 維持在初期設定值
+Dialogue: 0,0:00:46.33,0:00:47.79,Default,NTFS,0,0,6,,{\blur2}自律系統正常
+Dialogue: 0,0:00:48.29,0:00:50.38,Default,NTFS,0,0,6,,{\blur2}啟動電壓 突破臨界點
+Dialogue: 0,0:00:50.75,0:00:52.42,Default,NTFS,0,0,6,,{\blur2}全體進入啟動狀態
+Dialogue: 0,0:00:52.92,0:00:55.18,Default,NTFS,0,0,6,,{\blur2}同步率 突破預定值
+Dialogue: 0,0:00:55.68,0:00:56.22,Default,NTFS,0,0,6,,{\blur2}駕駛員
+Dialogue: 0,0:00:56.63,0:00:59.47,Default,NTFS,0,0,6,,{\blur2}請決定操控語言
+Dialogue: 0,0:01:00.57,0:01:01.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}呃…
+Dialogue: 0,0:01:01.45,0:01:03.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為是第一次啟動，就用日語吧
+Dialogue: 0,0:01:04.14,0:01:04.68,Default,NTFS,0,0,6,,{\blur2}收到
+Dialogue: 0,0:01:11.02,0:01:13.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}新式的戰鬥服，沒能來得及送到呢
+Dialogue: 0,0:01:13.80,0:01:15.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這件衣服胸部箍得那麼緊 真討厭
+Dialogue: 0,0:01:16.16,0:01:19.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且是趕製出的機體，居然上來就實戰
+Dialogue: 0,0:01:19.05,0:01:20.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真是對不住你了
+Dialogue: 0,0:01:21.80,0:01:23.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}總算是讓我駕駛了嘛
+Dialogue: 0,0:01:23.90,0:01:24.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以也就無所謂了
+Dialogue: 0,0:01:24.77,0:01:25.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為{\c&HA4ECFF&}你多少存在些問題{\r}{\blur2}嘛
+Dialogue: 0,0:01:26.66,0:01:27.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}總之，加油吧
+Dialogue: 0,0:01:28.06,0:01:29.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在動了，在動了
+Dialogue: 0,0:01:29.70,0:01:32.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真棒啊！太讓人興奮了
+Dialogue: 0,0:01:35.31,0:01:38.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好了，EVANGELION 臨時五號機
+Dialogue: 0,0:01:38.95,0:01:39.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啟動
+Dialogue: 0,0:01:52.94,0:01:55.49,Default,NTFS,0,0,115,,{\blur2}死守邊獄區
+Dialogue: 0,0:01:55.90,0:01:57.95,Default,NTFS,0,0,178,,{\blur2}決不能讓那傢伙逃出冥河
+Dialogue: 0,0:01:58.49,0:02:02.28,Default,NTFS,0,0,178,,{\blur2}怎麼會！封印系統竟被無效化了
+Dialogue: 0,0:02:03.03,0:02:05.41,Default,NTFS,0,0,115,,{\blur2}這完全是可能的啊
+Dialogue: 0,0:02:06.45,0:02:10.42,Default,NTFS,0,0,178,,{\blur2}光憑人類的力量是無法制止使徒的
+Dialogue: 0,0:02:11.04,0:02:13.84,Default,NTFS,0,0,115,,{\blur2}這是將從永久凍土層裏發掘出來的
+Dialogue: 0,0:02:14.34,0:02:18.72,Default,NTFS,0,0,115,,{\blur2}第3使徒的身體組織細細地切碎分析以後
+Dialogue: 0,0:02:19.09,0:02:20.51,Default,NTFS,0,0,115,,{\blur2}重新得出的結論
+Dialogue: 0,0:02:21.59,0:02:23.22,Default,NTFS,0,0,115,,{\blur2}之後就拜託給諸位了
+Dialogue: 0,0:02:24.70,0:02:25.71,rap,NTFS,0,0,0,,{\blur2}{\fad(50,50)}幸福啊～♪
+Dialogue: 0,0:02:26.21,0:02:27.95,rap,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不會主動降臨的～♪
+Dialogue: 0,0:02:28.33,0:02:32.56,rap,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所～以　邁出尋找它的步伐吧～♪
+Dialogue: 0,0:02:32.98,0:02:36.80,rap,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一天走一步　三天就是三步♪
+Dialogue: 0,0:02:37.16,0:02:41.05,rap,NTFS,0,0,0,,{\blur2}{\fad(50,50)}前進了三步　又後退兩步～♪
+Dialogue: 0,0:02:41.61,0:02:45.35,rap,NTFS,0,0,0,,{\blur2}{\fad(50,50)}人生就是連～環～出擊～♪
+Dialogue: 0,0:02:46.05,0:02:46.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}喔！來咯 {\c&H0000F6&}♥
+Dialogue: 0,0:02:47.30,0:02:48.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}力場展開
+Dialogue: 0,0:02:55.63,0:02:59.42,Default,NTFS,0,0,6,,{\blur2}接近目標！EVA 五號機接敵
+Dialogue: 0,0:03:06.85,0:03:07.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊切
+Dialogue: 0,0:03:09.19,0:03:10.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這機體的動作真是笨重
+Dialogue: 0,0:03:15.66,0:03:18.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這樣的話…不就只能用蠻力了麼
+Dialogue: 0,0:03:32.17,0:03:34.17,Default,NTFS,0,0,6,,{\blur2}中央部外壁破損
+Dialogue: 0,0:03:34.46,0:03:36.34,Default,NTFS,0,0,6,,{\blur2}最後的結界要被打破了
+Dialogue: 0,0:03:45.68,0:03:47.47,Default,NTFS,0,0,6,,{\blur2}目標已經突破邊獄區
+Dialogue: 0,0:03:47.81,0:03:49.22,Default,NTFS,0,0,6,,{\blur2}目前正試圖逃出冥河
+Dialogue: 0,0:03:49.39,0:03:51.35,Default,NTFS,0,0,6,,{\blur2}五號機到底在做什麼
+Dialogue: 0,0:03:53.48,0:03:56.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}看我的！別跑——
+Dialogue: 0,0:04:03.49,0:04:04.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊…好痛
+Dialogue: 0,0:04:05.31,0:04:09.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}雖然超痛，不過好有趣！算了
+Dialogue: 0,0:04:14.10,0:04:15.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒時間了
+Dialogue: 0,0:04:17.58,0:04:18.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}機體也撐不住了
+Dialogue: 0,0:04:19.85,0:04:24.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且強行與義手同步，力量也不夠
+Dialogue: 0,0:04:31.43,0:04:32.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒辦法了
+Dialogue: 0,0:04:32.86,0:04:36.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}就送你一條手臂吧
+Dialogue: 0,0:04:41.08,0:04:42.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快給我
+Dialogue: 0,0:04:42.82,0:04:46.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}去死吧——！
+Dialogue: 0,0:05:01.67,0:05:02.51,Default,NTFS,0,0,6,,{\blur2}目標消滅
+Dialogue: 0,0:05:02.96,0:05:04.55,Default,NTFS,0,0,6,,{\blur2}五號機也確認一同蒸發
+Dialogue: 0,0:05:05.13,0:05:06.72,Default,NTFS,0,0,6,,{\blur2}駕駛員似乎成功逃脫了
+Dialogue: 0,0:05:07.46,0:05:10.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}五號機的自爆系統看來正常啟動了
+Dialogue: 0,0:05:12.39,0:05:13.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}雖說是早就計劃好了的
+Dialogue: 0,0:05:14.15,0:05:16.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}但就為了這個 而把小孩子也一起捲進去
+Dialogue: 0,0:05:16.15,0:05:17.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真讓人覺得心寒呢
+Dialogue: 0,0:05:23.33,0:05:24.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好痛、痛、痛
+Dialogue: 0,0:05:25.70,0:05:28.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和 EVA 的同步 比聽說的還要辛苦呢
+Dialogue: 0,0:05:34.33,0:05:36.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嘛，能活下來就好
+Dialogue: 0,0:05:37.90,0:05:41.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為了{\c&HA4ECFF&}自己的目的{\r}{\blur2}而把大人們都捲進去 還真有些過意不去呢
+Dialogue: 0,0:05:43.44,0:05:45.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}永別了，EVA 五號機
+Dialogue: 0,0:05:46.34,0:05:47.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}完成任務辛苦你了
+Dialogue: 0,0:05:47.86,0:05:52.87,Default,NTFS,0,0,0,,{\fscy180\fn方正粗雅宋长_GBK\b1}{\fs76\pos(640,600)\c&H0152FF&}EVANGELION 新劇場版 破
+Dialogue: 0,0:05:47.86,0:05:52.87,Default,NTFS,0,0,0,,{\fscy210\fn方正粗雅宋长_GBK\b1\pos(927,588)}{\fs66\c&H0152FF&}：
+Dialogue: 0,0:06:01.78,0:06:02.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經時隔三年了吧
+Dialogue: 0,0:06:03.98,0:06:05.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}距離上一次和你一起來這裏
+Dialogue: 0,0:06:07.10,0:06:11.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我…那時逃走了，之後再沒來過
+Dialogue: 0,0:06:12.79,0:06:15.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}母親沉睡在這裏 對此我一點實感都沒有
+Dialogue: 0,0:06:16.35,0:06:17.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}連她的相貌都已經不記得了
+Dialogue: 0,0:06:18.70,0:06:21.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}人只有忘記回憶才能夠存活下去
+Dialogue: 0,0:06:22.22,0:06:25.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，也有絕不能忘記的事
+Dialogue: 0,0:06:26.26,0:06:28.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}唯把這無可替代的事教給我
+Dialogue: 0,0:06:29.67,0:06:32.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我是為了確認這點來這裏的
+Dialogue: 0,0:06:33.76,0:06:34.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒有照片之類的
+Dialogue: 0,0:06:36.32,0:06:37.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒有留下
+Dialogue: 0,0:06:38.28,0:06:39.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這個墓也僅僅是裝飾
+Dialogue: 0,0:06:40.76,0:06:41.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒有遺體
+Dialogue: 0,0:06:42.87,0:06:44.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和老師說的一樣
+Dialogue: 0,0:06:44.96,0:06:46.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}您把這些全都捨棄了
+Dialogue: 0,0:06:47.22,0:06:48.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一切都在心中
+Dialogue: 0,0:06:50.09,0:06:51.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在這樣就夠了
+Dialogue: 0,0:06:57.45,0:06:59.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}時間到，我先回去了
+Dialogue: 0,0:07:05.67,0:07:06.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}父親
+Dialogue: 0,0:07:08.97,0:07:11.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…今天我很高興
+Dialogue: 0,0:07:12.96,0:07:13.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}能與爸爸說話
+Dialogue: 0,0:07:15.51,0:07:15.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是嗎…
+Dialogue: 0,0:07:57.77,0:07:58.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}如何？真嗣君
+Dialogue: 0,0:07:59.40,0:08:03.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}雖然左右擔心，見了面也沒什麼吧
+Dialogue: 0,0:08:05.25,0:08:08.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在家猶豫不決，來了多好
+Dialogue: 0,0:08:08.50,0:08:10.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}畢竟是去給母親掃墓嘛
+Dialogue: 0,0:08:11.17,0:08:13.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我只是被美裏小姐您硬拉來這裏的
+Dialogue: 0,0:08:13.85,0:08:17.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那是因為真嗣君心裏也想來喲
+Dialogue: 0,0:08:17.58,0:08:18.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}坦率一點兒吧
+Dialogue: 0,0:08:19.88,0:08:22.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即使坦率了，也依然只會留下不愉快的回憶而已
+Dialogue: 0,0:08:22.68,0:08:25.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你可是回應了大家的期待拯救了我們喲
+Dialogue: 0,0:08:26.31,0:08:27.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}多點兒自信吧
+Dialogue: 0,0:08:30.52,0:08:33.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}令尊一定也已經認同真嗣君你了啊
+Dialogue: 0,0:08:36.49,0:08:37.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗨，我是葛城
+Dialogue: 0,0:08:42.72,0:08:43.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}什麼
+Dialogue: 0,0:09:12.21,0:09:14.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}相模灣海域方向確認出現第 7 使徒
+Dialogue: 0,0:09:14.73,0:09:16.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}正在與第 2 方面軍交戰
+Dialogue: 0,0:09:16.50,0:09:18.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經於 3 分鐘前發佈了非常事態宣言
+Dialogue: 0,0:09:19.72,0:09:21.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這邊用肉眼也能確認到
+Dialogue: 0,0:09:21.62,0:09:23.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在正護送著初號機駕駛員
+Dialogue: 0,0:09:23.68,0:09:26.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}以零號機優先，馬上執行「方案 03」
+Dialogue: 0,0:09:27.13,0:09:29.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不，「方案 02」已經執行了
+Dialogue: 0,0:09:29.74,0:09:31.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}「方案 02」？難道是…
+Dialogue: 0,0:09:39.90,0:09:40.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然是二號機
+Dialogue: 0,0:10:16.03,0:10:17.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好厲害 一擊就命中核心了
+Dialogue: 0,0:10:17.94,0:10:18.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不對
+Dialogue: 0,0:10:18.63,0:10:19.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是幌子
+Dialogue: 0,0:10:38.60,0:10:41.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}去死吧——
+Dialogue: 0,0:11:14.47,0:11:15.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}事件結束
+Dialogue: 0,0:11:16.06,0:11:18.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}周邊的封鎖全部完成
+Dialogue: 0,0:11:19.78,0:11:23.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在 EVA 二號機正沿相模原七號線移動
+Dialogue: 0,0:11:25.51,0:11:26.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哇～
+Dialogue: 0,0:11:26.94,0:11:28.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}二號機是紅色的啊
+Dialogue: 0,0:11:29.00,0:11:31.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不同的不只是塗裝喲
+Dialogue: 0,0:11:31.19,0:11:31.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊
+Dialogue: 0,0:11:32.12,0:11:33.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}說到底，零號機跟初號機
+Dialogue: 0,0:11:33.87,0:11:36.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}終究只是開發過程中的{\c&HA4ECFF&}原型機{\r}{\blur2}和{\c&HA4ECFF&}實驗機
+Dialogue: 0,0:11:36.94,0:11:38.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過這部二號機是不同的
+Dialogue: 0,0:11:38.86,0:11:43.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}世界第一部真正的實戰用 EVANGELION
+Dialogue: 0,0:11:44.07,0:11:45.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}正式機型哦
+Dialogue: 0,0:11:45.65,0:11:46.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我來介紹下
+Dialogue: 0,0:11:46.78,0:11:48.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}歐洲空軍的王牌
+Dialogue: 0,0:11:48.45,0:11:50.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}式波·明日香·蘭利上尉
+Dialogue: 0,0:11:50.71,0:11:51.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第二少女
+Dialogue: 0,0:11:52.00,0:11:53.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 二號機的駕駛員
+Dialogue: 0,0:11:56.13,0:11:57.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好久不見了啊，美裏
+Dialogue: 0,0:11:58.25,0:11:58.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}呃…
+Dialogue: 0,0:12:00.89,0:12:03.71,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那就是因受寵被選上的零號機駕駛員
+Dialogue: 0,0:12:05.36,0:12:09.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那誰是靠權勢選出來的初號機駕駛員
+Dialogue: 0,0:12:10.58,0:12:10.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…
+Dialogue: 0,0:12:11.81,0:12:14.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你笨蛋啊
+Dialogue: 0,0:12:15.12,0:12:16.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}關鍵的時候不在
+Dialogue: 0,0:12:16.84,0:12:17.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}何等的不自覺
+Dialogue: 0,0:12:20.41,0:12:21.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且還毫無戒備
+Dialogue: 0,0:12:24.63,0:12:27.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒有駕駛 EVA 去戰鬥，不覺得羞恥嗎
+Dialogue: 0,0:12:27.77,0:12:29.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所謂的權勢啊
+Dialogue: 0,0:12:32.77,0:12:34.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真是的！自以為是誰啊
+Dialogue: 0,0:12:35.14,0:12:36.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}拽什麼拽
+Dialogue: 0,0:12:37.60,0:12:41.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過話說回來，同樣的年齡已經當上了大尉
+Dialogue: 0,0:12:41.05,0:12:42.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好厲害！太強大了
+Dialogue: 0,0:12:42.93,0:12:44.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跳級大學畢業的吧
+Dialogue: 0,0:12:45.44,0:12:45.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}打攪下
+Dialogue: 0,0:12:47.24,0:12:50.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}去地下都市的中樞火車站在這檢票可以嗎
+Dialogue: 0,0:12:51.35,0:12:51.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是的
+Dialogue: 0,0:12:51.97,0:12:52.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊
+Dialogue: 0,0:12:52.35,0:12:54.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在 4 站過後有換乘站
+Dialogue: 0,0:12:55.91,0:12:57.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}僅僅離開了兩年
+Dialogue: 0,0:12:57.81,0:12:59.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有種浦島太郎的心境
+Dialogue: 0,0:12:57.81,0:12:59.32,ex,NTFS,0,0,86,,{\blur2}{\fad(50,50)}（典故大意：天上一日地上一年，轉眼間物是人非）
+Dialogue: 0,0:13:00.37,0:13:01.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝謝你，幫大忙了
+Dialogue: 0,0:13:02.66,0:13:04.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}對了，葛城那傢伙沒跟你在一起嗎
+Dialogue: 0,0:13:05.50,0:13:05.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒
+Dialogue: 0,0:13:06.96,0:13:07.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我是她的老朋友了
+Dialogue: 0,0:13:08.70,0:13:11.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可不是只有你才知道她的{\c&HA4ECFF&}睡相{\r}{\blur2}有多糟的喲
+Dialogue: 0,0:13:12.02,0:13:13.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇 真嗣君
+Dialogue: 0,0:13:18.19,0:13:19.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}睡相是…
+Dialogue: 0,0:13:19.82,0:13:20.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那傢伙是誰啊
+Dialogue: 0,0:13:21.88,0:13:24.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊啊，真是累人的差事啊
+Dialogue: 0,0:13:24.97,0:13:28.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}之前一直懸而未決的第 3 使徒跟五號機都按計劃處理掉了
+Dialogue: 0,0:13:29.29,0:13:30.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}原因到底還是會被當作「事故」
+Dialogue: 0,0:13:30.94,0:13:33.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這樣一來 {\u1}伯大尼基地{\u0}那裏的{\u1}馬爾杜克計劃{\u0}也就阻斷了
+Dialogue: 0,0:13:34.63,0:13:36.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一切全都按著你的劇本進行著
+Dialogue: 0,0:13:37.04,0:13:40.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}另外，關於剛提交的 SEELE 最新資料…
+Dialogue: 0,0:13:40.34,0:13:41.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經看過了
+Dialogue: 0,0:13:42.41,0:13:45.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}Mark.06 已經建造的確證十分有用啊
+Dialogue: 0,0:13:45.70,0:13:46.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那就好
+Dialogue: 0,0:13:47.23,0:13:49.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這是約定好的東西
+Dialogue: 0,0:13:49.87,0:13:51.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}作為預備而保存著的{\u1}失落之物
+Dialogue: 0,0:13:49.87,0:13:51.89,note,NTFS,0,0,0,,{\blur2\pos(805,638)}{\fad(50,50)}( Lost Number )
+Dialogue: 0,0:13:55.01,0:13:56.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}靈魂與神結合的
+Dialogue: 0,0:13:57.07,0:13:57.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}路標
+Dialogue: 0,0:13:58.92,0:14:01.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，打開「人類補完」大門的
+Dialogue: 0,0:14:02.94,0:14:04.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}尼布甲尼撒之鑰
+Dialogue: 0,0:14:02.94,0:14:04.56,note,NTFS,0,0,0,,{\blur2\pos(650,638)}{\fad(50,50)}( Nebuchadnezzar )
+Dialogue: 0,0:14:02.94,0:14:04.56,ex,NTFS,0,0,0,,{\blur2}{\fad(50,50)}* 尼布甲尼撒：巴比倫的國王，以「巴比倫之囚、巴別通天塔、空中花園」聞名於世
+Dialogue: 0,0:14:05.59,0:14:06.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼 就先這樣
+Dialogue: 0,0:14:07.15,0:14:09.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}短期內希望您能讓我自由活動一下
+Dialogue: 0,0:14:13.65,0:14:15.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}加持 良治，首席監察官
+Dialogue: 0,0:14:17.17,0:14:18.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是個值得信任的男人嗎
+Dialogue: 0,0:14:26.84,0:14:28.71,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你有些瘦了啊，小律
+Dialogue: 0,0:14:29.22,0:14:31.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}很遺憾，倒是長了 1570 克
+Dialogue: 0,0:14:33.02,0:14:34.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我想親眼確認一下啊
+Dialogue: 0,0:14:35.08,0:14:37.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可以哦，不過這個房間被監視著喲
+Dialogue: 0,0:14:37.99,0:14:38.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}絕無問題
+Dialogue: 0,0:14:39.37,0:14:41.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}監視器裏這會兒已經開始放映偽造的畫面了
+Dialogue: 0,0:14:41.68,0:14:43.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還是老樣子，準備萬全呢
+Dialogue: 0,0:14:44.30,0:14:45.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只是討厭打敗仗
+Dialogue: 0,0:14:46.42,0:14:47.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，你還是輸了哦
+Dialogue: 0,0:14:48.62,0:14:48.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:14:49.21,0:14:51.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有個可～怕的大姐姐正看著呢
+Dialogue: 0,0:14:53.82,0:14:55.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}小良，好久不見
+Dialogue: 0,0:14:55.45,0:14:56.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}喲，是好久啊
+Dialogue: 0,0:14:57.25,0:14:59.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼你會在這裏啊
+Dialogue: 0,0:15:00.07,0:15:00.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你是歐洲分部負責者不是麼
+Dialogue: 0,0:15:01.49,0:15:02.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這次是特別任命嘛
+Dialogue: 0,0:15:02.60,0:15:03.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}暫時會待在本部裏了
+Dialogue: 0,0:15:04.36,0:15:07.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}又能三人一起了，像學生時代那樣
+Dialogue: 0,0:15:08.04,0:15:10.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我才沒有想回到過去的意思呢
+Dialogue: 0,0:15:10.55,0:15:12.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我只是找律子有點事
+Dialogue: 0,0:15:12.97,0:15:15.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香的事已經跟人事部說過了
+Dialogue: 0,0:15:15.48,0:15:15.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}走了
+Dialogue: 0,0:15:18.44,0:15:20.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏明顯在嫉妒啊
+Dialogue: 0,0:15:21.17,0:15:22.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}小良，你有戲喲
+Dialogue: 0,0:15:23.42,0:15:24.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誰知道呢
+Dialogue: 0,0:15:32.24,0:15:33.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}式波·明日香……
+Dialogue: 0,0:15:35.69,0:15:37.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}原來也有因駕駛 EVA 而高興的人啊
+Dialogue: 0,0:15:39.41,0:15:40.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我回來了
+Dialogue: 0,0:15:41.36,0:15:42.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒？這是啥
+Dialogue: 0,0:15:44.14,0:15:45.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我的房間…
+Dialogue: 0,0:15:45.85,0:15:46.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好失禮啊
+Dialogue: 0,0:15:47.09,0:15:48.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我的行李啊
+Dialogue: 0,0:15:48.49,0:15:48.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊
+Dialogue: 0,0:15:48.98,0:15:50.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那我的呢？啊勒
+Dialogue: 0,0:15:51.07,0:15:52.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼式波會在這兒
+Dialogue: 0,0:15:54.49,0:15:55.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你笨蛋啊
+Dialogue: 0,0:15:56.76,0:15:58.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你被解雇了哦
+Dialogue: 0,0:15:59.49,0:16:03.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嘛，考慮一下誰更優秀、這是必然的結論吧
+Dialogue: 0,0:16:03.71,0:16:04.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼可以這樣…
+Dialogue: 0,0:16:05.11,0:16:08.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過為什麼日本的房間這麼小呢
+Dialogue: 0,0:16:08.98,0:16:11.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}行李連一半都沒放進來
+Dialogue: 0,0:16:11.78,0:16:15.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且為什麼日本人一點危機感都沒有啊
+Dialogue: 0,0:16:16.09,0:16:18.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}竟然能在這種沒門鎖的房間裏生活
+Dialogue: 0,0:16:18.56,0:16:19.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}難以置信
+Dialogue: 0,0:16:20.33,0:16:21.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哇～
+Dialogue: 0,0:16:21.41,0:16:24.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為日本人的優點是理解和體諒
+Dialogue: 0,0:16:24.72,0:16:26.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏小姐
+Dialogue: 0,0:16:26.30,0:16:27.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好煩人啊
+Dialogue: 0,0:16:27.78,0:16:29.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}趕快和垃圾一起出去吧
+Dialogue: 0,0:16:30.15,0:16:32.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊啦，小真也會留在這裏喲
+Dialogue: 0,0:16:32.58,0:16:33.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒
+Dialogue: 0,0:16:33.75,0:16:37.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香跟小真之間所缺少的是適當的交流
+Dialogue: 0,0:16:37.82,0:16:39.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}同是駕駛員
+Dialogue: 0,0:16:39.39,0:16:40.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}要同吃一鍋飯
+Dialogue: 0,0:16:40.92,0:16:42.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好好相處吧
+Dialogue: 0,0:16:43.91,0:16:44.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哼
+Dialogue: 0,0:16:44.96,0:16:46.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這可是命令喲
+Dialogue: 0,0:17:04.51,0:17:04.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好
+Dialogue: 0,0:17:05.14,0:17:06.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}大家一起來
+Dialogue: 0,0:17:06.66,0:17:08.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我吃飽了
+Dialogue: 0,0:17:11.58,0:17:14.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊～酷～
+Dialogue: 0,0:17:14.38,0:17:17.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然洗澡之後的啤酒是極品啊
+Dialogue: 0,0:17:18.33,0:17:19.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊——
+Dialogue: 0,0:17:20.09,0:17:22.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有什麼奇怪的生物在浴室裏
+Dialogue: 0,0:17:25.17,0:17:26.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是啊，是叫做企鵝的鳥哦
+Dialogue: 0,0:17:27.33,0:17:28.67,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}名字是「PEN2」
+Dialogue: 0,0:17:39.86,0:17:40.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你這色狼
+Dialogue: 0,0:17:41.03,0:17:42.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}笨蛋！變態！難以置信
+Dialogue: 0,0:17:42.93,0:17:45.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}兩個人都變得坦誠了，向好方向發展不是嗎
+Dialogue: 0,0:17:42.93,0:17:44.81,bgs,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以才討厭男人啊
+Dialogue: 0,0:17:46.20,0:17:46.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是吧，PEN2
+Dialogue: 0,0:18:00.63,0:18:02.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和那兩個傢伙不一樣
+Dialogue: 0,0:18:03.07,0:18:04.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我是特別的
+Dialogue: 0,0:18:05.73,0:18:08.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以呢，今後也…
+Dialogue: 0,0:18:09.53,0:18:11.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只能自己一個人干呢，明日香
+Dialogue: 0,0:18:34.43,0:18:36.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然不接啊，爸爸
+Dialogue: 0,0:20:01.49,0:20:03.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}社會課參觀活動？加持組織？
+Dialogue: 0,0:20:04.07,0:20:04.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:20:04.78,0:20:06.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}他說也可以邀請大家
+Dialogue: 0,0:20:06.60,0:20:09.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和那傢伙扯上關係就沒有正常事
+Dialogue: 0,0:20:09.48,0:20:11.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那我略過
+Dialogue: 0,0:20:11.67,0:20:12.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行喲
+Dialogue: 0,0:20:12.57,0:20:14.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}萬事要以和為貴
+Dialogue: 0,0:20:14.93,0:20:15.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香還是去吧
+Dialogue: 0,0:20:16.18,0:20:17.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這也是命令？
+Dialogue: 0,0:20:26.20,0:20:28.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}月面的塔布加基地分明就在眼前
+Dialogue: 0,0:20:29.58,0:20:30.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}居然不准我們登陸
+Dialogue: 0,0:20:31.88,0:20:33.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}SEELE 也夠無情的
+Dialogue: 0,0:20:34.62,0:20:37.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}Mark.06 的建造方式與其他的不同
+Dialogue: 0,0:20:37.90,0:20:39.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}能確認這一點就足夠了
+Dialogue: 0,0:20:40.70,0:20:43.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，五號機之後本該沒有建造計劃才對啊
+Dialogue: 0,0:20:44.87,0:20:48.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}恐怕，在尚未公開的{\u1}死海文書外典{\u0}裏有此記載
+Dialogue: 0,0:20:49.29,0:20:52.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}SEELE 想基於那個劇本進行
+Dialogue: 0,0:20:53.77,0:20:56.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過 SEELE 應該注意到了吧
+Dialogue: 0,0:20:56.88,0:20:59.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}NERV 的最終目的
+Dialogue: 0,0:20:59.20,0:21:03.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即使是那樣，我們也要繼續走我們的路
+Dialogue: 0,0:21:04.03,0:21:07.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哪怕這樣做意味著將會與{\u1}神之理{\u0}為敵
+Dialogue: 0,0:21:12.88,0:21:15.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}人類嗎？不可能吧
+Dialogue: 0,0:21:16.94,0:21:18.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初次見面
+Dialogue: 0,0:21:18.82,0:21:19.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}父親
+Dialogue: 0,0:21:21.08,0:21:23.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}厲害！太厲害了
+Dialogue: 0,0:21:23.26,0:21:25.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}保存著原本應該已經滅絕的海洋生物
+Dialogue: 0,0:21:25.91,0:21:28.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還能讓被染成紅色的海水恢復成原本的樣子
+Dialogue: 0,0:21:28.64,0:21:32.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}簡直是如造物主般神技的龐大計劃下的禁忌聖地
+Dialogue: 0,0:21:32.74,0:21:35.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}竟然有幸能夠參觀其中的一小部分
+Dialogue: 0,0:21:36.20,0:21:38.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然千金不如一友的感覺
+Dialogue: 0,0:21:39.35,0:21:40.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真是要謝謝你啊
+Dialogue: 0,0:21:41.26,0:21:43.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}要謝的話，應該謝謝加持先生吧
+Dialogue: 0,0:21:44.13,0:21:46.71,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過接下來稍微有點麻煩
+Dialogue: 0,0:21:47.03,0:21:47.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊
+Dialogue: 0,0:21:55.35,0:21:57.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好熱好熱
+Dialogue: 0,0:22:01.57,0:22:03.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好冷好冷
+Dialogue: 0,0:22:21.85,0:22:23.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好大的水槽啊
+Dialogue: 0,0:22:23.56,0:22:24.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好厲害
+Dialogue: 0,0:22:27.52,0:22:29.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這就是第二次衝擊之前的生物嗎
+Dialogue: 0,0:22:40.89,0:22:41.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哇！是活的呢
+Dialogue: 0,0:22:41.83,0:22:43.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好厲害！實在太厲害了
+Dialogue: 0,0:22:44.16,0:22:46.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}後背上背著什麼東西的動物也有喲
+Dialogue: 0,0:22:47.17,0:22:48.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好像叫做海龜
+Dialogue: 0,0:22:48.72,0:22:49.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}海龜
+Dialogue: 0,0:22:49.28,0:22:50.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}小孩般的吵吵鬧鬧
+Dialogue: 0,0:22:51.42,0:22:52.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}笨蛋一樣
+Dialogue: 0,0:23:03.24,0:23:04.71,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波也能來太好了
+Dialogue: 0,0:23:05.80,0:23:06.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}身體沒事了嗎
+Dialogue: 0,0:23:07.45,0:23:07.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:23:08.90,0:23:09.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}定額工作{\r}{\blur2}已經做完
+Dialogue: 0,0:23:10.37,0:23:11.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}今天沒什麼問題
+Dialogue: 0,0:23:12.30,0:23:14.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊，真是狹窄呢
+Dialogue: 0,0:23:14.97,0:23:16.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}若能在更大的地方暢遊的話多好
+Dialogue: 0,0:23:17.71,0:23:18.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}行不通的
+Dialogue: 0,0:23:19.06,0:23:21.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這些小傢伙只能在這裏面生存
+Dialogue: 0,0:23:23.32,0:23:24.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…{\c&HA7EFFD&}就和我一樣{\r}{\blur2}…
+Dialogue: 0,0:23:33.42,0:23:35.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我開動了
+Dialogue: 0,0:23:37.36,0:23:38.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}意外的好吃呢
+Dialogue: 0,0:23:38.97,0:23:41.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，出色的燒烤技術跟調味啊
+Dialogue: 0,0:23:42.19,0:23:44.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那九成人造肉調理之後
+Dialogue: 0,0:23:44.10,0:23:45.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}竟然如此美味
+Dialogue: 0,0:23:46.23,0:23:47.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}令人驚嘆啊
+Dialogue: 0,0:23:47.77,0:23:50.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣，你暗地裏還有這麼一手啊
+Dialogue: 0,0:23:50.51,0:23:53.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏小姐一直都吃的是速食品
+Dialogue: 0,0:23:53.78,0:23:55.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以只好我來下廚
+Dialogue: 0,0:23:55.43,0:23:58.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣君，下得廚房的男孩很受歡迎的喲
+Dialogue: 0,0:23:58.52,0:23:59.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}聽到沒
+Dialogue: 0,0:23:59.78,0:24:01.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不，我才不做呢
+Dialogue: 0,0:24:01.77,0:24:02.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不是男人做的事
+Dialogue: 0,0:24:03.08,0:24:05.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}老思想，笨蛋一樣
+Dialogue: 0,0:24:05.44,0:24:06.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你丫說啥
+Dialogue: 0,0:24:06.48,0:24:08.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}原則可是很重要的
+Dialogue: 0,0:24:08.22,0:24:09.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}越來越笨了
+Dialogue: 0,0:24:09.47,0:24:10.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你說什麼
+Dialogue: 0,0:24:10.46,0:24:11.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\a1}好啦，快吃吧快吃吧
+Dialogue: 0,0:24:16.86,0:24:17.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}抱歉，綾波
+Dialogue: 0,0:24:17.96,0:24:19.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不合口味嗎
+Dialogue: 0,0:24:20.23,0:24:22.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不，只是不吃肉
+Dialogue: 0,0:24:22.73,0:24:25.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼分明沒有錯誤也要道歉？日本人
+Dialogue: 0,0:24:26.11,0:24:29.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還有你啊！生物吃生物才能活下去喲
+Dialogue: 0,0:24:29.42,0:24:32.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}難得的生命，你給我一點不剩都吃光啊
+Dialogue: 0,0:24:35.33,0:24:36.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}受寵的！想吵架麼
+Dialogue: 0,0:24:38.98,0:24:41.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}唉，讓下讓下
+Dialogue: 0,0:24:42.06,0:24:43.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那樣的話，我不客氣了
+Dialogue: 0,0:24:45.37,0:24:46.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}什麼？才不會給你呢
+Dialogue: 0,0:24:47.08,0:24:48.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊，討厭的傢伙！離遠點
+Dialogue: 0,0:24:49.53,0:24:49.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}笨鳥
+Dialogue: 0,0:24:51.42,0:24:52.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}笨蛋一般
+Dialogue: 0,0:24:54.09,0:24:55.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那味噌湯如何呢
+Dialogue: 0,0:24:59.71,0:25:00.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}暖暖的
+Dialogue: 0,0:25:12.84,0:25:13.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好喝
+Dialogue: 0,0:25:15.06,0:25:16.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這就是我們的大地母親
+Dialogue: 0,0:25:17.65,0:25:19.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真不忍心看
+Dialogue: 0,0:25:20.74,0:25:24.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過期望這種慘狀的人也有
+Dialogue: 0,0:25:25.47,0:25:27.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為是人類無法進入的
+Dialogue: 0,0:25:27.65,0:25:30.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無罪的、污穢被淨化的世界
+Dialogue: 0,0:25:31.54,0:25:35.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我倒是希望看到由人類本身所玷污的混沌的世界
+Dialogue: 0,0:25:36.24,0:25:38.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}混沌是人的印象罷了
+Dialogue: 0,0:25:38.90,0:25:41.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}世界全是由協調與秩序構成的
+Dialogue: 0,0:25:43.02,0:25:45.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是人的心，擾亂了這個世界吧
+Dialogue: 0,0:25:48.46,0:25:51.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在我出生以前大海居然是藍色的
+Dialogue: 0,0:25:51.78,0:25:52.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}根本無法想像呢
+Dialogue: 0,0:25:53.53,0:25:55.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這種人類生存所需要的環境
+Dialogue: 0,0:25:56.38,0:25:57.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真虧他們能復原出來
+Dialogue: 0,0:25:58.60,0:26:00.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過這海風…
+Dialogue: 0,0:26:01.41,0:26:03.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}總覺得有種奇怪的腥味呢
+Dialogue: 0,0:26:04.77,0:26:06.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}海洋中生物腐爛的氣味
+Dialogue: 0,0:26:07.40,0:26:08.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是生存過的證據
+Dialogue: 0,0:26:09.86,0:26:11.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和那什麼都沒有的紅色海水不同
+Dialogue: 0,0:26:12.65,0:26:14.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這才是海洋真正的樣子哦
+Dialogue: 0,0:26:15.57,0:26:17.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}原本這個世界廣闊無垠
+Dialogue: 0,0:26:17.98,0:26:19.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}充滿了各種各樣的生命
+Dialogue: 0,0:26:20.48,0:26:23.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這件事，一直想讓你們知道
+Dialogue: 0,0:26:23.84,0:26:24.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼說呢？很高興
+Dialogue: 0,0:26:26.03,0:26:27.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏小姐也來的話就好了
+Dialogue: 0,0:26:28.26,0:26:29.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}葛城不會來的
+Dialogue: 0,0:26:30.53,0:26:31.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為會回憶起來的
+Dialogue: 0,0:26:32.09,0:26:32.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是什麼呢
+Dialogue: 0,0:26:34.51,0:26:35.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第二次衝擊
+Dialogue: 0,0:27:20.57,0:27:23.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}葛城為何加入 NERV 聽說過嗎
+Dialogue: 0,0:27:25.51,0:27:30.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}葛城的父親好像是在自己的研究夢想中生存的人
+Dialogue: 0,0:27:31.96,0:27:34.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}她討厭那樣的父親
+Dialogue: 0,0:27:35.42,0:27:36.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}甚至是憎恨
+Dialogue: 0,0:27:37.33,0:27:38.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不擅長跟父親接觸呢
+Dialogue: 0,0:27:39.27,0:27:40.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跟我一樣呢
+Dialogue: 0,0:27:41.05,0:27:42.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跟我一樣…
+Dialogue: 0,0:27:43.54,0:27:47.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，最後卻被那樣的父親救了
+Dialogue: 0,0:27:49.07,0:27:51.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}生存下去這件事有著許多意義
+Dialogue: 0,0:27:52.57,0:27:56.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}接受逝者的犧牲，不得不繼承他們的意志
+Dialogue: 0,0:27:57.59,0:27:59.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}若是一個人的話，就更是如此
+Dialogue: 0,0:28:01.23,0:28:03.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}痛苦著的，並不只有你一個
+Dialogue: 0,0:28:09.23,0:28:11.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}3 分鐘前由莫納克亞觀測所捕捉
+Dialogue: 0,0:28:11.93,0:28:13.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現正輸入軌道參數
+Dialogue: 0,0:28:14.01,0:28:16.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 3 監測衛星已通過光學手段捕捉到目標影像
+Dialogue: 0,0:28:17.14,0:28:18.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}以最大望遠距離成像
+Dialogue: 0,0:28:21.39,0:28:23.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}扭曲光線的 A.T.Field
+Dialogue: 0,0:28:24.10,0:28:24.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}實在太可怕了
+Dialogue: 0,0:28:25.71,0:28:27.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼，預計落點呢
+Dialogue: 0,0:28:29.04,0:28:30.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…當然是這兒了
+Dialogue: 0,0:28:31.26,0:28:32.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}MAGI 也在再次演算
+Dialogue: 0,0:28:32.66,0:28:35.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}命中 NEVR 總部的概率是 6 個 9
+Dialogue: 0,0:28:42.71,0:28:45.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}N2 航空爆雷也完全無效
+Dialogue: 0,0:28:45.60,0:28:47.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}軌道修正不可行嗎
+Dialogue: 0,0:28:47.65,0:28:50.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為 A.T.Field 集中於一端輸出
+Dialogue: 0,0:28:51.41,0:28:53.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}再加上落下時的能量
+Dialogue: 0,0:28:53.67,0:28:56.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}使徒本身就如同一個大炸彈呢
+Dialogue: 0,0:28:56.64,0:29:00.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 8 使徒直接攻擊時推算爆炸受害範圍為直徑 42 萬
+Dialogue: 0,0:29:01.06,0:29:03.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}深度涉及到地下都市 1 萬 5 千
+Dialogue: 0,0:29:03.64,0:29:05.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第三新東京蒸發
+Dialogue: 0,0:29:05.77,0:29:07.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不用說地下空間了
+Dialogue: 0,0:29:05.77,0:29:07.14,note,NTFS,0,0,0,,{\blur2\pos(680,638)}{\fad(50,50)}( Geo Front )
+Dialogue: 0,0:29:07.26,0:29:09.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}中央教條也會被完全暴露在外
+Dialogue: 0,0:29:07.26,0:29:09.24,note,NTFS,0,0,0,,{\blur2\pos(480,638)}{\fad(50,50)}( Central Dogma )
+Dialogue: 0,0:29:09.68,0:29:10.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇司令呢
+Dialogue: 0,0:29:10.72,0:29:13.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}受使徒影響，大氣層上空電磁不穩定
+Dialogue: 0,0:29:13.69,0:29:15.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在聯絡不上
+Dialogue: 0,0:29:16.14,0:29:18.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這裏只能獨自判斷了呢
+Dialogue: 0,0:29:20.97,0:29:23.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}通知日本政府和各個部門
+Dialogue: 0,0:29:23.84,0:29:27.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}根據 NERV 的權限發佈特別宣言 D-17
+Dialogue: 0,0:29:27.46,0:29:30.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}半徑 120 公里內的居民立刻進行避難
+Dialogue: 0,0:29:31.29,0:29:32.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒問題
+Dialogue: 0,0:29:32.82,0:29:35.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}政府的相關部門已經背著我們開始避難了
+Dialogue: 0,0:29:50.94,0:29:53.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}市內的居民已經全部避難完畢
+Dialogue: 0,0:29:54.22,0:29:59.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}部內警報 C 表明非戰鬥人員以及 D 級勤務人員也已避難完畢
+Dialogue: 0,0:30:00.31,0:30:02.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經拜託松代那裏進行 MAGI 的備份工作了
+Dialogue: 0,0:30:03.16,0:30:04.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼打算怎麼做
+Dialogue: 0,0:30:04.94,0:30:07.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即使是 EVA 也不能在空中飛啊
+Dialogue: 0,0:30:08.32,0:30:11.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}扭曲空間能力超強，所以任何地點的狙擊也是不可能的
+Dialogue: 0,0:30:12.23,0:30:15.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}面對這樣超物質的對象，不知如何下手啊
+Dialogue: 0,0:30:12.23,0:30:15.37,ex,NTFS,0,0,0,,{\blur2}{\fad(50,50)}* 超物質：該詞出自遊戲《絕倫超人》
+Dialogue: 0,0:30:21.74,0:30:22.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}認真的嗎
+Dialogue: 0,0:30:22.94,0:30:23.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，是喲
+Dialogue: 0,0:30:24.49,0:30:26.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}能稱為作戰嗎？這個計劃
+Dialogue: 0,0:30:27.16,0:30:30.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}MAGI 所得出的失敗概率也是 99% 以上
+Dialogue: 0,0:30:30.95,0:30:33.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即使成功也會損失三部 EVA
+Dialogue: 0,0:30:34.44,0:30:36.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}作為技術部主管，我對此表示絕對不能接受
+Dialogue: 0,0:30:37.12,0:30:38.71,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可能性並不是 0 喲
+Dialogue: 0,0:30:39.23,0:30:41.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}比起期待奇跡，努力更加實際
+Dialogue: 0,0:30:41.92,0:30:44.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}應該以保護{\c&HA4ECFF&}莉莉絲{\r}{\blur2}和{\c&HA4ECFF&}初號機{\r}{\blur2}為最優先
+Dialogue: 0,0:30:44.66,0:30:45.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒有等待的意思
+Dialogue: 0,0:30:45.99,0:30:47.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}奇跡的產生是靠人的意志
+Dialogue: 0,0:30:48.34,0:30:49.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}葛城一佐
+Dialogue: 0,0:30:50.25,0:30:51.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}當前負責人是我
+Dialogue: 0,0:30:52.62,0:30:53.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}由我來判斷
+Dialogue: 0,0:30:54.67,0:30:57.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且，消滅使徒是我的工作
+Dialogue: 0,0:30:58.31,0:30:58.67,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}工作
+Dialogue: 0,0:30:59.63,0:31:02.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}私怨吧…你對使徒的復仇
+Dialogue: 0,0:31:03.74,0:31:04.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒
+Dialogue: 0,0:31:04.71,0:31:05.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}用手接住
+Dialogue: 0,0:31:06.16,0:31:06.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}對喔
+Dialogue: 0,0:31:06.97,0:31:10.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 的 A.T.Field 全開後直接接住落下的使徒
+Dialogue: 0,0:31:11.07,0:31:13.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標攪亂了落點位置的信息
+Dialogue: 0,0:31:13.37,0:31:16.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以無法依靠輔助觀測來精確的計算彈道
+Dialogue: 0,0:31:16.77,0:31:19.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}鑒於此，決定以多方向來的形式應對
+Dialogue: 0,0:31:19.71,0:31:22.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}本次作戰由 EVA 三機同時展開
+Dialogue: 0,0:31:22.70,0:31:25.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}多餘！我一個人就能殲滅敵人
+Dialogue: 0,0:31:25.27,0:31:25.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行喲
+Dialogue: 0,0:31:26.29,0:31:28.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}預測落點範圍太大
+Dialogue: 0,0:31:28.13,0:31:30.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}單部 EVA 無法應對
+Dialogue: 0,0:31:31.76,0:31:32.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這樣部署的依據呢
+Dialogue: 0,0:31:33.42,0:31:34.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}女人的直覺喲
+Dialogue: 0,0:31:34.54,0:31:35.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}何等隨便啊
+Dialogue: 0,0:31:36.51,0:31:37.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…勝算呢
+Dialogue: 0,0:31:38.33,0:31:39.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只有天知道
+Dialogue: 0,0:31:40.30,0:31:40.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哼
+Dialogue: 0,0:31:41.06,0:31:42.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以其他的 EVA 才礙事
+Dialogue: 0,0:31:43.30,0:31:45.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}保護人類這點事兒，我一個人就足夠了
+Dialogue: 0,0:31:46.50,0:31:49.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}此次作戰必要的並非是同步率的成績
+Dialogue: 0,0:31:50.57,0:31:52.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}就是不承認我的才能是吧
+Dialogue: 0,0:31:52.66,0:31:53.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不是的
+Dialogue: 0,0:31:53.93,0:31:56.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你們三個人的力量是必要的
+Dialogue: 0,0:31:57.00,0:31:58.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為了創造奇跡
+Dialogue: 0,0:32:06.54,0:32:09.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}與新御殿場變電所方面的鏈接完成，開始投入運作
+Dialogue: 0,0:32:09.92,0:32:12.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}零號機的最大充電率突破 105%
+Dialogue: 0,0:32:13.31,0:32:17.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}預備電源延長電纜抵達，第 8 班請抓緊連接工作
+Dialogue: 0,0:32:19.43,0:32:21.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機的臍帶電纜已確認，無任何異常
+Dialogue: 0,0:32:22.19,0:32:23.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}各駕駛員待命中
+Dialogue: 0,0:32:23.55,0:32:27.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}呼吸以及心跳數正常，最終醫學檢查沒有問題
+Dialogue: 0,0:32:29.59,0:32:30.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在 EVA 裏面…
+Dialogue: 0,0:32:32.05,0:32:35.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼說呢，這種時候卻意外的很安心
+Dialogue: 0,0:32:36.43,0:32:37.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經認為駕駛是理所當然的嗎
+Dialogue: 0,0:32:39.64,0:32:40.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼呢
+Dialogue: 0,0:32:41.28,0:32:42.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有一種熟悉的感覺
+Dialogue: 0,0:32:44.23,0:32:44.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}氣味{\r}{\blur2}？
+Dialogue: 0,0:32:45.70,0:32:46.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}媽媽的氣味
+Dialogue: 0,0:32:48.88,0:32:49.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…綾波的氣味？
+Dialogue: 0,0:32:54.08,0:32:55.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}大駕光臨了呢
+Dialogue: 0,0:32:56.35,0:32:57.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA全體，進入出發位置
+Dialogue: 0,0:33:04.89,0:33:06.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無法依靠 2 次數據的話
+Dialogue: 0,0:33:07.17,0:33:09.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}此後都以自己的臨場判斷優先
+Dialogue: 0,0:33:10.64,0:33:12.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一切都押在 EVA 跟你們身上了
+Dialogue: 0,0:33:13.50,0:33:15.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標接近，距離約 2 萬
+Dialogue: 0,0:33:15.78,0:33:17.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼，作戰開始
+Dialogue: 0,0:33:19.13,0:33:19.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}出擊
+Dialogue: 0,0:33:52.08,0:33:53.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標的 A.T.Field 變異
+Dialogue: 0,0:33:54.29,0:33:55.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}軌道發生改變
+Dialogue: 0,0:33:55.71,0:33:57.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}預測落點修正 205
+Dialogue: 0,0:33:57.57,0:33:58.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標落速增加
+Dialogue: 0,0:33:59.00,0:34:01.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}什麼啊，比計算結果快多了啊
+Dialogue: 0,0:34:01.43,0:34:03.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行！我趕不上了
+Dialogue: 0,0:34:03.37,0:34:04.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我這裏想辦法
+Dialogue: 0,0:34:04.75,0:34:05.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏小姐
+Dialogue: 0,0:34:05.60,0:34:07.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}構築緊急路線！605 至 675
+Dialogue: 0,0:34:08.06,0:34:08.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是
+Dialogue: 0,0:34:16.42,0:34:18.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}接下來，1702 至 1708
+Dialogue: 0,0:34:18.83,0:34:19.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}準備
+Dialogue: 0,0:34:59.96,0:35:01.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標變形，距離 1 萬 2 千
+Dialogue: 0,0:35:07.40,0:35:08.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}A.T.Field 全開
+Dialogue: 0,0:35:44.10,0:35:44.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}權二代
+Dialogue: 0,0:35:46.27,0:35:47.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}二號機，核…
+Dialogue: 0,0:35:47.29,0:35:48.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我知道的啊
+Dialogue: 0,0:35:49.93,0:35:51.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}別命令我
+Dialogue: 0,0:35:51.66,0:35:52.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}給我死——
+Dialogue: 0,0:35:58.14,0:35:58.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插偏了
+Dialogue: 0,0:35:59.31,0:36:01.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真是不聽話啊
+Dialogue: 0,0:36:01.82,0:36:02.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還有 30 秒
+Dialogue: 0,0:36:13.61,0:36:14.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香！快啊
+Dialogue: 0,0:36:15.06,0:36:16.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}都說我知道的
+Dialogue: 0,0:36:20.70,0:36:21.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}受寵的
+Dialogue: 0,0:36:25.79,0:36:26.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快
+Dialogue: 0,0:36:26.70,0:36:27.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香
+Dialogue: 0,0:36:27.60,0:36:29.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}都說我知道啦
+Dialogue: 0,0:36:35.54,0:36:37.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}再來一下
+Dialogue: 0,0:37:37.26,0:37:38.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝謝大家
+Dialogue: 0,0:37:39.74,0:37:40.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}電波系統恢復
+Dialogue: 0,0:37:41.09,0:37:42.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}來自碇司令的電話
+Dialogue: 0,0:37:43.37,0:37:43.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}接進來
+Dialogue: 0,0:37:46.19,0:37:47.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}十分抱歉
+Dialogue: 0,0:37:47.51,0:37:48.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}由於我的獨斷
+Dialogue: 0,0:37:48.84,0:37:50.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}造成了 EVA 三機受損
+Dialogue: 0,0:37:50.35,0:37:52.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}各駕駛員也有負傷
+Dialogue: 0,0:37:52.79,0:37:54.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一切責任都在我
+Dialogue: 0,0:37:55.47,0:37:55.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒關係
+Dialogue: 0,0:37:56.47,0:38:01.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}對於能成功殲敵，這點損失倒不如說是幸運的
+Dialogue: 0,0:38:02.09,0:38:04.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，幹得好！葛城一佐
+Dialogue: 0,0:38:05.08,0:38:05.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝謝您
+Dialogue: 0,0:38:06.41,0:38:08.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}給我接線初號機的駕駛員
+Dialogue: 0,0:38:10.37,0:38:11.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}事情我都聽說了
+Dialogue: 0,0:38:11.87,0:38:13.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}你做得很好，真嗣
+Dialogue: 0,0:38:13.96,0:38:15.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒？是
+Dialogue: 0,0:38:16.24,0:38:18.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼葛城一佐，善後就交給你了
+Dialogue: 0,0:38:19.31,0:38:19.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是
+Dialogue: 0,0:38:20.30,0:38:21.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快點開始 EVA 三機的回收
+Dialogue: 0,0:38:22.47,0:38:25.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}優先搬運初號機，走 99 號路線
+Dialogue: 0,0:38:33.26,0:38:36.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我一個人…什麼都沒做成
+Dialogue: 0,0:39:08.58,0:39:11.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一直認為一個人是理所當然的
+Dialogue: 0,0:39:12.99,0:39:15.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}孤獨應該不在意了
+Dialogue: 0,0:39:30.91,0:39:31.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}別轉到這邊來
+Dialogue: 0,0:39:38.52,0:39:42.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}權二代，稍微讓我在這兒待會
+Dialogue: 0,0:39:47.54,0:39:50.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…式波…小姐…
+Dialogue: 0,0:39:53.75,0:39:56.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}今天，你趁亂叫了我的名字吧
+Dialogue: 0,0:39:58.53,0:40:00.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}特別准許你可以叫我「明日香」
+Dialogue: 0,0:40:00.85,0:40:03.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我也會叫你「笨蛋真嗣」的
+Dialogue: 0,0:40:03.91,0:40:08.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…明日香為什麼會坐到 EVA 上的呢
+Dialogue: 0,0:40:09.43,0:40:10.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}愚蠢的問題
+Dialogue: 0,0:40:10.87,0:40:11.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}安靜點
+Dialogue: 0,0:40:12.00,0:40:12.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}笨蛋真嗣
+Dialogue: 0,0:40:17.84,0:40:20.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是為了自己駕駛 EVA
+Dialogue: 0,0:40:22.14,0:40:23.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你又是如何呢
+Dialogue: 0,0:40:24.43,0:40:25.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我不是很清楚
+Dialogue: 0,0:40:27.45,0:40:31.67,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你笨蛋啊？那樣子只是逃避責任是吧
+Dialogue: 0,0:40:33.70,0:40:35.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}大概想讓父親表揚吧
+Dialogue: 0,0:40:37.78,0:40:40.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}今天…第一次被表揚
+Dialogue: 0,0:40:42.23,0:40:44.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第一次被稱讚，感覺好開心啊
+Dialogue: 0,0:40:46.26,0:40:50.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}爸爸…是不是已經認同了我呢
+Dialogue: 0,0:40:51.51,0:40:53.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}或許如美裏小姐說的那樣
+Dialogue: 0,0:40:58.43,0:41:01.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你真的…是個笨蛋
+Dialogue: 0,0:41:06.41,0:41:08.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}接下來，開飯啦、開飯啦
+Dialogue: 0,0:41:09.30,0:41:11.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}學校的最大樂趣啊
+Dialogue: 0,0:41:11.71,0:41:14.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒？沒帶便當
+Dialogue: 0,0:41:14.47,0:41:17.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}今早在寫作業，沒有時間做啊
+Dialogue: 0,0:41:17.62,0:41:22.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以你準備讓本小姐今天不吃午飯度過嗎
+Dialogue: 0,0:41:22.45,0:41:24.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}都說了明天會好好做的啦
+Dialogue: 0,0:41:24.68,0:41:26.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啥啊，又是小兩口吵架嗎
+Dialogue: 0,0:41:28.76,0:41:29.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}才不是呢
+Dialogue: 0,0:41:31.86,0:41:35.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香，洗面奶借我下
+Dialogue: 0,0:41:35.39,0:41:37.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你給我適可而止啊！美裏
+Dialogue: 0,0:41:37.16,0:41:38.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}自己去買
+Dialogue: 0,0:41:39.40,0:41:40.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}小氣
+Dialogue: 0,0:41:42.48,0:41:44.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼，吃飯啦、吃飯啦
+Dialogue: 0,0:41:45.06,0:41:47.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哇～哈哈，我開動了
+Dialogue: 0,0:41:50.56,0:41:51.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}唔，今天還湊合吧
+Dialogue: 0,0:41:52.31,0:41:54.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}偷懶了，味道上減分
+Dialogue: 0,0:41:54.17,0:41:56.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…明日香同學
+Dialogue: 0,0:41:56.41,0:41:56.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:41:57.10,0:41:59.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可以一起吃嗎
+Dialogue: 0,0:42:01.37,0:42:03.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}倒是可以，不過便當不會分你喲
+Dialogue: 0,0:42:08.19,0:42:08.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}給，這個
+Dialogue: 0,0:42:12.28,0:42:14.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為好像總沒看到你吃飯
+Dialogue: 0,0:42:16.12,0:42:17.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝…謝謝
+Dialogue: 0,0:42:18.35,0:42:21.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}太好了！下決心和你搭話
+Dialogue: 0,0:42:19.93,0:42:21.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\a3}光，對吧
+Dialogue: 0,0:42:22.73,0:42:24.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}剩下的，你吃了也可以哦
+Dialogue: 0,0:42:25.96,0:42:28.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊～吃得好飽
+Dialogue: 0,0:42:29.11,0:42:30.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}承蒙款待
+Dialogue: 0,0:42:31.29,0:42:32.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}午飯吃得真晚啊
+Dialogue: 0,0:42:32.74,0:42:34.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝…謝謝
+Dialogue: 0,0:42:35.35,0:42:37.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}聽說是真嗣君做的
+Dialogue: 0,0:42:37.97,0:42:41.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嘛，你沒有做料理的才能啊
+Dialogue: 0,0:42:44.04,0:42:46.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是啊，跟你這閒人不同
+Dialogue: 0,0:42:47.09,0:42:49.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我這現場責任人可是忙得要死
+Dialogue: 0,0:42:49.95,0:42:51.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還是老樣子，認真死板的一個人呢
+Dialogue: 0,0:42:52.40,0:42:54.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嘛，這是葛城的優點
+Dialogue: 0,0:42:54.62,0:42:55.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}也是弱點
+Dialogue: 0,0:42:56.10,0:42:58.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}聽說前段時間你和小律爭執了
+Dialogue: 0,0:43:00.29,0:43:01.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}再從容一些嘛
+Dialogue: 0,0:43:02.23,0:43:06.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不好意思，我的腦袋裏全是日常責任
+Dialogue: 0,0:43:06.40,0:43:09.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}太有緊張感的話，男人是不會喜歡的喲
+Dialogue: 0,0:43:09.70,0:43:10.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}多管閒事
+Dialogue: 0,0:43:32.81,0:43:33.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}「謝謝」
+Dialogue: 0,0:43:34.41,0:43:35.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}表達感謝之意的話語
+Dialogue: 0,0:43:36.86,0:43:37.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第一次開口說出的話語
+Dialogue: 0,0:43:40.83,0:43:43.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…明明對那個人、都沒有說過的
+Dialogue: 0,0:43:45.33,0:43:45.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}起立
+Dialogue: 0,0:43:47.79,0:43:48.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}敬禮
+Dialogue: 0,0:43:49.51,0:43:49.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}坐下
+Dialogue: 0,0:43:52.49,0:43:55.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯？綾波又請假嗎
+Dialogue: 0,0:43:55.88,0:43:56.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嘛、算了…
+Dialogue: 0,0:43:56.69,0:43:59.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}昨天看著挺精神的
+Dialogue: 0,0:44:00.45,0:44:01.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼了呢
+Dialogue: 0,0:44:01.95,0:44:02.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…{\c&HA7EFFD&}就和我一樣{\r}{\blur2}…
+Dialogue: 0,0:44:04.11,0:44:05.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}「離開這裏就無法存活」…
+Dialogue: 0,0:44:06.80,0:44:07.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…這是怎麼一回事呢
+Dialogue: 0,0:44:13.36,0:44:13.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}麗
+Dialogue: 0,0:44:19.91,0:44:21.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}去吃飯吧
+Dialogue: 0,0:44:22.49,0:44:22.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是
+Dialogue: 0,0:44:30.20,0:44:30.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇司令
+Dialogue: 0,0:44:32.14,0:44:32.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼了
+Dialogue: 0,0:44:33.43,0:44:35.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}吃飯、是快樂的事嗎
+Dialogue: 0,0:44:36.61,0:44:36.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:44:38.46,0:44:42.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和誰一起吃飯、高興嗎
+Dialogue: 0,0:44:43.45,0:44:43.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:44:45.83,0:44:49.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}做料理、會感到喜悅嗎
+Dialogue: 0,0:44:50.82,0:44:51.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:44:54.88,0:44:55.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇司令
+Dialogue: 0,0:44:56.53,0:44:57.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}下次
+Dialogue: 0,0:44:57.76,0:44:58.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跟碇君還有大家
+Dialogue: 0,0:44:59.68,0:45:00.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一起吃飯
+Dialogue: 0,0:45:01.00,0:45:01.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}您認為如何
+Dialogue: 0,0:45:04.40,0:45:05.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不，那種時間…
+Dialogue: 0,0:45:10.56,0:45:12.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}老公，真嗣就…
+Dialogue: 0,0:45:19.14,0:45:21.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}知道了，我去
+Dialogue: 0,0:45:23.41,0:45:26.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}各駕駛員模擬同步狀態沒有異常
+Dialogue: 0,0:45:26.87,0:45:28.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}未檢測到精神污染
+Dialogue: 0,0:45:32.48,0:45:35.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊～好無聊啊
+Dialogue: 0,0:45:36.42,0:45:39.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}使徒不來就天天檢查嗎？真無趣
+Dialogue: 0,0:45:40.25,0:45:41.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有什麼不好
+Dialogue: 0,0:45:42.10,0:45:45.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我們安心地工作
+Dialogue: 0,0:45:45.46,0:45:48.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}祈求使徒不來的平穩的日子
+Dialogue: 0,0:45:48.69,0:45:49.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}與昨天相同的今天
+Dialogue: 0,0:45:50.22,0:45:51.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}與今天相同的明天
+Dialogue: 0,0:45:52.08,0:45:53.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謳歌著重複的日常
+Dialogue: 0,0:45:54.34,0:45:56.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}倒是應該感謝的狀態啊
+Dialogue: 0,0:45:58.42,0:45:59.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}檢查完畢
+Dialogue: 0,0:45:59.66,0:46:00.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}監控靈敏度良好
+Dialogue: 0,0:46:01.82,0:46:02.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}大家辛苦了
+Dialogue: 0,0:46:03.09,0:46:04.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}大家都可以上來了
+Dialogue: 0,0:46:09.38,0:46:11.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}LCL 開始排水，倒數 3 分鐘
+Dialogue: 0,0:46:14.38,0:46:15.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}或許由我來說有些不妥
+Dialogue: 0,0:46:16.56,0:46:19.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}損傷這麼嚴重的話，會影響作戰使用的
+Dialogue: 0,0:46:20.44,0:46:22.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}「{\u1}梵蒂岡條約{\u0}」廢除不好嗎
+Dialogue: 0,0:46:23.42,0:46:24.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是啊
+Dialogue: 0,0:46:24.64,0:46:29.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}限制一國至多只能擁有 3 台 EVA，根本沒有輪換的餘地
+Dialogue: 0,0:46:30.06,0:46:32.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在也只能優先修復初號機了
+Dialogue: 0,0:46:33.45,0:46:35.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為把預備的零件全都用上了
+Dialogue: 0,0:46:36.36,0:46:39.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}零號機的修復目標也處於停滯狀態了
+Dialogue: 0,0:46:39.76,0:46:42.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那條約關係到各國的私利
+Dialogue: 0,0:46:42.54,0:46:44.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}別說廢除了，連修改都是不可能的
+Dialogue: 0,0:46:45.13,0:46:47.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}再加上失去了五號機的歐洲分部和俄羅斯
+Dialogue: 0,0:46:47.77,0:46:50.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}似乎還聯合亞洲分部提出不少主張
+Dialogue: 0,0:46:50.98,0:46:53.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一旦牽涉到政治，凡事就變得麻煩
+Dialogue: 0,0:46:54.27,0:46:57.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在守護人類面前要做的事太多了啊
+Dialogue: 0,0:47:06.54,0:47:08.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}讓開！讓開
+Dialogue: 0,0:47:12.51,0:47:15.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好痛、痛、痛
+Dialogue: 0,0:47:26.96,0:47:28.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}眼鏡、眼鏡
+Dialogue: 0,0:47:29.83,0:47:30.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個
+Dialogue: 0,0:47:31.58,0:47:33.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊、抱歉，沒事吧
+Dialogue: 0,0:47:37.10,0:47:38.35,Default,NTFS,0,0,6,,{\blur2}{\fad(50,50)}嗨，我是瑪麗
+Dialogue: 0,0:47:38.98,0:47:41.94,Default,NTFS,0,0,6,,{\blur2}{\fad(50,50)}是的，被風吹得偏離方向了
+Dialogue: 0,0:47:42.77,0:47:45.44,Default,NTFS,0,0,6,,{\blur2}{\fad(50,50)}現在在看來像是學校的地方
+Dialogue: 0,0:47:46.28,0:47:46.90,Default,NTFS,0,0,6,,{\blur2}{\fad(50,50)}什麼
+Dialogue: 0,0:47:47.44,0:47:50.61,Default,NTFS,0,0,6,,{\blur2}{\fad(50,50)}不是說讓我秘密入國的嗎
+Dialogue: 0,0:47:51.74,0:47:53.87,Default,NTFS,0,0,6,,{\blur2}{\fad(50,50)}問題由那邊解決吧
+Dialogue: 0,0:47:55.03,0:47:58.50,Default,NTFS,0,0,6,,{\blur2}{\fad(50,50)}那接待就拜託了，謝啦
+Dialogue: 0,0:48:06.97,0:48:08.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}氣味真不錯{\r}{\blur2}…
+Dialogue: 0,0:48:09.27,0:48:10.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你身上{\c&HA7EFFD&}散發著 LCL 的香氣
+Dialogue: 0,0:48:13.78,0:48:15.67,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}你{\r}…{\c&HA7EFFD&\blur2}挺有趣呢
+Dialogue: 0,0:48:16.47,0:48:18.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼，這件事要保密 {\c&H0000F6&}♥
+Dialogue: 0,0:48:18.58,0:48:19.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}NERV 的小狗君 {\c&H0000F6&}♥
+Dialogue: 0,0:48:31.65,0:48:33.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊勒，奇怪了
+Dialogue: 0,0:48:39.37,0:48:42.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}喲，怎樣？偶爾約會一次
+Dialogue: 0,0:48:43.79,0:48:45.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我可是男的哦
+Dialogue: 0,0:48:45.61,0:48:46.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無妨
+Dialogue: 0,0:48:48.66,0:48:50.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}愛與性別無關
+Dialogue: 0,0:48:52.61,0:48:54.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊——
+Dialogue: 0,0:48:55.21,0:48:55.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}開玩笑的
+Dialogue: 0,0:48:58.31,0:48:58.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}給
+Dialogue: 0,0:49:12.30,0:49:14.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}泥土的味道
+Dialogue: 0,0:49:15.12,0:49:16.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經累趴了嗎？
+Dialogue: 0,0:49:18.34,0:49:20.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}工資可給你了哦
+Dialogue: 0,0:49:20.79,0:49:23.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}工資是…剛才那罐咖啡
+Dialogue: 0,0:49:24.77,0:49:27.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}唉…明明說是「約會」的
+Dialogue: 0,0:49:28.74,0:49:31.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我原以為加持先生是個正經人
+Dialogue: 0,0:49:31.77,0:49:34.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}大人們啊，稍微狡猾一些正好
+Dialogue: 0,0:49:39.44,0:49:41.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這個應該是…西瓜吧
+Dialogue: 0,0:49:42.18,0:49:44.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，可愛吧？是我的興趣
+Dialogue: 0,0:49:46.13,0:49:49.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}種點什麼、養育點什麼不錯吧
+Dialogue: 0,0:49:50.18,0:49:52.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}看見許多東西，懂得怎麼來的
+Dialogue: 0,0:49:52.86,0:49:53.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}比如快樂啊
+Dialogue: 0,0:49:55.93,0:49:57.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}也有痛苦的事吧
+Dialogue: 0,0:49:58.29,0:49:59.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}討厭痛苦嗎
+Dialogue: 0,0:50:00.99,0:50:02.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}並不喜歡
+Dialogue: 0,0:50:02.97,0:50:04.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}找到開心的事了嗎
+Dialogue: 0,0:50:07.47,0:50:08.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那也沒什麼
+Dialogue: 0,0:50:08.97,0:50:11.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，懂得痛苦的人
+Dialogue: 0,0:50:12.12,0:50:13.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}才能對別人溫柔
+Dialogue: 0,0:50:14.36,0:50:16.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為，這跟軟弱是不同的
+Dialogue: 0,0:50:18.75,0:50:20.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}喜歡…葛城嗎
+Dialogue: 0,0:50:23.82,0:50:24.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏小姐嗎
+Dialogue: 0,0:50:25.54,0:50:28.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不…那個…不討厭
+Dialogue: 0,0:50:29.22,0:50:31.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}替我…保護好葛城
+Dialogue: 0,0:50:33.03,0:50:37.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這是一件{\c&HA7EFFD&}我無法做到，除了你以外沒人能做到{\r}{\blur2}的事
+Dialogue: 0,0:50:39.76,0:50:40.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}拜託了
+Dialogue: 0,0:51:10.98,0:51:11.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}早上好
+Dialogue: 0,0:51:13.30,0:51:14.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波
+Dialogue: 0,0:51:14.30,0:51:15.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}打招呼…
+Dialogue: 0,0:51:15.41,0:51:17.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個綾波…
+Dialogue: 0,0:51:19.69,0:51:21.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波，沒事了嗎
+Dialogue: 0,0:51:22.29,0:51:24.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，今天挺好的
+Dialogue: 0,0:51:25.78,0:51:26.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那手怎麼了
+Dialogue: 0,0:51:28.68,0:51:31.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}剛才赤木博士給我貼的
+Dialogue: 0,0:51:32.24,0:51:33.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}做什麼弄的
+Dialogue: 0,0:51:33.79,0:51:34.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}秘密
+Dialogue: 0,0:51:35.38,0:51:37.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}等我、再做得好一點的時候再說
+Dialogue: 0,0:51:49.05,0:51:50.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}改變了呢，麗
+Dialogue: 0,0:51:50.95,0:51:51.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是呢
+Dialogue: 0,0:51:51.99,0:51:53.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那孩子竟然為別人而做了些什麼
+Dialogue: 0,0:51:54.38,0:51:55.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}難以想像的行為
+Dialogue: 0,0:51:56.30,0:51:57.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}原因是什麼呢
+Dialogue: 0,0:51:58.11,0:51:59.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不是「愛」嗎
+Dialogue: 0,0:51:59.64,0:52:00.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼會
+Dialogue: 0,0:52:01.26,0:52:02.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不可能的
+Dialogue: 0,0:52:04.79,0:52:09.67,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，笨蛋真嗣的話稍微淡一些好吧
+Dialogue: 0,0:52:10.67,0:52:11.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我回來了
+Dialogue: 0,0:52:12.57,0:52:14.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊勒，美裏？好早啊
+Dialogue: 0,0:52:15.28,0:52:17.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哎，不過馬上又要回總部去
+Dialogue: 0,0:52:17.91,0:52:19.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只是回來洗個澡換套衣服而已
+Dialogue: 0,0:52:23.85,0:52:25.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}喔～這真是這真是…
+Dialogue: 0,0:52:26.10,0:52:28.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香也要請小真吃飯嗎
+Dialogue: 0,0:52:29.05,0:52:31.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}才不是呢
+Dialogue: 0,0:52:31.17,0:52:33.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…女孩，對！光
+Dialogue: 0,0:52:33.45,0:52:35.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}麗也好，明日香也好
+Dialogue: 0,0:52:35.96,0:52:37.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}突然有情調了啊
+Dialogue: 0,0:52:37.33,0:52:39.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}什麼啊，別把我跟受寵的相提並論
+Dialogue: 0,0:52:39.88,0:52:44.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}也是，麗的話好像有著更遠大的計劃
+Dialogue: 0,0:52:44.41,0:52:44.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那是啥
+Dialogue: 0,0:52:45.52,0:52:50.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}化身成丘比特要讓碇司令跟真嗣和好
+Dialogue: 0,0:52:51.47,0:52:54.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好像是用親自做的料理請大家聚餐的作戰計劃
+Dialogue: 0,0:52:55.51,0:52:57.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}行事直接，效果顯著呢
+Dialogue: 0,0:52:58.47,0:53:01.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真的呢，為讓那對父子關繫好起來
+Dialogue: 0,0:53:01.50,0:53:02.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}煞費苦心啊
+Dialogue: 0,0:53:03.15,0:53:05.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那女人…為了笨蛋真嗣
+Dialogue: 0,0:53:05.55,0:53:08.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為是驚喜，所以不能告訴小真喲
+Dialogue: 0,0:53:10.46,0:53:12.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}本小姐才不會多嘴
+Dialogue: 0,0:53:35.81,0:53:36.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}消失
+Dialogue: 0,0:53:37.71,0:53:40.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 四號機跟第 2 支部消失
+Dialogue: 0,0:53:41.36,0:53:43.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這是 T+10 爆心投影點的數據
+Dialogue: 0,0:53:45.59,0:53:46.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好嚴重
+Dialogue: 0,0:53:46.65,0:53:49.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}A.T.Field 的崩潰從衛星上就能確認
+Dialogue: 0,0:53:50.03,0:53:51.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}詳情未知
+Dialogue: 0,0:53:51.60,0:53:53.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然四號機是爆炸中心
+Dialogue: 0,0:53:54.23,0:53:55.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我們的 EVA 都沒事吧
+Dialogue: 0,0:53:56.33,0:53:57.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}四號機是…
+Dialogue: 0,0:53:58.75,0:54:02.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 四號機好像是為了解決活動時間
+Dialogue: 0,0:54:02.28,0:54:05.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而搭載新型內置主機的
+Dialogue: 0,0:54:06.05,0:54:06.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}試驗品
+Dialogue: 0,0:54:07.21,0:54:12.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}北美 NERV 的開發情報沒有完全透露給赤木前輩
+Dialogue: 0,0:54:12.85,0:54:13.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}知道的只有…
+Dialogue: 0,0:54:14.57,0:54:15.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 四號機
+Dialogue: 0,0:54:16.61,0:54:20.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目的是記錄次世代型的開發數據而成的試驗機
+Dialogue: 0,0:54:20.76,0:54:24.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無論在它身上發{\c&HA7EFFD&}生什麼事都不奇怪{\r}{\blur2}…但是
+Dialogue: 0,0:54:27.72,0:54:28.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}這真的只是個事故麼{\r}{\blur2}？
+Dialogue: 0,0:55:00.06,0:55:01.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}大嬸，這個給我 3 支
+Dialogue: 0,0:55:05.10,0:55:07.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真少見啊！東治請客
+Dialogue: 0,0:55:08.13,0:55:12.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我也是，沒想到正經的真嗣會陪我一起買吃的
+Dialogue: 0,0:55:13.14,0:55:17.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}就老實說妹妹的狀況已經好轉很多不就完了
+Dialogue: 0,0:55:17.33,0:55:19.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}廢話真多！別說沒用的，白癡
+Dialogue: 0,0:55:25.71,0:55:26.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}吶！碇
+Dialogue: 0,0:55:27.31,0:55:27.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,0:55:27.82,0:55:29.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}聽說三號機要來日本
+Dialogue: 0,0:55:30.23,0:55:32.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是嗎？我沒聽說
+Dialogue: 0,0:55:32.83,0:55:37.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}據說是突然間被美國強逼著連同啟動實驗一起在國內進行
+Dialogue: 0,0:55:37.56,0:55:40.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嘛，處於底層的駕駛員不知道的情報罷了
+Dialogue: 0,0:55:40.56,0:55:42.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}吶，誰來駕駛呢
+Dialogue: 0,0:55:43.28,0:55:45.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不知道啊，因為沒聽說過
+Dialogue: 0,0:55:46.18,0:55:48.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真好啊，駕駛員
+Dialogue: 0,0:55:48.34,0:55:50.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}能不能讓我當駕駛員呢
+Dialogue: 0,0:55:50.54,0:55:51.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即使你跟我說這些…
+Dialogue: 0,0:55:52.10,0:55:53.66,bgs,NTFS,0,0,0,,{\blur2}{\fad(50,50)}去跟美裏小姐說吧
+Dialogue: 0,0:55:52.42,0:55:54.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}切！{\c&HA7EFFD&}沒中獎{\r}{\blur2}啊
+Dialogue: 0,0:56:06.74,0:56:10.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}之前，失去了 EVANGELION 五號機
+Dialogue: 0,0:56:10.95,0:56:13.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在，連四號機也失去了
+Dialogue: 0,0:56:14.34,0:56:18.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這兩台機體的損失，會給計劃的實行帶來些許的障礙…
+Dialogue: 0,0:56:18.73,0:56:21.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}但也在可以修正的範圍之內，沒什麼問題的吧
+Dialogue: 0,0:56:22.30,0:56:26.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美國政府決意要將 EVA 三號機交給你
+Dialogue: 0,0:56:26.75,0:56:29.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你所在國家的政府也同意協助了
+Dialogue: 0,0:56:29.73,0:56:32.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}最新銳的機體，足夠成為主力了
+Dialogue: 0,0:56:33.18,0:56:35.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目前也依然在殲滅使徒的過程中
+Dialogue: 0,0:56:36.40,0:56:38.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒經過試驗的機體不足以完全信任
+Dialogue: 0,0:56:39.44,0:56:43.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}如果諸位{\c&HA7EFFD&}能夠通過由於零號機的修理 而提出的追加預算{\r}{\blur2}的申請…
+Dialogue: 0,0:56:43.67,0:56:46.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}試作品{\r}{\blur2}的使命早已經結束了
+Dialogue: 0,0:56:46.71,0:56:47.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不再需要了
+Dialogue: 0,0:56:48.35,0:56:48.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}正是
+Dialogue: 0,0:56:49.39,0:56:51.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}值得優先進行{\r}{\blur2}的事情，除此以外還有很多吧
+Dialogue: 0,0:56:52.06,0:56:54.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}吾等所渴望的，{\c&HA7EFFD&}真正的EVANGELION{\r}
+Dialogue: 0,0:56:55.25,0:56:57.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}以其誕生與莉莉絲的復活為契機
+Dialogue: 0,0:56:57.66,0:56:59.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\u1}契約之刻{\u0}將會來臨
+Dialogue: 0,0:57:00.27,0:57:03.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在那之前不得不完成{\c&HA7EFFD&}必須的儀式{\r}{\blur2}才行
+Dialogue: 0,0:57:04.41,0:57:06.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為了「人類補完計劃」
+Dialogue: 0,0:57:07.26,0:57:08.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我知道的
+Dialogue: 0,0:57:09.10,0:57:11.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一切都按 SEELE 的劇本進行
+Dialogue: 0,0:57:14.86,0:57:16.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}真正的EVANGELION
+Dialogue: 0,0:57:18.02,0:57:23.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為其完成開拓道路，便是現在包括初號機在內眾機體的職責
+Dialogue: 0,0:57:24.53,0:57:26.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所指的就是「Mark.06」嗎
+Dialogue: 0,0:57:27.38,0:57:32.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}也就是說{\c&HA7EFFD&}不再是虛假的神{\r}{\blur2}，終於要打算{\c&HA7EFFD&}締造真正的神{\r}{\blur2}了麼
+Dialogue: 0,0:57:32.97,0:57:36.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，必須盡快讓{\c&HA7EFFD&}初號機覺醒{\r}
+Dialogue: 0,0:57:43.48,0:57:46.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼要把我的二號機封印啊
+Dialogue: 0,0:57:46.65,0:57:48.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}「{\u1}梵蒂岡條約{\u0}」知道吧
+Dialogue: 0,0:57:49.43,0:57:50.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}接受三號機的交換條件哦
+Dialogue: 0,0:57:51.58,0:57:54.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}把修復中的初號機封起來不就好了麼
+Dialogue: 0,0:57:54.36,0:57:57.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}二號機的零件現在也是由歐洲方面保管
+Dialogue: 0,0:57:58.17,0:58:00.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我們沒什麼辦法啊
+Dialogue: 0,0:58:00.58,0:58:02.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且現在駕駛員也空缺了
+Dialogue: 0,0:58:02.96,0:58:05.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}歐洲再次通知前，老實呆著吧
+Dialogue: 0,0:58:06.72,0:58:08.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明明除了我以外誰都無法駕駛
+Dialogue: 0,0:58:09.23,0:58:10.67,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 可是實戰武器
+Dialogue: 0,0:58:11.27,0:58:13.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}總是會準備好{\c&HA7EFFD&}相應的預備品{\r}{\blur2}的
+Dialogue: 0,0:58:13.95,0:58:14.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}駕駛員也不例外
+Dialogue: 0,0:58:15.87,0:58:16.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼這樣
+Dialogue: 0,0:58:18.53,0:58:21.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明明是我在這個世界上唯一的容身之處
+Dialogue: 0,0:58:46.09,0:58:48.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 是自己心靈的鏡子
+Dialogue: 0,0:58:48.56,0:58:49.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你說什麼
+Dialogue: 0,0:58:49.76,0:58:51.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}最好不要依賴 EVA
+Dialogue: 0,0:58:51.87,0:58:54.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你有著、不用駕駛 EVA 的幸福
+Dialogue: 0,0:58:54.81,0:58:57.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}別給我說什麼大話！明明是受寵的
+Dialogue: 0,0:59:00.48,0:59:04.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我可是天才！靠自己的力量當選上駕駛員的
+Dialogue: 0,0:59:04.71,0:59:06.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跟靠關係駕駛的你們不同
+Dialogue: 0,0:59:07.23,0:59:08.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我僅僅是{\c&HA7EFFD&}維繫著{\r}{\blur2}而已…
+Dialogue: 0,0:59:10.03,0:59:12.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只能靠 EVA 才能與人維繫在一起
+Dialogue: 0,0:59:12.98,0:59:13.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}少囉嗦
+Dialogue: 0,0:59:14.09,0:59:16.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你只要是碇司令的話，無論什麼都聽從
+Dialogue: 0,0:59:16.38,0:59:18.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只是個受人擺佈的人偶而被照顧著而已
+Dialogue: 0,0:59:19.46,0:59:20.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我不是人偶
+Dialogue: 0,0:59:20.93,0:59:21.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是人偶
+Dialogue: 0,0:59:22.23,0:59:24.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}稍微有點自知之明吧
+Dialogue: 0,0:59:35.06,0:59:37.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哼！區區人偶…還那麼得意
+Dialogue: 0,0:59:45.37,0:59:46.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我就問你一件事
+Dialogue: 0,0:59:46.99,0:59:48.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你是如何看那個笨蛋的
+Dialogue: 0,0:59:49.24,0:59:49.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}笨蛋
+Dialogue: 0,0:59:50.23,0:59:51.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}說到笨蛋就一定是笨蛋真嗣了
+Dialogue: 0,0:59:52.70,0:59:53.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇君嗎
+Dialogue: 0,0:59:54.49,0:59:54.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}如何啊
+Dialogue: 0,0:59:56.40,0:59:57.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不是、很清楚
+Dialogue: 0,0:59:58.08,0:59:59.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以日本人啊
+Dialogue: 0,1:00:00.05,1:00:01.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}說清楚一些
+Dialogue: 0,1:00:01.92,1:00:02.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不知道
+Dialogue: 0,1:00:03.35,1:00:03.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只是
+Dialogue: 0,1:00:04.40,1:00:06.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跟碇君在一起的話，感覺很溫暖
+Dialogue: 0,1:00:09.04,1:00:11.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}也想給碇君、溫暖
+Dialogue: 0,1:00:07.91,1:00:08.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我
+Dialogue: 0,1:00:12.08,1:00:16.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}想讓他與碇司令和好，感到溫暖
+Dialogue: 0,1:00:18.18,1:00:18.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}知道了
+Dialogue: 0,1:00:24.41,1:00:26.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真的是沒救了的笨蛋啊
+Dialogue: 0,1:00:27.66,1:00:29.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}說了那麼多 不就是「{\c&HA7EFFD&}喜歡他{\r}{\blur2}」的意思麼！
+Dialogue: 0,1:00:35.75,1:00:37.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好期待啊，聚餐會
+Dialogue: 0,1:00:38.19,1:00:41.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…不過 綾波做的料理，不會有問題吧？
+Dialogue: 0,1:00:45.05,1:00:47.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}父親也{\r}{\blur2}…{\c&HA7EFFD&}一起來該多好{\r}{\blur2}…
+Dialogue: 0,1:00:52.64,1:00:55.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那就是傀儡系統
+Dialogue: 0,1:00:55.74,1:00:58.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}雖然打著輔助駕駛員的名義
+Dialogue: 0,1:00:58.43,1:01:00.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}但不僅可以單獨自律操縱
+Dialogue: 0,1:01:00.63,1:01:03.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還能在無人狀態下生成 A.T.Field
+Dialogue: 0,1:01:03.71,1:01:06.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}比起讓孩子來駕駛，這樣似乎人道一些
+Dialogue: 0,1:01:11.63,1:01:14.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個新型傀儡系統的東西
+Dialogue: 0,1:01:14.68,1:01:17.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不知道為什麼我很討厭它
+Dialogue: 0,1:01:17.71,1:01:20.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那是從各各他基地直接運送過來的{\c&HA7EFFD&}嚴密封裝品
+Dialogue: 0,1:01:21.07,1:01:22.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}內部構造之類還完全不清楚
+Dialogue: 0,1:01:24.15,1:01:26.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}把 EVA 交給那種看著就危險的玩意兒操縱
+Dialogue: 0,1:01:27.26,1:01:28.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真是莫名其妙
+Dialogue: 0,1:01:28.62,1:01:32.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是人的話，就可以把 EVA 托付給他嗎
+Dialogue: 0,1:01:33.21,1:01:35.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣君還真得你信任呢
+Dialogue: 0,1:01:35.52,1:01:38.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}或許正因為是真嗣君才這樣的吧
+Dialogue: 0,1:01:38.96,1:01:39.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}比起這個
+Dialogue: 0,1:01:40.37,1:01:44.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}叫做 SEELE 的那個我們高層組織的情報，能透露些嗎
+Dialogue: 0,1:01:46.44,1:01:49.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}如果你是想探究{\c&HA7EFFD&}那個計劃{\r}{\blur2}，還是罷手的好
+Dialogue: 0,1:01:49.18,1:01:50.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不能那樣的
+Dialogue: 0,1:01:51.09,1:01:55.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}人類補完計劃，NERV 在背後都在搞些什麼啊
+Dialogue: 0,1:01:55.72,1:02:01.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這個麼…我也想知道啊
+Dialogue: 0,1:02:04.55,1:02:06.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明明是時隔許久地在一起吃頓飯
+Dialogue: 0,1:02:06.92,1:02:08.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}結果卻盡談些工作上的事
+Dialogue: 0,1:02:09.26,1:02:11.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和學生時代不一樣了啊
+Dialogue: 0,1:02:12.01,1:02:15.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}畢竟知道了許多事，也背負了許多事
+Dialogue: 0,1:02:16.13,1:02:19.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你我都不能只考慮自己的安危啊
+Dialogue: 0,1:02:19.85,1:02:20.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且，真嗣君他們身上
+Dialogue: 0,1:02:21.54,1:02:23.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還背負著很多更為{\c&HA7EFFD&}{\blur2}沉重的東西
+Dialogue: 0,1:02:24.33,1:02:26.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯…對於孩子而言是{\c&HA7EFFD&}過於沉重{\r}{\blur2}了吧
+Dialogue: 0,1:02:27.67,1:02:30.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，我們也只好依靠他們
+Dialogue: 0,1:02:37.10,1:02:37.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是我
+Dialogue: 0,1:02:39.16,1:02:40.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我知道的
+Dialogue: 0,1:02:40.95,1:02:43.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在日期變更前，我會拿出結論的
+Dialogue: 0,1:02:44.59,1:02:45.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}小律嗎
+Dialogue: 0,1:02:45.49,1:02:49.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}對，為三號機測試駕駛員的事來催我
+Dialogue: 0,1:02:49.35,1:02:51.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}決定人選可是你的責任啊
+Dialogue: 0,1:02:51.58,1:02:53.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}話雖這麼說
+Dialogue: 0,1:02:54.05,1:02:56.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}三號機的預定抵達日期延後了
+Dialogue: 0,1:02:57.82,1:03:00.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且竟然是{\c&HA7EFFD&}那一天{\r}{\blur2}…
+Dialogue: 0,1:03:00.51,1:03:03.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}三號機啟動試驗的預定日…
+Dialogue: 0,1:03:04.26,1:03:06.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不正好是與受寵的約定日嗎
+Dialogue: 0,1:03:34.29,1:03:36.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哦？決定讓明日香來了嗎
+Dialogue: 0,1:03:37.68,1:03:40.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，我坐最後一班去松代
+Dialogue: 0,1:03:41.35,1:03:42.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}剩下的就拜託你了，瑪雅
+Dialogue: 0,1:03:43.02,1:03:44.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是，前輩
+Dialogue: 0,1:03:45.07,1:03:47.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個…赤木博士
+Dialogue: 0,1:03:49.53,1:03:51.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我有些話想轉告給第二少女
+Dialogue: 0,1:03:52.98,1:03:54.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}拜託您了
+Dialogue: 0,1:04:05.58,1:04:08.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有 1 條新的留言
+Dialogue: 0,1:04:08.76,1:04:10.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 1 條留言
+Dialogue: 0,1:04:12.20,1:04:13.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}給，麗
+Dialogue: 0,1:04:13.50,1:04:14.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可以說了
+Dialogue: 0,1:04:27.29,1:04:28.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝謝
+Dialogue: 0,1:04:31.86,1:04:33.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哼！是個笨蛋嗎
+Dialogue: 0,1:04:34.05,1:04:35.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我只是想駕駛 EVA 而已
+Dialogue: 0,1:04:40.70,1:04:44.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}三號機…如果我中意的話，會給我塗成紅色的吧
+Dialogue: 0,1:04:48.01,1:04:49.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}早上好，相田君
+Dialogue: 0,1:04:49.79,1:04:51.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好
+Dialogue: 0,1:04:51.27,1:04:52.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊勒，東治呢
+Dialogue: 0,1:04:52.65,1:04:54.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}今天要去小田原那邊的醫院
+Dialogue: 0,1:04:55.11,1:04:57.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}聽說他妹妹要出院了
+Dialogue: 0,1:04:58.25,1:04:59.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊，是嗎
+Dialogue: 0,1:05:00.37,1:05:01.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}來自東治的傳話
+Dialogue: 0,1:05:01.79,1:05:06.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}「別再擔心了，我妹妹也很感謝你的」
+Dialogue: 0,1:05:08.05,1:05:10.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇，真是太好了
+Dialogue: 0,1:05:10.98,1:05:11.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,1:05:12.37,1:05:15.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}今天，綾波叫你了吧
+Dialogue: 0,1:05:17.29,1:05:19.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真的是羨慕死人啦
+Dialogue: 0,1:05:28.18,1:05:31.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 三號機載人啟動試驗總負責人抵達
+Dialogue: 0,1:05:32.07,1:05:34.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在正前往主控室
+Dialogue: 0,1:05:34.31,1:05:38.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}地上臨時保持架、拘束系統檢查完畢，沒有問題
+Dialogue: 0,1:05:40.70,1:05:42.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}接插件的連接已確認
+Dialogue: 0,1:05:42.37,1:05:45.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}主電源切換完畢，內部電壓達到規定值
+Dialogue: 0,1:05:46.93,1:05:49.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓插入位置固定完畢
+Dialogue: 0,1:05:49.56,1:05:52.90,bgs,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\a2}列表 1350 為止檢測完畢，無任何問題
+Dialogue: 0,1:05:53.08,1:05:55.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}收到，開始重新倒計時
+Dialogue: 0,1:05:55.20,1:05:58.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}開始重新倒計時，地面工作人員全體撤離
+Dialogue: 0,1:05:58.62,1:06:00.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}測試駕駛員的醫學檢查完畢
+Dialogue: 0,1:06:00.65,1:06:02.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在在隔離室中待命
+Dialogue: 0,1:06:03.13,1:06:05.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}之後的就交律子，應該不會有什麼問題
+Dialogue: 0,1:06:09.65,1:06:12.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}秘密線路？明日香的？
+Dialogue: 0,1:06:15.21,1:06:17.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼了明日香？在正式試驗前
+Dialogue: 0,1:06:17.88,1:06:20.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}就是想跟美裏兩個人聊聊
+Dialogue: 0,1:06:21.83,1:06:22.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哦
+Dialogue: 0,1:06:23.41,1:06:25.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}今天的事情，我再次向你表示感謝
+Dialogue: 0,1:06:26.55,1:06:27.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝謝
+Dialogue: 0,1:06:30.63,1:06:31.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}感謝就算了
+Dialogue: 0,1:06:33.55,1:06:36.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}拯救愚民，可是精英的義務喲
+Dialogue: 0,1:06:37.13,1:06:39.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}本來我就不擅長跟大家一起吃飯
+Dialogue: 0,1:06:40.53,1:06:43.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}讓我配合別人裝開心這種事也太累人
+Dialogue: 0,1:06:44.39,1:06:47.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}也不喜歡看著別人幸福
+Dialogue: 0,1:06:47.42,1:06:49.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我駕駛 EVA 就可以
+Dialogue: 0,1:06:50.14,1:06:51.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}本來我就喜歡自己一個人的
+Dialogue: 0,1:06:52.20,1:06:54.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不需要什麼交好的朋友
+Dialogue: 0,1:06:55.00,1:06:57.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}注視我的人從一開始就沒有
+Dialogue: 0,1:06:58.21,1:07:02.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}戰績優秀的話，在 NERV 一個人也可以
+Dialogue: 0,1:07:03.96,1:07:07.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過最近跟別人在一起也覺得挺好的
+Dialogue: 0,1:07:08.82,1:07:10.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}雖然不太像我
+Dialogue: 0,1:07:11.03,1:07:12.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}才不是那樣呢
+Dialogue: 0,1:07:13.09,1:07:14.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是因為明日香太善良了
+Dialogue: 0,1:07:15.87,1:07:20.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第一次跟美裏談這些，怎麼說呢？讓我輕鬆不少呢
+Dialogue: 0,1:07:21.02,1:07:22.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}和誰說說心裏話真好
+Dialogue: 0,1:07:23.63,1:07:24.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}以前都不知道
+Dialogue: 0,1:07:25.31,1:07:29.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這個世界充滿了你還不知道的愉快的事情呢
+Dialogue: 0,1:07:30.22,1:07:31.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好好期待吧
+Dialogue: 0,1:07:32.93,1:07:34.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，是呢
+Dialogue: 0,1:07:35.45,1:07:36.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝謝你，美裏
+Dialogue: 0,1:07:38.25,1:07:40.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，紅色倒是很好
+Dialogue: 0,1:07:41.07,1:07:45.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}但這測試用的戰鬥服…是不是太透了啊
+Dialogue: 0,1:07:46.33,1:07:47.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓開始插入
+Dialogue: 0,1:07:47.79,1:07:50.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}LCL 過電，壓力為正常值
+Dialogue: 0,1:07:50.37,1:07:51.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}維持第 1 激發狀態
+Dialogue: 0,1:07:52.59,1:07:56.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓內監測器正常，檢查數值在誤差範圍內
+Dialogue: 0,1:07:56.45,1:07:58.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}收到，作業移至第二階段
+Dialogue: 0,1:07:59.33,1:08:00.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}開始第 2 次連接
+Dialogue: 0,1:08:01.46,1:08:04.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}是嗎{\r}{\blur2}…{\c&HA7EFFD&}我，也還能那樣笑啊
+Dialogue: 0,1:08:21.44,1:08:22.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓深度超過 100
+Dialogue: 0,1:08:23.04,1:08:24.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}突入到精神污染濃度
+Dialogue: 0,1:08:25.29,1:08:25.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼突然…
+Dialogue: 0,1:08:26.18,1:08:27.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}駕駛員超過安全深度
+Dialogue: 0,1:08:28.17,1:08:29.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快停下來
+Dialogue: 0,1:08:29.66,1:08:31.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這樣下去駕駛員會失去人形的
+Dialogue: 0,1:08:31.52,1:08:33.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}中止試驗！切斷線路
+Dialogue: 0,1:08:33.91,1:08:36.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行！機體內部發現高能反應
+Dialogue: 0,1:08:37.33,1:08:38.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}難道是…
+Dialogue: 0,1:08:39.38,1:08:39.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}使徒
+Dialogue: 0,1:08:47.13,1:08:47.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒
+Dialogue: 0,1:08:53.71,1:08:55.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}松代發生了爆炸事故
+Dialogue: 0,1:09:04.08,1:09:05.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}受損情況呢
+Dialogue: 0,1:09:05.25,1:09:07.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在未知！推測臨時保持架是爆炸中心地
+Dialogue: 0,1:09:07.72,1:09:09.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已確認地面管理設施的毀壞
+Dialogue: 0,1:09:09.76,1:09:12.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}立刻派遣救援以及第 3 部隊
+Dialogue: 0,1:09:12.71,1:09:14.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}要趕在{\c&HA7EFFD&}戰自介入以前{\r}{\blur2}全部處理完畢
+Dialogue: 0,1:09:15.11,1:09:15.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明白
+Dialogue: 0,1:09:15.80,1:09:18.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}事故現場西南發現了未知移動物體
+Dialogue: 0,1:09:18.90,1:09:21.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}模式為橙色，無法確認是否是使徒
+Dialogue: 0,1:09:22.52,1:09:24.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一級戰鬥部署
+Dialogue: 0,1:09:24.46,1:09:25.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇
+Dialogue: 0,1:09:25.48,1:09:27.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}全員一級戰鬥部署
+Dialogue: 0,1:09:28.22,1:09:30.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}讓維修中的零號機待命
+Dialogue: 0,1:09:30.47,1:09:34.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機在{\c&HA7EFFD&}換裝傀儡系統以後{\r}{\blur2}，立刻出擊
+Dialogue: 0,1:09:37.35,1:09:41.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 5 戰車中隊在 18 防衛線上部署完畢
+Dialogue: 0,1:09:46.55,1:09:49.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那個，美裏小姐跟明日香她們呢
+Dialogue: 0,1:09:50.03,1:09:52.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在正全力搜救
+Dialogue: 0,1:09:52.68,1:09:53.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不用擔心
+Dialogue: 0,1:09:53.90,1:09:57.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可是…其他的 EVA 跟美裏小姐都不在
+Dialogue: 0,1:09:57.97,1:09:59.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我一個人什麼都做不了啊
+Dialogue: 0,1:10:00.73,1:10:02.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}作戰系統方面不存在任何問題
+Dialogue: 0,1:10:02.76,1:10:05.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在由碇司令直接指揮
+Dialogue: 0,1:10:05.54,1:10:06.46,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}爸爸他…
+Dialogue: 0,1:10:06.99,1:10:08.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在遠見附近發現了目標
+Dialogue: 0,1:10:08.95,1:10:10.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在傳到主屏幕上
+Dialogue: 0,1:10:15.92,1:10:17.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然是這個啊
+Dialogue: 0,1:10:17.44,1:10:21.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}發送停止活動信號，強制射出插入栓
+Dialogue: 0,1:10:24.19,1:10:28.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行！停止信號跟排除插入栓代碼都無法識別
+Dialogue: 0,1:10:28.46,1:10:31.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在插入栓附近發現與「核」相似的侵蝕部分
+Dialogue: 0,1:10:31.57,1:10:34.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}分析結果出來了…呈藍色
+Dialogue: 0,1:10:34.95,1:10:38.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即刻起廢棄 EVANGELION 三號機
+Dialogue: 0,1:10:38.88,1:10:41.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}將監視對像認定為第 9 使徒
+Dialogue: 0,1:10:42.45,1:10:43.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標接近
+Dialogue: 0,1:10:44.33,1:10:46.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}地對地迎擊，準備
+Dialogue: 0,1:10:46.23,1:10:47.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}阻止部隊開始攻擊
+Dialogue: 0,1:10:50.42,1:10:53.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼會…使徒？這就是使徒
+Dialogue: 0,1:10:53.44,1:10:55.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是的，就是目標
+Dialogue: 0,1:10:55.79,1:10:56.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}說是目標…
+Dialogue: 0,1:10:57.68,1:11:00.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這不是… EVA 嗎
+Dialogue: 0,1:11:03.14,1:11:04.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼這樣…
+Dialogue: 0,1:11:04.57,1:11:07.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標接近中，由你來打倒
+Dialogue: 0,1:11:08.18,1:11:10.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可是…雖說是目標…
+Dialogue: 0,1:11:15.98,1:11:17.81,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不是明日香坐在上面嗎
+Dialogue: 0,1:11:21.67,1:11:22.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香她…
+Dialogue: 0,1:11:46.47,1:11:47.22,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可惡
+Dialogue: 0,1:11:48.82,1:11:51.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓…果然坐在上面
+Dialogue: 0,1:12:27.80,1:12:30.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}頸部裝甲部位附近發生侵蝕
+Dialogue: 0,1:12:30.23,1:12:32.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}確認污染滲透到第 6200 層
+Dialogue: 0,1:12:32.84,1:12:35.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然是侵蝕類型的嗎？棘手了
+Dialogue: 0,1:12:36.29,1:12:38.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機 A.T.Field 不穩定
+Dialogue: 0,1:12:38.35,1:12:39.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}生命維持系統發生異常
+Dialogue: 0,1:12:40.11,1:12:41.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}再這樣下去，駕駛員會有危險
+Dialogue: 0,1:12:42.32,1:12:45.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不妙！神經連接切斷至 28%
+Dialogue: 0,1:12:45.83,1:12:46.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}等下
+Dialogue: 0,1:12:46.59,1:12:49.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過碇，再這樣下去駕駛員會死的
+Dialogue: 0,1:12:49.64,1:12:51.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣！為什麼不戰鬥
+Dialogue: 0,1:12:52.20,1:12:55.67,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為那上面有明日香在啊！爸爸
+Dialogue: 0,1:12:55.83,1:12:59.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無所謂！那傢伙是使徒，我們的敵人
+Dialogue: 0,1:12:59.66,1:13:04.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可是…我做不到啊！殺人這種事
+Dialogue: 0,1:13:04.39,1:13:05.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那你就會死的
+Dialogue: 0,1:13:05.63,1:13:08.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒關係！比起讓我殺死明日香，沒關係
+Dialogue: 0,1:13:09.44,1:13:13.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無所謂，全面切斷駕駛員跟初號機的同步
+Dialogue: 0,1:13:13.37,1:13:14.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇
+Dialogue: 0,1:13:14.22,1:13:14.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}切斷嗎
+Dialogue: 0,1:13:15.13,1:13:17.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是的，操作切換成傀儡系統
+Dialogue: 0,1:13:18.15,1:13:21.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可是…傀儡系統還存在著很多問題
+Dialogue: 0,1:13:21.69,1:13:23.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而且沒有赤木博士的指示…
+Dialogue: 0,1:13:23.74,1:13:26.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}比現在的駕駛員有用多了
+Dialogue: 0,1:13:26.47,1:13:27.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快做
+Dialogue: 0,1:13:27.66,1:13:28.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是
+Dialogue: 0,1:13:52.01,1:13:52.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這是什麼
+Dialogue: 0,1:14:01.42,1:14:02.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你做了什麼？爸爸
+Dialogue: 0,1:14:03.36,1:14:05.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}主控系統切換完畢
+Dialogue: 0,1:14:05.91,1:14:09.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}全部神經線路已連接至傀儡系統
+Dialogue: 0,1:14:09.27,1:14:13.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}傀儡系統最大活動時間是 208 秒
+Dialogue: 0,1:14:13.19,1:14:16.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無所謂，釋放系統、開始攻擊
+Dialogue: 0,1:14:31.09,1:14:37.80,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}いつまでも　絶えることなく
+Dialogue: 0,1:14:38.23,1:14:43.93,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}友達でいよう
+Dialogue: 0,1:14:45.54,1:14:52.14,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}明日の日を夢みて
+Dialogue: 0,1:14:52.25,1:14:58.25,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}希望の道を
+Dialogue: 0,1:14:59.95,1:15:06.76,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}空を飛ぶ 鳥のように
+Dialogue: 0,1:15:06.99,1:15:12.89,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}自由に生きる
+Dialogue: 0,1:15:14.27,1:15:20.57,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}今日の日はさようなら
+Dialogue: 0,1:15:20.84,1:15:26.95,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}またあう日まで
+Dialogue: 0,1:15:28.58,1:15:31.35,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}ラ～ラ ラララ
+Dialogue: 0,1:15:31.59,1:15:35.45,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}ラララ ラララ
+Dialogue: 0,1:15:35.69,1:15:41.97,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}ラ～ララララ ラララ
+Dialogue: 0,1:15:42.97,1:15:49.66,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}今日の日はさようなら
+Dialogue: 0,1:15:49.77,1:15:55.68,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}またあう日まで
+Dialogue: 0,1:16:11.89,1:16:18.67,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}信じあう よるこびを
+Dialogue: 0,1:16:19.00,1:16:23.66,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}大切にしよう
+Dialogue: 0,1:16:26.24,1:16:32.58,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}今日の日はさようなら
+Dialogue: 0,1:16:32.81,1:16:48.86,song_jp,NTFS,0,0,0,,{\fad(100,500)}{\blur2}またあう日まで
+Dialogue: 0,1:14:31.09,1:14:37.80,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}直到永遠，不會忘懷
+Dialogue: 0,1:14:38.23,1:14:43.93,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}朋友啊
+Dialogue: 0,1:14:45.54,1:14:52.14,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}做著明天的夢
+Dialogue: 0,1:14:52.25,1:14:58.25,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}憧憬著未來
+Dialogue: 0,1:14:59.95,1:15:06.76,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}仿若翱翔天空的小鳥
+Dialogue: 0,1:15:06.99,1:15:12.89,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}自由自在
+Dialogue: 0,1:15:14.27,1:15:20.57,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在今日告別
+Dialogue: 0,1:15:20.84,1:15:26.95,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在重逢日再見
+Dialogue: 0,1:15:28.58,1:15:31.35,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}啦～啦 啦啦啦
+Dialogue: 0,1:15:31.59,1:15:35.45,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}啦啦啦 啦啦啦
+Dialogue: 0,1:15:35.69,1:15:41.97,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}啦～啦啦啦啦 啦啦啦
+Dialogue: 0,1:15:42.97,1:15:49.66,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在今日告別
+Dialogue: 0,1:15:49.77,1:15:55.68,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在重逢日再見
+Dialogue: 0,1:16:11.89,1:16:18.67,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}彼此堅信、共歡
+Dialogue: 0,1:16:19.00,1:16:23.66,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}珍愛
+Dialogue: 0,1:16:26.24,1:16:32.58,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在今日告別
+Dialogue: 0,1:16:32.81,1:16:48.86,song_cn,NTFS,0,0,0,,{\fad(100,500)}{\blur2}在重逢日再見
+Dialogue: 0,1:14:48.22,1:14:50.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這就是傀儡系統的力量嗎
+Dialogue: 0,1:14:51.06,1:14:52.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}傀儡系統正常
+Dialogue: 0,1:14:52.46,1:14:54.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}控制限制解除
+Dialogue: 0,1:16:02.05,1:16:03.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}什麼啊？爸爸
+Dialogue: 0,1:16:04.10,1:16:07.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}什麼啊？你都在做什麼啊
+Dialogue: 0,1:16:09.40,1:16:09.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}混蛋
+Dialogue: 0,1:16:10.40,1:16:11.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:11.10,1:16:11.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:11.89,1:16:12.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:12.50,1:16:13.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:13.19,1:16:13.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:13.69,1:16:14.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:14.43,1:16:14.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:15.03,1:16:15.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:15.63,1:16:16.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:16.23,1:16:16.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:16.83,1:16:17.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:17.43,1:16:17.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:18.23,1:16:18.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:18.83,1:16:19.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:19.43,1:16:19.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:20.03,1:16:20.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:21.03,1:16:21.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停下
+Dialogue: 0,1:16:24.25,1:16:25.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}什麼聲音
+Dialogue: 0,1:16:27.45,1:16:28.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}住手
+Dialogue: 0,1:16:31.07,1:16:37.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,2550)}{\fs50}住手啊
+Dialogue: 0,1:17:09.67,1:17:11.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還活著
+Dialogue: 0,1:17:14.27,1:17:15.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}加持
+Dialogue: 0,1:17:15.30,1:17:17.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}太好了！葛城
+Dialogue: 0,1:17:18.35,1:17:19.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}律子呢
+Dialogue: 0,1:17:20.00,1:17:22.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不用擔心，和你相比是輕傷
+Dialogue: 0,1:17:24.73,1:17:25.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哦
+Dialogue: 0,1:17:27.16,1:17:29.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明日香呢？EVA 三號機呢
+Dialogue: 0,1:17:29.68,1:17:32.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}作為使徒處理掉了
+Dialogue: 0,1:17:33.09,1:17:33.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}被初號機
+Dialogue: 0,1:17:45.63,1:17:47.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機的連動線路已經被切斷了
+Dialogue: 0,1:17:48.45,1:17:49.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}射出信號呢
+Dialogue: 0,1:17:49.76,1:17:51.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}從插入栓內部被反鎖了
+Dialogue: 0,1:17:51.99,1:17:53.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}正可謂是自閉城池呢
+Dialogue: 0,1:17:53.39,1:17:54.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快停下來！真嗣君
+Dialogue: 0,1:17:54.81,1:17:56.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你考慮到自己正在做什麼了嗎
+Dialogue: 0,1:17:57.33,1:17:58.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}說這些有什麼用
+Dialogue: 0,1:17:58.88,1:18:00.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}別再惹火我
+Dialogue: 0,1:18:01.35,1:18:04.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機所剩下的 285 秒
+Dialogue: 0,1:18:04.29,1:18:06.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}剩這麼多時間，足夠摧毀總部的一半了
+Dialogue: 0,1:18:07.24,1:18:09.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在的他…有可能做得出來
+Dialogue: 0,1:18:09.35,1:18:11.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣君，聽我說
+Dialogue: 0,1:18:11.63,1:18:13.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}如果不是碇司令的判斷
+Dialogue: 0,1:18:13.59,1:18:15.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}說不定倒下的就是你了
+Dialogue: 0,1:18:15.98,1:18:17.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那種事無所謂
+Dialogue: 0,1:18:17.80,1:18:19.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}但這就是事實
+Dialogue: 0,1:18:19.39,1:18:21.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我都說了那種事情無所謂了
+Dialogue: 0,1:18:22.54,1:18:26.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}爸爸那傢伙…想把明日香殺了
+Dialogue: 0,1:18:27.76,1:18:28.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}借我的手
+Dialogue: 0,1:18:30.51,1:18:31.03,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼
+Dialogue: 0,1:18:32.01,1:18:32.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼
+Dialogue: 0,1:18:33.61,1:18:34.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼啊
+Dialogue: 0,1:18:34.91,1:18:36.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}父親根本什麼都不瞭解
+Dialogue: 0,1:18:37.29,1:18:39.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}曾想要相信你{\r}{\blur2}的我真的是太蠢了！
+Dialogue: 0,1:18:40.24,1:18:42.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}父親也失去重要的人就好了
+Dialogue: 0,1:18:43.13,1:18:44.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那樣的話就明白了
+Dialogue: 0,1:18:44.79,1:18:47.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}把 LCL 的壓縮濃度提高到上限
+Dialogue: 0,1:18:47.65,1:18:48.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誒
+Dialogue: 0,1:18:48.37,1:18:50.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒工夫陪小孩子耍性子
+Dialogue: 0,1:18:52.18,1:18:53.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我還有直接控制的回路沒有使出來…
+Dialogue: 0,1:18:57.17,1:18:58.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可惡…
+Dialogue: 0,1:18:59.11,1:19:00.49,Default,NTFS,0,0,0,,{\fad(150,150)}{\alpha20}可惡…
+Dialogue: 0,1:19:00.97,1:19:02.49,Default,NTFS,0,0,0,,{\fad(250,350)}{\alpha60}可惡…
+Dialogue: 0,1:19:20.48,1:19:23.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇君，你一直、都在聽那個呢
+Dialogue: 0,1:19:24.56,1:19:25.17,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯
+Dialogue: 0,1:19:25.63,1:19:28.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這是{\c&HA7EFFD&}以前父親使用過的東西
+Dialogue: 0,1:19:28.76,1:19:30.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跟綾波手上的眼鏡一樣
+Dialogue: 0,1:19:31.06,1:19:33.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過已經不需要了，於是就放在一邊不管了
+Dialogue: 0,1:19:33.58,1:19:34.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}跟我一樣呢
+Dialogue: 0,1:19:35.21,1:19:38.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}他把它丟在老師那裏，我就要了來
+Dialogue: 0,1:19:39.40,1:19:41.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}塞上耳朵，也就封閉了心靈
+Dialogue: 0,1:19:42.20,1:19:44.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這樣就可以不與這個討厭的世界接觸了
+Dialogue: 0,1:19:44.97,1:19:46.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}討厭的世界
+Dialogue: 0,1:19:46.55,1:19:50.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是的，有著討厭的父親在的世界
+Dialogue: 0,1:19:50.61,1:19:52.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可怕的使徒和 EVA 所在的世界
+Dialogue: 0,1:19:52.98,1:19:54.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}逼使我做痛苦事情的世界
+Dialogue: 0,1:19:55.10,1:19:57.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有傀儡系統在父親就不需要我的世界
+Dialogue: 0,1:19:58.10,1:20:00.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我和朋友們都受到傷害的世界…
+Dialogue: 0,1:20:02.19,1:20:03.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，曾經也有好事存在過
+Dialogue: 0,1:20:04.02,1:20:05.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可終究還是都走向破滅了
+Dialogue: 0,1:20:06.93,1:20:08.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真是個討厭的世界
+Dialogue: 0,1:20:09.57,1:20:10.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這東西，我已經決定丟掉了
+Dialogue: 0,1:20:11.70,1:20:15.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我曾以為戴著這個，父親就會在討厭的世界中保護我
+Dialogue: 0,1:20:16.46,1:20:18.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}看來只是我的一廂情願罷了
+Dialogue: 0,1:20:19.22,1:20:22.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇君嘗試去理解了嗎？理解自己的父親
+Dialogue: 0,1:20:22.85,1:20:23.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我有嘗試去理解了
+Dialogue: 0,1:20:24.61,1:20:26.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不是{\c&HA7EFFD&}什麼都還沒做麼{\r}{\blur2}？
+Dialogue: 0,1:20:26.89,1:20:28.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我已經嘗試去理解了啊！
+Dialogue: 0,1:20:29.44,1:20:30.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有錯的人是父親
+Dialogue: 0,1:20:31.11,1:20:33.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是拋棄了我的父親不是麼！
+Dialogue: 0,1:20:34.68,1:20:38.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}又想要像那樣逃避討厭的事情了啊
+Dialogue: 0,1:20:38.38,1:20:41.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有什麼關係！從討厭的事物身邊逃走
+Dialogue: 0,1:20:41.67,1:20:42.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有什麼不好的啊
+Dialogue: 0,1:20:46.54,1:20:47.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}又是這裏…
+Dialogue: 0,1:20:50.44,1:20:51.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我已經受夠了
+Dialogue: 0,1:20:55.31,1:20:58.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}三號機的碎件回收全由技術局負責
+Dialogue: 0,1:21:10.72,1:21:13.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}雖然細胞組織的侵蝕痕跡消失了
+Dialogue: 0,1:21:13.62,1:21:16.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}但無法否定是否殘留使徒的精神污染
+Dialogue: 0,1:21:17.22,1:21:18.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}也只能像這樣先{\c&HA7EFFD&}對外隔離{\r}{\blur2}了
+Dialogue: 0,1:21:19.70,1:21:22.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}總不會有處理掉她這種事的吧？
+Dialogue: 0,1:21:22.36,1:21:25.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這可是{\c&HA7EFFD&}貴重的樣本{\r}{\blur2}啊，沒那個可能的
+Dialogue: 0,1:21:28.95,1:21:30.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}出來吧，碇 真嗣君
+Dialogue: 0,1:21:30.92,1:21:32.37,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇司令要見你
+Dialogue: 0,1:21:36.11,1:21:40.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}違反命令、私占 EVA、幼稚的恫嚇
+Dialogue: 0,1:21:40.78,1:21:42.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這些全都是犯罪行為
+Dialogue: 0,1:21:43.36,1:21:45.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}對此你有什麼要說的嗎
+Dialogue: 0,1:21:45.83,1:21:46.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有
+Dialogue: 0,1:21:47.58,1:21:49.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我不想再駕駛 EVA 了
+Dialogue: 0,1:21:50.05,1:21:50.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是嗎
+Dialogue: 0,1:21:51.29,1:21:52.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼就出去
+Dialogue: 0,1:21:55.64,1:21:57.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}又打算逃走了嗎
+Dialogue: 0,1:22:00.01,1:22:02.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}自身的願望
+Dialogue: 0,1:22:02.86,1:22:04.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}是要不惜一切代價，憑自身的力量去使之實現的東西
+Dialogue: 0,1:22:05.57,1:22:07.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}而不是他人能夠給予你的
+Dialogue: 0,1:22:08.53,1:22:10.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣，給我像個大人一點
+Dialogue: 0,1:22:12.11,1:22:15.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我…完全不知道什麼是所謂的大人
+Dialogue: 0,1:22:24.47,1:22:27.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是我，將第三少年的登錄抹去
+Dialogue: 0,1:22:27.75,1:22:31.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}以後初號機的運用由傀儡系統為基準
+Dialogue: 0,1:22:31.48,1:22:32.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不需要備份了
+Dialogue: 0,1:22:34.95,1:22:38.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}麗她…{\c&HA7EFFD&}沒有挽留真嗣君{\r}{\blur2}呢
+Dialogue: 0,1:22:38.38,1:22:41.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}最近有了些改變，我還蠻期待她能留住真嗣的
+Dialogue: 0,1:22:41.66,1:22:43.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無法衡量那些孩子間的距離感啊
+Dialogue: 0,1:22:44.55,1:22:47.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可是這樣，駕駛員就又剩下一個人了
+Dialogue: 0,1:22:47.86,1:22:50.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}又回到原點…了呢
+Dialogue: 0,1:22:57.43,1:22:58.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我想你知道的
+Dialogue: 0,1:22:59.52,1:23:01.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即使 NERV 的登錄被抹除了
+Dialogue: 0,1:23:01.85,1:23:03.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}監視也會依舊的
+Dialogue: 0,1:23:03.56,1:23:05.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}行動上會有很多限制
+Dialogue: 0,1:23:07.64,1:23:08.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你忘東西了
+Dialogue: 0,1:23:09.19,1:23:11.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有很多鈴原君跟相田君的留言
+Dialogue: 0,1:23:12.54,1:23:13.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}他們都在擔心你
+Dialogue: 0,1:23:14.23,1:23:15.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我不需要了
+Dialogue: 0,1:23:15.92,1:23:16.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}因為是我留在這兒的
+Dialogue: 0,1:23:18.24,1:23:20.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你也不問麗跟明日香的事情呢
+Dialogue: 0,1:23:23.45,1:23:25.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}其實，我自己也是
+Dialogue: 0,1:23:25.80,1:23:28.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}人類也好世界也好，怎樣都與我無關
+Dialogue: 0,1:23:30.15,1:23:33.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}結果上講，我現在站在這一立場上
+Dialogue: 0,1:23:34.49,1:23:35.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}但是最初
+Dialogue: 0,1:23:35.94,1:23:38.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我只是想盡量接近死去的父親哪怕一點也好
+Dialogue: 0,1:23:38.64,1:23:40.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}才會志願進入NERV的
+Dialogue: 0,1:23:41.52,1:23:43.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}就好像你被碇司令所需要
+Dialogue: 0,1:23:44.00,1:23:45.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}才會坐上EVA一樣
+Dialogue: 0,1:23:47.24,1:23:51.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以，我將自己的想法疊加在你身上了
+Dialogue: 0,1:23:52.26,1:23:55.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我明白這對於你而言一直意味著重荷
+Dialogue: 0,1:23:55.90,1:23:59.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在你對駕駛EVA的目的感到很失望，這我也明白
+Dialogue: 0,1:24:00.34,1:24:02.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過，即使這樣我仍舊對你…
+Dialogue: 0,1:24:10.76,1:24:14.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那天…{\c&HA7EFFD&}麗她也有邀請碇司令{\r}{\blur2}哦
+Dialogue: 0,1:24:15.98,1:24:18.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}她想讓真嗣君你能夠和父親和好相處
+Dialogue: 0,1:24:20.17,1:24:21.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}想讓你們能夠在一起盡情歡笑啊…
+Dialogue: 0,1:24:23.67,1:24:26.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我已經…不會對任何人笑了
+Dialogue: 0,1:24:32.21,1:24:35.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}下一站是上強羅、上強羅
+Dialogue: 0,1:24:36.07,1:24:37.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}出口在左側
+Dialogue: 0,1:24:40.81,1:24:44.90,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}剛剛日本政府發佈了非常事態宣言
+Dialogue: 0,1:24:45.14,1:24:50.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}根據緊急條例規定，本列車會在最近的避難用車站停車
+Dialogue: 0,1:24:50.59,1:24:55.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}停車後請馬上到指定的避難用路線處乘車
+Dialogue: 0,1:24:55.58,1:24:56.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是使徒
+Dialogue: 0,1:25:03.99,1:25:04.71,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}阿嚏…
+Dialogue: 0,1:25:05.46,1:25:06.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}啊，好冷
+Dialogue: 0,1:25:10.58,1:25:12.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不愧是新型號
+Dialogue: 0,1:25:12.54,1:25:14.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}胸部這裏也完全合身，感覺真好
+Dialogue: 0,1:25:22.13,1:25:23.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…{\c&HA7EFFD&}是時候了
+Dialogue: 0,1:25:24.62,1:25:26.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}全員一級戰鬥部署
+Dialogue: 0,1:25:26.82,1:25:28.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}地對空迎擊戰，準備
+Dialogue: 0,1:25:28.91,1:25:29.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標
+Dialogue: 0,1:25:29.72,1:25:30.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在進攻中
+Dialogue: 0,1:25:31.33,1:25:33.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經突破了舊小田原防衛線
+Dialogue: 0,1:25:56.93,1:26:00.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}衝擊波竟然能到這裏！來者不善啊
+Dialogue: 0,1:26:00.46,1:26:02.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 4 地區遭到直接攻擊！損傷未知
+Dialogue: 0,1:26:02.87,1:26:04.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}地表全部裝甲系統融解
+Dialogue: 0,1:26:04.79,1:26:07.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}全部 24 層特殊裝甲板，居然只一擊就…
+Dialogue: 0,1:26:07.88,1:26:11.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第十使徒，{\c&HA7EFFD&}最強的拒絕型{\r}{\blur2}嗎…
+Dialogue: 0,1:26:11.79,1:26:13.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}遠超預想的破壞力啊
+Dialogue: 0,1:26:14.89,1:26:18.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}全力戰鬥！用上要塞都市所有的迎擊設備
+Dialogue: 0,1:26:19.01,1:26:20.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哪怕一會兒也好！設法拖住它
+Dialogue: 0,1:26:24.12,1:26:25.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 二號機
+Dialogue: 0,1:26:25.82,1:26:26.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}誰在上面
+Dialogue: 0,1:26:26.79,1:26:27.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}未知
+Dialogue: 0,1:26:27.69,1:26:29.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這裏沒有下達出擊命令
+Dialogue: 0,1:26:43.39,1:26:44.45,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標健在
+Dialogue: 0,1:26:44.68,1:26:46.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 2 波攻擊毫無效果
+Dialogue: 0,1:26:46.29,1:26:47.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎樣都好，最優先讓市民們避難
+Dialogue: 0,1:26:48.07,1:26:51.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}允許第 3 波使用 N2 誘導彈！快支援過去
+Dialogue: 0,1:26:51.50,1:26:53.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}趕不及由 EVA 進行地上迎擊了
+Dialogue: 0,1:26:53.77,1:26:56.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}向歐洲方面發出要求，令二號機在地下空間內迎敵
+Dialogue: 0,1:26:53.77,1:26:56.86,note,NTFS,0,0,0,,{\blur2\pos(860,638)}{\fad(50,50)}（Geo Front）
+Dialogue: 0,1:26:57.07,1:26:57.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}零號機呢
+Dialogue: 0,1:26:57.90,1:27:00.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}左腕還在緊急修復，勉強可以出擊
+Dialogue: 0,1:27:00.74,1:27:02.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}完成後馬上支援二號機
+Dialogue: 0,1:27:03.07,1:27:04.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}單獨行動太危險了
+Dialogue: 0,1:27:04.39,1:27:04.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}明白
+Dialogue: 0,1:27:05.16,1:27:06.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機呢
+Dialogue: 0,1:27:06.16,1:27:08.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}現在正準備傀儡系統的啟動
+Dialogue: 0,1:27:08.39,1:27:09.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}加緊工作
+Dialogue: 0,1:27:13.60,1:27:14.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}城市會如何
+Dialogue: 0,1:27:14.56,1:27:16.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}喂，到底怎麼了
+Dialogue: 0,1:27:16.22,1:27:18.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒事的！往下就是地下空間的避難所了
+Dialogue: 0,1:27:16.22,1:27:18.42,note,NTFS,0,0,0,,{\blur2\pos(694,638)}{\fad(50,50)}（Geo Front）
+Dialogue: 0,1:27:18.50,1:27:20.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是世界上最安全的地方
+Dialogue: 0,1:27:26.50,1:27:28.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標侵入到了地下空間內部
+Dialogue: 0,1:27:26.50,1:27:28.38,note,NTFS,0,0,0,,{\blur2\pos(715,703)}{\fad(50,50)}（Geo Front）
+Dialogue: 0,1:27:28.57,1:27:29.87,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)\pos{(640,682)}EVA 二號機即將遇敵
+Dialogue: 0,1:27:30.02,1:27:31.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)\pos{(640,682)}與二號機的通信呢
+Dialogue: 0,1:27:31.18,1:27:33.98,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)\pos{(640,682)}雙向連接全部被切斷了，無法從我們這邊…
+Dialogue: 0,1:27:34.89,1:27:38.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是嗎… 也就是說，對方{\c&HA7EFFD&}是想單打獨鬥{\r}{\blur2}吧
+Dialogue: 0,1:27:45.90,1:27:49.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}氣味真不錯，有著別人氣味的 EVA 也不壞嘛
+Dialogue: 0,1:27:51.22,1:27:53.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 5 防衛線被迅速突破
+Dialogue: 0,1:27:53.74,1:27:56.54,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不速戰速決的話，本部豈不是得成灰了？
+Dialogue: 0,1:28:13.90,1:28:18.71,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}A.T.Field 太強大了，從這邊根本碰不到邊兒嘛
+Dialogue: 0,1:28:24.01,1:28:25.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}用這個上啦
+Dialogue: 0,1:28:38.21,1:28:39.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}零距離的話…
+Dialogue: 0,1:28:53.04,1:28:55.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好痛…痛、痛
+Dialogue: 0,1:28:57.51,1:28:58.15,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不好
+Dialogue: 0,1:29:05.52,1:29:08.33,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}混蛋！什麼傢伙啊
+Dialogue: 0,1:29:08.62,1:29:10.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}傀儡系統連接完畢
+Dialogue: 0,1:29:10.75,1:29:11.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}開始連接
+Dialogue: 0,1:29:11.98,1:29:12.56,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是
+Dialogue: 0,1:29:13.43,1:29:14.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼了
+Dialogue: 0,1:29:14.19,1:29:16.04,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}「核」部拒絕傀儡系統的連接
+Dialogue: 0,1:29:16.36,1:29:19.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行！EVA 初號機無法啟動
+Dialogue: 0,1:29:21.43,1:29:23.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不接受傀儡系統…
+Dialogue: 0,1:29:23.75,1:29:27.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}冬月，暫時拜託了
+Dialogue: 0,1:29:28.35,1:29:29.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼辦
+Dialogue: 0,1:29:30.61,1:29:32.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這樣下去是贏不了的
+Dialogue: 0,1:29:34.02,1:29:35.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好吧，就賭賭看吧
+Dialogue: 0,1:29:36.43,1:29:39.79,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}捨去人型的 EVA 的力量，讓我展示給你看吧
+Dialogue: 0,1:29:40.45,1:29:44.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}模式反轉，暗碼：THE BEAST
+Dialogue: 0,1:29:56.00,1:30:01.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}忍住啊 EVA 二號機！我也會忍住的
+Dialogue: 0,1:30:06.03,1:30:07.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 竟然有著這樣的機能
+Dialogue: 0,1:30:07.67,1:30:09.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}拘束器解除
+Dialogue: 0,1:30:09.63,1:30:10.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}全部都在規格之外
+Dialogue: 0,1:30:11.44,1:30:12.95,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓內部無法監視
+Dialogue: 0,1:30:13.06,1:30:13.57,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可是…
+Dialogue: 0,1:30:13.68,1:30:15.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}恐怕是把插入栓的深度設成了負值
+Dialogue: 0,1:30:15.57,1:30:18.01,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}竟然不懼突入到污染區域
+Dialogue: 0,1:30:18.20,1:30:19.96,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行！那樣太危險了
+Dialogue: 0,1:30:20.88,1:30:22.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不入…
+Dialogue: 0,1:30:22.88,1:30:24.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}虎穴…
+Dialogue: 0,1:30:25.58,1:30:28.10,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}焉得…
+Dialogue: 0,1:30:30.51,1:30:31.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}虎子
+Dialogue: 0,1:30:51.31,1:30:52.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還差一點
+Dialogue: 0,1:31:24.53,1:31:26.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 第 2 形態「獸化」
+Dialogue: 0,1:31:26.77,1:31:29.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}捨棄人形、強化了戰力也無法戰勝嗎
+Dialogue: 0,1:31:30.40,1:31:32.20,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這就是我們的極限嗎
+Dialogue: 0,1:31:33.74,1:31:34.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}零號機
+Dialogue: 0,1:31:35.10,1:31:36.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}連來復槍都沒拿…
+Dialogue: 0,1:31:39.98,1:31:40.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}難道
+Dialogue: 0,1:31:40.85,1:31:42.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}麗！快停下
+Dialogue: 0,1:31:42.35,1:31:42.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}麗
+Dialogue: 0,1:31:48.09,1:31:49.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}A.T.Field 全開
+Dialogue: 0,1:31:53.00,1:31:54.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇君他…已經…
+Dialogue: 0,1:31:56.23,1:31:58.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不用坐 EVA 也可以
+Dialogue: 0,1:31:58.82,1:31:59.27,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以…
+Dialogue: 0,1:32:12.08,1:32:15.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}單部 EVA 是無法打破那 A.T.Field 的
+Dialogue: 0,1:32:23.06,1:32:26.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}二號機！最後的工作了喲
+Dialogue: 0,1:32:28.56,1:32:31.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}還有…最後一層
+Dialogue: 0,1:32:39.66,1:32:41.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快逃！二號機上的人
+Dialogue: 0,1:32:42.24,1:32:42.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}謝謝
+Dialogue: 0,1:32:55.56,1:32:56.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}零號機呢
+Dialogue: 0,1:33:12.62,1:33:15.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}本避難所被認定為危險區域
+Dialogue: 0,1:33:15.66,1:33:18.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}請盡快前往安全區域避難
+Dialogue: 0,1:33:18.75,1:33:19.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}重複
+Dialogue: 0,1:33:30.27,1:33:34.59,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好痛…是死了嗎
+Dialogue: 0,1:33:35.45,1:33:38.14,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}唉？為什麼在這裏
+Dialogue: 0,1:33:39.25,1:33:42.28,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我想怎麼少了一台，原來如此
+Dialogue: 0,1:33:44.27,1:33:48.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我…我已經決定不再駕駛了
+Dialogue: 0,1:33:51.07,1:33:55.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}竟然有人在苦惱要不要駕駛 EVA
+Dialogue: 0,1:33:56.97,1:33:59.76,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}那麼，快點逃跑就好了
+Dialogue: 0,1:34:00.12,1:34:01.93,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好了，我來幫你
+Dialogue: 0,1:34:06.51,1:34:07.82,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\alpha20}已經決定不再駕駛了…
+Dialogue: 0,1:34:08.01,1:34:09.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\alpha20}已經決定不再駕駛了…
+Dialogue: 0,1:34:09.11,1:34:10.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經決定不再駕駛了…
+Dialogue: 0,1:34:10.92,1:34:12.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}可是我說啊…
+Dialogue: 0,1:34:13.03,1:34:17.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}就算你像那樣鬧彆扭{\r}，{\c&HA7EFFD&}{\blur2}也不會有任何快樂的事情發生哦
+Dialogue: 0,1:35:01.65,1:35:04.53,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼會…使徒居然會捕食 EVA
+Dialogue: 0,1:35:04.83,1:35:05.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不可能的！
+Dialogue: 0,1:35:05.90,1:35:10.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}奇怪，目標的識別信號…正逐漸切換為零號機
+Dialogue: 0,1:35:10.46,1:35:11.23,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}被擺了一道
+Dialogue: 0,1:35:11.60,1:35:14.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這下子即使那傢伙侵入教條，那兒也不會自爆
+Dialogue: 0,1:35:11.60,1:35:14.35,note,NTFS,0,0,0,,{\blur2\pos(674,638)}{\fad(50,50)}（Dogma）
+Dialogue: 0,1:35:14.71,1:35:16.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}毫不費勁就能到達莉莉絲那裏
+Dialogue: 0,1:35:17.21,1:35:19.51,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}它與零號機…正在融合？
+Dialogue: 0,1:35:20.49,1:35:22.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}連同駕駛員一起吸收掉了啊
+Dialogue: 0,1:35:24.15,1:35:26.16,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}你也會…死的哦？
+Dialogue: 0,1:35:26.74,1:35:28.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快點逃吧
+Dialogue: 0,1:35:39.85,1:35:41.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}哎呀…走掉了啊
+Dialogue: 0,1:36:06.31,1:36:07.73,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}本部地上設施全部被毀
+Dialogue: 0,1:36:07.95,1:36:09.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第 3 支部受到直接轟擊
+Dialogue: 0,1:36:09.22,1:36:10.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}最終裝甲板融解
+Dialogue: 0,1:36:10.71,1:36:13.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不好！主軸完全暴露在外了
+Dialogue: 0,1:36:13.79,1:36:15.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機還不能用嗎
+Dialogue: 0,1:36:19.10,1:36:20.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓位置無法固定
+Dialogue: 0,1:36:21.88,1:36:23.47,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不行！重置無效
+Dialogue: 0,1:36:23.66,1:36:26.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}繼續，再一次從 308 修正
+Dialogue: 0,1:36:27.12,1:36:28.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}列表 308 開始…
+Dialogue: 0,1:36:29.07,1:36:33.05,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼？ {\c&HA7EFFD&}為什麼要抗拒我 唯{\r}{\blur2}？
+Dialogue: 0,1:36:33.77,1:36:34.86,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}讓我來駕駛
+Dialogue: 0,1:36:35.79,1:36:37.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我來…我來…
+Dialogue: 0,1:36:38.72,1:36:40.74,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}請讓我來駕駛初號機
+Dialogue: 0,1:36:44.93,1:36:46.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}為什麼你會在這兒
+Dialogue: 0,1:36:49.51,1:36:50.30,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}父親
+Dialogue: 0,1:36:50.89,1:36:51.65,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我是…
+Dialogue: 0,1:36:52.25,1:36:54.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我是…{\c&HA7EFFD&}EVANGELION初號機駕駛員
+Dialogue: 0,1:36:54.39,1:36:55.83,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}碇 真嗣{\r}
+Dialogue: 0,1:37:00.06,1:37:02.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標下降至最終教條的第 7 層
+Dialogue: 0,1:37:00.06,1:37:02.60,note,NTFS,0,0,0,,{\blur2\pos(655,638)}{\fad(50,50)}（Terminal Dogma）
+Dialogue: 0,1:37:02.90,1:37:04.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}目標通過了第 7 層
+Dialogue: 0,1:37:05.00,1:37:05.85,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}馬上就會到這兒了
+Dialogue: 0,1:37:06.07,1:37:07.26,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}非戰鬥人員退避
+Dialogue: 0,1:37:07.62,1:37:09.18,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}非戰鬥人員緊急退避
+Dialogue: 0,1:37:09.22,1:37:10.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}重複：非戰鬥人員緊急退避
+Dialogue: 0,1:37:11.22,1:37:11.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快點
+Dialogue: 0,1:37:23.53,1:37:24.66,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 初號機
+Dialogue: 0,1:37:25.90,1:37:26.60,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣君
+Dialogue: 0,1:37:40.02,1:37:41.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}呀——
+Dialogue: 0,1:37:49.77,1:37:50.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏小姐
+Dialogue: 0,1:37:50.72,1:37:52.34,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}解除所有固定鎖
+Dialogue: 0,1:38:20.30,1:38:21.48,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}能量用光了
+Dialogue: 0,1:38:21.90,1:38:23.61,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}到了初號機的活動極限
+Dialogue: 0,1:38:23.80,1:38:24.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}預備電源無法啟動
+Dialogue: 0,1:38:25.22,1:38:26.11,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣君
+Dialogue: 0,1:38:42.84,1:38:43.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}真嗣君
+Dialogue: 0,1:38:49.29,1:38:50.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}把綾波…
+Dialogue: 0,1:38:52.07,1:38:53.00,Default,NTFS,0,0,0,,{\blur2}{\fad(50,350)}{\fs50}還我
+Dialogue: 0,1:38:57.10,1:39:00.62,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}竟然動了…明明到了活動極限
+Dialogue: 0,1:39:02.98,1:39:03.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}暴走
+Dialogue: 0,1:39:04.15,1:39:04.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}搞不懂
+Dialogue: 0,1:39:05.68,1:39:08.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}到底是什麼讓初號機動起來了
+Dialogue: 0,1:39:55.22,1:39:56.70,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}EVA 竟然有著這樣的力量…
+Dialogue: 0,1:39:57.17,1:39:59.77,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}初號機正在超越人類的領域
+Dialogue: 0,1:40:00.75,1:40:04.43,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}插入栓深度超過 180！太危險了
+Dialogue: 0,1:40:04.58,1:40:07.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}快停下來！真嗣君！會變不回人形的
+Dialogue: 0,1:40:08.77,1:40:10.55,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我變得怎樣都無所謂
+Dialogue: 0,1:40:11.17,1:40:12.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}世界變得怎樣也無所謂
+Dialogue: 0,1:40:13.59,1:40:17.58,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不過綾波她…至少綾波一個人
+Dialogue: 0,1:40:18.35,1:40:19.69,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}絕對要救回來
+Dialogue: 0,1:40:33.70,1:40:34.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}去吧！真嗣君
+Dialogue: 0,1:40:35.06,1:40:35.64,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}美裏
+Dialogue: 0,1:40:37.42,1:40:38.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不是為了別人
+Dialogue: 0,1:40:40.18,1:40:42.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}而是為了{\c&HA7EFFD&}實現你自己的願望
+Dialogue: 0,1:40:53.75,1:40:55.39,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波！你在哪兒
+Dialogue: 0,1:40:57.20,1:40:57.88,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}不可以的
+Dialogue: 0,1:40:59.14,1:41:02.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}我、已經只能存在於這裏了
+Dialogue: 0,1:41:02.38,1:41:02.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波
+Dialogue: 0,1:41:03.69,1:41:05.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}沒關係的，碇君
+Dialogue: 0,1:41:05.95,1:41:08.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}即使我消失了，也會有替代的
+Dialogue: 0,1:41:08.41,1:41:09.36,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}有替代我的人
+Dialogue: 0,1:41:09.64,1:41:10.12,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}不對
+Dialogue: 0,1:41:10.34,1:41:12.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波就只有綾波你一個
+Dialogue: 0,1:41:13.17,1:41:15.19,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}所以，我現在就來救你
+Dialogue: 0,1:41:28.84,1:41:48.49,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}今　私の願いごとが　叶うならば
+Dialogue: 0,1:41:49.10,1:41:55.99,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}翼が欲しい
+Dialogue: 0,1:41:56.27,1:42:09.02,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}この背中に鳥のように
+Dialogue: 0,1:42:09.75,1:42:26.03,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}白い翼付けてください
+Dialogue: 0,1:42:26.27,1:42:33.23,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}この大空に　翼を広げ
+Dialogue: 0,1:42:33.31,1:42:46.78,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}飛んで行きたいよ　悲しみのない自由な空へ
+Dialogue: 0,1:42:46.89,1:42:57.56,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}翼はためかせ行きたい
+Dialogue: 0,1:43:11.68,1:43:25.01,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}子供のとき夢見たこと
+Dialogue: 0,1:43:25.12,1:43:41.77,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}今も同じ夢に見ている
+Dialogue: 0,1:43:41.84,1:43:48.47,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}この大空に　翼を広げ
+Dialogue: 0,1:43:48.55,1:44:02.20,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}飛んで行きたいよ　悲しみのない自由な空へ
+Dialogue: 0,1:44:02.30,1:44:08.62,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}翼はためかせ
+Dialogue: 0,1:44:09.20,1:44:15.91,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}この大空に翼を広げ
+Dialogue: 0,1:44:16.01,1:44:29.66,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}飛んで行きたいよ　悲しみのない自由な空へ
+Dialogue: 0,1:44:29.72,1:44:35.69,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}翼はためかせ
+Dialogue: 0,1:44:36.50,1:44:43.33,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}この大空に　翼を広げ
+Dialogue: 0,1:44:43.40,1:44:56.95,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}飛んで行きたいよ　悲しみのない自由な空へ
+Dialogue: 0,1:44:57.05,1:45:04.85,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}翼はためかせ　行きたい
+Dialogue: 0,1:45:04.92,1:45:10.73,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}この大空に翼を広げ
+Dialogue: 0,1:45:10.80,1:45:24.61,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}飛んで行きたいよ　悲しみのない自由な空へ
+Dialogue: 0,1:45:24.74,1:45:38.25,song_jp,NTFS,0,0,0,,{\fad(100,100)}{\blur2}翼はためかせ　行きたい
+Dialogue: 0,1:41:28.84,1:41:48.49,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}現在、我的願望啊，若能實現
+Dialogue: 0,1:41:49.10,1:41:55.99,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}想要一雙翅膀
+Dialogue: 0,1:41:56.27,1:42:09.02,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在這背上像鳥兒一樣
+Dialogue: 0,1:42:09.75,1:42:26.03,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}請裝上潔白的羽翼
+Dialogue: 0,1:42:26.27,1:42:33.23,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在這廣闊的天空張開雙翅
+Dialogue: 0,1:42:33.31,1:42:46.78,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}想飛向那沒有悲傷的自由天空
+Dialogue: 0,1:42:46.89,1:42:57.56,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}乘著風的雙翼、想飛翔
+Dialogue: 0,1:43:11.68,1:43:25.01,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}孩童時做過的夢
+Dialogue: 0,1:43:25.12,1:43:41.77,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}現在做著同樣的夢
+Dialogue: 0,1:43:41.84,1:43:48.47,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在這廣闊的天空張開雙翅
+Dialogue: 0,1:43:48.55,1:44:02.20,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}想飛向那沒有悲傷的自由天空
+Dialogue: 0,1:44:02.30,1:44:08.62,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}乘著風的雙翼
+Dialogue: 0,1:44:09.20,1:44:15.91,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在這廣闊的天空張開雙翅
+Dialogue: 0,1:44:16.01,1:44:29.66,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}想飛向那沒有悲傷的自由天空
+Dialogue: 0,1:44:29.72,1:44:35.69,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}乘著風的雙翼
+Dialogue: 0,1:44:36.50,1:44:43.33,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在這廣闊的天空張開雙翅
+Dialogue: 0,1:44:43.40,1:44:56.95,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}想飛向那沒有悲傷的自由天空
+Dialogue: 0,1:44:57.05,1:45:04.85,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}乘著風的雙翼、想飛翔
+Dialogue: 0,1:45:04.92,1:45:10.73,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}在這廣闊的天空張開雙翅
+Dialogue: 0,1:45:10.80,1:45:24.61,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}想飛向那沒有悲傷的自由天空
+Dialogue: 0,1:45:24.74,1:45:38.25,song_cn,NTFS,0,0,0,,{\fad(100,100)}{\blur2}乘著風的雙翼、想飛翔
+Dialogue: 0,1:41:33.50,1:41:34.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}怎麼會…
+Dialogue: 0,1:41:35.25,1:41:37.68,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}控制形體的限製器正在消失
+Dialogue: 0,1:41:38.04,1:41:38.94,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}無法解析
+Dialogue: 0,1:41:39.51,1:41:41.38,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}原本{\c&HA7EFFD&}被禁錮於人形之中{\r}{\blur2}的 EVA
+Dialogue: 0,1:41:42.06,1:41:43.92,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}正在恢復它{\c&HA7EFFD&}本來的姿態
+Dialogue: 0,1:41:44.72,1:41:46.40,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}解開人類施加的枷鎖
+Dialogue: 0,1:41:46.96,1:41:50.41,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}演變為超越人類 而{\c&HA7EFFD&}接近於神{\r}{\blur2}的存在
+Dialogue: 0,1:41:51.53,1:41:53.44,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}在編織起天地萬物的
+Dialogue: 0,1:41:53.82,1:41:55.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}巨大的互補型漩渦之中
+Dialogue: 0,1:41:56.35,1:42:00.09,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}主動將自己變為了能量的凝縮體
+Dialogue: 0,1:42:05.08,1:42:06.52,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}僅僅為了這一個目的
+Dialogue: 0,1:42:02.15,1:42:04.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}純粹的為了實現某人的願望
+Dialogue: 0,1:42:36.05,1:42:37.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波
+Dialogue: 0,1:42:55.18,1:42:56.13,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波
+Dialogue: 0,1:43:17.33,1:43:19.31,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波！手
+Dialogue: 0,1:43:24.04,1:43:24.84,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}過來
+Dialogue: 0,1:44:01.82,1:44:03.97,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}使用初號機來引發這一切…
+Dialogue: 0,1:43:59.74,1:44:01.72,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}居然趁著{\c&HA7EFFD&}尚未足數{\r}{\blur2}的時機
+Dialogue: 0,1:44:04.60,1:44:08.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}碇司令，SEELE 不會坐視不管的
+Dialogue: 0,1:44:09.36,1:44:13.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}果然…{\c&HA7EFFD&}依靠他們倆達成了初號機的覺醒{\r}{\blur2}啊
+Dialogue: 0,1:44:13.55,1:44:17.06,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}嗯，距離我們的計劃順利達成
+Dialogue: 0,1:44:17.80,1:44:19.29,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}只剩下一點點了
+Dialogue: 0,1:44:23.48,1:44:28.02,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}綾波，邀請父親的事…謝謝你了
+Dialogue: 0,1:44:28.86,1:44:31.99,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}對不起，我什麼都沒做到…
+Dialogue: 0,1:44:33.04,1:44:34.07,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}已經沒關繫了
+Dialogue: 0,1:44:36.23,1:44:37.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這樣就好
+Dialogue: 0,1:44:46.84,1:44:49.89,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}原來如此，走運的傢伙
+Dialogue: 0,1:44:50.86,1:44:53.75,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}到底還是{\c&HA7EFFD&}因為氣味不同的緣故{\r}{\blur2}麼？
+Dialogue: 0,1:44:54.65,1:44:55.42,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}…阿嚏！
+Dialogue: 0,1:45:27.28,1:45:31.08,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}超越這個世界常理的、新生命的誕生
+Dialogue: 0,1:45:32.57,1:45:36.32,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}作為代價，舊生命將會迎來毀滅
+Dialogue: 0,1:45:41.58,1:45:42.50,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}翅膀…
+Dialogue: 0,1:45:43.66,1:45:45.25,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}與 15 年前一樣…
+Dialogue: 0,1:45:47.34,1:45:50.35,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}是的，第二次衝擊的延續——
+Dialogue: 0,1:45:50.81,1:45:52.49,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}第三次衝擊開始了
+Dialogue: 0,1:45:54.19,1:45:55.78,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}世界即將終結
+Dialogue: 1,1:46:20.04,1:46:24.14,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}It's only love
+Dialogue: 1,1:46:24.52,1:46:28.56,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}It's only love
+Dialogue: 1,1:46:30.13,1:46:38.42,edjp,NTFS,0,0,0,,{\fad(100,100)}もしも願い一つだけ叶うなら
+Dialogue: 1,1:46:38.48,1:46:46.79,edjp,NTFS,0,0,0,,{\fad(100,100)}君の側で眠らせて　どんな場所でもいいよ
+Dialogue: 1,1:46:46.93,1:46:49.95,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful World
+Dialogue: 1,1:46:49.95,1:46:55.18,edjp,NTFS,0,0,0,,{\fad(100,100)}迷わず君だけを見つめている
+Dialogue: 1,1:46:55.18,1:46:58.29,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful boy
+Dialogue: 1,1:46:58.29,1:47:05.57,edjp,NTFS,0,0,0,,{\fad(100,100)}自分の美しさ　まだ知らないの
+Dialogue: 1,1:47:06.07,1:47:09.85,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}It's only love
+Dialogue: 1,1:47:11.91,1:47:20.19,edjp,NTFS,0,0,0,,{\fad(100,100)}寝ても覚めても少年マンガ　夢見てばっか
+Dialogue: 1,1:47:20.65,1:47:27.97,edjp,NTFS,0,0,0,,{\fad(100,100)}自分が好きじゃないの
+Dialogue: 1,1:47:28.48,1:47:36.96,edjp,NTFS,0,0,0,,{\fad(100,100)}何が欲しいか分からなくて　ただ欲しがって
+Dialogue: 1,1:47:37.36,1:47:45.33,edjp,NTFS,0,0,0,,{\fad(100,100)}ぬるい涙が頬を伝う
+Dialogue: 1,1:47:45.45,1:47:47.16,edjp,NTFS,0,0,0,,{\fad(100,100)}言いたいことなんか無い
+Dialogue: 1,1:47:47.33,1:47:51.14,edjp,NTFS,0,0,0,,{\fad(100,100)}ただもう一度会いたい
+Dialogue: 1,1:47:53.58,1:47:55.49,edjp,NTFS,0,0,0,,{\fad(100,100)}言いたいこと言えない
+Dialogue: 1,1:47:55.73,1:47:59.88,edjp,NTFS,0,0,0,,{\fad(100,100)}根性無しかもしれない
+Dialogue: 1,1:48:00.08,1:48:01.95,edjp,NTFS,0,0,0,,{\fad(100,100)}それでいいけど
+Dialogue: 1,1:48:01.95,1:48:10.20,edjp,NTFS,0,0,0,,{\fad(100,100)}もしも願い一つだけ叶うなら
+Dialogue: 1,1:48:10.29,1:48:18.65,edjp,NTFS,0,0,0,,{\fad(100,100)}君の側で眠らせて　どんな場所でもいいよ
+Dialogue: 1,1:48:18.65,1:48:21.68,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful World
+Dialogue: 1,1:48:21.80,1:48:26.98,edjp,NTFS,0,0,0,,{\fad(100,100)}迷わず君だけを見つめている
+Dialogue: 1,1:48:26.99,1:48:30.05,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful boy
+Dialogue: 1,1:48:30.09,1:48:37.48,edjp,NTFS,0,0,0,,{\fad(100,100)}自分の美しさ　まだ知らないの
+Dialogue: 1,1:48:37.87,1:48:42.07,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}It's only love
+Dialogue: 1,1:48:43.69,1:48:49.60,edjp,NTFS,0,0,0,,{\fad(100,100)}どんなことでもやってみて
+Dialogue: 1,1:48:49.67,1:49:00.35,edjp,NTFS,0,0,0,,{\fad(100,100)}損をしたって　少し経験値上がる
+Dialogue: 1,1:49:00.36,1:49:02.27,edjp,NTFS,0,0,0,,{\fad(100,100)}新聞なんかいらない
+Dialogue: 1,1:49:02.43,1:49:05.48,edjp,NTFS,0,0,0,,{\fad(100,100)}肝心なことが載ってない
+Dialogue: 1,1:49:08.71,1:49:10.62,edjp,NTFS,0,0,0,,{\fad(100,100)}最近調子どうだい？
+Dialogue: 1,1:49:10.78,1:49:13.78,edjp,NTFS,0,0,0,,{\fad(100,100)}元気にしてるなら
+Dialogue: 1,1:49:15.19,1:49:17.09,edjp,NTFS,0,0,0,,{\fad(100,100)}別にいいけど
+Dialogue: 1,1:49:17.10,1:49:25.38,edjp,NTFS,0,0,0,,{\fad(100,100)}僕の世界消えるまで会えぬなら
+Dialogue: 1,1:49:25.42,1:49:33.78,edjp,NTFS,0,0,0,,{\fad(100,100)}君の側で眠らせて　どんな場所でも結構
+Dialogue: 1,1:49:33.79,1:49:36.74,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful World
+Dialogue: 1,1:49:36.79,1:49:42.08,edjp,NTFS,0,0,0,,{\fad(100,100)}儚く過ぎて行く日々の中で
+Dialogue: 1,1:49:42.13,1:49:45.10,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful boy
+Dialogue: 1,1:49:45.19,1:49:50.34,edjp,NTFS,0,0,0,,{\fad(100,100)}気分のムラは仕方ないね
+Dialogue: 1,1:49:50.45,1:49:58.59,edjp,NTFS,0,0,0,,{\fad(100,100)}もしも願い一つだけ叶うなら
+Dialogue: 1,1:49:58.78,1:50:06.08,edjp,NTFS,0,0,0,,{\fad(100,100)}君の側で眠らせて
+Dialogue: 1,1:50:23.91,1:50:27.02,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful World
+Dialogue: 1,1:50:32.20,1:50:35.39,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful boy
+Dialogue: 1,1:50:40.57,1:50:43.65,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful World
+Dialogue: 1,1:50:48.90,1:50:51.93,edjp,NTFS,0,0,0,,{\fscy160\fs22\fad(100,100)\pos(42,12)}Beautiful boy
+Dialogue: 1,1:46:20.04,1:46:24.14,edcn,NTFS,0,0,0,,{\fad(100,100)}只有愛
+Dialogue: 1,1:46:24.52,1:46:28.56,edcn,NTFS,0,0,0,,{\fad(100,100)}只有愛
+Dialogue: 1,1:46:30.13,1:46:38.42,edcn,NTFS,0,0,0,,{\fad(100,100)}惟一所祈，恬眠君旁
+Dialogue: 1,1:46:38.48,1:46:46.79,edcn,NTFS,0,0,0,,{\fad(100,100)}不論何時，無論何方
+Dialogue: 1,1:46:46.93,1:46:49.95,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗世界
+Dialogue: 1,1:46:49.95,1:46:55.18,edcn,NTFS,0,0,0,,{\fad(100,100)}眸內惟君，絕無迷惘
+Dialogue: 1,1:46:55.18,1:46:58.29,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗少年
+Dialogue: 1,1:46:58.29,1:47:05.57,edcn,NTFS,0,0,0,,{\fad(100,100)}君之美麗，汝可自詳？
+Dialogue: 1,1:47:06.07,1:47:09.85,edcn,NTFS,0,0,0,,{\fad(100,100)}只有愛
+Dialogue: 1,1:47:11.91,1:47:20.19,edcn,NTFS,0,0,0,,{\fad(100,100)}安睡警醒，皆如空想
+Dialogue: 1,1:47:20.65,1:47:27.97,edcn,NTFS,0,0,0,,{\fad(100,100)}討厭自己，厭惡這樣？
+Dialogue: 1,1:47:28.48,1:47:36.96,edcn,NTFS,0,0,0,,{\fad(100,100)}追索中，我心亦惘
+Dialogue: 1,1:47:37.36,1:47:45.33,edcn,NTFS,0,0,0,,{\fad(100,100)}思量間，淚劃頰上
+Dialogue: 1,1:47:45.45,1:47:47.16,edcn,NTFS,0,0,0,,{\fad(100,100)}言語已忘
+Dialogue: 1,1:47:47.33,1:47:51.14,edcn,NTFS,0,0,0,,{\fad(100,100)}只盼再會
+Dialogue: 1,1:47:53.58,1:47:55.49,edcn,NTFS,0,0,0,,{\fad(100,100)}心語難言
+Dialogue: 1,1:47:55.73,1:47:59.88,edcn,NTFS,0,0,0,,{\fad(100,100)}勇氣皆喪
+Dialogue: 1,1:48:00.08,1:48:01.95,edcn,NTFS,0,0,0,,{\fad(100,100)}這樣也好
+Dialogue: 1,1:48:01.95,1:48:10.20,edcn,NTFS,0,0,0,,{\fad(100,100)}惟一所祈，恬眠君旁
+Dialogue: 1,1:48:10.29,1:48:18.65,edcn,NTFS,0,0,0,,{\fad(100,100)}不論何時，無論何方
+Dialogue: 1,1:48:18.65,1:48:21.68,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗世界
+Dialogue: 1,1:48:21.80,1:48:26.98,edcn,NTFS,0,0,0,,{\fad(100,100)}眸內惟君，絕無迷惘
+Dialogue: 1,1:48:26.99,1:48:30.05,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗少年
+Dialogue: 1,1:48:30.09,1:48:37.48,edcn,NTFS,0,0,0,,{\fad(100,100)}君之美麗，汝可自詳？
+Dialogue: 1,1:48:37.87,1:48:42.07,edcn,NTFS,0,0,0,,{\fad(100,100)}只有愛
+Dialogue: 1,1:48:43.69,1:48:49.60,edcn,NTFS,0,0,0,,{\fad(100,100)}諸事多嘗
+Dialogue: 1,1:48:49.67,1:49:00.35,edcn,NTFS,0,0,0,,{\fad(100,100)}失之東隅，收之榆桑
+Dialogue: 1,1:49:00.36,1:49:02.27,edcn,NTFS,0,0,0,,{\fad(100,100)}丟開報紙
+Dialogue: 1,1:49:02.43,1:49:05.48,edcn,NTFS,0,0,0,,{\fad(100,100)}全無心繫
+Dialogue: 1,1:49:08.71,1:49:10.62,edcn,NTFS,0,0,0,,{\fad(100,100)}近況怎樣
+Dialogue: 1,1:49:10.78,1:49:13.78,edcn,NTFS,0,0,0,,{\fad(100,100)}若還不錯
+Dialogue: 1,1:49:15.19,1:49:17.09,edcn,NTFS,0,0,0,,{\fad(100,100)}那就好
+Dialogue: 1,1:49:17.10,1:49:25.38,edcn,NTFS,0,0,0,,{\fad(100,100)}我心消解，若能再會
+Dialogue: 1,1:49:25.42,1:49:33.78,edcn,NTFS,0,0,0,,{\fad(100,100)}祈眠君旁，無論何方
+Dialogue: 1,1:49:33.79,1:49:36.74,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗世界
+Dialogue: 1,1:49:36.79,1:49:42.08,edcn,NTFS,0,0,0,,{\fad(100,100)}渾噩度日
+Dialogue: 1,1:49:42.13,1:49:45.10,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗少年
+Dialogue: 1,1:49:45.19,1:49:50.34,edcn,NTFS,0,0,0,,{\fad(100,100)}心緒跌宕亦無計可想
+Dialogue: 1,1:49:50.45,1:49:58.59,edcn,NTFS,0,0,0,,{\fad(100,100)}惟一所祈
+Dialogue: 1,1:49:58.78,1:50:06.08,edcn,NTFS,0,0,0,,{\fad(100,100)}恬眠君旁
+Dialogue: 1,1:50:23.91,1:50:27.02,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗世界
+Dialogue: 1,1:50:32.20,1:50:35.39,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗少年
+Dialogue: 1,1:50:40.57,1:50:43.65,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗世界
+Dialogue: 1,1:50:48.90,1:50:51.93,edcn,NTFS,0,0,0,,{\fad(100,100)}美麗少年
+Dialogue: 0,1:51:16.37,1:51:17.63,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}到底怎麼了
+Dialogue: 0,1:51:22.78,1:51:25.80,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}好了，約定的時刻到了，碇 真嗣君
+Dialogue: 0,1:51:27.38,1:51:29.24,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}這次一定要…
+Dialogue: 0,1:51:30.16,1:51:31.91,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}{\c&HA7EFFD&}實現只屬於你的幸福
+Dialogue: 0,1:51:35.99,1:51:39.12,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}體內滯留著麗和真嗣，就這樣被凍結的EVA初號機
+Dialogue: 0,1:51:39.37,1:51:40.55,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}被廢棄的要塞都市
+Dialogue: 0,1:51:40.82,1:51:42.40,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}被監禁的 NERV 相關人員
+Dialogue: 0,1:51:42.66,1:51:44.91,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}投至教條的 EVA 六號機
+Dialogue: 0,1:51:42.66,1:51:44.91,note,NTFS,0,0,0,,{\blur2\pos(555,673)}{\fad(50,50)}（Dogma）
+Dialogue: 0,1:51:45.16,1:51:46.51,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}蠢蠢欲動的 EVA 八號機
+Dialogue: 0,1:51:46.63,1:51:47.31,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}及其駕駛員…
+Dialogue: 0,1:51:47.68,1:51:50.33,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}被注定好命運的孩子們，終於集結到了一起
+Dialogue: 0,1:51:50.56,1:51:54.89,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}最終，渴望生存下去的人們的故事到底會如何發展
+Dialogue: 0,1:51:55.40,1:51:57.54,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}次回　EVANGELION 新劇場版
+Dialogue: 0,1:51:57.74,1:51:58.29,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)}Q
+Dialogue: 0,1:51:58.63,1:52:01.64,Default,NTFS,0,0,5,,{\blur2}{\fad(50,50)\fnXHei IntelT\fs40}那麼，下回也有服務、服務喲
+Dialogue: 0,0:00:40.24,0:00:43.75,bgs,,0,0,0,,{\blur2}{\a1}第三使徒突破最終科賽特斯河系統
+Dialogue: 0,0:00:44.71,0:00:47.25,bgs,,0,0,0,,{\blur2}{\a1}已確認第十壟溝被入侵
+Dialogue: 0,0:00:47.37,0:00:53.94,bgs,,0,0,0,,{\blur2}{\a1}目標突破第三結界
+Dialogue: 0,0:00:54.80,0:00:57.16,bgs,,0,0,0,,{\blur2}{\a1}現在正前往
+Dialogue: 0,0:00:58.10,0:01:00.94,bgs,,0,0,0,,{\blur2}{\a1}第七壟溝
+Dialogue: 0,0:01:02.16,0:01:06.56,bgs,,0,0,0,,{\blur2}{\a1}正從冥河 306 環軸上移
+Dialogue: 0,0:01:15.25,0:01:18.77,bgs,,0,0,0,,{\blur2}{\a1}
+Dialogue: 0,0:01:15.89,0:01:19.03,bgs,,0,0,0,,{\blur2}{\a2}
+Dialogue: 0,0:01:23.53,0:01:25.41,bgs,,0,0,0,,{\blur2}{\a3}
+Dialogue: 0,0:01:25.42,0:01:27.50,bgs,,0,0,0,,{\blur2}{\a1}
+Dialogue: 0,0:01:24.19,0:01:25.62,bgs,,0,0,0,,{\blur2}{\a2}
+Dialogue: 0,0:01:26.63,0:01:29.76,bgs,,0,0,0,,{\blur2}{\a2}
+Dialogue: 0,0:01:27.55,0:01:29.50,bgs,,0,0,0,,{\blur2}{\a3}
+Dialogue: 0,0:01:30.30,0:01:32.79,bgs,,0,0,0,,{\blur2}{\a1}
+Dialogue: 0,0:01:31.36,0:01:33.97,bgs,,0,0,0,,{\blur2}{\a2}
+Dialogue: 0,0:01:32.91,0:01:35.68,bgs,,0,0,0,,{\blur2}{\a3}
+Dialogue: 0,0:01:34.09,0:01:39.07,bgs,,0,0,0,,{\blur2}{\a2}
+Dialogue: 0,0:01:35.29,0:01:39.07,bgs,,0,0,0,,{\blur2}{\a1}
+Dialogue: 4,0:01:52.83,0:01:56.89,bgs,,0,0,0,,{\blur2}{\a1}第 8 自動追蹤攻擊系統運行中，無效
+Dialogue: 4,0:01:54.84,0:02:00.60,bgs,,0,0,0,,{\blur2}{\a3}EVA 五號機出擊，該區域監視人員全部退避
+Dialogue: 0,0:02:00.87,0:02:04.98,bgs,,0,0,0,,{\blur2}{\a1}貝瑟尼基地所有管理系統切換為緊急 A 模式
+Dialogue: 0,0:02:05.10,0:02:08.38,bgs,,0,0,0,,{\blur2}{\a3}第 6、第 5 壟溝系統運行中，無效
+Dialogue: 0,0:02:06.74,0:02:11.08,bgs,,0,0,0,,{\blur2}{\a1}地域 3 的監視系統提升為等級 4
+Dialogue: 0,0:02:08.41,0:02:11.49,bgs,,0,0,0,,{\blur2}{\a3}第 4、第 3 壟溝系統運行中，無效
+Dialogue: 0,0:02:11.53,0:02:18.40,bgs,,0,0,0,,{\blur2}{\a1}目標正前往主冥河軸
+Dialogue: 0,0:02:18.52,0:02:21.04,bgs,,0,0,0,,{\blur2}{\a3}距第 4 結界壁還有 20
+Dialogue: 0,0:02:21.05,0:02:23.61,bgs,,0,0,0,,{\blur2}{\a1}速度增為 105
+Dialogue: 0,0:02:33.08,0:02:35.84,bgs,,0,0,0,,{\blur2}{\a1}接近路線無變更
+Dialogue: 0,0:02:35.96,0:02:38.45,bgs,,0,0,0,,{\blur2}{\a1}按照預定，五號機通過後封閉所有結界
+Dialogue: 0,0:02:56.69,0:03:00.81,bgs,,0,0,0,,{\blur2}{\a1}捕獲輔助系統，已確認運行
+Dialogue: 0,0:02:57.97,0:03:00.81,bgs,,0,0,86,,{\blur2}{\a1}電磁功率鎖定到最大值
+Dialogue: 0,0:03:32.87,0:03:35.26,bgs,,0,0,0,,{\blur2}{\a1}
+Dialogue: 0,0:03:35.63,0:03:36.65,bgs,,0,0,0,,{\blur2}{\a1}
+Dialogue: 0,0:03:49.89,0:03:51.84,bgs,,0,0,0,,{\blur2}{\a1}
+Dialogue: 0,0:05:06.90,0:05:09.85,bgs,,0,0,0,,{\blur2}{\a3}貝瑟尼基地受損狀況未知
+Dialogue: 0,0:05:10.07,0:05:12.45,bgs,,0,0,0,,{\blur2}{\a3}現在確認中
+Dialogue: 0,0:05:12.71,0:05:15.87,bgs,,0,0,0,,{\blur2}{\a3}司令艦「烏拉爾 Ⅱ」中度損傷
+Dialogue: 0,0:05:15.92,0:05:18.03,bgs,,0,0,0,,{\blur2}{\a3}仍可自行航行
+Dialogue: 0,0:09:11.93,0:09:15.12,bgs,,0,0,0,,{\blur2}{\a1}第 1 及第 5 艦隊正從相模灣方面展開
+Dialogue: 0,0:09:12.09,0:09:15.32,bgs,,0,0,0,,{\blur2}{\a3}第 12 艦隊似已覆滅
+Dialogue: 0,0:09:14.45,0:09:18.27,bgs,,0,0,86,,{\blur2}{\a1}來自內務省的聯絡：開始封鎖該地區，避難路線使用 67 號
+Dialogue: 0,0:09:12.21,0:09:16.15,bgs,,0,0,86,,{\blur2}{\a3}第 6 艦隊從厚木出發
+Dialogue: 0,0:09:16.21,0:09:18.27,bgs,,0,0,0,,{\blur2}{\a3}EVA 零號機出發，現在正通過 64 號線
+Dialogue: 0,0:11:18.14,0:11:21.28,bgs,,0,0,0,,{\blur2}{\a3}第 6 警備班，收到其他命令前待命
+Dialogue: 0,0:11:23.41,0:11:26.86,bgs,,0,0,0,,{\blur2}{\a1}現在，EVA 二號機正前往相模第 1 本線。到達第 9 停車場的時間無變更
+Dialogue: 0,0:11:45.60,0:11:48.71,bgs,,0,0,0,,{\blur2}{\a3}從歐洲來的機體的移交工作 15 分鐘後開始
+Dialogue: 0,0:11:48.93,0:11:51.19,bgs,,0,0,0,,{\blur2}{\a3}相關工作人員請在指定地點待命
+Dialogue: 0,0:11:50.78,0:11:54.62,bgs,,0,0,0,,{\blur2}{\a1}德國政府的獨立調查班現已抵達，在總部待命中
+Dialogue: 0,0:12:06.86,0:12:11.78,bgs,,0,0,0,,{\blur2}{\a1}在江之島發現二號機投擲的超電磁弓槍，開始回收作業
+Dialogue: 0,0:12:25.59,0:12:28.36,bgs,,0,0,0,,{\blur2}{\a3}EVA 二號機的清洗作業開始
+Dialogue: 0,0:12:28.40,0:12:31.32,bgs,,0,0,0,,{\blur2}{\a3}請歐洲監視人員快速離開
+Dialogue: 0,0:12:32.64,0:12:47.46,bgs,,0,0,86,,{\blur2}{\a1}（明日香在重複初見面的台詞）
+Dialogue: 0,0:12:32.61,0:12:42.60,bgs,,0,0,0,,{\blur2}{\a1}第 2 新東京站直通子彈頭列車，本日全線停運。預定明日再次運行
+Dialogue: 0,0:12:42.61,0:12:52.66,bgs,,0,0,0,,{\blur2}{\a1}重播，第 2 新東京站直通子彈頭列車，本日全線停運。預定明日再次運行
+Dialogue: 4,0:12:37.06,0:12:42.10,bgs,,0,0,86,,{\blur2}{\a3}現在，因第 3 級警戒令的發佈
+Dialogue: 4,0:12:42.16,0:12:48.10,bgs,,0,0,86,,{\blur2}{\a3}第 6 終點站下車時等級 B 以上的安全列車是必要的。請注意
+Dialogue: 0,0:12:48.92,0:12:56.48,bgs,,0,0,0,,{\blur2}{\a3}市內環路現在正常運行中
+Dialogue: 4,0:13:01.92,0:13:11.88,bgs,,0,0,0,,{\blur2}{\a3}新小田原方面的民間交通機構現在沒有音信
+Dialogue: 0,0:12:54.54,0:12:58.50,bgs,,0,0,0,,{\blur2}{\a1}第 2 東海道線以及新御殿場線的上下路
+Dialogue: 0,0:12:58.64,0:13:02.00,bgs,,0,0,0,,{\blur2}{\a1}和第 3 第 5 區間的運行酌情暫緩
+Dialogue: 0,0:13:02.12,0:13:07.22,bgs,,0,0,0,,{\blur2}{\a1}再次運行時間未定。重播
+Dialogue: 0,0:13:07.50,0:13:11.55,bgs,,0,0,0,,{\blur2}{\a1}第 2 東海道線以及新御殿場線的上下路
+Dialogue: 0,0:13:11.60,0:13:15.55,bgs,,0,0,0,,{\blur2}{\a1}和第 3 第 5 區間的運行酌情暫緩
+Dialogue: 0,0:13:15.96,0:13:21.15,bgs,,0,0,0,,{\blur2}{\a1}再次運行時間未定
+Dialogue: 0,0:14:19.57,0:14:25.06,bgs,,0,0,0,,{\blur2}{\a1}裝備計劃課的定期會議預定在第 8 會議室進行
+Dialogue: 0,0:14:25.18,0:14:31.00,bgs,,0,0,0,,{\blur2}{\a1}各負責任人的報告請在 15 分鐘以內送達實施總部
+Dialogue: 0,0:14:54.57,0:15:02.99,bgs,,0,0,0,,{\blur2}{\a3}第 1 研究所的新型運動能量彈的耐彈構造試驗延期到明天，開始時間正在調整
+Dialogue: 0,0:15:16.22,0:15:21.40,bgs,,0,0,0,,{\blur2}{\a3}B 棟第 7 區的耐爆修補工作 30 分鐘後再次開始
+Dialogue: 0,0:15:21.43,0:15:24.63,bgs,,0,0,0,,{\blur2}{\a3}從現在開始請使用指定的迂迴線路
+Dialogue: 0,0:20:26.03,0:20:30.03,bgs,,0,0,0,,{\blur2}{\a3}塔布加基地來電：祝貴艦航行安全
+Dialogue: 0,0:20:59.54,0:21:04.87,bgs,,0,0,0,,{\blur2}{\a3}航線變更為 2020，按照預定時間到達 V2 位置
+Dialogue: 0,0:21:00.15,0:21:04.00,bgs,,0,0,0,,{\blur2}{\a1}再次確認封閉艙的封閉狀態，沒有異常
+Dialogue: 0,0:21:04.35,0:21:08.45,bgs,,0,0,0,,{\blur2}{\a1}再次確認氣壓，檢測數值沒有問題
+Dialogue: 0,0:28:09.27,0:28:14.03,bgs,,0,0,0,,{\blur2}{\a3}莫納克亞觀測所開始解析，數據以 30 秒為單位傳送
+Dialogue: 0,0:28:10.51,0:28:12.58,bgs,,0,0,0,,{\blur2}{\a1}在野邊山對目標的追蹤開始
+Dialogue: 0,0:28:12.26,0:28:17.26,bgs,,0,0,86,,{\blur2}{\a1}計算軌道的數據輸入到 Caspar，為最優先工作
+Dialogue: 0,0:28:14.97,0:28:18.27,bgs,,0,0,0,,{\blur2}{\a1}久萬高原傳來的觀測數據輸入到 Melchior， 結果報告為最優先
+Dialogue: 0,0:28:21.43,0:28:25.94,bgs,,0,0,0,,{\blur2}{\a3}來自莫納克亞的報告：電波狀態不穩定，無法通過光學解析
+Dialogue: 0,0:28:23.67,0:28:24.66,bgs,,0,0,0,,{\blur2}{\a1}來自野邊山的聯絡：
+Dialogue: 4,0:28:24.67,0:28:28.68,bgs,,0,0,0,,{\blur2}{\a1}電磁干擾厲害，不能根據電波觀測正確追蹤
+Dialogue: 0,0:28:30.33,0:28:32.26,bgs,,0,0,0,,{\blur2}{\a1}第3 觀測追蹤衛星準備完畢
+Dialogue: 0,0:28:26.93,0:28:31.68,bgs,,0,0,0,,{\blur2}{\a3}確認到 A.T.Field 的產生，但是無法解析圖像
+Dialogue: 0,0:28:31.69,0:28:36.16,bgs,,0,0,0,,{\blur2}{\a3}電磁層的電子密度不穩定，與外部的長距離通信發生障礙
+Dialogue: 0,0:31:07.63,0:31:12.87,bgs,,0,0,0,,{\blur2}{\a3}EVA 二號機在運轉車中，請退避到第 2 安全區域
+Dialogue: 0,0:31:13.70,0:31:20.93,bgs,,0,0,0,,{\blur2}{\a3}重複：EVA 二號機在運轉車中，請退避到第 2 安全區域
+Dialogue: 0,0:31:58.40,0:32:03.04,Default,,0,0,0,,{\a2}EVA 全部以外部電源移動中，電力傳輸沒有問題
+Dialogue: 0,0:31:58.40,0:32:03.34,bgs,,0,0,86,,{\blur2}{\a3}第 5 部隊部署完畢。狀態為藍，現在指定地點待命
+Dialogue: 0,0:32:01.60,0:32:06.42,bgs,,0,0,0,,{\blur2}{\a3}二號機體內電壓達到規定值，電力輸出維持在最大值
+Dialogue: 0,0:32:03.40,0:32:06.50,bgs,,0,0,0,,{\blur2}{\a1}第 305 預備蓄電設備的鋪設完畢
+Dialogue: 0,0:32:07.32,0:32:11.47,bgs,,0,0,0,,{\blur2}{\a1}EVA 各機的出發位置無更變，預備電纜的鋪設工作遂行中
+Dialogue: 0,0:32:10.61,0:32:15.22,bgs,,0,0,86,,{\blur2}{\a3}第 3 電力系統的通電測試開始。送變電系統的檢查開始
+Dialogue: 0,0:32:15.20,0:32:15.74,bgs,,0,0,86,,{\blur2}{\a3}收到
+Dialogue: 0,0:32:15.85,0:32:19.10,bgs,,0,0,0,,{\blur2}{\a1}線路正常，輸電電壓沒有問題
+Dialogue: 0,0:32:19.25,0:32:25.66,bgs,,0,0,0,,{\blur2}{\a1}現在，第 7 變壓組測試中。通電狀況確認次序後，就請負責人退避
+Dialogue: 0,0:32:24.67,0:32:27.46,bgs,,0,0,86,,{\blur2}{\a1}第 6 緊急電源系統通路已確認。檢查完畢
+Dialogue: 0,0:32:50.63,0:32:54.79,bgs,,0,0,0,,{\blur2}{\a3}現在正在計算目標的軌道，正在修正輸入要素
+Dialogue: 0,0:32:52.10,0:32:55.09,bgs,,0,0,0,,{\blur2}{\a1}野邊山的追蹤電波觀測誤差超過 87
+Dialogue: 0,0:32:53.13,0:32:57.99,bgs,,0,0,86,,{\blur2}{\a3}直接光學觀測數據送往 Melchior。最優先處理
+Dialogue: 0,0:33:13.67,0:33:16.57,bgs,,0,0,0,,{\blur2}{\a1}野邊山的追蹤電波觀測誤差，超過 96
+Dialogue: 0,0:33:14.94,0:33:17.49,bgs,,0,0,0,,{\blur2}{\a3}第 7 觀測所已光學確認到目標
+Dialogue: 0,0:33:54.17,0:33:56.29,bgs,,0,0,0,,{\blur2}{\a1}野邊山的電波觀測，無法追蹤
+Dialogue: 0,0:33:54.50,0:33:57.63,bgs,,0,0,0,,{\blur2}{\a3}現在，Melchior 正在修正軌道預測數據
+Dialogue: 0,0:33:55.88,0:33:58.84,bgs,,0,0,86,,{\blur2}{\a1}光學觀測系統正在修正計算誤差
+Dialogue: 0,0:34:05.44,0:34:08.07,bgs,,0,0,0,,{\blur2}{\a3}目標，目視沒有變化
+Dialogue: 0,0:34:05.56,0:34:08.19,bgs,,0,0,0,,{\blur2}{\a1}再次計算下落速度和彈道軌道，正在輸入更新數據
+Dialogue: 0,0:34:16.26,0:34:18.63,bgs,,0,0,0,,{\blur2}{\a3}EVA 初號機正往緊急路線移動
+Dialogue: 0,0:34:17.01,0:34:18.56,bgs,,0,0,0,,{\blur2}{\a1}MABSS 升降系統運行正常
+Dialogue: 0,0:37:36.08,0:37:37.32,bgs,,0,0,0,,{\blur2}{\a1}狀況結束
+Dialogue: 0,0:37:37.38,0:37:39.62,bgs,,0,0,0,,{\blur2}{\a1}重複：狀況結束
+Dialogue: 0,0:37:36.15,0:37:41.40,bgs,,0,0,86,,{\blur2}{\a1}上空待機中的 P3 觀測機對爆心地的航空掃瞄 12 分鐘後開始
+Dialogue: 0,0:37:41.78,0:37:45.40,bgs,,0,0,0,,{\blur2}{\a1}請第 4 班盡快進行受害狀況的確認作業
+Dialogue: 0,0:37:43.52,0:37:50.20,bgs,,0,0,86,,{\blur2}{\a1}現在，狀況是黃色。C 級工作人員解除待命，回到平常位置
+Dialogue: 4,0:37:50.24,0:37:54.96,bgs,,0,0,0,,{\blur2}{\a1}第 6 偵察部隊正在出動，8 分鐘後傳來現場狀況報告
+Dialogue: 0,0:38:00.90,0:38:07.10,bgs,,0,0,86,,{\blur2}{\a1}緊急特令 D-17 在 3 分鐘後自動解除，預定 5 分鐘後通告日本政府
+Dialogue: 0,0:38:07.12,0:38:09.16,bgs,,0,0,0,,{\blur2}{\a1}MABSS 全部維持現狀態
+Dialogue: 4,0:37:37.11,0:37:41.01,bgs,,0,0,0,,{\blur2}{\a3}解除一級戰鬥部署，轉為第 2 警戒狀態
+Dialogue: 0,0:37:42.00,0:37:43.56,bgs,,0,0,0,,{\blur2}{\a3}中央第 4 區緊急排水作業實施中
+Dialogue: 6,0:37:38.85,0:37:41.49,bgs,,0,0,86,,{\blur2}{\a3}監視器確認全部 EVA 及駕駛員健在
+Dialogue: 6,0:37:41.85,0:37:43.49,bgs,,0,0,86,,{\blur2}{\a3}損傷狀況未知
+Dialogue: 0,0:37:43.50,0:37:45.99,bgs,,0,0,86,,{\blur2}{\a3}內部 C 級警報解除
+Dialogue: 0,0:37:46.24,0:37:51.41,bgs,,0,0,0,,{\blur2}{\a3}僊石原第 3 區被水淹沒，第 6 幹線道路侵水
+Dialogue: 0,0:37:52.34,0:37:56.08,bgs,,0,0,0,,{\blur2}{\a3}開始各駕駛員的醫學檢測
+Dialogue: 4,0:37:54.22,0:37:58.08,bgs,,0,0,86,,{\blur2}{\a3}全部排水淨化系統開始工作。開始往該地區準備排水泵車
+Dialogue: 0,0:37:58.09,0:38:05.24,bgs,,0,0,0,,{\blur2}{\a3}爆心地區的樣本回收為最優先事項。請加快變質部位的廢棄作業
+Dialogue: 0,0:38:05.25,0:38:09.28,bgs,,0,0,0,,{\blur2}{\a3}觀測塔之澤區域的電磁輻射數值未知。超過觀測範圍
+Dialogue: 0,0:42:30.64,0:42:34.40,bgs,,0,0,0,,{\blur2}{\a1}設施 3 課的定期報告會議準時通過
+Dialogue: 0,0:42:36.28,0:42:43.24,bgs,,0,0,0,,{\blur2}{\a3}技術 4 課的瀧澤博士，片桐博士在找你。請馬上趕到第 6 研究室
+Dialogue: 0,0:42:45.71,0:42:51.58,bgs,,0,0,0,,{\blur2}{\a1}輸送課的定期檢查開始時間變更為 16 點
+Dialogue: 0,0:42:52.44,0:42:55.91,bgs,,0,0,0,,{\blur2}{\a1}負責人請在 15 點 30 分之前集合
+Dialogue: 0,0:42:45.73,0:42:51.70,bgs,,0,0,0,,{\blur2}{\a3}本日預定的《和首相說明的明天的去向》的收錄已終止
+Dialogue: 0,0:42:52.45,0:42:56.03,bgs,,0,0,0,,{\blur2}{\a3}西區的封閉區域 5 分鐘後開放
+Dialogue: 0,0:43:02.42,0:43:10.21,bgs,,0,0,0,,{\blur2}{\a3}現在，東 D 棟的工事區域全面禁止通行。迂迴路線請使用 405 以下
+Dialogue: 0,0:43:14.20,0:43:17.56,bgs,,0,0,0,,{\blur2}{\a3}定時聯絡：EVA 管理區域沒有異常
+Dialogue: 0,0:45:28.98,0:45:33.08,bgs,,0,0,0,,{\blur2}{\a1}LCL 滲透壓調整值分類為 B 暢通
+Dialogue: 0,0:45:29.50,0:45:35.35,bgs,,0,0,0,,{\blur2}{\a3}插頭深度：0.1、0.3、0.4、0.5、0.7
+Dialogue: 0,0:45:35.50,0:45:39.35,bgs,,0,0,0,,{\blur2}{\a3}插頭 02，到達正常深度
+Dialogue: 0,0:45:37.09,0:45:38.86,bgs,,0,0,0,,{\blur2}{\a1}各接口正常工作中
+Dialogue: 0,0:45:38.98,0:45:41.65,bgs,,0,0,0,,{\blur2}{\a1}插頭 01，到達深度
+Dialogue: 0,0:45:41.14,0:45:46.62,bgs,,0,0,0,,{\blur2}{\a3}現在 LCL 的基礎壓力值正在精密測定。再次試驗預定在 2 分鐘之後
+Dialogue: 0,0:45:46.74,0:45:48.69,bgs,,0,0,0,,{\blur2}{\a1}插頭 00，到達深度
+Dialogue: 0,0:45:50.95,0:45:53.13,bgs,,0,0,0,,{\blur2}{\a1}第 48 回模擬試驗，完畢
+Dialogue: 0,0:45:48.91,0:45:51.93,bgs,,0,0,0,,{\blur2}{\a3}電荷狀態平均。程序 D
+Dialogue: 0,0:45:52.23,0:45:54.46,bgs,,0,0,0,,{\blur2}{\a3}激發分子維持在模型 E
+Dialogue: 0,0:45:54.36,0:45:56.73,bgs,,0,0,0,,{\blur2}{\a1}全部檢驗標誌，確認綠色
+Dialogue: 0,0:46:02.52,0:46:09.13,bgs,,0,0,0,,{\blur2}{\a3}所有計測數據立即往 803 分析診斷線路裏複製。倒轉到文件 101
+Dialogue: 0,0:46:18.24,0:46:23.36,bgs,,0,0,0,,{\blur2}{\a1}掃瞄範圍在 B 線結束，繼續往 C 線開始移動
+Dialogue: 0,0:46:26.30,0:46:30.50,bgs,,0,0,0,,{\blur2}{\a3}CECT 的畫像處理精密數據往 Caspar 傳送中
+Dialogue: 0,0:46:35.81,0:46:41.10,bgs,,0,0,0,,{\blur2}{\a3}到 A 線為止的造影圖像分析完成。編碼誤差在允許範圍內
+Dialogue: 0,0:46:42.02,0:46:48.81,bgs,,0,0,0,,{\blur2}{\a3}處理到 B 線為止的空間圖像。空間分解率以最大體素數開始再現影像
+Dialogue: 0,0:46:51.85,0:46:57.27,bgs,,0,0,0,,{\blur2}{\a3}第 3 班投影 CT 數據的解析作業，預定 15 分鐘後再次開始
+Dialogue: 0,0:48:34.97,0:48:41.04,bgs,,0,0,0,,{\blur2}{\a1}第 3 管區的形狀移動以及定向武器的運用試驗，按時間表進行
+Dialogue: 0,0:48:44.46,0:48:51.51,bgs,,0,0,0,,{\blur2}{\a3}技術局 3 課的松方博士、松方博士，請馬上聯絡開發 2 課
+Dialogue: 0,0:51:29.95,0:51:30.82,bgs,,0,0,0,,{\blur2}{\a3}該怎麼辦
+Dialogue: 0,0:53:31.15,0:53:35.57,bgs,,0,0,0,,{\blur2}{\a1}現在，正在解析偵察衛星傳來的分析數據。無法檢測出 γ 射線
+Dialogue: 0,0:53:31.13,0:53:35.63,bgs,,0,0,86,,{\blur2}{\a1}第 6、第 7、第 8 直通線路全部中斷
+Dialogue: 0,0:53:31.08,0:53:35.66,bgs,,0,0,86,,{\blur2}{\a3}預備線路及衛星線路，無法使用
+Dialogue: 0,0:53:31.08,0:53:35.66,bgs,,0,0,0,,{\blur2}{\a3}北美第 2 支部狀況未知，無法聯絡
+Dialogue: 0,0:57:39.51,0:57:46.36,bgs,,0,0,0,,{\blur2}{\a3}EVA 二號機核心部件分離完畢。機體正往第 2 封印倉收納中
+Dialogue: 0,0:57:49.25,0:57:55.50,bgs,,0,0,0,,{\blur2}{\a1}EVA 二號機下降中，請退避到第 3 安全區域。重複
+Dialogue: 0,0:57:55.62,0:58:00.76,bgs,,0,0,0,,{\blur2}{\a1}EVA 二號機正在下降，請退避到第 3 安全區域
+Dialogue: 0,0:57:56.64,0:58:02.24,bgs,,0,0,0,,{\blur2}{\a3}閘門關閉後，由於 IPEA 封鎖及封印作業開始
+Dialogue: 0,0:58:02.34,0:58:09.24,bgs,,0,0,0,,{\blur2}{\a3}15 分鐘後，除許可者以外人員退避
+Dialogue: 0,0:58:10.15,0:58:16.40,bgs,,0,0,0,,{\blur2}{\a1}EVA 二號機正在下降，請退避到第 3 安全區域。重複
+Dialogue: 0,0:58:17.19,0:58:22.51,bgs,,0,0,0,,{\blur2}{\a1}EVA 二號機正在下降，請退避到第 3 安全區域
+Dialogue: 0,1:00:23.57,1:00:25.42,bgs,,0,0,0,,{\blur2}{\a1}松代發 108 定期通信準時送達
+Dialogue: 0,1:00:25.42,1:00:29.56,bgs,,0,0,0,,{\blur2}{\a3}第 2 東京特別列車延遲 5 分鐘後出發
+Dialogue: 0,1:00:29.78,1:00:35.75,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ ふりむかないで お願いだから
+Dialogue: 0,1:00:36.02,1:00:41.58,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 今ね 靴下 なおしてるのよ
+Dialogue: 0,1:00:41.59,1:00:47.89,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ あなたの 好きな 黒い靴下
+Dialogue: 0,1:00:29.78,1:00:35.75,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 不要回頭，因為是願望
+Dialogue: 0,1:00:36.02,1:00:41.58,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 現在襪子補好了哦
+Dialogue: 0,1:00:41.59,1:00:47.89,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 你喜歡的黑色的襪子
+Dialogue: 0,1:00:48.50,1:00:55.60,bgs,,0,0,0,,{\blur2}{\a3}根據第 7 通告，傀儡系統的第 1 次無人獨立運行試驗按照預定執行
+Dialogue: 0,1:00:55.90,1:00:59.60,bgs,,0,0,0,,{\blur2}{\a3}檢驗燈 505 通過。鏈接程序無變更
+Dialogue: 0,1:00:52.54,1:00:54.26,bgs,,0,0,0,,{\blur2}{\a1}傀儡插頭移動中
+Dialogue: 0,1:00:54.54,1:00:57.26,bgs,,0,0,0,,{\blur2}{\a1}2 分鐘後固定在指定位置
+Dialogue: 0,1:01:00.03,1:01:07.18,bgs,,0,0,0,,{\blur2}{\a1}15 分鐘後開始測試。公共汽車所有者及擔當技術人員以外，請快速退出
+Dialogue: 0,1:01:32.56,1:01:33.82,bgs,,0,0,0,,{\blur2}{\a3}可愛啊
+Dialogue: 0,1:02:31.95,1:02:34.64,bgs,,0,0,0,,{\blur2}{\a1}五位客人這邊請
+Dialogue: 0,1:01:09.93,1:01:14.08,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 忘れられないの
+Dialogue: 0,1:01:14.20,1:01:18.29,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ あの人が好きよ
+Dialogue: 0,1:01:18.53,1:01:22.52,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 青いシャツ著てさ
+Dialogue: 0,1:01:23.24,1:01:26.98,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 海を見てたわ
+Dialogue: 0,1:01:27.20,1:01:31.51,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 私ははだしで
+Dialogue: 0,1:01:31.63,1:01:35.83,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 小さな貝の舟
+Dialogue: 0,1:01:35.95,1:01:40.18,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 浮かべて泣いたの
+Dialogue: 0,1:01:40.30,1:01:44.60,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ わけもないのに
+Dialogue: 0,1:01:44.72,1:01:51.49,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 恋は 私の恋は
+Dialogue: 0,1:01:51.61,1:01:55.67,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 空を染めて
+Dialogue: 0,1:01:55.79,1:02:01.90,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 燃えたよ
+Dialogue: 0,1:02:02.02,1:02:05.88,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 夜明けのコ一ヒ一
+Dialogue: 0,1:02:06.00,1:02:10.35,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ ふたりで飲もうと
+Dialogue: 0,1:02:10.47,1:02:14.66,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ あの人が言った
+Dialogue: 0,1:02:14.78,1:02:19.39,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 恋の季節よ
+Dialogue: 0,1:02:53.15,1:02:59.79,song_jp,,0,0,0,,{\fad(100,100)}{\blur2}♪ 恋は 私の恋は
+Dialogue: 0,1:01:09.93,1:01:14.08,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 忘不了
+Dialogue: 0,1:01:14.20,1:01:18.29,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 喜歡那個人
+Dialogue: 0,1:01:18.53,1:01:22.52,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 穿著藍色的襯衫
+Dialogue: 0,1:01:23.24,1:01:26.98,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 望著海
+Dialogue: 0,1:01:27.20,1:01:31.51,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 我光著腳
+Dialogue: 0,1:01:31.63,1:01:35.83,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 小小的貝船
+Dialogue: 0,1:01:35.95,1:01:40.18,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 浮著哭泣
+Dialogue: 0,1:01:40.30,1:01:44.60,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 也沒有意義
+Dialogue: 0,1:01:44.72,1:01:51.49,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 戀愛，我的戀愛
+Dialogue: 0,1:01:51.61,1:01:55.67,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 染上了天空
+Dialogue: 0,1:01:55.79,1:02:01.90,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 燃燒了喲
+Dialogue: 0,1:02:02.02,1:02:05.88,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 拂曉的咖啡
+Dialogue: 0,1:02:06.00,1:02:10.35,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 兩人一起喝
+Dialogue: 0,1:02:10.47,1:02:14.66,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 那個人說了
+Dialogue: 0,1:02:14.78,1:02:19.39,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 戀愛的季節
+Dialogue: 0,1:02:53.15,1:02:59.79,song_cn,,0,0,0,,{\fad(100,100)}{\blur2}♪ 戀愛，我的戀愛
+Dialogue: 0,1:05:28.85,1:05:35.67,bgs,,0,0,0,,{\blur2}{\a1}（英語雙語指令）EVA 三號機，載人啟動試驗統括負責人抵達。現在正前往主控室
+Dialogue: 0,1:05:37.12,1:05:45.02,bgs,,0,0,0,,{\blur2}{\a1}（英語雙語指令）臍帶電纜的連接作業開始
+Dialogue: 0,1:05:45.22,1:05:53.92,bgs,,0,0,0,,{\blur2}{\a1}（英語雙語指令）
+Dialogue: 0,1:05:53.96,1:06:00.20,bgs,,0,0,0,,{\blur2}{\a1}（英語雙語指令）
+Dialogue: 0,1:06:00.89,1:06:03.20,bgs,,0,0,0,,{\blur2}{\a1}（英語雙語指令）
+Dialogue: 0,1:06:07.62,1:06:08.66,bgs,,0,0,0,,{\blur2}{\a1}（英語雙語指令）
+Dialogue: 0,1:06:08.67,1:06:12.17,bgs,,0,0,0,,{\blur2}{\a1}（英語雙語指令）
+Dialogue: 0,1:05:36.18,1:05:38.41,bgs,,0,0,86,,{\blur2}{\a3}臍帶電纜的連接作業開始
+Dialogue: 0,1:05:43.52,1:05:47.76,bgs,,0,0,86,,{\blur2}{\a3}定位臂固定在待機位置。修正角度增加 0.2 度
+Dialogue: 0,1:05:49.13,1:05:52.15,bgs,,0,0,86,,{\blur2}{\a1}調整中心單元，檢查數值正常
+Dialogue: 0,1:05:49.74,1:05:52.84,Default,,0,0,0,,{\blur2}{\fad(50,50)}檢查到列表 1350，沒有問題
+Dialogue: 0,1:06:03.22,1:06:07.52,bgs,,0,0,86,,{\blur2}{\a1}各觀測裝置檢查完畢。預備系統無異常
+Dialogue: 0,1:06:07.28,1:06:08.91,bgs,,0,0,0,,{\blur2}{\a3}第 6 維修班，退避完畢
+Dialogue: 0,1:06:09.00,1:06:11.00,bgs,,0,0,0,,{\blur2}{\a3}第 8 設施課部隊，退避完畢
+Dialogue: 0,1:07:46.96,1:07:48.47,bgs,,0,0,0,,{\blur2}{\a1}（英語）插入栓開始插入
+Dialogue: 0,1:07:49.31,1:07:52.47,bgs,,0,0,0,,{\blur2}{\a1}（英語）LCL 過電。壓力正常
+Dialogue: 0,1:07:52.48,1:07:55.47,bgs,,0,0,0,,{\blur2}{\a1}（英語）維持第 1 激發狀態
+Dialogue: 0,1:07:57.26,1:08:01.50,bgs,,0,0,0,,{\blur2}{\a1}（英語）收到。作業向第 2 階段移進。第 2 次連接開始
+Dialogue: 0,1:07:50.31,1:07:52.47,bgs,,0,0,0,,{\blur2}{\a3}各測試檢查器正常工作中
+Dialogue: 0,1:08:21.79,1:08:26.71,bgs,,0,0,0,,{\blur2}{\a1}（英語）駕駛員超過安全深度
+Dialogue: 0,1:08:28.56,1:08:34.28,bgs,,0,0,0,,{\blur2}{\a1}（英語）制止它！這樣下去人會失去人型的
+Dialogue: 0,1:08:34.63,1:08:37.33,bgs,,0,0,0,,{\blur2}{\a1}（英語）中止試驗！切斷線路！不行！體內發生高能反應
+Dialogue: 0,1:08:37.31,1:08:40.57,bgs,,0,0,86,,{\blur2}{\a1}逃生系統無效。插頭內沒有回應。中心單元不能控制
+Dialogue: 0,1:08:38.31,1:08:41.84,bgs,,0,0,0,,{\blur2}{\a1}（英語）逃生系統無效。插頭內沒有回應。中心單元不能控制
+Dialogue: 0,1:09:03.75,1:09:07.20,bgs,,0,0,0,,{\blur2}{\a1}松代開始的第 5、第 6 緊急線路不通
+Dialogue: 0,1:09:04.64,1:09:06.72,bgs,,0,0,0,,{\blur2}{\a3}小松及厚木的航空偵察部隊已向監視目標出發
+Dialogue: 0,1:09:06.36,1:09:10.63,bgs,,0,0,86,,{\blur2}{\a3}次代的監測衛星的紅外成像處理預定在 3 分鐘後
+Dialogue: 0,1:09:09.23,1:09:10.94,bgs,,0,0,0,,{\blur2}{\a1}預備管制室沒有應答
+Dialogue: 0,1:09:11.44,1:09:13.86,bgs,,0,0,0,,{\blur2}{\a1}第 3 部隊 3 分鐘後預備出動
+Dialogue: 0,1:09:12.19,1:09:15.43,bgs,,0,0,0,,{\blur2}{\a3}政府的緊急對策總部似乎設在第 2 新東京市
+Dialogue: 0,1:09:14.76,1:09:18.25,bgs,,0,0,86,,{\blur2}{\a3}爆心地的磁場不穩定，輻射無法測定
+Dialogue: 0,1:09:17.58,1:09:19.74,bgs,,0,0,0,,{\blur2}{\a1}第 2 實驗室聯繫不上
+Dialogue: 0,1:09:19.61,1:09:23.05,bgs,,0,0,0,,{\blur2}{\a3}地震觀測所的數據傳來了，準備解析
+Dialogue: 0,1:09:21.33,1:09:25.16,bgs,,0,0,0,,{\blur2}{\a1}已確認爆心地區的重力異常。現在解析測量數據
+Dialogue: 0,1:09:24.62,1:09:31.70,bgs,,0,0,86,,{\blur2}{\a1}移動中的物體已補入。檢測周邊磁場中
+Dialogue: 0,1:09:26.99,1:09:31.67,bgs,,0,0,0,,{\blur2}{\a3}預備救助小組在第 2 新東京待命中。計劃按順序出動
+Dialogue: 0,1:09:40.56,1:09:44.65,bgs,,0,0,0,,{\blur2}{\a3}主電源延長電纜的接續作業，預定 2 分鐘後完成
+Dialogue: 4,1:09:44.49,1:09:50.02,bgs,,0,0,0,,{\blur2}{\a1}機動打擊支援部隊的部署完畢。航空支援部隊在另有命令之前待命
+Dialogue: 0,1:09:46.16,1:09:51.15,bgs,,0,0,86,,{\blur2}{\a1}EVA 初號機目前依靠外部電源待機中。體內電壓沒有問題
+Dialogue: 0,1:09:51.16,1:09:54.40,bgs,,0,0,0,,{\blur2}{\a3}第 4 變壓小組通電檢測完畢。無異常
+Dialogue: 0,1:10:06.76,1:10:09.82,bgs,,0,0,0,,{\blur2}{\a1}航空偵察部隊正在追蹤監視目標
+Dialogue: 0,1:10:06.89,1:10:09.47,bgs,,0,0,0,,{\blur2}{\a3}觀測遂行中，現在正在測定引力
+Dialogue: 0,1:10:16.63,1:10:20.97,bgs,,0,0,0,,{\blur2}{\a3}來自第 8 觀測所的報告：移動速度不變，狀況無變化
+Dialogue: 0,1:10:24.20,1:10:27.71,bgs,,0,0,0,,{\blur2}{\a1}EVA 三號機拒絕保護模式。密碼改變
+Dialogue: 0,1:10:24.66,1:10:28.35,bgs,,0,0,0,,{\blur2}{\a3}動力供給系統未知。體內無法控制
+Dialogue: 0,1:10:28.13,1:10:29.85,bgs,,0,0,0,,{\blur2}{\a1}自動制動系統沒有運轉
+Dialogue: 0,1:10:30.28,1:10:33.88,bgs,,0,0,0,,{\blur2}{\a3}插入栓內無法觀測，駕駛員的狀況未知
+Dialogue: 0,1:10:34.16,1:10:37.86,bgs,,0,0,0,,{\blur2}{\a1}地上偵察部隊到達部署位置，觀測遂行中
+Dialogue: 0,1:10:35.60,1:10:40.50,bgs,,0,0,86,,{\blur2}{\a1}瑪格已再次確認：波譜分析為藍色。重複，波譜分析為藍色
+Dialogue: 0,1:10:49.00,1:10:56.63,bgs,,0,0,0,,{\blur2}{\a3}對於主力人型武器，各阻擊部隊向第 2 防線邊退邊迎擊。機動打擊部隊向兩翼展開中
+Dialogue: 0,1:10:58.45,1:11:03.36,bgs,,0,0,0,,{\blur2}{\a1}目標突破第 1 防線。第 5、第 6 特科中隊開始攻擊
+Dialogue: 0,1:11:05.98,1:11:09.81,bgs,,0,0,0,,{\blur2}{\a3}目標仍然健在，請問戰車部隊是否繼續攻擊
+Dialogue: 0,1:12:30.50,1:12:33.99,bgs,,0,0,0,,{\blur2}{\a3}侵蝕部分損傷度測量中、測量中
+Dialogue: 0,1:12:32.13,1:12:34.64,bgs,,0,0,0,,{\blur2}{\a1}頸椎部壓迫，損傷度為 B
+Dialogue: 0,1:12:34.58,1:12:41.21,bgs,,0,0,0,,{\blur2}{\a3}58.5、67.5、96.5、110.6
+Dialogue: 0,1:12:41.70,1:12:44.78,bgs,,0,0,0,,{\blur2}{\a1}同步圖型減少 2！向第三標準降低
+Dialogue: 0,1:12:42.65,1:12:44.87,bgs,,0,0,0,,{\blur2}{\a3}第 6 神經線路群，斷線
+Dialogue: 0,1:12:44.31,1:12:47.30,bgs,,0,0,86,,{\blur2}{\a1}插頭深度增加 0.3。進入黃色地區
+Dialogue: 0,1:12:46.73,1:12:48.63,bgs,,0,0,0,,{\blur2}{\a3}駕駛員的生命維持發生問題
+Dialogue: 0,1:12:47.85,1:12:51.95,bgs,,0,0,86,,{\blur2}{\a3}精神圖線不穩定，在 -5 水平上維持形狀
+Dialogue: 0,1:12:56.47,1:12:59.34,bgs,,0,0,0,,{\blur2}{\a1}同步水平增加 2。測量誤差是 0.5
+Dialogue: 0,1:13:09.21,1:13:11.54,bgs,,0,0,0,,{\blur2}{\a1}頸椎部位壓迫，損傷度為 A
+Dialogue: 0,1:13:11.87,1:13:15.19,bgs,,0,0,0,,{\blur2}{\a1}侵蝕部損傷程度測量中，測量中
+Dialogue: 0,1:13:15.20,1:13:19.84,bgs,,0,0,0,,{\blur2}{\a1}頸椎部侵蝕範圍增加中。增加 3.8%
+Dialogue: 0,1:13:15.20,1:13:18.55,bgs,,0,0,0,,{\blur2}{\a3}侵蝕部損傷程度測量中，測量中
+Dialogue: 0,1:13:19.01,1:13:28.72,bgs,,0,0,0,,{\blur2}{\a3}12.4、132.5、146.7、159.8、176.3
+Dialogue: 0,1:13:20.15,1:13:23.24,bgs,,0,0,86,,{\blur2}{\a3}第 8 神經線路群，斷線！無法復原
+Dialogue: 0,1:13:23.60,1:13:28.10,bgs,,0,0,86,,{\blur2}{\a3}精神圖線更加不穩定，在 -6 水平上維持形狀
+Dialogue: 0,1:14:05.80,1:14:08.14,bgs,,0,0,0,,{\blur2}{\a1}動力系統傳導效率無故障
+Dialogue: 0,1:14:06.23,1:14:09.44,bgs,,0,0,0,,{\blur2}{\a3}體內電壓穩定。規定值區域無問題
+Dialogue: 0,1:14:07.51,1:14:11.93,bgs,,0,0,86,,{\blur2}{\a3}感情單元的 32.8% 不清晰。無法控制
+Dialogue: 0,1:14:08.99,1:14:11.49,bgs,,0,0,0,,{\blur2}{\a1}A.T.Field 穩定，恢復 B 級別
+Dialogue: 0,1:14:10.14,1:14:12.93,bgs,,0,0,0,,{\blur2}{\a3}中樞神經連接已確認。無異常
+Dialogue: 0,1:14:48.67,1:14:50.96,bgs,,0,0,0,,{\blur2}{\a1}左腕傳導壓力上升，上升 3
+Dialogue: 0,1:14:50.30,1:14:51.94,bgs,,0,0,0,,{\blur2}{\a3}筋力連動線路，恢復
+Dialogue: 0,1:16:57.17,1:17:01.07,bgs,,0,0,0,,{\blur2}{\a2}這邊也有倖存者，快叫救援班來
+Dialogue: 0,1:16:59.05,1:17:02.19,bgs,,0,0,86,,{\blur2}{\a3}第 3 班將 807 數據消去！快
+Dialogue: 0,1:17:01.19,1:17:05.46,bgs,,0,0,0,,{\blur2}{\a1}沒錯！污染區域內的監視記錄全部燒掉
+Dialogue: 0,1:17:02.80,1:17:06.40,bgs,,0,0,0,,{\blur2}{\a3}第 2 班請迅速確認東區生存者
+Dialogue: 0,1:17:05.95,1:17:07.69,bgs,,0,0,0,,{\blur2}{\a2}18 號線全面封鎖
+Dialogue: 0,1:17:08.22,1:17:10.55,bgs,,0,0,0,,{\blur2}{\a2}10 分鐘後，無戰自許可禁止進入
+Dialogue: 0,1:17:07.00,1:17:10.69,bgs,,0,0,0,,{\blur2}{\a1}第 6 豎井確認 2 名生存者
+Dialogue: 0,1:17:10.70,1:17:14.60,bgs,,0,0,0,,{\blur2}{\a1}收到。緊急送往救護班
+Dialogue: 0,1:17:11.10,1:17:13.60,bgs,,0,0,86,,{\blur2}{\a1}爆心地區的狀況正在調查
+Dialogue: 0,1:17:13.70,1:17:18.60,bgs,,0,0,86,,{\blur2}{\a1}查證極度困難。所以明天之前由對策總部處發出中間報告
+Dialogue: 0,1:17:18.10,1:17:23.60,bgs,,0,0,0,,{\blur2}{\a3}實施 307 例報道管制。請廣播局 4 課長傳達
+Dialogue: 0,1:17:18.70,1:17:23.60,bgs,,0,0,0,,{\blur2}{\a1}西區倒塌的地上設施廢棄。要優先處理試驗區域
+Dialogue: 0,1:17:18.70,1:17:23.60,bgs,,0,0,86,,{\blur2}{\a1}這邊應急治療已經竭盡全力了！把那邊的人叫過來
+Dialogue: 0,1:17:23.70,1:17:27.60,bgs,,0,0,0,,{\blur2}{\a3}爆心地區地下 300 米附近融解
+Dialogue: 0,1:17:27.70,1:17:32.60,bgs,,0,0,0,,{\blur2}{\a3}熱反應還未衰減，目前回收樣本有很大困難
+Dialogue: 0,1:17:24.25,1:17:28.48,bgs,,0,0,0,,{\blur2}{\a1}第 34 衛生班抵達，請迅速搬運重傷患者
+Dialogue: 0,1:17:30.25,1:17:33.48,bgs,,0,0,0,,{\blur2}{\a1}發現檢測試行性原始數據。最優先保護
+Dialogue: 0,1:17:45.84,1:17:48.08,bgs,,0,0,0,,{\blur2}{\a1}初號機自動制動裝置不運轉
+Dialogue: 0,1:17:47.11,1:17:52.19,bgs,,0,0,0,,{\blur2}{\a3}傀儡系統已停止。負荷率估計為 125%，難以再次啟動
+Dialogue: 0,1:17:52.30,1:17:56.01,bgs,,0,0,0,,{\blur2}{\a3}主傳導線路傳感器被切斷。無法確認狀況
+Dialogue: 0,1:18:01.05,1:18:04.57,bgs,,0,0,0,,{\blur2}{\a1}插頭輸出信號無法識別。緊急備用線路也不工作
+Dialogue: 0,1:18:04.62,1:18:06.74,bgs,,0,0,0,,{\blur2}{\a3}初號機無法接收強制停止信號
+Dialogue: 0,1:18:06.99,1:18:08.87,bgs,,0,0,0,,{\blur2}{\a1}緊急耐爆防火裝置運行中
+Dialogue: 0,1:18:09.27,1:18:11.80,bgs,,0,0,0,,{\blur2}{\a1}無法確認第 1 層 W 區的火勢蔓延情況
+Dialogue: 0,1:18:11.04,1:18:16.44,bgs,,0,0,0,,{\blur2}{\a3}由 S 段再次開始拘束系統的滅火作業。預計 20 分鐘後滅火
+Dialogue: 0,1:18:15.91,1:18:19.07,bgs,,0,0,0,,{\blur2}{\a1}第 3 組部署完畢。在對應區域待命中
+Dialogue: 0,1:18:34.64,1:18:38.09,bgs,,0,0,0,,{\blur2}{\a1}總部地上設施頂部破損。損傷未知
+Dialogue: 0,1:18:36.22,1:18:38.21,bgs,,0,0,0,,{\blur2}{\a3}指定區域全範圍內緊急封閉
+Dialogue: 0,1:18:38.54,1:18:43.31,bgs,,0,0,0,,{\blur2}{\a3}第 1 層裝甲部位發生龜裂。目前外部耐壓爆系統運行中
+Dialogue: 0,1:18:38.94,1:18:43.85,bgs,,0,0,86,,{\blur2}{\a1}確認到第 2 層裝甲部分振動波。到達範圍為 5。衝擊波級別為 3
+Dialogue: 0,1:18:43.85,1:18:50.83,bgs,,0,0,0,,{\blur2}{\a3}初號機至活動極限還有 275 秒、270 秒、265 秒、260 秒
+Dialogue: 0,1:20:59.45,1:21:02.21,Default,NTFS,0,0,0,,{\blur2}{\fad(50,50)}一片也不准留！將河底全部清查
+Dialogue: 0,1:20:55.95,1:21:00.60,bgs,,0,0,0,,{\blur2}{\a3}按班吃午飯。先由 2 班和 3 班開始，20 分鐘之後是 4 班和 5 班
+Dialogue: 0,1:21:00.95,1:21:04.60,bgs,,0,0,0,,{\blur2}{\a3}將起重機旋轉向山的方向，日落之前路的這一側會有線索
+Dialogue: 4,1:20:58.02,1:21:01.00,bgs,,0,0,0,,{\blur2}{\a1}不行！即使自稱關係人員也不可接近
+Dialogue: 4,1:21:01.02,1:21:04.60,bgs,,0,0,0,,{\blur2}{\a1}住民也不可以。讓警衛班徹底清除人員
+Dialogue: 4,1:21:00.62,1:21:04.60,bgs,,0,0,86,,{\blur2}{\a1}好。好了，可以，停！稍微往前一點，稍微。好，停
+Dialogue: 0,1:20:58.02,1:21:04.60,bgs,,0,0,86,,{\blur2}{\a3}恐怕第 9 節之前沒有殘餘。即使只是被粉碎的破片…
+Dialogue: 0,1:21:04.69,1:21:07.39,bgs,,0,0,0,,{\blur2}{\a1}裝飾零部件的隔離作業完成
+Dialogue: 0,1:21:04.87,1:21:08.78,bgs,,0,0,0,,{\blur2}{\a3}5 分鐘後開始檢測插頭侵蝕濃度的暫定報告
+Dialogue: 0,1:21:04.99,1:21:08.65,bgs,,0,0,86,,{\blur2}{\a3}作業 E 班首先進行裝甲部侵蝕痕跡的痕跡結果分析
+Dialogue: 0,1:21:04.99,1:21:08.67,bgs,,0,0,86,,{\blur2}{\a1}請 C 班迅速進行同步記錄器的數據復原作業
+Dialogue: 0,1:24:57.26,1:25:00.30,bgs,,0,0,0,,{\blur2}{\a2}解除二號機的封印
+Dialogue: 0,1:25:00.31,1:25:02.14,bgs,,0,0,0,,{\blur2}{\a2}現在第 2 導彈發射井開放中
+Dialogue: 0,1:25:00.31,1:25:05.14,bgs,,0,0,86,,{\blur2}{\a1}解除最終安全裝置。拘束器全部解除
+Dialogue: 0,1:25:07.19,1:25:09.57,bgs,,0,0,86,,{\blur2}{\a1}重新書寫入口密鑰
+Dialogue: 0,1:25:09.69,1:25:14.57,bgs,,0,0,86,,{\blur2}{\a1}新規定的登錄駕駛員是密碼 05 真希波·真理·伊拉絲多莉亞斯
+Dialogue: 0,1:25:01.45,1:25:05.03,bgs,,0,0,0,,{\blur2}{\a1}開始核心部分的自動換裝作業
+Dialogue: 0,1:25:06.44,1:25:08.03,bgs,,0,0,0,,{\blur2}{\a3}插入栓插頭移動中
+Dialogue: 0,1:25:08.14,1:25:11.03,bgs,,0,0,0,,{\blur2}{\a3}距離插入固定位置還有 30 秒
+Dialogue: 4,1:25:02.90,1:25:05.04,bgs,,0,0,0,,{\blur2}{\a2}解除二號機的封印
+Dialogue: 4,1:25:05.20,1:25:09.04,bgs,,0,0,0,,{\blur2}{\a2}現在第 2 導彈發射井開放中
+Dialogue: 0,1:25:12.20,1:25:15.02,bgs,,0,0,0,,{\blur2}{\a3}距離程序啟動還有 2 分 40 秒
+Dialogue: 0,1:25:24.27,1:25:27.35,bgs,,0,0,0,,{\blur2}{\a3}目標的移動速度和高度都沒有變化
+Dialogue: 0,1:25:26.71,1:25:28.49,bgs,,0,0,86,,{\blur2}{\a3}正在觀測周邊磁場的變化。解析中
+Dialogue: 0,1:25:28.95,1:25:31.05,bgs,,0,0,0,,{\blur2}{\a1}第 6 到第 8 自動高射炮群準備就緒
+Dialogue: 0,1:25:28.95,1:25:31.05,bgs,,0,0,0,,{\blur2}{\a3}迎擊系統各自分別應對
+Dialogue: 0,1:25:29.75,1:25:30.95,bgs,,0,0,86,,{\blur2}{\a3}第 2 特科組準備就緒
+Dialogue: 0,1:26:00.71,1:26:03.17,bgs,,0,0,86,,{\blur2}{\a3}南聯盟的全部地上設備倒塌
+Dialogue: 0,1:26:02.31,1:26:04.82,bgs,,0,0,0,,{\blur2}{\a1}地下空間的天合中央部發生裂縫
+Dialogue: 0,1:26:04.64,1:26:06.65,bgs,,0,0,0,,{\blur2}{\a3}第 8 自動高射炮群，蒸發
+Dialogue: 4,1:26:04.04,1:26:07.67,bgs,,0,0,0,,{\blur2}{\a2}第 24 裝甲系統熔解
+Dialogue: 4,1:26:07.74,1:26:10.67,bgs,,0,0,0,,{\blur2}{\a2}第 24 裝甲系統熔解
+Dialogue: 0,1:26:07.75,1:26:11.12,bgs,,0,0,0,,{\blur2}{\a1}防空兵裝稼動率低於 76.5%
+Dialogue: 0,1:26:10.69,1:26:12.45,bgs,,0,0,0,,{\blur2}{\a3}C-08 區域崩塌
+Dialogue: 0,1:26:43.65,1:26:47.53,bgs,,0,0,0,,{\blur2}{\a3}南聯盟的住民正在逐步向更大深度的避難所避難中
+Dialogue: 0,1:26:47.54,1:26:49.90,bgs,,0,0,0,,{\blur2}{\a3}預計距離結束還有 20
+Dialogue: 0,1:26:45.21,1:26:50.32,bgs,,0,0,86,,{\blur2}{\a1}第 5 對空要塞的傳令：1 到 6 號迎擊系統開始射擊
+Dialogue: 0,1:26:51.00,1:26:53.60,bgs,,0,0,0,,{\blur2}{\a3}第 7 自動射擊系統，開始運行
+Dialogue: 0,1:26:51.29,1:26:52.11,bgs,,0,0,0,,{\blur2}{\a1}第 10 VLS 組，開始攻擊
+Dialogue: 0,1:26:52.63,1:26:57.80,bgs,,0,0,86,,{\blur2}{\a1}第 100 號防空避難所已經超過定員數。以後的判斷交給現場的負責人
+Dialogue: 0,1:26:55.04,1:26:55.89,bgs,,0,0,0,,{\blur2}{\a3}第 504 高射炮群，開始射擊
+Dialogue: 0,1:26:57.21,1:27:02.16,bgs,,0,0,0,,{\blur2}{\a3}大型 N2 誘導彈，準備發射。各導彈發射井準備好就開始發射
+Dialogue: 0,1:27:00.05,1:27:04.23,bgs,,0,0,86,,{\blur2}{\a1}第 203 防空避難所已經關閉
+Dialogue: 0,1:27:04.35,1:27:06.11,bgs,,0,0,86,,{\blur2}{\a1}收容不了的人員撤回到西邊的 205 號以後
+Dialogue: 0,1:27:02.82,1:27:07.28,bgs,,0,0,0,,{\blur2}{\a3}第 607 層發生火災！排煙裝置運行中
+Dialogue: 0,1:27:07.68,1:27:09.96,bgs,,0,0,0,,{\blur2}{\a3}指定通路緊急封閉
+Dialogue: 0,1:27:06.12,1:27:09.74,bgs,,0,0,0,,{\blur2}{\a1}第 7 路禁止通行！迂迴線路使用右邊第 15 號路
+Dialogue: 0,1:27:17.67,1:27:18.91,bgs,,0,0,0,,{\blur2}{\a1}電話打不通了
+Dialogue: 0,1:27:18.00,1:27:19.74,bgs,,0,0,0,,{\blur2}{\a3}爸…爸…
+Dialogue: 0,1:27:26.25,1:27:28.56,bgs,,0,0,0,,{\blur2}{\a1}中央街區重力異常
+Dialogue: 0,1:27:27.10,1:27:29.92,bgs,,0,0,0,,{\blur2}{\a3}目標已突破第 4 次防衛線！下降中
+Dialogue: 0,1:27:28.45,1:27:31.77,bgs,,0,0,86,,{\blur2}{\a1}EVA 二號機當前位置沒有變化，狀況沒有變化
+Dialogue: 0,1:27:31.03,1:27:33.04,bgs,,0,0,0,,{\blur2}{\a3}第 5 次防衛線即將被突破
+Dialogue: 0,1:27:28.16,1:27:31.83,bgs,,0,0,86,,{\blur2}{\a3}來自歐洲的聯絡，EVA 二號機應用指示數據如下所示
+Dialogue: 0,1:27:31.94,1:27:35.83,bgs,,0,0,86,,{\blur2}{\a3}駕駛員是真希波·真理·伊拉絲多莉亞斯。完畢
+Dialogue: 0,1:27:32.21,1:27:35.57,bgs,,0,0,0,,{\blur2}{\a1}地下開發空間的正上方全部武裝系統融解
+Dialogue: 0,1:29:13.68,1:29:15.98,bgs,,0,0,0,,{\blur2}{\a1}核心單元，強制解除連接
+Dialogue: 0,1:29:16.00,1:29:18.03,bgs,,0,0,0,,{\blur2}{\a3}系統錯誤，無法操控
+Dialogue: 0,1:29:17.67,1:29:19.65,bgs,,0,0,0,,{\blur2}{\a1}啟動信號熄滅！無法確認
+Dialogue: 0,1:29:21.69,1:29:24.39,bgs,,0,0,0,,{\blur2}{\a1}虛擬系統停止，原因未知
+Dialogue: 0,1:29:24.69,1:29:27.39,bgs,,0,0,0,,{\blur2}{\a1}虛擬系統停止，原因未知
+Dialogue: 0,1:30:06.05,1:30:08.59,bgs,,0,0,0,,{\blur2}{\a1}EVA 二號機，有物理性的形態變化
+Dialogue: 0,1:30:08.05,1:30:11.79,bgs,,0,0,0,,{\blur2}{\a3}核心單元附近，無法觀測物理性！無法解析狀況
+Dialogue: 0,1:30:11.36,1:30:17.63,bgs,,0,0,86,,{\blur2}{\a3}確認到插入栓內 LCL 壓縮！壓力增加 200
+Dialogue: 0,1:30:16.84,1:30:20.70,bgs,,0,0,0,,{\blur2}{\a1}二號機周圍觀測到重力及磁場異常增加
+Dialogue: 0,1:31:24.03,1:31:28.43,bgs,,0,0,0,,{\blur2}{\a1}EVA 二號機重度損傷。左臂損壞，其他損壞部位正在確認
+Dialogue: 0,1:31:24.93,1:31:26.25,bgs,,0,0,0,,{\blur2}{\a3}駕駛員狀況未知
+Dialogue: 0,1:31:26.87,1:31:29.11,bgs,,0,0,0,,{\blur2}{\a3}開啟第 26 號緊急出口
+Dialogue: 0,1:31:29.92,1:31:33.01,bgs,,0,0,0,,{\blur2}{\a1}零號機出動，攜帶武器放在門口附近
+Dialogue: 0,1:31:33.02,1:31:34.58,bgs,,0,0,0,,{\blur2}{\a1}歐洲沒有答覆
+Dialogue: 0,1:32:12.16,1:32:14.19,bgs,,0,0,0,,{\blur2}{\a1}零號機 A.T.Field 展開中
+Dialogue: 0,1:32:12.72,1:32:14.31,bgs,,0,0,0,,{\blur2}{\a3}輸出功率維持最大值
+Dialogue: 0,1:32:13.17,1:32:15.07,bgs,,0,0,86,,{\blur2}{\a3}機體兩肩部位發生龜裂
+Dialogue: 0,1:35:01.77,1:35:03.53,bgs,,0,0,0,,{\blur2}{\a3}目標，再次開始進攻
+Dialogue: 0,1:35:02.41,1:35:04.30,bgs,,0,0,0,,{\blur2}{\a1}正在向總部移動
+Dialogue: 0,1:35:03.92,1:35:06.95,bgs,,0,0,86,,{\blur2}{\a1}目標變形！現在解析詳情
+Dialogue: 0,1:35:04.24,1:35:07.46,bgs,,0,0,0,,{\blur2}{\a3}剩下的迎擊系統全部切換成手動操作
+Dialogue: 0,1:35:07.44,1:35:09.16,bgs,,0,0,0,,{\blur2}{\a1}地空爆雷，準備再次投下
+Dialogue: 0,1:35:09.44,1:35:11.66,bgs,,0,0,0,,{\blur2}{\a3}所有對地導彈，準備發射
+Dialogue: 0,1:35:10.57,1:35:13.98,bgs,,0,0,0,,{\blur2}{\a1}波譜藍色消失！無法定位導彈
+Dialogue: 0,1:35:12.71,1:35:14.91,bgs,,0,0,86,,{\blur2}{\a1}自動火炮群，準備手動射擊
+Dialogue: 0,1:35:14.19,1:35:16.39,bgs,,0,0,0,,{\blur2}{\a3}收到！重置標記位置
+Dialogue: 0,1:36:06.40,1:36:08.59,bgs,,0,0,0,,{\blur2}{\a3}90% 以上已汽化
+Dialogue: 0,1:36:10.82,1:36:12.57,bgs,,0,0,0,,{\blur2}{\a1}至第 6 層以下皆損壞
+Dialogue: 0,1:36:14.03,1:36:14.74,bgs,,0,0,0,,{\blur2}{\a1}規模未知
+Dialogue: 0,1:36:20.64,1:36:22.50,bgs,,0,0,0,,{\blur2}{\a3}傀儡系統被拒絕
+Dialogue: 0,1:36:23.49,1:36:26.66,bgs,,0,0,0,,{\blur2}{\a3}系統換頻器不運轉
+Dialogue: 0,1:36:23.49,1:36:26.66,bgs,,0,0,86,,{\blur2}{\a3}中樞神經線路被切斷，無法打開
+Dialogue: 0,1:36:27.07,1:36:29.71,bgs,,0,0,0,,{\blur2}{\a1}代碼 308，開始檢測
+Dialogue: 0,1:36:30.81,1:36:34.24,bgs,,0,0,0,,{\blur2}{\a1}代碼 309，開始檢測
+Dialogue: 0,1:36:27.17,1:36:29.81,bgs,,0,0,86,,{\blur2}{\a1}代碼 308，聯絡程序錯誤
+Dialogue: 0,1:36:26.77,1:36:28.71,bgs,,0,0,0,,{\blur2}{\a3}可塑性圓柱模件無反應
+Dialogue: 0,1:36:28.93,1:36:32.25,bgs,,0,0,86,,{\blur2}{\a3}代碼 309，聯絡程序錯誤
+Dialogue: 0,1:36:28.83,1:36:34.55,bgs,,0,0,0,,{\blur2}{\a3}清單 308 不明確。清單 309 不明確
+Dialogue: 0,1:37:00.07,1:37:02.55,bgs,,0,0,0,,{\blur2}{\a1}教條第 7 裝甲系統，融解
+Dialogue: 0,1:37:07.67,1:37:11.43,bgs,,0,0,0,,{\blur2}{\a1}中央教條物理性封閉！再次確認防護卷門關閉狀況
+Dialogue: 0,1:37:14.00,1:37:16.75,bgs,,0,0,0,,{\blur2}{\a1}第 2 自爆裝置已準備
+Dialogue: 0,1:37:18.30,1:37:20.31,bgs,,0,0,0,,{\blur2}{\a1}瑪格系統，緊急疏散
+Dialogue: 0,1:37:05.12,1:37:06.41,bgs,,0,0,0,,{\blur2}{\a3}目標侵入第 6 層
+Dialogue: 0,1:37:15.34,1:37:18.74,bgs,,0,0,0,,{\blur2}{\a3}目標從第一指揮部正面侵入
+Dialogue: 0,1:37:18.84,1:37:22.74,bgs,,0,0,0,,{\blur2}{\a3}目標從第一指揮部正面侵入
+Dialogue: 0,0:03:23.78,0:03:28.01,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}At the very beginning, we were created,
+Dialogue: 0,0:03:28.43,0:03:32.39,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}to live together but soon, we hated in greed and selfishness,
+Dialogue: 0,0:03:32.74,0:03:37.08,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}we could never prosper, created enemies against gods will.
+Dialogue: 0,0:03:37.08,0:03:41.34,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}At the very beginning, we were created,
+Dialogue: 0,0:03:41.41,0:03:45.73,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}to live together but soon, we hated
+Dialogue: 0,0:03:46.31,0:03:50.30,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}in greed and selfishness, we could never prosper,
+Dialogue: 0,0:03:50.30,0:03:54.76,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}created enemies against gods will.
+Dialogue: 0,0:04:12.76,0:04:16.88,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}At the very beginning, we were created,
+Dialogue: 0,0:04:17.31,0:04:21.31,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}to live together but soon, we hated
+Dialogue: 0,0:04:22.01,0:04:25.67,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}in greed and selfishness, we could never prosper,
+Dialogue: 0,0:04:26.01,0:04:30.17,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}ccreated enemies against gods will.
+Dialogue: 0,0:04:30.54,0:04:34.75,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}At the very beginning, we were created,
+Dialogue: 0,0:04:35.04,0:04:39.06,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}to live together but soon, we hated
+Dialogue: 0,0:04:39.43,0:04:43.43,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}in greed and selfishness, we could never prosper,
+Dialogue: 0,0:04:43.94,0:04:47.98,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}ccreated enemies against gods will.
+Dialogue: 0,0:03:23.78,0:03:28.01,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}最初，我們被創造出來並共同生活
+Dialogue: 0,0:03:28.43,0:03:32.39,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}但不久，在貪婪自私中我們互相憎恨
+Dialogue: 0,0:03:32.74,0:03:37.08,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}違背神的旨意製造敵人，永不能達到繁榮
+Dialogue: 0,0:03:37.08,0:03:41.34,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}最初，我們被創造出來並共同生活
+Dialogue: 0,0:03:41.41,0:03:45.73,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}但不久，在貪婪自私中我們互相憎恨
+Dialogue: 0,0:03:46.31,0:03:50.30,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}違背神的旨意製造敵人
+Dialogue: 0,0:03:50.30,0:03:54.76,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}永不能達到繁榮
+Dialogue: 0,0:04:12.76,0:04:16.88,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}最初，我們被創造出來並共同生活
+Dialogue: 0,0:04:17.31,0:04:21.31,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}但不久，在貪婪自私中我們互相憎恨
+Dialogue: 0,0:04:22.01,0:04:25.67,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}違背神的旨意製造敵人
+Dialogue: 0,0:04:26.01,0:04:30.17,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}永不能達到繁榮
+Dialogue: 0,0:04:30.54,0:04:34.75,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}最初，我們被創造出來並共同生活
+Dialogue: 0,0:04:35.04,0:04:39.06,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}但不久，在貪婪自私中我們互相憎恨
+Dialogue: 0,0:04:39.43,0:04:43.43,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}違背神的旨意製造敵人
+Dialogue: 0,0:04:43.94,0:04:47.98,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}永不能達到繁榮
+Dialogue: 0,0:34:27.68,0:34:43.06,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I stand and I wait, for me destiny is here, and I know it must be.
+Dialogue: 0,0:34:43.07,0:34:58.00,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I have to await, my fate is as pure as snow and as sure as can be.
+Dialogue: 0,0:34:27.68,0:34:43.06,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}立此等待，我的宿命就在這裏，我了悟到必然如是
+Dialogue: 0,0:34:43.07,0:34:58.00,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我必須等待，確信我的信念必將是白雪一般的純淨
+Dialogue: 0,0:35:44.51,0:35:46.89,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}What will the future hold
+Dialogue: 0,0:35:47.27,0:35:49.36,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}How will be rewarded
+Dialogue: 0,0:35:49.89,0:35:51.61,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Have I the right to riches
+Dialogue: 0,0:35:51.89,0:35:55.61,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}In a world where there are no prizes
+Dialogue: 0,0:35:56.11,0:35:58.17,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Who makes the clock tick by
+Dialogue: 0,0:35:58.29,0:36:00.49,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}When will my fate be ready
+Dialogue: 0,0:36:00.86,0:36:02.33,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Do I get prior warning
+Dialogue: 0,0:36:02.46,0:36:06.33,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Am I told? Are there no surprises
+Dialogue: 0,0:36:06.45,0:36:09.35,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I have to count my blessings
+Dialogue: 0,0:36:09.47,0:36:11.29,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I have to learn my lessons
+Dialogue: 0,0:36:11.93,0:36:13.21,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}My fate is in the balance
+Dialogue: 0,0:36:13.33,0:36:17.21,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I must go on believing
+Dialogue: 0,0:36:27.89,0:36:30.80,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I have to count my blessings
+Dialogue: 0,0:36:30.89,0:36:33.80,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I have to learn my lessons
+Dialogue: 0,0:36:33.89,0:36:35.80,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}My fate is in the balance
+Dialogue: 0,0:36:35.89,0:36:38.40,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}I must go on believing
+Dialogue: 0,0:35:44.51,0:35:46.89,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}未來會是什麼樣
+Dialogue: 0,0:35:47.27,0:35:49.36,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}會被怎樣回報
+Dialogue: 0,0:35:49.89,0:35:51.61,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我是否有豐收的權利
+Dialogue: 0,0:35:51.89,0:35:55.61,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在一個沒有獎品的世界
+Dialogue: 0,0:35:56.11,0:35:58.17,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}誰讓時鐘跳動
+Dialogue: 0,0:35:58.29,0:36:00.49,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我的命運何時會被備好
+Dialogue: 0,0:36:00.86,0:36:02.33,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我可否得到預警
+Dialogue: 0,0:36:02.46,0:36:06.33,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}誰告訴過我？有沒有驚喜
+Dialogue: 0,0:36:06.45,0:36:09.35,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我要細數我的福
+Dialogue: 0,0:36:09.47,0:36:11.29,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我會吸取我的教訓
+Dialogue: 0,0:36:11.93,0:36:13.21,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我的命運仍未定
+Dialogue: 0,0:36:13.33,0:36:17.21,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我必須繼續相信
+Dialogue: 0,0:36:27.89,0:36:30.80,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我要細數我的福
+Dialogue: 0,0:36:30.89,0:36:33.80,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我會吸取我的教訓
+Dialogue: 0,0:36:33.89,0:36:35.80,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我的命運仍未定
+Dialogue: 0,0:36:35.89,0:36:38.40,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}我必須繼續相信
+Dialogue: 0,1:26:40.91,1:26:50.00,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}In my spirit lies my faith. Stronger than love and with me it will be for always
+Dialogue: 0,1:26:50.21,1:27:00.05,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}In my spirit lies my faith. Stronger than love and with me it will be for always
+Dialogue: 0,1:26:40.91,1:26:50.00,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在我的靈魂中蘊含著我的信仰；比愛更強大，並將永遠伴隨我
+Dialogue: 0,1:26:50.21,1:27:00.05,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在我的靈魂中蘊含著我的信仰；比愛更強大，並將永遠伴隨我
+Dialogue: 0,1:28:08.18,1:28:13.29,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}In the battle of the bravest souls, over evil shall the good prevail,
+Dialogue: 0,1:28:13.60,1:28:18.59,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}If the universe is crashing down, heed the chaos and then drown it out,
+Dialogue: 0,1:28:18.90,1:28:22.77,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Showing flashes of bravado, in a torrent of destruction,
+Dialogue: 0,1:28:22.89,1:28:24.71,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}keep your head above the mayhem;
+Dialogue: 0,1:28:24.95,1:28:30.62,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}clarity will be your weapon as the blinded falter and die.
+Dialogue: 0,1:28:38.84,1:28:44.04,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}In the battle of the bravest souls, over evil shall the good prevail,
+Dialogue: 0,1:28:44.29,1:28:49.29,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}If the universe is crashing down, heed the chaos and then drown it out,
+Dialogue: 0,1:28:49.41,1:28:53.40,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Showing flashes of bravado, in a torrent of destruction,
+Dialogue: 0,1:28:53.52,1:28:55.29,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}keep your head above the mayhem;
+Dialogue: 0,1:28:55.53,1:29:01.20,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}clarity will be your weapon as the blinded falter and die.
+Dialogue: 0,1:28:08.18,1:28:13.29,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在無畏靈魂的戰鬥中，超越邪惡是最好的勝利
+Dialogue: 0,1:28:13.60,1:28:18.59,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}如果世界就此崩塌，留心被瘋狂淹沒
+Dialogue: 0,1:28:18.90,1:28:22.77,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}於逞強中閃現光芒，在毀滅中宣洩悲傷
+Dialogue: 0,1:28:22.89,1:28:24.71,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}保持理性，超越虐殺
+Dialogue: 0,1:28:24.95,1:28:30.62,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}當畏縮和死亡被遮蔽時，理性就是你的武器
+Dialogue: 0,1:28:38.84,1:28:44.04,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在無畏靈魂的戰鬥中，超越邪惡是最好的勝利
+Dialogue: 0,1:28:44.29,1:28:49.29,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}如果世界就此崩塌，留心被瘋狂淹沒
+Dialogue: 0,1:28:49.41,1:28:53.40,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}於逞強中閃現光芒，在毀滅中宣洩悲傷
+Dialogue: 0,1:28:53.52,1:28:55.29,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}保持理性，超越虐殺
+Dialogue: 0,1:28:55.53,1:29:01.20,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}當畏縮和死亡被遮蔽時，理性就是你的武器
+Dialogue: 0,1:37:26.83,1:37:28.69,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}And so the carnage has begun
+Dialogue: 0,1:37:29.07,1:37:30.93,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}no hiding place for anyone
+Dialogue: 0,1:37:31.48,1:37:36.45,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}no quarter given or none taken in the bloodiest of all battles
+Dialogue: 0,1:37:36.57,1:37:38.34,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}the war to end all wars is here
+Dialogue: 0,1:37:38.87,1:37:40.82,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}the air is filled with heavy fear
+Dialogue: 0,1:37:41.33,1:37:45.56,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Humanity is disappearing suffering as millions see slaughter
+Dialogue: 0,1:37:46.30,1:37:47.94,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}If there's no ending to this fight
+Dialogue: 0,1:37:48.44,1:37:50.46,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}eternal darkness is our plight
+Dialogue: 0,1:37:50.86,1:37:55.24,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}the darkest hour is upon us dying on the edge of destruction
+Dialogue: 0,1:37:55.36,1:37:57.59,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}multitudes will fall in the end its all universal tragedy befalling the end of mankind
+Dialogue: 0,1:37:57.69,1:37:59.59,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}Gods cannot help us then no one can save us
+Dialogue: 0,1:37:59.69,1:38:01.59,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}if no one can save us then we will be gone for all time
+Dialogue: 0,1:38:01.69,1:38:05.59,EnSong,,0,0,0,,{\fad(100,100)}{\blur2}the - end - is - here - the - end - is - here - the - end - is - NOWWWWWWW
+Dialogue: 0,1:37:26.83,1:37:28.69,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}大屠殺已經開始
+Dialogue: 0,1:37:29.07,1:37:30.93,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}沒有人有可逃之地
+Dialogue: 0,1:37:31.48,1:37:36.45,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在最血腥的決戰中，沒有角落、沒有人可被放過
+Dialogue: 0,1:37:36.57,1:37:38.34,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}終結所有戰爭的戰役就在這裏
+Dialogue: 0,1:37:38.87,1:37:40.82,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}空氣中充滿了無盡的恐懼
+Dialogue: 0,1:37:41.33,1:37:45.56,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在宛如百萬人的屠殺苦難中，人性已然泯滅
+Dialogue: 0,1:37:46.30,1:37:47.94,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}如果這場戰鬥永無終了
+Dialogue: 0,1:37:48.44,1:37:50.46,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}永恆的黑暗就是我們的困境
+Dialogue: 0,1:37:50.86,1:37:55.24,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}在瀕臨毀滅之時，最黑暗的時刻在迫近我們
+Dialogue: 0,1:37:55.36,1:37:57.59,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}人們將墜落於這場降臨在全世界的悲劇中，這是人類的終結
+Dialogue: 0,1:37:57.69,1:37:59.59,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}神無法幫助我們，沒有人可以救助我們
+Dialogue: 0,1:37:59.69,1:38:01.59,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}如果無人救助，我們將永遠消失
+Dialogue: 0,1:38:01.69,1:38:05.59,CnSong,,0,0,0,,{\fad(100,100)}{\blur2}結局就在這裏！結局就在這裏！結局就在現在
+Dialogue: 0,1:52:02.65,1:52:09.48,Default,,0,0,0,,{\fad(1500,1200)}{\fn方正粗雅宋长_GBK\fs60\b1\pos(640,620)\alpha60}原字幕製作：\NFANS-EVA\N翻譯校對：七月、碇真嗣 日文歌詞：碇真嗣\N英文歌詞：dizyh 時 軸：番茄、dizyh\NNES\N翻譯校對：R.Ayakawa(已故)、S.Shiradori(日本)、刀鋒戰士\N顧 問：櫻緋月(女王sama) 時 軸：xiaobin、SquallATF\N\N\N字幕修改：巴洛克哥特
+

@@ -1,0 +1,6 @@
+AR P浪漫明朝体U <Arphic PRoman-Mincho Ultra JIS>
+FOT-ハミング Std D <FOT-Humming Std D>
+方正粗倩_GBK <FZCuQian-M17>
+方正正准黑_GBK <FZZhengHei-M-GBK>
+方正中倩_GBK <FZZhongQian-M16>
+方正准圆_GBK <FZZhunYuan-M02>

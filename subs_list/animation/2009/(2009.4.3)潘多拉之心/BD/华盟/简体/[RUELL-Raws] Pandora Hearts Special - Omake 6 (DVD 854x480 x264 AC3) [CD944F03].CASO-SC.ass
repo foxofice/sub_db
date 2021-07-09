@@ -1,0 +1,131 @@
+﻿[Script Info]
+Title: PandoraHearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[Aegisub Project Garbage]
+Audio File: [RUELL-Raws] Pandora Hearts Special - Omake 6 (DVD 854x480 x264 AC3) [CD944F03].mkv
+Video File: [RUELL-Raws] Pandora Hearts Special - Omake 6 (DVD 854x480 x264 AC3) [CD944F03].mkv
+Video AR Mode: 4
+Video AR Value: 1.779167
+Video Zoom Percent: 0.875000
+Scroll Position: 94
+Active Line: 98
+Video Position: 8625
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.79,0:00:07.24,zhengwen,NTP,0,0,0,,潘多拉之心  附录小动画
+Dialogue: 0,0:00:09.40,0:00:11.26,zhengwen,NTP,0,0,0,,大家好
+Dialogue: 0,0:00:12.00,0:00:17.06,zhengwen,NTP,0,0,0,,感谢您购买潘多拉之心DVD第六卷
+Dialogue: 0,0:00:17.51,0:00:21.96,zhengwen,NTP,0,0,0,,好了  大家也一边喝茶一边慢慢欣赏吧
+Dialogue: 0,0:00:22.50,0:00:26.50,zhengwen,NTP,0,0,0,,顺便一说  我今天喝的是香草茶
+Dialogue: 0,0:00:26.82,0:00:33.61,zhengwen,NTP,0,0,0,,上等的口感和绵绵的香草香味令人心旷神怡
+Dialogue: 0,0:00:35.71,0:00:39.12,zhengwen,NTP,0,0,0,,嗯？工作人员  这是…
+Dialogue: 0,0:00:39.12,0:00:42.29,zhushi,NTP,0,0,0,,（提示板）
+Dialogue: 0,0:00:42.50,0:00:52.17,zhushi,NTP,0,0,0,,（现在请欣赏美妙的音乐和映像）
+Dialogue: 0,0:00:54.80,0:00:57.78,zhengwen,NTP,0,0,0,,好  那么各位再见了
+Dialogue: 0,0:01:00.49,0:01:02.44,zhengwen,NTP,0,0,0,,您走好
+Dialogue: 0,0:01:02.31,0:01:07.35,zhushi,NTP,0,0,0,,（睡相系列2）
+Dialogue: 0,0:01:04.44,0:01:06.10,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:01:07.40,0:01:10.86,zhushi,NTP,0,0,0,,（烦躁烦躁烦躁……）
+Dialogue: 0,0:01:10.86,0:01:14.82,zhushi,NTP,0,0,0,,（第九次的奇迹！？）
+Dialogue: 0,0:01:11.22,0:01:14.07,zhengwen,NTP,0,0,0,,怎么回事  基尔怎么了
+Dialogue: 0,0:01:14.28,0:01:16.95,zhengwen,NTP,0,0,0,,嗯  貌似是赌上男人的志气
+Dialogue: 0,0:01:17.14,0:01:20.35,zhengwen,NTP,0,0,0,,正在挑战第九次戒烟哦
+Dialogue: 0,0:01:20.71,0:01:23.25,zhengwen,NTP,0,0,0,,哎呀  被巴鲁玛公爵说过之后
+Dialogue: 0,0:01:23.47,0:01:25.30,zhengwen,NTP,0,0,0,,怎么说还是很在意的嘛
+Dialogue: 0,0:01:25.32,0:01:26.30,zhengwen,NTP,0,0,0,,太好啦
+Dialogue: 0,0:01:26.59,0:01:29.52,zhengwen,NTP,0,0,0,,基尔不抽烟的话  我可以拿一根吧
+Dialogue: 0,0:01:29.79,0:01:32.61,zhengwen,NTP,0,0,0,,很久以前就对烟草是什么味道很感兴趣了
+Dialogue: 0,0:01:34.03,0:01:35.28,zhengwen,NTP,0,0,0,,不行  住手  奥兹
+Dialogue: 0,0:01:35.37,0:01:36.83,zhengwen,NTP,0,0,0,,等等  这样很危险的
+Dialogue: 0,0:01:38.42,0:01:39.96,zhengwen,NTP,0,0,0,,哎呀哎呀
+Dialogue: 0,0:01:40.18,0:01:42.60,zhengwen,NTP,0,0,0,,真是的  你干什么啊  很痛哎
+Dialogue: 0,0:01:42.80,0:01:45.41,zhengwen,NTP,0,0,0,,你根本不知道它有多可怕
+Dialogue: 0,0:01:45.92,0:01:46.52,zhengwen,NTP,0,0,0,,啊？
+Dialogue: 0,0:01:46.80,0:01:49.33,zhengwen,NTP,0,0,0,,吸烟对人体带来的危害数不胜数
+Dialogue: 0,0:01:49.49,0:01:52.28,zhengwen,NTP,0,0,0,,循环系统疾病  呼吸系统疾病  牙周炎  十二指肠溃疡等等等等
+Dialogue: 0,0:01:52.37,0:01:54.33,zhengwen,NTP,0,0,0,,你那幼小的肺转眼间就会黑得面目全非
+Dialogue: 0,0:01:54.39,0:01:57.03,zhengwen,NTP,0,0,0,,而且刚开始吸烟的人还有可能引起急性中毒
+Dialogue: 0,0:01:57.06,0:01:59.53,zhengwen,NTP,0,0,0,,总之就是有百害而无一利  这就是烟草
+Dialogue: 0,0:01:59.81,0:02:02.51,zhengwen,NTP,0,0,0,,话说  你既然了解得那么清楚
+Dialogue: 0,0:02:02.73,0:02:04.86,zhengwen,NTP,0,0,0,,为什么会开始吸烟呢
+Dialogue: 0,0:02:05.05,0:02:06.92,zhengwen,NTP,0,0,0,,那…那是因为…
+Dialogue: 0,0:02:07.64,0:02:11.03,zhengwen,NTP,0,0,0,,因为憧憬奥斯卡大人  忍不住尝试了一下呢
+Dialogue: 0,0:02:12.68,0:02:14.20,zhengwen,NTP,0,0,0,,哎  什么  真的啊
+Dialogue: 0,0:02:14.42,0:02:16.67,zhengwen,NTP,0,0,0,,是啊  我记得…
+Dialogue: 0,0:02:18.02,0:02:21.31,zhengwen,NTP,0,0,0,,那应该是基尔巴特十八岁时的事情
+Dialogue: 0,0:02:21.88,0:02:26.06,zhengwen,NTP,0,0,0,,那时他由于家庭原因以及工作上的烦恼而极度疲劳
+Dialogue: 0,0:02:26.26,0:02:30.84,zhengwen,NTP,0,0,0,,自觉这样下去没脸见奥斯卡大人和少爷  因而十分沮丧
+Dialogue: 0,0:02:32.41,0:02:35.74,zhengwen,NTP,0,0,0,,于是我给了他一个建议
+Dialogue: 0,0:02:39.45,0:02:42.13,zhengwen,NTP,0,0,0,,你想成为奥斯卡大人那样的人物吧
+Dialogue: 0,0:02:42.70,0:02:47.10,zhengwen,NTP,0,0,0,,那你应该明白  你现在缺少的是…
+Dialogue: 0,0:02:48.15,0:02:49.53,zhengwen,NTP,0,0,0,,烟草啊
+Dialogue: 0,0:02:51.94,0:02:53.11,zhengwen,NTP,0,0,0,,还有胡子
+Dialogue: 0,0:02:55.97,0:02:59.64,zhengwen,NTP,0,0,0,,哎呀  真想让奥兹也看看
+Dialogue: 0,0:03:00.26,0:03:03.61,zhengwen,NTP,0,0,0,,一脸害羞地咬着烟的基尔巴特
+Dialogue: 0,0:03:03.88,0:03:07.18,zhengwen,NTP,0,0,0,,因为不习惯烟草的味道而咳嗽不止的基尔巴特
+Dialogue: 0,0:03:07.68,0:03:13.22,zhengwen,NTP,0,0,0,,发现被我耍了  但为时已晚已经上瘾了的基尔巴特
+Dialogue: 0,0:03:13.51,0:03:15.13,zhengwen,NTP,0,0,0,,哎  真好啊
+Dialogue: 0,0:03:15.40,0:03:16.70,zhengwen,NTP,0,0,0,,给我闭嘴  布雷克
+Dialogue: 0,0:03:16.85,0:03:18.98,zhengwen,NTP,0,0,0,,还有很多故事哦
+Dialogue: 0,0:03:19.16,0:03:21.66,zhengwen,NTP,0,0,0,,比如说性格阴郁的基尔巴特第一次…
+Dialogue: 0,0:03:21.70,0:03:22.28,zhengwen,NTP,0,0,0,,布雷克
+Dialogue: 0,0:03:22.69,0:03:23.59,zhengwen,NTP,0,0,0,,哎呀
+Dialogue: 0,0:03:25.35,0:03:30.33,zhengwen,NTP,0,0,0,,确实我作为一个随从  既没出息又不可靠
+Dialogue: 0,0:03:31.10,0:03:34.35,zhengwen,NTP,0,0,0,,就算被奥兹瞧不起或者当傻瓜看  我也没什么话可说的
+Dialogue: 0,0:03:34.84,0:03:37.63,zhengwen,NTP,0,0,0,,但是…但是啊…
+Dialogue: 0,0:03:38.10,0:03:42.54,zhengwen,NTP,0,0,0,,一年到头都很阴暗的布雷克  你没资格说我啊
+Dialogue: 0,0:03:43.11,0:03:44.86,zhengwen,NTP,0,0,0,,你这白痴布雷克
+Dialogue: 0,0:03:47.80,0:03:51.10,zhengwen,NTP,0,0,0,,他还是那么急性子呢
+Dialogue: 0,0:03:51.10,0:03:56.15,zhushi,NTP,0,0,0,,（睡相系列2）
+Dialogue: 0,0:03:53.81,0:03:55.62,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:04:01.10,0:04:01.72,zhengwen,NTP,0,0,0,,基尔
+Dialogue: 0,0:04:02.90,0:04:03.43,zhengwen,NTP,0,0,0,,基尔
+Dialogue: 0,0:04:04.56,0:04:05.51,zhengwen,NTP,0,0,0,,基尔君
+Dialogue: 0,0:04:06.35,0:04:08.42,zhengwen,NTP,0,0,0,,真是的  你再不回头…
+Dialogue: 0,0:04:09.23,0:04:10.48,zhengwen,NTP,0,0,0,,小心我烧了你的帽子
+Dialogue: 0,0:04:13.44,0:04:16.05,zhengwen,NTP,0,0,0,,奥兹  你明明知道我在戒烟…
+Dialogue: 0,0:04:16.40,0:04:18.03,zhengwen,NTP,0,0,0,,咦  好甜
+Dialogue: 0,0:04:20.00,0:04:21.41,zhengwen,NTP,0,0,0,,是香烟型的巧克力啦
+Dialogue: 0,0:04:21.85,0:04:26.39,zhengwen,NTP,0,0,0,,我想你要是不习惯嘴里没东西叼着  吃吃这个也不错吧
+Dialogue: 0,0:04:26.78,0:04:30.66,zhengwen,NTP,0,0,0,,要是叼着这东西  肯定又会被布雷克笑
+Dialogue: 0,0:04:30.77,0:04:35.25,zhengwen,NTP,0,0,0,,有什么关系呢  反正你做什么都会那样的
+Dialogue: 0,0:04:35.60,0:04:36.79,zhengwen,NTP,0,0,0,,你不用说得那么绝吧
+Dialogue: 0,0:04:38.46,0:04:43.71,zhengwen,NTP,0,0,0,,因为无论有多不像样  有多没出息
+Dialogue: 0,0:04:44.09,0:04:48.53,zhengwen,NTP,0,0,0,,你还是让我引以为豪的随从
+Dialogue: 0,0:04:49.61,0:04:53.47,zhengwen,NTP,0,0,0,,所以你就尽情地没出息下去好啦
+Dialogue: 0,0:04:57.31,0:05:01.82,zhengwen,NTP,0,0,0,,那样…我才不愿意呢
+Dialogue: 0,0:05:06.18,0:05:07.84,zhengwen,NTP,0,0,0,,三天后
+Dialogue: 0,0:05:08.44,0:05:10.53,zhengwen,NTP,0,0,0,,哇  没出息
+Dialogue: 0,0:05:11.13,0:05:13.63,zhengwen,NTP,0,0,0,,你们不要管我了
+Dialogue: 0,0:05:14.10,0:05:19.11,zhushi,NTP,0,0,0,,（睡相系列2）
+Dialogue: 0,0:05:15.21,0:05:17.44,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:05:19.21,0:05:20.79,zhengwen,NTP,0,0,0,,下回预告
+Dialogue: 0,0:05:21.17,0:05:23.60,zhengwen,NTP,0,0,0,,喂  好像收到来信了哦
+Dialogue: 0,0:05:23.97,0:05:24.91,zhengwen,NTP,0,0,0,,我来看看…
+Dialogue: 0,0:05:25.26,0:05:27.68,zhengwen,NTP,0,0,0,,其实从之前就很在意  我就开门见山地问了
+Dialogue: 0,0:05:27.85,0:05:33.71,zhengwen,NTP,0,0,0,,潘多拉之心的女主角是艾莉丝还是夏罗小姐呢
+Dialogue: 0,0:05:34.86,0:05:38.73,zhengwen,NTP,0,0,0,,这还用得着问  当然是我了
+Dialogue: 0,0:05:39.00,0:05:40.86,zhengwen,NTP,0,0,0,,那可不一定哦
+Dialogue: 0,0:05:41.05,0:05:41.77,zhengwen,NTP,0,0,0,,什么
+Dialogue: 0,0:05:41.98,0:05:47.28,zhengwen,NTP,0,0,0,,所谓女主角  就应该是美丽聪颖有气质的女性  所以…
+Dialogue: 0,0:05:47.36,0:05:51.15,zhengwen,NTP,0,0,0,,你说什么  女主角只要坚强勇敢就行了
+Dialogue: 0,0:05:51.36,0:05:54.80,zhengwen,NTP,0,0,0,,哎呀哎呀  好像有股火药味呢
+Dialogue: 0,0:05:52.22,0:05:55.51,zhushi,NTP,0,0,0,,再说了  你在本篇里不是除了喝茶就是喝茶吗
+Dialogue: 0,0:05:55.73,0:05:58.93,zhushi,NTP,0,0,0,,艾莉丝你才是一直在吃肉吧
+Dialogue: 0,0:05:54.91,0:06:00.03,zhengwen,NTP,0,0,0,,真没办法  那就选不即不离的艾可吧
+Dialogue: 0,0:05:59.28,0:06:01.91,zhengwen,NTP,0,0,0,,（我吃肉是为了变强…）
+Dialogue: 0,0:06:00.47,0:06:01.96,zhengwen,NTP,0,0,0,,说得也是呢
+Dialogue: 0,0:06:02.24,0:06:03.01,zhengwen,NTP,0,0,0,,哎

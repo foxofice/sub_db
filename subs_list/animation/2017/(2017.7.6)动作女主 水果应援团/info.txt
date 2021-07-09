@@ -1,5 +1,5 @@
-﻿chs: 
-cht: 
-jp: 
-en: 
-rome: 
+﻿chs: 动作女主 水果应援团
+cht: 動作女主 水果應援團
+jp: アクションヒロイン チアフルーツ 
+en: Action Heroine Cheer Fruits
+rome: Action Heroine Cheer Fruits

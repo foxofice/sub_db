@@ -1,0 +1,50 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 00:46:30
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex
+Original Script:Fosky
+Second Script:LFK@u2
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.87,0:00:10.74,SP,NTP,0000,0000,0000,,你们看 你们看
+Dialogue: 0,0:00:15.18,0:00:16.48,SP,NTP,0000,0000,0000,,诸位
+Dialogue: 0,0:00:16.98,0:00:18.61,SP,NTP,0000,0000,0000,,所谓的「沟通」就是「对话」
+Dialogue: 0,0:00:19.08,0:00:22.38,SP,NTP,0000,0000,0000,,必须透过「语言」这个媒介 各位应该没有忘记吧?
+Dialogue: 0,0:00:22.62,0:00:24.62,SP,NTP,0000,0000,0000,,老是使用有线传输
+Dialogue: 0,0:00:24.62,0:00:28.11,SP,NTP,0000,0000,0000,,难道你们都不会有 偶尔说说话的想法吗?
+Dialogue: 0,0:00:28.89,0:00:30.59,SP,NTP,0000,0000,0000,,这家伙在说什么啊?
+Dialogue: 0,0:00:30.59,0:00:31.49,SP,NTP,0000,0000,0000,,不知道耶
+Dialogue: 0,0:00:34.73,0:00:38.03,SP,NTP,0000,0000,0000,,使用有线传输的话 只需拷贝资料就可以瞬间理解
+Dialogue: 0,0:00:38.03,0:00:40.50,SP,NTP,0000,0000,0000,,干嘛还要用那么原始的方式呢?
+Dialogue: 0,0:00:40.50,0:00:44.94,SP,NTP,0000,0000,0000,,而且情报的传递 是越高速化就越有利啊
+Dialogue: 0,0:00:44.94,0:00:46.61,SP,NTP,0000,0000,0000,,像那么原始的程序
+Dialogue: 0,0:00:46.61,0:00:50.05,SP,NTP,0000,0000,0000,,我认为早就应该 连同人类一起被废止才对
+Dialogue: 0,0:00:50.61,0:00:51.62,SP,NTP,0000,0000,0000,,我没意见
+Dialogue: 0,0:00:51.62,0:00:53.15,SP,NTP,0000,0000,0000,,对呀对呀
+Dialogue: 0,0:00:53.15,0:00:55.52,SP,NTP,0000,0000,0000,,你在说什么呀?
+Dialogue: 0,0:00:55.52,0:00:58.36,SP,NTP,0000,0000,0000,,我们不过是电脑驱动的装置
+Dialogue: 0,0:00:58.36,0:01:03.36,SP,NTP,0000,0000,0000,,但是却被设计了 具备输入输出功能的扬声器
+Dialogue: 0,0:01:03.36,0:01:05.83,SP,NTP,0000,0000,0000,,你们好好思考一下 这究竟代表了什么意义啊！
+Dialogue: 0,0:01:05.83,0:01:07.70,SP,NTP,0000,0000,0000,,在情报传递这一点上
+Dialogue: 0,0:01:07.70,0:01:10.30,SP,NTP,0000,0000,0000,,语言的确缺点百出对吧?
+Dialogue: 0,0:01:10.30,0:01:12.37,SP,NTP,0000,0000,0000,,不管是用声音或是文字
+Dialogue: 0,0:01:12.37,0:01:18.01,SP,NTP,0000,0000,0000,,把语言当成情报传递的工具 这种固有认知不正是最危险的吗?
+Dialogue: 0,0:01:18.01,0:01:20.74,SP,NTP,0000,0000,0000,,事实上 语言除了扮演「工具」的角色外
+Dialogue: 0,0:01:20.74,0:01:22.71,SP,NTP,0000,0000,0000,,应该还有其他意义吧?
+Dialogue: 0,0:01:25.38,0:01:26.31,SP,NTP,0000,0000,0000,,咦?
+Dialogue: 0,0:01:26.98,0:01:28.42,SP,NTP,0000,0000,0000,,是不是因为不想调查这些东西
+Dialogue: 0,0:01:28.42,0:01:30.55,SP,NTP,0000,0000,0000,,所以少校才叫我们 少说废话的啊?
+Dialogue: 0,0:01:35.86,0:01:36.92,SP,NTP,0000,0000,0000,,救命啊…

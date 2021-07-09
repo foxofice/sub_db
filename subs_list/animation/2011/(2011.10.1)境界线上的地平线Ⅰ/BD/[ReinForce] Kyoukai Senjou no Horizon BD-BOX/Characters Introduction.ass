@@ -1,0 +1,164 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: [LKSUB][Kyoukai_Senjou_no_Horizon][BDrip][SP1][1920x1080][x264_flac]
+Original Script: 轻国字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,浪漫雅圆,14,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,4,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.78,0:00:17.99,Default,,0,0,0,,{\an5\fad(200,200)\fs40\fn方正粗宋_GBK\shad0\bord0\be2\pos(312,84)}角色介紹
+Dialogue: 0,0:00:12.07,0:00:17.99,Default,,0,0,0,,{\fad(200,200)\fn方正粗宋_GBK\shad0\bord0\be2\c&H000000&}葵·托利  P-01s  本多·正純  圖森特·涅申原
+Dialogue: 0,0:00:19.41,0:00:30.72,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\pos(247,60)\fad(40,0)}武藏Ariadust教導院\N三年梅組 學生\N總長&學生會會長
+Dialogue: 0,0:00:19.83,0:00:22.00,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(221,197)}怎麼回事啊 大夥、
+Dialogue: 0,0:00:19.91,0:00:22.00,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(221,216)} 我、葵·托利就在這裡哦？
+Dialogue: 0,0:00:22.12,0:00:23.87,Default,,0,0,0,,武藏Ariadust教導院總長聯合的總長
+Dialogue: 0,0:00:23.87,0:00:25.58,Default,,0,0,0,,兼學生會會長。無論學習還是運動都很一般、是大眾
+Dialogue: 0,0:00:25.58,0:00:27.25,Default,,0,0,0,,公認的無能的領袖。但是、或許是因為他那不知沮喪失落
+Dialogue: 0,0:00:27.25,0:00:28.92,Default,,0,0,0,,並且非常開朗的性格的關係。不知為何很有人望。
+Dialogue: 0,0:00:28.92,0:00:30.76,Default,,0,0,0,,{\fad(0,20)}經常全裸出場並且大量使用裝傻術式。
+Dialogue: 0,0:00:34.47,0:00:45.77,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\pos(188,53)\fad(40,0)}「青雷亭」店員
+Dialogue: 0,0:00:34.72,0:00:37.05,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(201,195)}那是在平行線的交匯之處、\N是不同觀點相一致的地方。
+Dialogue: 0,0:00:34.97,0:00:37.05,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(201,218)} 那就在——境界線之上。
+Dialogue: 0,0:00:37.18,0:00:38.93,Default,,0,0,0,,在武藏的學生中很有人氣的麵包店兼點心店
+Dialogue: 0,0:00:38.93,0:00:40.64,Default,,0,0,0,,「青雷亭」的店員。1年前突然出現的時候
+Dialogue: 0,0:00:40.64,0:00:42.31,Default,,0,0,0,,被店長收留下來了、但是卻沒有以前的記憶。
+Dialogue: 0,0:00:42.31,0:00:43.98,Default,,0,0,0,,雖然沒有情感和表情
+Dialogue: 0,0:00:43.98,0:00:45.81,Default,,0,0,0,,{\fad(0,20)}但是對於工作十分熱衷、是青雷亭的招牌店員
+Dialogue: 0,0:00:49.44,0:01:00.75,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(249,60)}武藏Ariadust教導院\N三年梅組 學生\N學生會副會長
+Dialogue: 0,0:00:49.69,0:00:52.03,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,199)}沒關係的。 ——因為我、
+Dialogue: 0,0:00:49.94,0:00:52.03,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,217)} 已經下定決心了
+Dialogue: 0,0:00:52.15,0:00:53.90,Default,,0,0,0,,學生會的副會長。立志成為政治家因此擅長辯論
+Dialogue: 0,0:00:53.90,0:00:55.61,Default,,0,0,0,,性格十分認真的少女。過去為了襲名
+Dialogue: 0,0:00:55.61,0:00:57.28,Default,,0,0,0,,而接受了男性化手術、卻因突發情況而中途放棄。
+Dialogue: 0,0:00:57.28,0:00:58.95,Default,,0,0,0,,沒有胸部正是當時留下的印跡、
+Dialogue: 0,0:00:58.95,0:01:00.79,Default,,0,0,0,,{\fad(0,20)}被托利稱為貧乳。
+Dialogue: 0,0:01:04.37,0:01:15.68,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(269,53)}武藏Ariadust教導院\N三年梅組 學生  學生會書記
+Dialogue: 0,0:01:04.50,0:01:15.68,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(259,161)}圖森特·\N涅申原
+Dialogue: 0,0:01:04.62,0:01:06.79,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,199)}我一直以來就是個天才啊。
+Dialogue: 0,0:01:04.87,0:01:06.79,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,217)}——只是因為周圍怪人太多了所以忘了這件事而已。
+Dialogue: 0,0:01:07.08,0:01:08.84,Default,,0,0,0,,學生會書記。
+Dialogue: 0,0:01:08.84,0:01:10.55,Default,,0,0,0,,雖然即使面對著周圍的笨蛋騷動
+Dialogue: 0,0:01:10.55,0:01:12.21,Default,,0,0,0,,也只是貫徹冷漠態度的冷淡性格、
+Dialogue: 0,0:01:12.21,0:01:13.88,Default,,0,0,0,,卻有喜歡歷史 立志成為作家的極具浪漫情懷的一面。
+Dialogue: 0,0:01:13.88,0:01:15.72,Default,,0,0,0,,{\fad(0,20)}當與各國發生交戰的時候、擔任作戰策劃及指揮的角色。
+Dialogue: 0,0:01:32.74,0:01:40.99,Default,,0,0,0,,{\an5\fad(200,200)\fs40\fn方正粗宋_GBK\shad0\bord0\be2\pos(312,84)}角色介紹
+Dialogue: 0,0:01:35.03,0:01:40.99,Default,,0,0,0,,{\fad(200,200)\fn方正粗宋_GBK\shad0\bord0\be2\c&H000000&}四郎次郎·伯托尼  海蒂·奧蓋扎薇樂  點蔵·庫羅斯優奈特  清成·烏爾基亞加
+Dialogue: 0,0:01:42.37,0:01:53.67,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(269,55)}武藏Ariadust教導院\N三年梅組 學生  學生會會計
+Dialogue: 0,0:01:42.50,0:01:53.67,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(260,158)}四郎次郎·\N伯托尼
+Dialogue: 0,0:01:42.87,0:01:44.96,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(155,279)} 稍微來說點、關於錢的話題吧
+Dialogue: 0,0:01:45.08,0:01:46.83,Default,,0,0,0,,學生會會計。
+Dialogue: 0,0:01:46.83,0:01:48.54,Default,,0,0,0,,作為武藏的商工會年輕幹部的商人、
+Dialogue: 0,0:01:48.54,0:01:50.21,Default,,0,0,0,,與商業系的神締結了契約。
+Dialogue: 0,0:01:50.21,0:01:51.88,Default,,0,0,0,,以什麼事能夠賺錢·賺不了錢
+Dialogue: 0,0:01:51.88,0:01:53.72,Default,,0,0,0,,{\fad(0,20)}作為判斷基準、就是所謂的守財奴。
+Dialogue: 0,0:01:57.43,0:02:08.73,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(293,54)}武藏Ariadust教導院\N三年梅組 學生  學生會會計助理
+Dialogue: 0,0:01:57.55,0:02:08.73,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(279,132)}海蒂·\N奧蓋扎薇樂
+Dialogue: 0,0:01:57.68,0:02:00.01,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(201,195)}但是呢、
+Dialogue: 0,0:01:57.93,0:02:00.01,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(201,218)} 我覺得這一定是大商機哦
+Dialogue: 0,0:02:00.14,0:02:03.14,Default,,0,0,0,,學生會會計助理。
+Dialogue: 0,0:02:03.14,0:02:04.85,Default,,0,0,0,,於公於私都是四郎次郎的搭檔。
+Dialogue: 0,0:02:04.85,0:02:06.94,Default,,0,0,0,,總是一臉笑嘻嘻的、
+Dialogue: 0,0:02:06.94,0:02:08.77,Default,,0,0,0,,{\fad(0,20)}其實和四郎次郎一樣是個守財奴。
+Dialogue: 0,0:02:12.40,0:02:23.70,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(164,90)}武藏Ariadust教導院\N三年梅組 學生  總長聯合 第一特務
+Dialogue: 0,0:02:12.53,0:02:23.70,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(236,132)}點蔵·\N庫羅斯優奈特
+Dialogue: 0,0:02:12.65,0:02:14.99,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,199)}「忍」字之中、無論何時
+Dialogue: 0,0:02:12.90,0:02:14.99,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,217)} 都包含著心是也
+Dialogue: 0,0:02:15.11,0:02:16.86,Default,,0,0,0,,總長聯合第一特務。擅長運用忍術進行近身攻擊
+Dialogue: 0,0:02:16.86,0:02:18.57,Default,,0,0,0,,以及諜報工作、是一位實力高超的忍者。
+Dialogue: 0,0:02:18.57,0:02:20.24,Default,,0,0,0,,雖然性格十分體貼 善解人意、
+Dialogue: 0,0:02:20.24,0:02:21.91,Default,,0,0,0,,卻是個公然宣稱喜歡「金髮巨乳」的
+Dialogue: 0,0:02:21.91,0:02:23.75,Default,,0,0,0,,{\fad(0,20)}令人感到遺憾的男性。
+Dialogue: 0,0:02:27.33,0:02:38.63,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(250,91)}武藏Ariadust教導院\N三年梅組 學生  總長聯合 第二特務
+Dialogue: 0,0:02:27.46,0:02:38.63,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(259,161)}清成·\N烏爾基亞加
+Dialogue: 0,0:02:27.58,0:02:29.75,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,199)}拙·僧·發·進……！
+Dialogue: 0,0:02:27.83,0:02:29.75,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,217)}你這該死的異端！！
+Dialogue: 0,0:02:29.96,0:02:33.21,Default,,0,0,0,,總長聯合第二特務。
+Dialogue: 0,0:02:33.21,0:02:35.09,Default,,0,0,0,,航空系半龍且志願成為異端審問官。
+Dialogue: 0,0:02:35.09,0:02:36.76,Default,,0,0,0,,與龐大強健的體型不相符的十分精通Galgame、
+Dialogue: 0,0:02:36.76,0:02:38.68,Default,,0,0,0,,{\fad(0,25)}自稱擔任姐系角色的攻略。
+Dialogue: 0,0:02:55.20,0:03:03.46,Default,,0,0,0,,{\an5\fad(200,200)\fs40\fn方正粗宋_GBK\shad0\bord0\be2\pos(312,84)}角色介紹
+Dialogue: 0,0:02:57.49,0:03:03.46,Default,,0,0,0,,{\fad(200,400)\fn方正粗宋_GBK\shad0\bord0\be2\c&H000000&}瑪戈特·奈特  瑪伽·成瀨  納特·彌托黛拉  直政
+Dialogue: 0,0:03:04.83,0:03:16.14,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(316,55)}武藏Ariadust教導院\N三年梅組 學生  總長聯合 第三特務
+Dialogue: 0,0:03:04.96,0:03:16.14,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(201,163)}瑪戈特·\N奈特
+Dialogue: 0,0:03:05.33,0:03:07.42,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(155,279)} 上吧 平均日收入——！
+Dialogue: 0,0:03:07.54,0:03:09.71,Default,,0,0,0,,總長聯合第三特務。
+Dialogue: 0,0:03:09.71,0:03:12.26,Default,,0,0,0,,金髮六翼的黑魔術師 與瑪魯珈是戀人關係。
+Dialogue: 0,0:03:12.26,0:03:13.92,Default,,0,0,0,,總是面帶笑容。使用只有魔女才有的飛行能力
+Dialogue: 0,0:03:13.92,0:03:16.18,Default,,0,0,0,,{\fad(0,20)}從事著運輸業。
+Dialogue: 0,0:03:19.89,0:03:31.19,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(322,54)}武藏Ariadust教導院\N三年梅組 學生  總長聯合 第四特務
+Dialogue: 0,0:03:20.01,0:03:31.19,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(191,160)}瑪伽·\N成瀨
+Dialogue: 0,0:03:20.39,0:03:22.47,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(146,283)}交——稿——！！
+Dialogue: 0,0:03:22.60,0:03:25.60,Default,,0,0,0,,總長聯合第四特務。
+Dialogue: 0,0:03:25.60,0:03:27.31,Default,,0,0,0,,黑髮六翼的白魔術師。漫研的部員。
+Dialogue: 0,0:03:27.31,0:03:29.40,Default,,0,0,0,,性格雖然有些乖僻、
+Dialogue: 0,0:03:29.40,0:03:31.23,Default,,0,0,0,,{\fad(0,20)}但會優先把奈特的事情放在第一位。
+Dialogue: 0,0:03:34.86,0:03:46.17,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(320,53)}武藏Ariadust教導院\N三年梅組 學生  總長聯合 第五特務
+Dialogue: 0,0:03:34.99,0:03:46.17,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(280,158)}納特·\N彌托黛拉
+Dialogue: 0,0:03:35.36,0:03:37.45,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(191,283)}讓我來為您開路吧、吾王
+Dialogue: 0,0:03:37.57,0:03:39.32,Default,,0,0,0,,總長聯合第五特務。六護式法蘭西出身的騎士、
+Dialogue: 0,0:03:39.32,0:03:41.03,Default,,0,0,0,,水戶松平的襲名者。人狼與人​​類的混血兒。
+Dialogue: 0,0:03:41.03,0:03:42.70,Default,,0,0,0,,雖然不能變身成為野獸、
+Dialogue: 0,0:03:42.70,0:03:44.37,Default,,0,0,0,,卻能發揮出強大威力的怪力。
+Dialogue: 0,0:03:44.37,0:03:46.21,Default,,0,0,0,,{\fad(0,20)}並且十分擅長使用特殊武器「銀鎖」。
+Dialogue: 0,0:03:49.79,0:04:01.10,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(253,63)}武藏Ariadust教導院\N三年梅組 學生\N總長聯合 第六特務
+Dialogue: 0,0:03:49.92,0:04:01.10,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(203,155)}直政
+Dialogue: 0,0:03:50.04,0:03:52.21,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,199)}真是的、
+Dialogue: 0,0:03:50.29,0:03:52.21,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,217)}我身邊的人沒有一個是平庸之輩呢
+Dialogue: 0,0:03:52.42,0:03:55.26,Default,,0,0,0,,清武田出身的總長聯合第六特務。
+Dialogue: 0,0:03:55.26,0:03:57.05,Default,,0,0,0,,一邊在武藏機關部工作、
+Dialogue: 0,0:03:57.05,0:03:58.76,Default,,0,0,0,,一邊在宿舍獨自生活。右手是義肢。
+Dialogue: 0,0:03:58.76,0:03:59.60,Default,,0,0,0,,戰鬥時使用重武神"地摺朱雀"作戰。
+Dialogue: 0,0:03:59.60,0:04:01.14,Default,,0,0,0,,{\fad(0,25)}大姐頭般的性格。
+Dialogue: 0,0:04:17.86,0:04:26.12,Default,,0,0,0,,{\an5\fad(200,200)\fs40\fn方正粗宋_GBK\shad0\bord0\be2\pos(312,84)}角色介紹
+Dialogue: 0,0:04:20.11,0:04:26.12,Default,,0,0,0,,{\fad(200,400)\fn方正粗宋_GBK\shad0\bord0\be2\c&H000000&}葵·喜美  淺間·智  向井·鈴  阿黛爾·巴爾烏弗特
+Dialogue: 0,0:04:27.45,0:04:38.76,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(251,53)}武藏Ariadust教導院\N三年梅組 學生
+Dialogue: 0,0:04:27.58,0:04:38.76,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(269,163)}葵·\N喜美
+Dialogue: 0,0:04:27.75,0:04:30.04,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,202)}好的 結束了 已經不能回答了
+Dialogue: 0,0:04:27.95,0:04:30.04,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(220,222)} 呼呼呼 來 請提問吧！
+Dialogue: 0,0:04:30.16,0:04:32.13,Default,,0,0,0,,托利的姐姐。
+Dialogue: 0,0:04:32.13,0:04:34.59,Default,,0,0,0,,因為和托利是同一年出生的因此年級相同。
+Dialogue: 0,0:04:34.59,0:04:35.63,Default,,0,0,0,,信奉情色與舞蹈之神。
+Dialogue: 0,0:04:35.63,0:04:37.55,Default,,0,0,0,,雖然用「愚弟」來稱呼托利、
+Dialogue: 0,0:04:37.55,0:04:38.80,Default,,0,0,0,,{\fad(0,20)}其實很為弟弟著想。
+Dialogue: 0,0:04:42.51,0:04:53.81,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(252,60)}武藏Ariadust教導院\N三年梅組 學生\N淺間神社 巫女
+Dialogue: 0,0:04:42.76,0:04:45.10,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(232,201)}淺間神社、將為了守護武藏、
+Dialogue: 0,0:04:43.01,0:04:45.10,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(232,222)}使用這力量
+Dialogue: 0,0:04:45.22,0:04:48.22,Default,,0,0,0,,淺間神社的獨生女、與托利、喜美是青梅竹馬。
+Dialogue: 0,0:04:48.22,0:04:49.93,Default,,0,0,0,,利用左眼的義眼進行射擊的神射手。
+Dialogue: 0,0:04:49.93,0:04:52.02,Default,,0,0,0,,由於雖然身為巫女卻瞄准人射箭
+Dialogue: 0,0:04:52.02,0:04:53.86,Default,,0,0,0,,{\fad(0,20)}因此擁有「狙擊巫女」之類的稱呼。
+Dialogue: 0,0:04:57.48,0:05:08.79,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(259,53)}武藏Ariadust教導院\N三年梅組 學生
+Dialogue: 0,0:04:57.98,0:05:00.07,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(191,283)}那個、我、沒關係的、所以
+Dialogue: 0,0:05:00.19,0:05:00.61,Default,,0,0,0,,失明的少女、
+Dialogue: 0,0:05:00.61,0:05:03.61,Default,,0,0,0,,對容易暴走的梅組來說是剎車一樣的存在。
+Dialogue: 0,0:05:03.61,0:05:05.32,Default,,0,0,0,,因為感知力很強、
+Dialogue: 0,0:05:05.32,0:05:08.83,Default,,0,0,0,,{\fad(0,20)}能夠感知周圍難以察覺的異變。
+Dialogue: 0,0:05:12.42,0:05:23.72,Default,,0,0,0,,{\an4\fnsimsong\b1\bord1\be3\shad0\fs16\fad(40,0)\pos(252,53)}武藏Ariadust教導院\N三年梅組 學生
+Dialogue: 0,0:05:12.54,0:05:23.72,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(288,160)}阿黛爾·\N巴爾烏弗特
+Dialogue: 0,0:05:12.92,0:05:14.83,Default,,0,0,0,,{\an4\fn方正粗宋_GBK\bord0\shad0\fad(200,40)\pos(139,272)}啊 好疼——！！
+Dialogue: 0,0:05:15.04,0:05:17.88,Default,,0,0,0,,出身於六護式法蘭西、
+Dialogue: 0,0:05:17.88,0:05:19.80,Default,,0,0,0,,作為騎士輔佐的從士階級的少女。
+Dialogue: 0,0:05:19.80,0:05:21.97,Default,,0,0,0,,雖然身形嬌小、戰鬥時裝備
+Dialogue: 0,0:05:21.97,0:05:23.76,Default,,0,0,0,,{\fad(0,25)}從父親那繼承的機動甲「奔獸」行動。
+Dialogue: 0,0:05:23.76,0:05:25.76,Default,,0,0,0,,
+
+
+

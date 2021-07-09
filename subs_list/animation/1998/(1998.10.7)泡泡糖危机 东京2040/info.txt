@@ -1,0 +1,5 @@
+﻿chs: 泡泡糖危机 东京2040
+cht: 泡泡糖危機2040
+jp: バブルガムクライシス TOKYO2040
+en: Bubblegum Crisis: Tokyo 2040
+rome: Bubblegum Crisis Tokyo 2040

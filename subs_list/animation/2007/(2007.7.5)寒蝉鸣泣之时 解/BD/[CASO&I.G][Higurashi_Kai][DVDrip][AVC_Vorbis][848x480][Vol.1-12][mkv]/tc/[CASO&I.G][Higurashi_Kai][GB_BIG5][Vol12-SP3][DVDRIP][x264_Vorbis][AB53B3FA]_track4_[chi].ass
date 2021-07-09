@@ -1,0 +1,39 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-08-25 21:33:37
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Higurashi_Kai
+Original Script:CASO&I.G
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,26,&H00FFFFFF,&HF0000000,&H001F0A79,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00150861,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+
+
+Dialogue: 0,0:00:00.50,0:00:05.46,*Default,NTP,0000,0000,0000,,{\fad(500,500)}裡蟬鳴的完結
+Dialogue: 0,0:00:05.89,0:00:07.99,*Default,NTP,0000,0000,0000,,這阿姨是誰啊？
+Dialogue: 0,0:00:08.32,0:00:11.00,*Default,NTP,0000,0000,0000,,啊…蕾娜也是頭一次見到哎
+Dialogue: 0,0:00:11.20,0:00:12.88,*Default,NTP,0000,0000,0000,,啊  旅行到這裡的嗎？
+Dialogue: 0,0:00:13.38,0:00:15.74,*Default,NTP,0000,0000,0000,,請問你是迷路了嗎？阿姨？
+Dialogue: 0,0:00:16.03,0:00:20.36,*Default,NTP,0000,0000,0000,,啊  難道說因為年紀大了所以在人生的道路上迷路了？
+Dialogue: 0,0:00:20.68,0:00:22.00,*Default,NTP,0000,0000,0000,,對不對？阿姨
+Dialogue: 0,0:00:22.86,0:00:28.40,*Default,NTP,0000,0000,0000,,沒有人生和道路可以迷  我也不是阿姨…
+Dialogue: 0,0:00:28.66,0:00:31.89,*Default,NTP,0000,0000,0000,,誒～不過已經過20了吧？
+Dialogue: 0,0:00:28.66,0:00:31.89,zhushi,NTP,0000,0000,0000,,（Rcat：混賬魅音！女性30以下都要叫姐姐！）
+Dialogue: 0,0:00:32.26,0:00:34.59,*Default,NTP,0000,0000,0000,,還是應該算阿姨啦
+Dialogue: 0,0:00:34.83,0:00:37.94,*Default,NTP,0000,0000,0000,,哈哈哈哈——
+Dialogue: 0,0:00:38.24,0:00:39.47,*Default,NTP,0000,0000,0000,,時間不等人…

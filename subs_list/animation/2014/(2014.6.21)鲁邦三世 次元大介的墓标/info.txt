@@ -1,0 +1,5 @@
+﻿chs: 鲁邦三世 次元大介的墓标
+cht: 魯邦三世 次元大介的墓標
+jp: LUPIN THE IIIRD 次元大介の墓標
+en: Lupin the Third: Jigen`s Gravestone
+rome: Lupin the IIIrd: Jigen Daisuke no Bohyou

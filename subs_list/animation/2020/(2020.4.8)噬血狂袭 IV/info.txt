@@ -1,0 +1,5 @@
+﻿chs: 噬血狂袭 IV 
+cht: 噬血狂襲 IV
+jp: ストライク・ザ・ブラッド IV
+en: Strike the Blood IV
+rome: Strike the Blood IV

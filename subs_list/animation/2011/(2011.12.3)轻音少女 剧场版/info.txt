@@ -1,0 +1,5 @@
+﻿chs: 轻音少女 剧场版
+cht: 輕音少女 劇場版
+jp: 映画 けいおん!
+en: K-On! The Movie
+rome: Eiga K-On! 

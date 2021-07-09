@@ -1,0 +1,5 @@
+﻿chs: 银魂.
+cht: 銀魂.
+jp: 銀魂.
+en: Gintama (2017)
+rome: Gintama (2017)

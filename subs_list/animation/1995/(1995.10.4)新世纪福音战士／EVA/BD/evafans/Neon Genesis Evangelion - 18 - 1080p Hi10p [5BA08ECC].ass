@@ -1,0 +1,543 @@
+﻿[script Info]
+; // 策　　划：squall617
+; // 片源提供：FalconlA
+; // 翻　　译：希洛，Geister
+; // 校　　对：Geister，希洛，uncountable
+; // 中文校对：叶冰痕，uncountable
+; // 时 间 轴：squall617，MeteorRain
+; // 字幕处理：squall617
+; // 繁体字幕：josesun，FalconlA
+; // 压　　制：FalconlA
+; // 压制支持：面影の人，dizyh
+; // 空间提供：yg37，fkxg、FalconlA
+; // 宣传制图：dizyh
+; //
+; // 另外感谢shitmanhe、airclever……等等热忱的网友的参与。
+; //
+Title: 新世紀エヴァンゲリオン EP18 命の選択を
+Original Script: EVA-FANS
+Original Translation: 希洛
+Original Editing: FalconIA
+Original Timing: squall617
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗宋_GBK,30,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,32,1
+Style: Default2,方正准圆_GBK,24,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,20,20,15,1
+Style: BGS,方正综艺_GBK,22,&H00000000,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,0,2,20,20,5,1
+Style: BGS_en,方正综艺_GBK,18,&H00000000,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,0,2,20,20,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:32.03,0:01:34.69,Default2,NTP,0,0,0,,Ekta64 呼叫 Neopan
+Dialogue: 0,0:00:00.00,0:00:00.00,BGS,NTP,0,0,0,,＊Ekta64是Kodak的专业反转片（简写：E-64），Neopan400是Fujifilm的专业黑白胶卷
+Dialogue: 0,0:01:34.86,0:01:37.57,Default2,NTP,0,0,0,,确认前方航线上有积雨云
+Dialogue: 0,0:01:37.91,0:01:40.91,Default2,NTP,0,0,0,,Neopan400 确认
+Dialogue: 0,0:01:41.03,0:01:42.54,Default2,NTP,0,0,0,,积雨云的气压状况没有危险
+Dialogue: 0,0:01:42.74,0:01:45.16,Default2,NTP,0,0,0,,保持航线，按预定时间到达
+Dialogue: 0,0:01:45.54,0:01:47.25,Default2,NTP,0,0,0,,Ekta64 明白
+Dialogue: 0,0:01:55.32,0:01:57.04,Default,NTP,0,0,0,,{\fad(50,50)}那个…明日香呢
+Dialogue: 0,0:01:57.73,0:01:59.07,Default,NTP,0,0,0,,{\fad(50,50)}已经先出门了
+Dialogue: 0,0:01:59.50,0:02:01.93,Default,NTP,0,0,0,,{\fad(50,50)}看来她彻底不想看到我的脸呢
+Dialogue: 0,0:02:02.59,0:02:03.38,Default,NTP,0,0,0,,{\fad(50,50)}为什么
+Dialogue: 0,0:02:04.11,0:02:06.81,Default,NTP,0,0,0,,{\fad(50,50)}真嗣你还不了解女人心啊
+Dialogue: 0,0:02:10.41,0:02:11.20,Default,NTP,0,0,0,,{\fad(50,50)}那个…     对了…
+Dialogue: 0,0:02:12.36,0:02:12.96,Default,NTP,0,0,0,,{\fad(50,50)}请说
+Dialogue: 0,0:02:13.54,0:02:16.49,Default,NTP,0,0,0,,{\fad(50,50)}四号机空号的传闻是真的吗
+Dialogue: 0,0:02:17.09,0:02:18.95,Default,NTP,0,0,0,,{\fad(50,50)}听说发生某种事故爆炸了
+Dialogue: 0,0:02:19.98,0:02:21.53,Default,NTP,0,0,0,,{\fad(50,50)}嗯，是真的
+Dialogue: 0,0:02:22.23,0:02:25.30,Default,NTP,0,0,0,,{\fad(50,50)}四号机跟 NERV 第 2 支部一起消失了
+Dialogue: 0,0:02:25.95,0:02:27.72,Default,NTP,0,0,0,,{\fad(50,50)}在 S  引擎的试验过程中
+Dialogue: 0,0:02:25.95,0:02:27.72,Default,NTP,0,0,0,,{\fad(50,50)}{\pos(241,435)\fs18}2
+Dialogue: 0,0:02:28.89,0:02:32.09,Default,NTP,0,0,0,,{\fad(50,50)}这里没问题的，3 台不都运行得很好嘛
+Dialogue: 0,0:02:32.47,0:02:34.50,Default,NTP,0,0,0,,{\fad(50,50)}而且驾驶员和工作人员都很优秀
+Dialogue: 0,0:02:34.81,0:02:37.22,Default,NTP,0,0,0,,{\fad(50,50)}但听说从美国运来的三号机
+Dialogue: 0,0:02:37.81,0:02:39.64,Default,NTP,0,0,0,,{\fad(50,50)}要在松代做启动试验，对不对
+Dialogue: 0,0:02:40.05,0:02:42.17,Default,NTP,0,0,0,,{\fad(50,50)}嗯…虽然我得在外地待上四天左右
+Dialogue: 0,0:02:42.21,0:02:45.17,Default,NTP,0,0,0,,{\fad(50,50)}不过加持会来照料的，放心吧
+Dialogue: 0,0:02:45.86,0:02:46.75,Default,NTP,0,0,0,,{\fad(50,50)}可是试验…
+Dialogue: 0,0:02:47.15,0:02:49.56,Default,NTP,0,0,0,,{\fad(50,50)}律子也会一起参加，不会有问题的啦
+Dialogue: 0,0:02:50.23,0:02:51.26,Default,NTP,0,0,0,,{\fad(50,50)}可是驾驶员…
+Dialogue: 0,0:02:52.90,0:02:55.03,Default,NTP,0,0,0,,{\fad(50,50)}关于…那个驾驶员…
+Dialogue: 0,0:03:02.40,0:03:02.91,Default,NTP,0,0,0,,{\fad(50,50)}来了
+Dialogue: 0,0:03:03.96,0:03:04.89,Default,NTP,0,0,0,,{\fad(50,50)}早安
+Dialogue: 0,0:03:06.03,0:03:08.77,Default,NTP,0,0,0,,{\fad(50,50)}在下，今天有事来拜托葛城少校
+Dialogue: 0,0:03:09.73,0:03:10.20,Default,NTP,0,0,0,,{\fad(50,50)}请让我
+Dialogue: 0,0:03:10.83,0:03:13.68,Default,NTP,0,0,0,,{\fad(50,50)}让我当 EVANGELION 三号机的驾驶员
+Dialogue: 0,0:03:22.17,0:03:23.92,Default,NTP,0,0,0,,{\fad(50,50)}这么说真嗣还不知道
+Dialogue: 0,0:03:24.55,0:03:26.81,Default,NTP,0,0,0,,{\fad(50,50)}一直没有机会说啊
+Dialogue: 0,0:03:27.47,0:03:28.35,Default,NTP,0,0,0,,{\fad(50,50)}我很害怕
+Dialogue: 0,0:03:28.80,0:03:31.36,Default,NTP,0,0,0,,{\fad(50,50)}有时候实在不知道他在想些什么
+Dialogue: 0,0:03:32.01,0:03:33.09,Default,NTP,0,0,0,,{\fad(50,50)}振作一点
+Dialogue: 0,0:03:33.59,0:03:35.53,Default,NTP,0,0,0,,{\fad(50,50)}不是你自己主动要当监护人的吗
+Dialogue: 0,0:03:36.05,0:03:37.90,Default,NTP,0,0,0,,{\fad(50,50)}话是没错啦
+Dialogue: 0,0:03:38.66,0:03:40.35,Default,NTP,0,0,0,,{\fad(50,50)}那，什么时候叫驾驶员过来
+Dialogue: 0,0:03:41.00,0:03:41.51,Default,NTP,0,0,0,,{\fad(50,50)}这个嘛
+Dialogue: 0,0:03:42.05,0:03:42.92,Default,NTP,0,0,0,,{\fad(50,50)}明天好了
+Dialogue: 0,0:03:43.33,0:03:44.38,Default,NTP,0,0,0,,{\fad(50,50)}还有很多东西要准备
+Dialogue: 0,0:03:45.91,0:03:48.00,Default,NTP,0,0,0,,{\fad(50,50)}他说不定会自己说出来
+Dialogue: 0,0:03:48.52,0:03:49.47,Default,NTP,0,0,0,,{\fad(50,50)}我想不会
+Dialogue: 0,0:03:50.09,0:03:52.35,Default,NTP,0,0,0,,{\fad(50,50)}他并没有高兴到会去跟别人炫耀
+Dialogue: 0,0:03:53.16,0:03:56.66,Default,NTP,0,0,0,,{\fad(50,50)}将住院中的妹妹转院到总部的医学部
+Dialogue: 0,0:03:57.03,0:03:58.77,Default,NTP,0,0,0,,{\fad(50,50)}这是他提出的条件
+Dialogue: 0,0:04:00.33,0:04:02.73,Default,NTP,0,0,0,,{\fad(50,50)}美里小姐好冷淡啊，真是的
+Dialogue: 0,0:04:03.00,0:04:04.80,Default,NTP,0,0,0,,{\fad(50,50)}要说干劲的话我绝对排第一
+Dialogue: 0,0:04:05.18,0:04:07.60,Default,NTP,0,0,0,,{\fad(50,50)}就算是候补也好啊，只要肯用我就行
+Dialogue: 0,0:04:07.78,0:04:08.82,Default,NTP,0,0,0,,{\fad(50,50)}是吧？冬二
+Dialogue: 0,0:04:15.20,0:04:15.96,Default,NTP,0,0,0,,{\fad(50,50)}怎么回事
+Dialogue: 0,0:04:16.54,0:04:18.61,Default,NTP,0,0,0,,{\fad(50,50)}明明先出门却这么晚才到
+Dialogue: 0,0:04:19.21,0:04:20.11,Default,NTP,0,0,0,,{\fad(50,50)}什么嘛
+Dialogue: 0,0:04:20.20,0:04:22.08,Default,NTP,0,0,0,,{\fad(50,50)}今天你们夫妻不吵架了啊
+Dialogue: 0,0:04:24.22,0:04:26.46,Default,NTP,0,0,0,,{\fad(50,50)}我只是不想看到你们的脸而已
+Dialogue: 0,0:04:26.86,0:04:28.50,Default,NTP,0,0,0,,{\fad(50,50)}你们这个笨蛋三人组
+Dialogue: 0,0:04:35.03,0:04:36.83,Default,NTP,0,0,0,,{\fad(50,50)}那就…吃饭喽、吃饭喽
+Dialogue: 0,0:04:37.30,0:04:38.66,Default,NTP,0,0,0,,{\fad(50,50)}奇怪？冬二人呢
+Dialogue: 0,0:04:39.35,0:04:40.14,Default,NTP,0,0,0,,{\fad(50,50)}不在啊
+Dialogue: 0,0:04:40.86,0:04:43.06,Default,NTP,0,0,0,,{\fad(50,50)}那家伙会连饭都不吃吗
+Dialogue: 0,0:04:43.78,0:04:45.00,Default,NTP,0,0,0,,{\fad(50,50)}这是不可能的
+Dialogue: 0,0:04:46.55,0:04:48.27,Default,NTP,0,0,0,,{\fad(50,50)}他这阵子怪怪的呢
+Dialogue: 0,0:04:53.76,0:04:54.46,Default,NTP,0,0,0,,{\fad(50,50)}铃原同学
+Dialogue: 0,0:04:56.18,0:04:57.38,Default,NTP,0,0,0,,{\fad(50,50)}原来是绫波啊
+Dialogue: 0,0:04:57.77,0:04:59.71,Default,NTP,0,0,0,,{\fad(50,50)}要找真嗣的话，他不在这里哦
+Dialogue: 0,0:05:02.20,0:05:03.97,Default,NTP,0,0,0,,{\fad(50,50)}你知道我的事情了吧
+Dialogue: 0,0:05:04.65,0:05:06.03,Default,NTP,0,0,0,,{\fad(50,50)}{\fs30\fnEVA-FANS方正粗宋v3}惣{\r}流好像也知道了
+Dialogue: 0,0:05:06.94,0:05:07.23,Default,NTP,0,0,0,,{\fad(50,50)}…嗯
+Dialogue: 0,0:05:08.81,0:05:10.77,Default,NTP,0,0,0,,{\fad(50,50)}不知道的只有真嗣啊
+Dialogue: 0,0:05:12.05,0:05:13.89,Default,NTP,0,0,0,,{\fad(50,50)}难得你会担心别人呢
+Dialogue: 0,0:05:14.80,0:05:15.12,Default,NTP,0,0,0,,{\fad(50,50)}是吗
+Dialogue: 0,0:05:16.29,0:05:17.08,Default,NTP,0,0,0,,{\fad(50,50)}我也不太清楚
+Dialogue: 0,0:05:17.84,0:05:19.76,Default,NTP,0,0,0,,{\fad(50,50)}你担心的人是真嗣呀
+Dialogue: 0,0:05:20.00,0:05:20.40,Default,NTP,0,0,0,,{\fad(50,50)}是吗
+Dialogue: 0,0:05:22.12,0:05:23.09,Default,NTP,0,0,0,,{\fad(50,50)}或许是吧
+Dialogue: 0,0:05:23.96,0:05:24.55,Default,NTP,0,0,0,,{\fad(50,50)}不会错
+Dialogue: 0,0:05:28.67,0:05:29.49,Default,NTP,0,0,0,,{\fad(50,50)}小光～～
+Dialogue: 0,0:05:28.67,0:05:29.49,Default,NTP,0,0,0,,{\fad(50,50)}{\pos(385,448)\c&Hff00ff&}{\fs30\fnMS Mincho}♡
+Dialogue: 0,0:05:30.39,0:05:31.26,Default,NTP,0,0,0,,{\fad(50,50)}一起吃便当吧
+Dialogue: 0,0:05:32.97,0:05:34.46,Default,NTP,0,0,0,,{\fad(50,50)}迟到 2 个小时
+Dialogue: 0,0:05:34.78,0:05:36.37,Default,NTP,0,0,0,,{\fad(50,50)}现在终于给我出现了
+Dialogue: 0,0:05:36.67,0:05:39.49,Default,NTP,0,0,0,,{\fad(50,50)}第一次有男人让我等这么久
+Dialogue: 0,0:05:40.07,0:05:42.55,Default,NTP,0,0,0,,{\fad(50,50)}要是约会你根本不等就马上回家了吧
+Dialogue: 0,0:05:44.13,0:05:45.29,Default,NTP,0,0,0,,{\fad(50,50)}…以上所述
+Dialogue: 0,0:05:45.56,0:05:48.53,Default,NTP,0,0,0,,{\fad(50,50)}就是这世上所说的第二次冲击
+Dialogue: 0,0:05:49.02,0:05:51.83,Default,NTP,0,0,0,,{\fad(50,50)}我当时住在根府川
+Dialogue: 0,0:05:52.20,0:05:55.74,Default,NTP,0,0,0,,{\fad(50,50)}不过，南极大陆融化导致水位上升
+Dialogue: 0,0:05:56.21,0:05:58.78,Default,NTP,0,0,0,,{\fad(50,50)}使得那边现在变成海底了
+Dialogue: 0,0:06:00.34,0:06:01.96,Default,NTP,0,0,0,,{\fad(50,50)}抱歉了，转学生
+Dialogue: 0,0:06:02.44,0:06:04.11,Default,NTP,0,0,0,,{\fad(50,50)}老子非揍你一拳不可
+Dialogue: 0,0:06:04.86,0:06:07.01,Default,NTP,0,0,0,,{\fad(50,50)}不揍你我没办法消气
+Dialogue: 0,0:06:16.87,0:06:17.89,Default,NTP,0,0,0,,{\fad(50,50)}对不起，明日香
+Dialogue: 0,0:06:18.30,0:06:20.66,Default,NTP,0,0,0,,{\fad(50,50)}平时你都是跟碇君一起回去的
+Dialogue: 0,0:06:20.81,0:06:23.49,Default,NTP,0,0,0,,{\fad(50,50)}没关系啦，跟真嗣在一起只是义务
+Dialogue: 0,0:06:23.98,0:06:26.21,Default,NTP,0,0,0,,{\fad(50,50)}而且今天我不想看到他
+Dialogue: 0,0:06:30.26,0:06:31.41,Default,NTP,0,0,0,,{\fad(50,50)}是关于铃原的事吧
+Dialogue: 0,0:06:32.79,0:06:33.55,Default,NTP,0,0,0,,{\fad(50,50)}嗯…你知道啊
+Dialogue: 0,0:06:33.85,0:06:37.61,Default,NTP,0,0,0,,{\fad(50,50)}再明显不过了，大概只有那笨蛋三人组还不解风情吧
+Dialogue: 0,0:06:38.28,0:06:40.42,Default,NTP,0,0,0,,{\fad(50,50)}可是碇同学虽然比较单纯…
+Dialogue: 0,0:06:40.68,0:06:42.25,Default,NTP,0,0,0,,{\fad(50,50)}那家伙最迟钝了
+Dialogue: 0,0:06:42.68,0:06:43.70,Default,NTP,0,0,0,,{\fad(50,50)}而且又笨
+Dialogue: 0,0:06:44.12,0:06:45.97,Default,NTP,0,0,0,,{\fad(50,50)}根本不知道怎么跟别人交往
+Dialogue: 0,0:06:46.81,0:06:47.33,Default,NTP,0,0,0,,{\fad(50,50)}是吗
+Dialogue: 0,0:06:52.79,0:06:56.33,Default,NTP,0,0,0,,{\fad(50,50)}铃原喜欢的女孩…说不定是绫波
+Dialogue: 0,0:06:56.56,0:06:59.64,Default,NTP,0,0,0,,{\fad(50,50)}铃原?! 喜欢那个优等生
+Dialogue: 0,0:07:00.09,0:07:00.74,Default,NTP,0,0,0,,{\fad(50,50)}中午…
+Dialogue: 0,0:07:01.11,0:07:02.39,Default,NTP,0,0,0,,{\fad(50,50)}看起来感情很好
+Dialogue: 0,0:07:02.72,0:07:04.93,Default,NTP,0,0,0,,{\fad(50,50)}放心啦小光，那是不可能的
+Dialogue: 0,0:07:05.58,0:07:09.29,Default,NTP,0,0,0,,{\fad(50,50)}说到人际交往，那个女的比真嗣还差一万倍
+Dialogue: 0,0:07:09.40,0:07:10.03,Default,NTP,0,0,0,,{\fad(50,50)}是吗
+Dialogue: 0,0:07:10.58,0:07:10.94,Default,NTP,0,0,0,,{\fad(50,50)}没错
+Dialogue: 0,0:07:14.56,0:07:15.97,Default,NTP,0,0,0,,{\fad(50,50)}可以问你一件事吗
+Dialogue: 0,0:07:16.25,0:07:16.80,Default,NTP,0,0,0,,{\fad(50,50)}什么
+Dialogue: 0,0:07:17.38,0:07:19.51,Default,NTP,0,0,0,,{\fad(50,50)}那个热血笨蛋好在哪里啊
+Dialogue: 0,0:07:23.16,0:07:24.39,Default,NTP,0,0,0,,{\fad(50,50)}他的温柔
+Dialogue: 0,0:07:31.77,0:07:35.61,BGS,NTP,0,0,0,,{\a1}[TV] 女：啊～当初跟你和好果然是个天大的错误
+Dialogue: 0,0:07:35.61,0:07:36.75,BGS,NTP,0,0,0,,{\a1}[TV] 男：到现在了才这样说
+Dialogue: 0,0:07:36.78,0:07:37.66,BGS,NTP,0,0,0,,{\a1}[TV] 女：不，现在还不迟
+Dialogue: 0,0:07:37.67,0:07:41.04,BGS,NTP,0,0,0,,{\a1}[TV] 女：确实，人生布满了陷阱。
+Dialogue: 0,0:07:41.28,0:07:43.86,BGS,NTP,0,0,0,,{\a1}[TV] 女：但是就算掉进去了，只要再爬出来就行了
+Dialogue: 0,0:07:43.87,0:07:44.81,BGS,NTP,0,0,0,,{\a1}[TV] 男：我就是所谓的陷阱？
+Dialogue: 0,0:07:45.76,0:07:47.53,BGS,NTP,0,0,0,,{\a1}[TV] 女：啊～也没有那么悲观啦
+Dialogue: 0,0:07:47.56,0:07:50.52,BGS,NTP,0,0,0,,{\a1}[TV] 女：绝望的尽头必然会有希望的存在
+Dialogue: 0,0:07:51.51,0:07:52.90,BGS,NTP,0,0,0,,{\a1}[TV] 男：那我是绝望的代名词？
+Dialogue: 0,0:07:52.99,0:07:55.60,BGS,NTP,0,0,0,,{\a1}[TV] 女：没错，你一定是为了跟我分手才接近我的
+Dialogue: 0,0:07:55.71,0:07:56.32,BGS,NTP,0,0,0,,{\a1}[TV] 男：我哪有这样
+Dialogue: 0,0:07:56.82,0:07:59.43,BGS,NTP,0,0,0,,{\a1}[TV] 女：大概也没有什么女人会在接不好吻的男人身上浪费时间吧
+Dialogue: 0,0:07:59.42,0:08:00.73,BGS,NTP,0,0,0,,{\a3}[TV] 男：接不好吻……
+Dialogue: 0,0:08:00.10,0:08:02.26,BGS,NTP,0,0,0,,{\a1}[TV] 女：没错，而且不止是不会接吻
+Dialogue: 0,0:08:02.27,0:08:02.98,BGS,NTP,0,0,0,,{\a1}[TV] 男：不止不会接吻……
+Dialogue: 0,0:08:03.27,0:08:06.00,BGS,NTP,0,0,0,,{\a1}[TV] 女：啊～我当初就应该很清楚会这样的
+Dialogue: 0,0:08:06.10,0:08:09.52,BGS,NTP,0,0,0,,{\a1}[TV] 女：同样的错不能犯第二次
+Dialogue: 0,0:08:11.09,0:08:12.77,BGS,NTP,0,0,0,,{\a1}[TV] 女：对，既然错了就必须及时回头
+Dialogue: 0,0:08:13.11,0:08:15.93,BGS,NTP,0,0,0,,{\a1}[TV] 女：而且还必须要彻底地反省直到了无遗憾
+Dialogue: 0,0:08:15.95,0:08:18.80,BGS,NTP,0,0,0,,{\a1}[TV] 男：在这之前，你还是先穿上衣服，把这里整理一下如何？
+Dialogue: 0,0:07:36.99,0:07:37.98,Default,NTP,0,0,0,,{\fad(50,50)}对了…
+Dialogue: 0,0:07:37.99,0:07:39.76,Default,NTP,0,0,0,,{\fad(50,50)}加持先生洗澡洗得还真久呢
+Dialogue: 0,0:07:42.82,0:07:44.98,Default,NTP,0,0,0,,{\fad(50,50)}三号机是谁驾驶呢
+Dialogue: 0,0:07:45.47,0:07:47.41,Default,NTP,0,0,0,,{\fad(50,50)}咦？你还没听说吗
+Dialogue: 0,0:07:48.02,0:07:48.42,Default,NTP,0,0,0,,{\fad(50,50)}谁
+Dialogue: 0,0:07:53.17,0:07:53.96,Default,NTP,0,0,0,,{\fad(50,50)}不知道
+Dialogue: 0,0:07:55.70,0:07:56.51,Default,NTP,0,0,0,,{\fad(50,50)}热水真舒服
+Dialogue: 0,0:07:57.70,0:07:59.67,Default,NTP,0,0,0,,{\fad(50,50)}什么嘛，还在冷战啊
+Dialogue: 0,0:08:00.15,0:08:01.06,Default,NTP,0,0,0,,{\fad(50,50)}真拿你们没办法
+Dialogue: 0,0:08:01.37,0:08:02.99,Default,NTP,0,0,0,,{\fad(50,50)}葛城不在就这样吗
+Dialogue: 0,0:08:03.22,0:08:04.13,Default,NTP,0,0,0,,{\fad(50,50)}才不是呢
+Dialogue: 0,0:08:04.51,0:08:06.97,Default,NTP,0,0,0,,{\fad(50,50)}难得跟加持先生一起过夜
+Dialogue: 0,0:08:07.18,0:08:08.72,Default,NTP,0,0,0,,{\fad(50,50)}我也想对你微笑啊
+Dialogue: 0,0:08:09.62,0:08:12.29,Default,NTP,0,0,0,,{\fad(50,50)}可是今天不行！我做不到
+Dialogue: 0,0:08:15.61,0:08:16.15,Default,NTP,0,0,0,,{\fad(50,50)}我知道了
+Dialogue: 0,0:08:16.83,0:08:17.57,Default,NTP,0,0,0,,{\fad(50,50)}睡吧
+Dialogue: 0,0:08:18.28,0:08:20.38,Default,NTP,0,0,0,,{\fad(50,50)}这种时候早点睡最好了
+Dialogue: 0,0:08:28.11,0:08:29.82,Default,NTP,0,0,0,,{\fad(50,50)}你睡着了吗，加持先生
+Dialogue: 0,0:08:30.60,0:08:31.77,Default,NTP,0,0,0,,{\fad(50,50)}不，还没
+Dialogue: 0,0:08:33.22,0:08:35.26,Default,NTP,0,0,0,,{\fad(50,50)}我父亲是什么样的人
+Dialogue: 0,0:08:35.93,0:08:37.30,Default,NTP,0,0,0,,{\fad(50,50)}这真是个突兀的问题啊
+Dialogue: 0,0:08:38.02,0:08:39.72,Default,NTP,0,0,0,,{\fad(50,50)}还以为你想谈葛城呢
+Dialogue: 0,0:08:40.38,0:08:42.42,Default,NTP,0,0,0,,{\fad(50,50)}加持先生好像一直跟爸爸在一起
+Dialogue: 0,0:08:43.53,0:08:44.90,Default,NTP,0,0,0,,{\fad(50,50)}一直跟他在一起的是副司令
+Dialogue: 0,0:08:45.95,0:08:48.17,Default,NTP,0,0,0,,{\fad(50,50)}你到处在打听自己父亲的事吗
+Dialogue: 0,0:08:49.51,0:08:52.05,Default,NTP,0,0,0,,{\fad(50,50)}一直…没在一起，所以…
+Dialogue: 0,0:08:52.53,0:08:53.39,Default,NTP,0,0,0,,{\fad(50,50)}你不知道啊…
+Dialogue: 0,0:08:54.77,0:08:58.22,Default,NTP,0,0,0,,{\fad(50,50)}不过，这段时间我知道了很多父亲的事情
+Dialogue: 0,0:08:58.95,0:09:00.28,Default,NTP,0,0,0,,{\fad(50,50)}比如工作的事
+Dialogue: 0,0:09:00.62,0:09:01.76,Default,NTP,0,0,0,,{\fad(50,50)}母亲的事…
+Dialogue: 0,0:09:02.43,0:09:03.12,Default,NTP,0,0,0,,{\fad(50,50)}因此…
+Dialogue: 0,0:09:03.31,0:09:04.43,Default,NTP,0,0,0,,{\fad(50,50)}那不一样
+Dialogue: 0,0:09:04.93,0:09:06.40,Default,NTP,0,0,0,,{\fad(50,50)}你只是自以为了解而已
+Dialogue: 0,0:09:07.46,0:09:09.70,Default,NTP,0,0,0,,{\fad(50,50)}人无法完全理解别人的
+Dialogue: 0,0:09:10.15,0:09:11.70,Default,NTP,0,0,0,,{\fad(50,50)}甚至能否对自己完全理解也值得怀疑
+Dialogue: 0,0:09:12.48,0:09:14.79,Default,NTP,0,0,0,,{\fad(50,50)}百分百互相理解是不可能的
+Dialogue: 0,0:09:15.66,0:09:17.78,Default,NTP,0,0,0,,{\fad(50,50)}不过呢，正因为如此
+Dialogue: 0,0:09:18.20,0:09:19.73,Default,NTP,0,0,0,,{\fad(50,50)}人才会努力去了解自己和他人
+Dialogue: 0,0:09:20.41,0:09:22.63,Default,NTP,0,0,0,,{\fad(50,50)}所以人生才会有乐趣啊
+Dialogue: 0,0:09:23.13,0:09:24.46,Default,NTP,0,0,0,,{\fad(50,50)}你跟美里也是这样吗
+Dialogue: 0,0:09:26.32,0:09:29.01,Default,NTP,0,0,0,,{\fad(50,50)}“她”是在遥远彼方的女人
+Dialogue: 0,0:09:26.32,0:09:29.01,BGS,NTP,0,0,0,,{\fad(50,50)}＊日文中的“她”写法是“彼女”，此处被加持引申了
+Dialogue: 0,0:09:29.87,0:09:32.90,Default,NTP,0,0,0,,{\fad(50,50)}对我们男人来说，女性是存在于彼岸的
+Dialogue: 0,0:09:33.87,0:09:37.80,Default,NTP,0,0,0,,{\fad(50,50)}这表示男女之间有一条比海更宽更深的河
+Dialogue: 0,0:09:38.61,0:09:40.82,Default,NTP,0,0,0,,{\fad(50,50)}大人的事我真是无法理解
+Dialogue: 0,0:09:42.04,0:09:45.66,Default,NTP,0,0,0,,{\fad(50,50)}三号机启动试验倒计时 300 分钟
+Dialogue: 0,0:09:42.04,0:09:45.66,BGS_en,NTP,0,0,0,,{\a1}Unit 3 activation test: T-minus 300 minutes, and counting.
+Dialogue: 0,0:09:46.92,0:09:48.20,Default,NTP,0,0,0,,{\fad(50,50)}主电源没问题
+Dialogue: 0,0:09:46.92,0:09:48.20,BGS_en,NTP,0,0,0,,{\a1}Primary power, standing by.
+Dialogue: 0,0:09:48.73,0:09:50.38,Default,NTP,0,0,0,,{\fad(50,50)}第 2 细胞凋亡无异常
+Dialogue: 0,0:09:48.73,0:09:50.38,BGS_en,NTP,0,0,0,,{\a1}Apoptosis No.2, all clear.
+Dialogue: 0,0:09:46.18,0:09:48.06,BGS,NTP,0,0,0,,{\a3}【松代 第 2 实验场】
+Dialogue: 0,0:09:48.44,0:09:50.40,BGS,NTP,0,0,0,,{\a3}【地下临时机库（无人）】
+Dialogue: 0,0:09:50.80,0:09:52.70,Default,NTP,0,0,0,,{\fad(50,50)}各部位冷却系统正常
+Dialogue: 0,0:09:50.80,0:09:52.70,BGS_en,NTP,0,0,0,,{\a1}Refrigeration systems in all sections are functioning at standard levels.
+Dialogue: 0,0:09:53.05,0:09:54.83,Default,NTP,0,0,0,,{\fad(50,50)}左臂固定锁固定完毕
+Dialogue: 0,0:09:53.05,0:09:56.23,BGS_en,NTP,0,0,0,,{\a1}Pressure lock on left arm secured in place.
+Dialogue: 0,0:09:55.13,0:09:56.95,Default,NTP,0,0,0,,{\fad(50,50)}明白，B 小组开始作业
+Dialogue: 0,0:09:53.86,0:09:56.61,BGS_en,NTP,0,0,0,, {\a3}【EVA三号机启动试验综合控制地点】
+Dialogue: 0,0:09:57.61,0:09:59.94,Default,NTP,0,0,0,,{\fad(50,50)}跟 EVA 初号机的数据连接没有问题
+Dialogue: 0,0:09:57.61,0:09:59.94,BGS_en,NTP,0,0,0,,{\a1}Data link to Evangelion Unit 1 established.
+Dialogue: 0,0:10:00.28,0:10:03.15,BGS,NTP,0,0,0,,{\a3}明白，三号机开始复制数据
+Dialogue: 0,0:10:00.28,0:10:03.15,BGS_en,NTP,0,0,0,,{\a1}Roger. Initiating data copy on Unit 3.
+Dialogue: 0,0:10:03.92,0:10:06.60,BGS,NTP,0,0,0,,{\a3}预计 3 分钟后复制到 703 号文件
+Dialogue: 0,0:10:03.92,0:10:06.60,BGS_en,NTP,0,0,0,,{\a1}Completion up to File 703 is in 3 minutes.
+Dialogue: 0,0:10:07.58,0:10:09.40,BGS,NTP,0,0,0,,{\a3}5 分钟后继续进行附加复制
+Dialogue: 0,0:10:07.58,0:10:09.40,BGS_en,NTP,0,0,0,,{\a1}Resuming the additional copy in 5 minutes.
+Dialogue: 0,0:10:10.41,0:10:13.14,BGS,NTP,0,0,0,,{\a3}目前坏死率低于 0.005%
+Dialogue: 0,0:10:10.41,0:10:13.14,BGS_en,NTP,0,0,0,,{\a1}Necrosis level is currentiy under 0.005%.
+Dialogue: 0,0:10:14.09,0:10:15.46,BGS,NTP,0,0,0,,{\a3}安全容限全部通过
+Dialogue: 0,0:10:14.09,0:10:15.46,BGS_en,NTP,0,0,0,,{\a1}Safety margins. All clear.
+Dialogue: 0,0:10:16.74,0:10:18.66,BGS,NTP,0,0,0,,{\a3}接驳调速轮，准备完毕
+Dialogue: 0,0:10:16.74,0:10:18.66,BGS_en,NTP,0,0,0,,{\a1}Flywheel connections. Ready.
+Dialogue: 0,0:10:19.28,0:10:21.43,BGS,NTP,0,0,0,,{\a3}后备电源电压控制在浮动范围内
+Dialogue: 0,0:10:19.28,0:10:20.43,BGS_en,NTP,0,0,0,,{\a1}Maintain the operational voltage range
+Dialogue: 0,0:10:20.44,0:10:21.43,BGS_en,NTP,0,0,0,,{\a1}in the reserve power supply.
+Dialogue: 0,0:10:00.57,0:10:02.68,Default,NTP,0,0,0,,{\fad(50,50)}这样的话，马上投入实战也是可能的
+Dialogue: 0,0:10:02.78,0:10:04.46,Default,NTP,0,0,0,,{\fad(50,50)}是吗？那太好了
+Dialogue: 0,0:10:05.31,0:10:06.33,Default,NTP,0,0,0,,{\fad(50,50)}回答得心不在焉的
+Dialogue: 0,0:10:06.80,0:10:08.23,Default,NTP,0,0,0,,{\fad(50,50)}这台机体如果纳入编队的话
+Dialogue: 0,0:10:08.57,0:10:10.68,Default,NTP,0,0,0,,{\fad(50,50)}会配备在你的直属部队耶
+Dialogue: 0,0:10:11.11,0:10:12.98,Default,NTP,0,0,0,,{\fad(50,50)}独占 4 台 EVA 吗
+Dialogue: 0,0:10:14.01,0:10:16.36,Default,NTP,0,0,0,,{\fad(50,50)}要是想做，可以毁灭世界了呢
+Dialogue: 0,0:10:17.90,0:10:19.38,Default,NTP,0,0,0,,{\fad(50,50)}跟真嗣说了吗
+Dialogue: 0,0:10:20.03,0:10:21.22,Default,NTP,0,0,0,,{\fad(50,50)}等试验结束之后吧
+Dialogue: 0,0:10:22.90,0:10:24.34,Default,NTP,0,0,0,,{\fad(50,50)}第四适格者到达
+Dialogue: 0,0:10:22.90,0:10:24.34,BGS_en,NTP,0,0,0,,{\a1}Fourth Children has arrived.
+Dialogue: 0,0:10:24.57,0:10:27.33,Default,NTP,0,0,0,,{\fad(50,50)}第 2 班请尽快进行插入准备
+Dialogue: 0,0:10:24.57,0:10:27.33,BGS_en,NTP,0,0,0,,{\a1}Squad 2, begin entry preparations immediately.
+Dialogue: 0,0:10:30.13,0:10:32.27,Default,NTP,0,0,0,,{\fad(50,50)}他还没来啊，明日香
+Dialogue: 0,0:10:33.65,0:10:34.95,Default,NTP,0,0,0,,{\fad(50,50)}今天说不定不来了
+Dialogue: 0,0:10:36.77,0:10:38.39,Default,NTP,0,0,0,,{\fad(50,50)}本以为今天一定可以的…
+Dialogue: 0,0:10:40.10,0:10:40.62,Default,NTP,0,0,0,,{\fad(50,50)}要吃吗
+Dialogue: 0,0:10:42.68,0:10:45.60,Default,NTP,0,0,0,,{\fad(50,50)}三号机已经抵达日本了吧
+Dialogue: 0,0:10:46.28,0:10:48.56,Default,NTP,0,0,0,,{\fad(50,50)}嗯，好像是昨天到的
+Dialogue: 0,0:10:49.48,0:10:52.28,Default,NTP,0,0,0,,{\fad(50,50)}真好，不知道是谁驾驶啊
+Dialogue: 0,0:10:53.50,0:10:54.98,Default,NTP,0,0,0,,{\fad(50,50)}会是冬二那家伙吗
+Dialogue: 0,0:10:55.30,0:10:56.51,Default,NTP,0,0,0,,{\fad(50,50)}他今天刚好没来
+Dialogue: 0,0:10:57.19,0:10:58.23,Default,NTP,0,0,0,,{\fad(50,50)}怎么可能
+Dialogue: 0,0:11:00.52,0:11:02.38,Default,NTP,0,0,0,,{\fad(50,50)}插入栓固定完毕
+Dialogue: 0,0:11:00.52,0:11:02.38,BGS_en,NTP,0,0,0,,{\a1}Entry plug secured.
+Dialogue: 0,0:11:02.68,0:11:04.02,Default,NTP,0,0,0,,{\fad(50,50)}开始第 1 阶段连接
+Dialogue: 0,0:11:02.68,0:11:04.02,BGS_en,NTP,0,0,0,,{\a1}Begin Phase-one connection.
+Dialogue: 0,0:11:04.44,0:11:05.21,Default,NTP,0,0,0,,{\fad(50,50)}传送神经脉冲
+Dialogue: 0,0:11:04.44,0:11:05.21,BGS_en,NTP,0,0,0,,{\a1}Transmitting pulses.
+Dialogue: 0,0:11:05.77,0:11:06.80,Default,NTP,0,0,0,,{\fad(50,50)}图像位置正常
+Dialogue: 0,0:11:05.77,0:11:06.80,BGS_en,NTP,0,0,0,,{\a1}Graph display within norms.
+Dialogue: 0,0:11:07.18,0:11:08.95,Default,NTP,0,0,0,,{\fad(50,50)}列表 1350 为止全部通过
+Dialogue: 0,0:11:07.18,0:11:08.95,BGS_en,NTP,0,0,0,,{\a1}List clear through 1-3-5-0.
+Dialogue: 0,0:11:09.42,0:11:10.91,Default,NTP,0,0,0,,{\fad(50,50)}第 1 阶段连接没有问题
+Dialogue: 0,0:11:09.42,0:11:10.91,BGS_en,NTP,0,0,0,,{\a1}Phase-one contact, all clear.
+Dialogue: 0,0:11:11.22,0:11:11.62,Default,NTP,0,0,0,,{\fad(50,50)}明白
+Dialogue: 0,0:11:11.22,0:11:11.62,BGS_en,NTP,0,0,0,,{\a1}Roger.
+Dialogue: 0,0:11:11.84,0:11:13.23,Default,NTP,0,0,0,,{\fad(50,50)}作业进入第 2 阶段
+Dialogue: 0,0:11:11.84,0:11:13.23,BGS,NTP,0,0,0,,Transfer the operation to Phase-two.
+Dialogue: 0,0:11:14.06,0:11:15.63,Default,NTP,0,0,0,,{\fad(50,50)}所有神经连接正常
+Dialogue: 0,0:11:14.06,0:11:15.63,BGS_en,NTP,0,0,0,,{\a1}Full nerve link established.
+Dialogue: 0,0:11:15.91,0:11:17.51,Default,NTP,0,0,0,,{\fad(50,50)}列表 2550 为止全部通过
+Dialogue: 0,0:11:15.91,0:11:17.51,BGS_en,NTP,0,0,0,,{\a1}List clear through 2-5-5-0.
+Dialogue: 0,0:11:17.89,0:11:19.74,Default,NTP,0,0,0,,{\fad(50,50)}谐波均处于正常位置
+Dialogue: 0,0:11:17.89,0:11:19.74,BGS_en,NTP,0,0,0,,{\a1}Harmonics are all reading standard.
+Dialogue: 0,0:11:20.35,0:11:22.00,Default,NTP,0,0,0,,{\fad(50,50)}绝对阈值即将突破
+Dialogue: 0,0:11:20.35,0:11:22.00,BGS_en,NTP,0,0,0,,{\a1}Approaching absolute thereshold.
+Dialogue: 0,0:11:25.33,0:11:26.00,Default,NTP,0,0,0,,{\fad(50,50)}试验中止
+Dialogue: 0,0:11:26.25,0:11:26.87,Default,NTP,0,0,0,,{\fad(50,50)}切断回路
+Dialogue: 0,0:11:29.48,0:11:30.00,Default,NTP,0,0,0,,{\fad(50,50)}无法切断
+Dialogue: 0,0:11:30.23,0:11:31.65,Default,NTP,0,0,0,,{\fad(50,50)}体内出现高能量反应
+Dialogue: 0,0:11:29.48,0:11:31.65,BGS_en,NTP,0,0,0,,{\a1}There's a huge power surge coming from inside the unit.
+Dialogue: 0,0:11:32.11,0:11:32.71,Default,NTP,0,0,0,,{\fad(50,50)}难道是…
+Dialogue: 0,0:11:34.61,0:11:35.12,Default,NTP,0,0,0,,{\fad(50,50)}使徒
+Dialogue: 0,0:11:55.62,0:11:57.43,Default,NTP,0,0,0,,{\fad(50,50)}松代发生爆炸事故
+Dialogue: 0,0:11:57.61,0:11:58.42,Default,NTP,0,0,0,,{\fad(50,50)}损害不明
+Dialogue: 0,0:11:58.87,0:12:01.17,Default,NTP,0,0,0,,{\fad(50,50)}立刻派遣救助队和第 3 部队
+Dialogue: 0,0:12:01.66,0:12:04.04,Default,NTP,0,0,0,,{\fad(50,50)}在战自介入之前全部处理掉
+Dialogue: 0,0:11:56.91,0:11:59.60,BGS,NTP,0,0,0,,{\a1}推测爆炸中心在第 2 试验场地下临时升降机内
+Dialogue: 0,0:11:59.67,0:12:02.62,BGS,NTP,0,0,0,,{\a3}没有来自地上设施及地震观测所的回应
+Dialogue: 0,0:12:02.66,0:12:06.13,BGS,NTP,0,0,0,,{\a1}紧急配置第 3 侦察卫星！在松代上空巡视
+Dialogue: 0,0:12:06.11,0:12:08.63,BGS,NTP,0,0,0,,{\a3}特殊救助部队经过第 22 区
+Dialogue: 0,0:12:08.74,0:12:10.19,BGS,NTP,0,0,0,,{\a3}预计 52 分钟后到达现场
+Dialogue: 0,0:12:04.21,0:12:04.67,Default,NTP,0,0,0,,{\fad(50,50)}明白
+Dialogue: 0,0:12:05.14,0:12:07.45,Default,NTP,0,0,0,,{\fad(50,50)}事故现场发现不明移动物体
+Dialogue: 0,0:12:07.63,0:12:08.58,Default,NTP,0,0,0,,{\fad(50,50)}图样橘色
+Dialogue: 0,0:12:08.83,0:12:10.08,Default,NTP,0,0,0,,{\fad(50,50)}无法确认是否为使徒
+Dialogue: 0,0:12:10.64,0:12:12.73,Default,NTP,0,0,0,,{\fad(50,50)}第一战斗位置
+Dialogue: 0,0:12:15.06,0:12:17.45,BGS,NTP,0,0,0,,明白！全员第一战斗位置
+Dialogue: 0,0:12:17.67,0:12:19.92,BGS,NTP,0,0,0,,重复：全员第一战斗位置
+Dialogue: 0,0:12:13.09,0:12:15.13,Default,NTP,0,0,0,,{\fad(50,50)}全员第一战斗位置
+Dialogue: 0,0:12:15.30,0:12:16.51,Default,NTP,0,0,0,,{\fad(50,50)}地面部队，准备地对地作战
+Dialogue: 0,0:12:17.22,0:12:18.42,Default,NTP,0,0,0,,{\fad(50,50)}EVA 全体出动
+Dialogue: 0,0:12:18.81,0:12:20.37,Default,NTP,0,0,0,,{\fad(50,50)}紧急部署到迎击地点
+Dialogue: 0,0:12:20.87,0:12:22.56,Default,NTP,0,0,0,,{\fad(50,50)}预定 20 开始空运
+Dialogue: 0,0:12:29.60,0:12:30.94,Default,NTP,0,0,0,,{\fad(50,50)}松代发生事故
+Dialogue: 0,0:12:31.40,0:12:32.32,Default,NTP,0,0,0,,{\fad(50,50)}怎么会…
+Dialogue: 0,0:12:32.56,0:12:34.02,Default,NTP,0,0,0,,{\fad(50,50)}那美里她们呢
+Dialogue: 0,0:12:34.71,0:12:35.60,Default,NTP,0,0,0,,{\fad(50,50)}还无法取得联系
+Dialogue: 0,0:12:36.04,0:12:38.01,Default,NTP,0,0,0,,{\fad(50,50)}怎么会…该怎么办啊
+Dialogue: 0,0:12:38.35,0:12:40.22,Default,NTP,0,0,0,,{\fad(50,50)}你在嘀咕什么啊
+Dialogue: 0,0:12:40.47,0:12:43.66,Default,NTP,0,0,0,,{\fad(50,50)}我们现在再怎么担心也是没用的，不是吗
+Dialogue: 0,0:12:43.90,0:12:45.93,Default,NTP,0,0,0,,{\fad(50,50)}可是只靠我们对付使徒的话…
+Dialogue: 0,0:12:47.11,0:12:49.50,Default,NTP,0,0,0,,{\fad(50,50)}现在由碇司令直接指挥
+Dialogue: 0,0:12:50.25,0:12:51.21,Default,NTP,0,0,0,,{\fad(50,50)}爸爸
+Dialogue: 0,0:12:51.87,0:12:53.23,Default,NTP,0,0,0,,{\fad(50,50)}在野边山捕捉到影像
+Dialogue: 0,0:12:53.52,0:12:54.54,Default,NTP,0,0,0,,{\fad(50,50)}转到主屏幕
+Dialogue: 0,0:13:01.84,0:13:03.01,Default,NTP,0,0,0,,{\fad(50,50)}果然是这个啊
+Dialogue: 0,0:13:03.65,0:13:05.24,Default,NTP,0,0,0,,{\fad(50,50)}发出停止活动信号
+Dialogue: 0,0:13:05.87,0:13:07.56,Default,NTP,0,0,0,,{\fad(50,50)}强制射出插入栓
+Dialogue: 0,0:13:10.55,0:13:12.12,BGS,NTP,0,0,0,,{\a1}自动制动系统无法工作
+Dialogue: 0,0:13:12.76,0:13:15.24,BGS,NTP,0,0,0,,{\a3}电源供应系统不明，无法显示状态
+Dialogue: 0,0:13:15.73,0:13:18.29,BGS,NTP,0,0,0,,拒绝保护模式。正在变更验证码
+Dialogue: 0,0:13:09.90,0:13:10.49,Default,NTP,0,0,0,,{\fad(50,50)}不行
+Dialogue: 0,0:13:10.77,0:13:13.45,Default,NTP,0,0,0,,{\fad(50,50)}停止信号及插入栓排出指令，无法识别
+Dialogue: 0,0:13:13.98,0:13:14.63,Default,NTP,0,0,0,,{\fad(50,50)}驾驶员呢
+Dialogue: 0,0:13:15.21,0:13:17.23,Default,NTP,0,0,0,,{\fad(50,50)}虽然有呼吸和心跳反应
+Dialogue: 0,0:13:17.38,0:13:18.12,Default,NTP,0,0,0,,{\fad(50,50)}但是恐怕…
+Dialogue: 0,0:13:19.61,0:13:22.34,Default,NTP,0,0,0,,{\fad(50,50)}从现在开始废弃 EVANGELION 三号机
+Dialogue: 0,0:13:22.67,0:13:25.07,Default,NTP,0,0,0,,{\fad(50,50)}将目标标记为第 13 使徒
+Dialogue: 0,0:13:25.84,0:13:26.65,Default,NTP,0,0,0,,{\fad(50,50)}可是…
+Dialogue: 0,0:13:27.08,0:13:29.47,Default,NTP,0,0,0,,{\fad(50,50)}按计划在野边山展开战线
+Dialogue: 0,0:13:29.80,0:13:31.01,Default,NTP,0,0,0,,{\fad(50,50)}摧毁目标
+Dialogue: 0,0:13:33.44,0:13:34.23,Default,NTP,0,0,0,,{\fad(50,50)}目标接近
+Dialogue: 0,0:13:35.90,0:13:37.43,Default,NTP,0,0,0,,{\fad(50,50)}所有机体准备地面战
+Dialogue: 0,0:13:37.80,0:13:38.30,Default,NTP,0,0,0,,{\fad(50,50)}啊
+Dialogue: 0,0:13:38.90,0:13:39.46,Default,NTP,0,0,0,,{\fad(50,50)}怎么会…
+Dialogue: 0,0:13:40.17,0:13:40.58,Default,NTP,0,0,0,,{\fad(50,50)}使徒
+Dialogue: 0,0:13:41.38,0:13:42.32,Default,NTP,0,0,0,,{\fad(50,50)}这是使徒吗
+Dialogue: 0,0:13:42.50,0:13:43.04,Default,NTP,0,0,0,,{\fad(50,50)}没错
+Dialogue: 0,0:13:43.61,0:13:44.42,Default,NTP,0,0,0,,{\fad(50,50)}这是目标
+Dialogue: 0,0:13:45.14,0:13:48.53,Default,NTP,0,0,0,,{\fad(50,50)}什么目标，这不是 EVA 吗
+Dialogue: 0,0:13:50.77,0:13:51.64,Default,NTP,0,0,0,,{\fad(50,50)}怎么会
+Dialogue: 0,0:13:52.54,0:13:54.11,Default,NTP,0,0,0,,{\fad(50,50)}竟然被使徒占据了
+Dialogue: 0,0:13:54.64,0:13:55.62,Default,NTP,0,0,0,,{\fad(50,50)}应该有人…
+Dialogue: 0,0:13:56.30,0:13:57.51,Default,NTP,0,0,0,,{\fad(50,50)}有孩子坐在上面吧
+Dialogue: 0,0:13:58.28,0:13:58.91,Default,NTP,0,0,0,,{\fad(50,50)}跟我们同龄的
+Dialogue: 0,0:13:59.41,0:14:00.83,Default,NTP,0,0,0,,{\fad(50,50)}你还不知道吗
+Dialogue: 0,0:14:00.98,0:14:01.96,Default,NTP,0,0,0,,{\fad(50,50)}三号机上面是…
+Dialogue: 0,0:14:03.62,0:14:03.89,Default,NTP,0,0,0,,{\fad(50,50)}明日香
+Dialogue: 0,0:14:09.87,0:14:10.46,Default,NTP,0,0,0,,{\fad(50,50)}{\fs35}明日香
+Dialogue: 0,0:14:17.53,0:14:19.62,BGS,NTP,0,0,0,,{\a1}机体损伤度 A ，不能自主动作
+Dialogue: 0,0:14:19.71,0:14:21.70,BGS,NTP,0,0,0,,{\a3}目标依然存在！无外部损伤
+Dialogue: 0,0:14:16.02,0:14:17.52,Default,NTP,0,0,0,,{\fad(50,50)}EVA 二号机完全沉默
+Dialogue: 0,0:14:17.73,0:14:18.64,Default,NTP,0,0,0,,{\fad(50,50)}驾驶员已逃出
+Dialogue: 0,0:14:18.85,0:14:19.91,Default,NTP,0,0,0,,{\fad(50,50)}回收班正前往救援
+Dialogue: 0,0:14:20.21,0:14:21.69,Default,NTP,0,0,0,,{\fad(50,50)}目标移动，朝零号机前进
+Dialogue: 0,0:14:22.35,0:14:24.35,Default,NTP,0,0,0,,{\fad(50,50)}丽，避免近距离战斗
+Dialogue: 0,0:14:24.42,0:14:25.65,Default,NTP,0,0,0,,{\fad(50,50)}阻止目标前进
+Dialogue: 0,0:14:26.00,0:14:27.11,Default,NTP,0,0,0,,{\fad(50,50)}现在交给初号机（处理）
+Dialogue: 0,0:14:27.58,0:14:28.00,Default,NTP,0,0,0,,{\fad(50,50)}明白
+Dialogue: 0,0:14:44.83,0:14:46.37,Default,NTP,0,0,0,,{\fad(50,50)}他在…里面
+Dialogue: 0,0:15:03.90,0:15:05.77,Default,NTP,0,0,0,,{\fad(50,50)}零号机左臂被使徒侵入
+Dialogue: 0,0:15:06.13,0:15:07.62,Default,NTP,0,0,0,,{\fad(50,50)}正在逐渐侵入神经键
+Dialogue: 0,0:15:08.30,0:15:10.06,Default,NTP,0,0,0,,{\fad(50,50)}切掉左臂，快
+Dialogue: 0,0:15:10.03,0:15:12.60,BGS,NTP,0,0,0,,{\a1}零号机左前臂产生异常磁场
+Dialogue: 0,0:15:11.92,0:15:13.82,BGS,NTP,0,0,0,,{\a3}左臂挠骨神经出现污染反应
+Dialogue: 0,0:15:12.60,0:15:15.05,BGS,NTP,0,0,0,,{\a1}损伤度 A ！左臂运动系统无法工作
+Dialogue: 0,0:15:10.31,0:15:12.67,Default,NTP,0,0,0,,{\fad(50,50)}可是，不解除神经连接的话…
+Dialogue: 0,0:15:12.81,0:15:13.68,Default,NTP,0,0,0,,{\fad(50,50)}切掉
+Dialogue: 0,0:15:14.69,0:15:15.04,Default,NTP,0,0,0,,{\fad(50,50)}是
+Dialogue: 0,0:15:31.64,0:15:33.89,Default,NTP,0,0,0,,{\fad(50,50)}零号机中度损坏，驾驶员受伤
+Dialogue: 0,0:15:34.63,0:15:35.51,Default,NTP,0,0,0,,{\fad(50,50)}怎么会…
+Dialogue: 0,0:15:35.67,0:15:37.00,Default,NTP,0,0,0,,{\fad(50,50)}目标正在接近
+Dialogue: 0,0:15:37.13,0:15:38.52,Default,NTP,0,0,0,,{\fad(50,50)}还有 20 就会接触
+Dialogue: 0,0:15:38.71,0:15:39.56,Default,NTP,0,0,0,,{\fad(50,50)}你去打倒它
+Dialogue: 0,0:15:40.26,0:15:42.20,Default,NTP,0,0,0,,{\fad(50,50)}可是就算你说那是目标…
+Dialogue: 0,0:15:47.71,0:15:49.20,Default,NTP,0,0,0,,{\fad(50,50)}上面不是还有人在吗
+Dialogue: 0,0:15:54.41,0:15:55.66,Default,NTP,0,0,0,,{\fad(50,50)}跟我同龄的孩子
+Dialogue: 0,0:16:17.83,0:16:18.76,Default,NTP,0,0,0,,{\fad(50,50)}插入栓
+Dialogue: 0,0:16:19.50,0:16:21.34,Default,NTP,0,0,0,,{\fad(50,50)}果然，有人在上面
+Dialogue: 0,0:16:37.63,0:16:39.13,Default,NTP,0,0,0,,{\fad(50,50)}生命维持出现障碍
+Dialogue: 0,0:16:39.81,0:16:40.86,Default,NTP,0,0,0,,{\fad(50,50)}驾驶员有危险
+Dialogue: 0,0:16:40.88,0:16:43.54,BGS,NTP,0,0,0,,{\a1}EVA 初号机颈部部分压坏
+Dialogue: 0,0:16:43.79,0:16:46.73,BGS,NTP,0,0,0,,{\a1}损伤度 E ，联动动作没有障碍
+Dialogue: 0,0:16:45.60,0:16:47.45,BGS,NTP,0,0,0,,{\a3}驾驶员颈部压迫中
+Dialogue: 0,0:16:47.63,0:16:50.06,BGS,NTP,0,0,0,,{\a3}生命维持出现严重障碍
+Dialogue: 0,0:16:41.65,0:16:44.52,Default,NTP,0,0,0,,{\fad(50,50)}不好！把同步率降到 60%
+Dialogue: 0,0:16:44.63,0:16:45.03,Default,NTP,0,0,0,,{\fad(50,50)}等等
+Dialogue: 0,0:16:45.51,0:16:46.28,Default,NTP,0,0,0,,{\fad(50,50)}可是，碇
+Dialogue: 0,0:16:46.62,0:16:48.05,Default,NTP,0,0,0,,{\fad(50,50)}这样下去驾驶员会死
+Dialogue: 0,0:16:48.42,0:16:50.32,Default,NTP,0,0,0,,{\fad(50,50)}真嗣！为什么不战斗
+Dialogue: 0,0:16:50.81,0:16:51.65,Default,NTP,0,0,0,,{\fad(50,50)}因为…
+Dialogue: 0,0:16:52.12,0:16:53.93,Default,NTP,0,0,0,,{\fad(50,50)}那上面有人啊！爸爸
+Dialogue: 0,0:16:54.12,0:16:54.75,Default,NTP,0,0,0,,{\fad(50,50)}别管那个
+Dialogue: 0,0:16:55.05,0:16:57.08,Default,NTP,0,0,0,,{\fad(50,50)}那家伙是使徒！我们的敌人
+Dialogue: 0,0:16:57.27,0:16:57.83,Default,NTP,0,0,0,,{\fad(50,50)}可是…
+Dialogue: 0,0:16:58.35,0:16:59.40,Default,NTP,0,0,0,,{\fad(50,50)}可是我做不到
+Dialogue: 0,0:16:59.78,0:17:00.82,Default,NTP,0,0,0,,{\fad(50,50)}不能不救他啊
+Dialogue: 0,0:17:01.22,0:17:02.98,Default,NTP,0,0,0,,{\fad(50,50)}我没办法下手杀人
+Dialogue: 0,0:17:03.02,0:17:04.05,Default,NTP,0,0,0,,{\fad(50,50)}你会死的
+Dialogue: 0,0:17:04.33,0:17:04.88,Default,NTP,0,0,0,,{\fad(50,50)}没关系
+Dialogue: 0,0:17:05.46,0:17:06.98,Default,NTP,0,0,0,,{\fad(50,50)}总比杀人好
+Dialogue: 0,0:17:08.27,0:17:08.79,Default,NTP,0,0,0,,{\fad(50,50)}不要管他
+Dialogue: 0,0:17:09.30,0:17:11.93,Default,NTP,0,0,0,,{\fad(50,50)}完全切断驾驶员与初号机的同步
+Dialogue: 0,0:17:07.63,0:17:10.54,BGS,NTP,0,0,0,,{\a1}EVA 初号机颈部部分压坏
+Dialogue: 0,0:17:11.05,0:17:14.33,BGS,NTP,0,0,0,,{\a1}损伤度 D ，联动动作没有障碍
+Dialogue: 0,0:17:14.68,0:17:16.51,BGS,NTP,0,0,0,,{\a3}驾驶员颈部压迫中
+Dialogue: 0,0:17:16.76,0:17:19.15,BGS,NTP,0,0,0,,{\a3}生命维持出现严重障碍
+Dialogue: 0,0:17:19.13,0:17:22.05,BGS,NTP,0,0,0,,{\a1}EVA 初号机颈部部分压坏
+Dialogue: 0,0:17:22.55,0:17:25.80,BGS,NTP,0,0,0,,{\a1}损伤度 D ，联动动作没有障碍
+Dialogue: 0,0:17:12.31,0:17:13.07,Default,NTP,0,0,0,,{\fad(50,50)}要切断吗
+Dialogue: 0,0:17:13.43,0:17:13.95,Default,NTP,0,0,0,,{\fad(50,50)}没错
+Dialogue: 0,0:17:14.41,0:17:16.30,Default,NTP,0,0,0,,{\fad(50,50)}把回路切换到傀儡系统
+Dialogue: 0,0:17:16.58,0:17:19.70,Default,NTP,0,0,0,,{\fad(50,50)}可是…傀儡系统还有很多问题
+Dialogue: 0,0:17:19.92,0:17:21.38,Default,NTP,0,0,0,,{\fad(50,50)}又没有赤木博士的指示
+Dialogue: 0,0:17:21.81,0:17:23.92,Default,NTP,0,0,0,,{\fad(50,50)}比现在的驾驶员有用多了
+Dialogue: 0,0:17:24.38,0:17:24.75,Default,NTP,0,0,0,,{\fad(50,50)}动手
+Dialogue: 0,0:17:25.21,0:17:25.52,Default,NTP,0,0,0,,{\fad(50,50)}是
+Dialogue: 0,0:17:37.40,0:17:37.83,Default,NTP,0,0,0,,{\fad(50,50)}怎么了
+Dialogue: 0,0:17:40.63,0:17:41.75,Default,NTP,0,0,0,,{\fad(50,50)}你做了什么!? 爸爸
+Dialogue: 0,0:17:42.48,0:17:43.97,Default,NTP,0,0,0,,{\fad(50,50)}信号，确认接受
+Dialogue: 0,0:17:44.54,0:17:46.15,Default,NTP,0,0,0,,{\fad(50,50)}控制系统切换完毕
+Dialogue: 0,0:17:46.84,0:17:49.19,Default,NTP,0,0,0,,{\fad(50,50)}所有神经与傀儡系统直接连接完毕
+Dialogue: 0,0:17:49.75,0:17:52.38,Default,NTP,0,0,0,,{\fad(50,50)}32.8% 的情感成份不明确
+Dialogue: 0,0:17:52.59,0:17:53.50,Default,NTP,0,0,0,,{\fad(50,50)}无法显示
+Dialogue: 0,0:17:54.23,0:17:54.77,Default,NTP,0,0,0,,{\fad(50,50)}没关系
+Dialogue: 0,0:17:55.01,0:17:56.00,Default,NTP,0,0,0,,{\fad(50,50)}系统释放
+Dialogue: 0,0:17:56.30,0:17:57.24,Default,NTP,0,0,0,,{\fad(50,50)}开始攻击
+Dialogue: 0,0:18:18.68,0:18:21.26,Default,NTP,0,0,0,,{\fad(50,50)}这就是…傀儡系统的力量吗
+Dialogue: 0,0:18:21.54,0:18:22.57,Default,NTP,0,0,0,,{\fad(50,50)}系统正常
+Dialogue: 0,0:18:23.06,0:18:24.34,Default,NTP,0,0,0,,{\fad(50,50)}增益进一步提高
+Dialogue: 0,0:19:16.55,0:19:17.50,Default,NTP,0,0,0,,{\fad(50,50)\fs40}住手
+Dialogue: 0,0:19:19.77,0:19:21.14,Default,NTP,0,0,0,,{\fad(50,50)}爸爸，快住手
+Dialogue: 0,0:19:21.39,0:19:22.54,Default,NTP,0,0,0,,{\fad(50,50)}快叫它停下来
+Dialogue: 0,0:19:23.31,0:19:23.79,Default,NTP,0,0,0,,{\fad(50,50)}可恶
+Dialogue: 0,0:19:24.34,0:19:25.26,Default,NTP,0,0,0,,{\fad(50,50)}停止啊
+Dialogue: 0,0:19:25.82,0:19:26.98,Default,NTP,0,0,0,,{\fad(50,50)}停下来！停下来
+Dialogue: 0,0:19:27.36,0:19:28.99,Default,NTP,0,0,0,,{\fad(50,50)}停下来！停下来
+Dialogue: 0,0:19:29.23,0:19:30.05,Default,NTP,0,0,0,,{\fad(50,50)}停下来
+Dialogue: 0,0:19:39.36,0:19:40.29,Default,NTP,0,0,0,,{\fad(50,50)}住手
+Dialogue: 0,0:19:42.24,0:19:45.95,Default,NTP,0,0,0,,{\fad(050,1500)\fs35}快住手啊————
+Dialogue: 0,0:19:53.12,0:19:54.85,Default,NTP,0,0,0,,{\fad(50,50)}E…EVA 三号机…
+Dialogue: 0,0:19:55.31,0:19:55.82,Default,NTP,0,0,0,,{\fad(50,50)}不
+Dialogue: 0,0:19:57.05,0:19:59.31,Default,NTP,0,0,0,,{\fad(50,50)}目标…完全…沉默了
+Dialogue: 0,0:20:07.32,0:20:08.36,Default,NTP,0,0,0,,{\fad(50,50)}就做这个好了
+Dialogue: 0,0:20:08.98,0:20:11.77,Default,NTP,0,0,0,,{\fad(50,50)}小玉姐、望和我
+Dialogue: 0,0:20:12.19,0:20:13.30,Default,NTP,0,0,0,,{\fad(50,50)}4 个人的呢
+Dialogue: 0,0:20:14.30,0:20:15.88,Default,NTP,0,0,0,,{\fad(50,50)}明天会来吃吗
+Dialogue: 0,0:20:16.70,0:20:18.52,Default,NTP,0,0,0,,{\fad(50,50)}这边也有生还者
+Dialogue: 0,0:20:18.90,0:20:19.62,Default,NTP,0,0,0,,{\fad(50,50)}还有呼吸
+Dialogue: 0,0:20:20.05,0:20:21.47,Default,NTP,0,0,0,,{\fad(50,50)}快送去急救
+Dialogue: 0,0:20:17.68,0:20:21.51,BGS,NTP,0,0,0,,{\a1}第 3 班将 807 的数据删除，快！
+Dialogue: 0,0:20:22.24,0:20:25.83,BGS,NTP,0,0,0,,{\a1}是的，摄像机画面的粘贴作业完成
+Dialogue: 0,0:20:26.07,0:20:27.55,BGS,NTP,0,0,0,,{\a1}所有资料进行烧毁处理
+Dialogue: 0,0:20:25.84,0:20:29.01,BGS,NTP,0,0,0,,{\a3}第 2 班请尽快确认带形区域的幸存者情况
+Dialogue: 0,0:20:29.74,0:20:31.06,BGS,NTP,0,0,0,,{\a1}20 号线全面封锁！
+Dialogue: 0,0:20:31.43,0:20:32.86,BGS,NTP,0,0,0,,{\a1}在收到特命前
+Dialogue: 0,0:20:32.87,0:20:33.86,BGS,NTP,0,0,0,,{\a1}不要让战自进入
+Dialogue: 0,0:20:31.30,0:20:34.51,BGS,NTP,0,0,0,,{\a3}好了，信浓境至小渊泽的封锁线已经部分解除了
+Dialogue: 0,0:20:35.11,0:20:37.03,BGS,NTP,0,0,0,,{\a1}让当地警察继续他们的工作
+Dialogue: 0,0:20:37.64,0:20:39.97,BGS,NTP,0,0,0,,{\a1}我这边现在忙得很，没有多余的人手了
+Dialogue: 0,0:20:34.61,0:20:36.39,BGS,NTP,0,0,0,,{\a3}新闻管制已经与媒体进行了交涉
+Dialogue: 0,0:20:36.78,0:20:38.43,BGS,NTP,0,0,0,,{\a3}剧本请让我来送到目的地
+Dialogue: 0,0:20:40.56,0:20:42.25,BGS,NTP,0,0,0,,{\a3}确认在第 8 通风井内有两名幸存者
+Dialogue: 0,0:20:42.74,0:20:43.95,BGS,NTP,0,0,0,,{\a3}但是有一名反应微弱
+Dialogue: 0,0:20:44.26,0:20:45.09,BGS,NTP,0,0,0,,{\a1}可能受了重伤
+Dialogue: 0,0:20:45.42,0:20:47.29,BGS,NTP,0,0,0,,{\a1}明白。赶快送到救援队
+Dialogue: 0,0:20:39.98,0:20:41.76,BGS,NTP,0,0,0,,{\a1}临时升降机内的火好像已经熄灭了
+Dialogue: 0,0:20:41.83,0:20:43.48,BGS,NTP,0,0,0,,{\a1}热反应恢复到正常水平
+Dialogue: 0,0:20:47.77,0:20:49.84,BGS,NTP,0,0,0,,{\a3}明白。再次进行确认后开始验证
+Dialogue: 0,0:20:44.37,0:20:47.04,BGS,NTP,0,0,0,,{\a3}第 23 坑道毁坏，请注入酚醛树脂
+Dialogue: 0,0:20:53.16,0:20:55.80,BGS,NTP,0,0,68,,{\a3}是，地面以下 800 米全部融解
+Dialogue: 0,0:20:56.34,0:20:58.17,BGS,NTP,0,0,0,,{\a3}样本回收有困难
+Dialogue: 0,0:20:27.53,0:20:28.53,Default,NTP,0,0,0,,{\fad(50,50)}我还活着
+Dialogue: 0,0:20:30.89,0:20:31.31,Default,NTP,0,0,0,,{\fad(50,50)}加持
+Dialogue: 0,0:20:32.31,0:20:34.03,Default,NTP,0,0,0,,{\fad(50,50)}真是太好了，葛城
+Dialogue: 0,0:20:35.25,0:20:35.98,Default,NTP,0,0,0,,{\fad(50,50)}律子呢
+Dialogue: 0,0:20:38.26,0:20:38.81,Default,NTP,0,0,0,,{\fad(50,50)}不用担心
+Dialogue: 0,0:20:39.92,0:20:40.99,Default,NTP,0,0,0,,{\fad(50,50)}她的伤势比你轻
+Dialogue: 0,0:20:42.13,0:20:42.78,Default,NTP,0,0,0,,{\fad(50,50)}是吗
+Dialogue: 0,0:20:44.10,0:20:45.26,Default,NTP,0,0,0,,{\fad(50,50)}EVA 三号机呢
+Dialogue: 0,0:20:45.54,0:20:48.86,Default,NTP,0,0,0,,{\fad(50,50)}听说被当成使徒处理掉了…被初号机
+Dialogue: 0,0:20:48.04,0:20:49.39,BGS,NTP,0,0,0,,{\a1}EVA 的备用部件全部回收
+Dialogue: 0,0:20:49.87,0:20:51.50,BGS,NTP,0,0,0,,{\a1}全部融解不要留下原来的样子
+Dialogue: 0,0:20:51.92,0:20:54.26,BGS,NTP,0,0,0,,{\a1}机密度特 A ！最优先作业！快
+Dialogue: 0,0:20:50.53,0:20:52.15,BGS,NTP,0,0,0,,{\a3}下面的临时通信室内有幸存者
+Dialogue: 0,0:20:52.71,0:20:54.69,BGS,NTP,0,0,0,,{\a3}被卡在图像传送装置的缝里
+Dialogue: 0,0:20:55.20,0:20:56.55,BGS,NTP,0,0,0,,{\a1}谁来帮个忙！
+Dialogue: 0,0:20:54.71,0:20:55.28,Default,NTP,0,0,0,,{\fad(50,50)}我…
+Dialogue: 0,0:20:56.23,0:20:58.93,Default,NTP,0,0,0,,{\fad(50,50)}我还什么都没告诉真嗣呢
+Dialogue: 0,0:21:06.92,0:21:07.74,Default,NTP,0,0,0,,{\fad(50,50)}真嗣
+Dialogue: 0,0:21:08.67,0:21:09.50,Default,NTP,0,0,0,,{\fad(50,50)}美里小姐
+Dialogue: 0,0:21:10.22,0:21:11.17,Default,NTP,0,0,0,,{\fad(50,50)}你没事吧
+Dialogue: 0,0:21:11.74,0:21:14.42,Default,NTP,0,0,0,,{\fad(50,50)}我…对不起
+Dialogue: 0,0:21:15.15,0:21:18.17,Default,NTP,0,0,0,,{\fad(50,50)}我本应把这件重要的事告诉你…
+Dialogue: 0,0:21:18.59,0:21:19.73,Default,NTP,0,0,0,,{\fad(50,50)}没想到会变成这样
+Dialogue: 0,0:21:20.50,0:21:21.20,Default,NTP,0,0,0,,{\fad(50,50)}美里小姐
+Dialogue: 0,0:21:22.14,0:21:22.58,Default,NTP,0,0,0,,{\fad(50,50)}我…
+Dialogue: 0,0:21:23.76,0:21:24.73,Default,NTP,0,0,0,,{\fad(50,50)}我杀了人…
+Dialogue: 0,0:21:26.06,0:21:26.70,Default,NTP,0,0,0,,{\fad(50,50)}爸爸…
+Dialogue: 0,0:21:27.59,0:21:29.30,Default,NTP,0,0,0,,{\fad(50,50)}我明明一直求他住手…
+Dialogue: 0,0:21:30.86,0:21:33.08,Default,NTP,0,0,0,,{\fad(50,50)}真嗣，对不起
+Dialogue: 0,0:21:33.52,0:21:34.20,Default,NTP,0,0,0,,{\fad(50,50)}对不起
+Dialogue: 0,0:21:34.54,0:21:36.38,Default,NTP,0,0,0,,{\fad(50,50)}插入栓回收小组报告
+Dialogue: 0,0:21:36.72,0:21:37.97,Default,NTP,0,0,0,,{\fad(50,50)}确认驾驶员生还
+Dialogue: 0,0:21:38.60,0:21:39.47,Default,NTP,0,0,0,,{\fad(50,50)}还活着
+Dialogue: 0,0:21:40.15,0:21:42.97,Default,NTP,0,0,0,,{\fad(50,50)}那个…三号机的驾驶员是…
+Dialogue: 0,0:21:44.83,0:21:46.35,Default,NTP,0,0,0,,{\fad(50,50)}第四适格者是…
+Dialogue: 0,0:21:39.86,0:21:42.28,BGS,NTP,0,0,0,,{\a1}明白，变形部分用激光切断
+Dialogue: 0,0:21:42.81,0:21:45.62,BGS,NTP,0,0,0,,{\a3}变质 LCL 的样本第一时间送回总部
+Dialogue: 0,0:21:46.09,0:21:47.77,BGS,NTP,0,0,0,,{\a1}对附着的生物部分进行销毁
+Dialogue: 0,0:21:48.12,0:21:48.90,BGS,NTP,0,0,0,,{\a1}准备热处理
+Dialogue: 0,0:21:47.73,0:21:48.24,Default,NTP,0,0,0,,{\fad(50,50)}冬二
+Dialogue: 0,0:21:49.78,0:21:50.81,Default,NTP,0,0,0,,{\fad(50,50)}真嗣
+Dialogue: 0,0:21:51.81,0:21:53.05,Default,NTP,0,0,0,,{\fad(50,50)}真嗣
+Dialogue: 0,0:21:53.58,0:21:54.62,Default,NTP,0,0,0,,{\fad(50,50)\fs32}真嗣
+Dialogue: 0,0:21:55.46,0:21:56.55,Default,NTP,0,0,0,,{\fad(50,50)\fs34}真嗣
+Dialogue: 0,0:21:56.99,0:21:57.64,Default,NTP,0,0,0,,{\fad(50,50)\fs38}真嗣
+Dialogue: 0,0:23:07.05,0:23:10.23,Default,NTP,0,0,0,,{\fad(50,50)}真嗣终于按照自己的意愿离开了 EVA
+Dialogue: 0,0:23:10.63,0:23:12.86,Default,NTP,0,0,0,,{\fad(50,50)}可是，无关乎他的意愿
+Dialogue: 0,0:23:12.94,0:23:15.75,Default,NTP,0,0,0,,{\fad(50,50)}进攻而来的最强使徒，却造成了下一个惨剧
+Dialogue: 0,0:23:16.53,0:23:18.36,Default,NTP,0,0,0,,{\fad(50,50)}下回　男子汉的战斗

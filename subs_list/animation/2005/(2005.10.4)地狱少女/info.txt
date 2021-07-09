@@ -1,0 +1,5 @@
+﻿chs: 地狱少女
+cht: 地獄少女
+jp: 地獄少女
+en: Hell Girl
+rome: Jigoku Shoujo

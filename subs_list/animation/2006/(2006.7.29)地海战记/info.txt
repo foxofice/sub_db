@@ -1,0 +1,5 @@
+﻿chs: 地海战记
+cht: 地海戰記
+jp: ゲド戦記 TALES from EARTHSEA
+en: TALES from EARTHSEA
+rome: Ged Senki: Tales from Earthsea

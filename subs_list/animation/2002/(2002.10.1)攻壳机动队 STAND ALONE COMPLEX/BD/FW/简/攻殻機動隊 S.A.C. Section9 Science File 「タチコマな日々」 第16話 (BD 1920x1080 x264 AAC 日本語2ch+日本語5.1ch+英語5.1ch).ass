@@ -1,0 +1,26 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-26 01:52:52
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:18.65,0:00:20.95,SP,NTP,0000,0000,0000,,（塔奇克马式的日常生活播放完毕）\N（感谢您长期以来的支持）
+Dialogue: 0,0:00:21.29,0:00:22.35,SP,NTP,0000,0000,0000,,（下次开始就是）
+Dialogue: 0,0:00:27.03,0:00:28.39,SP,NTP,0000,0000,0000,,（盛大的场面！）
+Dialogue: 0,0:00:31.37,0:00:32.73,SP,NTP,0000,0000,0000,,（华丽的动作！！）
+Dialogue: 0,0:00:36.24,0:00:38.14,SP,NTP,0000,0000,0000,,（甜蜜的罗曼史！）
+Dialogue: 0,0:00:38.27,0:00:41.50,SP,NTP,0000,0000,0000,,（将播出：詹姆森社长的大冒险）

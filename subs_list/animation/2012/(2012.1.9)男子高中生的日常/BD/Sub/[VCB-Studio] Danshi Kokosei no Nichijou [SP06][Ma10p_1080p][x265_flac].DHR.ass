@@ -1,0 +1,52 @@
+﻿[Script Info]
+;本字幕文件用 SrtEdit MPC播放版 Version 5.2 编辑制作
+;Unicode SrtEdit Copyright(C) 2005-2009 袁卫国
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,華康方圓體W7(P),47,&H00FFFFFF,&HF0000000,&H0FC24300,&H96000000,0,0,0,0,100,100,0,0,1,5,2,2,10,10,20,1
+Style: Title,華康海報體W12(P),40,&H00FFFFFF,&H000000FF,&H64AE2E95,&H96000000,0,0,0,0,100,100,0,0,1,4,3,2,10,10,10,1
+Style: STAFF,華康儷中黑(P),28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.78,0:00:11.52,Title,,0000,0000,0000,,{\blur12\fs60\fad(750,750)\shad0\1a&H01&\3a&H01&\pos(389,197)\3c&HDA57ED&}男子高中生与顾虑
+Dialogue: 0,0:00:45.48,0:00:47.14,Default,,0000,0000,0000,,听到了…吗
+Dialogue: 0,0:00:47.63,0:00:49.34,Default,,0000,0000,0000,,不 肯定没事的
+Dialogue: 0,0:00:49.47,0:00:51.89,Default,,0000,0000,0000,,装作什么事都没发生过去就好了
+Dialogue: 0,0:00:56.17,0:00:57.52,Default,,0000,0000,0000,,听到了啊
+Dialogue: 0,0:00:58.01,0:01:01.57,Default,,0000,0000,0000,,虽然我也不知道对方为什么要唱歌
+Dialogue: 0,0:01:01.84,0:01:04.57,Default,,0000,0000,0000,,但我知道对方在顾虑我
+Dialogue: 0,0:01:04.90,0:01:08.25,Default,,0000,0000,0000,,但是真希望他装作什么都没听到样子…
+Dialogue: 0,0:01:19.31,0:01:20.93,Default,,0000,0000,0000,,糟了
+Dialogue: 0,0:01:20.93,0:01:23.10,Default,,0000,0000,0000,,发出了很大的声音啊
+Dialogue: 0,0:01:23.67,0:01:24.98,Default,,0000,0000,0000,,好害羞
+Dialogue: 0,0:01:25.49,0:01:28.37,Default,,0000,0000,0000,,停下 停下 别慌
+Dialogue: 0,0:01:28.48,0:01:33.74,Default,,0000,0000,0000,,电车里都是噪音 肚子发出的声音应该不会被察觉到
+Dialogue: 0,0:01:33.87,0:01:35.64,Default,,0000,0000,0000,,装作没事就好了
+Dialogue: 0,0:01:40.90,0:01:44.16,Default,,0000,0000,0000,,在干嘛啊 话说怎么又是你啊
+Dialogue: 0,0:01:44.49,0:01:49.61,Default,,0000,0000,0000,,是想说明刚才的声音是你发出来的 想要袒护我吗
+Dialogue: 0,0:01:49.90,0:01:52.05,Default,,0000,0000,0000,,虽然有这份心我很高兴…
+Dialogue: 0,0:01:52.14,0:01:54.31,Default,,0000,0000,0000,,但是只要安静点就没事了啊
+Dialogue: 0,0:01:54.31,0:01:56.75,Default,,0000,0000,0000,,别给我越帮越忙啊
+Dialogue: 0,0:02:03.31,0:02:04.44,Default,,0000,0000,0000,,好害羞
+Dialogue: 0,0:02:04.70,0:02:07.76,Default,,0000,0000,0000,,一紧张下错站了
+Dialogue: 0,0:02:33.88,0:02:36.91,Default,,0000,0000,0000,,为什么不拉我一下啊
+Dialogue: 0,0:02:36.92,0:02:39.96,STAFF,,0000,0000,0000,,{\fad(800,0)\pos(248,683)}翻译：牧瀬氏 其他：水姬
+Dialogue: 0,0:02:39.96,0:02:41.96,Default,,0000,0000,0000,,

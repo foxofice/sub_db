@@ -1,0 +1,5 @@
+﻿chs: 王立宇宙军 欧尼亚米斯之翼
+cht: 王立宇宙軍 歐妮亞米斯之翼
+jp: 王立宇宙軍 オネアミスの翼
+en: Royal Space Force: The Wings of Honneamise
+rome: Ouritsu Uchuugun: Honneamise no Tsubasa

@@ -1,0 +1,5 @@
+﻿chs: 机动警察 东京毁灭战
+cht: 機動警察 東京毀滅戰 
+jp: 機動警察パトレイバー the Movie
+en: Patlabor the Movie
+rome: Kidou Keisatsu Patlabor

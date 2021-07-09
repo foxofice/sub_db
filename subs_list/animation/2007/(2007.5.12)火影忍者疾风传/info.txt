@@ -1,0 +1,5 @@
+﻿chs: 火影忍者疾风传
+cht: 火影忍者疾風傳
+jp: NARUTO 疾風伝
+en: Naruto Shippuuden
+rome: Naruto Shippuuden

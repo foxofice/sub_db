@@ -1,0 +1,34 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 15:04:05
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.71,0:00:10.77,SP,NTP,0000,0000,0000,,这…这…这是肃清的开端！
+Dialogue: 0,0:00:11.91,0:00:13.81,SP,NTP,0000,0000,0000,,喂…冷静点  吵死了！
+Dialogue: 0,0:00:13.81,0:00:14.90,SP,NTP,0000,0000,0000,,给你死！
+Dialogue: 0,0:00:15.95,0:00:19.18,SP,NTP,0000,0000,0000,,哇～他被七尾的病毒感染了
+Dialogue: 0,0:00:19.18,0:00:20.31,SP,NTP,0000,0000,0000,,要肃清了
+Dialogue: 0,0:00:25.62,0:00:28.32,SP,NTP,0000,0000,0000,,这是什么啊　不妙…不妙…
+Dialogue: 0,0:00:28.73,0:00:29.85,SP,NTP,0000,0000,0000,,肃清！
+Dialogue: 0,0:00:32.46,0:00:34.87,SP,NTP,0000,0000,0000,,大人饶命啊！
+Dialogue: 0,0:00:34.87,0:00:36.80,SP,NTP,0000,0000,0000,,你认为这样求饶有用吗？
+Dialogue: 0,0:00:40.57,0:00:41.87,SP,NTP,0000,0000,0000,,反击！
+Dialogue: 0,0:00:43.41,0:00:45.78,SP,NTP,0000,0000,0000,,这个家伙  肃清
+Dialogue: 0,0:00:47.98,0:00:51.12,SP,NTP,0000,0000,0000,,反击  反击  反击
+Dialogue: 0,0:00:51.12,0:00:52.28,SP,NTP,0000,0000,0000,,肃清  肃清
+Dialogue: 0,0:00:52.89,0:00:56.62,SP,NTP,0000,0000,0000,,反击…肃清…

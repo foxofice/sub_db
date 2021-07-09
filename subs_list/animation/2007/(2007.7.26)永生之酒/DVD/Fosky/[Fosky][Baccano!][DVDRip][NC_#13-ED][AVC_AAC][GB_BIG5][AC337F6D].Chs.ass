@@ -1,0 +1,75 @@
+﻿[Script Info]
+
+Script Type: V4.00+
+ScriptType: V4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 100.000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+;=== Baccano! 不死之酒 DVDRip作品 ASS字幕外挂发布讯息 ===
+;字幕版本使用灵风工作室TV连载字幕
+;其他团体请勿私自作为自己的作品发布 谢谢
+;参与制作人员
+;翻译：oyo
+;校对：叶子
+;时轴：nolicier     
+;特效：Argge
+;捏他：小旁
+;DVDRip&后期：ZilcH「力」
+;本片仅限试看之用 禁止用于任何商业行为 并请于下载后24小时内删除 如您喜欢本作品 请支持购买正版 若因私自散布传播造成法律问题 灵风工作室概不负责! 
+Style: Default,SimHei,25,&H00FFFFFF,&H00808080,&H005A5A2E,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,0,2,10,10,5,1
+Style: Default2,SimHei,23,&H00FFFFFF,&H00808080,&H005A5A2E,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,0,8,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:01.20,0:00:04.30,Default,NTP,0000,0000,0000,,为庆祝新干部的诞生
+Dialogue: 0,0:00:04.82,0:00:05.74,Default,NTP,0000,0000,0000,,干杯
+Dialogue: 0,0:00:05.95,0:00:07.46,Default,NTP,0000,0000,0000,,干杯
+Dialogue: 0,0:00:07.69,0:00:09.23,Default,NTP,0000,0000,0000,,来来来 请用
+Dialogue: 0,0:00:09.93,0:00:10.56,Default,NTP,0000,0000,0000,,请用
+Dialogue: 0,0:00:10.60,0:00:11.42,Default,NTP,0000,0000,0000,,请用
+Dialogue: 0,0:00:14.07,0:00:17.17,Default,NTP,0000,0000,0000,,我们被请来参加这么丰盛的宴会了啊
+Dialogue: 0,0:00:17.36,0:00:18.98,Default,NTP,0000,0000,0000,,只是个见面礼吧
+Dialogue: 0,0:00:35.86,0:00:38.57,Default,NTP,0000,0000,0000,,Grad 这样就行了吧
+Dialogue: 0,0:00:43.44,0:00:44.81,Default,NTP,0000,0000,0000,,他察觉到了吧
+Dialogue: 0,0:00:45.41,0:00:47.15,Default,NTP,0000,0000,0000,,我最终还是没能阻止
+Dialogue: 0,0:00:47.85,0:00:49.55,Default,NTP,0000,0000,0000,,我们会一直活下去
+Dialogue: 0,0:00:50.02,0:00:52.68,Default,NTP,0000,0000,0000,,下意识中我就这么觉得
+Dialogue: 0,0:00:54.37,0:00:55.31,Default,NTP,0000,0000,0000,,算了
+Dialogue: 0,0:01:02.27,0:01:03.61,Default,NTP,0000,0000,0000,,我在曼哈顿等你
+Dialogue: 0,0:01:04.69,0:01:06.33,Default,NTP,0000,0000,0000,,我会永远等下去
+Dialogue: 0,0:01:07.09,0:01:09.69,Default,NTP,0000,0000,0000,,请你 请你来找我吧
+Dialogue: 0,0:01:10.61,0:01:12.34,Default,NTP,0000,0000,0000,,我也会去找你
+Dialogue: 0,0:01:13.35,0:01:16.52,Default,NTP,0000,0000,0000,,虽说是曼哈顿 但范围也太大了
+Dialogue: 0,0:01:17.01,0:01:19.32,Default,NTP,0000,0000,0000,,而且 还没把我的名字告诉她呢
+Dialogue: 0,0:01:20.22,0:01:24.14,Default,NTP,0000,0000,0000,,算了 虽说还要等我还清了Gandor兄弟的人情之后
+Dialogue: 0,0:01:25.25,0:01:27.67,Default,NTP,0000,0000,0000,,我一定会去找你
+Dialogue: 0,0:02:05.66,0:02:08.78,Default,NTP,0000,0000,0000,,这样就能拯救很多小孩了啊 Miria
+Dialogue: 0,0:02:09.35,0:02:11.56,Default,NTP,0000,0000,0000,,那可是毒电波啊 Isaac
+Dialogue: 0,0:02:13.25,0:02:15.95,Default,NTP,0000,0000,0000,,据英国圣诞老人说
+Dialogue: 0,0:02:16.13,0:02:19.24,Default,NTP,0000,0000,0000,,由于手机电波 家庭交流变少
+Dialogue: 0,0:02:19.49,0:02:23.02,Default,NTP,0000,0000,0000,,小孩沉迷于电脑 爸爸在搞外遇
+Dialogue: 0,0:02:23.31,0:02:25.94,Default,NTP,0000,0000,0000,,妈妈出去工作
+Dialogue: 0,0:02:26.46,0:02:27.91,Default,NTP,0000,0000,0000,,家庭破裂啊
+Dialogue: 0,0:02:28.08,0:02:31.61,Default,NTP,0000,0000,0000,,是啊 所以我们要阻止它啊
+Dialogue: 0,0:02:31.92,0:02:33.53,Default,NTP,0000,0000,0000,,这就是对策吧
+Dialogue: 0,0:02:36.29,0:02:37.44,Default,NTP,0000,0000,0000,,话说回来 Miria
+Dialogue: 0,0:02:37.82,0:02:39.32,Default,NTP,0000,0000,0000,,什么 Isaac
+Dialogue: 0,0:02:40.18,0:02:44.13,Default,NTP,0000,0000,0000,,我觉得我们没有变老
+Dialogue: 0,0:02:44.52,0:02:45.29,Default,NTP,0000,0000,0000,,难道是错觉吗
+Dialogue: 0,0:02:55.05,0:02:58.06,Default,NTP,0000,0000,0000,,啊~~ 真的啊
+Dialogue: 0,0:02:58.46,0:02:59.96,Default,NTP,0000,0000,0000,,Miria
+Dialogue: 0,0:03:00.16,0:03:02.13,Default,NTP,0000,0000,0000,,Isaac
+Dialogue: 0,0:03:03.49,0:03:05.47,Default,NTP,0000,0000,0000,,虽说不知道为什么会变成这样
+Dialogue: 0,0:03:05.77,0:03:09.45,Default,NTP,0000,0000,0000,,难道我们经常再生吗
+Dialogue: 0,0:03:09.62,0:03:10.67,Default,NTP,0000,0000,0000,,重生啊
+Dialogue: 0,0:03:10.78,0:03:12.64,Default,NTP,0000,0000,0000,,每天都是生日啊
+Dialogue: 0,0:03:12.82,0:03:14.51,Default,NTP,0000,0000,0000,,那就得庆祝了啊
+Dialogue: 0,0:03:14.68,0:03:16.68,Default,NTP,0000,0000,0000,,把大家叫上 每天都开Party呀
+Dialogue: 0,0:03:17.85,0:03:21.58,Default,NTP,0000,0000,0000,,Isaac 生日快乐

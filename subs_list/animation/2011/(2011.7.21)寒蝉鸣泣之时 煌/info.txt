@@ -1,0 +1,5 @@
+﻿chs: 寒蝉鸣泣之时 煌
+cht: 寒蟬鳴泣之時 煌/暮蟬悲鳴時 煌
+jp: ひぐらしのなく頃に煌
+en: Higurashi no Naku Koro ni Kira
+rome: Higurashi no Naku Koro ni Kira

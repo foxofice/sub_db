@@ -1,0 +1,79 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,7,7,7,1
+Style: ZW,方正准圆_GBK,47,&H14FFFFFF,&H000000FF,&H00000000,&HFF000000,-1,0,0,0,100,100,1,0,1,1,2,2,13,13,27,1
+Style: ZWXX2,方正准圆_GBK,37,&H14FFFFFF,&H000000FF,&H00000000,&HFF000000,-1,0,0,0,100,100,1,0,1,1,2,1,13,13,8,1
+Style: Title,方正准圆_GBK,60,&H00F9FFF5,&H00E39FE6,&H00D68DD7,&H00E599EC,0,0,0,0,100,100,0,0,1,0,1,1,96,10,277,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:03.46,ZWXX2,,0,0,0,,{\an8\fs30}手抄：D.賊子  時軸：消逝的精靈  校對：89 KSC  後期：FM
+Dialogue: 0,0:00:00.06,0:00:05.02,Title,,0,0,0,,{\fad(1900,0)\c&H1F138F&\4c&H1F138F&\frz6\pos(180,480)}小紅帽{\c&HA660A8&\4c&HA660A8&}森林{\c&H9A4521&\4c&H9A4521&}大冒險
+Dialogue: 0,0:00:10.02,0:00:15.65,ZW,,0,0,0,,我是可愛的小紅帽的說
+Dialogue: 0,0:00:16.61,0:00:18.91,ZW,,0,0,0,,我現在正要
+Dialogue: 0,0:00:19.28,0:00:26.41,ZW,,0,0,0,,{\fs30\pos(535,645)}buche de noel gateau chocolat
+Dialogue: 0,0:00:19.28,0:00:26.41,ZW,,0,0,0,,把巧克力奶油樹幹蛋糕送到外婆那去
+Dialogue: 0,0:00:26.62,0:00:28.54,ZW,,0,0,0,,啊 那個是
+Dialogue: 0,0:00:29.54,0:00:31.42,ZW,,0,0,0,,真傷腦筋啊
+Dialogue: 0,0:00:32.71,0:00:40.22,ZW,,0,0,0,,冬…冬眠前的熊如果不吃飽的話是不行的哦
+Dialogue: 0,0:00:40.93,0:00:45.02,ZW,,0,0,0,,對不起 所以要吃掉你
+Dialogue: 0,0:00:45.52,0:00:48.14,ZW,,0,0,0,,噶吼…
+Dialogue: 0,0:00:49.85,0:00:53.78,ZW,,0,0,0,,不行的啦 現在裝死也沒用啦
+Dialogue: 0,0:00:54.53,0:00:56.11,ZW,,0,0,0,,請等一下 熊先生
+Dialogue: 0,0:00:56.57,0:00:57.45,ZW,,0,0,0,,怒 怒
+Dialogue: 0,0:00:58.03,0:01:02.87,ZW,,0,0,0,,就是知道你很餓 所以我們才分給你重要的蜂蜜
+Dialogue: 0,0:01:03.08,0:01:03.91,ZW,,0,0,0,,怒 怒
+Dialogue: 0,0:01:04.45,0:01:07.71,ZW,,0,0,0,,但是 竟然要把可愛的小紅帽吃掉什麼的
+Dialogue: 0,0:01:08.16,0:01:10.00,ZW,,0,0,0,,太過分了哦 怒 怒
+Dialogue: 0,0:01:10.79,0:01:13.13,ZW,,0,0,0,,就是 蹦 真過分 蹦
+Dialogue: 0,0:01:13.84,0:01:16.34,ZWXX2,,0,0,0,,{\an8\fs30}*日語中可愛和可憐諧音 這裏玩了冷笑話
+Dialogue: 0,0:01:13.84,0:01:16.34,ZW,,0,0,0,,可愛的小紅帽可真可憐 蹦
+Dialogue: 0,0:01:17.13,0:01:19.38,ZW,,0,0,0,,要是真的那麼餓的話
+Dialogue: 0,0:01:19.93,0:01:21.97,ZW,,0,0,0,,就由我來代替她吧 蹦
+Dialogue: 0,0:01:22.85,0:01:24.64,ZW,,0,0,0,,再 再露就不行了！
+Dialogue: 0,0:01:25.43,0:01:30.02,ZW,,0,0,0,,那…那樣的話就讓我來代替…撲騰撲騰
+Dialogue: 0,0:01:30.98,0:01:35.61,ZW,,0,0,0,,順便一提 我是逆流而上的鮭魚 撲騰撲騰
+Dialogue: 0,0:01:36.98,0:01:41.91,ZW,,0,0,0,,所以 請你把我吃掉吧
+Dialogue: 0,0:01:45.74,0:01:49.58,ZW,,0,0,0,,啊 為什麼大家都那麼善良呢
+Dialogue: 0,0:01:50.42,0:01:53.84,ZW,,0,0,0,,與此相對 我卻只考慮著自己的事
+Dialogue: 0,0:01:54.71,0:01:56.17,ZW,,0,0,0,,我真是個壞孩子
+Dialogue: 0,0:01:58.01,0:01:59.59,ZW,,0,0,0,,沒有這回事
+Dialogue: 0,0:02:00.34,0:02:02.84,ZW,,0,0,0,,你可是個心地善良的熊先生啊
+Dialogue: 0,0:02:03.60,0:02:07.52,ZW,,0,0,0,,對了 大家要不要一起去奶奶家呢
+Dialogue: 0,0:02:08.22,0:02:11.48,ZW,,0,0,0,,那裏有暖暖的湯 暖暖的床
+Dialogue: 0,0:02:12.23,0:02:15.98,ZW,,0,0,0,,就算冬天 也有很多可以果腹的東西
+Dialogue: 0,0:02:18.94,0:02:20.86,ZW,,0,0,0,,就這樣森林的夥伴們
+Dialogue: 0,0:02:21.36,0:02:22.99,ZW,,0,0,0,,一起向著奶奶的家出發
+Dialogue: 0,0:02:23.66,0:02:27.74,ZW,,0,0,0,,他們會過一個溫暖 快樂又幸福的冬天
+Dialogue: 0,0:02:28.37,0:02:30.16,ZW,,0,0,0,,恭喜 恭喜
+Dialogue: 0,0:02:31.79,0:02:39.05,ZW,,0,0,0,,結束
+Dialogue: 0,0:02:45.97,0:02:47.89,ZW,,0,0,0,,拍攝得很好呢 紗江醬
+Dialogue: 0,0:02:48.26,0:02:49.39,ZW,,0,0,0,,是的 監督
+Dialogue: 0,0:02:50.93,0:02:53.02,ZW,,0,0,0,,靈感一個接一個地冒出來了
+Dialogue: 0,0:02:53.81,0:02:55.73,ZW,,0,0,0,,我們趕快開拍第二段吧 紗江醬
+Dialogue: 0,0:02:56.27,0:02:57.48,ZW,,0,0,0,,是 監督
+Dialogue: 0,0:02:58.19,0:02:59.53,ZW,,0,0,0,,就這樣 這兩個人
+Dialogue: 0,0:03:00.07,0:03:04.16,ZW,,0,0,0,,火熱的…呃…愉快地…幸福地在一起了
+Dialogue: 0,0:03:04.66,0:03:06.28,ZW,,0,0,0,,可喜可賀 可喜可賀
+Dialogue: 0,0:03:06.28,0:03:08.28,Default,,0,0,0,,
+

@@ -1,0 +1,31 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 20:42:43
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.63,0:00:09.22,SP,NTP,0000,0000,0000,,把这个散布到敌方阵地去
+Dialogue: 0,0:00:09.97,0:00:11.90,SP,NTP,0000,0000,0000,,这次可是最棒、最够劲的喔
+Dialogue: 0,0:00:13.10,0:00:14.14,SP,NTP,0000,0000,0000,,把这个…
+Dialogue: 0,0:00:14.14,0:00:15.93,SP,NTP,0000,0000,0000,,「散布」出去就可以了吧
+Dialogue: 0,0:00:16.37,0:00:17.81,SP,NTP,0000,0000,0000,,要丢了喔
+Dialogue: 0,0:00:18.84,0:00:20.04,SP,NTP,0000,0000,0000,,又来了
+Dialogue: 0,0:00:20.68,0:00:22.11,SP,NTP,0000,0000,0000,,这真是太没道理了啦
+Dialogue: 0,0:00:22.78,0:00:23.38,SP,NTP,0000,0000,0000,,就是现在
+Dialogue: 0,0:00:23.38,0:00:25.31,SP,NTP,0000,0000,0000,,漂亮地跳跃接杀！
+Dialogue: 0,0:00:35.26,0:00:37.69,SP,NTP,0000,0000,0000,,咦…为什么呢？
+Dialogue: 0,0:00:38.03,0:00:42.36,SP,NTP,0000,0000,0000,,你在我丢之前就先跑了。偷跑！丧失资格！

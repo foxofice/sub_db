@@ -1,0 +1,5 @@
+﻿chs: 天才麻将少女
+cht: 天才麻將少女
+jp: 咲
+en: Saki
+rome: Saki

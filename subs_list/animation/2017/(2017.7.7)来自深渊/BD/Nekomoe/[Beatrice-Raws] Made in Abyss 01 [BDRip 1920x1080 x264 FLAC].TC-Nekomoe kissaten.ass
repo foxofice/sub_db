@@ -1,0 +1,392 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Made in Abyss,FZZhunYuan-M02,47,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,15,1
+Style: Made in Abyss - EDCH,FZZhunYuan-M02,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,25,10,15,1
+Style: Made in Abyss - EDJP,DFPMaruGothic_U-Bd,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,25,10,15,1
+Style: Made in Abyss - OPCH,FZLanTingHei-M-GBK,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,25,25,25,1
+Style: Made in Abyss - OPJP,DFHSGothicG-W5,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,25,25,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.27,0:00:05.66,Made in Abyss,,0,0,0,,等等 納多
+Dialogue: 0,0:00:05.69,0:00:07.31,Made in Abyss,,0,0,0,,你為什麼要跟來
+Dialogue: 0,0:00:07.45,0:00:08.87,Made in Abyss,,0,0,0,,你真煩
+Dialogue: 0,0:00:09.10,0:00:11.36,Made in Abyss,,0,0,0,,我負責的區域就在莉可你的正上方啊
+Dialogue: 0,0:00:11.60,0:00:13.58,Made in Abyss,,0,0,0,,說起來確實是…
+Dialogue: 0,0:00:18.44,0:00:21.55,Made in Abyss,,0,0,0,,那回去時要幫我搬運遺物啊
+Dialogue: 0,0:00:21.88,0:00:23.00,Made in Abyss,,0,0,0,,憑什麼啊
+Dialogue: 0,0:00:23.79,0:00:25.06,Made in Abyss,,0,0,0,,因為今天…
+Dialogue: 0,0:00:25.45,0:00:29.14,Made in Abyss,,0,0,0,,我要當赤笛中審核量最高的人
+Dialogue: 0,0:00:29.40,0:00:30.53,Made in Abyss,,0,0,0,,不可能的吧
+Dialogue: 0,0:00:32.43,0:00:34.69,Made in Abyss,,0,0,0,,這片區域大部分已經被搜查過了
+Dialogue: 0,0:00:35.10,0:00:37.24,Made in Abyss,,0,0,0,,已經沒什麼稀罕物了
+Dialogue: 0,0:00:38.08,0:00:39.88,Made in Abyss,,0,0,0,,那就以多取勝吧
+Dialogue: 0,0:00:40.43,0:00:41.91,Made in Abyss,,0,0,0,,那樣好嗎
+Dialogue: 0,0:00:44.33,0:00:45.92,Made in Abyss,,0,0,0,,拿之前那東西充數怎麼樣
+Dialogue: 0,0:00:46.14,0:00:47.53,Made in Abyss,,0,0,0,,你之前偷偷藏起來的…
+Dialogue: 0,0:00:48.04,0:00:49.26,Made in Abyss,,0,0,0,,星之羅盤嗎
+Dialogue: 0,0:00:49.76,0:00:50.81,Made in Abyss,,0,0,0,,那個不行
+Dialogue: 0,0:00:51.21,0:00:54.73,Made in Abyss,,0,0,0,,那個是指引我們發現深淵真相的東西
+Dialogue: 0,0:00:55.27,0:00:57.94,Made in Abyss,,0,0,0,,但是如果私藏的事被發現的話
+Dialogue: 0,0:00:58.40,0:01:00.41,Made in Abyss,,0,0,0,,這次就不只是被裸吊起來這麼簡單了
+Dialogue: 0,0:01:01.39,0:01:03.64,Made in Abyss,,0,0,0,,少女的心理陰影啊
+Dialogue: 0,0:01:03.88,0:01:05.37,Made in Abyss,,0,0,0,,總之小心點吧
+Dialogue: 0,0:01:07.40,0:01:08.86,Made in Abyss,,0,0,0,,啊 大吊籃
+Dialogue: 0,0:01:11.41,0:01:12.72,Made in Abyss,,0,0,0,,納多 快看
+Dialogue: 0,0:01:12.86,0:01:14.56,Made in Abyss,,0,0,0,,那個是600公尺組的
+Dialogue: 0,0:01:14.61,0:01:15.81,Made in Abyss,,0,0,0,,我知道啊
+Dialogue: 0,0:01:18.43,0:01:20.44,Made in Abyss,,0,0,0,,啊 已經看不到了
+Dialogue: 0,0:01:21.13,0:01:23.45,Made in Abyss,,0,0,0,,真好 我也想坐坐看
+Dialogue: 0,0:01:24.08,0:01:26.66,Made in Abyss,,0,0,0,,吶 今天是不是有點太安靜了
+Dialogue: 0,0:01:27.42,0:01:29.36,Made in Abyss,,0,0,0,,是不是沒有錘嘴鳥的緣故
+Dialogue: 0,0:01:29.87,0:01:31.60,Made in Abyss,,0,0,0,,完全聽不到叫聲
+Dialogue: 0,0:01:32.27,0:01:33.05,Made in Abyss,,0,0,0,,真的
+Dialogue: 0,0:01:33.62,0:01:35.20,Made in Abyss,,0,0,0,,隨便了 聽不見也好辦事
+Dialogue: 0,0:01:35.48,0:01:38.15,Made in Abyss,,0,0,0,,那些傢伙會把發光的東西帶回巢穴
+Dialogue: 0,0:01:39.88,0:01:40.51,Made in Abyss,,0,0,0,,等等
+Dialogue: 0,0:01:40.51,0:01:42.41,Made in Abyss,,0,0,0,,你怎麼走我前面去了
+Dialogue: 0,0:01:42.49,0:01:43.95,Made in Abyss,,0,0,0,,我才是領頭的
+Dialogue: 0,0:01:44.44,0:01:45.47,Made in Abyss,,0,0,0,,啊
+Dialogue: 0,0:01:51.13,0:01:53.96,Made in Abyss,,0,0,0,,今天要挖個痛快
+Dialogue: 0,0:01:55.82,0:02:00.83,Made in Abyss,,0,0,0,,讓隊長也無話可說
+Dialogue: 0,0:02:04.33,0:02:05.82,Made in Abyss,,0,0,0,,上吧
+Dialogue: 0,0:02:06.04,0:02:07.28,Made in Abyss,,0,0,0,,要拿審核第一
+Dialogue: 0,0:02:13.91,0:02:14.75,Made in Abyss,,0,0,0,,一個
+Dialogue: 0,0:02:17.51,0:02:18.23,Made in Abyss,,0,0,0,,兩個
+Dialogue: 0,0:02:22.96,0:02:23.70,Made in Abyss,,0,0,0,,三個
+Dialogue: 0,0:02:24.64,0:02:26.46,Made in Abyss,,0,0,0,,四個
+Dialogue: 0,0:02:26.85,0:02:28.24,Made in Abyss,,0,0,0,,五個
+Dialogue: 0,0:02:34.36,0:02:35.77,Made in Abyss,,0,0,0,,在祈禱的遺骨
+Dialogue: 0,0:02:36.55,0:02:38.97,Made in Abyss,,0,0,0,,很久沒看到了 嚇我一跳
+Dialogue: 0,0:02:39.61,0:02:41.27,Made in Abyss,,0,0,0,,抱歉打擾你長眠了
+Dialogue: 0,0:02:43.13,0:02:45.14,Made in Abyss,,0,0,0,,我還是挺能幹的嘛
+Dialogue: 0,0:02:46.51,0:02:50.73,Made in Abyss,,0,0,0,,照這樣升到600公尺組也是遲早的事
+Dialogue: 0,0:02:53.03,0:02:53.80,Made in Abyss,,0,0,0,,好重
+Dialogue: 0,0:02:54.40,0:02:56.24,Made in Abyss,,0,0,0,,喂 納多
+Dialogue: 0,0:02:56.47,0:02:58.05,Made in Abyss,,0,0,0,,快來幫幫我
+Dialogue: 0,0:02:59.96,0:03:00.89,Made in Abyss,,0,0,0,,真沉啊
+Dialogue: 0,0:03:01.19,0:03:02.61,Made in Abyss,,0,0,0,,他人去哪了
+Dialogue: 0,0:03:03.64,0:03:05.68,Made in Abyss,,0,0,0,,納多那傢伙
+Dialogue: 0,0:03:13.06,0:03:14.43,Made in Abyss,,0,0,0,,血蛇
+Dialogue: 0,0:03:15.34,0:03:16.94,Made in Abyss,,0,0,0,,為什麼在這麼淺的地方會遇到
+Dialogue: 0,0:03:21.76,0:03:22.37,Made in Abyss,,0,0,0,,納多
+Dialogue: 0,0:03:23.01,0:03:24.71,Made in Abyss,,0,0,0,,不好 那是血吧
+Dialogue: 0,0:03:26.93,0:03:27.59,Made in Abyss,,0,0,0,,怎麼辦
+Dialogue: 0,0:03:29.09,0:03:32.06,Made in Abyss,,0,0,0,,納多要…被吃掉了
+Dialogue: 0,0:03:40.52,0:03:41.17,Made in Abyss,,0,0,0,,不好
+Dialogue: 0,0:03:52.42,0:03:53.12,Made in Abyss,,0,0,0,,手臂…
+Dialogue: 0,0:03:53.64,0:03:55.67,Made in Abyss,,0,0,0,,沒斷
+Dialogue: 0,0:03:56.85,0:03:57.37,Made in Abyss,,0,0,0,,納多
+Dialogue: 0,0:04:36.41,0:04:37.99,Made in Abyss,,0,0,0,,誰來救我
+Dialogue: 0,0:05:08.50,0:05:09.59,Made in Abyss,,0,0,0,,好厲害
+Dialogue: 0,0:05:09.87,0:05:11.57,Made in Abyss,,0,0,0,,化石之樹竟然融化了
+Dialogue: 0,0:05:12.45,0:05:15.48,Made in Abyss,,0,0,0,,我是被誰給救了嗎
+Dialogue: 0,0:05:24.17,0:05:24.93,Made in Abyss,,0,0,0,,好漂亮
+Dialogue: 0,0:05:46.57,0:05:47.76,Made in Abyss,,0,0,0,,喂喂
+Dialogue: 0,0:05:49.81,0:05:51.23,Made in Abyss,,0,0,0,,不是吧 沒有呼吸了
+Dialogue: 0,0:05:51.41,0:05:52.41,Made in Abyss,,0,0,0,,趕緊人工呼吸
+Dialogue: 0,0:06:04.95,0:06:06.29,Made in Abyss,,0,0,0,,這個觸感是怎麼回事
+Dialogue: 0,0:06:09.08,0:06:10.96,Made in Abyss,,0,0,0,,他不是人
+Dialogue: 0,0:06:11.60,0:06:13.04,Made in Abyss,,0,0,0,,機…機器
+Dialogue: 0,0:06:14.58,0:06:15.70,Made in Abyss,,0,0,0,,好厲害
+Dialogue: 0,0:06:16.38,0:06:17.70,Made in Abyss,,0,0,0,,還是第一次見
+Dialogue: 0,0:06:18.42,0:06:19.59,Made in Abyss,,0,0,0,,還有些溫熱
+Dialogue: 0,0:06:20.08,0:06:21.83,Made in Abyss,,0,0,0,,之前還在動的吧
+Dialogue: 0,0:06:31.60,0:06:34.51,Made in Abyss,,0,0,0,,但是這孩子是從哪裡來的
+Dialogue: 0,0:08:18.93,0:08:22.94,Made in Abyss,,0,0,0,,{\fad(0,0)\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs40\an8}本字幕由喵萌奶茶屋製作 如喜歡用支持正版 謝謝合作
+Dialogue: 0,0:08:18.93,0:08:22.94,Made in Abyss,,0,0,0,,{\fad(0,0)\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs40}翻譯：chapa 大助 校對：ZTR 時軸：夕兒 後期：飛翔 繁化：風風
+Dialogue: 0,0:08:18.93,0:08:22.94,Made in Abyss,,0,0,0,,{\fad(0,0)\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs80\pos(630.4,567.4)}巨穴之城
+Dialogue: 0,0:08:23.90,0:08:25.32,Made in Abyss,,0,0,0,,謝謝
+Dialogue: 0,0:08:27.95,0:08:29.28,Made in Abyss,,0,0,0,,好 納多
+Dialogue: 0,0:08:29.37,0:08:30.24,Made in Abyss,,0,0,0,,還差一點就到了
+Dialogue: 0,0:08:30.32,0:08:31.28,Made in Abyss,,0,0,0,,笨蛋
+Dialogue: 0,0:08:31.30,0:08:32.98,Made in Abyss,,0,0,0,,等一下才是最要命的
+Dialogue: 0,0:08:33.43,0:08:34.16,Made in Abyss,,0,0,0,,怎麼了
+Dialogue: 0,0:08:37.47,0:08:38.96,Made in Abyss,,0,0,0,,原來是西吉啊
+Dialogue: 0,0:08:39.35,0:08:40.93,Made in Abyss,,0,0,0,,嚇我一大跳
+Dialogue: 0,0:08:42.06,0:08:42.59,Made in Abyss,,0,0,0,,他是誰
+Dialogue: 0,0:08:42.93,0:08:43.81,Made in Abyss,,0,0,0,,我不知道
+Dialogue: 0,0:08:44.40,0:08:46.64,Made in Abyss,,0,0,0,,姑且叫他機器君吧
+Dialogue: 0,0:08:47.18,0:08:47.53,Made in Abyss,,0,0,0,,咦
+Dialogue: 0,0:08:48.61,0:08:49.47,Made in Abyss,,0,0,0,,原來如此
+Dialogue: 0,0:08:49.65,0:08:51.19,Made in Abyss,,0,0,0,,莉可又想私藏了
+Dialogue: 0,0:08:51.61,0:08:53.35,Made in Abyss,,0,0,0,,只是想幫他躲起來而已
+Dialogue: 0,0:08:53.60,0:08:55.58,Made in Abyss,,0,0,0,,隨便你怎麼說
+Dialogue: 0,0:08:58.57,0:08:59.68,Made in Abyss,,0,0,0,,果然在那裡
+Dialogue: 0,0:09:00.92,0:09:02.84,Made in Abyss,,0,0,0,,院長 我們回來了
+Dialogue: 0,0:09:03.60,0:09:05.20,Made in Abyss,,0,0,0,,趕緊進來
+Dialogue: 0,0:09:05.87,0:09:07.69,Made in Abyss,,0,0,0,,怎麼過她那關啊
+Dialogue: 0,0:09:10.40,0:09:11.51,Made in Abyss,,0,0,0,,或許我有辦法
+Dialogue: 0,0:09:19.85,0:09:20.45,Made in Abyss,,0,0,0,,幾維
+Dialogue: 0,0:09:21.59,0:09:22.96,Made in Abyss,,0,0,0,,歡迎回來
+Dialogue: 0,0:09:31.40,0:09:32.97,Made in Abyss,,0,0,0,,那樣能說明白嗎
+Dialogue: 0,0:09:33.32,0:09:34.76,Made in Abyss,,0,0,0,,希望可以吧
+Dialogue: 0,0:09:41.43,0:09:43.53,Made in Abyss,,0,0,0,,書 書
+Dialogue: 0,0:09:49.59,0:09:51.29,Made in Abyss,,0,0,0,,說幾次你才明白
+Dialogue: 0,0:09:52.03,0:09:54.02,Made in Abyss,,0,0,0,,不要在陽台看書
+Dialogue: 0,0:09:54.73,0:09:56.72,Made in Abyss,,0,0,0,,下次再這樣就把書沒收
+Dialogue: 0,0:10:12.84,0:10:14.10,Made in Abyss,,0,0,0,,昨天辛苦大家了
+Dialogue: 0,0:10:14.79,0:10:16.78,Made in Abyss,,0,0,0,,挖掘的數量雖然不太理想
+Dialogue: 0,0:10:17.23,0:10:19.38,Made in Abyss,,0,0,0,,但大家基本上都是第一次單獨作業
+Dialogue: 0,0:10:20.11,0:10:20.91,Made in Abyss,,0,0,0,,就是這樣
+Dialogue: 0,0:10:21.74,0:10:23.51,Made in Abyss,,0,0,0,,下週也是同樣的時間
+Dialogue: 0,0:10:23.96,0:10:26.74,Made in Abyss,,0,0,0,,在100m的深度繼續作業
+Dialogue: 0,0:10:27.54,0:10:30.34,Made in Abyss,,0,0,0,,有裝備丟失的向總務申請
+Dialogue: 0,0:10:30.72,0:10:31.20,Made in Abyss,,0,0,0,,我說完了
+Dialogue: 0,0:10:33.41,0:10:35.37,Made in Abyss,,0,0,0,,院長有話要說
+Dialogue: 0,0:10:37.96,0:10:39.92,Made in Abyss,,0,0,0,,我要說的只有一件事
+Dialogue: 0,0:10:40.50,0:10:44.20,Made in Abyss,,0,0,0,,持鈴生要有作為孤兒院學生的自覺性
+Dialogue: 0,0:10:44.20,0:10:45.58,Made in Abyss,,0,0,0,,努力賺錢
+Dialogue: 0,0:10:46.40,0:10:50.15,Made in Abyss,,0,0,0,,不要給你們在別處的親人們丟臉
+Dialogue: 0,0:10:50.98,0:10:52.74,Made in Abyss,,0,0,0,,啊 還有一點
+Dialogue: 0,0:10:52.93,0:10:53.81,Made in Abyss,,0,0,0,,二件了
+Dialogue: 0,0:10:53.99,0:10:54.79,Made in Abyss,,0,0,0,,二件了
+Dialogue: 0,0:10:55.37,0:10:58.64,Made in Abyss,,0,0,0,,私藏遺物是嚴令禁止的
+Dialogue: 0,0:11:02.69,0:11:03.88,Made in Abyss,,0,0,0,,好像在瞪著我
+Dialogue: 0,0:11:04.58,0:11:07.00,Made in Abyss,,0,0,0,,遺物是孤兒院重要的收入來源
+Dialogue: 0,0:11:07.18,0:11:09.52,Made in Abyss,,0,0,0,,要是敢中飽私囊
+Dialogue: 0,0:11:09.70,0:11:11.12,Made in Abyss,,0,0,0,,到時候被怎麼懲罰…
+Dialogue: 0,0:11:12.03,0:11:13.60,Made in Abyss,,0,0,0,,都不要有怨言喔
+Dialogue: 0,0:11:13.89,0:11:15.33,Made in Abyss,,0,0,0,,暴露了
+Dialogue: 0,0:11:15.89,0:11:18.38,Made in Abyss,,0,0,0,,下次就不是裸吊起來這麼簡單了
+Dialogue: 0,0:11:18.77,0:11:19.69,Made in Abyss,,0,0,0,,希望你們能記住這點
+Dialogue: 0,0:11:20.32,0:11:20.94,Made in Abyss,,0,0,0,,我說完了
+Dialogue: 0,0:11:21.50,0:11:22.04,Made in Abyss,,0,0,0,,解散
+Dialogue: 0,0:11:24.06,0:11:25.17,Made in Abyss,,0,0,0,,沒有暴露
+Dialogue: 0,0:11:25.26,0:11:26.55,Made in Abyss,,0,0,0,,安全
+Dialogue: 0,0:11:27.74,0:11:28.21,Made in Abyss,,0,0,0,,莉可
+Dialogue: 0,0:11:29.31,0:11:30.00,Made in Abyss,,0,0,0,,你留下來一下
+Dialogue: 0,0:11:31.15,0:11:33.12,Made in Abyss,,0,0,0,,你是說納多的登山包丟了
+Dialogue: 0,0:11:33.45,0:11:35.44,Made in Abyss,,0,0,0,,是因為被血蛇襲擊了
+Dialogue: 0,0:11:35.70,0:11:36.68,Made in Abyss,,0,0,0,,是這樣吧
+Dialogue: 0,0:11:37.00,0:11:38.57,Made in Abyss,,0,0,0,,就是啊
+Dialogue: 0,0:11:38.80,0:11:39.86,Made in Abyss,,0,0,0,,要不是我救了他
+Dialogue: 0,0:11:39.88,0:11:41.58,Made in Abyss,,0,0,0,,納多那傢伙
+Dialogue: 0,0:11:41.59,0:11:42.56,Made in Abyss,,0,0,0,,現在已經是蛇的便便了吧
+Dialogue: 0,0:11:42.63,0:11:43.55,Made in Abyss,,0,0,0,,你救了他
+Dialogue: 0,0:11:43.78,0:11:44.29,Made in Abyss,,0,0,0,,沒錯
+Dialogue: 0,0:11:44.87,0:11:48.36,Made in Abyss,,0,0,0,,我用笛子發出嗶-的聲音成為誘餌
+Dialogue: 0,0:11:48.70,0:11:51.29,Made in Abyss,,0,0,0,,然後 你又是怎樣得救的呢
+Dialogue: 0,0:11:51.69,0:11:53.57,Made in Abyss,,0,0,0,,那時候真是驚險
+Dialogue: 0,0:11:53.92,0:11:56.08,Made in Abyss,,0,0,0,,有一道從未見過的光
+Dialogue: 0,0:11:58.94,0:11:59.57,Made in Abyss,,0,0,0,,好險
+Dialogue: 0,0:11:59.84,0:12:02.88,Made in Abyss,,0,0,0,,差點把機器君的事說出去了
+Dialogue: 0,0:12:03.17,0:12:04.01,Made in Abyss,,0,0,0,,算了
+Dialogue: 0,0:12:04.99,0:12:07.43,Made in Abyss,,0,0,0,,就算是相對安全的100公尺深度
+Dialogue: 0,0:12:07.62,0:12:09.14,Made in Abyss,,0,0,0,,也說不定會出現什麼意外
+Dialogue: 0,0:12:09.87,0:12:11.92,Made in Abyss,,0,0,0,,今後可不要放鬆警惕
+Dialogue: 0,0:12:16.06,0:12:16.65,Made in Abyss,,0,0,0,,隊長
+Dialogue: 0,0:12:18.73,0:12:19.41,Made in Abyss,,0,0,0,,那個
+Dialogue: 0,0:12:22.34,0:12:23.36,Made in Abyss,,0,0,0,,我有一個請求
+Dialogue: 0,0:12:23.93,0:12:26.80,Made in Abyss,,0,0,0,,請把我分配到更深的區域去
+Dialogue: 0,0:12:27.74,0:12:31.29,Made in Abyss,,0,0,0,,我不是說過等你達到最大的審查額再考慮的嗎
+Dialogue: 0,0:12:32.75,0:12:36.85,Made in Abyss,,0,0,0,,先學會更高效的探窟技巧吧
+Dialogue: 0,0:12:37.60,0:12:40.78,Made in Abyss,,0,0,0,,我想儘快累積深部探窟的經驗
+Dialogue: 0,0:12:41.42,0:12:42.80,Made in Abyss,,0,0,0,,儘快成為白笛
+Dialogue: 0,0:12:43.24,0:12:45.69,Made in Abyss,,0,0,0,,然後追趕上母親的步伐
+Dialogue: 0,0:12:46.85,0:12:48.85,Made in Abyss,,0,0,0,,去母親下潛過的地方
+Dialogue: 0,0:12:48.90,0:12:49.45,Made in Abyss,,0,0,0,,不行
+Dialogue: 0,0:12:50.85,0:12:53.82,Made in Abyss,,0,0,0,,再說了 就憑現在的你
+Dialogue: 0,0:12:54.54,0:12:57.07,Made in Abyss,,0,0,0,,下潛到400m的地方頂多能跑個來回
+Dialogue: 0,0:12:57.74,0:13:00.25,Made in Abyss,,0,0,0,,暫時就給我老老實實幹活
+Dialogue: 0,0:13:07.33,0:13:11.81,Made in Abyss,,0,0,0,,哎呀 真是遺憾 救命恩人
+Dialogue: 0,0:13:12.40,0:13:13.26,Made in Abyss,,0,0,0,,幹嘛啊
+Dialogue: 0,0:13:13.39,0:13:15.45,Made in Abyss,,0,0,0,,偷聽什麼的太沒品了
+Dialogue: 0,0:13:15.99,0:13:17.04,Made in Abyss,,0,0,0,,話說起來
+Dialogue: 0,0:13:17.40,0:13:19.25,Made in Abyss,,0,0,0,,你房間裡的「那個」準備怎麼辦
+Dialogue: 0,0:13:19.56,0:13:20.47,Made in Abyss,,0,0,0,,機器人嗎
+Dialogue: 0,0:13:21.32,0:13:22.44,Made in Abyss,,0,0,0,,當然是叫醒他
+Dialogue: 0,0:13:22.79,0:13:24.03,Made in Abyss,,0,0,0,,那傢伙原來是在睡覺嗎
+Dialogue: 0,0:13:24.25,0:13:26.47,Made in Abyss,,0,0,0,,對 得早點叫醒他
+Dialogue: 0,0:13:26.89,0:13:28.95,Made in Abyss,,0,0,0,,所以 大家幫幫忙吧
+Dialogue: 0,0:13:31.62,0:13:32.33,Made in Abyss,,0,0,0,,怎樣 怎樣
+Dialogue: 0,0:13:32.67,0:13:33.83,Made in Abyss,,0,0,0,,好像稍微動了一下
+Dialogue: 0,0:13:34.26,0:13:35.09,Made in Abyss,,0,0,0,,真的嗎
+Dialogue: 0,0:13:35.50,0:13:37.04,Made in Abyss,,0,0,0,,有人在嗎
+Dialogue: 0,0:13:37.50,0:13:39.58,Made in Abyss,,0,0,0,,試著稍微增強一點怎樣
+Dialogue: 0,0:13:39.65,0:13:40.59,Made in Abyss,,0,0,0,,小孩子的聲音
+Dialogue: 0,0:13:39.87,0:13:42.52,Made in Abyss,,0,0,0,,{\an8}對了 莉可 把刻度調到2
+Dialogue: 0,0:13:45.07,0:13:45.95,Made in Abyss,,0,0,0,,無所謂了
+Dialogue: 0,0:13:46.99,0:13:49.45,Made in Abyss,,0,0,0,,再睡一會吧
+Dialogue: 0,0:13:47.84,0:13:48.51,Made in Abyss,,0,0,0,,{\an8}好了
+Dialogue: 0,0:13:50.80,0:13:52.28,Made in Abyss,,0,0,0,,我說西吉 可以按了嗎
+Dialogue: 0,0:13:53.43,0:13:55.14,Made in Abyss,,0,0,0,,莉可 那不是20嗎
+Dialogue: 0,0:14:08.21,0:14:09.38,Made in Abyss,,0,0,0,,醒了
+Dialogue: 0,0:14:11.50,0:14:12.41,Made in Abyss,,0,0,0,,真的假的
+Dialogue: 0,0:14:13.55,0:14:16.77,Made in Abyss,,0,0,0,,看吧看吧 和我說的一樣電流很有效吧
+Dialogue: 0,0:14:16.39,0:14:19.01,Made in Abyss,,0,0,0,,{\an8}剛才說餵他吃燃煤的人是誰
+Dialogue: 0,0:14:20.12,0:14:21.20,Made in Abyss,,0,0,0,,吶 吶 機器人
+Dialogue: 0,0:14:21.48,0:14:24.26,Made in Abyss,,0,0,0,,你記得我嗎 是你救了我喔
+Dialogue: 0,0:14:24.49,0:14:27.10,Made in Abyss,,0,0,0,,你是怎麼從那麼遠的地方把蛇收拾掉的呢
+Dialogue: 0,0:14:28.14,0:14:29.76,Made in Abyss,,0,0,0,,不過 先告訴我你的名字吧
+Dialogue: 0,0:14:30.24,0:14:32.07,Made in Abyss,,0,0,0,,喂 你一口氣說太多了
+Dialogue: 0,0:14:32.22,0:14:33.08,Made in Abyss,,0,0,0,,都嚇到他了
+Dialogue: 0,0:14:34.05,0:14:36.78,Made in Abyss,,0,0,0,,對不起 我的名字叫莉可
+Dialogue: 0,0:14:36.92,0:14:39.68,Made in Abyss,,0,0,0,,雖然用提問來回答不太禮貌
+Dialogue: 0,0:14:41.61,0:14:44.73,Made in Abyss,,0,0,0,,說話了 好可愛
+Dialogue: 0,0:14:44.75,0:14:45.92,Made in Abyss,,0,0,0,,我想問幾個問題
+Dialogue: 0,0:14:46.56,0:14:48.37,Made in Abyss,,0,0,0,,什麼什麼 什麼都可以喔
+Dialogue: 0,0:14:48.79,0:14:50.49,Made in Abyss,,0,0,0,,這裡是…哪裡
+Dialogue: 0,0:14:50.83,0:14:51.37,Made in Abyss,,0,0,0,,這裡
+Dialogue: 0,0:14:52.36,0:14:53.24,Made in Abyss,,0,0,0,,這是我的房間喔
+Dialogue: 0,0:14:53.40,0:14:54.64,Made in Abyss,,0,0,0,,貝爾切洛孤兒院
+Dialogue: 0,0:14:57.12,0:14:59.46,Made in Abyss,,0,0,0,,你們的工作是 拷問嗎?
+Dialogue: 0,0:15:00.93,0:15:03.28,Made in Abyss,,0,0,0,,莉可的房間以前是處刑的房間
+Dialogue: 0,0:15:03.46,0:15:05.72,Made in Abyss,,0,0,0,,因為玩笑開過頭了 所以搬到這裡來了
+Dialogue: 0,0:15:06.85,0:15:09.50,Made in Abyss,,0,0,0,,而且 我們的工作是探窟家
+Dialogue: 0,0:15:09.81,0:15:12.28,Made in Abyss,,0,0,0,,雖然這麼說 也只不過是見習的赤笛
+Dialogue: 0,0:15:13.06,0:15:15.73,Made in Abyss,,0,0,0,,吶 吶 機器人 你的名字呢
+Dialogue: 0,0:15:16.16,0:15:17.39,Made in Abyss,,0,0,0,,都有什麼功能呢
+Dialogue: 0,0:15:17.81,0:15:19.37,Made in Abyss,,0,0,0,,是誰製造的呢
+Dialogue: 0,0:15:23.45,0:15:25.42,Made in Abyss,,0,0,0,,從剛才開始就很在意了
+Dialogue: 0,0:15:26.72,0:15:29.08,Made in Abyss,,0,0,0,,我 是機器人嗎?
+Dialogue: 0,0:15:31.10,0:15:33.88,Made in Abyss,,0,0,0,,是啊 通電就能動
+Dialogue: 0,0:15:34.23,0:15:35.49,Made in Abyss,,0,0,0,,不怕火燒
+Dialogue: 0,0:15:35.78,0:15:37.73,Made in Abyss,,0,0,0,,皮膚也刀槍不入
+Dialogue: 0,0:15:38.98,0:15:42.00,Made in Abyss,,0,0,0,,啊 你連自己是機器人都不記得了嗎
+Dialogue: 0,0:15:42.48,0:15:44.75,Made in Abyss,,0,0,0,,因為剛才的電流失憶了吧
+Dialogue: 0,0:15:45.74,0:15:46.72,Made in Abyss,,0,0,0,,大事不妙了 大家
+Dialogue: 0,0:15:47.26,0:15:49.60,Made in Abyss,,0,0,0,,孤兒院的電全都停了
+Dialogue: 0,0:15:50.79,0:15:53.16,Made in Abyss,,0,0,0,,可能是剛才功率輸出過頭了吧
+Dialogue: 0,0:15:53.94,0:15:54.92,Made in Abyss,,0,0,0,,快點藏起來
+Dialogue: 0,0:15:55.30,0:15:57.03,Made in Abyss,,0,0,0,,隊長直接來這邊了
+Dialogue: 0,0:15:57.89,0:15:58.99,Made in Abyss,,0,0,0,,怎麼會暴露呢
+Dialogue: 0,0:15:59.05,0:16:00.76,Made in Abyss,,0,0,0,,是平時的品行問題吧
+Dialogue: 0,0:16:00.92,0:16:01.69,Made in Abyss,,0,0,0,,能站起來嗎
+Dialogue: 0,0:16:02.22,0:16:03.88,Made in Abyss,,0,0,0,,不把這個拿掉不行
+Dialogue: 0,0:16:05.39,0:16:05.84,Made in Abyss,,0,0,0,,莉可
+Dialogue: 0,0:16:09.75,0:16:11.55,Made in Abyss,,0,0,0,,莉可 巧妙地糊弄過去
+Dialogue: 0,0:16:11.80,0:16:12.74,Made in Abyss,,0,0,0,,真是不安
+Dialogue: 0,0:16:20.00,0:16:21.76,Made in Abyss,,0,0,0,,不能出來喔 明白嗎
+Dialogue: 0,0:16:22.10,0:16:23.58,Made in Abyss,,0,0,0,,不然下場會很慘的
+Dialogue: 0,0:16:23.66,0:16:25.43,Made in Abyss,,0,0,0,,喂 莉可 快開門
+Dialogue: 0,0:16:26.92,0:16:28.73,Made in Abyss,,0,0,0,,好 馬上…
+Dialogue: 0,0:16:36.50,0:16:38.78,Made in Abyss,,0,0,0,,你這次又做了什麼
+Dialogue: 0,0:16:39.76,0:16:42.12,Made in Abyss,,0,0,0,,沒幹什麼…
+Dialogue: 0,0:16:43.53,0:16:44.67,Made in Abyss,,0,0,0,,比起這那個
+Dialogue: 0,0:16:45.12,0:16:48.02,Made in Abyss,,0,0,0,,剛才腳撞到了 角度很正
+Dialogue: 0,0:16:48.49,0:16:49.92,Made in Abyss,,0,0,0,,真的痛死人了
+Dialogue: 0,0:16:50.38,0:16:53.16,Made in Abyss,,0,0,0,,真的撞得很剛好
+Dialogue: 0,0:16:53.42,0:16:53.91,Made in Abyss,,0,0,0,,等…
+Dialogue: 0,0:16:59.49,0:17:01.28,Made in Abyss,,0,0,0,,這東西是西吉的吧
+Dialogue: 0,0:17:01.74,0:17:03.37,Made in Abyss,,0,0,0,,又是些不明所以的東西
+Dialogue: 0,0:17:05.26,0:17:07.18,Made in Abyss,,0,0,0,,喂 你有什麼要說的嗎
+Dialogue: 0,0:17:07.96,0:17:10.80,Made in Abyss,,0,0,0,,對不起 我再也不敢了
+Dialogue: 0,0:17:11.05,0:17:14.43,Made in Abyss,,0,0,0,,我明白你探窟不順感到焦慮
+Dialogue: 0,0:17:15.32,0:17:16.61,Made in Abyss,,0,0,0,,但就算這樣
+Dialogue: 0,0:17:16.72,0:17:20.03,Made in Abyss,,0,0,0,,也沒有讓整個孤兒院停電的道理吧
+Dialogue: 0,0:17:21.12,0:17:24.21,Made in Abyss,,0,0,0,,莉可 你在聽嗎 莉可
+Dialogue: 0,0:17:28.74,0:17:30.79,Made in Abyss,,0,0,0,,在你解釋清楚這慘狀之前
+Dialogue: 0,0:17:31.30,0:17:35.30,Made in Abyss,,0,0,0,,先給我打掃孤兒院和寫檢討書吧
+Dialogue: 0,0:17:37.81,0:17:39.87,Made in Abyss,,0,0,0,,對不起
+Dialogue: 0,0:17:43.84,0:17:44.69,Made in Abyss,,0,0,0,,原來如此
+Dialogue: 0,0:17:45.27,0:17:46.44,Made in Abyss,,0,0,0,,如果被那傢伙抓了
+Dialogue: 0,0:17:46.77,0:17:47.97,Made in Abyss,,0,0,0,,下場會很不妙啊
+Dialogue: 0,0:17:51.93,0:17:53.04,Made in Abyss,,0,0,0,,話說回來
+Dialogue: 0,0:17:53.14,0:17:54.32,Made in Abyss,,0,0,0,,手腕竟然能夠伸長
+Dialogue: 0,0:17:56.88,0:18:00.48,Made in Abyss,,0,0,0,,伸縮的金屬手腕和這個頭盔
+Dialogue: 0,0:18:03.58,0:18:05.17,Made in Abyss,,0,0,0,,更加覺得可疑啊
+Dialogue: 0,0:18:09.46,0:18:11.12,Made in Abyss,,0,0,0,,我…到底是什麼
+Dialogue: 0,0:18:14.08,0:18:16.53,Made in Abyss,,0,0,0,,機器人也需要肚臍嗎
+Dialogue: 0,0:18:18.31,0:18:20.23,Made in Abyss,,0,0,0,,這…這個也需要嗎
+Dialogue: 0,0:18:26.25,0:18:29.00,Made in Abyss,,0,0,0,,我趁著西吉他們被抓住的間隙溜出來了
+Dialogue: 0,0:18:29.71,0:18:30.42,Made in Abyss,,0,0,0,,什麼什麼
+Dialogue: 0,0:18:30.83,0:18:32.31,Made in Abyss,,0,0,0,,在鏡子前打扮嗎
+Dialogue: 0,0:18:33.94,0:18:34.40,Made in Abyss,,0,0,0,,不是
+Dialogue: 0,0:18:34.68,0:18:35.50,Made in Abyss,,0,0,0,,莉可
+Dialogue: 0,0:18:37.25,0:18:37.94,Made in Abyss,,0,0,0,,莉可
+Dialogue: 0,0:18:38.08,0:18:38.96,Made in Abyss,,0,0,0,,糟了
+Dialogue: 0,0:18:39.01,0:18:39.61,Made in Abyss,,0,0,0,,跑哪裡去了
+Dialogue: 0,0:18:39.96,0:18:42.50,Made in Abyss,,0,0,0,,怎麼辦 得快點逃走
+Dialogue: 0,0:18:43.68,0:18:44.76,Made in Abyss,,0,0,0,,抓緊我
+Dialogue: 0,0:18:45.34,0:18:45.88,Made in Abyss,,0,0,0,,趕緊
+Dialogue: 0,0:18:59.67,0:19:01.73,Made in Abyss,,0,0,0,,好厲害 這手真方便
+Dialogue: 0,0:19:04.07,0:19:05.35,Made in Abyss,,0,0,0,,好帥
+Dialogue: 0,0:19:05.91,0:19:07.85,Made in Abyss,,0,0,0,,莉可 跑哪裡去了
+Dialogue: 0,0:19:07.91,0:19:09.91,Made in Abyss,,0,0,0,,看來他暫時消不了氣啊
+Dialogue: 0,0:19:10.60,0:19:13.41,Made in Abyss,,0,0,0,,對了 我有東西想要給雷格看
+Dialogue: 0,0:19:13.78,0:19:14.37,Made in Abyss,,0,0,0,,雷格?
+Dialogue: 0,0:19:14.81,0:19:17.68,Made in Abyss,,0,0,0,,你的名字 沒名字的話很不方面吧
+Dialogue: 0,0:19:18.05,0:19:19.58,Made in Abyss,,0,0,0,,雷格 這名字怎麼樣
+Dialogue: 0,0:19:20.10,0:19:22.94,Made in Abyss,,0,0,0,,我倒不介意 順便問一下怎麼來的呢
+Dialogue: 0,0:19:23.54,0:19:25.28,Made in Abyss,,0,0,0,,之前養的小狗的名字
+Dialogue: 0,0:19:26.25,0:19:26.77,Made in Abyss,,0,0,0,,小狗
+Dialogue: 0,0:19:28.11,0:19:30.47,Made in Abyss,,0,0,0,,雷格 快點快點
+Dialogue: 0,0:19:43.05,0:19:44.05,Made in Abyss,,0,0,0,,終於到了
+Dialogue: 0,0:19:47.28,0:19:49.04,Made in Abyss,,0,0,0,,馬上就來了 雷格
+Dialogue: 0,0:20:11.06,0:20:13.90,Made in Abyss,,0,0,0,,雷格 這就是我們居住的城市
+Dialogue: 0,0:20:14.55,0:20:16.59,Made in Abyss,,0,0,0,,巨穴之城奧斯
+Dialogue: 0,0:20:17.66,0:20:19.62,Made in Abyss,,0,0,0,,歡迎來到奧斯 雷格
+Dialogue: 0,0:20:30.94,0:20:31.81,Made in Abyss,,0,0,0,,這個巨穴
+Dialogue: 0,0:20:33.64,0:20:36.20,Made in Abyss,,0,0,0,,雷格 你連阿比斯 都忘記了嗎
+Dialogue: 0,0:20:36.91,0:20:37.52,Made in Abyss,,0,0,0,,阿比斯
+Dialogue: 0,0:20:37.84,0:20:39.32,Made in Abyss,,0,0,0,,這個巨穴叫做阿比斯
+Dialogue: 0,0:20:39.91,0:20:42.41,Made in Abyss,,0,0,0,,你就是從阿比斯裡面被找到的喔
+Dialogue: 0,0:20:43.60,0:20:44.21,Made in Abyss,,0,0,0,,我嗎
+Dialogue: 0,0:20:45.50,0:20:46.75,Made in Abyss,,0,0,0,,我在想
+Dialogue: 0,0:20:47.51,0:20:50.31,Made in Abyss,,0,0,0,,雷格會不會是從阿比斯的底部來的
+Dialogue: 0,0:20:51.47,0:20:52.07,Made in Abyss,,0,0,0,,因為
+Dialogue: 0,0:20:52.26,0:20:54.88,Made in Abyss,,0,0,0,,我還是第一次看見你這樣的機器人
+Dialogue: 0,0:20:55.39,0:20:56.48,Made in Abyss,,0,0,0,,一定是這樣的
+Dialogue: 0,0:20:57.22,0:20:59.83,Made in Abyss,,0,0,0,,誰都沒有去過的…阿比斯的底部
+Dialogue: 0,0:21:02.03,0:21:02.79,Made in Abyss,,0,0,0,,阿比斯
+Dialogue: 0,0:21:06.28,0:21:11.10,Made in Abyss,,0,0,0,,約1900年前 南海貝歐魯斯卡的孤島上
+Dialogue: 0,0:21:11.49,0:21:13.61,Made in Abyss,,0,0,0,,發現了一個巨大的豎型巨穴
+Dialogue: 0,0:21:15.05,0:21:19.97,Made in Abyss,,0,0,0,,直徑約1000m  其深度至今無人知曉
+Dialogue: 0,0:21:21.11,0:21:24.25,Made in Abyss,,0,0,0,,它那不可思議的姿態深深吸引著人們
+Dialogue: 0,0:21:25.55,0:21:28.23,Made in Abyss,,0,0,0,,珍貴而又危險的原始生物
+Dialogue: 0,0:21:28.88,0:21:31.03,Made in Abyss,,0,0,0,,和超出認知的不可思議的遺物
+Dialogue: 0,0:21:31.59,0:21:34.41,Made in Abyss,,0,0,0,,誘惑著想要一夜暴富的冒險者們蜂擁而至
+Dialogue: 0,0:21:35.14,0:21:38.73,Made in Abyss,,0,0,0,,不知何時 這裡已經建立起了巨大的小鎮
+Dialogue: 0,0:21:40.75,0:21:42.09,Made in Abyss,,0,0,0,,經過長年累月
+Dialogue: 0,0:21:42.56,0:21:45.76,Made in Abyss,,0,0,0,,以未知的浪漫和眾多的傳說為餌
+Dialogue: 0,0:21:46.36,0:21:48.40,Made in Abyss,,0,0,0,,將不計其數的人們吞噬
+Dialogue: 0,0:21:48.67,0:21:51.00,Made in Abyss,,0,0,0,,世界上唯一的最後的深淵
+Dialogue: 0,0:21:52.34,0:21:54.99,Made in Abyss,,0,0,0,,其名為「阿比斯」
+Dialogue: 0,0:22:15.49,0:22:21.56,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}誰もが逆らえずに潜っていく
+Dialogue: 0,0:22:22.59,0:22:28.02,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}その目を灯火より輝かせて
+Dialogue: 0,0:22:29.52,0:22:36.40,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)\fn@DFHSGothicG-W5\frz-90\pos(1224.6,677.4)}目指す先は深く　ますっぐに迷い込む
+Dialogue: 0,0:22:36.56,0:22:40.02,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}口開けたなら奈落の罠
+Dialogue: 0,0:22:40.12,0:22:46.85,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}真実の跡を追いかけよう
+Dialogue: 0,0:22:46.91,0:22:50.49,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}今答えが　見つかるなら
+Dialogue: 0,0:22:50.62,0:22:53.97,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}全部なくしてもいい
+Dialogue: 0,0:22:54.10,0:22:57.57,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}その声を　離さないように
+Dialogue: 0,0:22:57.71,0:23:01.44,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}木霊がまだ響いてる
+Dialogue: 0,0:23:01.86,0:23:09.69,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}羅針盤はずっと　闇を指したまま　逃げ場のない　方へ
+Dialogue: 0,0:23:09.84,0:23:16.05,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}それが呪いでも　鼓動は本物
+Dialogue: 0,0:23:17.06,0:23:23.14,Made in Abyss - OPJP,,0,0,0,,{\fad(150,150)}二度と憧れは　止まらない
+Dialogue: 0,0:22:15.49,0:22:21.56,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}誰都無法反抗地潛入其中
+Dialogue: 0,0:22:22.59,0:22:28.02,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}雙眸的慾火比燈光更耀眼
+Dialogue: 0,0:22:29.52,0:22:36.40,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)\frz-90\fn@方正兰亭准黑_GBK\pos(63.4,23.4)}前方路途遙不可測 依然毫不猶豫地闖進其中
+Dialogue: 0,0:22:36.56,0:22:40.02,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}即便知道是地獄的陷阱
+Dialogue: 0,0:22:40.12,0:22:46.85,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}仍要追尋真相的足跡
+Dialogue: 0,0:22:46.91,0:22:50.49,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}如果現在就能找到答案
+Dialogue: 0,0:22:50.62,0:22:53.97,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}哪怕傾盡一切也無妨
+Dialogue: 0,0:22:54.10,0:22:57.57,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}為了不讓那聲音消散
+Dialogue: 0,0:22:57.71,0:23:01.44,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}山谷依然回聲不斷
+Dialogue: 0,0:23:01.86,0:23:09.69,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}羅盤依舊指向無處可逃的黑暗
+Dialogue: 0,0:23:09.84,0:23:16.05,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}即便這是詛咒 心跳仍舊真切
+Dialogue: 0,0:23:17.06,0:23:23.14,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}心中憧憬再也無法抑制
+Dialogue: 0,0:23:37.10,0:23:40.89,Made in Abyss,,0,0,0,,{\fad(600,0)\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs80\pos(616,597.8)}復活節
+Dialogue: 0,0:00:00.00,0:00:05.00,Made in Abyss,,0,0,0,,
+

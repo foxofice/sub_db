@@ -1,0 +1,519 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: sign_94_1_Gintama,Open Sans Semibold,38,&H001000D0,&H000000FF,&H0000FAFD,&H00080003,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_106_2_Recap,Open Sans Semibold,35,&H001000D0,&H000000FF,&H0000FAFD,&H00080003,1,0,0,0,100,100,0,0,1,2,1,2,27,27,20,0
+Style: sign_1329_22_Two_Years_Later_,Open Sans Semibold,35,&H00000000,&H000000FF,&H00FBFBFB,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,24,0
+Style: sign_1449_25_World_Chunin_Hun,Open Sans Semibold,29,&H00293847,&H000000FF,&H00E0F1F0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,45,0
+Style: sign_2702_46_Slip_Arc,Open Sans Semibold,32,&H0022201D,&H000000FF,&H00FFFFFE,&H0047343F,1,0,0,0,100,100,0,0,1,2,2,8,347,347,257,0
+Style: sign_2574_40_Shogun_Assassina,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,36,595,143,0
+Style: sign_2577_41_Farewell_Shinsen,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,320,328,144,0
+Style: sign_2605_42_Battle_on_Rakuyo,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,495,219,145,0
+Style: sign_2628_43_Final_Arc_,Open Sans Semibold,29,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,401,292,187,0
+Style: sign_2818_48_Kabuki_District_,Open Sans Semibold,22,&H0047606F,&H000000FF,&H00DADDD5,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,644,27,27,0
+Style: sign_2844_49_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H003F4D6E,&H000000FF,&H00D5E6D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,520,185,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: sign_5754_66_Watch_the_Slip_A,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_8447_103_Hair_Growth_Powd,Open Sans Semibold,24,&H001F2122,&H000000FF,&H00EFEFF3,&H004B41BF,0,0,0,0,100,100,0,0,1,2,1,7,320,27,24,0
+Style: sign_8447_104_Toasty,Open Sans Semibold,35,&H00131F24,&H000000FF,&H00E3F3F3,&H003BE1ED,1,0,0,0,100,100,0,0,1,2,2,8,280,436,247,0
+Style: sign_8447_105_A_magical_way_to,Open Sans Semibold,24,&H00283A40,&H000000FF,&H00F1F2F1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,521,27,235,0
+Style: sign_8447_106_Boom,Open Sans Semibold,41,&H004223D4,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,160,144,19,0
+Style: sign_9203_118_To_Kagura_chan,Open Sans Semibold,35,&H001A2929,&H000000FF,&H00E6FFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_9577_124_To_Kagura_chan__,Open Sans Semibold,29,&H00151913,&H000000FF,&H00D8DDD8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,167,13,45,0
+Style: sign_10426_135_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H002E3C3D,&H000000FF,&H00E2EDF4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,343,200,160,0
+Style: sign_12847_174_Boyfriend_DEATH,Open Sans Semibold,38,&H0020BCDB,&H000000FF,&H00121412,&H00141114,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_14806_206_Earth,Open Sans Semibold,38,&H00F07C4B,&H000000FF,&H00F9FFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,27,27,161,0
+Style: sign_14847_209_Dirth,Open Sans Semibold,38,&H003EFFFF,&H000000FF,&H000C0C07,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,27,27,161,0
+Style: sign_28297_417_Great_Nature_Dei,Open Sans Semibold,35,&H000B0B0B,&H000000FF,&H00F4F4F4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: sign_8096_97_Forgive_me__Dadd,Open Sans Semibold,35,&H000F120F,&H000000FF,&H0088908C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: road safety,Open Sans Semibold,29,&H004F6322,&H000000FF,&H00DDD8D2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,393,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.85,0:00:03.82,sign_94_1_Gintama,Sign,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:01.38,0:00:03.82,sign_106_2_Recap,Sign,0000,0000,0000,,{\fad(710,1)}The Story So Far
+Dialogue: 0,0:00:05.43,0:00:06.71,Internal,Shin,0000,0000,0000,,The land of the samurai.
+Dialogue: 0,0:00:07.26,0:00:11.82,Internal,Shin,0000,0000,0000,,There was a time, long ago, when our \Ncountry was called by that name.
+Dialogue: 0,0:00:13.01,0:00:15.57,Internal,Shin,0000,0000,0000,,Now, the world has entered \Na Great Pirate Era!
+Dialogue: 0,0:00:16.39,0:00:20.71,Internal,Shin,0000,0000,0000,,By a twist of fate, our hero Gin-san ate \Na Wave Wave Fruit, gained a perm,
+Dialogue: 0,0:00:20.71,0:00:22.90,Internal,Shin,0000,0000,0000,,decided to solve all his problems with money,
+Dialogue: 0,0:00:22.90,0:00:25.33,Internal,Shin,0000,0000,0000,,and left on a journey to find \Nthe Pirate King's treasure.
+Dialogue: 0,0:00:22.90,0:00:27.26,sign_8447_106_Boom,,0000,0000,0000,,Boom!
+Dialogue: 0,0:00:25.33,0:00:27.26,Main,Gin,0000,0000,0000,,I'm gonna be the king of the nouveau rich!
+Dialogue: 0,0:00:27.81,0:00:28.80,Internal,Shin,0000,0000,0000,,On his travels,
+Dialogue: 0,0:00:28.80,0:00:31.47,Internal,,0000,0000,0000,,he met a girl looking for seven balls \Nthat can summon a shining dragon:
+Dialogue: 0,0:00:31.47,0:00:33.77,Internal,,0000,0000,0000,,the genius beauty Kagura-chan.
+Dialogue: 0,0:00:33.77,0:00:35.35,Main,Kag,0000,0000,0000,,I'll let you feel all the romance.
+Dialogue: 0,0:00:35.89,0:00:38.82,Internal,Shin,0000,0000,0000,,On the way, they also picked \Nup a glasses monster.
+Dialogue: 0,0:00:38.82,0:00:39.85,Main,Shin,0000,0000,0000,,Shinpachu!
+Dialogue: 0,0:00:39.85,0:00:43.05,Main,Kag,0000,0000,0000,,Wow, you must be a glasses Friend!
+Dialogue: 0,0:00:43.05,0:00:46.53,Main,Gin,0000,0000,0000,,Hey, Shinpachu, bring out the \NJapari Bus. I'm tired of walking.
+Dialogue: 0,0:00:46.53,0:00:48.36,Internal,Shin,0000,0000,0000,,They all worked together,
+Dialogue: 0,0:00:50.07,0:00:52.36,Internal,Shin,0000,0000,0000,,defeated the terrifying evil overlord,
+Dialogue: 0,0:00:52.36,0:00:54.37,sign_1329_22_Two_Years_Later_,Sign,0000,0000,0000,,Two Years Later...
+Dialogue: 0,0:00:52.91,0:00:54.37,Internal,Shin,0000,0000,0000,,and two years later,
+Dialogue: 0,0:00:55.13,0:00:57.37,Internal,Shin,0000,0000,0000,,the three of them reunited \Nat the Jabondy Archipelago
+Dialogue: 0,0:00:57.37,0:01:01.12,sign_1449_25_World_Chunin_Hun,Sign,0000,0000,0000,,World Chunin Hunter Hero Exam
+Dialogue: 0,0:00:57.79,0:01:02.54,Internal,Shin,0000,0000,0000,,and were about to take the World \NChunin Hunter Hero Exam...
+Dialogue: 0,0:01:02.96,0:01:04.13,Main,Shin,0000,0000,0000,,Are you kidding me?
+Dialogue: 0,0:01:04.51,0:01:06.46,Main,Shin,0000,0000,0000,,What the hell is this recap?!
+Dialogue: 0,0:01:06.46,0:01:10.89,Main,Gin,0000,0000,0000,,Y'know, we've been doing a bunch of \Nlong arcs, reruns, and breaks lately,
+Dialogue: 0,0:01:10.89,0:01:14.14,Main,Gin,0000,0000,0000,,so I wrote that, figuring we should \Ncasually look back on the story.
+Dialogue: 0,0:01:14.14,0:01:15.78,Main,Shin,0000,0000,0000,,You casually filled it with lies!
+Dialogue: 0,0:01:15.78,0:01:17.64,Main,Shin,0000,0000,0000,,And you ripped off too many series!
+Dialogue: 0,0:01:17.64,0:01:20.85,Main,Kag,0000,0000,0000,,Roughly put, the story did \Ngo something like that.
+Dialogue: 0,0:01:20.85,0:01:24.60,Main,Kag,0000,0000,0000,,In the last long arc, for example, \Nwe went to another planet out in space
+Dialogue: 0,0:01:24.60,0:01:29.05,Main,Kag,0000,0000,0000,,and fought a combat race whose strong \Nemotions awakened their powers.
+Dialogue: 0,0:01:29.05,0:01:31.49,Main,Shin,0000,0000,0000,,Uh, that is somewhat right, but...
+Dialogue: 0,0:01:31.49,0:01:35.53,Main,Shin,0000,0000,0000,,Hell, you were basically the star of that arc. \NSure you wanna sum it up that way?
+Dialogue: 0,0:01:36.62,0:01:37.68,Main,Shin,0000,0000,0000,,Listen up.
+Dialogue: 0,0:01:38.13,0:01:42.63,Main,Shin,0000,0000,0000,,We didn't learn the Whateverhameha \Nor become Whatever Masters.
+Dialogue: 0,0:01:42.63,0:01:44.29,Main,Shin,0000,0000,0000,,We're not headed for the \NWhatever Line, either!
+Dialogue: 0,0:01:44.29,0:01:45.44,sign_2574_40_Shogun_Assassina,Sign,0000,0000,0000,,Shogun\NAssassination
+Dialogue: 0,0:01:44.44,0:01:45.46,sign_2577_41_Farewell_Shinsen,Sign,0000,0000,0000,,Farewell\NShinsengumi
+Dialogue: 0,0:01:44.74,0:01:49.00,Main,Shin,0000,0000,0000,,We were originally supposed to \Nenter the final long arc now,
+Dialogue: 0,0:01:45.58,0:01:46.17,sign_2605_42_Battle_on_Rakuyo,Sign,0000,0000,0000,,Battle on\NRakuyo
+Dialogue: 0,0:01:46.54,0:01:48.09,sign_2628_43_Final_Arc_,Sign,0000,0000,0000,,Final Arc?
+Dialogue: 0,0:01:49.00,0:01:51.30,Main,Shin,0000,0000,0000,,but stuff happened, and now we're here.
+Dialogue: 0,0:01:49.65,0:01:51.30,sign_2702_46_Slip_Arc,Sign,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:01:51.30,0:01:54.91,Main,Shin,0000,0000,0000,,Gin-san, you're basically a guy \Nwith a perm and dead fish eyes.
+Dialogue: 0,0:01:54.49,0:01:57.30,sign_2818_48_Kabuki_District_,Sign,0000,0000,0000,,Kabuki District \NFirst
+Dialogue: 0,0:01:54.91,0:01:57.93,Main,Shin,0000,0000,0000,,You run an odd jobs business \Nin Edo's Kabuki District.
+Dialogue: 0,0:01:55.57,0:01:57.30,sign_2844_49_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:01:57.93,0:02:00.23,Main,Shin,0000,0000,0000,,Kagura-chan, you're one of \Nthe Yato, a combat race,
+Dialogue: 0,0:02:00.23,0:02:02.56,Main,Shin,0000,0000,0000,,a glutton, and you always carry an umbrella.
+Dialogue: 0,0:02:02.56,0:02:04.19,Main,Shin,0000,0000,0000,,And I, Shinpachi,
+Dialogue: 0,0:02:04.56,0:02:07.06,Main,Shin,0000,0000,0000,,am Suda Masaki in 3D.
+Dialogue: 0,0:02:07.50,0:02:10.86,Main,Bo,0000,0000,0000,,How long are you gonna keep talking \Nabout the live-action movie?
+Dialogue: 0,0:02:10.86,0:02:14.30,Main,Gin,0000,0000,0000,,Enough with the Suda nonsense! \NNo more Granbluing!
+Dialogue: 0,0:02:14.30,0:02:17.16,Main,Kag,0000,0000,0000,,Y'know, the more you do that, \Nthe more miserable you'll be.
+Dialogue: 0,0:02:17.16,0:02:18.45,Main,Kag,0000,0000,0000,,Open your eyes!
+Dialogue: 0,0:02:18.45,0:02:22.33,Main,Shin,0000,0000,0000,,But I have to ride this wave and \Nget myself a hottie image!
+Dialogue: 0,0:02:22.33,0:02:24.21,Main,Kag,0000,0000,0000,,What others do doesn't matter to us!
+Dialogue: 0,0:02:24.21,0:02:26.29,Main,Gin,0000,0000,0000,,Come on! Let's start the anime already!
+Dialogue: 0,0:02:26.29,0:02:26.83,Main,Bo,0000,0000,0000,,Okay...
+Dialogue: 0,0:02:32.59,0:02:38.60,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:02:34.95,0:02:38.60,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:04:06.97,0:04:12.52,sign_5754_66_Watch_the_Slip_A,Warning,0000,0000,0000,,{\fad(635,535)}Watch the Slip Arc in a bright room\Nand at a safe distance from your TV!
+Dialogue: 0,0:04:08.12,0:04:12.83,Main,UB,0000,0000,0000,,{\an8}Yeah, the sunshine on Earth \Nis too much to handle.
+Dialogue: 0,0:04:13.89,0:04:15.71,Main,UB,0000,0000,0000,,I feel like I'm going bald.
+Dialogue: 0,0:04:16.32,0:04:21.25,Main,UB,0000,0000,0000,,Earth really isn't a planet \Nwe Yato are meant to live on.
+Dialogue: 0,0:04:21.25,0:04:25.35,Main,UB,0000,0000,0000,,Kagura-chan said it didn't bother her,\Nbut will she really be okay?
+Dialogue: 0,0:04:26.22,0:04:28.29,Main,UB,0000,0000,0000,,Sure, she may be fine now,
+Dialogue: 0,0:04:28.29,0:04:31.21,Main,UB,0000,0000,0000,,but what if staying here too \Nlong affects her body—
+Dialogue: 0,0:04:31.21,0:04:33.06,Main,G,0000,0000,0000,,Hey, check that out.
+Dialogue: 0,0:04:33.06,0:04:36.49,Main,G,0000,0000,0000,,That old dude's got an umbrella \Neven though it ain't raining.
+Dialogue: 0,0:04:36.49,0:04:40.63,Main,G,0000,0000,0000,,He should probably get some sun \Nand photosynthesize or something.
+Dialogue: 0,0:04:40.63,0:04:41.57,Main,G,0000,0000,0000,,It'd help his head.
+Dialogue: 0,0:04:41.57,0:04:43.40,Main,UB,0000,0000,0000,,Hey!
+Dialogue: 0,0:04:44.20,0:04:45.97,Main,UB,0000,0000,0000,,What in the world happened to you two?
+Dialogue: 0,0:04:45.97,0:04:47.84,Main,UB,0000,0000,0000,,Your entire body is toasted!
+Dialogue: 0,0:04:47.84,0:04:49.59,Main,Punk,0000,0000,0000,,What do you think you're doing, old man?
+Dialogue: 0,0:04:49.59,0:04:52.16,Main,UB,0000,0000,0000,,Hang in there! I'll call an ambulance now!
+Dialogue: 0,0:04:52.16,0:04:53.29,Main,G,0000,0000,0000,,No, call the cops instead!
+Dialogue: 0,0:04:53.29,0:04:54.84,Main,G,0000,0000,0000,,Somebody help!
+Dialogue: 0,0:04:56.84,0:04:59.09,Internal,UB,0000,0000,0000,,This planet really is dangerous.
+Dialogue: 0,0:04:59.09,0:05:02.12,Internal,UB,0000,0000,0000,,If Kagura-chan stays here, someday...
+Dialogue: 0,0:05:02.12,0:05:06.97,Internal,UB,0000,0000,0000,,Her whole body might end up toasted, and \Nshe might bring home a toasted boyfriend.
+Dialogue: 0,0:05:07.97,0:05:10.12,Main,TB,0000,0000,0000,,We're already expecting.
+Dialogue: 0,0:05:10.12,0:05:13.98,Internal,UB,0000,0000,0000,,There might be a new toasted \Nlife growing in her womb.
+Dialogue: 0,0:05:13.98,0:05:18.44,Internal,UB,0000,0000,0000,,We'd have no choice but to throw\Na shotgun wedding in the shadows.
+Dialogue: 0,0:05:18.44,0:05:22.24,Internal,UB,0000,0000,0000,,But in a matter of months, \Nher married life would be toast.
+Dialogue: 0,0:05:22.56,0:05:24.49,Main,TB,0000,0000,0000,,It's all burned!
+Dialogue: 0,0:05:25.16,0:05:28.49,Internal,UB,0000,0000,0000,,Unable to fend for herself and her \Nchild as a single toast mother...
+Dialogue: 0,0:05:30.08,0:05:34.05,Main,Kag,0000,0000,0000,,Oh dear, mister. Your whole body's so toasted.
+Dialogue: 0,0:05:34.05,0:05:36.62,Internal,UB,0000,0000,0000,,She'd start working at a shady shop.
+Dialogue: 0,0:05:36.62,0:05:39.26,Internal,UB,0000,0000,0000,,Eventually, even her heart \Nwould be toasted black, and...
+Dialogue: 0,0:05:40.13,0:05:43.45,Main,Cop,0000,0000,0000,,We found a burned, toasted will.
+Dialogue: 0,0:05:44.63,0:05:46.39,sign_8096_97_Forgive_me__Dadd,Sign,0000,0000,0000,,Forgive me, Daddy.
+Dialogue: 0,0:05:46.39,0:05:47.64,Main,UB,0000,0000,0000,,I won't stand for it!
+Dialogue: 0,0:05:47.64,0:05:50.77,Main,UB,0000,0000,0000,,Daddy will not accept toast of any sort!
+Dialogue: 0,0:05:51.13,0:05:53.77,Main,UB,0000,0000,0000,,If you stay here, everything will be toast!
+Dialogue: 0,0:05:54.14,0:05:57.51,Main,UB,0000,0000,0000,,I'm gonna take her back before \Neverything becomes toast!
+Dialogue: 0,0:05:57.51,0:05:58.64,Main,G,0000,0000,0000,,Hey, sir.
+Dialogue: 0,0:05:59.27,0:06:06.78,sign_8447_103_Hair_Growth_Powd,Sign,0000,0000,0000,,Hair Growth Powder\N{\fs26\b1}Toasty{\b0}\N{\fs16}A magical way to hide your hair loss\N{\fs18\c&H4223D4&}Free Trial Period
+Dialogue: 0,0:05:59.70,0:06:02.52,Main,G,0000,0000,0000,,We're running a free trial period right now.
+Dialogue: 0,0:06:02.52,0:06:03.79,Main,G,0000,0000,0000,,Would you like to try it?
+Dialogue: 0,0:06:03.79,0:06:06.78,Main,G,0000,0000,0000,,One spray, and your head \Nwill be a toasty black.
+Dialogue: 0,0:06:06.78,0:06:08.28,Main,UB,0000,0000,0000,,I won't stand for it!
+Dialogue: 0,0:06:08.28,0:06:11.33,Main,UB,0000,0000,0000,,Only Daddy's head needs to be toasty!
+Dialogue: 0,0:06:11.33,0:06:14.79,Main,UB,0000,0000,0000,,That's enough! Daddy has \Nenough hair on his head!
+Dialogue: 0,0:06:14.79,0:06:18.34,Main,UB,0000,0000,0000,,Be it Daddy's hair or your life \Nhere on Earth, this is plenty!
+Dialogue: 0,0:06:18.34,0:06:21.38,Main,UB,0000,0000,0000,,You should say goodbye \Nto this rotten place...
+Dialogue: 0,0:06:22.82,0:06:24.88,Internal,UB,0000,0000,0000,,That's Kagura-chan.
+Dialogue: 0,0:06:25.29,0:06:29.34,Internal,UB,0000,0000,0000,,Thank goodness. Looks like \Nshe's not toasted yet.
+Dialogue: 0,0:06:30.81,0:06:32.18,sign_9203_118_To_Kagura_chan,Sign,0000,0000,0000,,Kagura-chan
+Dialogue: 0,0:06:30.81,0:06:32.39,Main,Boy,0000,0000,0000,,Um, here.
+Dialogue: 0,0:06:36.28,0:06:39.28,Main,Boy,0000,0000,0000,,You can give me your answer some other time.
+Dialogue: 0,0:06:39.28,0:06:39.84,Main,Boy,0000,0000,0000,,Bye.
+Dialogue: 0,0:06:39.84,0:06:41.24,Main,Kag,0000,0000,0000,,Hey, wait.
+Dialogue: 0,0:06:42.86,0:06:45.03,Main,Kag,0000,0000,0000,,What is this?
+Dialogue: 0,0:06:45.03,0:06:46.41,Main,Kag,0000,0000,0000,,Let's see...
+Dialogue: 0,0:06:46.41,0:06:48.15,Main,Kag,0000,0000,0000,,Dear Kagura-chan...
+Dialogue: 0,0:06:46.41,0:06:49.03,sign_9577_124_To_Kagura_chan__,Sign,0000,0000,0000,,Dear Kagura-chan,\NEver since we first met,\NI haven't been able to stop thinking about you.
+Dialogue: 0,0:06:48.15,0:06:52.37,Main,Kag,0000,0000,0000,,Ever since we first met, I haven't \Nbeen able to stop thinking about you."
+Dialogue: 0,0:06:52.37,0:06:56.09,Main,Kag,0000,0000,0000,,All this while, I've played with \Nyou like you were one of the guys,
+Dialogue: 0,0:06:52.37,0:06:59.33,road safety,,0000,0000,0000,,Road Safety\N{\fs18\b0\c&H000000&}Be careful up ahead!!
+Dialogue: 0,0:06:56.09,0:06:59.33,Main,Kag,0000,0000,0000,,but I can't suppress these feelings anymore.
+Dialogue: 0,0:06:59.33,0:07:01.25,Main,Kag,0000,0000,0000,,Please go out with me.
+Dialogue: 0,0:07:03.67,0:07:05.92,Main,Kag,0000,0000,0000,,My heart is
+Dialogue: 0,0:07:06.93,0:07:11.26,Main,Kag,0000,0000,0000,,burning with such passionate love for you
+Dialogue: 0,0:07:14.30,0:07:15.81,Main,Kag,0000,0000,0000,,that it is now toasted pitch-black.
+Dialogue: 0,0:07:15.81,0:07:21.82,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}The Stairs to Adulthood\NMay Not Always Lead Up
+Dialogue: 0,0:07:21.82,0:07:24.55,sign_10426_135_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:07:25.49,0:07:26.82,Main,Shin,0000,0000,0000,,Hey!
+Dialogue: 0,0:07:26.82,0:07:29.57,Main,Shin,0000,0000,0000,,What the heck is this? What happened?
+Dialogue: 0,0:07:29.57,0:07:33.12,Main,Gin,0000,0000,0000,,Pachi-boy, I asked you to get me a spoon.
+Dialogue: 0,0:07:33.51,0:07:37.62,Main,Gin,0000,0000,0000,,If you're giving me such a massive spoon, \Ngive me a massive serving of pudding, too.
+Dialogue: 0,0:07:37.62,0:07:39.66,Main,UB,0000,0000,0000,,I assume you're okay with that...
+Dialogue: 0,0:07:39.66,0:07:42.10,Main,UB,0000,0000,0000,,as your last supper.
+Dialogue: 0,0:07:44.05,0:07:45.77,Main,UB,0000,0000,0000,,You're okay with that?
+Dialogue: 0,0:07:45.77,0:07:47.58,Main,Shin,0000,0000,0000,,U-Umibozu-san?
+Dialogue: 0,0:07:47.58,0:07:51.72,Main,Gin,0000,0000,0000,,Oh, Pops. If you'd told us you were coming,
+Dialogue: 0,0:07:51.72,0:07:53.62,Main,Gin,0000,0000,0000,,we would've got another pudding for you.
+Dialogue: 0,0:07:53.62,0:07:55.80,Main,Gin,0000,0000,0000,,Did you go out of your way to get your own
+Dialogue: 0,0:07:56.83,0:07:58.06,Main,Gin,0000,0000,0000,,shiny pudding?
+Dialogue: 0,0:07:58.06,0:07:59.86,Main,UB,0000,0000,0000,,My head is not shiny pudding!
+Dialogue: 0,0:07:59.86,0:08:04.33,Main,Gin,0000,0000,0000,,Why are you so cranky pudding as soon \Nas you get here? Aren't you being rude?
+Dialogue: 0,0:08:04.33,0:08:08.40,Main,UB,0000,0000,0000,,I don't wanna hear that from a guy \Nwho keeps calling my head pudding!
+Dialogue: 0,0:08:08.40,0:08:13.17,Main,UB,0000,0000,0000,,You were supposed to look after my precious \Ndaughter! What were you looking at?
+Dialogue: 0,0:08:13.17,0:08:15.79,Main,UB,0000,0000,0000,,This is the height of negligence!
+Dialogue: 0,0:08:16.27,0:08:19.05,Main,Shin,0000,0000,0000,,Huh? Did something happen to Kagura-chan?
+Dialogue: 0,0:08:19.05,0:08:21.29,Main,Kag,0000,0000,0000,,I'm home!
+Dialogue: 0,0:08:21.29,0:08:23.73,Main,Kag,0000,0000,0000,,Huh? You're here, Daddy?
+Dialogue: 0,0:08:23.73,0:08:24.59,Main,Kag,0000,0000,0000,,Long time no see.
+Dialogue: 0,0:08:24.59,0:08:25.84,Main,UB,0000,0000,0000,,Kagura!
+Dialogue: 0,0:08:25.84,0:08:29.49,Main,Kag,0000,0000,0000,,Perfect timing. I've got good \Nnews to share with you all.
+Dialogue: 0,0:08:29.49,0:08:31.47,Main,UB,0000,0000,0000,,No! I don't wanna hear it!
+Dialogue: 0,0:08:32.82,0:08:34.97,Main,Kag,0000,0000,0000,,I have a boyfriend now.
+Dialogue: 0,0:08:38.09,0:08:39.26,Internal,UB,0000,0000,0000,,Wait a second.
+Dialogue: 0,0:08:39.26,0:08:41.48,Internal,UB,0000,0000,0000,,Not "I got a love letter"?
+Dialogue: 0,0:08:41.48,0:08:43.61,Internal,UB,0000,0000,0000,,"Boyfriend"?
+Dialogue: 0,0:08:43.61,0:08:45.45,Main,Kag,0000,0000,0000,,We're going on a date tomorrow.
+Dialogue: 0,0:08:45.45,0:08:47.61,Main,Kag,0000,0000,0000,,What should I wear?
+Dialogue: 0,0:08:50.52,0:08:53.47,Main,Gin,0000,0000,0000,,Uh, Shinpachi...
+Dialogue: 0,0:08:53.47,0:08:55.25,Main,Gin,0000,0000,0000,,What's a "boyfriend" again?
+Dialogue: 0,0:08:55.72,0:08:56.74,Main,Gin,0000,0000,0000,,Like these things?
+Dialogue: 0,0:08:56.74,0:08:58.53,Main,Shin,0000,0000,0000,,No, that's a dry limb.
+Dialogue: 0,0:08:58.53,0:09:00.23,Main,Shin,0000,0000,0000,,"Dry limb" and "boyfriend" barely sound alike.
+Dialogue: 0,0:09:00.23,0:09:01.48,Main,Gin,0000,0000,0000,,Like this, then?
+Dialogue: 0,0:09:01.48,0:09:03.04,Main,Shin,0000,0000,0000,,Uh, that's "boyfriend death."
+Dialogue: 0,0:09:02.81,0:09:06.17,sign_12847_174_Boyfriend_DEATH,Sign,0000,0000,0000,,Boyfriend DEATH
+Dialogue: 0,0:09:03.04,0:09:06.17,Main,Shin,0000,0000,0000,,Get away from the tree \Nalready. Just take the guy.
+Dialogue: 0,0:09:06.17,0:09:07.30,Main,Gin,0000,0000,0000,,Oh, so like this?
+Dialogue: 0,0:09:07.67,0:09:09.74,Main,Shin,0000,0000,0000,,Why'd you turn it into \NChris's evolution chart?
+Dialogue: 0,0:09:09.74,0:09:12.72,Main,Shin,0000,0000,0000,,He just evolved from dry \Nlimbs to more dry limbs!
+Dialogue: 0,0:09:14.24,0:09:15.68,Main,UB,0000,0000,0000,,How could this be?
+Dialogue: 0,0:09:15.68,0:09:19.36,Main,UB,0000,0000,0000,,He said he'd wait for his answer, \Nbut she gave it to him so quickly?
+Dialogue: 0,0:09:19.36,0:09:21.23,Main,UB,0000,0000,0000,,And she said okay?!
+Dialogue: 0,0:09:21.23,0:09:23.85,Main,UB,0000,0000,0000,,What're you gonna do about this?
+Dialogue: 0,0:09:23.85,0:09:26.69,Main,UB,0000,0000,0000,,This wouldn't have happened \Nif you'd kept an eye on her!
+Dialogue: 0,0:09:26.69,0:09:29.38,Main,Gin,0000,0000,0000,,Calm down. This has to be some bad joke.
+Dialogue: 0,0:09:29.38,0:09:32.24,Main,Gin,0000,0000,0000,,Kagura, of all people, \Ncould never get a boyfriend.
+Dialogue: 0,0:09:32.24,0:09:33.65,Main,UB,0000,0000,0000,,You're right.
+Dialogue: 0,0:09:33.65,0:09:36.68,Main,UB,0000,0000,0000,,This has to be some kind of \Nbad joke or bad dream, right?
+Dialogue: 0,0:09:36.68,0:09:37.90,Main,Gin,0000,0000,0000,,Exactly.
+Dialogue: 0,0:09:37.90,0:09:42.25,Main,Gin,0000,0000,0000,,Who'd fall for that vulgar, gluttonous \Nmass with no sex appeal—that hurloine?
+Dialogue: 0,0:09:42.25,0:09:44.40,Main,Gin,0000,0000,0000,,She probably just got Punk'd or something.
+Dialogue: 0,0:09:44.40,0:09:46.62,Main,Gin,0000,0000,0000,,She's your daughter. She inherited \Nall your unlucky genes.
+Dialogue: 0,0:09:46.62,0:09:47.75,Main,Gin,0000,0000,0000,,Have more faith in her.
+Dialogue: 0,0:09:47.75,0:09:48.60,Main,UB,0000,0000,0000,,You're right!
+Dialogue: 0,0:09:48.60,0:09:52.26,Main,UB,0000,0000,0000,,This couldn't happen to a girl who \Nwas swimming in my filthy b*lls...
+Dialogue: 0,0:09:52.26,0:09:54.41,Main,UB,0000,0000,0000,,Who're you calling a filthy b*ll girl?!
+Dialogue: 0,0:09:54.41,0:09:56.20,Main,Gin,0000,0000,0000,,I never went that far.
+Dialogue: 0,0:09:56.20,0:09:59.01,Main,Gin,0000,0000,0000,,Please, cool off your b*ll head for a sec.
+Dialogue: 0,0:09:59.01,0:10:01.49,Main,Gin,0000,0000,0000,,Don't worry. This can't be real.
+Dialogue: 0,0:10:01.49,0:10:03.27,Main,Shin,0000,0000,0000,,You never know.
+Dialogue: 0,0:10:04.16,0:10:07.82,Main,Shin,0000,0000,0000,,I've heard that even grade \Nschoolers are dating these days.
+Dialogue: 0,0:10:07.82,0:10:11.11,Main,Shin,0000,0000,0000,,And while Kagura-chan may look \Nchildish, she's fourteen.
+Dialogue: 0,0:10:11.64,0:10:14.65,Main,Shin,0000,0000,0000,,Besides, if you go just \Nby looks, she's a beauty.
+Dialogue: 0,0:10:15.08,0:10:16.41,Main,Shin,0000,0000,0000,,Considering all that—
+Dialogue: 0,0:10:17.91,0:10:21.02,Main,UB,0000,0000,0000,,Hey, what do you mean, grade schoolers?
+Dialogue: 0,0:10:21.02,0:10:24.50,Main,UB,0000,0000,0000,,Has this planet gotten that dirty?
+Dialogue: 0,0:10:24.50,0:10:25.58,sign_14806_206_Earth,Sign,0000,0000,0000,,Earth
+Dialogue: 0,0:10:24.50,0:10:25.58,Main,UB,0000,0000,0000,,Earth?
+Dialogue: 0,0:10:25.75,0:10:27.83,Main,UB,0000,0000,0000,,More like Dirth!
+Dialogue: 0,0:10:26.23,0:10:27.83,sign_14847_209_Dirth,Sign,0000,0000,0000,,Dirth
+Dialogue: 0,0:10:27.83,0:10:30.17,Main,UB,0000,0000,0000,,Can I destroy it now?
+Dialogue: 0,0:10:30.17,0:10:32.34,Main,UB,0000,0000,0000,,Can I get serious now?
+Dialogue: 0,0:10:32.34,0:10:34.18,Main,Shin,0000,0000,0000,,Please calm down.
+Dialogue: 0,0:10:34.18,0:10:36.10,Main,Shin,0000,0000,0000,,I called it "dating," but they're just playing.
+Dialogue: 0,0:10:36.10,0:10:37.59,Main,Shin,0000,0000,0000,,It's all just a game!
+Dialogue: 0,0:10:37.59,0:10:38.97,Main,Gin,0000,0000,0000,,Hey...
+Dialogue: 0,0:10:39.68,0:10:41.72,Main,Gin,0000,0000,0000,,What do you mean, it's just a game?
+Dialogue: 0,0:10:41.72,0:10:42.61,Main,Shin,0000,0000,0000,,Not you, too!
+Dialogue: 0,0:10:42.61,0:10:44.38,Main,Gin,0000,0000,0000,,Don't tell me they satisfy their urges,
+Dialogue: 0,0:10:44.38,0:10:48.98,Main,Gin,0000,0000,0000,,wrap the girl with paper from their Japonica \NNotebooks, and chuck her in the trash.
+Dialogue: 0,0:10:48.98,0:10:50.21,Main,Gin,0000,0000,0000,,If they do that,
+Dialogue: 0,0:10:50.21,0:10:54.56,Main,Gin,0000,0000,0000,,can I stick jet packs in their backpacks and \Npitch them to the edge of the galaxy?
+Dialogue: 0,0:10:54.56,0:10:56.49,Main,Gin,0000,0000,0000,,Can I turn them into the \Nbackpack constellation?
+Dialogue: 0,0:10:57.08,0:10:59.29,Main,Shin,0000,0000,0000,,Calm down, both of you!
+Dialogue: 0,0:10:59.29,0:11:01.33,Main,Shin,0000,0000,0000,,I'm just speaking hypothetically!
+Dialogue: 0,0:11:01.33,0:11:02.55,Main,Shin,0000,0000,0000,,You're getting too worked up!
+Dialogue: 0,0:11:02.55,0:11:06.46,Main,Shin,0000,0000,0000,,Also, if you're so bothered by it, you \Ncould just ask Kagura-chan directly!
+Dialogue: 0,0:11:08.12,0:11:10.45,Main,UB,0000,0000,0000,,Y-You go.
+Dialogue: 0,0:11:11.02,0:11:13.84,Main,Gin,0000,0000,0000,,Why me? Aren't you her father?
+Dialogue: 0,0:11:13.84,0:11:18.13,Main,UB,0000,0000,0000,,Shut up! That's exactly why I don't know \Nhow to face her at times like these!
+Dialogue: 0,0:11:19.21,0:11:21.24,Main,UB,0000,0000,0000,,You could bring it up casually.
+Dialogue: 0,0:11:21.24,0:11:22.14,Main,UB,0000,0000,0000,,Just go already.
+Dialogue: 0,0:11:22.14,0:11:25.16,Main,Gin,0000,0000,0000,,What are you saying? You sound pathetic.
+Dialogue: 0,0:11:25.16,0:11:26.28,Main,Gin,0000,0000,0000,,Shinpachi, you go.
+Dialogue: 0,0:11:26.28,0:11:27.27,Main,Shin,0000,0000,0000,,Where did that come from?
+Dialogue: 0,0:11:27.27,0:11:28.44,Main,Gin,0000,0000,0000,,Shaddup.
+Dialogue: 0,0:11:28.44,0:11:30.58,Main,Gin,0000,0000,0000,,When you're trying to climb \Nthe stairs to adulthood,
+Dialogue: 0,0:11:30.58,0:11:33.30,Main,Gin,0000,0000,0000,,adults shouldn't be yelling \Nat you from the top.
+Dialogue: 0,0:11:33.30,0:11:34.81,Main,Gin,0000,0000,0000,,This calls for one nowhere near the stairs,
+Dialogue: 0,0:11:34.81,0:11:38.20,Main,Gin,0000,0000,0000,,a primitive lifeform like you \Nstill groveling on the ground.
+Dialogue: 0,0:11:38.20,0:11:39.96,Main,Shin,0000,0000,0000,,Who're you calling an amoeba?!
+Dialogue: 0,0:11:39.96,0:11:41.53,Main,Shin,0000,0000,0000,,Jeez, fine.
+Dialogue: 0,0:11:41.53,0:11:43.08,Main,Shin,0000,0000,0000,,I'll go ask her, then.
+Dialogue: 0,0:11:43.08,0:11:45.10,Main,Gin,0000,0000,0000,,Wait, time out!
+Dialogue: 0,0:11:45.10,0:11:46.16,Main,Shin,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:46.16,0:11:48.59,Main,Gin,0000,0000,0000,,Never mind. You don't \Nhave to ask her anything.
+Dialogue: 0,0:11:48.59,0:11:49.67,Main,Shin,0000,0000,0000,,Make up your damn mind!
+Dialogue: 0,0:11:49.67,0:11:51.67,Main,Kag,0000,0000,0000,,Boy, I'm so hungry.
+Dialogue: 0,0:11:51.97,0:11:53.50,Main,Kag,0000,0000,0000,,Is dinner ready?
+Dialogue: 0,0:11:53.82,0:11:55.51,Main,Kag,0000,0000,0000,,Wow, it's red rice!
+Dialogue: 0,0:11:55.51,0:11:58.22,Main,Kag,0000,0000,0000,,What's up? Did something good happen?
+Dialogue: 0,0:11:58.22,0:12:01.21,Main,UB,0000,0000,0000,,Huh? Uh, what's up, you ask?
+Dialogue: 0,0:12:01.21,0:12:01.96,Main,,0000,0000,0000,,Er...
+Dialogue: 0,0:12:02.44,0:12:04.32,Main,UB,0000,0000,0000,,What was up, Gintoki-kun?
+Dialogue: 0,0:12:04.32,0:12:06.56,Main,Gin,0000,0000,0000,,Huh? U-Uh, y'know, bo...
+Dialogue: 0,0:12:07.52,0:12:08.28,Main,Gin,0000,0000,0000,,Boy...
+Dialogue: 0,0:12:09.10,0:12:12.32,Main,Gin,0000,0000,0000,,Boy, oh, boy! Curry came out \Nof your father's crotch!
+Dialogue: 0,0:12:12.32,0:12:14.44,Main,Kag,0000,0000,0000,,What's so good about that?
+Dialogue: 0,0:12:14.44,0:12:16.98,Main,UB,0000,0000,0000,,W-Well, I've been constipated lately,
+Dialogue: 0,0:12:16.98,0:12:19.53,Main,UB,0000,0000,0000,,so, like, we're celebrating \Nthe tunnel opening?
+Dialogue: 0,0:12:19.88,0:12:23.56,Main,Gin,0000,0000,0000,,Maybe we should've gone with curry \Ninstead of red rice, huh, Father?
+Dialogue: 0,0:12:23.56,0:12:26.64,Main,UB,0000,0000,0000,,But it came out with such force \Nthat there was blood mixed in, too.
+Dialogue: 0,0:12:26.64,0:12:27.54,Main,UB,0000,0000,0000,,It's okay this way, I say.
+Dialogue: 0,0:12:27.54,0:12:28.96,Main,Kag,0000,0000,0000,,There goes my appetite.
+Dialogue: 0,0:12:28.96,0:12:30.32,Main,Gin,0000,0000,0000,,Wait, wait, wait, wait!
+Dialogue: 0,0:12:30.32,0:12:31.17,Main,Gin,0000,0000,0000,,We're sorry!
+Dialogue: 0,0:12:31.17,0:12:33.38,Main,Gin,0000,0000,0000,,This isn't something we should \Ntalk about over dinner, huh?
+Dialogue: 0,0:12:33.38,0:12:34.81,Main,UB,0000,0000,0000,,Hurry up and take a seat.
+Dialogue: 0,0:12:34.81,0:12:36.80,Main,UB,0000,0000,0000,,Shinpachi-kun went to \Ngreat pains to make this.
+Dialogue: 0,0:12:36.80,0:12:38.76,Main,All,0000,0000,0000,,Let's eat!
+Dialogue: 0,0:12:45.12,0:12:47.25,Main,Gin,0000,0000,0000,,Hey, ask her already, you stupid cue ball!
+Dialogue: 0,0:12:47.25,0:12:49.08,Main,UB,0000,0000,0000,,Who do you think you're calling a cue ball?
+Dialogue: 0,0:12:49.08,0:12:51.50,Main,UB,0000,0000,0000,,You're sorely mistaken if you \Nthink light hair doesn't fall off.
+Dialogue: 0,0:12:51.50,0:12:53.32,Main,UB,0000,0000,0000,,Don't you know how it went with Uncle Jam?
+Dialogue: 0,0:12:53.32,0:12:55.92,Main,Gin,0000,0000,0000,,You're the one with the Uncle Jam head!
+Dialogue: 0,0:12:55.92,0:12:59.28,Main,UB,0000,0000,0000,,You're wasting the chance we made \Nthis celebratory red rice to create.
+Dialogue: 0,0:12:59.28,0:13:01.69,Main,Gin,0000,0000,0000,,You don't intend to celebrate \Na hair on her head.
+Dialogue: 0,0:13:01.69,0:13:04.06,Main,Gin,0000,0000,0000,,Your roots have all died out, \Nso what are you talking about?
+Dialogue: 0,0:13:04.06,0:13:07.09,Main,UB,0000,0000,0000,,They haven't! They're just taking \Na break because it's half-time.
+Dialogue: 0,0:13:07.09,0:13:09.13,Main,Gin,0000,0000,0000,,Are you that scared to find out the truth?
+Dialogue: 0,0:13:09.13,0:13:11.33,Main,Gin,0000,0000,0000,,Are you that scared of \Nyour daughter growing up?
+Dialogue: 0,0:13:11.33,0:13:13.20,Main,UB,0000,0000,0000,,I'm not the least bit scared.
+Dialogue: 0,0:13:13.20,0:13:15.04,Main,UB,0000,0000,0000,,I just wanna say that when she leaves Earth,
+Dialogue: 0,0:13:15.04,0:13:18.01,Main,UB,0000,0000,0000,,it'll be a long-distance relationship, \Nand it'll be hard to keep up.
+Dialogue: 0,0:13:18.01,0:13:22.13,Main,UB,0000,0000,0000,,You're the one feeling lonely because you \Nfeel like she's grown distant from you.
+Dialogue: 0,0:13:22.13,0:13:24.61,Main,Gin,0000,0000,0000,,As if! In fact, that's exactly what I want.
+Dialogue: 0,0:13:24.61,0:13:28.76,Main,Gin,0000,0000,0000,,I'm just worried she'll neglect her \Nwork because she's distracted by love.
+Dialogue: 0,0:13:28.76,0:13:30.72,Main,Gin,0000,0000,0000,,I'm totally ready to celebrate this.
+Dialogue: 0,0:13:30.72,0:13:32.76,Main,Gin,0000,0000,0000,,I'm totally gonna get another \Nhelping of red rice.
+Dialogue: 0,0:13:32.76,0:13:33.61,Main,UB,0000,0000,0000,,Screw you!
+Dialogue: 0,0:13:33.61,0:13:35.36,Main,UB,0000,0000,0000,,I'm eating more helpings!
+Dialogue: 0,0:13:35.36,0:13:35.94,Main,Gin,0000,0000,0000,,Shut up!
+Dialogue: 0,0:13:35.94,0:13:38.33,Main,Gin,0000,0000,0000,,I'll eat enough red beans to match my age!
+Dialogue: 0,0:13:38.33,0:13:41.44,Main,UB,0000,0000,0000,,I'm older than you, so I can eat more!
+Dialogue: 0,0:13:41.44,0:13:44.01,Main,Gin,0000,0000,0000,,Then I'll eat enough to match \Nthe number of hair roots I have!
+Dialogue: 0,0:13:44.01,0:13:47.20,Main,UB,0000,0000,0000,,Then I'll eat enough to match \Nthe number of dead roots I have!
+Dialogue: 0,0:13:47.20,0:13:48.95,Main,Gin,0000,0000,0000,,So you admit they've all died out?!
+Dialogue: 0,0:13:48.95,0:13:51.66,Main,Kag,0000,0000,0000,,What are those two morons doing?
+Dialogue: 0,0:13:52.22,0:13:54.17,Main,Shin,0000,0000,0000,,S-Say, Kagura-chan...
+Dialogue: 0,0:13:54.17,0:13:55.67,Main,Shin,0000,0000,0000,,You mentioned this earlier,
+Dialogue: 0,0:13:55.98,0:13:57.89,Main,Shin,0000,0000,0000,,but is it true you got a boyfriend?
+Dialogue: 0,0:13:59.06,0:14:01.13,Main,Kag,0000,0000,0000,,I don't really get it.
+Dialogue: 0,0:14:01.93,0:14:05.80,Main,Kag,0000,0000,0000,,I got a love letter, but honestly, \Nit hasn't sunk in yet.
+Dialogue: 0,0:14:05.80,0:14:08.75,Main,Kag,0000,0000,0000,,I don't really understand \Nall that love stuff, anyway.
+Dialogue: 0,0:14:08.75,0:14:12.97,Main,Kag,0000,0000,0000,,But I could feel how much heart \Nhe put into what he wrote,
+Dialogue: 0,0:14:12.97,0:14:14.31,Main,Kag,0000,0000,0000,,so I figured I could at least go on a date—
+Dialogue: 0,0:14:15.06,0:14:17.32,Main,Bo,0000,0000,0000,,That won't do, Kagura-chan!
+Dialogue: 0,0:14:17.32,0:14:20.78,Main,Gin,0000,0000,0000,,Dating someone out of sympathy or pity \Nis the most insulting thing to them!
+Dialogue: 0,0:14:20.78,0:14:23.07,Main,Gin,0000,0000,0000,,It'll end up hurting them the most!
+Dialogue: 0,0:14:23.07,0:14:24.85,Main,UB,0000,0000,0000,,You should break up with him.
+Dialogue: 0,0:14:24.85,0:14:26.00,Main,UB,0000,0000,0000,,Right, Gintoki-kun?
+Dialogue: 0,0:14:26.00,0:14:26.96,Main,Gin,0000,0000,0000,,That's right.
+Dialogue: 0,0:14:26.96,0:14:29.90,Main,Gin,0000,0000,0000,,You shouldn't sell yourself short. \NDon't you agree, Father?
+Dialogue: 0,0:14:30.61,0:14:33.58,Main,Kag,0000,0000,0000,,But you could fall for someone once \Nyou start dating them, couldn't you?
+Dialogue: 0,0:14:33.58,0:14:35.94,Main,Kag,0000,0000,0000,,That's what Daddy said \Nabout his shotgun marriage.
+Dialogue: 0,0:14:36.72,0:14:39.59,Main,UB,0000,0000,0000,,Some romances start in bed, too.
+Dialogue: 0,0:14:39.81,0:14:43.66,Main,Gin,0000,0000,0000,,You're the root cause? What the \Nhell were you telling a child?!
+Dialogue: 0,0:14:44.34,0:14:46.95,Main,UB,0000,0000,0000,,You've got the wrong idea! \NThat's not what I meant there...
+Dialogue: 0,0:14:46.95,0:14:50.14,Main,Kag,0000,0000,0000,,Anyway, I have a date tomorrow, \Nso I'm going to bed now.
+Dialogue: 0,0:14:50.14,0:14:51.54,Main,UB,0000,0000,0000,,Wait, Kagura-chan.
+Dialogue: 0,0:14:52.56,0:14:54.74,Main,Gin,0000,0000,0000,,Feel free to go on a date or whatever.
+Dialogue: 0,0:14:54.74,0:14:56.29,Main,UB,0000,0000,0000,,But before that...
+Dialogue: 0,0:14:56.88,0:15:01.11,Main,Bo,0000,0000,0000,,Could you introduce your boyfriend to us?
+Dialogue: 0,0:15:01.11,0:15:03.11,Main,,0000,0000,0000,,How many have we been to now?
+Dialogue: 0,0:15:08.40,0:15:09.40,Main,UB,0000,0000,0000,,Pops...
+Dialogue: 0,0:15:09.40,0:15:11.08,Main,Gin,0000,0000,0000,,One more.
+Dialogue: 0,0:15:11.56,0:15:13.58,Main,Shin,0000,0000,0000,,You're drinking too much, you two!
+Dialogue: 0,0:15:13.58,0:15:16.40,Main,Shin,0000,0000,0000,,You're meeting Kagura-chan's \Nboyfriend tomorrow, remember?
+Dialogue: 0,0:15:16.40,0:15:19.30,Main,UB,0000,0000,0000,,Shut up! Boyfriend, my ass!
+Dialogue: 0,0:15:19.30,0:15:23.46,Main,UB,0000,0000,0000,,I don't care who he is or where he's \Nfrom. I haven't accepted him yet.
+Dialogue: 0,0:15:24.21,0:15:26.34,Main,Gin,0000,0000,0000,,Yeah, dumbass.
+Dialogue: 0,0:15:26.34,0:15:30.68,Main,Gin,0000,0000,0000,,It's way too early for a runt like her to \Nbe getting into an illicit relationship.
+Dialogue: 0,0:15:31.38,0:15:35.16,Main,Gin,0000,0000,0000,,Who gave her permission to ride \Nthe escalator to adulthood?
+Dialogue: 0,0:15:35.16,0:15:40.02,Main,Gin,0000,0000,0000,,Who does she think raised \Nher until now? Damn it all.
+Dialogue: 0,0:15:40.02,0:15:43.75,Main,UB,0000,0000,0000,,Uh, that's my line.
+Dialogue: 0,0:15:43.75,0:15:47.30,Main,UB,0000,0000,0000,,When exactly did you raise her?
+Dialogue: 0,0:15:47.30,0:15:50.03,Main,Gin,0000,0000,0000,,You neglected caring for your \Ndaughter and your hair, cue ball.
+Dialogue: 0,0:15:50.03,0:15:52.73,Main,Gin,0000,0000,0000,,It's too late for you to \Nstart acting like a dad!
+Dialogue: 0,0:15:52.73,0:15:54.09,Main,UB,0000,0000,0000,,I didn't neglect anything!
+Dialogue: 0,0:15:54.09,0:15:56.90,Main,UB,0000,0000,0000,,I simply respected the independence \Nof my daughter and my hair!
+Dialogue: 0,0:15:56.90,0:15:58.97,Main,UB,0000,0000,0000,,They've both just gone \Nto study abroad, is all!
+Dialogue: 0,0:15:58.97,0:16:01.38,Main,Gin,0000,0000,0000,,But they've totally run into trouble there!
+Dialogue: 0,0:16:01.38,0:16:03.07,Main,Gin,0000,0000,0000,,They're never coming back now!
+Dialogue: 0,0:16:03.07,0:16:06.89,Main,UB,0000,0000,0000,,They will! They'll come home all blonde!
+Dialogue: 0,0:16:06.89,0:16:09.30,Main,Shin,0000,0000,0000,,Oh, jeez. Stop it, you two.
+Dialogue: 0,0:16:09.30,0:16:11.58,Main,Shin,0000,0000,0000,,I understand why you're so worried,
+Dialogue: 0,0:16:12.09,0:16:16.06,Main,Shin,0000,0000,0000,,but everyone with a daughter has \Nto face this day eventually.
+Dialogue: 0,0:16:16.69,0:16:21.77,Main,Shin,0000,0000,0000,,He must be a nice boy, considering \NKagura-chan accepted him.
+Dialogue: 0,0:16:21.77,0:16:27.82,Main,Shin,0000,0000,0000,,But if we, the hosts, act like this, \Nwe'll end up embarrassing her.
+Dialogue: 0,0:16:28.77,0:16:30.57,Main,Shin,0000,0000,0000,,While it might get a bit lonely,
+Dialogue: 0,0:16:30.57,0:16:32.80,Main,Shin,0000,0000,0000,,we must grow up, too.
+Dialogue: 0,0:16:33.57,0:16:35.82,Main,Shin,0000,0000,0000,,Well, I'll be leaving now.
+Dialogue: 0,0:16:35.82,0:16:39.00,Main,Shin,0000,0000,0000,,You two make sure to act \Nlike grown-ups tomorrow.
+Dialogue: 0,0:16:45.10,0:16:46.58,Main,UB,0000,0000,0000,,Grown-up, huh?
+Dialogue: 0,0:16:47.59,0:16:52.45,Main,UB,0000,0000,0000,,Yeah, it's really childish to get \Nthis worked up over a boyfriend.
+Dialogue: 0,0:16:53.09,0:16:55.85,Main,UB,0000,0000,0000,,I get it. I really do.
+Dialogue: 0,0:16:56.50,0:17:00.85,Main,UB,0000,0000,0000,,When she was a baby, I used to be so \Nhappy to see her grow up by the day.
+Dialogue: 0,0:17:00.85,0:17:04.79,Main,UB,0000,0000,0000,,Be it her first steps, or when \Nshe first learned to speak,
+Dialogue: 0,0:17:04.79,0:17:06.86,Main,UB,0000,0000,0000,,everything was a life-changing experience.
+Dialogue: 0,0:17:07.57,0:17:12.86,Main,UB,0000,0000,0000,,When was it that I stopped \Nfinding joy in her growing up?
+Dialogue: 0,0:17:13.51,0:17:17.87,Main,UB,0000,0000,0000,,When did I start feeling \Nmore lonely than happy?
+Dialogue: 0,0:17:18.90,0:17:25.13,Main,Gin,0000,0000,0000,,I used to think a grown-up's job was to \Nrun in front while the kids follow behind.
+Dialogue: 0,0:17:25.92,0:17:28.20,Main,Gin,0000,0000,0000,,But when they eventually overtake us,
+Dialogue: 0,0:17:28.72,0:17:33.40,Main,Gin,0000,0000,0000,,it's also our job to send \Nthem off with a smile, huh?
+Dialogue: 0,0:17:33.40,0:17:37.46,Main,Gin,0000,0000,0000,,Man, I can still keep running, though.
+Dialogue: 0,0:17:39.17,0:17:41.02,Main,UB,0000,0000,0000,,That's exactly it.
+Dialogue: 0,0:17:41.02,0:17:45.02,Main,UB,0000,0000,0000,,You and I are both still snot-faced brats.
+Dialogue: 0,0:17:45.40,0:17:47.52,Main,Gin,0000,0000,0000,,Shall we take them, too...
+Dialogue: 0,0:17:48.41,0:17:50.00,Main,Gin,0000,0000,0000,,The stairs to adulthood?
+Dialogue: 0,0:18:01.84,0:18:03.84,sign_10426_135_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:18:03.03,0:18:05.70,Main,Shin,0000,0000,0000,,I wonder if those two will be all right.
+Dialogue: 0,0:18:05.70,0:18:07.82,Main,Shin,0000,0000,0000,,They were acting like children last night,
+Dialogue: 0,0:18:07.82,0:18:10.99,Main,Shin,0000,0000,0000,,but they did promise to \Nbehave like adults today.
+Dialogue: 0,0:18:10.99,0:18:13.35,Main,Shin,0000,0000,0000,,I guess it should be okay.
+Dialogue: 0,0:18:13.77,0:18:14.98,Main,Bo,0000,0000,0000,,Welcome!
+Dialogue: 0,0:18:15.90,0:18:18.65,Main,Bo,0000,0000,0000,,Welcome to the Sakata household!
+Dialogue: 0,0:18:19.69,0:18:22.38,Main,Gin,0000,0000,0000,,Oh, it's just you, Shinpachi-kun.
+Dialogue: 0,0:18:22.38,0:18:25.28,Main,Shin,0000,0000,0000,,What are you doing? That'd scare \Nthe living daylights out of anyone!
+Dialogue: 0,0:18:25.28,0:18:26.72,Main,UB,0000,0000,0000,,Sorry, sorry.
+Dialogue: 0,0:18:26.72,0:18:30.02,Main,UB,0000,0000,0000,,We've been waiting in standby since \Nlast night for the boyfriend to arrive,
+Dialogue: 0,0:18:30.02,0:18:31.58,Main,UB,0000,0000,0000,,so we got a little too excited.
+Dialogue: 0,0:18:31.58,0:18:32.29,Main,Shin,0000,0000,0000,,Since last night?!
+Dialogue: 0,0:18:32.29,0:18:35.97,Main,Gin,0000,0000,0000,,And when we practiced our smiles so we \Ncould welcome the boyfriend with a smile,
+Dialogue: 0,0:18:35.97,0:18:37.30,Main,Gin,0000,0000,0000,,we fell into a "how do you smile,"
+Dialogue: 0,0:18:37.30,0:18:39.01,Main,Gin,0000,0000,0000,,"what even is a smile,"
+Dialogue: 0,0:18:39.01,0:18:42.13,Main,Gin,0000,0000,0000,,and "how is 'smile' spelled" loop.
+Dialogue: 0,0:18:42.13,0:18:45.90,Main,UB,0000,0000,0000,,Are we smiling? Have we managed to smile?
+Dialogue: 0,0:18:45.90,0:18:47.64,Main,Shin,0000,0000,0000,,Yeah, but there's nothing happy about it!
+Dialogue: 0,0:18:47.64,0:18:49.97,Main,UB,0000,0000,0000,,We'll be grown-ups today.
+Dialogue: 0,0:18:49.97,0:18:52.33,Main,UB,0000,0000,0000,,We won't embarrass Kagura.
+Dialogue: 0,0:18:52.33,0:18:53.93,Main,UB,0000,0000,0000,,You don't need to worry.
+Dialogue: 0,0:18:53.93,0:18:55.86,Main,Shin,0000,0000,0000,,Uh, where will you find \Ngrown-ups who smile like that?
+Dialogue: 0,0:18:55.86,0:18:57.89,Main,Shin,0000,0000,0000,,It's nice that you tried to better \Nyourselves, but you took it too far!
+Dialogue: 0,0:18:57.89,0:18:59.98,Main,Shin,0000,0000,0000,,You need to be more natural!
+Dialogue: 0,0:18:59.98,0:19:02.19,Main,UB,0000,0000,0000,,We know, Shinpachi-kun.
+Dialogue: 0,0:19:02.19,0:19:06.65,Main,UB,0000,0000,0000,,Acting too high-and-mighty would only \Nput unnecessary pressure on the boy.
+Dialogue: 0,0:19:08.73,0:19:09.78,Main,UB,0000,0000,0000,,Relax.
+Dialogue: 0,0:19:09.78,0:19:11.81,Main,UB,0000,0000,0000,,We're grown-ups today.
+Dialogue: 0,0:19:11.81,0:19:16.29,Main,Gin,0000,0000,0000,,But as grown-ups, we can't \Nreally dress casually here...
+Dialogue: 0,0:19:16.29,0:19:17.92,Main,Bo,0000,0000,0000,,...so we decided to get \Nsome formals at least.
+Dialogue: 0,0:19:17.92,0:19:20.17,Main,Shin,0000,0000,0000,,You took growing up too literally!
+Dialogue: 0,0:19:20.17,0:19:21.46,Main,Shin,0000,0000,0000,,What the hell are you two doing?
+Dialogue: 0,0:19:21.46,0:19:23.29,Main,Shin,0000,0000,0000,,Is this what you meant by being grown up?
+Dialogue: 0,0:19:23.29,0:19:23.82,Main,UB,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:23.82,0:19:24.66,Main,Gin,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:19:24.66,0:19:25.59,Main,Shin,0000,0000,0000,,Don't give me that!
+Dialogue: 0,0:19:25.59,0:19:26.83,Main,Shin,0000,0000,0000,,You're intimidating as hell!
+Dialogue: 0,0:19:26.83,0:19:28.32,Main,Shin,0000,0000,0000,,You can feel the pressure in the air!
+Dialogue: 0,0:19:28.32,0:19:29.55,Main,Gin,0000,0000,0000,,You must be imagining things.
+Dialogue: 0,0:19:29.55,0:19:33.10,Main,Gin,0000,0000,0000,,Upper bodies in this anime \Nhave always been like this.
+Dialogue: 0,0:19:33.10,0:19:35.56,Main,Shin,0000,0000,0000,,When did we become Captain Tsubasa?!
+Dialogue: 0,0:19:35.85,0:19:37.73,Main,Gin,0000,0000,0000,,Calm down, Shinpachi.
+Dialogue: 0,0:19:37.73,0:19:39.56,Main,Gin,0000,0000,0000,,You're the one acting unnatural.
+Dialogue: 0,0:19:39.56,0:19:43.78,Main,Gin,0000,0000,0000,,We're the hosts. We just need to be \Nready to welcome with open arms.
+Dialogue: 0,0:19:43.78,0:19:47.20,Main,Shin,0000,0000,0000,,No, you're the unnatural one! \NAnd your open arms are way too big!
+Dialogue: 0,0:19:47.20,0:19:57.46,sign_28297_417_Great_Nature_Dei,Sign,0000,0000,0000,,Great Nature Deism Daily
+Dialogue: 0,0:19:47.54,0:19:50.59,Main,Gin,0000,0000,0000,,Huh? Isn't this yesterday's \NGreat Nature paper?
+Dialogue: 0,0:19:50.59,0:19:51.76,Main,Gin,0000,0000,0000,,Jeez, throw it away.
+Dialogue: 0,0:19:51.76,0:19:53.30,Main,Shin,0000,0000,0000,,What the hell kind of \Nnewspaper are you reading?
+Dialogue: 0,0:19:53.30,0:19:57.46,Main,Shin,0000,0000,0000,,Stop it! It'll make the family situation \Nlook complicated and troublesome!
+Dialogue: 0,0:19:58.07,0:19:59.21,Main,UB,0000,0000,0000,,Oh, Mother.
+Dialogue: 0,0:19:59.21,0:20:00.98,Main,UB,0000,0000,0000,,Oh, Gaia.
+Dialogue: 0,0:20:00.98,0:20:03.44,Main,UB,0000,0000,0000,,Kagura-chan is bringing her boyfriend over.
+Dialogue: 0,0:20:03.44,0:20:05.44,Main,UB,0000,0000,0000,,We'll gain another follower.
+Dialogue: 0,0:20:05.44,0:20:08.34,Main,Shin,0000,0000,0000,,Hey! Who said you could build \Na creepy altar in our place?!
+Dialogue: 0,0:20:08.34,0:20:09.22,Main,Shin,0000,0000,0000,,What're you praying to it for?!
+Dialogue: 0,0:20:09.22,0:20:11.05,Main,Shin,0000,0000,0000,,What kind of secrets does this family have?!
+Dialogue: 0,0:20:11.05,0:20:14.86,Main,Gin,0000,0000,0000,,This is it, right? We just have \Nto act naturally like this, right?
+Dialogue: 0,0:20:14.86,0:20:16.03,Main,Shin,0000,0000,0000,,This is too scary!
+Dialogue: 0,0:20:16.03,0:20:17.45,Main,Shin,0000,0000,0000,,You got so conscious about the natural part,
+Dialogue: 0,0:20:17.45,0:20:19.65,Main,Shin,0000,0000,0000,,you've made this household \Nnothing but unnatural!
+Dialogue: 0,0:20:19.65,0:20:23.12,Main,Shin,0000,0000,0000,,Forget her boyfriend, Kagura-chan \Nwill lose all her friends like this!
+Dialogue: 0,0:20:23.12,0:20:24.38,Main,Kag,0000,0000,0000,,Hey.
+Dialogue: 0,0:20:24.38,0:20:26.62,Main,Kag,0000,0000,0000,,I brought my boyfriend.
+Dialogue: 0,0:20:28.69,0:20:30.54,Main,Shin,0000,0000,0000,,I gotta clean all of this up!
+Dialogue: 0,0:20:30.54,0:20:33.49,Main,Shin,0000,0000,0000,,Listen up. You two just try \Nnot to do anything stupid.
+Dialogue: 0,0:20:33.49,0:20:35.95,Main,Shin,0000,0000,0000,,Just smile and sit there. Got that?
+Dialogue: 0,0:20:38.33,0:20:41.08,Main,Gin,0000,0000,0000,,Hey, you remember the agreement, right?
+Dialogue: 0,0:20:41.08,0:20:41.71,Main,UB,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:41.71,0:20:45.81,Main,Gin,0000,0000,0000,,If one of us goes out of control, the \Nother will stop him, no matter what.
+Dialogue: 0,0:20:45.81,0:20:47.41,Main,Gin,0000,0000,0000,,As Kagura's guardian and Kagura's father,
+Dialogue: 0,0:20:47.41,0:20:50.59,Main,Gin,0000,0000,0000,,we must act like grown-ups \Nand not embarrass ourselves.
+Dialogue: 0,0:20:50.59,0:20:52.91,Main,UB,0000,0000,0000,,But don't let him walk over you.
+Dialogue: 0,0:20:52.91,0:20:54.97,Main,UB,0000,0000,0000,,Say what you need to.
+Dialogue: 0,0:20:54.97,0:20:57.85,Main,UB,0000,0000,0000,,If they're willing to have a clean \Nrelationship befitting their age,
+Dialogue: 0,0:20:57.85,0:21:00.48,Main,UB,0000,0000,0000,,we won't stand in their way. \NWe must make that clear.
+Dialogue: 0,0:21:00.91,0:21:01.98,Main,UB,0000,0000,0000,,It's okay.
+Dialogue: 0,0:21:01.98,0:21:05.48,Main,UB,0000,0000,0000,,I only saw him from behind, \Nbut he was a normal kid.
+Dialogue: 0,0:21:05.48,0:21:09.07,Main,UB,0000,0000,0000,,If grown-ups talk to him \Nseriously, he should understand.
+Dialogue: 0,0:21:09.07,0:21:11.93,Main,UB,0000,0000,0000,,I mean, look how grown up we are.
+Dialogue: 0,0:21:11.93,0:21:14.49,Main,UB,0000,0000,0000,,He's probably never seen \Nanyone this grown up.
+Dialogue: 0,0:21:18.17,0:21:21.19,Main,Gin,0000,0000,0000,,What's up, Kagura? Where's your boyfriend?
+Dialogue: 0,0:21:21.19,0:21:23.00,Main,Kag,0000,0000,0000,,He said he can't come inside.
+Dialogue: 0,0:21:23.00,0:21:25.68,Main,Gin,0000,0000,0000,,Huh? Is he feeling shy?
+Dialogue: 0,0:21:25.68,0:21:27.64,Main,Gin,0000,0000,0000,,Just tell him to come in.
+Dialogue: 0,0:21:27.64,0:21:29.87,Main,Kag,0000,0000,0000,,Like I said, he's saying \Nhe can't come inside.
+Dialogue: 0,0:21:29.87,0:21:32.47,Main,Gin,0000,0000,0000,,Oh, for crying out loud. \NDid he get cold feet?
+Dialogue: 0,0:21:32.47,0:21:35.38,Main,Gin,0000,0000,0000,,Hey, boyfriend! You can come in!
+Dialogue: 0,0:21:35.38,0:21:37.50,Main,Gin,0000,0000,0000,,There's nothing to be afraid of!
+Dialogue: 0,0:21:38.95,0:21:41.25,Main,Gin,0000,0000,0000,,He's kinda pathetic.
+Dialogue: 0,0:21:41.25,0:21:42.33,Main,Gin,0000,0000,0000,,Is this gonna be okay?
+Dialogue: 0,0:21:42.33,0:21:44.06,Main,UB,0000,0000,0000,,Well, I guess I can understand.
+Dialogue: 0,0:21:44.06,0:21:48.02,Main,UB,0000,0000,0000,,I mean, there are two grown-ass grown-ups \Nhere. Of course he'd be scared.
+Dialogue: 0,0:21:48.02,0:21:50.36,Main,UB,0000,0000,0000,,He's only a child. A big baby.
+Dialogue: 0,0:22:10.65,0:22:14.22,Main,Bo,0000,0000,0000,,He really is a big baby!
+Dialogue: 0,0:22:14.22,0:22:15.84,TBC,Sign,0000,0000,0000,,{\fad(275,1)}To Be Continued
+Dialogue: 0,0:23:45.89,0:23:55.90,Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:47.52,0:23:50.90,Main,Kag,0000,0000,0000,,The guys are whining too much \Njust because I got a boyfriend.
+Dialogue: 0,0:23:50.90,0:23:55.01,Main,Kag,0000,0000,0000,,Girls eventually start staying out late and \Ncoming back the next morning on their own.
+Dialogue: 0,0:23:55.01,0:23:56.38,Main,Kag,0000,0000,0000,,Get ready for it!
+Dialogue: 0,0:23:55.90,0:24:00.91,Ep Title,,0000,0000,0000,,{\fad(485,1)}My Bald Dad, My Light-Haired \NDad, and My Dad's Glasses
+Dialogue: 0,0:23:56.38,0:24:00.91,Main,Kag,0000,0000,0000,,Next time: "My Bald Dad, My Light-Haired \NDad, and My Dad's Glasses."
+Dialogue: 0,0:24:00.91,0:24:05.16,Side Bar Top,TextR,0000,0000,0000,,Kagura brought home her big boyfriend.
+Dialogue: 0,0:24:00.91,0:24:05.16,Side Bar Bottom,TextL,0000,0000,0000,,It shocked even the grown-ass grown-ups.
+Dialogue: 0,0:24:05.16,0:24:12.50,Side Bar Top,TextR,0000,0000,0000,,What's more, casual introductions\Nwon't be enough?
+Dialogue: 0,0:24:05.16,0:24:12.50,Side Bar Bottom,TextL,0000,0000,0000,,Their relationship takes a sudden turn?!

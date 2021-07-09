@@ -1,0 +1,530 @@
+﻿[Script Info]
+Title: [Nekomoe kissaten] Dorohedoro [OVA][BDRip 1080p HEVC-10bit FLAC].TC
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,方正兰亭中黑_GBK,46,&H00FFFFFF,&H00FFFFFF,&H00141414,&H00000000,0,0,0,0,100,100,2,0,1,0,0,2,15,15,15,1
+Style: Screen,方正兰亭中黑_GBK,46,&H00FFFFFF,&H00FFFFFF,&H00141414,&H00000000,0,0,0,0,100,100,2,0,1,1.5,0,2,15,15,15,1
+Style: Dialogue,方正兰亭中黑_GBK,47,&H00FFFFFF,&H00FFFFFF,&H00141414,&H00000000,0,0,0,0,100,100,2,0,1,1.5,0,2,15,15,15,1
+Style: Background,方正兰亭中黑_GBK,46,&H00FFFFFF,&H00FFFFFF,&H00141414,&H00000000,0,0,0,0,100,100,2,0,1,1.5,0,8,15,15,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.94,0:00:02.36,Title,,0,0,0,,------------Staff------------
+Dialogue: 0,0:00:00.00,0:00:04.03,Title,,0,0,0,,{\an8\fs42\fad(300,300)\bord2\blur2\fn方正粗雅宋_GBK}本字幕由喵萌奶茶屋製作  僅供交流試看之用  請勿用於商業用途
+Dialogue: 0,0:00:04.03,0:00:08.24,Title,,0,0,0,,{\fs42\an8\fad(300,300)\bord2\blur2\fn方正粗雅宋_GBK}翻譯&時軸: Nemeton　後期: MIR　繁化: 風風
+Dialogue: 0,0:00:01.27,0:00:11.99,Screen,,0,0,0,,{\fad(400,0)\bord0\fs99\pos(640,655.571)\fn新蒂金钟体\c&HCEA6FF&\alpha&H40&}附贈魔
+Comment: 0,0:00:00.94,0:00:02.36,Dialogue,,0,0,0,,------------Text------------
+Dialogue: 0,0:00:22.09,0:00:24.96,Dialogue,,0,0,0,,{\blur2}希望對方喜歡這個禮物
+Dialogue: 0,0:00:25.09,0:00:26.46,Dialogue,,0,0,0,,{\blur2}這不是藤田嗎
+Dialogue: 0,0:00:26.55,0:00:27.47,Dialogue,,0,0,0,,{\blur2}能井小姐
+Dialogue: 0,0:00:27.88,0:00:29.63,Dialogue,,0,0,0,,{\blur2}你還在走左邊的門嗎
+Dialogue: 0,0:00:29.76,0:00:31.30,Dialogue,,0,0,0,,{\blur2}真是有點不好意思
+Dialogue: 0,0:00:31.47,0:00:32.97,Dialogue,,0,0,0,,{\blur2}加油吧
+Dialogue: 0,0:00:33.01,0:00:33.76,Dialogue,,0,0,0,,{\blur2}謝謝
+Dialogue: 0,0:00:35.47,0:00:36.39,Dialogue,,0,0,0,,{\blur2}歡迎光臨
+Dialogue: 0,0:00:37.93,0:00:40.06,Dialogue,,0,0,0,,{\blur2}真好啊 能走右邊的門
+Dialogue: 0,0:00:40.06,0:00:41.27,Dialogue,,0,0,0,,{\blur2}那當然了
+Dialogue: 0,0:00:41.73,0:00:42.90,Dialogue,,0,0,0,,{\blur2}心前輩
+Dialogue: 0,0:00:43.02,0:00:45.73,Dialogue,,0,0,0,,{\blur2}別叫我前輩
+Dialogue: 0,0:00:47.03,0:00:47.86,Dialogue,,0,0,0,,{\blur2}這是禮物嗎
+Dialogue: 0,0:00:47.99,0:00:51.45,Dialogue,,0,0,0,,{\blur2}是的 我們必須帶著禮物
+Dialogue: 0,0:00:51.61,0:00:52.78,Dialogue,,0,0,0,,{\blur2}裡面是什麼
+Dialogue: 0,0:00:52.87,0:00:54.83,Dialogue,,0,0,0,,{\blur2}這我不能說
+Dialogue: 0,0:00:54.91,0:00:56.04,Dialogue,,0,0,0,,{\blur2}是嗎
+Dialogue: 0,0:00:56.29,0:00:58.12,Dialogue,,0,0,0,,{\blur2}今年我得成功
+Dialogue: 0,0:00:58.37,0:01:00.50,Dialogue,,0,0,0,,{\blur2}有沒有什麼建議
+Dialogue: 0,0:01:00.75,0:01:02.21,Dialogue,,0,0,0,,{\blur2}也是呢
+Dialogue: 0,0:01:02.83,0:01:04.84,Dialogue,,0,0,0,,{\blur2}首先是不能被對方小看
+Dialogue: 0,0:01:05.04,0:01:07.63,Dialogue,,0,0,0,,{\blur2}還有禮物要親手製作
+Dialogue: 0,0:01:07.80,0:01:09.63,Dialogue,,0,0,0,,{\blur2}肯定要親手製作
+Dialogue: 0,0:01:09.63,0:01:11.51,Dialogue,,0,0,0,,{\blur2}我花了三個月呢
+Dialogue: 0,0:01:11.51,0:01:13.22,Dialogue,,0,0,0,,{\blur2}可別是什麼半生不熟的東西
+Dialogue: 0,0:01:13.43,0:01:14.72,Dialogue,,0,0,0,,{\blur2}是乾燥過的東西
+Dialogue: 0,0:01:15.26,0:01:16.85,Dialogue,,0,0,0,,{\blur2}那你加油吧
+Dialogue: 0,0:01:18.81,0:01:22.85,Dialogue,,0,0,0,,{\blur2}我也要儘快成為從右側的門進入的精英
+Dialogue: 0,0:01:23.27,0:01:24.86,Dialogue,,0,0,0,,{\blur2}再進五個人
+Dialogue: 0,0:01:25.06,0:01:26.11,Dialogue,,0,0,0,,{\blur2}好緊張
+Dialogue: 0,0:01:28.40,0:01:28.99,Dialogue,,0,0,0,,{\blur2}喲
+Dialogue: 0,0:01:29.19,0:01:30.49,Dialogue,,0,0,0,,{\blur2}前輩
+Dialogue: 0,0:01:30.74,0:01:31.78,Dialogue,,0,0,0,,{\blur2}請用點心
+Dialogue: 0,0:01:31.86,0:01:33.03,Dialogue,,0,0,0,,{\blur2}巧克力 巧克力
+Dialogue: 0,0:01:34.45,0:01:36.58,Dialogue,,0,0,0,,{\blur2}脫了衣服 換上這身
+Dialogue: 0,0:01:37.41,0:01:38.83,Dialogue,,0,0,0,,{\blur2}按序號站好
+Dialogue: 0,0:01:40.41,0:01:42.71,Dialogue,,0,0,0,,{\blur2}請使用專用的鍋
+Dialogue: 0,0:01:43.37,0:01:45.79,Dialogue,,0,0,0,,{\blur2}請將面具放入鍋中
+Dialogue: 0,0:01:47.34,0:01:48.63,Dialogue,,0,0,0,,{\blur2}別磨蹭
+Dialogue: 0,0:01:50.55,0:01:52.80,Dialogue,,0,0,0,,{\blur2}請選擇喜歡的材料
+Dialogue: 0,0:01:53.38,0:01:55.14,Dialogue,,0,0,0,,{\blur2}這個挺受歡迎的吧
+Dialogue: 0,0:01:55.35,0:01:58.14,Dialogue,,0,0,0,,{\blur2}前輩 加入這個寶石準沒錯
+Dialogue: 0,0:02:00.93,0:02:03.14,Dialogue,,0,0,0,,{\blur2}好了 666度
+Dialogue: 0,0:02:07.36,0:02:09.19,Dialogue,,0,0,0,,{\blur2}如果能受到「他」的賞識
+Dialogue: 0,0:02:09.19,0:02:11.86,Dialogue,,0,0,0,,{\blur2}這液體就能變成「那個」
+Dialogue: 0,0:02:20.24,0:02:21.91,Dialogue,,0,0,0,,{\blur2}前輩 你先請吧
+Dialogue: 0,0:02:22.41,0:02:23.37,Dialogue,,0,0,0,,{\blur2}那我先了
+Dialogue: 0,0:02:24.42,0:02:26.54,Dialogue,,0,0,0,,{\blur2}請進入帳篷中
+Dialogue: 0,0:02:28.42,0:02:29.96,Dialogue,,0,0,0,,{\blur2}看不到前方
+Dialogue: 0,0:02:30.21,0:02:31.30,Dialogue,,0,0,0,,{\blur2}別亂動
+Dialogue: 0,0:02:34.18,0:02:35.26,Dialogue,,0,0,0,,{\blur2}來了
+Dialogue: 0,0:02:36.64,0:02:37.64,Dialogue,,0,0,0,,{\blur2}請收下這個
+Dialogue: 0,0:02:57.62,0:02:59.37,Dialogue,,0,0,0,,{\blur2}妖精木乃伊禮盒
+Dialogue: 0,0:02:59.70,0:03:03.29,Dialogue,,0,0,0,,{\blur2}請賜予我真正的面具
+Dialogue: 0,0:03:03.41,0:03:05.00,Dialogue,,0,0,0,,{\blur2}如果我這賄賂給得到位
+Dialogue: 0,0:03:05.08,0:03:07.29,Dialogue,,0,0,0,,{\blur2}我也能得到面具
+Dialogue: 0,0:03:07.63,0:03:08.96,Dialogue,,0,0,0,,{\blur2}不然…
+Dialogue: 0,0:03:12.71,0:03:17.14,Dialogue,,0,0,0,,{\blur2}魔法師的等級太低 賄賂也不管用
+Dialogue: 0,0:03:17.76,0:03:19.43,Dialogue,,0,0,0,,{\blur2}好像如果最後能獲得鮮花
+Dialogue: 0,0:03:19.51,0:03:22.01,Dialogue,,0,0,0,,{\blur2}就說明面具完成得不錯
+Dialogue: 0,0:03:24.27,0:03:25.27,Dialogue,,0,0,0,,{\blur2}前輩
+Dialogue: 0,0:03:25.98,0:03:27.73,Dialogue,,0,0,0,,{\blur2}你的新面具很合適喔
+Dialogue: 0,0:03:27.85,0:03:29.69,Dialogue,,0,0,0,,{\blur2}你看起來有點蠢啊
+Dialogue: 0,0:03:30.23,0:03:34.44,Dialogue,,0,0,0,,{\blur2}惡魔為什麼會擅長製作面具呢
+Dialogue: 0,0:03:34.78,0:03:39.87,Dialogue,,0,0,0,,{\blur2}不是有句老話說「惡魔是一切藝術的宗師」嗎
+Dialogue: 0,0:03:40.41,0:03:41.08,Dialogue,,0,0,0,,{\blur2}大概吧
+Dialogue: 0,0:03:42.33,0:03:45.08,Dialogue,,0,0,0,,{\blur2}說起來 藤田怎麼樣了
+Dialogue: 0,0:03:55.59,0:03:59.89,Dialogue,,0,0,0,,{\blur2}這裡是有魔法師出沒的神奇小鎮 名為洞穴
+Dialogue: 0,0:04:01.01,0:04:03.97,Dialogue,,0,0,0,,{\blur2}這裡住著一位名叫二階堂的姑娘
+Dialogue: 0,0:04:04.18,0:04:05.06,Dialogue,,0,0,0,,{\blur2}多謝惠顧
+Dialogue: 0,0:04:06.23,0:04:07.69,Dialogue,,0,0,0,,{\blur2}今天全都賣出去了
+Dialogue: 0,0:04:09.02,0:04:10.81,Dialogue,,0,0,0,,{\blur2}今天的營業額…
+Dialogue: 0,0:04:11.02,0:04:12.73,Dialogue,,0,0,0,,{\blur2}1 2 3
+Dialogue: 0,0:04:14.15,0:04:18.49,Dialogue,,0,0,0,,{\blur2}什麼嘛 明天的食材一買 就剩這一枚了
+Dialogue: 0,0:04:20.11,0:04:23.49,Dialogue,,0,0,0,,{\blur2}這樣下去一輩子都沒辦法擁有夢寐以求的店面
+Dialogue: 0,0:04:23.87,0:04:26.70,Dialogue,,0,0,0,,{\blur2}找個別的工作說不定好一些
+Dialogue: 0,0:04:29.08,0:04:31.25,Dialogue,,0,0,0,,{\blur2}肚子餓了 卻沒有錢
+Dialogue: 0,0:04:32.75,0:04:34.71,Dialogue,,0,0,0,,{\blur2}這種地方有個茶館…
+Dialogue: 0,0:04:35.38,0:04:37.30,Dialogue,,0,0,0,,{\blur2}甜點心和茶嗎
+Dialogue: 0,0:04:39.01,0:04:40.01,Dialogue,,0,0,0,,{\blur2}歡迎光臨
+Dialogue: 0,0:04:42.09,0:04:44.01,Dialogue,,0,0,0,,{\blur2}請隨便入座
+Dialogue: 0,0:04:44.18,0:04:45.77,Dialogue,,0,0,0,,{\blur2}不 我是…
+Dialogue: 0,0:04:47.02,0:04:48.81,Dialogue,,0,0,0,,{\blur2}這家店真好
+Dialogue: 0,0:04:49.48,0:04:51.48,Dialogue,,0,0,0,,{\blur2}您決定點些什麼
+Dialogue: 0,0:04:52.27,0:04:53.56,Dialogue,,0,0,0,,{\blur2}錢估計還夠吧
+Dialogue: 0,0:04:54.11,0:04:55.98,Dialogue,,0,0,0,,{\blur2}那我要一份點心套餐
+Dialogue: 0,0:04:58.86,0:05:00.28,Dialogue,,0,0,0,,{\blur2}只有一位客人嗎
+Dialogue: 0,0:05:00.78,0:05:02.74,Dialogue,,0,0,0,,{\blur2}看來生意不是很好
+Dialogue: 0,0:05:05.08,0:05:09.75,Dialogue,,0,0,0,,{\blur2}我看您第一次來 今天就由我為您沏茶吧
+Dialogue: 0,0:05:10.50,0:05:14.38,Dialogue,,0,0,0,,{\blur2}我特地選取了您可能會喜歡的茶葉
+Dialogue: 0,0:05:25.35,0:05:26.81,Dialogue,,0,0,0,,{\blur2}好了 請
+Dialogue: 0,0:05:29.02,0:05:29.85,Dialogue,,0,0,0,,{\blur2}好喝
+Dialogue: 0,0:05:31.81,0:05:33.85,Dialogue,,0,0,0,,{\blur2}您是在出售餃子嗎
+Dialogue: 0,0:05:34.19,0:05:37.02,Dialogue,,0,0,0,,{\blur2}是的 也就是邊走邊賣 量不多
+Dialogue: 0,0:05:38.03,0:05:41.86,Dialogue,,0,0,0,,{\blur2}不過像您這樣的顧客還真是少見
+Dialogue: 0,0:05:42.45,0:05:43.61,Dialogue,,0,0,0,,{\blur2}少見?
+Dialogue: 0,0:05:44.03,0:05:45.37,Dialogue,,0,0,0,,{\blur2}打擾了
+Dialogue: 0,0:05:46.49,0:05:48.58,Dialogue,,0,0,0,,{\blur2}客人還是一如既往地少啊
+Dialogue: 0,0:05:48.66,0:05:51.87,Dialogue,,0,0,0,,{\blur2}雪龍 你這店還不準備關門嗎
+Dialogue: 0,0:05:52.29,0:05:53.29,Dialogue,,0,0,0,,{\blur2}歡迎光臨
+Dialogue: 0,0:05:53.50,0:05:55.08,Dialogue,,0,0,0,,{\blur2}是魔法受害者們
+Dialogue: 0,0:05:55.54,0:05:57.96,Dialogue,,0,0,0,,{\blur2}趕快從鎮子裡滾出去
+Dialogue: 0,0:06:02.63,0:06:04.05,Dialogue,,0,0,0,,{\blur2}怎麼回事 小姑娘
+Dialogue: 0,0:06:04.22,0:06:05.05,Dialogue,,0,0,0,,{\blur2}你礙事了
+Dialogue: 0,0:06:05.14,0:06:06.18,Dialogue,,0,0,0,,{\blur2}閃開
+Dialogue: 0,0:06:07.18,0:06:08.93,Dialogue,,0,0,0,,{\blur2}讓你閃開啊
+Dialogue: 0,0:06:11.43,0:06:12.39,Dialogue,,0,0,0,,{\blur2}你個…
+Dialogue: 0,0:06:16.77,0:06:18.19,Dialogue,,0,0,0,,{\blur2}再也別來這裡了
+Dialogue: 0,0:06:18.27,0:06:19.65,Dialogue,,0,0,0,,{\blur2}我話就放在這
+Dialogue: 0,0:06:19.90,0:06:24.36,Dialogue,,0,0,0,,{\blur2}混蛋 那傢伙連魔法師都招待
+Dialogue: 0,0:06:24.41,0:06:26.70,Dialogue,,0,0,0,,{\blur2}這也算洞穴裡的人嗎
+Dialogue: 0,0:06:26.99,0:06:27.41,Dialogue,,0,0,0,,{\blur2}欸?
+Dialogue: 0,0:06:28.33,0:06:30.70,Dialogue,,0,0,0,,{\blur2}他們說的是實話
+Dialogue: 0,0:06:31.66,0:06:35.21,Dialogue,,0,0,0,,{\blur2}我的茶好像很合魔法師的口味
+Dialogue: 0,0:06:35.88,0:06:39.92,Dialogue,,0,0,0,,{\blur2}在魔法師經常出沒的這片區域開店
+Dialogue: 0,0:06:40.21,0:06:43.30,Dialogue,,0,0,0,,{\blur2}也是因為我的客人大部分是魔法師
+Dialogue: 0,0:06:44.18,0:06:47.60,Dialogue,,0,0,0,,{\blur2}魔法師們結束練習之後 夜裡才到店裡來
+Dialogue: 0,0:06:47.89,0:06:50.14,Dialogue,,0,0,0,,{\blur2}所以白天這裡就空蕩蕩的
+Dialogue: 0,0:06:51.89,0:06:54.39,Dialogue,,0,0,0,,{\blur2}你也看不起我吧
+Dialogue: 0,0:06:56.40,0:06:57.40,Dialogue,,0,0,0,,{\blur2}雪龍先生
+Dialogue: 0,0:06:58.23,0:07:01.94,Dialogue,,0,0,0,,{\blur2}看來這家店需要保鏢
+Dialogue: 0,0:07:02.11,0:07:04.82,Dialogue,,0,0,0,,{\blur2}您看能不能雇我當保鏢
+Dialogue: 0,0:07:06.49,0:07:10.66,Dialogue,,0,0,0,,{\blur2}於是二階堂成為了雪龍館的保鏢
+Dialogue: 0,0:07:11.37,0:07:12.87,Dialogue,,0,0,0,,{\blur2}辛苦了
+Dialogue: 0,0:07:13.25,0:07:16.71,Dialogue,,0,0,0,,{\blur2}工作後來點糰子喝個茶 真舒服啊
+Dialogue: 0,0:07:17.33,0:07:21.55,Dialogue,,0,0,0,,{\blur2}多虧了二階堂小姐 我可以安安穩穩開店了
+Dialogue: 0,0:07:22.80,0:07:25.55,Dialogue,,0,0,0,,{\blur2}這家店真的很不錯啊
+Dialogue: 0,0:07:26.22,0:07:29.18,Dialogue,,0,0,0,,{\blur2}我也打算以後開家餐廳
+Dialogue: 0,0:07:29.60,0:07:31.85,Dialogue,,0,0,0,,{\blur2}如果二階堂小姐開了店
+Dialogue: 0,0:07:31.93,0:07:34.64,Dialogue,,0,0,0,,{\blur2}點心和茶就交給我好了
+Dialogue: 0,0:07:35.23,0:07:35.89,Dialogue,,0,0,0,,{\blur2}一定的
+Dialogue: 0,0:07:37.90,0:07:39.90,Dialogue,,0,0,0,,{\blur2}那位客人又來了呢
+Dialogue: 0,0:07:40.69,0:07:42.61,Dialogue,,0,0,0,,{\blur2}你說的是喪六先生吧
+Dialogue: 0,0:07:43.15,0:07:44.90,Dialogue,,0,0,0,,{\blur2}他每天都來
+Dialogue: 0,0:07:45.53,0:07:47.91,Dialogue,,0,0,0,,{\blur2}那個人也是魔法師嗎
+Dialogue: 0,0:07:48.32,0:07:52.20,Dialogue,,0,0,0,,{\blur2}嗯 估計是 而且應該是很厲害的魔法師
+Dialogue: 0,0:07:52.66,0:07:56.29,Dialogue,,0,0,0,,{\blur2}我看大家都對他十分恭敬
+Dialogue: 0,0:07:59.63,0:08:01.88,Dialogue,,0,0,0,,{\blur2}兩個月後
+Dialogue: 0,0:08:03.88,0:08:05.46,Dialogue,,0,0,0,,{\blur2}雪龍館…
+Dialogue: 0,0:08:06.42,0:08:10.85,Dialogue,,0,0,0,,{\blur2}清晨的時候被魔法受害者們搞了破壞
+Dialogue: 0,0:08:11.64,0:08:14.89,Dialogue,,0,0,0,,{\blur2}二階堂小姐 我準備停業了
+Dialogue: 0,0:08:15.06,0:08:16.10,Dialogue,,0,0,0,,{\blur2}雪龍先生…
+Dialogue: 0,0:08:17.18,0:08:19.02,Dialogue,,0,0,0,,{\blur2}多謝你的照顧
+Dialogue: 0,0:08:19.98,0:08:23.65,Dialogue,,0,0,0,,{\blur2}喪六先生說要雇我在宅邸工作
+Dialogue: 0,0:08:23.77,0:08:24.90,Dialogue,,0,0,0,,{\blur2}我決定啟程了
+Dialogue: 0,0:08:25.78,0:08:28.20,Dialogue,,0,0,0,,{\blur2}店鋪受到的破壞有些嚴重
+Dialogue: 0,0:08:28.49,0:08:30.41,Dialogue,,0,0,0,,{\blur2}不過清理一下還可以用
+Dialogue: 0,0:08:31.20,0:08:34.62,Dialogue,,0,0,0,,{\blur2}如果二階堂小姐不介意的話 這裡就交給你吧
+Dialogue: 0,0:08:34.95,0:08:37.83,Dialogue,,0,0,0,,{\blur2}是嗎 我明白了
+Dialogue: 0,0:08:37.96,0:08:38.75,Dialogue,,0,0,0,,{\blur2}您保重
+Dialogue: 0,0:08:39.17,0:08:40.21,Dialogue,,0,0,0,,{\blur2}二階堂小姐也多保重
+Dialogue: 0,0:08:41.54,0:08:43.34,Dialogue,,0,0,0,,{\blur2}我們走吧 喪六先生
+Dialogue: 0,0:08:50.97,0:08:52.18,Dialogue,,0,0,0,,{\blur2}那是惡魔
+Dialogue: 0,0:08:53.97,0:08:59.39,Dialogue,,0,0,0,,{\blur2}有店面了是件好事 可是副業卻沒了
+Dialogue: 0,0:08:59.77,0:09:02.40,Dialogue,,0,0,0,,{\blur2}估計還得過很久才能開張吧
+Dialogue: 0,0:09:36.89,0:09:39.85,Dialogue,,0,0,0,,{\blur2}心先生 你看見惠比壽了嗎
+Dialogue: 0,0:09:40.02,0:09:40.89,Dialogue,,0,0,0,,{\blur2}沒看到
+Dialogue: 0,0:09:49.57,0:09:50.74,Dialogue,,0,0,0,,{\blur2}來了來了
+Dialogue: 0,0:09:51.78,0:09:52.91,Dialogue,,0,0,0,,{\blur2}前輩
+Dialogue: 0,0:09:53.32,0:09:55.16,Dialogue,,0,0,0,,{\blur2}一大早的 有什麼事
+Dialogue: 0,0:09:55.32,0:09:58.20,Dialogue,,0,0,0,,{\blur2}跑步的時候撿到了渾身是血的骷髏
+Dialogue: 0,0:10:01.75,0:10:03.79,Dialogue,,0,0,0,,{\blur2}你的腦袋裂開了
+Dialogue: 0,0:10:06.54,0:10:07.75,Dialogue,,0,0,0,,{\blur2}肚子餓了嗎
+Dialogue: 0,0:10:08.46,0:10:09.84,Dialogue,,0,0,0,,{\blur2}來點炸雞
+Dialogue: 0,0:10:09.92,0:10:11.01,Dialogue,,0,0,0,,{\blur2}炸雞是我的
+Dialogue: 0,0:10:11.72,0:10:12.42,Dialogue,,0,0,0,,{\blur2}好吃嗎
+Dialogue: 0,0:10:12.59,0:10:14.22,Dialogue,,0,0,0,,{\blur2}好油啊
+Dialogue: 0,0:10:15.76,0:10:16.72,Dialogue,,0,0,0,,{\blur2}照片
+Dialogue: 0,0:10:17.14,0:10:19.31,Dialogue,,0,0,0,,{\blur2}這是我和前輩的合影
+Dialogue: 0,0:10:19.89,0:10:23.06,Dialogue,,0,0,0,,{\blur2}煙會找攝影師為家族的人拍照
+Dialogue: 0,0:10:24.10,0:10:27.36,Dialogue,,0,0,0,,{\blur2}這是前輩剛來這邊的時候照的
+Dialogue: 0,0:10:28.27,0:10:31.15,Dialogue,,0,0,0,,{\blur2}這是我們正式成為搭檔的時候
+Dialogue: 0,0:10:31.78,0:10:33.03,Dialogue,,0,0,0,,{\blur2}好年輕
+Dialogue: 0,0:10:33.03,0:10:35.36,Dialogue,,0,0,0,,{\blur2}別說得好像我們老了一樣啊
+Dialogue: 0,0:10:36.24,0:10:38.03,Dialogue,,0,0,0,,{\blur2}照片真好
+Dialogue: 0,0:10:38.08,0:10:40.58,Dialogue,,0,0,0,,{\blur2}拜託一下煙 他會找人給你拍照的吧
+Dialogue: 0,0:10:41.08,0:10:42.41,Dialogue,,0,0,0,,{\blur2}和藤田合個影
+Dialogue: 0,0:10:43.87,0:10:45.12,Dialogue,,0,0,0,,{\blur2}為什麼不說話了
+Dialogue: 0,0:10:46.13,0:10:47.04,Dialogue,,0,0,0,,{\blur2}那我去了
+Dialogue: 0,0:10:47.29,0:10:49.84,Dialogue,,0,0,0,,{\blur2}好了 今天的工作
+Dialogue: 0,0:10:59.56,0:11:00.39,Dialogue,,0,0,0,,{\blur2}惠比壽
+Dialogue: 0,0:11:00.85,0:11:02.06,Dialogue,,0,0,0,,{\blur2}別搞得這麼嚇人
+Dialogue: 0,0:11:02.10,0:11:03.14,Dialogue,,0,0,0,,{\blur2}到這邊來
+Dialogue: 0,0:11:04.77,0:11:08.19,Dialogue,,0,0,0,,{\blur2}寒磣的傢伙 你來討早餐嗎
+Dialogue: 0,0:11:08.40,0:11:09.06,Dialogue,,0,0,0,,{\blur2}不是的
+Dialogue: 0,0:11:09.82,0:11:12.03,Dialogue,,0,0,0,,{\blur2}好了 賞你個蘑菇麵包
+Dialogue: 0,0:11:13.03,0:11:15.07,Dialogue,,0,0,0,,{\blur2}喝不喝湯
+Dialogue: 0,0:11:15.53,0:11:17.57,Dialogue,,0,0,0,,{\blur2}好吃嗎 你個窮鬼
+Dialogue: 0,0:11:17.74,0:11:19.20,Dialogue,,0,0,0,,{\blur2}乾巴巴的
+Dialogue: 0,0:11:20.66,0:11:21.66,Dialogue,,0,0,0,,{\blur2}照片!
+Dialogue: 0,0:11:22.20,0:11:24.08,Dialogue,,0,0,0,,{\blur2}這是我12歲的時候
+Dialogue: 0,0:11:24.16,0:11:26.67,Dialogue,,0,0,0,,{\blur2}這個時候組織的基礎已經打好了
+Dialogue: 0,0:11:27.42,0:11:31.05,Dialogue,,0,0,0,,{\blur2}這是家族中有實力的人的照片
+Dialogue: 0,0:11:31.46,0:11:33.17,Dialogue,,0,0,0,,{\blur2}木耳也算?
+Dialogue: 0,0:11:33.92,0:11:35.01,Dialogue,,0,0,0,,{\blur2}真好
+Dialogue: 0,0:11:35.01,0:11:37.26,Dialogue,,0,0,0,,{\blur2}你不算家族成員 不行
+Dialogue: 0,0:11:37.68,0:11:40.14,Dialogue,,0,0,0,,{\blur2}真小氣
+Dialogue: 0,0:11:40.18,0:11:42.26,Dialogue,,0,0,0,,{\blur2}剛吃過我的東西 你別太過分
+Dialogue: 0,0:11:42.51,0:11:43.39,Dialogue,,0,0,0,,{\blur2}哼
+Dialogue: 0,0:11:44.31,0:11:48.85,Dialogue,,0,0,0,,{\blur2}惠比壽小姐 直接去找攝影師 說不定會給你照
+Dialogue: 0,0:11:49.81,0:11:51.19,Dialogue,,0,0,0,,{\blur2}看看那邊
+Dialogue: 0,0:11:51.65,0:11:55.65,Dialogue,,0,0,0,,{\blur2}我們家族的攝影師經常去吃那樹上的果實
+Dialogue: 0,0:12:04.33,0:12:06.08,Dialogue,,0,0,0,,{\blur2}攝影師 在嗎?
+Dialogue: 0,0:12:11.34,0:12:13.55,Dialogue,,0,0,0,,{\blur2}他現在不在
+Dialogue: 0,0:12:14.46,0:12:17.05,Dialogue,,0,0,0,,{\blur2}你在幹什麼 找你好久了 惠比壽
+Dialogue: 0,0:12:17.80,0:12:19.05,Dialogue,,0,0,0,,{\blur2}快來這邊
+Dialogue: 0,0:12:21.64,0:12:22.60,Dialogue,,0,0,0,,{\blur2}惡魔!
+Dialogue: 0,0:12:22.68,0:12:25.14,Dialogue,,0,0,0,,{\blur2}攝影師突然說要給照相
+Dialogue: 0,0:12:25.14,0:12:26.52,Dialogue,,0,0,0,,{\blur2}就把大家集合到了這邊
+Dialogue: 0,0:12:26.89,0:12:29.10,Dialogue,,0,0,0,,{\blur2}這下你也算家族的一員了
+Dialogue: 0,0:12:31.94,0:12:34.15,Dialogue,,0,0,0,,{\blur2}全是底層人員的照片
+Dialogue: 0,0:12:44.20,0:12:46.37,Dialogue,,0,0,0,,{\blur2}您點的蘇葉餃子和生啤酒
+Dialogue: 0,0:12:47.00,0:12:48.21,Background,,0,0,0,,{\blur2}謝謝 謝謝
+Dialogue: 0,0:12:48.41,0:12:50.46,Dialogue,,0,0,0,,{\blur2}我是妖精餃子男
+Dialogue: 0,0:12:50.58,0:12:54.09,Dialogue,,0,0,0,,{\blur2}現在正居住在這家名為空腹蟲的餐廳
+Dialogue: 0,0:12:54.50,0:12:56.30,Dialogue,,0,0,0,,{\blur2}我的身體由餃子構成
+Dialogue: 0,0:12:56.38,0:12:58.26,Dialogue,,0,0,0,,{\blur2}大小與啤酒罐相近
+Dialogue: 0,0:12:58.76,0:13:00.88,Dialogue,,0,0,0,,{\blur2}不過人們無法看見我
+Dialogue: 0,0:13:01.22,0:13:04.43,Dialogue,,0,0,0,,{\blur2}我的工作是讓人們好好享受餃子
+Dialogue: 0,0:13:04.47,0:13:06.43,Dialogue,,0,0,0,,{\blur2}餃哈哈哈
+Dialogue: 0,0:13:07.02,0:13:09.10,Dialogue,,0,0,0,,{\blur2}利用念力為啤酒降溫
+Dialogue: 0,0:13:09.39,0:13:12.94,Dialogue,,0,0,0,,{\blur2}幫忘記加辣油的顧客添加辣油
+Dialogue: 0,0:13:13.06,0:13:15.57,Background,,0,0,0,,{\blur2}餃子好吃在哪裡呢?
+Dialogue: 0,0:13:13.36,0:13:16.61,Dialogue,,0,0,0,,{\blur2}不過我絕對不會放過小看餃子的人
+Dialogue: 0,0:13:16.86,0:13:18.32,Dialogue,,0,0,0,,{\blur2}這個娘炮!
+Dialogue: 0,0:13:18.36,0:13:20.74,Dialogue,,0,0,0,,{\blur2}光說話 餃子都要涼了啊!
+Dialogue: 0,0:13:21.28,0:13:23.07,Dialogue,,0,0,0,,{\blur2}當然 餃子涼了也好吃
+Dialogue: 0,0:13:23.07,0:13:24.49,Dialogue,,0,0,0,,{\blur2}也很適合做便當
+Dialogue: 0,0:13:24.91,0:13:27.62,Dialogue,,0,0,0,,{\blur2}但是在餐廳吃餃子要趁熱!
+Dialogue: 0,0:13:27.87,0:13:29.50,Dialogue,,0,0,0,,{\blur2}天誅!
+Dialogue: 0,0:13:31.04,0:13:32.42,Dialogue,,0,0,0,,{\blur2}你怎麼了 13
+Dialogue: 0,0:13:33.04,0:13:35.17,Dialogue,,0,0,0,,{\blur2}牙籤…牙籤突然…
+Dialogue: 0,0:13:35.50,0:13:37.30,Dialogue,,0,0,0,,{\blur2}餃哈哈哈
+Dialogue: 0,0:13:39.42,0:13:42.01,Dialogue,,0,0,0,,{\blur2}二階堂 蘇葉餃子和啤酒來一下
+Dialogue: 0,0:13:42.09,0:13:42.72,Background,,0,0,0,,{\blur2}好
+Dialogue: 0,0:13:42.26,0:13:43.97,Dialogue,,0,0,0,,{\blur2}又是這個男人嗎
+Dialogue: 0,0:13:44.05,0:13:48.47,Dialogue,,0,0,0,,{\blur2}每天都來吃餃子吃到店鋪打烊的奇怪臉的男人
+Dialogue: 0,0:13:48.64,0:13:51.19,Dialogue,,0,0,0,,{\blur2}這傢伙從心底喜愛餃子
+Dialogue: 0,0:13:51.85,0:13:54.44,Dialogue,,0,0,0,,{\blur2}利用妖精的能力讀取一下他的內心
+Dialogue: 0,0:13:54.52,0:13:57.11,Dialogue,,0,0,0,,{\blur2}也可以看到餃子占了重要的地位
+Dialogue: 0,0:13:57.11,0:13:58.48,Dialogue,,0,0,0,,{\blur2}好吃!
+Dialogue: 0,0:13:58.82,0:13:59.69,Dialogue,,0,0,0,,{\blur2}但是…
+Dialogue: 0,0:14:00.07,0:14:02.32,Dialogue,,0,0,0,,{\blur2}二階堂 再來五盤
+Dialogue: 0,0:14:02.32,0:14:03.49,Dialogue,,0,0,0,,{\blur2}吃太多了!
+Dialogue: 0,0:14:03.53,0:14:05.07,Dialogue,,0,0,0,,{\blur2}痛痛痛痛
+Dialogue: 0,0:14:05.41,0:14:07.16,Background,,0,0,0,,{\blur2}怎麼了怎麼了?
+Dialogue: 0,0:14:06.12,0:14:08.79,Dialogue,,0,0,0,,{\blur2}餃子可不能海吃 年輕人
+Dialogue: 0,0:14:10.62,0:14:12.54,Dialogue,,0,0,0,,{\blur2}痛痛痛痛
+Dialogue: 0,0:14:14.63,0:14:19.51,Dialogue,,0,0,0,,{\blur2}那個鱗片男 扎了根牙籤還留到最後才走
+Dialogue: 0,0:14:21.80,0:14:24.43,Dialogue,,0,0,0,,{\blur2}店主好像在做自己的晚餐
+Dialogue: 0,0:14:25.34,0:14:29.10,Dialogue,,0,0,0,,{\blur2}都怪那個鱗片男 餃子皮已經用完了
+Dialogue: 0,0:14:29.43,0:14:31.81,Dialogue,,0,0,0,,{\blur2}準備用剩下的餡做什麼呢
+Dialogue: 0,0:14:32.98,0:14:35.90,Dialogue,,0,0,0,,{\blur2}那是在將藕切碎嗎
+Dialogue: 0,0:14:36.69,0:14:39.19,Dialogue,,0,0,0,,{\blur2}在原材料中加入了藕 正在捏團
+Dialogue: 0,0:14:39.27,0:14:41.36,Dialogue,,0,0,0,,{\blur2}究竟要做什麼?
+Dialogue: 0,0:14:41.90,0:14:45.74,Dialogue,,0,0,0,,{\blur2}不過終究不可能比過餃子吧
+Dialogue: 0,0:14:45.82,0:14:48.28,Dialogue,,0,0,0,,{\blur2}餃哈哈哈
+Dialogue: 0,0:14:50.29,0:14:53.50,Dialogue,,0,0,0,,{\blur2}那是…漢堡排嗎
+Dialogue: 0,0:14:53.50,0:14:56.92,Dialogue,,0,0,0,,{\blur2}喂! 別邊看電視邊做菜 認真點啊
+Dialogue: 0,0:14:58.96,0:15:02.46,Dialogue,,0,0,0,,{\blur2}蘿蔔泥加蘇葉 配上醬油為主的醬汁
+Dialogue: 0,0:15:02.51,0:15:04.34,Dialogue,,0,0,0,,{\blur2}免包餃子漢堡排蓋飯啊!
+Dialogue: 0,0:15:05.09,0:15:07.72,Dialogue,,0,0,0,,{\blur2}店主你這料理不簡單
+Dialogue: 0,0:15:09.68,0:15:12.14,Dialogue,,0,0,0,,{\blur2}蓮藕脆脆的口感很棒啊
+Dialogue: 0,0:15:12.56,0:15:14.23,Dialogue,,0,0,0,,{\blur2}別邊看電視邊吃飯!
+Dialogue: 0,0:15:14.69,0:15:16.06,Dialogue,,0,0,0,,{\blur2}好痛
+Dialogue: 0,0:15:16.15,0:15:18.23,Dialogue,,0,0,0,,{\blur2}我該睡覺了 晚安
+Dialogue: 0,0:15:25.11,0:15:25.90,Dialogue,,0,0,0,,{\blur2}早上了
+Dialogue: 0,0:15:26.41,0:15:29.41,Dialogue,,0,0,0,,{\blur2}謝謝你們每晚做我的被褥 老鼠們
+Dialogue: 0,0:15:31.54,0:15:33.58,Dialogue,,0,0,0,,{\blur2}我的肚子有三層了…
+Dialogue: 0,0:15:34.66,0:15:36.12,Dialogue,,0,0,0,,{\blur2}原來如此 是濕氣的緣故
+Dialogue: 0,0:15:36.79,0:15:38.17,Dialogue,,0,0,0,,{\blur2}今天下雨啊
+Dialogue: 0,0:15:42.34,0:15:46.18,Dialogue,,0,0,0,,{\blur2}這個懶蟲店主果然還在睡
+Dialogue: 0,0:15:48.89,0:15:50.26,Dialogue,,0,0,0,,{\blur2}身體好像不太舒服
+Dialogue: 0,0:15:50.55,0:15:52.56,Dialogue,,0,0,0,,{\blur2}不過下雨天餐廳不營業來著
+Dialogue: 0,0:15:53.81,0:15:56.64,Dialogue,,0,0,0,,{\blur2}好閒 清理一下換氣扇的油汙吧
+Dialogue: 0,0:15:57.27,0:15:57.69,Dialogue,,0,0,0,,{\blur2}咦?
+Dialogue: 0,0:15:58.94,0:15:59.65,Dialogue,,0,0,0,,{\blur2}是客人嗎
+Dialogue: 0,0:16:00.98,0:16:06.24,Dialogue,,0,0,0,,{\blur2}喪六先生 看來今天二階堂小姐的店不營業
+Dialogue: 0,0:16:06.95,0:16:10.20,Dialogue,,0,0,0,,{\blur2}還麻煩你帶我到洞穴來 有點遺憾
+Dialogue: 0,0:16:10.91,0:16:17.46,Dialogue,,0,0,0,,{\blur2}不過看到二階堂小姐將我被毀壞的店鋪重建得這麼好
+Dialogue: 0,0:16:17.54,0:16:18.29,Dialogue,,0,0,0,,{\blur2}我也就心滿意足了
+Dialogue: 0,0:16:19.88,0:16:21.50,Dialogue,,0,0,0,,{\blur2}我們今天就回去吧
+Dialogue: 0,0:16:23.00,0:16:24.92,Dialogue,,0,0,0,,{\blur2}怎麼了嗎 喪六先生
+Dialogue: 0,0:16:35.68,0:16:37.31,Dialogue,,0,0,0,,{\blur2}有個奇怪的傢伙?
+Dialogue: 0,0:16:38.06,0:16:40.19,Dialogue,,0,0,0,,{\blur2}我沒有看見呢
+Dialogue: 0,0:16:41.65,0:16:43.19,Dialogue,,0,0,0,,{\blur2}換氣扇變乾淨了
+Dialogue: 0,0:16:43.48,0:16:45.07,Dialogue,,0,0,0,,{\blur2}店主也會很高興吧
+Dialogue: 0,0:16:45.07,0:16:47.40,Dialogue,,0,0,0,,{\blur2}餃哈哈哈
+Dialogue: 0,0:16:47.69,0:16:49.95,Dialogue,,0,0,0,,{\blur2}工作過度 肚子露餡了
+Dialogue: 0,0:16:51.91,0:16:53.41,Dialogue,,0,0,0,,{\blur2}我的牙刷…
+Dialogue: 0,0:17:04.21,0:17:04.80,Dialogue,,0,0,0,,{\blur2}心
+Dialogue: 0,0:17:06.05,0:17:07.42,Dialogue,,0,0,0,,{\blur2}怎麼了 煙先生
+Dialogue: 0,0:17:07.55,0:17:10.26,Dialogue,,0,0,0,,{\blur2}好消息 終於要舉辦了
+Dialogue: 0,0:17:10.72,0:17:12.22,Dialogue,,0,0,0,,{\blur2}今晚舉行舞會
+Dialogue: 0,0:17:12.30,0:17:12.89,Dialogue,,0,0,0,,{\blur2}欸?
+Dialogue: 0,0:17:13.76,0:17:15.85,Dialogue,,0,0,0,,{\blur2}又…又來?
+Dialogue: 0,0:17:16.01,0:17:17.77,Dialogue,,0,0,0,,{\blur2}怎麼 你不高興嗎
+Dialogue: 0,0:17:18.06,0:17:20.02,Dialogue,,0,0,0,,{\blur2}這是舞會的衣服
+Dialogue: 0,0:17:20.64,0:17:22.65,Dialogue,,0,0,0,,{\blur2}你要是不來 我就把你變成蘑菇
+Dialogue: 0,0:17:25.40,0:17:28.07,Dialogue,,0,0,0,,{\blur2}太好了 舞會
+Dialogue: 0,0:17:28.07,0:17:30.61,Dialogue,,0,0,0,,{\blur2}我也是第一次參加舞會
+Dialogue: 0,0:17:30.74,0:17:32.20,Dialogue,,0,0,0,,{\blur2}十年沒開過了
+Dialogue: 0,0:17:32.41,0:17:34.32,Dialogue,,0,0,0,,{\blur2}我倒是去過幾次
+Dialogue: 0,0:17:34.91,0:17:37.66,Dialogue,,0,0,0,,{\blur2}在會場邀請自己喜歡的對象
+Dialogue: 0,0:17:37.79,0:17:40.50,Dialogue,,0,0,0,,{\blur2}二人一起獻上讚美惡魔的舞蹈
+Dialogue: 0,0:17:40.62,0:17:42.50,Dialogue,,0,0,0,,{\blur2}很…很不錯啊
+Dialogue: 0,0:17:43.88,0:17:47.17,Dialogue,,0,0,0,,{\blur2}惠比壽 我會邀請更加豐滿的女性
+Dialogue: 0,0:17:47.25,0:17:50.22,Dialogue,,0,0,0,,{\blur2}這句話原封不動地還給你
+Dialogue: 0,0:17:51.17,0:17:53.80,Dialogue,,0,0,0,,{\blur2}來看看煙先生發的衣服吧
+Dialogue: 0,0:17:53.93,0:17:55.55,Dialogue,,0,0,0,,{\blur2}真好 我要看
+Dialogue: 0,0:18:00.31,0:18:03.56,Dialogue,,0,0,0,,{\blur2}舞會嗎 我想起來了
+Dialogue: 0,0:18:04.73,0:18:06.52,Dialogue,,0,0,0,,{\blur2}十年前
+Dialogue: 0,0:18:07.77,0:18:09.23,Dialogue,,0,0,0,,{\blur2}好 錄用了
+Dialogue: 0,0:18:10.07,0:18:13.07,Dialogue,,0,0,0,,{\blur2}從今天開始你就是我的清理者了
+Dialogue: 0,0:18:13.78,0:18:16.53,Dialogue,,0,0,0,,{\blur2}老大 快到舞會的時間了
+Dialogue: 0,0:18:16.87,0:18:17.49,Dialogue,,0,0,0,,{\blur2}是嗎
+Dialogue: 0,0:18:18.45,0:18:20.33,Dialogue,,0,0,0,,{\blur2}好 心 你也來吧
+Dialogue: 0,0:18:20.58,0:18:21.33,Dialogue,,0,0,0,,{\blur2}欸?
+Dialogue: 0,0:18:21.87,0:18:24.62,Dialogue,,0,0,0,,{\blur2}這舞會是要讚美惡魔
+Dialogue: 0,0:18:25.38,0:18:29.13,Dialogue,,0,0,0,,{\blur2}你既然加入了我的家族 就有參加的義務
+Dialogue: 0,0:18:33.26,0:18:35.43,Dialogue,,0,0,0,,{\blur2}這衣服是怎麼回事啊
+Dialogue: 0,0:18:35.64,0:18:37.22,Dialogue,,0,0,0,,{\blur2}說好的舞會呢
+Dialogue: 0,0:18:37.22,0:18:38.43,Dialogue,,0,0,0,,{\blur2}這就是
+Dialogue: 0,0:18:38.47,0:18:39.85,Dialogue,,0,0,0,,{\blur2}好了 拿著這個
+Dialogue: 0,0:18:40.89,0:18:44.56,Dialogue,,0,0,0,,{\blur2}舞會要長槍做什麼 準備刺誰?
+Dialogue: 0,0:18:44.64,0:18:47.23,Dialogue,,0,0,0,,{\blur2}長槍的前端帶上面具
+Dialogue: 0,0:18:47.90,0:18:50.90,Dialogue,,0,0,0,,{\blur2}不過你的面具還真是糟糕
+Dialogue: 0,0:18:51.32,0:18:52.53,Dialogue,,0,0,0,,{\blur2}手工做的
+Dialogue: 0,0:18:52.74,0:18:55.32,Dialogue,,0,0,0,,{\blur2}用垃圾堆裡的袋子和繩子做的
+Dialogue: 0,0:18:55.41,0:18:56.11,Dialogue,,0,0,0,,{\blur2}算了
+Dialogue: 0,0:18:56.53,0:18:58.91,Dialogue,,0,0,0,,{\blur2}你的面具是對惡魔的不敬
+Dialogue: 0,0:18:59.28,0:19:00.70,Dialogue,,0,0,0,,{\blur2}帶著這個吧
+Dialogue: 0,0:19:04.33,0:19:06.46,Dialogue,,0,0,0,,{\blur2}好了 已經開始了
+Dialogue: 0,0:19:06.79,0:19:08.75,Dialogue,,0,0,0,,{\blur2}怎麼看都是邪教集會
+Dialogue: 0,0:19:09.29,0:19:10.88,Dialogue,,0,0,0,,{\blur2}如果有看上的女人
+Dialogue: 0,0:19:10.96,0:19:12.42,Dialogue,,0,0,0,,{\blur2}就邀請一起跳舞
+Dialogue: 0,0:19:12.80,0:19:15.93,Dialogue,,0,0,0,,{\blur2}不要問對方的姓名 那很粗魯
+Dialogue: 0,0:19:16.47,0:19:18.80,Dialogue,,0,0,0,,{\blur2}趕快找到對象一起跳舞
+Dialogue: 0,0:19:18.85,0:19:22.02,Dialogue,,0,0,0,,{\blur2}否則來觀看的惡魔會用長矛刺你的屁股
+Dialogue: 0,0:19:22.31,0:19:23.89,Dialogue,,0,0,0,,{\blur2}我先走了
+Dialogue: 0,0:19:24.14,0:19:24.81,Dialogue,,0,0,0,,{\blur2}玩得開心點
+Dialogue: 0,0:19:25.44,0:19:26.98,Dialogue,,0,0,0,,{\blur2}等…等一下
+Dialogue: 0,0:19:29.56,0:19:33.61,Dialogue,,0,0,0,,{\blur2}我該怎麼邀請女人啊
+Dialogue: 0,0:19:37.36,0:19:39.45,Dialogue,,0,0,0,,{\blur2}該死 我不管了
+Dialogue: 0,0:19:39.45,0:19:41.03,Dialogue,,0,0,0,,{\blur2}我一個人跳舞
+Dialogue: 0,0:19:44.66,0:19:45.87,Dialogue,,0,0,0,,{\blur2}你在做什麼
+Dialogue: 0,0:19:45.87,0:19:47.21,Dialogue,,0,0,0,,{\blur2}刺你的屁股啊
+Dialogue: 0,0:19:47.21,0:19:48.83,Dialogue,,0,0,0,,{\blur2}刺穿了怎麼辦!
+Dialogue: 0,0:19:50.25,0:19:53.67,Dialogue,,0,0,0,,{\blur2}你這樣不行 怎麼能一個人跳舞 多粗俗
+Dialogue: 0,0:19:53.88,0:19:55.84,Dialogue,,0,0,0,,{\blur2}惡魔當然會生氣
+Dialogue: 0,0:19:56.22,0:19:58.80,Dialogue,,0,0,0,,{\blur2}如果沒有伴的話 那個女生怎麼樣
+Dialogue: 0,0:19:59.64,0:20:02.81,Dialogue,,0,0,0,,{\blur2}她是我的熟人 不過她總是一個人
+Dialogue: 0,0:20:03.47,0:20:05.52,Dialogue,,0,0,0,,{\blur2}為什麼她一個人在那邊
+Dialogue: 0,0:20:05.98,0:20:07.19,Dialogue,,0,0,0,,{\blur2}該不會是祭品吧
+Dialogue: 0,0:20:07.27,0:20:10.31,Dialogue,,0,0,0,,{\blur2}她也是第一次參加舞會 很緊張
+Dialogue: 0,0:20:14.19,0:20:16.61,Dialogue,,0,0,0,,{\blur2}來一杯助助興再去吧
+Dialogue: 0,0:20:17.49,0:20:19.70,Dialogue,,0,0,0,,{\blur2}煙 我找你好久了
+Dialogue: 0,0:20:19.70,0:20:20.49,Dialogue,,0,0,0,,{\blur2}別靠近我
+Dialogue: 0,0:20:24.45,0:20:26.37,Dialogue,,0,0,0,,{\blur2}你…你好
+Dialogue: 0,0:20:28.79,0:20:32.50,Dialogue,,0,0,0,,{\blur2}10年前的那個女人 我沒問名字
+Dialogue: 0,0:20:32.59,0:20:34.34,Dialogue,,0,0,0,,{\blur2}面容我也記不太清了
+Dialogue: 0,0:20:34.71,0:20:36.21,Dialogue,,0,0,0,,{\blur2}今天她也會來嗎
+Dialogue: 0,0:20:37.38,0:20:38.30,Dialogue,,0,0,0,,{\blur2}不過…
+Dialogue: 0,0:20:38.80,0:20:41.26,Dialogue,,0,0,0,,{\blur2}必須得穿成這樣嗎
+Dialogue: 0,0:20:42.30,0:20:43.56,Dialogue,,0,0,0,,{\blur2}心先生
+Dialogue: 0,0:20:43.68,0:20:44.85,Dialogue,,0,0,0,,{\blur2}藤田
+Dialogue: 0,0:20:45.14,0:20:46.81,Dialogue,,0,0,0,,{\blur2}這身很合適啊
+Dialogue: 0,0:20:46.89,0:20:48.73,Dialogue,,0,0,0,,{\blur2}我就差得遠了
+Dialogue: 0,0:20:48.81,0:20:50.60,Dialogue,,0,0,0,,{\blur2}我也不怎麼樣好吧
+Dialogue: 0,0:20:53.61,0:20:57.74,Dialogue,,0,0,0,,{\blur2}舞會和惠比壽想像中的不太一樣
+Dialogue: 0,0:20:57.78,0:20:59.15,Dialogue,,0,0,0,,{\blur2}她在鬧彆扭呢
+Dialogue: 0,0:20:59.15,0:21:01.07,Dialogue,,0,0,0,,{\blur2}這種感覺 我懂的
+Dialogue: 0,0:21:02.28,0:21:03.87,Dialogue,,0,0,0,,{\blur2}歡迎各位
+Dialogue: 0,0:21:04.99,0:21:07.91,Dialogue,,0,0,0,,{\blur2}今天有許多的惡魔參加
+Dialogue: 0,0:21:07.95,0:21:09.21,Dialogue,,0,0,0,,{\blur2}各位都認真一點
+Dialogue: 0,0:21:09.66,0:21:11.21,Dialogue,,0,0,0,,{\blur2}說起來 能井小姐去哪了
+Dialogue: 0,0:21:11.50,0:21:13.17,Dialogue,,0,0,0,,{\blur2}確實沒看到呢
+Dialogue: 0,0:21:13.71,0:21:16.34,Dialogue,,0,0,0,,{\blur2}邀請別人跳舞是有技巧的
+Dialogue: 0,0:21:16.63,0:21:17.76,Dialogue,,0,0,0,,{\blur2}有人知道嗎
+Dialogue: 0,0:21:17.96,0:21:18.51,Dialogue,,0,0,0,,{\blur2}我
+Dialogue: 0,0:21:18.84,0:21:19.84,Dialogue,,0,0,0,,{\blur2}露出乳頭
+Dialogue: 0,0:21:20.01,0:21:20.59,Dialogue,,0,0,0,,{\blur2}蠢貨
+Dialogue: 0,0:21:21.30,0:21:22.84,Dialogue,,0,0,0,,{\blur2}我來做個示範
+Dialogue: 0,0:21:23.09,0:21:24.18,Dialogue,,0,0,0,,{\blur2}拜託了
+Dialogue: 0,0:21:24.80,0:21:28.93,Dialogue,,0,0,0,,{\blur2}美麗的女士 願意與我來一支舞嗎
+Dialogue: 0,0:21:29.06,0:21:31.81,Dialogue,,0,0,0,,{\blur2}煙先生 樂意之至
+Dialogue: 0,0:21:32.94,0:21:35.44,Dialogue,,0,0,0,,{\blur2}完全不能算示範
+Dialogue: 0,0:21:35.52,0:21:36.90,Dialogue,,0,0,0,,{\blur2}別鬧
+Dialogue: 0,0:21:38.28,0:21:39.90,Dialogue,,0,0,0,,{\blur2}我馬上就跳舞
+Dialogue: 0,0:21:40.40,0:21:42.53,Dialogue,,0,0,0,,{\blur2}就先和你湊活湊活吧 來跳舞吧
+Dialogue: 0,0:21:42.53,0:21:43.91,Dialogue,,0,0,0,,{\blur2}我不
+Dialogue: 0,0:21:44.12,0:21:45.99,Dialogue,,0,0,0,,{\blur2}不怕被紮成串嗎?
+Dialogue: 0,0:21:45.99,0:21:48.37,Dialogue,,0,0,0,,{\blur2}別靠近我 你個皮包骨頭
+Dialogue: 0,0:21:48.83,0:21:50.41,Dialogue,,0,0,0,,{\blur2}必須得喝點了
+Dialogue: 0,0:21:50.46,0:21:51.79,Dialogue,,0,0,0,,{\blur2}前輩
+Dialogue: 0,0:21:52.25,0:21:54.63,Dialogue,,0,0,0,,{\blur2}能和我來一曲嗎
+Dialogue: 0,0:21:54.79,0:21:57.05,Dialogue,,0,0,0,,{\blur2}什麼嘛 原來你在啊
+Dialogue: 0,0:21:57.25,0:21:58.42,Dialogue,,0,0,0,,{\blur2}吃肉嗎
+Dialogue: 0,0:21:59.01,0:21:59.67,Dialogue,,0,0,0,,{\blur2}能井…
+Dialogue: 0,0:22:00.80,0:22:02.30,Dialogue,,0,0,0,,{\blur2}你是10年前的…
+Dialogue: 0,0:22:02.30,0:22:03.97,Dialogue,,0,0,0,,{\blur2}前輩 趕快跳舞
+Dialogue: 0,0:22:05.97,0:22:09.72,Dialogue,,0,0,0,,{\blur2}什麼啊 心又和能井跳舞了
+Dialogue: 0,0:22:11.81,0:22:13.19,Dialogue,,0,0,0,,{\blur2}你活該 藤田
+Dialogue: 0,0:22:23.95,0:22:28.08,Dialogue,,0,0,0,,{\blur2}那時我和二階堂才剛剛認識
+Dialogue: 0,0:22:42.26,0:22:43.43,Dialogue,,0,0,0,,{\blur2}歡迎光臨 開曼
+Dialogue: 0,0:22:43.76,0:22:45.14,Dialogue,,0,0,0,,{\blur2}喲 二階堂
+Dialogue: 0,0:22:45.30,0:22:47.97,Dialogue,,0,0,0,,{\blur2}我帶了點食材來 給我做點什麼吃吧
+Dialogue: 0,0:22:48.68,0:22:50.39,Dialogue,,0,0,0,,{\blur2}蘇葉和姜嗎
+Dialogue: 0,0:22:50.72,0:22:52.18,Dialogue,,0,0,0,,{\blur2}那我做個餃子吧
+Dialogue: 0,0:22:53.44,0:22:54.94,Dialogue,,0,0,0,,{\blur2}首先是做皮
+Dialogue: 0,0:22:55.73,0:22:57.44,Dialogue,,0,0,0,,{\blur2}用麵粉堆成山
+Dialogue: 0,0:22:57.44,0:22:59.82,Dialogue,,0,0,0,,{\blur2}在中間開孔 倒入水
+Dialogue: 0,0:23:00.98,0:23:02.99,Dialogue,,0,0,0,,{\blur2}就像玩沙子一樣呢
+Dialogue: 0,0:23:03.57,0:23:06.74,Dialogue,,0,0,0,,{\blur2}在麵粉全都成團之前 慢慢加水
+Dialogue: 0,0:23:06.74,0:23:07.53,Dialogue,,0,0,0,,{\blur2}揉麵
+Dialogue: 0,0:23:08.66,0:23:12.16,Dialogue,,0,0,0,,{\blur2}麵團揉好以後 蓋上濕布放置一段時間
+Dialogue: 0,0:23:11.58,0:23:12.70,Background,,0,0,0,,{\blur2}晚安
+Dialogue: 0,0:23:15.67,0:23:17.46,Dialogue,,0,0,0,,{\blur2}將麵團揉成棒狀
+Dialogue: 0,0:23:17.58,0:23:20.13,Dialogue,,0,0,0,,{\blur2}揪成一張皮分量的小塊
+Dialogue: 0,0:23:20.80,0:23:22.76,Dialogue,,0,0,0,,{\blur2}用擀麵杖擀成皮
+Dialogue: 0,0:23:23.05,0:23:24.47,Dialogue,,0,0,0,,{\blur2}皮完成了!
+Dialogue: 0,0:23:25.72,0:23:29.64,Dialogue,,0,0,0,,{\blur2}餡使用切碎的香菇幹 蒜 蔥 豬肉末
+Dialogue: 0,0:23:29.97,0:23:33.14,Dialogue,,0,0,0,,{\blur2}加入開曼帶來的蘇葉和姜
+Dialogue: 0,0:23:33.89,0:23:37.31,Dialogue,,0,0,0,,{\blur2}再加入空腹蟲特製的組合調味料
+Dialogue: 0,0:23:37.48,0:23:40.40,Dialogue,,0,0,0,,{\blur2}然後是酒 鹽 少許醬油
+Dialogue: 0,0:23:40.69,0:23:42.23,Dialogue,,0,0,0,,{\blur2}然後攪拌
+Dialogue: 0,0:23:42.82,0:23:45.70,Dialogue,,0,0,0,,{\blur2}在鋪好蘇葉的皮內抹上餡 包上皮
+Dialogue: 0,0:23:46.36,0:23:50.49,Dialogue,,0,0,0,,{\blur2}最後在加熱充分鋪好油的鐵板上擺好餃子
+Dialogue: 0,0:23:50.91,0:23:52.79,Dialogue,,0,0,0,,{\blur2}煎至微黃後加水
+Dialogue: 0,0:23:52.79,0:23:54.25,Dialogue,,0,0,0,,{\blur2}蓋上蓋子 烘烤
+Dialogue: 0,0:23:54.25,0:23:55.37,Dialogue,,0,0,0,,{\blur2}蓋好了
+Dialogue: 0,0:23:55.91,0:23:57.25,Dialogue,,0,0,0,,{\blur2}完成
+Dialogue: 0,0:23:58.79,0:23:59.88,Dialogue,,0,0,0,,{\blur2}來吧 開曼
+Dialogue: 0,0:24:00.63,0:24:01.50,Dialogue,,0,0,0,,{\blur2}要去哪裡?
+Dialogue: 0,0:24:03.88,0:24:05.47,Dialogue,,0,0,0,,{\blur2}屋頂啊
+Dialogue: 0,0:24:05.51,0:24:06.97,Dialogue,,0,0,0,,{\blur2}夜風很舒服吧
+Dialogue: 0,0:24:07.38,0:24:08.84,Dialogue,,0,0,0,,{\blur2}乾杯
+Dialogue: 0,0:24:13.60,0:24:14.27,Dialogue,,0,0,0,,{\blur2}好吃
+Dialogue: 0,0:24:14.52,0:24:16.43,Dialogue,,0,0,0,,{\blur2}蘇葉餃子最棒!
+Dialogue: 0,0:24:16.48,0:24:17.10,Dialogue,,0,0,0,,{\blur2}嗯
+Comment: 0,0:12:26.10,0:12:26.10,Screen,,0,0,0,,------------Screen------------
+Dialogue: 0,0:00:12.99,0:00:18.00,Screen,,0,0,0,,{\blur1\bord2\fs99\pos(640,222)\fn方正行楷_GBK\b1\c&H020204&\3c&H2E2E30&}面具格差
+Dialogue: 0,0:03:49.21,0:03:54.21,Screen,,0,0,0,,{\bord0\shad5\fs88\fn方正特雅宋_GBK\pos(640,582)\c&H2265F6&\b1\3c&H89D8FF&\4c&H4BA7CE&}店鋪 for you
+Dialogue: 0,0:04:08.81,0:04:12.73,Screen,,0,0,0,,{\blur1\bord1\fs33\frz334.1\pos(808.401,255.933)\fn方正卡通_GBK\c&H817F80&\3c&HF0F0EE&\b1}餃子
+Dialogue: 0,0:07:06.24,0:07:11.29,Screen,,0,0,0,,{\blur0.5\bord0\fs22\c&H2D2C26&\fn方正卡通_GBK\b1\pos(512.111,310.778)}起售餃子
+Dialogue: 0,0:07:06.24,0:07:11.29,Screen,,0,0,0,,{\blur0.5\bord0\fs22\c&H2D2C26&\fn方正卡通_GBK\b1\pos(718.133,309.599)}營業中
+Dialogue: 0,0:07:06.24,0:07:09.24,Screen,,0,0,0,,{\blur0.5\bord0\fs22\c&H2D2C26&\fn方正卡通_GBK\b1\pos(536,501.333)}有保鏢、危險
+Dialogue: 0,0:07:09.24,0:07:09.49,Screen,,0,0,0,,{\blur0.5\bord0\fs22\c&H2D2C26&\fn方正卡通_GBK\b1\pos(536,501.333)\clip(m 553 468 l 564 502 562 517 460 519 412 480)}有保鏢、危險
+Dialogue: 0,0:07:09.74,0:07:11.29,Screen,,0,0,0,,{\blur0.5\bord0\fs22\c&H2D2C26&\fn方正卡通_GBK\b1\pos(536,501.333)}有保鏢、危險
+Dialogue: 0,0:09:06.53,0:09:11.53,Screen,,0,0,0,,{\blur2\fsp5\fs55\bord0.3\c&HBE6FF5&\fn方正兰亭圆_GBK_粗\3c&H1F1F2B&\3a&H4D&\pos(957.733,289.533)}底層青春塗鴉
+Dialogue: 0,0:12:36.74,0:12:41.74,Screen,,0,0,0,,{\bord2\fs77\fn新蒂金钟体\pos(640,681)\3c&HC1C1CD&\c&H010101&}你所不知道的餃子{\c&H311D89&\fs88}怪
+Dialogue: 0,0:12:54.92,0:12:55.00,Screen,,0,0,0,,{\fs37\bord0\fnZpix\pos(1030.857,381.572)\c&HC6F3DE&\alpha&H20&}生餃子
+Dialogue: 0,0:12:55.13,0:12:55.21,Screen,,0,0,0,,{\fs37\bord0\fnZpix\pos(1030.857,381.572)\c&HC6F3DE&\alpha&H20&}生餃子
+Dialogue: 0,0:12:55.55,0:12:55.63,Screen,,0,0,0,,{\fs37\bord0\fnZpix\pos(1030.857,381.572)\c&HC6F3DE&\alpha&H20&}生餃子
+Dialogue: 0,0:12:55.71,0:12:58.38,Screen,,0,0,0,,{\fs37\bord0\fnZpix\pos(1030.857,381.572)\c&HC6F3DE&\alpha&H20&}生餃子
+Dialogue: 0,0:13:51.85,0:13:58.61,Screen,,0,0,0,,{\fs31\fad(150,0)\bord0\fn@方正卡通_GBK\c&H5B7B71&\alpha&H20&\frz292.1\pos(539.896,381.047)}想把臉變回原樣
+Dialogue: 0,0:13:51.85,0:13:58.61,Screen,,0,0,0,,{\fs33\fad(150,0)\bord0\fn方正卡通_GBK\c&H4B685C&\pos(794.156,404.223)\alpha&H20&}想吃餃子
+Dialogue: 0,0:13:51.85,0:13:58.61,Screen,,0,0,0,,{\fs33\fad(150,0)\bord0\fn方正卡通_GBK\c&H09291C&\pos(493.888,205.999)\alpha&H20&}想要錢
+Dialogue: 0,0:13:51.85,0:13:58.61,Screen,,0,0,0,,{\fs33\fad(150,0)\bord0\fn方正卡通_GBK\c&H9DDBC1&\pos(588.034,136.667)\alpha&H20&}想變強
+Dialogue: 0,0:14:09.20,0:14:12.66,Screen,,0,0,0,,{\frz-90\bord0\fs33\fn@方正卡通_GBK\pos(501,367)\c&H626B75&\alpha&H30&}今日打烊
+Dialogue: 0,0:14:25.34,0:14:29.22,Screen,,0,0,0,,{\fs33\bord1\blur2\fn方正卡通_GBK\c&H515CE9&\3c&H515CE9&\pos(319.714,213.381)}再來一份
+Dialogue: 0,0:14:25.59,0:14:29.10,Screen,,0,0,0,,{\fs33\bord1\blur2\blur2\fn方正卡通_GBK\c&H9D6C82&\3c&H9D6C82&\pos(193.334,63.503)}已經沒有餃子皮了
+Dialogue: 0,0:14:29.10,0:14:29.22,Screen,,0,0,0,,{\fs33\bord1\blur2\blur2\fn方正卡通_GBK\c&H9D6C82&\3c&H9D6C82&\clip(m 171 12 b 158 35 151 70 148 89 147 102 145 129 144 142 188 136 276 126 320 121 314 110 302 88 296 78 293 60 284 26 279 9 263 7 233 2 217 0)\pos(193.334,63.503)}已經沒有餃子皮了
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H3454E0&\clip(482,133,785,135)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H3656E0&\clip(482,135,785,137)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H3858E0&\clip(482,137,785,139)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H3A5AE1&\clip(482,139,785,141)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H3D5CE1&\clip(482,141,785,143)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H405FE1&\clip(482,143,785,145)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H4362E1&\clip(482,145,785,147)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H4664E1&\clip(482,147,785,149)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H4967E2&\clip(482,149,785,151)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H4C6AE2&\clip(482,151,785,153)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H4F6DE2&\clip(482,153,785,155)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H5270E2&\clip(482,155,785,157)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H5673E3&\clip(482,157,785,159)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H5977E3&\clip(482,159,785,161)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H5D7AE3&\clip(482,161,785,163)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H607DE3&\clip(482,163,785,165)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H6480E4&\clip(482,165,785,167)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H6784E4&\clip(482,167,785,169)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H6B87E4&\clip(482,169,785,171)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H6F8AE5&\clip(482,171,785,173)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H728EE5&\clip(482,173,785,175)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H7691E5&\clip(482,175,785,177)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H7A95E6&\clip(482,177,785,179)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H7E98E6&\clip(482,179,785,181)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H829CE6&\clip(482,181,785,183)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H86A0E6&\clip(482,183,785,185)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H89A3E7&\clip(482,185,785,187)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H8DA7E7&\clip(482,187,785,189)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H91ABE7&\clip(482,189,785,191)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H95AEE8&\clip(482,191,785,193)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H99B2E8&\clip(482,193,785,195)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&H9EB6E8&\clip(482,195,785,197)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HA2BAE9&\clip(482,197,785,199)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HA6BEE9&\clip(482,199,785,201)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HAAC1E9&\clip(482,201,785,203)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HAEC5EA&\clip(482,203,785,205)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HB2C9EA&\clip(482,205,785,207)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HB6CDEA&\clip(482,207,785,209)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HBBD1EB&\clip(482,209,785,211)}魔舞宴會
+Dialogue: 0,0:16:55.99,0:17:01.00,Screen,,0,0,0,,{\blur2\fs77\pos(640,212)\fn方正剪纸_GBK\3c&H2D3163&\c&HBFD5EB&\clip(482,211,785,213)}魔舞宴會
+Dialogue: 0,0:19:27.23,0:19:29.19,Screen,,0,0,0,,{\blur2\bord1\fn方正卡通_GBK\b1\c&H61C3A8&\3c&H396A6D&\pos(638.755,131.378)}孤獨
+Dialogue: 0,0:22:17.32,0:22:22.32,Screen,,0,0,0,,{\blur3\bord2\fs66\pos(640,681.533)\fn方正特雅宋_GBK\b1\c&H92C016&\3c&H3B4D26&}夜風吹拂 蘇葉紀念日
+Dialogue: 0,0:23:55.50,0:23:58.50,Screen,,0,0,0,,{\fs25\bord1\blur1\fn@方正兰亭粗黑_GBK\c&H0728A0&\3c&H9CBCF6&\frz287.9\pos(499.399,99.799)\alpha&H30&}空腹蟲 蘇葉餃子
+Comment: 0,0:21:36.53,0:21:38.53,Dialogue,,0,0,0,,

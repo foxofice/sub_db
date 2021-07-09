@@ -1,5 +1,5 @@
-﻿chs: 
-cht: 
-jp: 
-en: 
-rome: 
+﻿chs: 黄金拼图 Pretty Days
+cht: 黃金拼圖 Pretty Days
+jp: きんいろモザイク Pretty Days
+en: Kin`iro Mosaic: Pretty Days
+rome: Kin`iro Mosaic: Pretty Days

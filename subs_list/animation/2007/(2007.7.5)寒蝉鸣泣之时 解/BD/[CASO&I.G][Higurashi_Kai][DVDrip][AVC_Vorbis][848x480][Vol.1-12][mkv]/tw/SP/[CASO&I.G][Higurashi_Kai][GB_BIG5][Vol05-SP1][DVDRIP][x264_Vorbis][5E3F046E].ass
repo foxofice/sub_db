@@ -1,0 +1,33 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-01-28 01:30:45
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Higurashi_Kai
+Original Script:CASO&I.G
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,26,&H00FFFFFF,&HF0000000,&H001F0A79,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00150861,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,134
+Style: biaoti,華康超明體(P),30,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0.00,1,1,0,2,30,30,50,1
+Style: OPC,方正行楷_GBK,30,&H00FFFFFF,&HF0000000,&H20000000,&H50000000,0,0,0,0,100,100,0,0.00,1,1,1,2,30,30,3,1
+Style: OPJ,DFPSNGyoSho-W5,26,&H00FFFFFF,&HF0000000,&H20000000,&H50000000,1,0,0,0,100,100,0,0.00,1,1,1,8,30,30,7,1
+Style: EDC,方正行楷_GBK,30,&H00FFFFFF,&HF0000000,&H20000000,&H50000000,0,0,0,0,97,100,0,0.00,1,1,1,2,30,30,3,1
+Style: EDJ,DFPSNGyoSho-W5,26,&H00FFFFFF,&HF0000000,&H20000000,&H50000000,1,0,0,0,92,100,0,0.00,1,1,1,8,30,30,7,1
+Style: jinggao,方正行楷_GBK,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&HFF000000,-1,0,0,0,100,100,0,0.00,1,1,1,2,15,15,10,134
+Style: cast,方正魏碑_GBK,28,&H00FFFFFF,&HF0000000,&H40222222,&H50000000,0,0,0,0,100,100,0,0.00,1,2,0,7,30,30,5,1
+Style: yokoku,華康超明體(P),27,&H00FFFFFF,&HF0000000,&H00000000,&H90000000,0,0,0,0,100,90,0,0.00,1,2,1,2,30,30,11,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.46,0:00:05.47,*Default,NTP,0000,0000,0000,,宅
+Dialogue: 0,0:00:05.70,0:00:08.60,*Default,NTP,0000,0000,0000,,一同跟隨我到地獄的盡頭吧！
+Dialogue: 0,0:00:08.81,0:00:09.69,*Default,NTP,0000,0000,0000,,哦！
+Dialogue: 0,0:00:09.97,0:00:14.54,*Default,NTP,0000,0000,0000,,K  K…

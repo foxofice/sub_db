@@ -1,0 +1,5 @@
+﻿chs: 回忆三部曲
+cht: 回憶三部曲
+jp: MEMORIES
+en: Memories
+rome: Memories

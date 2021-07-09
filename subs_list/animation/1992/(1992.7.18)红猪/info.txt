@@ -1,0 +1,5 @@
+﻿chs: 红猪
+cht: 紅豬
+jp: 紅の豚
+en: Porco Rosso
+rome: Kurenai no Buta

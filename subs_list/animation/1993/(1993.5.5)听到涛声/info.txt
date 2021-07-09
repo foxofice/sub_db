@@ -1,0 +1,5 @@
+﻿chs: 听到涛声
+cht: 聽到濤聲
+jp: 海がきこえる
+en: Ocean Waves
+rome: Umi ga Kikoeru

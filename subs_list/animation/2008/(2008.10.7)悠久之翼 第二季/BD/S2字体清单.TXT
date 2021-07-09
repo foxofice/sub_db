@@ -1,0 +1,13 @@
+ＤＦ華康明朝体W5 <DFMinchoP-W5>
+EPSON 正楷書体Ｍ
+FOT-ハミング Std D <FOT-Humming Std D>
+Times New Roman Bold
+方正标雅宋_GBK <FZYaSong-R-GBK>
+方正隶变_GBK <FZLiBian-S02>
+方正宋三_GBK <FZSong III-Z05>
+方正正准黑_GBK <FZZhengHei-M-GBK>
+黑体 <SimHei>
+华文隶书 <STLiti>
+华文中宋 <STZhongsong>
+宋体 <SimSun>
+幼圆 <YouYuan>

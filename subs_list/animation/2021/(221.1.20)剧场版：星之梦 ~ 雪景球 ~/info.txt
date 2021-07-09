@@ -1,0 +1,5 @@
+﻿chs: planetarian 星之梦 ~ 雪景球 ~
+cht: planetarian 星之夢 ~ 雪景球 ~
+jp: planetarian ~雪圈球（スノーグローブ）~ 
+en: Planetarian: Snow Globe
+rome: Planetarian: Snow Globe

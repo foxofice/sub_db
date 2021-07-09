@@ -1,0 +1,1170 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Made in Abyss,FZZhunYuan-M02,47,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,15,1
+Style: Made in Abyss - EDCH,FZZhunYuan-M02,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,25,10,15,1
+Style: Made in Abyss - EDJP,DFPMaruGothic_U-Bd,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,25,10,15,1
+Style: Made in Abyss - OPCH,FZLanTingHei-M-GBK,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,25,10,15,1
+Style: Made in Abyss - OPJP,DFHSGothicG-W5,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,25,10,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.06,0:00:04.62,Made in Abyss,,0,0,0,,師父 師父
+Dialogue: 0,0:00:05.12,0:00:06.70,Made in Abyss,,0,0,0,,有什麼東西靠近了
+Dialogue: 0,0:00:07.82,0:00:08.88,Made in Abyss,,0,0,0,,是兩個人
+Dialogue: 0,0:00:09.82,0:00:11.60,Made in Abyss,,0,0,0,,一個是赤笛
+Dialogue: 0,0:00:12.04,0:00:13.28,Made in Abyss,,0,0,0,,另一個…
+Dialogue: 0,0:00:14.18,0:00:16.26,Made in Abyss,,0,0,0,,好像連探窟家都不是
+Dialogue: 0,0:00:17.88,0:00:19.22,Made in Abyss,,0,0,0,,要準備吊籠嗎
+Dialogue: 0,0:00:22.72,0:00:23.72,Made in Abyss,,0,0,0,,師父?
+Dialogue: 0,0:00:25.60,0:00:28.64,Made in Abyss,,0,0,0,,這就是監視基地啊
+Dialogue: 0,0:00:29.24,0:00:31.36,Made in Abyss,,0,0,0,,竟然建在那麼高的地方
+Dialogue: 0,0:00:32.84,0:00:33.88,Made in Abyss,,0,0,0,,說起來…
+Dialogue: 0,0:00:34.38,0:00:35.28,Made in Abyss,,0,0,0,,怎麼了
+Dialogue: 0,0:00:36.34,0:00:37.20,Made in Abyss,,0,0,0,,那個
+Dialogue: 0,0:00:38.06,0:00:41.64,Made in Abyss,,0,0,0,,監視基地一直都是有人看守的
+Dialogue: 0,0:00:42.24,0:00:46.90,Made in Abyss,,0,0,0,,聽說只要靠近就會放下吊籠
+Dialogue: 0,0:00:47.62,0:00:49.44,Made in Abyss,,0,0,0,,赤笛和機器人
+Dialogue: 0,0:00:50.18,0:00:52.22,Made in Abyss,,0,0,0,,可能是有所戒備吧
+Dialogue: 0,0:00:53.72,0:00:56.18,Made in Abyss,,0,0,0,,雷格 手勾得到那裡嗎
+Dialogue: 0,0:00:56.38,0:00:57.96,Made in Abyss,,0,0,0,,兩隻手的話也許可以
+Dialogue: 0,0:00:59.04,0:00:59.98,Made in Abyss,,0,0,0,,我試試
+Dialogue: 0,0:01:05.36,0:01:06.76,Made in Abyss,,0,0,0,,勉強勾到了
+Dialogue: 0,0:01:09.56,0:01:10.98,Made in Abyss,,0,0,0,,雷格 怎麼了
+Dialogue: 0,0:01:11.16,0:01:15.50,Made in Abyss,,0,0,0,,手…被什麼東西…抓住了
+Dialogue: 0,0:01:17.98,0:01:21.48,Made in Abyss,,0,0,0,,那個小鬼…還活著啊
+Dialogue: 0,0:01:24.68,0:01:27.90,Made in Abyss,,0,0,0,,真相併不是隱藏在夜晚的黑暗
+Dialogue: 0,0:01:27.92,0:01:30.04,Made in Abyss,,0,0,0,,或者巧妙的陷阱之中
+Dialogue: 0,0:01:30.64,0:01:33.16,Made in Abyss,,0,0,0,,而是藏在人的心底
+Dialogue: 0,0:01:34.46,0:01:37.38,Made in Abyss,,0,0,0,,在那個被隔絕的地方
+Dialogue: 0,0:01:37.72,0:01:39.28,Made in Abyss,,0,0,0,,隨著時間流逝逐漸發酵
+Dialogue: 0,0:01:39.86,0:01:42.54,Made in Abyss,,0,0,0,,最後成為不可知的謎
+Dialogue: 0,0:02:20.26,0:02:22.20,Made in Abyss,,0,0,0,,莉可 你沒事吧
+Dialogue: 0,0:02:23.44,0:02:25.88,Made in Abyss,,0,0,0,,虧你們能來到這裡啊
+Dialogue: 0,0:02:27.96,0:02:31.96,Made in Abyss,,0,0,0,,雖說這裡的負擔會輕一些
+Dialogue: 0,0:02:32.20,0:02:34.44,Made in Abyss,,0,0,0,,但對於小孩子來說也夠嗆
+Dialogue: 0,0:02:41.36,0:02:45.72,Made in Abyss,,0,0,0,,那個 我叫莉可
+Dialogue: 0,0:02:50.78,0:02:51.74,Made in Abyss,,0,0,0,,莉可
+Dialogue: 0,0:02:55.14,0:02:56.56,Made in Abyss,,0,0,0,,我知道你
+Dialogue: 0,0:02:56.68,0:02:58.20,Made in Abyss,,0,0,0,,萊莎的孩子啊
+Dialogue: 0,0:03:00.20,0:03:01.78,Made in Abyss,,0,0,0,,真髒
+Dialogue: 0,0:03:02.74,0:03:06.32,Made in Abyss,,0,0,0,,喔呀 少年你沒事嗎
+Dialogue: 0,0:03:06.92,0:03:08.68,Made in Abyss,,0,0,0,,近看才知道
+Dialogue: 0,0:03:08.76,0:03:09.58,Made in Abyss,,0,0,0,,很高
+Dialogue: 0,0:03:10.20,0:03:12.94,Made in Abyss,,0,0,0,,身高有2公尺以上吧
+Dialogue: 0,0:03:13.90,0:03:14.84,Made in Abyss,,0,0,0,,那個髮型
+Dialogue: 0,0:03:15.32,0:03:17.30,Made in Abyss,,0,0,0,,怎麼才能梳成那樣
+Dialogue: 0,0:03:18.00,0:03:20.86,Made in Abyss,,0,0,0,,而且 那個白色的笛
+Dialogue: 0,0:03:21.56,0:03:24.00,Made in Abyss,,0,0,0,,這個女人…是白笛
+Dialogue: 0,0:03:24.68,0:03:25.96,Made in Abyss,,0,0,0,,不動如山之奧森
+Dialogue: 0,0:05:02.66,0:05:06.90,Made in Abyss,,0,0,0,,沒想到還能再見到這個笛子
+Dialogue: 0,0:05:14.78,0:05:18.90,Made in Abyss,,0,0,0,,那麼…您便是奧森先生吧
+Dialogue: 0,0:05:19.46,0:05:21.58,Made in Abyss,,0,0,0,,聽說是您找到那個笛子的
+Dialogue: 0,0:05:25.38,0:05:29.02,Made in Abyss,,0,0,0,,是的 我就是奧森
+Dialogue: 0,0:05:30.22,0:05:34.48,Made in Abyss,,0,0,0,,那個 謝謝你救了我
+Dialogue: 0,0:05:37.00,0:05:38.72,Made in Abyss,,0,0,0,,我聽隊長說過
+Dialogue: 0,0:05:39.32,0:05:43.38,Made in Abyss,,0,0,0,,把阿比斯出生的我放入「免除詛咒之籠」
+Dialogue: 0,0:05:43.80,0:05:47.82,Made in Abyss,,0,0,0,,然後和母親一起把我送到地面上
+Dialogue: 0,0:05:48.58,0:05:50.46,Made in Abyss,,0,0,0,,啊 那件事啊
+Dialogue: 0,0:05:51.16,0:05:52.52,Made in Abyss,,0,0,0,,太重了
+Dialogue: 0,0:05:52.96,0:05:56.16,Made in Abyss,,0,0,0,,途中幾次想扔下
+Dialogue: 0,0:05:56.90,0:05:58.46,Made in Abyss,,0,0,0,,想起來了
+Dialogue: 0,0:05:58.86,0:06:01.68,Made in Abyss,,0,0,0,,連重要的鐘都扔下了
+Dialogue: 0,0:06:04.68,0:06:09.06,Made in Abyss,,0,0,0,,如果扔下的話 那孩子也會來吧
+Dialogue: 0,0:06:09.34,0:06:11.86,Made in Abyss,,0,0,0,,真可惜啊
+Dialogue: 0,0:06:16.32,0:06:17.44,Made in Abyss,,0,0,0,,師父
+Dialogue: 0,0:06:21.26,0:06:23.40,Made in Abyss,,0,0,0,,你是赤笛
+Dialogue: 0,0:06:24.12,0:06:27.44,Made in Abyss,,0,0,0,,不應該來這裡吧
+Dialogue: 0,0:06:30.70,0:06:33.60,Made in Abyss,,0,0,0,,是母親讓我來的
+Dialogue: 0,0:06:35.92,0:06:39.54,Made in Abyss,,0,0,0,,和雷格一起去阿比斯的深處
+Dialogue: 0,0:06:40.20,0:06:45.16,Made in Abyss,,0,0,0,,所以打聽到母親的消息後馬上就走
+Dialogue: 0,0:06:45.52,0:06:46.30,Made in Abyss,,0,0,0,,所以…
+Dialogue: 0,0:06:47.60,0:06:49.06,Made in Abyss,,0,0,0,,這樣啊
+Dialogue: 0,0:06:49.36,0:06:50.76,Made in Abyss,,0,0,0,,是
+Dialogue: 0,0:06:52.10,0:06:57.02,Made in Abyss,,0,0,0,,這就是你們到這裡來的正當理由嗎
+Dialogue: 0,0:06:58.58,0:06:59.88,Made in Abyss,,0,0,0,,對不起
+Dialogue: 0,0:07:01.88,0:07:03.20,Made in Abyss,,0,0,0,,雖然如此
+Dialogue: 0,0:07:03.54,0:07:06.96,Made in Abyss,,0,0,0,,但對於一個赤笛是怎麼到這裡來的
+Dialogue: 0,0:07:06.96,0:07:08.98,Made in Abyss,,0,0,0,,我還是很有興趣的
+Dialogue: 0,0:07:09.38,0:07:10.38,Made in Abyss,,0,0,0,,瑪魯魯克
+Dialogue: 0,0:07:10.88,0:07:12.46,Made in Abyss,,0,0,0,,師父請吩咐
+Dialogue: 0,0:07:13.46,0:07:15.52,Made in Abyss,,0,0,0,,聽聽這兩個孩子說什麼
+Dialogue: 0,0:07:16.70,0:07:17.88,Made in Abyss,,0,0,0,,是讓我來嗎
+Dialogue: 0,0:07:20.48,0:07:23.56,Made in Abyss,,0,0,0,,都是孩子的話才好說吧
+Dialogue: 0,0:07:25.96,0:07:29.44,Made in Abyss,,0,0,0,,我還有事要做
+Dialogue: 0,0:07:30.30,0:07:32.90,Made in Abyss,,0,0,0,,明天再聽你們說
+Dialogue: 0,0:07:35.32,0:07:37.46,Made in Abyss,,0,0,0,,兩位 給你們這個
+Dialogue: 0,0:07:38.88,0:07:39.90,Made in Abyss,,0,0,0,,蒼笛
+Dialogue: 0,0:07:40.44,0:07:42.36,Made in Abyss,,0,0,0,,只限於在這裡的時候
+Dialogue: 0,0:07:42.98,0:07:50.06,Made in Abyss,,0,0,0,,跟別的探窟家解釋赤笛在這的原因太麻煩了
+Dialogue: 0,0:07:50.68,0:07:53.52,Made in Abyss,,0,0,0,,保險起見這個我先替你保存
+Dialogue: 0,0:07:54.22,0:07:57.24,Made in Abyss,,0,0,0,,出去的時候拿蒼笛交換
+Dialogue: 0,0:07:58.36,0:08:00.60,Made in Abyss,,0,0,0,,今天先住下吧
+Dialogue: 0,0:08:00.88,0:08:03.78,Made in Abyss,,0,0,0,,好好把身子洗乾淨
+Dialogue: 0,0:08:04.10,0:08:06.56,Made in Abyss,,0,0,0,,真是 臭得讓人想吐
+Dialogue: 0,0:08:12.38,0:08:14.80,Made in Abyss,,0,0,0,,我先帶你們熟悉一下這裡吧
+Dialogue: 0,0:08:18.32,0:08:23.92,Made in Abyss,,0,0,0,,這個監視基地是基於大波爾塔樹的空洞而建
+Dialogue: 0,0:08:24.92,0:08:30.10,Made in Abyss,,0,0,0,,現在也在其內部一點點擴建
+Dialogue: 0,0:08:30.86,0:08:32.54,Made in Abyss,,0,0,0,,這個大波爾塔樹的根
+Dialogue: 0,0:08:32.64,0:08:36.48,Made in Abyss,,0,0,0,,似乎遙遙延伸到阿比斯之外的海底呢
+Dialogue: 0,0:08:36.94,0:08:38.64,Made in Abyss,,0,0,0,,有誰驗證過嗎
+Dialogue: 0,0:08:39.10,0:08:40.70,Made in Abyss,,0,0,0,,只是猜測
+Dialogue: 0,0:08:41.48,0:08:44.02,Made in Abyss,,0,0,0,,由於可以從海底攝取營養
+Dialogue: 0,0:08:44.04,0:08:47.56,Made in Abyss,,0,0,0,,才能在力場之光薄弱的地方茁壯成長
+Dialogue: 0,0:08:48.68,0:08:53.20,Made in Abyss,,0,0,0,,看 那個牆壁就是樹洞的內側
+Dialogue: 0,0:08:54.16,0:08:57.94,Made in Abyss,,0,0,0,,不會長得太好而纏到一起嗎
+Dialogue: 0,0:09:03.94,0:09:05.68,Made in Abyss,,0,0,0,,請用這間吧
+Dialogue: 0,0:09:12.88,0:09:15.02,Made in Abyss,,0,0,0,,沐浴的話在那邊
+Dialogue: 0,0:09:15.60,0:09:18.04,Made in Abyss,,0,0,0,,其實是洗遺物的房間
+Dialogue: 0,0:09:18.80,0:09:21.82,Made in Abyss,,0,0,0,,我先去 洗乾淨再來
+Dialogue: 0,0:09:27.30,0:09:31.00,Made in Abyss,,0,0,0,,那是叫「不屈之花」百年香來著吧
+Dialogue: 0,0:09:31.64,0:09:33.60,Made in Abyss,,0,0,0,,真的是隨處可見啊
+Dialogue: 0,0:09:33.96,0:09:37.28,Made in Abyss,,0,0,0,,雷格真是個不可思議的機器人
+Dialogue: 0,0:09:38.02,0:09:41.10,Made in Abyss,,0,0,0,,莉可不說的話我還以為你是人類呢
+Dialogue: 0,0:09:41.76,0:09:45.46,Made in Abyss,,0,0,0,,所以手臂伸長的時候嚇了我一跳
+Dialogue: 0,0:09:45.76,0:09:49.32,Made in Abyss,,0,0,0,,我也不覺得自己是機器人
+Dialogue: 0,0:09:50.20,0:09:52.18,Made in Abyss,,0,0,0,,我到底是什麼呢
+Dialogue: 0,0:09:55.98,0:09:57.18,Made in Abyss,,0,0,0,,怎麼了
+Dialogue: 0,0:09:57.42,0:09:59.66,Made in Abyss,,0,0,0,,叫你瑪魯魯克可以嗎
+Dialogue: 0,0:10:00.08,0:10:00.78,Made in Abyss,,0,0,0,,好的
+Dialogue: 0,0:10:01.04,0:10:04.70,Made in Abyss,,0,0,0,,其實我有一件不可思議的事想問
+Dialogue: 0,0:10:05.46,0:10:06.54,Made in Abyss,,0,0,0,,是什麼
+Dialogue: 0,0:10:07.34,0:10:09.74,Made in Abyss,,0,0,0,,只要我知道的什麼都告訴你
+Dialogue: 0,0:10:10.16,0:10:13.46,Made in Abyss,,0,0,0,,你是…女生嗎
+Dialogue: 0,0:10:26.82,0:10:27.92,Made in Abyss,,0,0,0,,好冷
+Dialogue: 0,0:10:29.54,0:10:30.50,Made in Abyss,,0,0,0,,原來如此
+Dialogue: 0,0:10:31.16,0:10:32.94,Made in Abyss,,0,0,0,,你也挺辛苦的
+Dialogue: 0,0:10:33.68,0:10:35.42,Made in Abyss,,0,0,0,,我們兩個都很不容易啊
+Dialogue: 0,0:10:37.42,0:10:39.26,Made in Abyss,,0,0,0,,真是的 雷格
+Dialogue: 0,0:10:39.42,0:10:41.92,Made in Abyss,,0,0,0,,那種事我才沒遇上過呢
+Dialogue: 0,0:10:41.92,0:10:44.80,Made in Abyss,,0,0,0,,啊呀 你們倆聊得好開心
+Dialogue: 0,0:10:47.08,0:10:47.96,Made in Abyss,,0,0,0,,對不起 雷格
+Dialogue: 0,0:10:48.42,0:10:49.86,Made in Abyss,,0,0,0,,有沒有可以擦的東西…
+Dialogue: 0,0:10:52.88,0:10:54.72,Made in Abyss,,0,0,0,,我去拿換洗的衣服
+Dialogue: 0,0:11:05.74,0:11:07.58,Made in Abyss,,0,0,0,,你們肚子餓嗎
+Dialogue: 0,0:11:08.14,0:11:09.94,Made in Abyss,,0,0,0,,這還有些剩下的吃的
+Dialogue: 0,0:11:11.72,0:11:14.76,Made in Abyss,,0,0,0,,瑪魯魯克跟我差不多大
+Dialogue: 0,0:11:14.88,0:11:16.66,Made in Abyss,,0,0,0,,已經是蒼笛了
+Dialogue: 0,0:11:18.66,0:11:21.56,Made in Abyss,,0,0,0,,成為蒼笛需滿15歲
+Dialogue: 0,0:11:22.56,0:11:26.34,Made in Abyss,,0,0,0,,但我是白笛的弟子所以特別優待了
+Dialogue: 0,0:11:28.14,0:11:32.64,Made in Abyss,,0,0,0,,師父是在事故現場把我撿回來的
+Dialogue: 0,0:11:33.48,0:11:35.42,Made in Abyss,,0,0,0,,那之後我就一直在這裡了
+Dialogue: 0,0:11:37.10,0:11:38.58,Made in Abyss,,0,0,0,,你沒回地面上嗎
+Dialogue: 0,0:11:38.88,0:11:41.20,Made in Abyss,,0,0,0,,我對陽光很敏感
+Dialogue: 0,0:11:42.00,0:11:43.62,Made in Abyss,,0,0,0,,所以沒辦法在地面上生活
+Dialogue: 0,0:11:44.88,0:11:46.02,Made in Abyss,,0,0,0,,這樣啊
+Dialogue: 0,0:11:46.48,0:11:48.26,Made in Abyss,,0,0,0,,來 我們開動吧
+Dialogue: 0,0:11:50.62,0:11:51.68,Made in Abyss,,0,0,0,,我開動了
+Dialogue: 0,0:11:56.94,0:12:03.42,Made in Abyss,,0,0,0,,自從師父大人撿到我之後 就一直主動擔任監視基地的守衛
+Dialogue: 0,0:12:05.18,0:12:09.04,Made in Abyss,,0,0,0,,理由好像是「不用老是回到地面上」
+Dialogue: 0,0:12:09.56,0:12:12.26,Made in Abyss,,0,0,0,,雖然她確實是這麼想的
+Dialogue: 0,0:12:12.88,0:12:15.26,Made in Abyss,,0,0,0,,但實際上也在為我著想
+Dialogue: 0,0:12:16.64,0:12:18.88,Made in Abyss,,0,0,0,,之前總覺得她很可怕
+Dialogue: 0,0:12:19.74,0:12:21.20,Made in Abyss,,0,0,0,,聽起來是個很好的師父呢
+Dialogue: 0,0:12:23.30,0:12:24.98,Made in Abyss,,0,0,0,,是啊 真的
+Dialogue: 0,0:12:47.72,0:12:49.02,Made in Abyss,,0,0,0,,對了 瑪魯魯克
+Dialogue: 0,0:12:49.80,0:12:50.76,Made in Abyss,,0,0,0,,有什麼事嗎
+Dialogue: 0,0:12:51.78,0:12:54.18,Made in Abyss,,0,0,0,,那個房間裡都有些什麼遺物呢
+Dialogue: 0,0:12:55.12,0:12:57.36,Made in Abyss,,0,0,0,,莉可都已經開始去研究了
+Dialogue: 0,0:12:58.38,0:12:59.60,Made in Abyss,,0,0,0,,沒關係的
+Dialogue: 0,0:13:00.60,0:13:03.60,Made in Abyss,,0,0,0,,那些是不會帶到地面去的遺物
+Dialogue: 0,0:13:04.76,0:13:07.72,Made in Abyss,,0,0,0,,都是在這附近採集到挑選後剩下的
+Dialogue: 0,0:13:08.72,0:13:10.46,Made in Abyss,,0,0,0,,只是些四級遺物
+Dialogue: 0,0:13:11.40,0:13:13.34,Made in Abyss,,0,0,0,,這些是四級遺物啊
+Dialogue: 0,0:13:14.28,0:13:15.36,Made in Abyss,,0,0,0,,雷格 你看
+Dialogue: 0,0:13:17.36,0:13:19.32,Made in Abyss,,0,0,0,,這是我的「太陽玉」
+Dialogue: 0,0:13:20.50,0:13:24.54,Made in Abyss,,0,0,0,,雖然看起來長得很像 但在這附近採集到的形狀要複雜很多
+Dialogue: 0,0:13:25.20,0:13:31.00,Made in Abyss,,0,0,0,,據說越是到深層形狀複雜的遺物就越多
+Dialogue: 0,0:13:31.34,0:13:32.14,Made in Abyss,,0,0,0,,這樣啊
+Dialogue: 0,0:13:32.82,0:13:37.44,Made in Abyss,,0,0,0,,在這附近採集到的遺物 只有大約4成是蛋的形狀的
+Dialogue: 0,0:13:37.86,0:13:41.98,Made in Abyss,,0,0,0,,明明是很久之前的人們使用過的道具 真是不可思議呢
+Dialogue: 0,0:13:42.38,0:13:45.50,Made in Abyss,,0,0,0,,真好啊 我也想去挖
+Dialogue: 0,0:13:47.38,0:13:50.52,Made in Abyss,,0,0,0,,若是住久一點還是可以去探窟的
+Dialogue: 0,0:13:51.38,0:13:54.92,Made in Abyss,,0,0,0,,對了 我去拜託師父大人吧
+Dialogue: 0,0:13:55.52,0:13:58.60,Made in Abyss,,0,0,0,,想不想多待一陣子去探窟之類的嗎
+Dialogue: 0,0:13:58.92,0:14:01.00,Made in Abyss,,0,0,0,,咦 可以嗎
+Dialogue: 0,0:14:01.36,0:14:04.58,Made in Abyss,,0,0,0,,這是第一次有年紀相仿的孩子來這裡
+Dialogue: 0,0:14:05.60,0:14:09.66,Made in Abyss,,0,0,0,,我也想多和二位一起工作聊天
+Dialogue: 0,0:14:10.22,0:14:12.96,Made in Abyss,,0,0,0,,我也想 我也想
+Dialogue: 0,0:14:16.26,0:14:17.82,Made in Abyss,,0,0,0,,抱歉啊 瑪魯魯克
+Dialogue: 0,0:14:20.32,0:14:24.92,Made in Abyss,,0,0,0,,我還不知道奈落底部的母親現在情況如何
+Dialogue: 0,0:14:25.94,0:14:29.34,Made in Abyss,,0,0,0,,所以也不知是否該儘快趕去
+Dialogue: 0,0:14:30.26,0:14:33.26,Made in Abyss,,0,0,0,,正因為不知道 所以我必須要抓緊時間
+Dialogue: 0,0:14:33.84,0:14:35.26,Made in Abyss,,0,0,0,,這樣啊
+Dialogue: 0,0:14:42.18,0:14:45.12,Made in Abyss,,0,0,0,,那麼 今天就一起好好的聊天吧
+Dialogue: 0,0:14:45.72,0:14:49.04,Made in Abyss,,0,0,0,,原本師父大人也是這樣吩咐我的
+Dialogue: 0,0:15:07.38,0:15:08.74,Made in Abyss,,0,0,0,,尿尿…
+Dialogue: 0,0:15:32.82,0:15:33.90,Made in Abyss,,0,0,0,,奧森先生?
+Dialogue: 0,0:15:57.30,0:15:58.74,Made in Abyss,,0,0,0,,有誰在嗎
+Dialogue: 0,0:16:42.62,0:16:44.80,Made in Abyss,,0,0,0,,那是… 什麼
+Dialogue: 0,0:16:57.70,0:17:02.00,Made in Abyss,,0,0,0,,不用在意的莉可 我到前年為止也還尿床的
+Dialogue: 0,0:17:02.48,0:17:06.64,Made in Abyss,,0,0,0,,可是莉可 為什麼你會跑到我床上來尿床呢
+Dialogue: 0,0:17:08.04,0:17:11.32,Made in Abyss,,0,0,0,,本 本來我打算好好去上廁所的
+Dialogue: 0,0:17:12.12,0:17:15.56,Made in Abyss,,0,0,0,,但是 半夜起來去找廁所的時候
+Dialogue: 0,0:17:16.18,0:17:17.40,Made in Abyss,,0,0,0,,我看見了…
+Dialogue: 0,0:17:21.06,0:17:24.06,Made in Abyss,,0,0,0,,簡直…不像是這個世界的東西
+Dialogue: 0,0:17:26.14,0:17:29.38,Made in Abyss,,0,0,0,,我 真的太害怕了
+Dialogue: 0,0:17:30.94,0:17:33.70,Made in Abyss,,0,0,0,,所以就鑽到雷格的被窩裡 然後就…
+Dialogue: 0,0:17:35.30,0:17:36.92,Made in Abyss,,0,0,0,,真是的 莉可
+Dialogue: 0,0:17:37.44,0:17:40.72,Made in Abyss,,0,0,0,,監視基地可沒有鬼怪的傳言呢
+Dialogue: 0,0:17:40.90,0:17:41.96,Made in Abyss,,0,0,0,,但…但是
+Dialogue: 0,0:17:42.24,0:17:43.54,Made in Abyss,,0,0,0,,對了 莉可
+Dialogue: 0,0:17:43.88,0:17:44.76,Made in Abyss,,0,0,0,,雷格
+Dialogue: 0,0:17:44.76,0:17:49.40,Made in Abyss,,0,0,0,,那…那種不現實的 好…好像也存在吧
+Dialogue: 0,0:17:49.40,0:17:51.60,Made in Abyss,,0,0,0,,長得像屍體一樣的生物之類的
+Dialogue: 0,0:17:52.32,0:17:55.26,Made in Abyss,,0,0,0,,母親的信裡也沒有提到那種東西啊
+Dialogue: 0,0:17:58.88,0:17:59.76,Made in Abyss,,0,0,0,,師父大人
+Dialogue: 0,0:18:00.54,0:18:03.48,Made in Abyss,,0,0,0,,你們似乎在談論很有趣的話題呢
+Dialogue: 0,0:18:04.52,0:18:07.94,Made in Abyss,,0,0,0,,那…那個 這是 對不起
+Dialogue: 0,0:18:09.54,0:18:13.88,Made in Abyss,,0,0,0,,是這樣啊 你並不是沒注意到
+Dialogue: 0,0:18:14.82,0:18:19.08,Made in Abyss,,0,0,0,,「那孩子」也好 哈伯爾庫也好 什麼都沒透露嗎
+Dialogue: 0,0:18:20.88,0:18:23.36,Made in Abyss,,0,0,0,,請問 你指的是…
+Dialogue: 0,0:18:26.54,0:18:28.22,Made in Abyss,,0,0,0,,想知道嗎
+Dialogue: 0,0:18:30.92,0:18:31.42,Made in Abyss,,0,0,0,,是的
+Dialogue: 0,0:18:31.80,0:18:34.48,Made in Abyss,,0,0,0,,那就…跟我來吧
+Dialogue: 0,0:18:35.64,0:18:39.86,Made in Abyss,,0,0,0,,如果不來的話 就忘記你看到的東西
+Dialogue: 0,0:18:48.94,0:18:50.00,Made in Abyss,,0,0,0,,雷格
+Dialogue: 0,0:18:51.88,0:18:52.32,Made in Abyss,,0,0,0,,嗯
+Dialogue: 0,0:19:05.50,0:19:09.60,Made in Abyss,,0,0,0,,你們的事情 今天早上瑪魯魯克都告訴我了
+Dialogue: 0,0:19:11.10,0:19:16.20,Made in Abyss,,0,0,0,,我想先確認一下 你是來尋找萊莎去向的對吧
+Dialogue: 0,0:19:16.74,0:19:20.04,Made in Abyss,,0,0,0,,是的 我是被母親叫來的
+Dialogue: 0,0:19:21.62,0:19:23.78,Made in Abyss,,0,0,0,,這個東西都已經到地面去了
+Dialogue: 0,0:19:24.82,0:19:31.78,Made in Abyss,,0,0,0,,萊莎已經死了 你的尋母之旅也到此結束了
+Dialogue: 0,0:19:34.72,0:19:39.52,Made in Abyss,,0,0,0,,奧森先生是在哪裡找到這個笛子和信的呢
+Dialogue: 0,0:19:40.70,0:19:41.92,Made in Abyss,,0,0,0,,在墳墓裡
+Dialogue: 0,0:19:44.24,0:19:46.66,Made in Abyss,,0,0,0,,那是多久前的事了
+Dialogue: 0,0:19:47.06,0:19:51.06,Made in Abyss,,0,0,0,,四層「巨人之杯」的深處
+Dialogue: 0,0:19:51.32,0:19:54.32,Made in Abyss,,0,0,0,,有一片百年香的群生地
+Dialogue: 0,0:19:54.80,0:19:57.96,Made in Abyss,,0,0,0,,在那裡有一座墳墓
+Dialogue: 0,0:20:02.32,0:20:06.20,Made in Abyss,,0,0,0,,萊莎她呢 曾經就很喜歡那個地方
+Dialogue: 0,0:20:09.02,0:20:10.22,Made in Abyss,,0,0,0,,怎麼會…
+Dialogue: 0,0:20:10.70,0:20:13.28,Made in Abyss,,0,0,0,,但是 母親在呼喚我
+Dialogue: 0,0:20:13.28,0:20:16.12,Made in Abyss,,0,0,0,,那個 不是萊莎的筆跡喔
+Dialogue: 0,0:20:18.12,0:20:22.28,Made in Abyss,,0,0,0,,我不知道為什麼會混進去這種東西
+Dialogue: 0,0:20:22.78,0:20:26.46,Made in Abyss,,0,0,0,,但就算是萊莎開的玩笑 她也不會寫這種字
+Dialogue: 0,0:20:28.96,0:20:34.98,Made in Abyss,,0,0,0,,咦 你要去奈落底部的理由是什麼來著
+Dialogue: 0,0:20:36.26,0:20:39.36,Made in Abyss,,0,0,0,,我…我想要自己去確認
+Dialogue: 0,0:20:39.36,0:20:41.32,Made in Abyss,,0,0,0,,那可真是個好辦法
+Dialogue: 0,0:20:41.82,0:20:44.18,Made in Abyss,,0,0,0,,你要把墳墓也挖個底朝天嗎
+Dialogue: 0,0:20:44.46,0:20:50.06,Made in Abyss,,0,0,0,,而…而且 信中提到的「謎之人影」也和雷格有關係…
+Dialogue: 0,0:20:54.42,0:20:58.72,Made in Abyss,,0,0,0,,哼哼 原來如此
+Dialogue: 0,0:21:18.46,0:21:19.86,Made in Abyss,,0,0,0,,這裡是什麼地方
+Dialogue: 0,0:21:20.90,0:21:22.30,Made in Abyss,,0,0,0,,是私室
+Dialogue: 0,0:21:23.50,0:21:26.22,Made in Abyss,,0,0,0,,你是想知道才跟過來的不是嗎
+Dialogue: 0,0:21:35.40,0:21:36.80,Made in Abyss,,0,0,0,,進來吧
+Dialogue: 0,0:04:55.80,0:04:57.80,Made in Abyss,,0,0,0,,
+Dialogue: 0,0:04:57.77,0:05:01.78,Made in Abyss,,0,0,0,,{\fad(0,0)\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs40\an8}本字幕由喵萌奶茶屋製作 如喜歡用支持正版 謝謝合作
+Dialogue: 0,0:04:57.77,0:05:01.78,Made in Abyss,,0,0,0,,{\fad(0,0)\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs40}翻譯：chapa 大助 校對：ZTR 時軸：Star 後期：飛翔 夕兒  特效：格子  繁化：風風
+Dialogue: 0,0:04:57.80,0:04:57.80,Made in Abyss,,0,0,0,,
+Dialogue: 0,0:04:57.77,0:05:01.78,Made in Abyss,,0,0,0,,{\fad(0,0)\pos(637,551)}{\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs60}監視基地
+Dialogue: 0,0:23:36.71,0:23:40.83,Made in Abyss,,0,0,0,,{\pos(642,583.667)}{\fad(100,100)}{\blur3\bord3\3c&H008FA1A8\c&H000F0E0E\fn方正艺黑_GBK\fs60}下一集\N\N\N\N\N\N\N\N\N\N不動卿
+Dialogue: 0,0:22:11.34,0:22:16.70,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}用天空中的光芒
+Dialogue: 0,0:22:16.70,0:22:21.97,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}織成一道彩虹橋
+Dialogue: 0,0:22:21.97,0:22:27.22,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}小心腳下滑坡
+Dialogue: 0,0:22:27.23,0:22:32.12,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}那是過去與未來的道標
+Dialogue: 0,0:22:32.42,0:22:37.42,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}你的左手 我的右手
+Dialogue: 0,0:22:37.42,0:22:43.04,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}彼此緊握一路前行
+Dialogue: 0,0:22:43.04,0:22:45.41,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}一直會在你身邊的喔
+Dialogue: 0,0:22:45.73,0:22:48.02,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}無論過去現在還是未來
+Dialogue: 0,0:22:48.02,0:22:55.60,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}所以不要迷茫朝前邁進吧
+Dialogue: 0,0:22:56.21,0:23:02.49,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}五光十色的夢 交織在一起
+Dialogue: 0,0:23:02.87,0:23:06.84,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}明天將走向何方
+Dialogue: 0,0:23:06.84,0:23:17.05,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}和你在一起 世界如此璀璨
+Dialogue: 0,0:23:17.37,0:23:25.04,Made in Abyss - EDCH,,0,0,0,,{\blur3\3c&H6DBEF7&\fad(300,300)}前往世界盡頭 尋找盛開的花朵吧
+Dialogue: 1,0:22:11.25,0:22:12.09,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(511,652,473,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}空
+Dialogue: 1,0:22:12.09,0:22:16.64,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(473,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}空
+Dialogue: 1,0:22:11.89,0:22:12.45,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(542,654,506,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:22:12.45,0:22:16.66,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(506,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:22:12.25,0:22:12.74,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(578,650,540,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}浮
+Dialogue: 1,0:22:12.74,0:22:16.68,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(540,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}浮
+Dialogue: 1,0:22:12.54,0:22:12.98,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(611,647,575,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:22:12.98,0:22:16.70,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(575,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:22:12.78,0:22:13.13,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(643,657,607,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ん
+Dialogue: 1,0:22:13.13,0:22:16.72,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(607,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ん
+Dialogue: 1,0:22:12.93,0:22:13.34,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(677,647,640,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}で
+Dialogue: 1,0:22:13.34,0:22:16.74,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(640,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}で
+Dialogue: 1,0:22:13.14,0:22:13.69,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(708,651,672,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:13.69,0:22:16.76,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(672,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:13.83,0:22:14.80,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(762,653,724,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}光
+Dialogue: 1,0:22:14.80,0:22:16.80,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(724,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}光
+Dialogue: 1,0:22:14.60,0:22:15.06,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(792,655,757,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:15.06,0:22:16.82,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(757,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:14.86,0:22:16.05,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(828,652,790,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}波
+Dialogue: 1,0:22:16.05,0:22:16.84,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(790,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}波
+Dialogue: 1,0:22:15.85,0:22:16.66,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(860,649,824,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:22:16.66,0:22:16.86,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(824,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:22:16.54,0:22:17.39,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(511,650,473,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}束
+Dialogue: 1,0:22:17.39,0:22:21.91,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(473,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}束
+Dialogue: 1,0:22:17.19,0:22:17.76,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(546,655,508,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ね
+Dialogue: 1,0:22:17.76,0:22:21.93,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(508,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ね
+Dialogue: 1,0:22:17.56,0:22:18.07,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(580,653,543,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}で
+Dialogue: 1,0:22:18.07,0:22:21.95,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(543,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}で
+Dialogue: 1,0:22:17.87,0:22:18.57,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(616,654,578,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}虹
+Dialogue: 1,0:22:18.57,0:22:21.97,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(578,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}虹
+Dialogue: 1,0:22:18.37,0:22:19.01,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(650,654,613,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:19.01,0:22:21.99,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(613,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:19.13,0:22:20.03,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(704,655,666,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}橋
+Dialogue: 1,0:22:20.03,0:22:22.03,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(666,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}橋
+Dialogue: 1,0:22:19.83,0:22:20.33,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(735,656,700,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:22:20.33,0:22:22.05,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(700,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:22:20.13,0:22:20.65,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(769,654,732,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:22:20.65,0:22:22.07,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(732,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:22:20.45,0:22:21.30,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(802,654,765,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}け
+Dialogue: 1,0:22:21.30,0:22:22.09,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(765,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}け
+Dialogue: 1,0:22:21.10,0:22:21.61,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(832,647,797,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:22:21.61,0:22:22.11,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(797,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:22:21.41,0:22:21.91,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(860,653,826,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:21.91,0:22:22.13,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(826,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:21.83,0:22:22.68,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(517,652,479,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}危
+Dialogue: 1,0:22:22.68,0:22:27.16,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(479,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}危
+Dialogue: 1,0:22:22.48,0:22:23.02,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(545,647,511,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:23.02,0:22:27.18,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(511,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:22.82,0:22:23.27,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(576,648,540,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:23.27,0:22:27.20,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(540,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:23.07,0:22:23.83,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(612,650,574,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}足
+Dialogue: 1,0:22:23.83,0:22:27.22,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(574,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}足
+Dialogue: 1,0:22:23.63,0:22:24.30,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(648,656,610,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}場
+Dialogue: 1,0:22:24.30,0:22:27.24,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(610,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}場
+Dialogue: 1,0:22:24.38,0:22:25.29,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(702,647,664,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}滑
+Dialogue: 1,0:22:25.29,0:22:27.28,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(664,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}滑
+Dialogue: 1,0:22:25.09,0:22:25.64,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(732,652,697,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:25.64,0:22:27.30,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(697,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:25.44,0:22:25.96,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(764,650,728,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ス
+Dialogue: 1,0:22:25.96,0:22:27.32,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(728,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ス
+Dialogue: 1,0:22:25.76,0:22:26.31,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(793,654,758,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ロ
+Dialogue: 1,0:22:26.31,0:22:27.34,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(758,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ロ
+Dialogue: 1,0:22:26.11,0:22:26.51,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(821,656,787,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ー
+Dialogue: 1,0:22:26.51,0:22:27.36,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(787,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ー
+Dialogue: 1,0:22:26.31,0:22:27.16,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(854,647,817,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}プ
+Dialogue: 1,0:22:27.16,0:22:27.38,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(817,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}プ
+Dialogue: 1,0:22:27.11,0:22:27.62,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(564,649,526,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}過
+Dialogue: 1,0:22:27.62,0:22:32.06,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(526,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}過
+Dialogue: 1,0:22:27.42,0:22:27.76,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(600,651,562,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}去
+Dialogue: 1,0:22:27.76,0:22:32.08,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(562,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}去
+Dialogue: 1,0:22:27.56,0:22:28.20,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(630,649,595,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}と
+Dialogue: 1,0:22:28.20,0:22:32.10,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(595,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}と
+Dialogue: 1,0:22:28.00,0:22:28.63,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(666,655,628,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}未
+Dialogue: 1,0:22:28.63,0:22:32.12,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(628,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}未
+Dialogue: 1,0:22:28.43,0:22:29.10,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(702,656,664,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}来
+Dialogue: 1,0:22:29.10,0:22:32.14,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(664,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}来
+Dialogue: 1,0:22:28.90,0:22:29.82,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(735,654,698,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:29.82,0:22:32.16,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(698,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:29.62,0:22:30.59,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(771,650,733,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}道
+Dialogue: 1,0:22:30.59,0:22:32.18,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(733,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}道
+Dialogue: 1,0:22:30.39,0:22:32.04,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(807,657,769,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}導
+Dialogue: 1,0:22:32.04,0:22:32.20,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(769,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}導
+Dialogue: 1,0:22:32.27,0:22:32.92,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(537,650,499,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}君
+Dialogue: 1,0:22:32.92,0:22:37.36,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(499,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}君
+Dialogue: 1,0:22:32.72,0:22:33.42,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(571,648,534,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:33.42,0:22:37.38,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(534,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:33.22,0:22:34.17,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(607,652,569,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}左
+Dialogue: 1,0:22:34.17,0:22:37.40,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(569,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}左
+Dialogue: 1,0:22:33.97,0:22:34.56,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(643,657,605,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}手
+Dialogue: 1,0:22:34.56,0:22:37.42,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(605,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}手
+Dialogue: 1,0:22:34.85,0:22:35.55,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(697,652,659,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}僕
+Dialogue: 1,0:22:35.55,0:22:37.46,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(659,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}僕
+Dialogue: 1,0:22:35.35,0:22:36.10,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(730,653,693,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:36.10,0:22:37.48,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(693,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:35.90,0:22:36.67,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(766,656,728,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}右
+Dialogue: 1,0:22:36.67,0:22:37.50,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(728,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}右
+Dialogue: 1,0:22:36.47,0:22:36.86,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(802,650,764,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}手
+Dialogue: 1,0:22:36.86,0:22:37.52,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(764,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}手
+Dialogue: 1,0:22:36.66,0:22:37.37,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(834,647,798,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:22:37.37,0:22:37.54,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(798,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:22:37.27,0:22:38.18,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(527,648,489,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}繋
+Dialogue: 1,0:22:38.18,0:22:42.98,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(489,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}繋
+Dialogue: 1,0:22:37.98,0:22:38.36,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(557,651,522,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:38.36,0:22:43.00,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(522,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:38.16,0:22:38.76,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(591,652,554,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}で
+Dialogue: 1,0:22:38.76,0:22:43.02,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(554,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}で
+Dialogue: 1,0:22:38.56,0:22:39.51,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(627,651,589,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}繋
+Dialogue: 1,0:22:39.51,0:22:43.04,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(589,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}繋
+Dialogue: 1,0:22:39.31,0:22:39.66,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(660,649,624,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}げ
+Dialogue: 1,0:22:39.66,0:22:43.06,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(624,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}げ
+Dialogue: 1,0:22:39.46,0:22:40.33,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(693,650,656,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:22:40.33,0:22:43.08,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(656,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:22:40.13,0:22:40.80,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(725,650,689,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}は
+Dialogue: 1,0:22:40.80,0:22:43.10,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(689,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}は
+Dialogue: 1,0:22:40.60,0:22:41.09,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(754,652,719,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}じ
+Dialogue: 1,0:22:41.09,0:22:43.12,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(719,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}じ
+Dialogue: 1,0:22:40.89,0:22:41.43,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(786,656,750,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}め
+Dialogue: 1,0:22:41.43,0:22:43.14,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(750,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}め
+Dialogue: 1,0:22:41.23,0:22:41.77,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(817,653,781,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:22:41.77,0:22:43.16,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(781,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:22:41.57,0:22:43.00,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(845,655,811,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:43.00,0:22:43.18,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(811,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:42.91,0:22:43.32,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(538,648,503,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:43.32,0:22:45.35,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(503,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:43.12,0:22:43.47,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(570,648,534,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}つ
+Dialogue: 1,0:22:43.47,0:22:45.37,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(534,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}つ
+Dialogue: 1,0:22:43.27,0:22:43.65,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(602,653,566,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:43.65,0:22:45.39,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(566,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:43.58,0:22:43.94,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(653,650,617,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}そ
+Dialogue: 1,0:22:43.94,0:22:45.43,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(617,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}そ
+Dialogue: 1,0:22:43.74,0:22:44.12,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(687,648,650,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ば
+Dialogue: 1,0:22:44.12,0:22:45.45,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(650,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ば
+Dialogue: 1,0:22:43.92,0:22:44.31,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(718,655,682,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:22:44.31,0:22:45.47,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(682,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:22:44.25,0:22:44.62,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(766,655,731,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:44.62,0:22:45.51,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(731,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:44.42,0:22:44.76,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(797,648,761,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:44.76,0:22:45.53,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(761,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}る
+Dialogue: 1,0:22:44.56,0:22:45.16,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(827,654,792,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:22:45.16,0:22:45.55,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(792,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:22:45.57,0:22:45.96,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(548,650,510,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}過
+Dialogue: 1,0:22:45.96,0:22:47.96,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(510,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}過
+Dialogue: 1,0:22:45.76,0:22:46.11,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(584,647,546,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}去
+Dialogue: 1,0:22:46.11,0:22:47.98,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(546,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}去
+Dialogue: 1,0:22:45.91,0:22:46.42,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(616,652,580,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:46.42,0:22:48.00,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(580,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:46.24,0:22:46.73,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(670,647,632,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}今
+Dialogue: 1,0:22:46.73,0:22:48.04,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(632,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}今
+Dialogue: 1,0:22:46.53,0:22:46.93,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(701,649,666,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:46.93,0:22:48.06,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(666,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:46.74,0:22:47.08,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(755,654,717,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}未
+Dialogue: 1,0:22:47.08,0:22:48.10,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(717,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}未
+Dialogue: 1,0:22:46.88,0:22:47.36,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(791,650,753,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}来
+Dialogue: 1,0:22:47.36,0:22:48.12,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(753,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}来
+Dialogue: 1,0:22:47.16,0:22:47.95,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(823,647,787,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:47.95,0:22:48.14,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(787,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}も
+Dialogue: 1,0:22:47.85,0:22:48.37,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(494,651,457,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}だ
+Dialogue: 1,0:22:48.37,0:22:55.54,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(457,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}だ
+Dialogue: 1,0:22:48.17,0:22:48.75,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(527,650,491,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:22:48.75,0:22:55.56,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(491,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:22:48.55,0:22:49.03,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(554,654,521,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ら
+Dialogue: 1,0:22:49.03,0:22:55.58,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(521,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ら
+Dialogue: 1,0:22:48.83,0:22:49.71,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(590,649,552,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}迷
+Dialogue: 1,0:22:49.71,0:22:55.60,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(552,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}迷
+Dialogue: 1,0:22:49.51,0:22:50.02,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(624,650,587,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}わ
+Dialogue: 1,0:22:50.02,0:22:55.62,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(587,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}わ
+Dialogue: 1,0:22:49.82,0:22:50.37,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(659,650,621,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ず
+Dialogue: 1,0:22:50.37,0:22:55.64,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(621,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ず
+Dialogue: 1,0:22:50.17,0:22:50.69,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(690,657,654,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:22:50.69,0:22:55.66,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(654,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:22:50.49,0:22:51.98,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(726,648,688,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}歩
+Dialogue: 1,0:22:51.98,0:22:55.68,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(688,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}歩
+Dialogue: 1,0:22:51.78,0:22:52.15,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(756,655,721,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:52.15,0:22:55.70,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(721,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:51.95,0:22:52.36,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(788,647,752,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:22:52.36,0:22:55.72,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(752,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:22:52.16,0:22:53.02,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(818,648,783,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:53.02,0:22:55.74,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(783,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:22:52.82,0:22:53.66,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(846,651,812,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}こ
+Dialogue: 1,0:22:53.66,0:22:55.76,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(812,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}こ
+Dialogue: 1,0:22:53.46,0:22:55.55,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(874,647,840,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:55.55,0:22:55.78,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(840,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:22:56.05,0:22:56.95,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(533,652,495,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}色
+Dialogue: 1,0:22:56.95,0:23:02.43,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(495,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}色
+Dialogue: 1,0:22:56.75,0:22:57.31,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(563,648,528,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}と
+Dialogue: 1,0:22:57.31,0:23:02.45,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(528,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}と
+Dialogue: 1,0:22:57.11,0:22:57.63,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(589,652,556,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}り
+Dialogue: 1,0:22:57.63,0:23:02.47,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(556,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}り
+Dialogue: 1,0:22:57.43,0:22:58.29,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(621,652,585,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ど
+Dialogue: 1,0:22:58.29,0:23:02.49,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(585,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ど
+Dialogue: 1,0:22:58.09,0:22:58.97,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(647,647,614,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}り
+Dialogue: 1,0:22:58.97,0:23:02.51,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(614,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}り
+Dialogue: 1,0:22:58.77,0:22:59.96,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(680,655,644,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:59.96,0:23:02.53,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(644,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:22:59.76,0:23:00.89,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(716,655,678,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}夢
+Dialogue: 1,0:23:00.89,0:23:02.55,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(678,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}夢
+Dialogue: 1,0:23:00.70,0:23:01.75,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(770,649,732,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}重
+Dialogue: 1,0:23:01.75,0:23:02.59,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(732,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}重
+Dialogue: 1,0:23:01.55,0:23:01.88,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(806,649,768,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ね
+Dialogue: 1,0:23:01.88,0:23:02.61,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(768,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ね
+Dialogue: 1,0:23:01.68,0:23:02.42,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(838,649,802,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:23:02.42,0:23:02.63,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(802,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:23:02.70,0:23:03.22,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(557,656,519,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}明
+Dialogue: 1,0:23:03.22,0:23:06.78,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(519,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}明
+Dialogue: 1,0:23:03.02,0:23:03.83,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(593,656,555,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}日
+Dialogue: 1,0:23:03.83,0:23:06.80,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(555,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}日
+Dialogue: 1,0:23:03.63,0:23:04.20,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(625,653,589,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}は
+Dialogue: 1,0:23:04.20,0:23:06.82,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(589,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}は
+Dialogue: 1,0:23:04.00,0:23:04.51,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(657,647,621,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ど
+Dialogue: 1,0:23:04.51,0:23:06.84,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(621,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ど
+Dialogue: 1,0:23:04.31,0:23:04.86,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(686,647,652,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}こ
+Dialogue: 1,0:23:04.86,0:23:06.86,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(652,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}こ
+Dialogue: 1,0:23:04.66,0:23:05.21,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(717,651,681,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:23:05.21,0:23:06.88,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(681,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:23:05.01,0:23:05.54,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(753,648,715,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}向
+Dialogue: 1,0:23:05.54,0:23:06.90,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(715,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}向
+Dialogue: 1,0:23:05.34,0:23:06.21,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(786,649,750,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:23:06.21,0:23:06.92,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(750,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}か
+Dialogue: 1,0:23:06.01,0:23:06.74,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(814,651,780,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:23:06.74,0:23:06.94,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(780,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:23:06.67,0:23:07.55,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(412,650,374,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}君
+Dialogue: 1,0:23:07.55,0:23:16.99,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(374,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}君
+Dialogue: 1,0:23:07.35,0:23:07.90,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(442,647,407,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}と
+Dialogue: 1,0:23:07.90,0:23:17.01,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(407,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}と
+Dialogue: 1,0:23:07.70,0:23:08.73,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(478,653,440,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}一
+Dialogue: 1,0:23:08.73,0:23:17.03,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(440,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}一
+Dialogue: 1,0:23:08.53,0:23:09.44,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(514,655,476,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}緒
+Dialogue: 1,0:23:09.44,0:23:17.05,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(476,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}緒
+Dialogue: 1,0:23:09.24,0:23:10.41,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(545,657,510,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:23:10.41,0:23:17.07,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(510,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:23:10.21,0:23:10.81,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(575,657,540,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:23:10.81,0:23:17.09,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(540,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}い
+Dialogue: 1,0:23:10.61,0:23:11.49,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(611,656,573,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}れ
+Dialogue: 1,0:23:11.49,0:23:17.11,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(573,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}れ
+Dialogue: 1,0:23:11.29,0:23:12.12,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(643,656,607,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}た
+Dialogue: 1,0:23:12.12,0:23:17.13,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(607,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}た
+Dialogue: 1,0:23:11.92,0:23:12.76,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(670,650,637,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}ら
+Dialogue: 1,0:23:12.76,0:23:17.15,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(637,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}ら
+Dialogue: 1,0:23:12.90,0:23:13.30,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(724,656,686,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}世
+Dialogue: 1,0:23:13.30,0:23:17.19,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(686,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}世
+Dialogue: 1,0:23:13.10,0:23:13.79,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(760,655,722,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}界
+Dialogue: 1,0:23:13.79,0:23:17.21,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(722,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}界
+Dialogue: 1,0:23:13.59,0:23:14.09,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(793,649,757,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}は
+Dialogue: 1,0:23:14.09,0:23:17.23,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(757,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}は
+Dialogue: 1,0:23:13.89,0:23:15.74,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(829,652,791,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}輝
+Dialogue: 1,0:23:15.74,0:23:17.25,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(791,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}輝
+Dialogue: 1,0:23:15.54,0:23:15.94,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(861,648,825,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}き
+Dialogue: 1,0:23:15.94,0:23:17.27,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(825,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}き
+Dialogue: 1,0:23:15.74,0:23:16.21,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(894,655,858,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}だ
+Dialogue: 1,0:23:16.21,0:23:17.29,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(858,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}だ
+Dialogue: 1,0:23:16.01,0:23:16.42,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(928,657,891,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}す
+Dialogue: 1,0:23:16.42,0:23:17.31,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(891,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}す
+Dialogue: 1,0:23:16.22,0:23:17.01,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(959,649,923,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:23:17.01,0:23:17.33,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(923,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}よ
+Dialogue: 1,0:23:17.19,0:23:17.72,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(489,652,451,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}最
+Dialogue: 1,0:23:17.72,0:23:24.98,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(451,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}最
+Dialogue: 1,0:23:17.52,0:23:17.90,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(525,656,487,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}果
+Dialogue: 1,0:23:17.90,0:23:25.00,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(487,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}果
+Dialogue: 1,0:23:17.70,0:23:18.06,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(557,649,521,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:23:18.06,0:23:25.02,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(521,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}て
+Dialogue: 1,0:23:17.86,0:23:18.38,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(590,648,553,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:23:18.38,0:23:25.04,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(553,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}の
+Dialogue: 1,0:23:18.18,0:23:18.74,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(626,648,588,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}地
+Dialogue: 1,0:23:18.74,0:23:25.06,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(588,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}地
+Dialogue: 1,0:23:18.54,0:23:19.31,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(657,650,622,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:23:19.31,0:23:25.08,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(622,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}に
+Dialogue: 1,0:23:19.11,0:23:19.67,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(693,649,655,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}咲
+Dialogue: 1,0:23:19.67,0:23:25.10,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(655,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}咲
+Dialogue: 1,0:23:19.47,0:23:20.04,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(718,657,686,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}く
+Dialogue: 1,0:23:20.04,0:23:25.12,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(686,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}く
+Dialogue: 1,0:23:19.84,0:23:21.35,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(754,651,716,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}花
+Dialogue: 1,0:23:21.35,0:23:25.14,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(716,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}花
+Dialogue: 1,0:23:21.15,0:23:21.67,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(786,648,750,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:23:21.67,0:23:25.16,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(750,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}を
+Dialogue: 1,0:23:21.47,0:23:22.26,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(822,649,784,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}探
+Dialogue: 1,0:23:22.26,0:23:25.18,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(784,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}探
+Dialogue: 1,0:23:22.06,0:23:22.68,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(854,657,818,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}そ
+Dialogue: 1,0:23:22.68,0:23:25.20,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(818,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}そ
+Dialogue: 1,0:23:22.48,0:23:24.98,Made in Abyss - EDJP,,0,0,0,fx,{\an5\bord2\move(882,648,848,687,0,300)\fry1800\t(0,300,\fry0)\blur3\3c&H6DBEF7&}う
+Dialogue: 1,0:23:24.98,0:23:25.22,Made in Abyss - EDJP,,0,0,0,fx,{\an5\pos(848,687)\fad(0,400)\bord2\blur3\3c&H6DBEF7&}う
+Dialogue: 0,0:03:42.16,0:03:48.24,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}誰都無法反抗地潛入其中
+Dialogue: 0,0:03:49.25,0:03:54.71,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}雙眸的慾火比燈光更耀眼
+Dialogue: 0,0:03:56.21,0:04:03.09,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}前方路途遙不可測 依然毫不猶豫地闖進其中
+Dialogue: 0,0:04:03.26,0:04:13.52,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}即便知道是地獄的陷阱 仍要追尋真相的足跡
+Dialogue: 0,0:04:13.60,0:04:17.15,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}如果現在就能找到答案
+Dialogue: 0,0:04:17.32,0:04:20.65,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}哪怕傾盡一切也無妨
+Dialogue: 0,0:04:20.78,0:04:24.24,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}為了不讓那聲音消散
+Dialogue: 0,0:04:24.36,0:04:28.12,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}山谷依然回聲不斷
+Dialogue: 0,0:04:28.53,0:04:36.38,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}羅盤依舊指向無處可逃的黑暗
+Dialogue: 0,0:04:36.50,0:04:42.72,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}即便這是詛咒 心跳仍舊真切
+Dialogue: 0,0:04:43.72,0:04:49.81,Made in Abyss - OPCH,,0,0,0,,{\fad(150,150)}心中憧憬再也無法抑制
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(55.5,668,55.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,582,\c&HFFFFFF&\3c&H000000&\clip(111,668,111,705)}誰
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,638,\c&HFFFFFF&\3c&H000000&\clip(111,668,222,705)}誰
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,599,\c&HFFFFFF&\3c&H000000&\clip(111,668,333,705)}誰
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,688,\c&HFFFFFF&\3c&H000000&\clip(111,668,444,705)}誰
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(60.125,668,60.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,517,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,120.25,705)}も
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(120.25,668,120.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,548,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,240.5,705)}も
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(180.375,668,180.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,653,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,360.75,705)}も
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(240.5,668,240.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,572,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,481,705)}も
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,633,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,129.5,705)}が
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,675,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,259,705)}が
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,551,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,388.5,705)}が
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(259,668,259,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,637,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,518,705)}が
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(69.375,668,69.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,691,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,138.75,705)}逆
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,680,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,277.5,705)}逆
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(208.125,668,208.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,681,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,416.25,705)}逆
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,506,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,555,705)}逆
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(74,668,74,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,589,\c&HFFFFFF&\3c&H000000&\clip(148,668,148,705)}ら
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(148,668,148,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,671,\c&HFFFFFF&\3c&H000000&\clip(148,668,296,705)}ら
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,629,\c&HFFFFFF&\3c&H000000&\clip(148,668,444,705)}ら
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(296,668,296,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,629,\c&HFFFFFF&\3c&H000000&\clip(148,668,592,705)}ら
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(78.625,668,78.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,646,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,157.25,705)}え
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(157.25,668,157.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,555,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,314.5,705)}え
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(235.875,668,235.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,542,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,471.75,705)}え
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(314.5,668,314.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,679,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,629,705)}え
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,526,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,166.5,705)}ず
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,691,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,333,705)}ず
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,615,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,499.5,705)}ず
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,654,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,666,705)}ず
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(87.875,668,87.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,572,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,175.75,705)}に
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(175.75,668,175.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,654,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,351.5,705)}に
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(263.625,668,263.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,536,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,527.25,705)}に
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(351.5,668,351.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,574,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,703,705)}に
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,512,\c&HFFFFFF&\3c&H000000&\clip(185,668,185,705)}潜
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,627,\c&HFFFFFF&\3c&H000000&\clip(185,668,370,705)}潜
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,554,\c&HFFFFFF&\3c&H000000&\clip(185,668,555,705)}潜
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(370,668,370,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,674,\c&HFFFFFF&\3c&H000000&\clip(185,668,740,705)}潜
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(97.125,668,97.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,607,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,194.25,705)}っ
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,623,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,388.5,705)}っ
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(291.375,668,291.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,618,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,582.75,705)}っ
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(388.5,668,388.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,512,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,777,705)}っ
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,545,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,203.5,705)}て
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,532,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,407,705)}て
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(305.25,668,305.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,557,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,610.5,705)}て
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(407,668,407,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,526,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,814,705)}て
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(106.375,668,106.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,681,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,212.75,705)}い
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(212.75,668,212.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,520,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,425.5,705)}い
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(319.125,668,319.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,616,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,638.25,705)}い
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(425.5,668,425.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,584,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,851,705)}い
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,566,\c&HFFFFFF&\3c&H000000&\clip(222,668,222,705)}く
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,599,\c&HFFFFFF&\3c&H000000&\clip(222,668,444,705)}く
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,657,\c&HFFFFFF&\3c&H000000&\clip(222,668,666,705)}く
+Dialogue: 0,0:03:41.86,0:03:48.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(444,668,444,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,685,\c&HFFFFFF&\3c&H000000&\clip(222,668,888,705)}く
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(57.75,668,57.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,656,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,115.5,705)}そ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(115.5,668,115.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,668,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,231,705)}そ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(173.25,668,173.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,526,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,346.5,705)}そ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(231,668,231,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,509,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,462,705)}そ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(62.375,668,62.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,694,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,124.75,705)}の
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(124.75,668,124.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,672,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,249.5,705)}の
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(187.125,668,187.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,628,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,374.25,705)}の
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(249.5,668,249.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,694,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,499,705)}の
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(67,668,67,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,647,\c&HFFFFFF&\3c&H000000&\clip(134,668,134,705)}目
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(134,668,134,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,586,\c&HFFFFFF&\3c&H000000&\clip(134,668,268,705)}目
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(201,668,201,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,519,\c&HFFFFFF&\3c&H000000&\clip(134,668,402,705)}目
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(268,668,268,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,675,\c&HFFFFFF&\3c&H000000&\clip(134,668,536,705)}目
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(71.625,668,71.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,687,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,143.25,705)}を
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(143.25,668,143.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,504,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,286.5,705)}を
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(214.875,668,214.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,691,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,429.75,705)}を
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(286.5,668,286.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,523,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,573,705)}を
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(76.25,668,76.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,530,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,152.5,705)}燈
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(152.5,668,152.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,514,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,305,705)}燈
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(228.75,668,228.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,640,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,457.5,705)}燈
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(305,668,305,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,534,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,610,705)}燈
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(81,668,81,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,531,\c&HFFFFFF&\3c&H000000&\clip(162,668,162,705)}火
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(162,668,162,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,643,\c&HFFFFFF&\3c&H000000&\clip(162,668,324,705)}火
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(243,668,243,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,546,\c&HFFFFFF&\3c&H000000&\clip(162,668,486,705)}火
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(324,668,324,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,602,\c&HFFFFFF&\3c&H000000&\clip(162,668,648,705)}火
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(85.625,668,85.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,630,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,171.25,705)}よ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(171.25,668,171.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,520,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,342.5,705)}よ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(256.875,668,256.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,649,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,513.75,705)}よ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(342.5,668,342.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,694,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,685,705)}よ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(90.25,668,90.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,626,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,180.5,705)}り
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(180.5,668,180.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,592,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,361,705)}り
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(270.75,668,270.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,665,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,541.5,705)}り
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(361,668,361,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,642,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,722,705)}り
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(94.875,668,94.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,651,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,189.75,705)}輝
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(189.75,668,189.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,677,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,379.5,705)}輝
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(284.625,668,284.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,540,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,569.25,705)}輝
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(379.5,668,379.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,563,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,759,705)}輝
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(99.5,668,99.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,596,\c&HFFFFFF&\3c&H000000&\clip(199,668,199,705)}か
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(199,668,199,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,639,\c&HFFFFFF&\3c&H000000&\clip(199,668,398,705)}か
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(298.5,668,298.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,633,\c&HFFFFFF&\3c&H000000&\clip(199,668,597,705)}か
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(398,668,398,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,658,\c&HFFFFFF&\3c&H000000&\clip(199,668,796,705)}か
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(104.125,668,104.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,688,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,208.25,705)}せ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(208.25,668,208.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,555,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,416.5,705)}せ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(312.375,668,312.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,657,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,624.75,705)}せ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(416.5,668,416.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,514,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,833,705)}せ
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(108.75,668,108.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,598,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,217.5,705)}て
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(217.5,668,217.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,510,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,435,705)}て
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(326.25,668,326.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,622,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,652.5,705)}て
+Dialogue: 0,0:03:48.95,0:03:54.71,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(435,668,435,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,572,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,870,705)}て
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(46.25,668,46.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,517,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,92.5,705)}目
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,643,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,185,705)}目
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,539,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,277.5,705)}目
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,525,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,370,705)}目
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(50.875,668,50.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,643,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,101.75,705)}指
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,542,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,203.5,705)}指
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(152.625,668,152.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,611,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,305.25,705)}指
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,615,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,407,705)}指
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(55.5,668,55.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,584,\c&HFFFFFF&\3c&H000000&\clip(111,668,111,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,560,\c&HFFFFFF&\3c&H000000&\clip(111,668,222,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,611,\c&HFFFFFF&\3c&H000000&\clip(111,668,333,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,680,\c&HFFFFFF&\3c&H000000&\clip(111,668,444,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(60.125,668,60.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,695,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,120.25,705)}先
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(120.25,668,120.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,595,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,240.5,705)}先
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(180.375,668,180.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,689,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,360.75,705)}先
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(240.5,668,240.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,673,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,481,705)}先
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,616,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,129.5,705)}は
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,690,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,259,705)}は
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,650,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,388.5,705)}は
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(259,668,259,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,611,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,518,705)}は
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(69.375,668,69.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,581,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,138.75,705)}深
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,678,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,277.5,705)}深
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(208.125,668,208.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,539,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,416.25,705)}深
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,536,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,555,705)}深
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(74,668,74,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,522,\c&HFFFFFF&\3c&H000000&\clip(148,668,148,705)}く
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(148,668,148,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,557,\c&HFFFFFF&\3c&H000000&\clip(148,668,296,705)}く
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,638,\c&HFFFFFF&\3c&H000000&\clip(148,668,444,705)}く
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(296,668,296,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,547,\c&HFFFFFF&\3c&H000000&\clip(148,668,592,705)}く
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,614,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,166.5,705)}ま
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,681,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,333,705)}ま
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,591,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,499.5,705)}ま
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,669,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,666,705)}ま
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(87.875,668,87.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,621,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,175.75,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(175.75,668,175.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,631,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,351.5,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(263.625,668,263.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,645,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,527.25,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(351.5,668,351.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,554,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,703,705)}す
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,596,\c&HFFFFFF&\3c&H000000&\clip(185,668,185,705)}っ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,690,\c&HFFFFFF&\3c&H000000&\clip(185,668,370,705)}っ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,507,\c&HFFFFFF&\3c&H000000&\clip(185,668,555,705)}っ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(370,668,370,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,663,\c&HFFFFFF&\3c&H000000&\clip(185,668,740,705)}っ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(97.125,668,97.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,696,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,194.25,705)}ぐ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,509,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,388.5,705)}ぐ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(291.375,668,291.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,590,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,582.75,705)}ぐ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(388.5,668,388.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,683,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,777,705)}ぐ
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,536,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,203.5,705)}に
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,676,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,407,705)}に
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(305.25,668,305.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,672,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,610.5,705)}に
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(407,668,407,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,579,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,814,705)}に
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(106.375,668,106.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,588,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,212.75,705)}迷
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(212.75,668,212.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,543,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,425.5,705)}迷
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(319.125,668,319.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,614,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,638.25,705)}迷
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(425.5,668,425.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,610,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,851,705)}迷
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,541,\c&HFFFFFF&\3c&H000000&\clip(222,668,222,705)}い
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,628,\c&HFFFFFF&\3c&H000000&\clip(222,668,444,705)}い
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,544,\c&HFFFFFF&\3c&H000000&\clip(222,668,666,705)}い
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(444,668,444,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,522,\c&HFFFFFF&\3c&H000000&\clip(222,668,888,705)}い
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(115.625,668,115.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,550,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,231.25,705)}込
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(231.25,668,231.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,564,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,462.5,705)}込
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(346.875,668,346.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,590,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,693.75,705)}込
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(462.5,668,462.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,664,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,925,705)}込
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(120.25,668,120.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,678,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,240.5,705)}む
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(240.5,668,240.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,648,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,481,705)}む
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(360.75,668,360.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,549,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,721.5,705)}む
+Dialogue: 0,0:03:55.92,0:04:03.09,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(481,668,481,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,665,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,962,705)}む
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(259,687)\clip(34.625,668,34.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,571,\c&HFFFFFF&\3c&H000000&\clip(69.25,668,69.25,705)}口
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(259,687)\clip(69.25,668,69.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,547,\c&HFFFFFF&\3c&H000000&\clip(69.25,668,138.5,705)}口
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(259,687)\clip(103.875,668,103.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,517,\c&HFFFFFF&\3c&H000000&\clip(69.25,668,207.75,705)}口
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(259,687)\clip(138.5,668,138.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,653,\c&HFFFFFF&\3c&H000000&\clip(69.25,668,277,705)}口
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(296,687)\clip(39.25,668,39.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,636,\c&HFFFFFF&\3c&H000000&\clip(78.5,668,78.5,705)}開
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(296,687)\clip(78.5,668,78.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,672,\c&HFFFFFF&\3c&H000000&\clip(78.5,668,157,705)}開
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(296,687)\clip(117.75,668,117.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,696,\c&HFFFFFF&\3c&H000000&\clip(78.5,668,235.5,705)}開
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(296,687)\clip(157,668,157,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,638,\c&HFFFFFF&\3c&H000000&\clip(78.5,668,314,705)}開
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(333,687)\clip(43.875,668,43.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,566,\c&HFFFFFF&\3c&H000000&\clip(87.75,668,87.75,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(333,687)\clip(87.75,668,87.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,511,\c&HFFFFFF&\3c&H000000&\clip(87.75,668,175.5,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(333,687)\clip(131.625,668,131.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,586,\c&HFFFFFF&\3c&H000000&\clip(87.75,668,263.25,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(333,687)\clip(175.5,668,175.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,559,\c&HFFFFFF&\3c&H000000&\clip(87.75,668,351,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(370,687)\clip(48.5,668,48.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,641,\c&HFFFFFF&\3c&H000000&\clip(97,668,97,705)}た
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(370,687)\clip(97,668,97,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,597,\c&HFFFFFF&\3c&H000000&\clip(97,668,194,705)}た
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(370,687)\clip(145.5,668,145.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,663,\c&HFFFFFF&\3c&H000000&\clip(97,668,291,705)}た
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(370,687)\clip(194,668,194,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,697,\c&HFFFFFF&\3c&H000000&\clip(97,668,388,705)}た
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(407,687)\clip(53.125,668,53.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,631,\c&HFFFFFF&\3c&H000000&\clip(106.25,668,106.25,705)}な
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(407,687)\clip(106.25,668,106.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,660,\c&HFFFFFF&\3c&H000000&\clip(106.25,668,212.5,705)}な
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(407,687)\clip(159.375,668,159.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,620,\c&HFFFFFF&\3c&H000000&\clip(106.25,668,318.75,705)}な
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(407,687)\clip(212.5,668,212.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,503,\c&HFFFFFF&\3c&H000000&\clip(106.25,668,425,705)}な
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(57.75,668,57.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,533,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,115.5,705)}ら
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(115.5,668,115.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,599,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,231,705)}ら
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(173.25,668,173.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,693,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,346.5,705)}ら
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(231,668,231,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,650,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,462,705)}ら
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(62.375,668,62.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,652,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,124.75,705)}奈
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(124.75,668,124.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,659,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,249.5,705)}奈
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(187.125,668,187.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,553,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,374.25,705)}奈
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(249.5,668,249.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,536,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,499,705)}奈
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(67,668,67,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,546,\c&HFFFFFF&\3c&H000000&\clip(134,668,134,705)}落
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(134,668,134,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,592,\c&HFFFFFF&\3c&H000000&\clip(134,668,268,705)}落
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(201,668,201,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,695,\c&HFFFFFF&\3c&H000000&\clip(134,668,402,705)}落
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(268,668,268,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,632,\c&HFFFFFF&\3c&H000000&\clip(134,668,536,705)}落
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(71.625,668,71.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,525,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,143.25,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(143.25,668,143.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,522,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,286.5,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(214.875,668,214.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,589,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,429.75,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(286.5,668,286.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,621,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,573,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(76.25,668,76.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,690,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,152.5,705)}罠
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(152.5,668,152.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,621,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,305,705)}罠
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(228.75,668,228.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,625,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,457.5,705)}罠
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(305,668,305,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,665,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,610,705)}罠
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(85.625,668,85.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,648,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,171.25,705)}真
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(171.25,668,171.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,566,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,342.5,705)}真
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(256.875,668,256.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,622,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,513.75,705)}真
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(342.5,668,342.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,677,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,685,705)}真
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(90.25,668,90.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,553,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,180.5,705)}実
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(180.5,668,180.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,614,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,361,705)}実
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(270.75,668,270.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,554,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,541.5,705)}実
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(361,668,361,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,647,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,722,705)}実
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(94.875,668,94.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,521,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,189.75,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(189.75,668,189.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,681,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,379.5,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(284.625,668,284.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,522,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,569.25,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(379.5,668,379.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,533,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,759,705)}の
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(99.5,668,99.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,504,\c&HFFFFFF&\3c&H000000&\clip(199,668,199,705)}跡
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(199,668,199,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,616,\c&HFFFFFF&\3c&H000000&\clip(199,668,398,705)}跡
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(298.5,668,298.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,579,\c&HFFFFFF&\3c&H000000&\clip(199,668,597,705)}跡
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(398,668,398,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,512,\c&HFFFFFF&\3c&H000000&\clip(199,668,796,705)}跡
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(104.125,668,104.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,591,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,208.25,705)}を
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(208.25,668,208.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,516,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,416.5,705)}を
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(312.375,668,312.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,638,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,624.75,705)}を
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(416.5,668,416.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,572,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,833,705)}を
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(108.75,668,108.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,591,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,217.5,705)}追
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(217.5,668,217.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,648,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,435,705)}追
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(326.25,668,326.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,649,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,652.5,705)}追
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(435,668,435,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,604,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,870,705)}追
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(888,687)\clip(113.375,668,113.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,688,\c&HFFFFFF&\3c&H000000&\clip(226.75,668,226.75,705)}い
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(888,687)\clip(226.75,668,226.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,695,\c&HFFFFFF&\3c&H000000&\clip(226.75,668,453.5,705)}い
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(888,687)\clip(340.125,668,340.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,529,\c&HFFFFFF&\3c&H000000&\clip(226.75,668,680.25,705)}い
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(888,687)\clip(453.5,668,453.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,663,\c&HFFFFFF&\3c&H000000&\clip(226.75,668,907,705)}い
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(925,687)\clip(118,668,118,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,684,\c&HFFFFFF&\3c&H000000&\clip(236,668,236,705)}か
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(925,687)\clip(236,668,236,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,655,\c&HFFFFFF&\3c&H000000&\clip(236,668,472,705)}か
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(925,687)\clip(354,668,354,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,619,\c&HFFFFFF&\3c&H000000&\clip(236,668,708,705)}か
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(925,687)\clip(472,668,472,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,637,\c&HFFFFFF&\3c&H000000&\clip(236,668,944,705)}か
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(962,687)\clip(122.625,668,122.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,502,\c&HFFFFFF&\3c&H000000&\clip(245.25,668,245.25,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(962,687)\clip(245.25,668,245.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,614,\c&HFFFFFF&\3c&H000000&\clip(245.25,668,490.5,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(962,687)\clip(367.875,668,367.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,601,\c&HFFFFFF&\3c&H000000&\clip(245.25,668,735.75,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(962,687)\clip(490.5,668,490.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,681,\c&HFFFFFF&\3c&H000000&\clip(245.25,668,981,705)}け
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(999,687)\clip(127.25,668,127.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,651,\c&HFFFFFF&\3c&H000000&\clip(254.5,668,254.5,705)}よ
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(999,687)\clip(254.5,668,254.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,652,\c&HFFFFFF&\3c&H000000&\clip(254.5,668,509,705)}よ
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(999,687)\clip(381.75,668,381.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,530,\c&HFFFFFF&\3c&H000000&\clip(254.5,668,763.5,705)}よ
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(999,687)\clip(509,668,509,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,568,\c&HFFFFFF&\3c&H000000&\clip(254.5,668,1018,705)}よ
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1036,687)\clip(131.875,668,131.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,522,\c&HFFFFFF&\3c&H000000&\clip(263.75,668,263.75,705)}う
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1036,687)\clip(263.75,668,263.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,505,\c&HFFFFFF&\3c&H000000&\clip(263.75,668,527.5,705)}う
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1036,687)\clip(395.625,668,395.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,531,\c&HFFFFFF&\3c&H000000&\clip(263.75,668,791.25,705)}う
+Dialogue: 0,0:04:02.97,0:04:13.52,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1036,687)\clip(527.5,668,527.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,598,\c&HFFFFFF&\3c&H000000&\clip(263.75,668,1055,705)}う
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(57.75,668,57.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,638,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,115.5,705)}今
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(115.5,668,115.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,655,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,231,705)}今
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(173.25,668,173.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,681,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,346.5,705)}今
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(231,668,231,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,575,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,462,705)}今
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(62.375,668,62.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,601,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,124.75,705)}答
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(124.75,668,124.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,649,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,249.5,705)}答
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(187.125,668,187.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,641,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,374.25,705)}答
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(249.5,668,249.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,690,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,499,705)}答
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(67,668,67,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,552,\c&HFFFFFF&\3c&H000000&\clip(134,668,134,705)}え
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(134,668,134,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,613,\c&HFFFFFF&\3c&H000000&\clip(134,668,268,705)}え
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(201,668,201,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,660,\c&HFFFFFF&\3c&H000000&\clip(134,668,402,705)}え
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(268,668,268,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,694,\c&HFFFFFF&\3c&H000000&\clip(134,668,536,705)}え
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(76.25,668,76.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,528,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,152.5,705)}が
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(152.5,668,152.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,511,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,305,705)}が
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(228.75,668,228.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,576,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,457.5,705)}が
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(305,668,305,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,670,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,610,705)}が
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(81,668,81,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,669,\c&HFFFFFF&\3c&H000000&\clip(162,668,162,705)}見
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(162,668,162,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,562,\c&HFFFFFF&\3c&H000000&\clip(162,668,324,705)}見
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(243,668,243,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,699,\c&HFFFFFF&\3c&H000000&\clip(162,668,486,705)}見
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(324,668,324,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,653,\c&HFFFFFF&\3c&H000000&\clip(162,668,648,705)}見
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(85.625,668,85.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,642,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,171.25,705)}つ
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(171.25,668,171.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,660,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,342.5,705)}つ
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(256.875,668,256.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,581,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,513.75,705)}つ
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(666,687)\clip(342.5,668,342.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,664,\c&HFFFFFF&\3c&H000000&\clip(171.25,668,685,705)}つ
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(90.25,668,90.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,666,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,180.5,705)}か
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(180.5,668,180.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,533,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,361,705)}か
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(270.75,668,270.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,569,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,541.5,705)}か
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(361,668,361,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,541,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,722,705)}か
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(94.875,668,94.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,637,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,189.75,705)}る
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(189.75,668,189.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,635,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,379.5,705)}る
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(284.625,668,284.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,555,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,569.25,705)}る
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(379.5,668,379.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,544,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,759,705)}る
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(99.5,668,99.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,568,\c&HFFFFFF&\3c&H000000&\clip(199,668,199,705)}な
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(199,668,199,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,545,\c&HFFFFFF&\3c&H000000&\clip(199,668,398,705)}な
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(298.5,668,298.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,686,\c&HFFFFFF&\3c&H000000&\clip(199,668,597,705)}な
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(398,668,398,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,570,\c&HFFFFFF&\3c&H000000&\clip(199,668,796,705)}な
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(104.125,668,104.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,691,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,208.25,705)}ら
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(208.25,668,208.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,629,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,416.5,705)}ら
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(312.375,668,312.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,536,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,624.75,705)}ら
+Dialogue: 0,0:04:13.31,0:04:17.15,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(416.5,668,416.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,655,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,833,705)}ら
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,582,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,129.5,705)}全
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,573,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,259,705)}全
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,509,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,388.5,705)}全
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(259,668,259,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,540,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,518,705)}全
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(69.375,668,69.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,607,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,138.75,705)}部
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,555,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,277.5,705)}部
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(208.125,668,208.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,669,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,416.25,705)}部
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,543,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,555,705)}部
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(74,668,74,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,602,\c&HFFFFFF&\3c&H000000&\clip(148,668,148,705)}な
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(148,668,148,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,554,\c&HFFFFFF&\3c&H000000&\clip(148,668,296,705)}な
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,669,\c&HFFFFFF&\3c&H000000&\clip(148,668,444,705)}な
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(296,668,296,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,604,\c&HFFFFFF&\3c&H000000&\clip(148,668,592,705)}な
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(78.625,668,78.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,598,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,157.25,705)}く
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(157.25,668,157.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,542,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,314.5,705)}く
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(235.875,668,235.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,675,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,471.75,705)}く
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(314.5,668,314.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,565,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,629,705)}く
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,665,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,166.5,705)}し
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,511,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,333,705)}し
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,516,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,499.5,705)}し
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,677,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,666,705)}し
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(87.875,668,87.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,607,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,175.75,705)}て
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(175.75,668,175.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,686,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,351.5,705)}て
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(263.625,668,263.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,512,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,527.25,705)}て
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(351.5,668,351.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,567,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,703,705)}て
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,624,\c&HFFFFFF&\3c&H000000&\clip(185,668,185,705)}も
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,532,\c&HFFFFFF&\3c&H000000&\clip(185,668,370,705)}も
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,612,\c&HFFFFFF&\3c&H000000&\clip(185,668,555,705)}も
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(370,668,370,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,542,\c&HFFFFFF&\3c&H000000&\clip(185,668,740,705)}も
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(97.125,668,97.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,595,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,194.25,705)}い
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,646,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,388.5,705)}い
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(291.375,668,291.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,539,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,582.75,705)}い
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(388.5,668,388.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,506,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,777,705)}い
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,619,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,203.5,705)}い
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,627,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,407,705)}い
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(305.25,668,305.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,572,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,610.5,705)}い
+Dialogue: 0,0:04:17.02,0:04:20.65,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(407,668,407,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,571,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,814,705)}い
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(55.5,668,55.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,663,\c&HFFFFFF&\3c&H000000&\clip(111,668,111,705)}そ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,565,\c&HFFFFFF&\3c&H000000&\clip(111,668,222,705)}そ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,570,\c&HFFFFFF&\3c&H000000&\clip(111,668,333,705)}そ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,597,\c&HFFFFFF&\3c&H000000&\clip(111,668,444,705)}そ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(60.125,668,60.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,698,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,120.25,705)}の
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(120.25,668,120.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,620,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,240.5,705)}の
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(180.375,668,180.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,648,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,360.75,705)}の
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(240.5,668,240.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,586,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,481,705)}の
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,609,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,129.5,705)}声
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,568,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,259,705)}声
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,590,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,388.5,705)}声
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(259,668,259,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,555,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,518,705)}声
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(69.375,668,69.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,540,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,138.75,705)}を
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,528,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,277.5,705)}を
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(208.125,668,208.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,513,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,416.25,705)}を
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,700,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,555,705)}を
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(78.625,668,78.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,586,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,157.25,705)}離
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(157.25,668,157.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,692,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,314.5,705)}離
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(235.875,668,235.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,555,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,471.75,705)}離
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(314.5,668,314.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,526,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,629,705)}離
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,594,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,166.5,705)}さ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,526,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,333,705)}さ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,523,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,499.5,705)}さ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,535,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,666,705)}さ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(87.875,668,87.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,533,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,175.75,705)}な
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(175.75,668,175.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,506,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,351.5,705)}な
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(263.625,668,263.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,670,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,527.25,705)}な
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(351.5,668,351.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,522,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,703,705)}な
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,553,\c&HFFFFFF&\3c&H000000&\clip(185,668,185,705)}い
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,682,\c&HFFFFFF&\3c&H000000&\clip(185,668,370,705)}い
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,627,\c&HFFFFFF&\3c&H000000&\clip(185,668,555,705)}い
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(370,668,370,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,571,\c&HFFFFFF&\3c&H000000&\clip(185,668,740,705)}い
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(97.125,668,97.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,504,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,194.25,705)}よ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,592,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,388.5,705)}よ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(291.375,668,291.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,605,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,582.75,705)}よ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(388.5,668,388.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,503,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,777,705)}よ
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,640,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,203.5,705)}う
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,640,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,407,705)}う
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(305.25,668,305.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,586,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,610.5,705)}う
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(407,668,407,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,501,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,814,705)}う
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,615,\c&HFFFFFF&\3c&H000000&\clip(222,668,222,705)}に
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,516,\c&HFFFFFF&\3c&H000000&\clip(222,668,444,705)}に
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,675,\c&HFFFFFF&\3c&H000000&\clip(222,668,666,705)}に
+Dialogue: 0,0:04:20.49,0:04:24.24,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(444,668,444,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,659,\c&HFFFFFF&\3c&H000000&\clip(222,668,888,705)}に
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,525,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,129.5,705)}木
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,615,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,259,705)}木
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,671,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,388.5,705)}木
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(259,668,259,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,640,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,518,705)}木
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(69.375,668,69.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,626,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,138.75,705)}霊
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,583,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,277.5,705)}霊
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(208.125,668,208.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,599,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,416.25,705)}霊
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,543,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,555,705)}霊
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(74,668,74,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,655,\c&HFFFFFF&\3c&H000000&\clip(148,668,148,705)}が
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(148,668,148,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,635,\c&HFFFFFF&\3c&H000000&\clip(148,668,296,705)}が
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,639,\c&HFFFFFF&\3c&H000000&\clip(148,668,444,705)}が
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(296,668,296,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,658,\c&HFFFFFF&\3c&H000000&\clip(148,668,592,705)}が
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(78.625,668,78.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,506,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,157.25,705)}ま
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(157.25,668,157.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,597,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,314.5,705)}ま
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(235.875,668,235.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,687,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,471.75,705)}ま
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(314.5,668,314.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,513,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,629,705)}ま
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,598,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,166.5,705)}だ
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,620,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,333,705)}だ
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,575,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,499.5,705)}だ
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,634,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,666,705)}だ
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(87.875,668,87.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,550,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,175.75,705)}響
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(175.75,668,175.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,503,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,351.5,705)}響
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(263.625,668,263.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,542,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,527.25,705)}響
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(351.5,668,351.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,663,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,703,705)}響
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,512,\c&HFFFFFF&\3c&H000000&\clip(185,668,185,705)}い
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,564,\c&HFFFFFF&\3c&H000000&\clip(185,668,370,705)}い
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,533,\c&HFFFFFF&\3c&H000000&\clip(185,668,555,705)}い
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(370,668,370,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,625,\c&HFFFFFF&\3c&H000000&\clip(185,668,740,705)}い
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(97.125,668,97.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,626,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,194.25,705)}て
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,580,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,388.5,705)}て
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(291.375,668,291.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,667,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,582.75,705)}て
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(388.5,668,388.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,611,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,777,705)}て
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,638,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,203.5,705)}る
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,637,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,407,705)}る
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(305.25,668,305.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,543,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,610.5,705)}る
+Dialogue: 0,0:04:24.07,0:04:28.12,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(407,668,407,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,660,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,814,705)}る
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(203,687)\clip(27.75,668,27.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,510,\c&HFFFFFF&\3c&H000000&\clip(55.5,668,55.5,705)}羅
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(203,687)\clip(55.5,668,55.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,631,\c&HFFFFFF&\3c&H000000&\clip(55.5,668,111,705)}羅
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(203,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,566,\c&HFFFFFF&\3c&H000000&\clip(55.5,668,166.5,705)}羅
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(203,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,614,\c&HFFFFFF&\3c&H000000&\clip(55.5,668,222,705)}羅
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(240,687)\clip(32.375,668,32.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,505,\c&HFFFFFF&\3c&H000000&\clip(64.75,668,64.75,705)}針
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(240,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,643,\c&HFFFFFF&\3c&H000000&\clip(64.75,668,129.5,705)}針
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(240,687)\clip(97.125,668,97.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,655,\c&HFFFFFF&\3c&H000000&\clip(64.75,668,194.25,705)}針
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(240,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,641,\c&HFFFFFF&\3c&H000000&\clip(64.75,668,259,705)}針
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(277,687)\clip(37,668,37,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,527,\c&HFFFFFF&\3c&H000000&\clip(74,668,74,705)}盤
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(277,687)\clip(74,668,74,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,584,\c&HFFFFFF&\3c&H000000&\clip(74,668,148,705)}盤
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(277,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,623,\c&HFFFFFF&\3c&H000000&\clip(74,668,222,705)}盤
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(277,687)\clip(148,668,148,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,527,\c&HFFFFFF&\3c&H000000&\clip(74,668,296,705)}盤
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(314,687)\clip(41.625,668,41.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,612,\c&HFFFFFF&\3c&H000000&\clip(83.25,668,83.25,705)}は
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(314,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,604,\c&HFFFFFF&\3c&H000000&\clip(83.25,668,166.5,705)}は
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(314,687)\clip(124.875,668,124.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,621,\c&HFFFFFF&\3c&H000000&\clip(83.25,668,249.75,705)}は
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(314,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,615,\c&HFFFFFF&\3c&H000000&\clip(83.25,668,333,705)}は
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(46.25,668,46.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,522,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,92.5,705)}ず
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,665,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,185,705)}ず
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,617,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,277.5,705)}ず
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(351,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,691,\c&HFFFFFF&\3c&H000000&\clip(92.5,668,370,705)}ず
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(50.875,668,50.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,589,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,101.75,705)}っ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,556,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,203.5,705)}っ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(152.625,668,152.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,688,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,305.25,705)}っ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(388,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,551,\c&HFFFFFF&\3c&H000000&\clip(101.75,668,407,705)}っ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(55.5,668,55.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,677,\c&HFFFFFF&\3c&H000000&\clip(111,668,111,705)}と
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,528,\c&HFFFFFF&\3c&H000000&\clip(111,668,222,705)}と
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,653,\c&HFFFFFF&\3c&H000000&\clip(111,668,333,705)}と
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,528,\c&HFFFFFF&\3c&H000000&\clip(111,668,444,705)}と
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,568,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,129.5,705)}闇
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,506,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,259,705)}闇
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,544,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,388.5,705)}闇
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(259,668,259,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,579,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,518,705)}闇
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(69.375,668,69.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,661,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,138.75,705)}を
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,571,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,277.5,705)}を
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(208.125,668,208.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,605,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,416.25,705)}を
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,614,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,555,705)}を
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(74,668,74,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,620,\c&HFFFFFF&\3c&H000000&\clip(148,668,148,705)}指
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(148,668,148,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,508,\c&HFFFFFF&\3c&H000000&\clip(148,668,296,705)}指
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,626,\c&HFFFFFF&\3c&H000000&\clip(148,668,444,705)}指
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(296,668,296,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,521,\c&HFFFFFF&\3c&H000000&\clip(148,668,592,705)}指
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(78.625,668,78.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,631,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,157.25,705)}し
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(157.25,668,157.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,666,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,314.5,705)}し
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(235.875,668,235.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,647,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,471.75,705)}し
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(314.5,668,314.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,628,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,629,705)}し
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,672,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,166.5,705)}た
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,698,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,333,705)}た
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,638,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,499.5,705)}た
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,568,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,666,705)}た
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(87.875,668,87.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,526,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,175.75,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(175.75,668,175.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,661,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,351.5,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(263.625,668,263.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,595,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,527.25,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(685,687)\clip(351.5,668,351.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,688,\c&HFFFFFF&\3c&H000000&\clip(175.75,668,703,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,660,\c&HFFFFFF&\3c&H000000&\clip(185,668,185,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,673,\c&HFFFFFF&\3c&H000000&\clip(185,668,370,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,696,\c&HFFFFFF&\3c&H000000&\clip(185,668,555,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(370,668,370,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,615,\c&HFFFFFF&\3c&H000000&\clip(185,668,740,705)}ま
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,545,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,203.5,705)}逃
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,595,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,407,705)}逃
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(305.25,668,305.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,663,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,610.5,705)}逃
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(407,668,407,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,621,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,814,705)}逃
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(106.375,668,106.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,520,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,212.75,705)}げ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(212.75,668,212.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,619,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,425.5,705)}げ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(319.125,668,319.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,649,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,638.25,705)}げ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(425.5,668,425.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,590,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,851,705)}げ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,677,\c&HFFFFFF&\3c&H000000&\clip(222,668,222,705)}場
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,540,\c&HFFFFFF&\3c&H000000&\clip(222,668,444,705)}場
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,598,\c&HFFFFFF&\3c&H000000&\clip(222,668,666,705)}場
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(444,668,444,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,579,\c&HFFFFFF&\3c&H000000&\clip(222,668,888,705)}場
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(115.625,668,115.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,578,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,231.25,705)}の
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(231.25,668,231.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,642,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,462.5,705)}の
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(346.875,668,346.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,608,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,693.75,705)}の
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(907,687)\clip(462.5,668,462.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,523,\c&HFFFFFF&\3c&H000000&\clip(231.25,668,925,705)}の
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(120.25,668,120.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,632,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,240.5,705)}な
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(240.5,668,240.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,579,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,481,705)}な
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(360.75,668,360.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,584,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,721.5,705)}な
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(944,687)\clip(481,668,481,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,673,\c&HFFFFFF&\3c&H000000&\clip(240.5,668,962,705)}な
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(981,687)\clip(124.875,668,124.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,566,\c&HFFFFFF&\3c&H000000&\clip(249.75,668,249.75,705)}い
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(981,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,567,\c&HFFFFFF&\3c&H000000&\clip(249.75,668,499.5,705)}い
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(981,687)\clip(374.625,668,374.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,563,\c&HFFFFFF&\3c&H000000&\clip(249.75,668,749.25,705)}い
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(981,687)\clip(499.5,668,499.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,566,\c&HFFFFFF&\3c&H000000&\clip(249.75,668,999,705)}い
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1055,687)\clip(134.125,668,134.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,682,\c&HFFFFFF&\3c&H000000&\clip(268.25,668,268.25,705)}方
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1055,687)\clip(268.25,668,268.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,525,\c&HFFFFFF&\3c&H000000&\clip(268.25,668,536.5,705)}方
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1055,687)\clip(402.375,668,402.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,657,\c&HFFFFFF&\3c&H000000&\clip(268.25,668,804.75,705)}方
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1055,687)\clip(536.5,668,536.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,618,\c&HFFFFFF&\3c&H000000&\clip(268.25,668,1073,705)}方
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1092,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,508,\c&HFFFFFF&\3c&H000000&\clip(277.5,668,277.5,705)}へ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1092,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,671,\c&HFFFFFF&\3c&H000000&\clip(277.5,668,555,705)}へ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1092,687)\clip(416.25,668,416.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,575,\c&HFFFFFF&\3c&H000000&\clip(277.5,668,832.5,705)}へ
+Dialogue: 0,0:04:28.24,0:04:36.38,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(1092,687)\clip(555,668,555,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,547,\c&HFFFFFF&\3c&H000000&\clip(277.5,668,1110,705)}へ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(55.5,668,55.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,520,\c&HFFFFFF&\3c&H000000&\clip(111,668,111,705)}そ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,628,\c&HFFFFFF&\3c&H000000&\clip(111,668,222,705)}そ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,529,\c&HFFFFFF&\3c&H000000&\clip(111,668,333,705)}そ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(425,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,543,\c&HFFFFFF&\3c&H000000&\clip(111,668,444,705)}そ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(60.125,668,60.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,580,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,120.25,705)}れ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(120.25,668,120.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,672,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,240.5,705)}れ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(180.375,668,180.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,542,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,360.75,705)}れ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(462,687)\clip(240.5,668,240.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,626,\c&HFFFFFF&\3c&H000000&\clip(120.25,668,481,705)}れ
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(64.75,668,64.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,533,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,129.5,705)}が
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(129.5,668,129.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,533,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,259,705)}が
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,656,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,388.5,705)}が
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(499,687)\clip(259,668,259,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,505,\c&HFFFFFF&\3c&H000000&\clip(129.5,668,518,705)}が
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(69.375,668,69.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,506,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,138.75,705)}呪
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(138.75,668,138.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,521,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,277.5,705)}呪
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(208.125,668,208.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,697,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,416.25,705)}呪
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(536,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,525,\c&HFFFFFF&\3c&H000000&\clip(138.75,668,555,705)}呪
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(74,668,74,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,698,\c&HFFFFFF&\3c&H000000&\clip(148,668,148,705)}い
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(148,668,148,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,696,\c&HFFFFFF&\3c&H000000&\clip(148,668,296,705)}い
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,515,\c&HFFFFFF&\3c&H000000&\clip(148,668,444,705)}い
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(573,687)\clip(296,668,296,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,529,\c&HFFFFFF&\3c&H000000&\clip(148,668,592,705)}い
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(78.625,668,78.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,556,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,157.25,705)}で
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(157.25,668,157.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,696,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,314.5,705)}で
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(235.875,668,235.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,556,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,471.75,705)}で
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(610,687)\clip(314.5,668,314.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,521,\c&HFFFFFF&\3c&H000000&\clip(157.25,668,629,705)}で
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(83.25,668,83.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,536,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,166.5,705)}も
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(166.5,668,166.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,581,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,333,705)}も
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(249.75,668,249.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,615,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,499.5,705)}も
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(648,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,652,\c&HFFFFFF&\3c&H000000&\clip(166.5,668,666,705)}も
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(92.5,668,92.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,512,\c&HFFFFFF&\3c&H000000&\clip(185,668,185,705)}鼓
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(185,668,185,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,538,\c&HFFFFFF&\3c&H000000&\clip(185,668,370,705)}鼓
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(277.5,668,277.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,606,\c&HFFFFFF&\3c&H000000&\clip(185,668,555,705)}鼓
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(722,687)\clip(370,668,370,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,557,\c&HFFFFFF&\3c&H000000&\clip(185,668,740,705)}鼓
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(97.125,668,97.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,558,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,194.25,705)}動
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(194.25,668,194.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,578,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,388.5,705)}動
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(291.375,668,291.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,644,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,582.75,705)}動
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(759,687)\clip(388.5,668,388.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,700,\c&HFFFFFF&\3c&H000000&\clip(194.25,668,777,705)}動
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(101.75,668,101.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,696,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,203.5,705)}は
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(203.5,668,203.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,514,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,407,705)}は
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(305.25,668,305.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,697,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,610.5,705)}は
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(796,687)\clip(407,668,407,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,546,\c&HFFFFFF&\3c&H000000&\clip(203.5,668,814,705)}は
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(106.375,668,106.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,660,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,212.75,705)}本
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(212.75,668,212.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,676,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,425.5,705)}本
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(319.125,668,319.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,658,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,638.25,705)}本
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(833,687)\clip(425.5,668,425.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,672,\c&HFFFFFF&\3c&H000000&\clip(212.75,668,851,705)}本
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(111,668,111,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,693,\c&HFFFFFF&\3c&H000000&\clip(222,668,222,705)}物
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(222,668,222,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,527,\c&HFFFFFF&\3c&H000000&\clip(222,668,444,705)}物
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(333,668,333,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,649,\c&HFFFFFF&\3c&H000000&\clip(222,668,666,705)}物
+Dialogue: 0,0:04:36.21,0:04:42.72,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(870,687)\clip(444,668,444,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,579,\c&HFFFFFF&\3c&H000000&\clip(222,668,888,705)}物
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(57.75,668,57.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,511,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,115.5,705)}二
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(115.5,668,115.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,646,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,231,705)}二
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(173.25,668,173.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,520,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,346.5,705)}二
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(444,687)\clip(231,668,231,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,650,\c&HFFFFFF&\3c&H000000&\clip(115.5,668,462,705)}二
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(62.375,668,62.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,578,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,124.75,705)}度
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(124.75,668,124.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,589,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,249.5,705)}度
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(187.125,668,187.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,559,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,374.25,705)}度
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(481,687)\clip(249.5,668,249.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,662,\c&HFFFFFF&\3c&H000000&\clip(124.75,668,499,705)}度
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(67,668,67,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,563,\c&HFFFFFF&\3c&H000000&\clip(134,668,134,705)}と
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(134,668,134,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,653,\c&HFFFFFF&\3c&H000000&\clip(134,668,268,705)}と
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(201,668,201,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,632,\c&HFFFFFF&\3c&H000000&\clip(134,668,402,705)}と
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(518,687)\clip(268,668,268,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,672,\c&HFFFFFF&\3c&H000000&\clip(134,668,536,705)}と
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(71.625,668,71.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,617,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,143.25,705)}憧
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(143.25,668,143.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,601,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,286.5,705)}憧
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(214.875,668,214.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,628,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,429.75,705)}憧
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(555,687)\clip(286.5,668,286.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,520,\c&HFFFFFF&\3c&H000000&\clip(143.25,668,573,705)}憧
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(76.25,668,76.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,624,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,152.5,705)}れ
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(152.5,668,152.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,569,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,305,705)}れ
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(228.75,668,228.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,568,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,457.5,705)}れ
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(592,687)\clip(305,668,305,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,567,\c&HFFFFFF&\3c&H000000&\clip(152.5,668,610,705)}れ
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(81,668,81,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,583,\c&HFFFFFF&\3c&H000000&\clip(162,668,162,705)}は
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(162,668,162,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,570,\c&HFFFFFF&\3c&H000000&\clip(162,668,324,705)}は
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(243,668,243,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,610,\c&HFFFFFF&\3c&H000000&\clip(162,668,486,705)}は
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(629,687)\clip(324,668,324,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,557,\c&HFFFFFF&\3c&H000000&\clip(162,668,648,705)}は
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(90.25,668,90.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,562,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,180.5,705)}止
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(180.5,668,180.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,688,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,361,705)}止
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(270.75,668,270.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,670,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,541.5,705)}止
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(703,687)\clip(361,668,361,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,500,\c&HFFFFFF&\3c&H000000&\clip(180.5,668,722,705)}止
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(94.875,668,94.875,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,619,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,189.75,705)}ま
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(189.75,668,189.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,662,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,379.5,705)}ま
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(284.625,668,284.625,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,604,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,569.25,705)}ま
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(740,687)\clip(379.5,668,379.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,651,\c&HFFFFFF&\3c&H000000&\clip(189.75,668,759,705)}ま
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(99.5,668,99.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,602,\c&HFFFFFF&\3c&H000000&\clip(199,668,199,705)}ら
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(199,668,199,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,625,\c&HFFFFFF&\3c&H000000&\clip(199,668,398,705)}ら
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(298.5,668,298.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,681,\c&HFFFFFF&\3c&H000000&\clip(199,668,597,705)}ら
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(777,687)\clip(398,668,398,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,601,\c&HFFFFFF&\3c&H000000&\clip(199,668,796,705)}ら
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(104.125,668,104.125,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,692,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,208.25,705)}な
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(208.25,668,208.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,571,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,416.5,705)}な
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(312.375,668,312.375,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,578,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,624.75,705)}な
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(814,687)\clip(416.5,668,416.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,540,\c&HFFFFFF&\3c&H000000&\clip(208.25,668,833,705)}な
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(108.75,668,108.75,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,584,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,217.5,705)}い
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(217.5,668,217.5,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,506,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,435,705)}い
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(326.25,668,326.25,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,568,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,652.5,705)}い
+Dialogue: 0,0:04:43.42,0:04:49.81,Made in Abyss - OPJP,,0,0,0,fx,{\an5\fad(0,300)\pos(851,687)\clip(435,668,435,705)\c&HFFFFFF&\3c&HFFFFFF&\t(0,667,\c&HFFFFFF&\3c&H000000&\clip(217.5,668,870,705)}い
+Dialogue: 0,0:23:40.83,0:23:42.83,Made in Abyss,,0,0,0,,
+

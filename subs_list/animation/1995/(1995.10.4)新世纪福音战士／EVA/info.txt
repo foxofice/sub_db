@@ -1,0 +1,5 @@
+﻿chs: 新世纪福音战士
+cht: 新世紀福音戰士
+jp: 新世紀エヴァンゲリオン
+en: Neon Genesis Evangelion
+rome: Shin Seiki Evangerion

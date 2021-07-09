@@ -1,0 +1,5 @@
+﻿chs: 在这世界的角落
+cht: 在這世界的角落
+jp: この世界の片隅に
+en: In This Corner of the World
+rome: Kono Sekai no Katasumi ni

@@ -1,0 +1,5 @@
+﻿chs: 回忆中的玛妮
+cht: 回憶中的瑪妮
+jp: 思い出のマーニー
+en: When Marnie Was There
+rome: Omoide no Marnie

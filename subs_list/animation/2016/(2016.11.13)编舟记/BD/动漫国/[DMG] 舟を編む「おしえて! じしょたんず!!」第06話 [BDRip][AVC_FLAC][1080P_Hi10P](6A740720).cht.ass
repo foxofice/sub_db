@@ -1,0 +1,38 @@
+﻿[Script Info]
+Title: [Fune_o_Amu][SP06]
+Original Script: DMG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX: 1280
+PlayResY: 720
+Timer:100.0000
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,8,10,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.77,0:00:04.69,Default,,0,0,0,,教教我吧!  辭典小傢伙們!!
+Dialogue: 0,0:00:05.02,0:00:06.65,Default,,0,0,0,,出大事了
+Dialogue: 0,0:00:06.77,0:00:08.61,Default,,0,0,0,,怎麼了  大家慌慌張張的
+Dialogue: 0,0:00:08.86,0:00:11.78,Default,,0,0,0,,言海先生馬上就要來了
+Dialogue: 0,0:00:12.03,0:00:13.15,Default,,0,0,0,,{\fn微软雅黑\bord2\fs75\c&H000000&\pos(655,720)\2c&HFFFFFF&\3c&HFFFFFF&}『{\fn萝莉体 第二版}言海先生{\fn微软雅黑} ! ?』
+Dialogue: 0,0:00:13.32,0:00:15.49,Default,,0,0,0,,大槻文彥僅憑一己之力完成
+Dialogue: 0,0:00:15.57,0:00:18.70,Default,,0,0,0,,已經再版一千次的傳說中的辭典
+Dialogue: 0,0:00:18.79,0:00:22.41,Default,,0,0,0,,據傳夏目漱石和芥川龍之介都曾經使用過他
+Dialogue: 0,0:00:22.58,0:00:25.38,Comment,,0,0,0,,{\an7\fs32}註：此處提到的詩人為北原白秋
+Dialogue: 0,0:00:22.58,0:00:25.38,Default,,0,0,0,,據說曾有詩人吞吃過他的書頁
+Dialogue: 0,0:00:26.00,0:00:27.71,Default,,0,0,0,,人類會吃辭典嗎?!
+Dialogue: 0,0:00:27.79,0:00:30.55,Default,,0,0,0,,言海先生今天要大駕光臨了
+Dialogue: 0,0:00:31.09,0:00:31.84,Default,,0,0,0,,來了!
+Dialogue: 0,0:00:37.30,0:00:39.76,Default,,0,0,0,,是言海先生!
+Dialogue: 0,0:00:36.80,0:00:40.68,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\c&HFFFFFF&\pos(822,435)}【言海】
+Dialogue: 0,0:00:36.80,0:00:40.68,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\c&HFFFFFF&\pos(672,360)}一八九一年刊行
+Dialogue: 0,0:00:36.80,0:00:40.68,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\c&HFFFFFF&\pos(559,375)}日本第一部現代辭典
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,

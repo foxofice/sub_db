@@ -1,0 +1,81 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん SP 05
+Original Script: Pussub&VCB-Studio
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗圆_GBK,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Title,@方正准圆_GBK,38,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,5,-90,1,3,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.78,0:00:04.41,Default,,0,0,0,,野崎君 野崎君
+Dialogue: 0,0:00:04.49,0:00:05.92,Default,,0,0,0,,是特典影片耶
+Dialogue: 0,0:00:06.02,0:00:07.19,Default,,0,0,0,,我們一起看吧
+Dialogue: 0,0:00:10.95,0:00:11.58,Default,,0,0,0,,咦
+Dialogue: 0,0:00:11.69,0:00:13.09,Default,,0,0,0,,咦咦 這怎麼回事
+Dialogue: 0,0:00:13.10,0:00:16.37,Default,,0,0,0,,咦 夢!? 這是夢嗎
+Dialogue: 0,0:00:17.47,0:00:22.51,Title,,0,0,0,,{\pos(600,340)\blur2}我和太陽，哪邊比較耀眼？
+Dialogue: 0,0:00:24.41,0:00:27.04,Default,,0,0,0,,咦 鹿島和野崎都不見了
+Dialogue: 0,0:00:27.31,0:00:29.24,Default,,0,0,0,,御子柴君
+Dialogue: 0,0:00:29.31,0:00:30.58,Default,,0,0,0,,要不要玩沙灘排球
+Dialogue: 0,0:00:30.55,0:00:32.74,Default,,0,0,0,,比起這個 來和我一起游泳吧
+Dialogue: 0,0:00:33.62,0:00:36.53,Default,,0,0,0,,這是...超重要的夏季活動事件
+Dialogue: 0,0:00:36.64,0:00:39.61,Default,,0,0,0,,根據選項來決定要進入誰的路線嗎
+Dialogue: 0,0:00:39.64,0:00:41.29,Default,,0,0,0,,要謹慎選擇才行
+Dialogue: 0,0:00:41.57,0:00:44.18,Default,,0,0,0,,比起這個 老師我想吃炒麵啊
+Dialogue: 0,0:00:44.55,0:00:45.68,Default,,0,0,0,,不錯耶
+Dialogue: 0,0:00:46.63,0:00:48.12,Default,,0,0,0,,竟然強制走C路線!?
+Dialogue: 0,0:00:54.72,0:00:56.97,Default,,0,0,0,,炒麵5份 烏龍茶5份
+Dialogue: 0,0:00:57.36,0:00:59.97,Default,,0,0,0,,說到大海的話 應該就是切西瓜了吧
+Dialogue: 0,0:00:59.94,0:01:01.75,Default,,0,0,0,,推沙堡也不錯呢
+Dialogue: 0,0:01:01.79,0:01:03.16,Default,,0,0,0,,御子柴君呢
+Dialogue: 0,0:01:03.33,0:01:05.60,Default,,0,0,0,,被沖走在洞窟住一晚
+Dialogue: 0,0:01:05.57,0:01:07.68,Default,,0,0,0,,或在無人島待數天
+Dialogue: 0,0:01:07.80,0:01:08.67,Default,,0,0,0,,很常有 很常有
+Dialogue: 0,0:01:08.64,0:01:09.68,Default,,0,0,0,,很常有嗎
+Dialogue: 0,0:01:09.66,0:01:11.05,Default,,0,0,0,,這不就是事件了嗎
+Dialogue: 0,0:01:11.44,0:01:14.59,Default,,0,0,0,,但是啊 在海邊的邂逅很不可靠呢
+Dialogue: 0,0:01:14.70,0:01:16.44,Default,,0,0,0,,就只是一時情緒高漲罷了
+Dialogue: 0,0:01:17.35,0:01:19.41,Default,,0,0,0,,一夏天的回憶之類的?
+Dialogue: 0,0:01:19.45,0:01:21.30,Default,,0,0,0,,御子柴君妳覺得呢?
+Dialogue: 0,0:01:21.62,0:01:23.41,Default,,0,0,0,,我覺得這是隱藏角色路線
+Dialogue: 0,0:01:23.65,0:01:25.48,Default,,0,0,0,,第二年以後隨機發生的
+Dialogue: 0,0:01:25.54,0:01:27.52,Default,,0,0,0,,御子柴君的夏天特別奇怪
+Dialogue: 0,0:01:33.37,0:01:34.30,Default,,0,0,0,,妳看妳看
+Dialogue: 0,0:01:34.27,0:01:37.15,Default,,0,0,0,,若松君的腹肌好厲害
+Dialogue: 0,0:01:37.12,0:01:38.88,Default,,0,0,0,,真的 不愧是運動社團的
+Dialogue: 0,0:01:39.08,0:01:40.57,Default,,0,0,0,,我也想摸
+Dialogue: 0,0:01:40.65,0:01:41.78,Default,,0,0,0,,多摸一點吧
+Dialogue: 0,0:01:41.75,0:01:43.82,Default,,0,0,0,,胸部碰到我了
+Dialogue: 0,0:01:43.79,0:01:44.72,Default,,0,0,0,,放開我
+Dialogue: 0,0:01:44.69,0:01:46.64,Default,,0,0,0,,有什麼關係
+Dialogue: 0,0:01:47.22,0:01:48.68,Default,,0,0,0,,有關係啦
+Dialogue: 0,0:01:49.05,0:01:50.52,Default,,0,0,0,,啊 瀨尾學姐
+Dialogue: 0,0:01:51.01,0:01:53.12,Default,,0,0,0,,請救救我
+Dialogue: 0,0:01:53.43,0:01:55.42,Default,,0,0,0,,妳嘴上這麼說
+Dialogue: 0,0:01:55.42,0:01:56.99,Default,,0,0,0,,卻還跑去瀨尾同學那裡啊
+Dialogue: 0,0:01:57.21,0:01:59.69,Default,,0,0,0,,果然比較喜歡大一點的嘛 真是的
+Dialogue: 0,0:02:00.80,0:02:01.95,Default,,0,0,0,,妳在說什麼啊
+Dialogue: 0,0:02:02.00,0:02:04.11,Default,,0,0,0,,這只不過是脂肪的聚合物罷了
+Dialogue: 0,0:02:11.35,0:02:14.28,Default,,0,0,0,,不過話說回來 大家都沒被搭訕啊
+Dialogue: 0,0:02:14.33,0:02:15.37,Default,,0,0,0,,就算有
+Dialogue: 0,0:02:15.36,0:02:17.55,Default,,0,0,0,,這裡太多人了我們也分不清呢
+Dialogue: 0,0:02:17.69,0:02:19.67,Default,,0,0,0,,又聽不到對方在說什麼
+Dialogue: 0,0:02:19.80,0:02:22.07,Default,,0,0,0,,聲音就由我們這邊來想像不就好了嗎
+Dialogue: 0,0:02:22.61,0:02:23.58,Default,,0,0,0,,比如說...
+Dialogue: 0,0:02:24.59,0:02:26.02,Default,,0,0,0,,哎呀 小哥一個人嗎
+Dialogue: 0,0:02:26.10,0:02:27.51,Default,,0,0,0,,呃..呃...
+Dialogue: 0,0:02:27.77,0:02:30.82,Default,,0,0,0,,啊 抱歉 這傢伙是跟我一起的
+Dialogue: 0,0:02:31.43,0:02:33.62,Default,,0,0,0,,真是的 你真是破綻百出啊
+Dialogue: 0,0:02:33.81,0:02:35.72,Default,,0,0,0,,太靠不住了 我都看不下去了
+Dialogue: 0,0:02:36.20,0:02:38.33,Default,,0,0,0,,好了 躲我後面吧
+Dialogue: 0,0:02:41.16,0:02:42.03,Default,,0,0,0,,瀨尾...
+Dialogue: 0,0:02:42.33,0:02:43.26,Default,,0,0,0,,結月...
+Dialogue: 0,0:02:43.33,0:02:45.64,Default,,0,0,0,,我們只是被問路而已好嗎
+Dialogue: 0,0:02:45.72,0:02:49.20,Default,,0,0,0,,會繼續喔*8

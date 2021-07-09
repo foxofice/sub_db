@@ -1,0 +1,5 @@
+﻿chs: 奇诺之旅
+cht: 奇諾之旅
+jp: キノの旅 -the Beautiful World-
+en: Kino`s Journey: The Beautiful World
+rome: Kino no Tabi: The Beautiful World

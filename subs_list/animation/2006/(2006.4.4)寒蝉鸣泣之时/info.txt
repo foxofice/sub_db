@@ -1,0 +1,5 @@
+﻿chs: 寒蝉鸣泣之时
+cht: 寒蟬鳴泣之時/暮蟬悲鳴時
+jp: ひぐらしのなく頃に
+en: When They Cry - Higurashi
+rome: Higurashi no Naku Koro ni

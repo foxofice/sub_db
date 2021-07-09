@@ -1,0 +1,5 @@
+﻿chs: 我的邻居山田君
+cht: 我的鄰居山田君
+jp: ホーホケキョとなりの山田くん
+en: My Neighbors the Yamadas
+rome: Hoohokekyo Tonari no Yamada-kun

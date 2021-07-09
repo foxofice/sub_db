@@ -1,0 +1,49 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2010-06-08 15:17:15
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Tetsuwan_Birdy_Decode_02
+Original Script:华盟字幕组
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正水柱_GBK,26,&H00FFFFFF,&HF0000000,&H00000000,&H640F0F0F,-1,0,0,0,100,100,0,0.00,1,2,2,2,30,30,8,134
+Style: OPJ,方正准圆_GBK,23,&H00FFFFFF,&HF0000000,&H008F8F8F,&H007F7F7F,-1,0,0,0,100,100,0,0.00,1,2,2,2,30,30,8,134
+Style: OPC,方正准圆_GBK,23,&H00FFFFFF,&HF0000000,&H008F8F8F,&H007F7F7F,-1,0,0,0,100,100,0,0.00,1,2,2,2,30,30,8,134
+Style: EDJ,DFPHSGothic-W5,20,&H00FFFFFF,&H0000FFFF,&H009D78DC,&H00BBA3E9,-1,0,0,0,100,100,0,0.00,1,2,2,1,20,20,11,128
+Style: EDC,方正黑体_GBK,23,&H00FFFFFF,&H0000FFFF,&H007B49CF,&H806D25DA,-1,0,0,0,100,100,0,0.00,1,2,2,1,20,20,11,134
+Style: biaoti,方正水柱_GBK,30,&H002FB7EA,&HF0FFFFFF,&H000000FF,&H140080FF,-1,0,0,0,100,100,0,0.00,1,2,2,2,30,30,10,134
+Style: biaoti2,方正准圆_GBK,27,&H00FFFFFF,&HF0000000,&HF0000000,&HF0000000,-1,0,0,0,100,100,0,0.00,1,1,0,2,30,30,10,134
+Style: yugao,方正水柱_GBK,26,&H00FFFFFF,&H0000FFFF,&H007B49CF,&H806D25DA,-1,0,0,0,100,100,0,0.00,1,2,2,2,20,20,11,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:00.27,0:00:02.18,zhengwen,NTP,0000,0000,0000,,于是？  找我有什么事
+Dialogue: 0,0:00:02.59,0:00:06.55,zhengwen,NTP,0000,0000,0000,,该不会想说要跟奈多流结婚  跑来刺激我吧
+Dialogue: 0,0:00:06.87,0:00:11.59,zhengwen,NTP,0000,0000,0000,,没有啦  我只是想来看看能走路的你
+Dialogue: 0,0:00:12.60,0:00:14.34,zhengwen,NTP,0000,0000,0000,,呐  奈多流还好吗
+Dialogue: 0,0:00:15.09,0:00:18.28,zhengwen,NTP,0000,0000,0000,,他很好  信上是这么写的
+Dialogue: 0,0:00:18.75,0:00:22.07,zhengwen,NTP,0000,0000,0000,,唉  我还想和他一起在这条路上漫步呢
+Dialogue: 0,0:00:22.15,0:00:24.50,zhengwen,NTP,0000,0000,0000,,他怎么突然跑到外国去了呢
+Dialogue: 0,0:00:24.62,0:00:28.32,zhengwen,NTP,0000,0000,0000,,对了  这是奈多流给翔子的礼物
+Dialogue: 0,0:00:28.63,0:00:30.66,zhengwen,NTP,0000,0000,0000,,直接送给我就好了
+Dialogue: 0,0:00:30.88,0:00:33.50,zhengwen,NTP,0000,0000,0000,,这种间接转交算什么  微妙地高兴不起来了
+Dialogue: 0,0:00:34.37,0:00:35.30,zhengwen,NTP,0000,0000,0000,,啊  这是什么？
+Dialogue: 0,0:00:36.43,0:00:37.46,zhengwen,NTP,0000,0000,0000,,要这样
+Dialogue: 0,0:00:40.19,0:00:41.89,zhengwen,NTP,0000,0000,0000,,哇  给我看看
+Dialogue: 0,0:00:44.25,0:00:46.43,zhengwen,NTP,0000,0000,0000,,哎呀  这是什么  好厉害
+Dialogue: 0,0:00:46.58,0:00:47.91,zhengwen,NTP,0000,0000,0000,,真有趣
+Dialogue: 0,0:00:50.82,0:00:52.59,zhengwen,NTP,0000,0000,0000,,这是我的圣诞礼物
+Dialogue: 0,0:00:53.35,0:00:55.17,zhengwen,NTP,0000,0000,0000,,你见到奈多流帮我带句话
+Dialogue: 0,0:00:55.42,0:00:56.48,zhengwen,NTP,0000,0000,0000,,还想再见他啊
+Dialogue: 0,0:01:19.91,0:01:24.13,zhengwen,NTP,0000,0000,0000,,我…会等你  那塔鲁

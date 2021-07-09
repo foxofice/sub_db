@@ -1,0 +1,5 @@
+﻿chs: 没落要塞
+cht: 沒落要塞
+jp: デカダンス
+en: DECA-DENCE
+rome: DECA-DENCE

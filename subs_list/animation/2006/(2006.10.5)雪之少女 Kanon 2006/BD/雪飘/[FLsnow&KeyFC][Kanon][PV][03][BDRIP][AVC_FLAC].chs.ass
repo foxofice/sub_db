@@ -1,0 +1,55 @@
+﻿[Script Info]
+Title: 雪飘工作室
+Original Script: 雪飘工作室字幕
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,simhei,65,&H00FFFFFF,&HF0000000,&H66000000,&H22000000,-1,0,0,0,100,100,0,0,1,2,2,2,82,82,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.37,0:00:15.73,*Default,,0,0,0,,你的身上积雪了哦
+Dialogue: 0,0:00:16.01,0:00:18.01,*Default,,0,0,0,,因为我已经在这里等了整整2个小时了…
+Dialogue: 0,0:00:19.69,0:00:22.47,*Default,,0,0,0,,呐　还记得我的名字吗？
+Dialogue: 0,0:00:22.98,0:00:26.56,*Default,,0,0,0,,呜咕～　疼死我了～
+Dialogue: 0,0:00:27.33,0:00:31.18,*Default,,0,0,0,,抱歉抱歉　你的速度太快了　我没能躲开
+Dialogue: 0,0:00:32.45,0:00:33.44,*Default,,0,0,0,,抱…　抱歉
+Dialogue: 0,0:00:33.99,0:00:34.66,*Default,,0,0,0,,你没事吧？
+Dialogue: 0,0:00:35.42,0:00:37.51,*Default,,0,0,0,,那么　你到底是什么来头啊
+Dialogue: 0,0:00:37.70,0:00:39.37,*Default,,0,0,0,,我不记得了…
+Dialogue: 0,0:00:39.52,0:00:41.41,*Default,,0,0,0,,你难道没有朋友吗…
+Dialogue: 0,0:00:42.17,0:00:43.93,*Default,,0,0,0,,对不起　你们没事吧？
+Dialogue: 0,0:00:45.80,0:00:47.00,*Default,,0,0,0,,没事的
+Dialogue: 0,0:00:47.63,0:00:48.76,*Default,,0,0,0,,是吧　舞？
+Dialogue: 0,0:00:51.57,0:00:53.50,*Default,,0,0,0,,我…　我撞疼你了吗？
+Dialogue: 0,0:00:54.71,0:00:55.42,*Default,,0,0,0,,没事…
+Dialogue: 0,0:00:55.95,0:00:58.00,*Default,,0,0,0,,这座山丘仍然与从前一样吧？
+Dialogue: 0,0:00:58.57,0:00:59.00,*Default,,0,0,0,,是啊
+Dialogue: 0,0:00:59.72,0:01:00.52,*Default,,0,0,0,,你怎么了？
+Dialogue: 0,0:01:00.95,0:01:03.93,*Default,,0,0,0,,没什么…　只是已经记不清过去的事情了
+Dialogue: 0,0:01:04.34,0:01:04.64,*Default,,0,0,0,,哎…？
+Dialogue: 0,0:01:05.57,0:01:08.03,*Default,,0,0,0,,似乎曾经发生过很多事情…
+Dialogue: 0,0:01:08.56,0:01:09.94,*Default,,0,0,0,,但我已经差不多全都忘记了
+Dialogue: 0,0:01:11.00,0:01:12.71,*Default,,0,0,0,,有人在追赶我呢…
+Dialogue: 0,0:01:16.68,0:01:17.41,*Default,,0,0,0,,对了！
+Dialogue: 0,0:01:17.57,0:01:18.27,*Default,,0,0,0,,怎么了？
+Dialogue: 0,0:01:18.94,0:01:20.50,*Default,,0,0,0,,这就是你的名字
+Dialogue: 0,0:01:23.77,0:01:28.27,*Default,,0,0,0,,不　其实我也不是很了解他
+Dialogue: 0,0:01:29.29,0:01:30.40,*Default,,0,0,0,,他是个什么样的人？
+Dialogue: 0,0:01:31.01,0:01:32.42,*Default,,0,0,0,,是男生？　还是女生？
+Dialogue: 0,0:01:33.56,0:01:34.98,*Default,,0,0,0,,这是秘密
+Dialogue: 0,0:01:35.17,0:01:36.99,*Default,,0,0,0,,到这边来～
+Dialogue: 0,0:01:37.49,0:01:40.99,*Default,,0,0,0,,7年前　我是否也曾生活在如眼前这般的景色之中呢…？
+Dialogue: 0,0:02:32.01,0:02:33.07,*Default,,0,0,0,,不是的
+Dialogue: 0,0:02:33.25,0:02:34.68,*Default,,0,0,0,,我丢失的东西是…
+Dialogue: 0,0:02:36.82,0:02:37.22,*Default,,0,0,0,,咦…？
+Dialogue: 0,0:02:37.57,0:02:39.17,*Default,,0,0,0,,你在说些什么啊
+Dialogue: 0,0:02:39.46,0:02:44.83,*Default,,0,0,0,,我想　既然有人希望祐一能够回忆起过去的事情
+Dialogue: 0,0:02:45.54,0:02:47.85,*Default,,0,0,0,,那么如果祐一能回忆起过去的话　就一定不会是坏事
+Dialogue: 0,0:02:49.32,0:02:51.14,*Default,,0,0,0,,你真的回来了
+Dialogue: 0,0:02:51.62,0:02:54.46,*Default,,0,0,0,,你遵守了与我的约定

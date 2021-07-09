@@ -1,0 +1,5 @@
+﻿chs: 棋魂/棋灵王
+cht: 棋魂/棋灵王
+jp: ヒカルの碁
+en: Hikaru no Go
+rome: Hikaru no Go

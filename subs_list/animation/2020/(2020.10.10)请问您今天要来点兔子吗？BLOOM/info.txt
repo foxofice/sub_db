@@ -1,0 +1,5 @@
+﻿chs: 请问您今天要来点兔子吗？BLOOM
+cht: 請問您今天要來點兔子嗎？BLOOM
+jp: ご注文はうさぎですか？ BLOOM
+en: Is the Order a Rabbit? Bloom
+rome: Gochuumon wa Usagi Desuka? Bloom

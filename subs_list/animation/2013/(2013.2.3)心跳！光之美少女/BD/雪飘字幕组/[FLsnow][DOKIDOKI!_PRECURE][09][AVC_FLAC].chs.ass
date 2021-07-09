@@ -1,0 +1,394 @@
+﻿[Script Info]
+Title: ドキドキ!プリキュア  第09話 「ハチャメチャ！アイちゃん学校にいく！！」
+Original Script: 雪飘工作室
+Original Translation: hooming&ds006425
+Original Timing: zwc
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Toght,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H0079307E,&H647F3385,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Heart,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H64A234FF,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Diamo,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64D97900,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Roset,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Sword,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H64C33978,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Prins,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00D890FE,&H64D890FE,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: oped,华康圆体W7(P),50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,3,0,2,10,10,2,1
+Style: staff,Droid Sans Fallback,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4,0,2,10,10,2,1
+Style: in_Sword,华康圆体W7(P),65,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H00BE3979,-1,0,0,0,100,100,2,0,1,3,0,9,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.54,0:00:04.79,Heart,NTP,0,0,0,,今天早上天气真好呢
+Dialogue: 0,0:00:04.98,0:00:06.65,Diamo,NTP,0,0,0,,suddenly 突然
+Dialogue: 0,0:00:06.81,0:00:08.36,Diamo,NTP,0,0,0,,quickly 迅速
+Dialogue: 0,0:00:08.65,0:00:10.13,Heart,NTP,0,0,0,,嗯？在干什么？
+Dialogue: 0,0:00:10.57,0:00:11.71,Diamo,NTP,0,0,0,,今天的预习啊
+Dialogue: 0,0:00:12.31,0:00:14.59,Diamo,NTP,0,0,0,,最近不是一直很忙吗
+Dialogue: 0,0:00:15.07,0:00:17.54,Diamo,NTP,0,0,0,,学校里还有学生会的工作
+Dialogue: 0,0:00:18.19,0:00:20.62,Diamo,NTP,0,0,0,,再少的空闲时间都要利用起来
+Dialogue: 0,0:00:21.11,0:00:23.66,Heart,NTP,0,0,0,,不愧是年级第一
+Dialogue: 0,0:00:23.98,0:00:26.98,Defau,NTP,0,0,0,,丰富的智慧让女性更美丽
+Dialogue: 0,0:00:27.65,0:00:30.96,Defau,NTP,0,0,0,,你将来会成为完美的淑女
+Dialogue: 0,0:00:31.46,0:00:34.80,Diamo,NTP,0,0,0,,真是的 别开这种玩笑了
+Dialogue: 0,0:00:35.06,0:00:35.53,Diamo,NTP,0,0,0,,…不对
+Dialogue: 0,0:00:36.09,0:00:37.20,Toght,NTP,0,0,0,,啊 大哥哥
+Dialogue: 0,0:00:38.85,0:00:40.31,Heart,NTP,0,0,0,,小愛 早上好
+Dialogue: 0,0:00:40.67,0:00:42.93,Defau,NTP,0,0,0,,太好了 找到了
+Dialogue: 0,0:00:43.47,0:00:45.01,Defau,NTP,0,0,0,,来 是妈妈哦
+Dialogue: 0,0:00:45.32,0:00:47.20,Heart,NTP,0,0,0,,哇 小愛
+Dialogue: 0,0:00:47.59,0:00:48.72,Defau,NTP,0,0,0,,这样就放心了
+Dialogue: 0,0:00:49.68,0:00:53.27,Defau,NTP,0,0,0,,其实我收到了个通知
+Dialogue: 0,0:00:53.56,0:00:56.82,Defau,NTP,0,0,0,,说发现了平安时代的公主佩戴过的贵重饰品
+Dialogue: 0,0:00:57.77,0:00:59.47,Defau,NTP,0,0,0,,我现在要去收购
+Dialogue: 0,0:00:59.86,0:01:01.61,Defau,NTP,0,0,0,,所以小愛就拜托你来照顾吧
+Dialogue: 0,0:01:01.85,0:01:02.55,Toght,NTP,0,0,0,,噢…
+Dialogue: 0,0:01:02.80,0:01:03.82,Toght,NTP,0,0,0,,诶！
+Dialogue: 0,0:01:04.03,0:01:05.88,Diamo,NTP,0,0,0,,等…等一下
+Dialogue: 0,0:01:06.21,0:01:07.46,Heart,NTP,0,0,0,,这不行啊
+Dialogue: 0,0:01:07.65,0:01:10.10,Heart,NTP,0,0,0,,我们还要去学校的
+Dialogue: 0,0:01:10.50,0:01:14.91,Defau,NTP,0,0,0,,唔 但是没有其他人能拜托了
+Dialogue: 0,0:01:15.32,0:01:19.88,Defau,NTP,0,0,0,,而且能和妈妈在一起 这孩子看起来很高兴啊
+Dialogue: 0,0:01:21.53,0:01:23.36,Toght,NTP,0,0,0,,啊 好可爱
+Dialogue: 0,0:01:23.89,0:01:25.58,Defau,NTP,0,0,0,,我走了
+Dialogue: 0,0:01:26.15,0:01:26.98,Heart,NTP,0,0,0,,喂！
+Dialogue: 0,0:01:28.09,0:01:29.14,Diamo,NTP,0,0,0,,被摆了一道
+Dialogue: 0,0:01:29.28,0:01:30.39,Heart,NTP,0,0,0,,怎么办
+Dialogue: 0,0:01:30.94,0:01:32.50,Heart,NTP,0,0,0,,喂喂 二位
+Dialogue: 0,0:01:33.93,0:01:36.40,Diamo,NTP,0,0,0,,你们有没有把谁给忘了？
+Dialogue: 0,0:03:08.80,0:03:11.25,Heart,NTP,0,0,0,,难以置信！小愛前往学校！！
+Dialogue: 0,0:03:17.06,0:03:19.64,Heart,NTP,0,0,0,,小愛交给你们？
+Dialogue: 0,0:03:19.86,0:03:21.95,Heart,NTP,0,0,0,,我们会好好照顾的
+Dialogue: 0,0:03:22.31,0:03:23.44,Diamo,NTP,0,0,0,,真的没问题吗
+Dialogue: 0,0:03:23.75,0:03:25.53,Diamo,NTP,0,0,0,,你那什么反应啊
+Dialogue: 0,0:03:25.82,0:03:29.48,Heart,NTP,0,0,0,,是觉得我们两个不可靠吗
+Dialogue: 0,0:03:29.93,0:03:31.55,Heart,NTP,0,0,0,,不是这意思…
+Dialogue: 0,0:03:32.82,0:03:34.77,Heart,NTP,0,0,0,,那把兰斯也叫来
+Dialogue: 0,0:03:36.92,0:03:37.58,Diamo,NTP,0,0,0,,我按
+Dialogue: 0,0:03:40.60,0:03:41.39,Roset,NTP,0,0,0,,「喂喂」
+Dialogue: 0,0:03:41.68,0:03:43.90,Diamo,NTP,0,0,0,,你们还能打电话吗
+Dialogue: 0,0:03:44.25,0:03:46.42,Diamo,NTP,0,0,0,,大卫教的
+Dialogue: 0,0:03:47.03,0:03:50.53,Roset,NTP,0,0,0,,啊 那真是麻烦了呢
+Dialogue: 0,0:03:52.38,0:03:54.00,Roset,NTP,0,0,0,,我能去吗
+Dialogue: 0,0:03:54.71,0:03:55.81,Roset,NTP,0,0,0,,当然
+Dialogue: 0,0:03:59.80,0:04:01.77,Roset,NTP,0,0,0,,立刻就飞来了
+Dialogue: 0,0:04:02.01,0:04:03.21,Diamo,NTP,0,0,0,,这样就没问题了
+Dialogue: 0,0:04:03.61,0:04:05.49,Heart,NTP,0,0,0,,包在查理身上
+Dialogue: 0,0:04:09.03,0:04:11.56,Heart,NTP,0,0,0,,就凭你们的热情 我信了
+Dialogue: 0,0:04:11.61,0:04:12.37,Diamo,NTP,0,0,0,,诶！？
+Dialogue: 0,0:04:14.19,0:04:14.72,Defau,NTP,0,0,0,,找到了！
+Dialogue: 0,0:04:14.89,0:04:15.78,Defau,NTP,0,0,0,,学生会长！
+Dialogue: 0,0:04:17.88,0:04:20.91,Defau,NTP,0,0,0,,听我说 足球部的家伙们太过分了
+Dialogue: 0,0:04:21.21,0:04:23.18,Defau,NTP,0,0,0,,不 是棒球部的错
+Dialogue: 0,0:04:23.34,0:04:25.00,Defau,NTP,0,0,0,,啊 少骗人了
+Dialogue: 0,0:04:25.08,0:04:25.86,Defau,NTP,0,0,0,,谁在骗啊
+Dialogue: 0,0:04:26.25,0:04:27.65,Defau,NTP,0,0,0,,干嘛 想动手吗
+Dialogue: 0,0:04:27.65,0:04:28.92,Heart,NTP,0,0,0,,停
+Dialogue: 0,0:04:29.85,0:04:33.26,Heart,NTP,0,0,0,,运动员在比赛前要先握手的吧
+Dialogue: 0,0:04:33.68,0:04:35.87,Heart,NTP,0,0,0,,先说说为什么吵架
+Dialogue: 0,0:04:36.10,0:04:37.30,Defau,NTP,0,0,0,,啊…嗯
+Dialogue: 0,0:04:37.80,0:04:38.68,Defau,NTP,0,0,0,,其实…
+Dialogue: 0,0:04:38.88,0:04:41.74,Diamo,NTP,0,0,0,,趁现在去学生会室
+Dialogue: 0,0:04:44.45,0:04:45.25,Heart,NTP,0,0,0,,也就是说
+Dialogue: 0,0:04:45.53,0:04:48.81,Heart,NTP,0,0,0,,为晨练谁使用操场而争执吗
+Dialogue: 0,0:04:49.02,0:04:49.58,Defau,NTP,0,0,0,,嗯
+Dialogue: 0,0:04:53.48,0:04:57.15,Heart,NTP,0,0,0,,今后每天交换使用怎么样
+Dialogue: 0,0:04:57.71,0:04:58.24,Defau,NTP,0,0,0,,好吧…
+Dialogue: 0,0:04:58.24,0:04:58.92,Defau,NTP,0,0,0,,这样的话…
+Dialogue: 0,0:04:59.88,0:05:01.26,Heart,NTP,0,0,0,,完美解决了呢
+Dialogue: 0,0:05:04.00,0:05:06.66,Diamo,NTP,0,0,0,,放学前应该没有人会来这里
+Dialogue: 0,0:05:07.46,0:05:11.12,Diamo,NTP,0,0,0,,爱和我在学校一直都是那种状态…
+Dialogue: 0,0:05:11.96,0:05:13.94,Diamo,NTP,0,0,0,,今天就拜托你们了
+Dialogue: 0,0:05:14.25,0:05:15.80,Heart,NTP,0,0,0,,被拜托了
+Dialogue: 0,0:05:15.97,0:05:18.42,Diamo,NTP,0,0,0,,不好了 那交给你们了哦
+Dialogue: 0,0:05:19.68,0:05:20.76,Diamo,NTP,0,0,0,,知道了
+Dialogue: 0,0:05:21.21,0:05:22.48,Diamo,NTP,0,0,0,,小愛
+Dialogue: 0,0:05:23.21,0:05:26.41,Roset,NTP,0,0,0,,接下来一段时间我们是爸爸
+Dialogue: 0,0:05:26.68,0:05:28.69,Heart,NTP,0,0,0,,我是妈妈哦
+Dialogue: 0,0:05:32.12,0:05:34.04,Heart,NTP,0,0,0,,真可爱呢
+Dialogue: 0,0:05:34.69,0:05:37.76,Roset,NTP,0,0,0,,小愛 我来抱高高
+Dialogue: 0,0:05:41.45,0:05:43.49,Diamo,NTP,0,0,0,,令人欣慰的亲密接触
+Dialogue: 0,0:05:43.68,0:05:45.87,Roset,NTP,0,0,0,,小愛不要…
+Dialogue: 0,0:05:45.87,0:05:48.03,Heart,NTP,0,0,0,,这点程度忍着吧
+Dialogue: 0,0:05:49.32,0:05:51.71,Roset,NTP,0,0,0,,啊 等等小愛
+Dialogue: 0,0:06:03.32,0:06:04.11,Diamo,NTP,0,0,0,,兰斯
+Dialogue: 0,0:06:14.48,0:06:16.82,Diamo,NTP,0,0,0,,救命
+Dialogue: 0,0:06:25.00,0:06:26.44,Heart,NTP,0,0,0,,小愛…
+Dialogue: 0,0:06:31.66,0:06:32.80,Heart,NTP,0,0,0,,查理～
+Dialogue: 0,0:06:33.09,0:06:34.45,Diamo,NTP,0,0,0,,拉结～
+Dialogue: 0,0:06:34.70,0:06:36.25,Roset,NTP,0,0,0,,兰斯～
+Dialogue: 0,0:06:38.02,0:06:40.08,Heart,NTP,0,0,0,,小愛的情况怎么样
+Dialogue: 0,0:06:43.79,0:06:45.48,Heart,NTP,0,0,0,,真好 看起来很精神
+Dialogue: 0,0:06:46.20,0:06:46.61,Toght,NTP,0,0,0,,嗯？
+Dialogue: 0,0:06:48.91,0:06:49.75,Diamo,NTP,0,0,0,,这是怎么了
+Dialogue: 0,0:06:51.09,0:06:52.77,Heart,NTP,0,0,0,,没…没问题
+Dialogue: 0,0:06:52.97,0:06:56.71,Heart,NTP,0,0,0,,只…只是在和小愛很友好地玩而已
+Dialogue: 0,0:06:57.94,0:07:01.85,Heart,NTP,0,0,0,,要玩什么才会把房间搞成这样啊
+Dialogue: 0,0:07:02.18,0:07:03.89,Diamo,NTP,0,0,0,,难道是被玩了？
+Dialogue: 0,0:07:03.94,0:07:04.95,Toght,NTP,0,0,0,,惊…
+Dialogue: 0,0:07:08.85,0:07:10.68,Diamo,NTP,0,0,0,,差不多到喝奶的时间了吧
+Dialogue: 0,0:07:11.54,0:07:12.74,Heart,NTP,0,0,0,,查理 拜托了
+Dialogue: 0,0:07:13.59,0:07:14.97,Heart,NTP,0,0,0,,知道了
+Dialogue: 0,0:07:16.26,0:07:17.73,Heart,NTP,0,0,0,,查理理
+Dialogue: 0,0:07:33.77,0:07:35.15,Heart,NTP,0,0,0,,咦 怎么了？
+Dialogue: 0,0:07:35.45,0:07:36.90,Heart,NTP,0,0,0,,六花
+Dialogue: 0,0:07:36.90,0:07:38.29,Diamo,NTP,0,0,0,,诶 呃
+Dialogue: 0,0:07:38.50,0:07:42.76,Diamo,NTP,0,0,0,,不喝奶的理由有很多…
+Dialogue: 0,0:07:44.77,0:07:47.17,Diamo,NTP,0,0,0,,抱歉 不知道
+Dialogue: 0,0:07:47.62,0:07:48.84,Heart,NTP,0,0,0,,怎么这样！
+Dialogue: 0,0:07:54.11,0:07:55.16,Heart,NTP,0,0,0,,小愛…
+Dialogue: 0,0:07:59.72,0:08:02.76,Heart,NTP,0,0,0,,求你不要哭了
+Dialogue: 0,0:08:07.42,0:08:07.92,Toght,NTP,0,0,0,,诶？
+Dialogue: 0,0:08:12.53,0:08:13.23,Heart,NTP,0,0,0,,这个是
+Dialogue: 0,0:08:13.92,0:08:16.12,Diamo,NTP,0,0,0,,新的Lovies诞生了
+Dialogue: 0,0:08:16.66,0:08:18.18,Diamo,NTP,0,0,0,,马上试试看
+Dialogue: 0,0:08:37.06,0:08:38.15,Diamo,NTP,0,0,0,,变成晚上了…
+Dialogue: 0,0:08:45.20,0:08:46.96,Heart,NTP,0,0,0,,为什么Cure Lovies会…
+Dialogue: 0,0:08:47.41,0:08:51.30,Diamo,NTP,0,0,0,,大概是应爱的心愿而诞生的
+Dialogue: 0,0:08:51.90,0:08:53.44,Diamo,NTP,0,0,0,,就是这样
+Dialogue: 0,0:08:54.41,0:08:58.50,Diamo,NTP,0,0,0,,心中孕育爱的话就会诞生Lovies
+Dialogue: 0,0:08:59.16,0:09:01.49,Roset,NTP,0,0,0,,大卫是这样说的
+Dialogue: 0,0:09:02.17,0:09:03.66,Diamo,NTP,0,0,0,,啊 那个…
+Dialogue: 0,0:09:03.71,0:09:05.28,Diamo,NTP,0,0,0,,拉结你真是
+Dialogue: 0,0:09:05.70,0:09:08.48,Diamo,NTP,0,0,0,,这么重要的事情早点说啊
+Dialogue: 0,0:09:10.15,0:09:11.66,Heart,NTP,0,0,0,,啊 要走了
+Dialogue: 0,0:09:14.92,0:09:16.96,Heart,NTP,0,0,0,,那继续拜托你们了
+Dialogue: 0,0:09:17.29,0:09:18.60,Heart,NTP,0,0,0,,交给我们吧
+Dialogue: 0,0:09:27.26,0:09:31.00,Diamo,NTP,0,0,0,,安静下来时真像天使
+Dialogue: 0,0:09:31.74,0:09:33.89,Heart,NTP,0,0,0,,就让它这样睡吧
+Dialogue: 0,0:09:43.01,0:09:44.67,Roset,NTP,0,0,0,,有人来了
+Dialogue: 0,0:09:54.08,0:09:57.76,Heart,NTP,0,0,0,,干什么啊 小愛要被吵醒了
+Dialogue: 0,0:10:07.50,0:10:09.30,Heart,NTP,0,0,0,,小愛 嘘
+Dialogue: 0,0:10:10.00,0:10:11.92,Roset,NTP,0,0,0,,真的有人来了
+Dialogue: 0,0:10:11.92,0:10:13.32,Defau,NTP,0,0,0,,有人在吗
+Dialogue: 0,0:10:16.22,0:10:17.44,Heart,NTP,0,0,0,,安静！
+Dialogue: 0,0:10:25.55,0:10:27.40,Heart,NTP,0,0,0,,不能自己乱跑
+Dialogue: 0,0:10:31.24,0:10:35.41,Roset,NTP,0,0,0,,六花骗人 还说谁都不会来
+Dialogue: 0,0:10:35.52,0:10:37.94,Diamo,NTP,0,0,0,,兰斯你没资格生气
+Dialogue: 0,0:10:41.93,0:10:44.21,Heart,NTP,0,0,0,,到里面去了
+Dialogue: 0,0:10:53.37,0:10:56.50,Defau,NTP,0,0,0,,喂 别随便改姿势啊
+Dialogue: 0,0:11:02.13,0:11:03.83,Defau,NTP,0,0,0,,为什么 会追过来啊
+Dialogue: 0,0:11:03.91,0:11:05.43,Defau,NTP,0,0,0,,不要 不要啊
+Dialogue: 0,0:11:09.69,0:11:11.58,Defau,NTP,0,0,0,,哎 因此…
+Dialogue: 0,0:11:14.72,0:11:17.38,Defau,NTP,0,0,0,,好了 今天的课结束
+Dialogue: 0,0:11:17.56,0:11:18.12,Defau,NTP,0,0,0,,是
+Dialogue: 0,0:11:23.17,0:11:25.50,Defau,NTP,0,0,0,,喂 已经下课了…
+Dialogue: 0,0:11:35.32,0:11:37.11,Heart,NTP,0,0,0,,小愛等等
+Dialogue: 0,0:12:06.04,0:12:08.04,Heart,NTP,0,0,0,,不知道小愛睡得好不好
+Dialogue: 0,0:12:08.23,0:12:09.58,Defau,NTP,0,0,0,,学生会长！
+Dialogue: 0,0:12:10.21,0:12:11.55,Heart,NTP,0,0,0,,大家怎么了
+Dialogue: 0,0:12:11.73,0:12:12.66,Defau,NTP,0,0,0,,出现了
+Dialogue: 0,0:12:12.66,0:12:13.68,Defau,NTP,0,0,0,,幽灵！
+Dialogue: 0,0:12:14.10,0:12:14.76,Toght,NTP,0,0,0,,啊？
+Dialogue: 0,0:12:15.54,0:12:19.37,Defau,NTP,0,0,0,,从空无一人的音乐室里 传来了声音
+Dialogue: 0,0:12:20.50,0:12:24.12,Defau,NTP,0,0,0,,向里面看时发现
+Dialogue: 0,0:12:24.27,0:12:25.69,Defau,NTP,0,0,0,,贝多芬 肖邦和莫扎特的肖像
+Dialogue: 0,0:12:25.96,0:12:28.62,Defau,NTP,0,0,0,,正在空中的水桶的指挥下合唱
+Dialogue: 0,0:12:29.75,0:12:31.78,Defau,NTP,0,0,0,,那一定是诅咒之歌
+Dialogue: 0,0:12:32.60,0:12:35.80,Defau,NTP,0,0,0,,我在图书馆看见了恶魔的仪式
+Dialogue: 0,0:12:36.81,0:12:39.71,Defau,NTP,0,0,0,,大量书在屋里飞来飞去
+Dialogue: 0,0:12:40.22,0:12:45.53,Defau,NTP,0,0,0,,突然拖把和抹布变成了粉色 蓝色和黄色的怪物
+Dialogue: 0,0:12:45.89,0:12:47.58,Defau,NTP,0,0,0,,毛骨悚然地笑起来
+Dialogue: 0,0:12:48.15,0:12:49.06,Defau,NTP,0,0,0,,说着「查理」
+Dialogue: 0,0:12:49.20,0:12:50.07,Defau,NTP,0,0,0,,「结」
+Dialogue: 0,0:12:50.20,0:12:51.78,Defau,NTP,0,0,0,,「兰斯」
+Dialogue: 0,0:12:53.34,0:12:57.32,Defau,NTP,0,0,0,,水桶还发出了「QP」的呻吟声
+Dialogue: 0,0:12:57.67,0:12:58.34,Defau,NTP,0,0,0,,嗯 嗯
+Dialogue: 0,0:12:58.79,0:13:02.15,Defau,NTP,0,0,0,,有学校七大不可思议诞生的预感
+Dialogue: 0,0:13:02.50,0:13:04.02,Heart,NTP,0,0,0,,那果然是…
+Dialogue: 0,0:13:04.28,0:13:05.61,Diamo,NTP,0,0,0,,那些小家伙…
+Dialogue: 0,0:13:02.50,0:13:04.73,Defau,NTP,0,0,0,,{\an8\fs75}学校的七大不可思议一定有厕所吧
+Dialogue: 0,0:13:05.09,0:13:07.33,Defau,NTP,0,0,0,,{\an8\fs75}那接下来就是厕所出事？
+Dialogue: 0,0:13:07.52,0:13:09.23,Defau,NTP,0,0,0,,{\an8\fs75}可能性相当大
+Dialogue: 0,0:13:09.88,0:13:11.02,Defau,NTP,0,0,0,,{\an8\fs75}好可怕
+Dialogue: 0,0:13:08.48,0:13:09.88,Heart,NTP,0,0,0,,爱 六花
+Dialogue: 0,0:13:10.45,0:13:11.02,Toght,NTP,0,0,0,,啊…
+Dialogue: 0,0:13:14.65,0:13:15.63,Heart,NTP,0,0,0,,其实…
+Dialogue: 0,0:13:15.95,0:13:16.47,Diamo,NTP,0,0,0,,诶！？
+Dialogue: 0,0:13:16.71,0:13:18.67,Heart,NTP,0,0,0,,和小愛走散了！？
+Dialogue: 0,0:13:19.19,0:13:20.57,Heart,NTP,0,0,0,,对不起
+Dialogue: 0,0:13:21.20,0:13:22.26,Heart,NTP,0,0,0,,总之去找吧
+Dialogue: 0,0:13:22.45,0:13:22.88,Diamo,NTP,0,0,0,,嗯
+Dialogue: 0,0:13:36.01,0:13:37.97,Defau,NTP,0,0,0,,这是你们干的吧！
+Dialogue: 0,0:13:38.37,0:13:40.46,Defau,NTP,0,0,0,,那是我要说的
+Dialogue: 0,0:13:40.96,0:13:41.81,Defau,NTP,0,0,0,,什么
+Dialogue: 0,0:13:41.93,0:13:45.77,Defau,NTP,0,0,0,,果然没法和你们这样的人共享操场
+Dialogue: 0,0:13:45.83,0:13:46.77,Defau,NTP,0,0,0,,我们才是
+Dialogue: 0,0:13:47.13,0:13:50.61,Defau,NTP,0,0,0,,让我们来用 一定会更强
+Dialogue: 0,0:13:53.47,0:13:57.94,Defau,NTP,0,0,0,,不过 两个都是被首轮的弱队啊
+Dialogue: 0,0:13:58.64,0:14:02.54,Defau,NTP,0,0,0,,别提了 重新商量一次吧
+Dialogue: 0,0:14:04.80,0:14:07.13,Defau,NTP,0,0,0,,商量多麻烦啊
+Dialogue: 0,0:14:07.98,0:14:08.49,Defau,NTP,0,0,0,,谁！
+Dialogue: 0,0:14:09.18,0:14:10.99,Defau,NTP,0,0,0,,想要就去抢啊？
+Dialogue: 0,0:14:11.53,0:14:14.20,Defau,NTP,0,0,0,,我来实现你们的愿望吧
+Dialogue: 0,0:14:26.69,0:14:27.58,Defau,NTP,0,0,0,,队长！
+Dialogue: 0,0:14:28.49,0:14:32.55,Defau,NTP,0,0,0,,放纵吧！解放你心中的黑暗！
+Dialogue: 0,0:14:39.38,0:14:40.45,Defau,NTP,0,0,0,,自我中心
+Dialogue: 0,0:14:41.34,0:14:43.20,Defau,NTP,0,0,0,,这边也是自我中心
+Dialogue: 0,0:14:43.48,0:14:44.93,Defau,NTP,0,0,0,,自我中心抽射
+Dialogue: 0,0:14:45.41,0:14:46.99,Defau,NTP,0,0,0,,自我中心本垒打
+Dialogue: 0,0:14:49.45,0:14:50.05,Heart,NTP,0,0,0,,那是！
+Dialogue: 0,0:14:51.67,0:14:53.53,Diamo,NTP,0,0,0,,有2只自我中心
+Dialogue: 0,0:14:54.01,0:14:55.49,Diamo,NTP,0,0,0,,而且还在吵架？
+Dialogue: 0,0:14:55.86,0:14:57.22,Heart,NTP,0,0,0,,要马上阻止
+Dialogue: 0,0:14:57.77,0:14:58.32,Diamo,NTP,0,0,0,,嗯
+Dialogue: 0,0:14:58.99,0:15:00.76,Diamo,NTP,0,0,0,,兰斯去把有栖叫来
+Dialogue: 0,0:15:01.04,0:15:02.52,Roset,NTP,0,0,0,,了解
+Dialogue: 0,0:15:03.04,0:15:04.06,Heart,NTP,0,0,0,,上吧 查理
+Dialogue: 0,0:15:04.56,0:15:05.57,Heart,NTP,0,0,0,,查理！
+Dialogue: 0,0:15:06.38,0:15:07.06,Diamo,NTP,0,0,0,,拉结
+Dialogue: 0,0:15:07.21,0:15:08.12,Diamo,NTP,0,0,0,,OK
+Dialogue: 0,0:15:10.01,0:15:11.32,Heart,NTP,0,0,0,,查理！
+Dialogue: 0,0:15:13.51,0:15:15.76,Heart,NTP,0,0,0,,Precure Love Link！
+Dialogue: 0,0:15:17.88,0:15:20.67,Heart,NTP,0,0,0,,L O V E
+Dialogue: 0,0:15:50.31,0:15:53.30,Heart,NTP,0,0,0,,满溢之爱！Cure Heart！
+Dialogue: 0,0:15:56.72,0:15:57.37,Diamo,NTP,0,0,0,,拉结！
+Dialogue: 0,0:15:58.69,0:16:01.25,Diamo,NTP,0,0,0,,Precure Love Link！
+Dialogue: 0,0:16:02.41,0:16:05.13,Diamo,NTP,0,0,0,,L O V E
+Dialogue: 0,0:16:25.93,0:16:29.25,Diamo,NTP,0,0,0,,睿智之光！Cure Diamond！
+Dialogue: 0,0:16:32.08,0:16:34.43,Heart,NTP,0,0,0,,失去爱的可怜的球们
+Dialogue: 0,0:16:35.17,0:16:36.47,Heart,NTP,0,0,0,,就让我Cure Heart
+Dialogue: 0,0:16:36.73,0:16:39.53,Heart,NTP,0,0,0,,夺回你的心跳！
+Dialogue: 0,0:16:41.98,0:16:42.98,Defau,NTP,0,0,0,,足球
+Dialogue: 0,0:16:42.98,0:16:44.00,Defau,NTP,0,0,0,,棒球
+Dialogue: 0,0:16:44.12,0:16:45.29,Defau,NTP,0,0,0,,你少罗嗦 滚一边去
+Dialogue: 0,0:16:48.58,0:16:52.65,Heart,NTP,0,0,0,,棒球足球都是孩子们憧憬的运动
+Dialogue: 0,0:16:53.13,0:16:56.61,Heart,NTP,0,0,0,,因为些小事就吵架 大家会悲伤的
+Dialogue: 0,0:16:57.25,0:16:58.86,Defau,NTP,0,0,0,,憧憬足球？
+Dialogue: 0,0:16:59.39,0:17:02.91,Defau,NTP,0,0,0,,棒球得分更多人气更高
+Dialogue: 0,0:17:03.81,0:17:07.44,Defau,NTP,0,0,0,,说什么啊 足球更有人气
+Dialogue: 0,0:17:07.60,0:17:10.38,Defau,NTP,0,0,0,,比赛时间才那么点
+Dialogue: 0,0:17:10.76,0:17:12.82,Defau,NTP,0,0,0,,又不是时间长就好
+Dialogue: 0,0:17:14.27,0:17:16.21,Heart,NTP,0,0,0,,啊 快住手
+Dialogue: 0,0:17:16.73,0:17:18.48,Defau,NTP,0,0,0,,闹吧 自我中心
+Dialogue: 0,0:17:19.08,0:17:22.52,Defau,NTP,0,0,0,,向自我之王献上邪念能
+Dialogue: 0,0:17:24.09,0:17:26.33,Diamo,NTP,0,0,0,,啊 小愛在那里
+Dialogue: 0,0:17:31.47,0:17:32.31,Diamo,NTP,0,0,0,,小愛
+Dialogue: 0,0:17:32.60,0:17:33.39,Defau,NTP,0,0,0,,咦？
+Dialogue: 0,0:17:34.54,0:17:35.18,Heart,NTP,0,0,0,,危险
+Dialogue: 0,0:17:41.02,0:17:43.87,Roset,NTP,0,0,0,,全心全力 Rosetta Wall！
+Dialogue: 0,0:17:48.40,0:17:49.79,Defau,NTP,0,0,0,,自我？ 自我——！
+Dialogue: 0,0:17:50.70,0:17:51.92,Roset,NTP,0,0,0,,赶上了呢
+Dialogue: 0,0:17:52.21,0:17:53.29,Diamo,NTP,0,0,0,,Cure Rosetta
+Dialogue: 0,0:17:53.75,0:17:54.68,Heart,NTP,0,0,0,,Cure Sword
+Dialogue: 0,0:17:54.82,0:17:57.60,Sword,NTP,0,0,0,,感觉到自我中心的气息过来一看…
+Dialogue: 0,0:17:58.16,0:18:00.32,Defau,NTP,0,0,0,,哼 全都来齐也没用的
+Dialogue: 0,0:18:00.67,0:18:02.39,Defau,NTP,0,0,0,,居然做出这种事！
+Dialogue: 0,0:18:03.49,0:18:04.99,Defau,NTP,0,0,0,,弹丸抽射
+Dialogue: 0,0:18:06.31,0:18:08.04,Defau,NTP,0,0,0,,用手是犯规
+Dialogue: 0,0:18:10.36,0:18:10.82,Diamo,NTP,0,0,0,,啊…
+Dialogue: 0,0:18:12.56,0:18:13.66,Defau,NTP,0,0,0,,消失魔球
+Dialogue: 0,0:18:17.06,0:18:17.51,Roset,NTP,0,0,0,,诶？
+Dialogue: 0,0:18:19.84,0:18:21.29,Defau,NTP,0,0,0,,电梯球
+Dialogue: 0,0:18:22.48,0:18:23.61,Sword,NTP,0,0,0,,判断不出球路
+Dialogue: 0,0:18:25.40,0:18:27.26,Diamo,NTP,0,0,0,,虽然很乱来但好强
+Dialogue: 0,0:18:27.39,0:18:28.84,Defau,NTP,0,0,0,,世界杯级别
+Dialogue: 0,0:18:28.90,0:18:30.47,Defau,NTP,0,0,0,,美国职棒级别
+Dialogue: 0,0:18:34.26,0:18:35.77,Heart,NTP,0,0,0,,很危险别过来
+Dialogue: 0,0:18:37.59,0:18:41.10,Roset,NTP,0,0,0,,小愛 别担心
+Dialogue: 0,0:18:41.54,0:18:44.00,Diamo,NTP,0,0,0,,我们很快就会把自我中心解决掉的
+Dialogue: 0,0:18:44.65,0:18:47.15,Heart,NTP,0,0,0,,之后再一起玩吧
+Dialogue: 0,0:18:58.90,0:19:02.23,Defau,NTP,0,0,0,,差不多可以给她们最后一击了 干掉Precure
+Dialogue: 0,0:19:18.69,0:19:20.69,Heart,NTP,0,0,0,,诶… 小愛？
+Dialogue: 0,0:19:25.56,0:19:26.21,Sword,NTP,0,0,0,,这是…
+Dialogue: 0,0:19:27.16,0:19:29.06,Roset,NTP,0,0,0,,加速了
+Dialogue: 0,0:19:29.65,0:19:30.27,Heart,NTP,0,0,0,,但是…
+Dialogue: 0,0:19:30.58,0:19:33.20,Heart,NTP,0,0,0,,太快了停不下来啊！
+Dialogue: 0,0:19:36.32,0:19:37.38,Defau,NTP,0,0,0,,那是怎么了？
+Dialogue: 0,0:19:37.65,0:19:39.33,Diamo,NTP,0,0,0,,停！
+Dialogue: 0,0:19:41.69,0:19:43.74,Diamo,NTP,0,0,0,,塞翁失马焉知非福
+Dialogue: 0,0:19:44.52,0:19:46.82,Diamo,NTP,0,0,0,,虽然不知道你们是世界杯的美国职棒的
+Dialogue: 0,0:19:47.22,0:19:49.72,Diamo,NTP,0,0,0,,我们要组队上了
+Dialogue: 0,0:19:50.37,0:19:53.09,Diamo,NTP,0,0,0,,大家按我说的做
+Dialogue: 0,0:19:53.37,0:19:58.34,Heart,NTP,0,0,0,,好 现在跟着Cure Diamond教练上吧
+Dialogue: 0,0:19:58.42,0:19:58.92,Toght,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:59.54,0:20:01.82,Defau,NTP,0,0,0,,来下半场吧 加农抽射
+Dialogue: 0,0:20:02.05,0:20:03.90,Diamo,NTP,0,0,0,,现在！铲断
+Dialogue: 0,0:20:05.51,0:20:06.02,Roset,NTP,0,0,0,,是！
+Dialogue: 0,0:20:06.71,0:20:09.57,Roset,NTP,0,0,0,,反攻 进球
+Dialogue: 0,0:20:10.78,0:20:11.52,Roset,NTP,0,0,0,,就是这样！
+Dialogue: 0,0:20:12.00,0:20:13.28,Defau,NTP,0,0,0,,自我…
+Dialogue: 0,0:20:15.62,0:20:16.95,Defau,NTP,0,0,0,,下落魔球
+Dialogue: 0,0:20:18.33,0:20:19.80,Diamo,NTP,0,0,0,,只要打到就行了
+Dialogue: 0,0:20:20.24,0:20:20.97,Sword,NTP,0,0,0,,了解
+Dialogue: 0,0:20:22.44,0:20:23.63,Defau,NTP,0,0,0,,内野滚地球
+Dialogue: 0,0:20:23.87,0:20:25.50,Diamo,NTP,0,0,0,,继续 继续
+Dialogue: 0,0:20:27.81,0:20:28.75,Defau,NTP,0,0,0,,好快…好快…
+Dialogue: 0,0:20:32.05,0:20:34.14,Defau,NTP,0,0,0,,场内全垒打…
+Dialogue: 0,0:20:34.62,0:20:37.22,Defau,NTP,0,0,0,,你们低落个什么劲啊
+Dialogue: 0,0:20:37.38,0:20:38.38,Diamo,NTP,0,0,0,,乘胜追击
+Dialogue: 0,0:20:38.89,0:20:39.88,Heart,NTP,0,0,0,,交给我了
+Dialogue: 0,0:20:40.92,0:20:42.29,Heart,NTP,0,0,0,,查理
+Dialogue: 0,0:20:49.64,0:20:53.28,Heart,NTP,0,0,0,,传递给你！My Sweet Heart！
+Dialogue: 0,0:20:56.33,0:20:58.75,Defau,NTP,0,0,0,,Love Love Love…
+Dialogue: 0,0:21:05.01,0:21:07.81,Defau,NTP,0,0,0,,可恶！2只竟然也赢不了
+Dialogue: 0,0:21:08.06,0:21:08.73,Defau,NTP,0,0,0,,回去了
+Dialogue: 0,0:21:11.07,0:21:11.98,Heart,NTP,0,0,0,,小愛
+Dialogue: 0,0:21:14.20,0:21:16.36,Sword,NTP,0,0,0,,说起来刚才的力量
+Dialogue: 0,0:21:17.73,0:21:18.21,Roset,NTP,0,0,0,,是啊
+Dialogue: 0,0:21:18.68,0:21:22.29,Roset,NTP,0,0,0,,小愛说不定拥有着
+Dialogue: 0,0:21:22.35,0:21:24.20,Roset,NTP,0,0,0,,我们难以想象的力量
+Dialogue: 0,0:21:26.14,0:21:27.75,Diamo,NTP,0,0,0,,棒球部和足球部怎么样了
+Dialogue: 0,0:21:27.96,0:21:30.12,Heart,NTP,0,0,0,,嗯 让他们和好了
+Dialogue: 0,0:21:30.88,0:21:33.41,Heart,NTP,0,0,0,,今天真是累死了
+Dialogue: 0,0:21:33.45,0:21:34.61,Diamo,NTP,0,0,0,,就是啊
+Dialogue: 0,0:21:35.74,0:21:39.15,Diamo,NTP,0,0,0,,说到底 大哥哥不乱来的话
+Dialogue: 0,0:21:39.40,0:21:42.08,Diamo,NTP,0,0,0,,就不会有这场大骚动了
+Dialogue: 0,0:21:42.38,0:21:43.54,Heart,NTP,0,0,0,,啊 是啊
+Dialogue: 0,0:21:43.88,0:21:46.02,Heart,NTP,0,0,0,,回去之后要好好教训一下
+Dialogue: 0,0:21:46.21,0:21:48.76,Diamo,NTP,0,0,0,,小愛 那边不可以
+Dialogue: 0,0:21:48.90,0:21:51.29,Roset,NTP,0,0,0,,放过耳朵吧
+Dialogue: 0,0:21:51.41,0:21:53.55,Heart,NTP,0,0,0,,别抱怨了
+Dialogue: 0,0:21:55.57,0:21:57.44,Heart,NTP,0,0,0,,今天辛苦了
+Dialogue: 0,0:21:58.08,0:22:00.64,Heart,NTP,0,0,0,,包在查理身上
+Dialogue: 0,0:23:37.02,0:23:40.06,Heart,NTP,0,0,0,,小真竟然转到我的学校来了
+Dialogue: 0,0:23:40.20,0:23:41.29,Sword,NTP,0,0,0,,请多关照
+Dialogue: 0,0:23:41.33,0:23:44.10,Diamo,NTP,0,0,0,,但好像还没习惯上学 太糟了
+Dialogue: 0,0:23:44.77,0:23:46.51,Heart,NTP,0,0,0,,不能在考卷上签名
+Dialogue: 0,0:23:46.51,0:23:49.72,Roset,NTP,0,0,0,,娱乐记者都涌到学校外面来了
+Dialogue: 0,0:23:49.77,0:23:50.96,Diamo,NTP,0,0,0,,交给我吧
+Dialogue: 0,0:23:51.12,0:23:55.04,Diamo,NTP,0,0,0,,身为学生会的书记 会保护学校学生的生活
+Dialogue: 0,0:23:56.39,0:23:57.59,Heart,NTP,0,0,0,,DokiDoki！Precure
+Dialogue: 0,0:23:58.28,0:24:00.93,Heart,NTP,0,0,0,,转校生是 国民超级偶像！！
+Dialogue: 0,0:24:01.86,0:24:03.64,Heart,NTP,0,0,0,,胸中的悸动 停不下来哟！
+Dialogue: 0,0:24:16.78,0:24:18.56,Heart,NTP,0,0,0,,
+Dialogue: 0,0:01:41.85,0:01:46.22,oped,NTP,0,0,0,,(Happy Go! Lucky Girls! Precure! Yeah)
+Dialogue: 0,0:01:46.22,0:01:48.69,oped,NTP,0,0,0,,世界宛若旋转木马！
+Dialogue: 0,0:01:49.05,0:01:51.56,oped,NTP,0,0,0,,用爱周游世界 Three Two One!
+Dialogue: 0,0:01:51.86,0:01:53.59,oped,NTP,0,0,0,,光芒闪耀每一天
+Dialogue: 0,0:01:53.76,0:01:57.30,oped,NTP,0,0,0,,DokiDoki! Precure
+Dialogue: 0,0:01:58.76,0:02:04.17,oped,NTP,0,0,0,,身着新衣 向着未曾涉足的前方迈步
+Dialogue: 0,0:02:04.77,0:02:09.84,oped,NTP,0,0,0,,向着悸动景色 说Hello! Hello Hello
+Dialogue: 0,0:02:10.01,0:02:15.48,oped,NTP,0,0,0,,拐角处 花之色 被今天的Lucky Color眷顾着
+Dialogue: 0,0:02:16.02,0:02:20.91,oped,NTP,0,0,0,,全都包在这样的我的身上吧！
+Dialogue: 0,0:02:21.79,0:02:26.63,oped,NTP,0,0,0,,身为朋友 困窘之时
+Dialogue: 0,0:02:26.83,0:02:35.50,oped,NTP,0,0,0,,伸出援手是人之常情吧
+Dialogue: 0,0:02:35.50,0:02:37.17,oped,NTP,0,0,0,,(Happy! Lucky! Precure!)
+Dialogue: 0,0:02:37.17,0:02:39.57,oped,NTP,0,0,0,,唯有悸动之心 Precure！
+Dialogue: 0,0:02:39.81,0:02:42.41,oped,NTP,0,0,0,,能使世界改变 Happy Love!
+Dialogue: 0,0:02:42.67,0:02:45.21,oped,NTP,0,0,0,,秀外慧中的约定
+Dialogue: 0,0:02:45.51,0:02:49.08,oped,NTP,0,0,0,,才是女孩子们的约定
+Dialogue: 0,0:02:49.88,0:02:55.12,oped,NTP,0,0,0,,相信着你 为你而战
+Dialogue: 0,0:02:55.15,0:03:01.03,oped,NTP,0,0,0,,无敌的！温柔！紧握手中… (Yeah) Precure!
+Dialogue: 0,0:22:05.95,0:22:12.14,oped,NTP,0,0,0,,{\fs40}天空的彼岸飞翔着什么样的梦
+Dialogue: 0,0:22:12.93,0:22:22.19,oped,NTP,0,0,0,,{\fs40}无穷无尽 坚信未来伸出双手
+Dialogue: 0,0:22:22.42,0:22:27.72,oped,NTP,0,0,0,,{\fs40}PPP Precure! PPP Precure!
+Dialogue: 0,0:22:29.36,0:22:34.04,oped,NTP,0,0,0,,{\fs40}PPP Precure! 心跳起来吧 Yeah! Yeah!
+Dialogue: 0,0:22:34.33,0:22:40.58,oped,NTP,0,0,0,,{\fs40}对这小巧的双手要祈求些什么
+Dialogue: 0,0:22:41.27,0:22:47.42,oped,NTP,0,0,0,,{\fs40}如今的你身在何处 感受着什么
+Dialogue: 0,0:22:47.51,0:22:51.64,oped,NTP,0,0,0,,{\fs40}呐 数万光年并非遥远的未来
+Dialogue: 0,0:22:51.68,0:22:55.06,oped,NTP,0,0,0,,{\fs40}当然我也知道这不是时间的单位
+Dialogue: 0,0:22:55.10,0:22:59.60,oped,NTP,0,0,0,,{\fs40}闪亮的祈望连光芒也能超越
+Dialogue: 0,0:22:59.73,0:23:06.07,oped,NTP,0,0,0,,{\fs40}紧系这个世界的东西就是爱
+Dialogue: 0,0:23:06.83,0:23:13.53,oped,NTP,0,0,0,,{\fs40}不是梦中故事 无论何处紧握双手
+Dialogue: 0,0:23:13.58,0:23:19.75,oped,NTP,0,0,0,,{\fs40}天空的彼岸飞翔着什么样的梦
+Dialogue: 0,0:23:20.58,0:23:29.88,oped,NTP,0,0,0,,{\fs40}感受心意 让悸动乘着这首歌
+Dialogue: 0,0:23:30.05,0:23:33.43,oped,NTP,0,0,0,,{\fs40}PPP Precure! 带着笑容邂逅吧
+Dialogue: 0,0:23:39.25,0:24:05.31,Defau,NTP,0,0,0,Scroll up;200;50;30;25,妇联大友团 片源 Milky Rose\N翻译 Cure Humi 校对Cure Nine\N时间轴Cure Chang 海报Cure Sweet\N后期 Milky Rose Cure Ming\N雪飘工作室
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau,NTP,0,0,0,,

@@ -1,0 +1,82 @@
+[Script Info]
+Title: 月刊少女野崎くん SP 04
+Original Script: Pussub&VCB-Studio
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗圆_GBK,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Title,@方正准圆_GBK,38,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,5,-90,1,3,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.81,0:00:04.41,Default,,0,0,0,,野崎君 野崎君
+Dialogue: 0,0:00:04.50,0:00:05.90,Default,,0,0,0,,是特典影片耶
+Dialogue: 0,0:00:06.02,0:00:07.17,Default,,0,0,0,,我们一起看吧
+Dialogue: 0,0:00:10.96,0:00:11.49,Default,,0,0,0,,咦
+Dialogue: 0,0:00:11.70,0:00:13.05,Default,,0,0,0,,咦咦 这怎么回事
+Dialogue: 0,0:00:13.13,0:00:16.29,Default,,0,0,0,,咦 梦!? 这是梦吗
+Dialogue: 0,0:00:17.47,0:00:22.51,Title,,0,0,0,,{\pos(600,320)\blur2}夏天！大海！合宿！
+Dialogue: 0,0:00:32.93,0:00:34.98,Default,,0,0,0,,到了呢 大海
+Dialogue: 0,0:00:35.39,0:00:36.17,Default,,0,0,0,,大海吗...
+Dialogue: 0,0:00:37.23,0:00:39.17,Default,,0,0,0,,有好多泳装啊 御子柴
+Dialogue: 0,0:00:39.68,0:00:40.82,Default,,0,0,0,,这景色真不错
+Dialogue: 0,0:00:42.12,0:00:44.05,Default,,0,0,0,,喔 果然连你也会情绪高涨吗
+Dialogue: 0,0:00:44.13,0:00:45.20,Default,,0,0,0,,你这闷烧色狼
+Dialogue: 0,0:00:45.57,0:00:49.66,Default,,0,0,0,,嘛 这样看著就会开始想像呢
+Dialogue: 0,0:00:50.50,0:00:54.13,Default,,0,0,0,,绝佳的背景资料 疯狂拍照的我
+Dialogue: 0,0:00:54.58,0:00:56.53,Default,,0,0,0,,和救生员对上眼了
+Dialogue: 0,0:00:57.21,0:00:59.73,Default,,0,0,0,,不是 我不是在偷拍
+Dialogue: 0,0:01:00.13,0:01:01.28,Default,,0,0,0,,不是这样
+Dialogue: 0,0:01:01.47,0:01:04.00,Default,,0,0,0,,我只是想要沙滩的照片而已
+Dialogue: 0,0:01:06.48,0:01:08.63,Default,,0,0,0,,差点就成为罪犯了
+Dialogue: 0,0:01:08.76,0:01:09.77,Default,,0,0,0,,真是危险
+Dialogue: 0,0:01:10.37,0:01:12.87,Default,,0,0,0,,你在妄想什么啊 这闷烧色狼
+Dialogue: 0,0:01:17.89,0:01:22.20,Default,,0,0,0,,这么说起来...麻美子她们也有泳装镜头呢
+Dialogue: 0,0:01:23.10,0:01:24.88,Default,,0,0,0,,我买了新泳装
+Dialogue: 0,0:01:25.37,0:01:27.85,Default,,0,0,0,,铃木君会说什么呢
+Dialogue: 0,0:01:28.59,0:01:32.19,Default,,0,0,0,,这就是伤脑筋的地方了 铃木看到这副样子的反应...
+Dialogue: 0,0:01:32.87,0:01:34.96,Default,,0,0,0,,总之首先是王道的...称赞
+Dialogue: 0,0:01:35.22,0:01:37.40,Default,,0,0,0,,非常适合妳喔 麻美子
+Dialogue: 0,0:01:37.78,0:01:39.29,Default,,0,0,0,,接下来是...害羞
+Dialogue: 0,0:01:39.47,0:01:41.78,Default,,0,0,0,,太过耀眼了 我无法直视
+Dialogue: 0,0:01:42.41,0:01:46.00,Default,,0,0,0,,其他还有变化球的...嫉妒也可以
+Dialogue: 0,0:01:46.42,0:01:49.11,Default,,0,0,0,,我不想让其他人看到妳这副姿态
+Dialogue: 0,0:01:51.21,0:01:52.40,Default,,0,0,0,,妳觉得哪个比较好?
+Dialogue: 0,0:01:52.38,0:01:54.09,Default,,0,0,0,,每个都让我好羡慕!!
+Dialogue: 0,0:02:02.70,0:02:04.70,Default,,0,0,0,,啊 堀学长
+Dialogue: 0,0:02:04.86,0:02:07.31,Default,,0,0,0,,搞什么啊 妳又带了一大团
+Dialogue: 0,0:02:07.58,0:02:08.59,Default,,0,0,0,,男的?
+Dialogue: 0,0:02:08.91,0:02:09.64,Default,,0,0,0,,真少见啊
+Dialogue: 0,0:02:09.65,0:02:10.32,Default,,0,0,0,,{\an8}你好
+Dialogue: 0,0:02:10.50,0:02:12.29,Default,,0,0,0,,{\an8}社长 辛苦了
+Dialogue: 0,0:02:10.38,0:02:12.79,Default,,0,0,0,,一直跟在我后面不走
+Dialogue: 0,0:02:13.20,0:02:14.60,Default,,0,0,0,,到底是怎么回事
+Dialogue: 0,0:02:16.17,0:02:20.26,Default,,0,0,0,,呐 鹿岛君 虽然我想过这件会不会露太多...
+Dialogue: 0,0:02:20.58,0:02:21.31,Default,,0,0,0,,怎么样
+Dialogue: 0,0:02:23.27,0:02:25.33,Default,,0,0,0,,那里是特等席吗
+Dialogue: 0,0:02:31.60,0:02:35.61,Default,,0,0,0,,嘛 我本来就没想过野崎君会称赞我
+Dialogue: 0,0:02:35.74,0:02:37.04,Default,,0,0,0,,我才没失望呢
+Dialogue: 0,0:02:39.84,0:02:42.58,Default,,0,0,0,,佐仓 我们要不要也去海里
+Dialogue: 0,0:02:43.25,0:02:44.76,Default,,0,0,0,,啊 嗯 走吧走吧
+Dialogue: 0,0:02:45.88,0:02:48.29,Default,,0,0,0,,佐仓 虽然说不好...
+Dialogue: 0,0:02:49.05,0:02:51.52,Default,,0,0,0,,那个非常适合妳喔
+Dialogue: 0,0:02:54.71,0:02:55.60,Default,,0,0,0,,游泳圈!!
+Dialogue: 0,0:03:01.53,0:03:04.03,Default,,0,0,0,,终于甩掉了
+Dialogue: 0,0:03:04.17,0:03:05.94,Default,,0,0,0,,咦 妳就这样下水没关系吗
+Dialogue: 0,0:03:06.08,0:03:07.99,Default,,0,0,0,,啊 这个是泳装啦
+Dialogue: 0,0:03:08.13,0:03:09.79,Default,,0,0,0,,里面也穿了比基尼
+Dialogue: 0,0:03:10.03,0:03:10.83,Default,,0,0,0,,比基尼?
+Dialogue: 0,0:03:11.06,0:03:12.38,Default,,0,0,0,,无法想像
+Dialogue: 0,0:03:13.05,0:03:14.04,Default,,0,0,0,,要我脱吗
+Dialogue: 0,0:03:14.16,0:03:15.19,Default,,0,0,0,,咦 为什么
+Dialogue: 0,0:03:15.85,0:03:18.13,Default,,0,0,0,,不 因为妳用那么欲求不满的眼光看著我
+Dialogue: 0,0:03:18.16,0:03:19.68,Default,,0,0,0,,欲...才不...
+Dialogue: 0,0:03:22.42,0:03:24.29,Default,,0,0,0,,比基尼...你很想穿吧
+Dialogue: 0,0:03:24.40,0:03:25.84,Default,,0,0,0,,我沉了妳喔 混帐
+Dialogue: 0,0:03:26.26,0:03:28.22,Default,,0,0,0,,会继续的喔 麻美子
+Dialogue: 0,0:03:28.19,0:03:30.33,Default,,0,0,0,,要继续呢 铃木君

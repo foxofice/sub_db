@@ -1,0 +1,46 @@
+﻿[Script Info]
+Title: 鋼の錬金術師 映像特典「ハガレン4コマ劇場10」
+Original Script: 動漫花園楓組&卡通空間字幕組
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SubSans,70,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,-1,0,0,0,100,95,0,0,1,3,0,2,30,30,30,134
+Style: TITLE,方正平和_GBK,120,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,0,0,0,0,100,100,9,0,1,2,0,2,30,30,250,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.82,0:00:02.18,Default,,0,0,0,,开幕啦
+Dialogue: 0,0:00:14.03,0:00:17.03,TITLE,,0,0,0,,{\fad(500,0)}暖和的东西
+Dialogue: 0,0:00:17.42,0:00:19.32,Default,,0,0,0,,今天初到寒冷的北方
+Dialogue: 0,0:00:19.74,0:00:21.96,Default,,0,0,0,,结果不出所料感冒了
+Dialogue: 0,0:00:24.31,0:00:26.41,Default,,0,0,0,,真是没用的废柴
+Dialogue: 0,0:00:26.98,0:00:29.42,Default,,0,0,0,,等着 我去给你找点暖和的东西
+Dialogue: 0,0:00:32.23,0:00:34.47,Default,,0,0,0,,大家都叫她冰之女王
+Dialogue: 0,0:00:34.73,0:00:36.57,Default,,0,0,0,,想不到人还是挺好的嘛
+Dialogue: 0,0:00:37.08,0:00:39.81,Default,,0,0,0,,暖和的东西好让人期待
+Dialogue: 0,0:00:40.34,0:00:43.32,Default,,0,0,0,,是暖炉吗 或者热腾腾的拉面
+Dialogue: 0,0:00:44.88,0:00:46.73,Default,,0,0,0,,火焰喷射器借我用一下
+Dialogue: 0,0:00:46.87,0:00:47.81,Default,,0,0,0,,好 老大
+Dialogue: 0,0:00:49.82,0:00:51.33,Default,,0,0,0,,嗯 挺暖和
+Dialogue: 0,0:00:52.15,0:00:55.15,TITLE,,0,0,0,,{\fad(500,0)}金布利小心背后
+Dialogue: 0,0:00:57.82,0:01:01.48,Default,,0,0,0,,今天我给你们两个带了位客人过来
+Dialogue: 0,0:01:02.87,0:01:06.11,Default,,0,0,0,,是特地从拉修巴雷请来的哦
+Dialogue: 0,0:01:08.24,0:01:09.83,Default,,0,0,0,,你们就好好谢我吧
+Dialogue: 0,0:01:15.98,0:01:16.92,Default,,0,0,0,,你快逃啊
+Dialogue: 0,0:01:18.14,0:01:21.14,TITLE,,0,0,0,,{\fad(500,0)}屈辱
+Dialogue: 0,0:01:21.89,0:01:26.11,Default,,0,0,0,,我叫普莱德 乃最初之人造人
+Dialogue: 0,0:01:27.87,0:01:30.03,Default,,0,0,0,,你不是我的对手
+Dialogue: 0,0:01:36.47,0:01:38.46,Default,,0,0,0,,真过分 你要对人家做什么
+Dialogue: 0,0:01:39.57,0:01:42.58,TITLE,,0,0,0,,{\fad(500,0)}天气哥
+Dialogue: 0,0:01:43.05,0:01:46.94,Default,,0,0,0,,我叫杰鲁索 是和蟾蜍的合成兽
+Dialogue: 0,0:01:47.54,0:01:48.98,Default,,0,0,0,,我可以用唾液来战斗
+Dialogue: 0,0:01:50.43,0:01:51.82,Default,,0,0,0,,你好厉害
+Dialogue: 0,0:01:52.70,0:01:54.37,Default,,0,0,0,,胖归胖 身手敏捷
+Dialogue: 0,0:01:54.63,0:01:56.08,Default,,0,0,0,,你好厉害
+Dialogue: 0,0:02:00.90,0:02:02.55,Default,,0,0,0,,明天要下雨
+Dialogue: 0,0:02:02.77,0:02:04.19,Default,,0,0,0,,你好厉害

@@ -1,0 +1,5 @@
+﻿chs: 老人Z
+cht: 老人Z
+jp: 老人Z
+en: ROU JIN Z
+rome: ROUJIN-Z

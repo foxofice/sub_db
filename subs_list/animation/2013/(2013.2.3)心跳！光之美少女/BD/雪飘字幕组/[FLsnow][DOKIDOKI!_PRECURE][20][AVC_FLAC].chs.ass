@@ -1,0 +1,401 @@
+﻿[Script Info]
+Title: ドキドキ！プリキュア 第20回「クリスタルの導き！王女様のもとへ！」
+Original Script: 雪飘工作室
+Original Translation: hooming&ds006425
+Original Timing: zwc
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Toght,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H0079307E,&H647F3385,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Heart,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H64A234FF,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Diamo,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64D97900,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Roset,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Sword,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H64C33978,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Prins,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00D890FE,&H64D890FE,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Regna,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00009F9F,&H64009F9F,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: oped,华康圆体W7(P),50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,3,0,2,10,10,2,1
+Style: staff,Droid Sans Fallback,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4,0,2,10,10,2,1
+Style: in_Sword,华康圆体W7(P),65,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H00BE3979,-1,0,0,0,100,100,2,0,1,3,0,9,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.82,0:00:15.79,Sword,NTP,0,0,0,,Crystal呢？
+Dialogue: 0,0:00:16.02,0:00:16.74,Regna,NTP,0,0,0,,在这里
+Dialogue: 0,0:00:17.79,0:00:20.00,Regna,NTP,0,0,0,,得到5个Crystal了
+Dialogue: 0,0:00:20.00,0:00:20.86,Heart,NTP,0,0,0,,Regina！
+Dialogue: 0,0:00:24.65,0:00:25.25,Defau,NTP,0,0,0,,这是
+Dialogue: 0,0:00:25.76,0:00:26.88,Regna,NTP,0,0,0,,什…什么
+Dialogue: 0,0:00:33.87,0:00:34.90,Sword,NTP,0,0,0,,Crystal…
+Dialogue: 0,0:00:35.57,0:00:36.70,Heart,NTP,0,0,0,,飞走了…
+Dialogue: 0,0:00:37.29,0:00:39.20,Regna,NTP,0,0,0,,喂 怎么回事
+Dialogue: 0,0:00:39.47,0:00:41.60,Defau,NTP,0,0,0,,我们怎么会知道
+Dialogue: 0,0:00:42.09,0:00:44.99,Regna,NTP,0,0,0,,真没用 去追Crystal
+Dialogue: 0,0:00:49.28,0:00:50.53,Heart,NTP,0,0,0,,我们也出发吧
+Dialogue: 0,0:00:51.57,0:00:52.37,Diamo,NTP,0,0,0,,等等
+Dialogue: 0,0:00:53.17,0:00:54.58,Diamo,NTP,0,0,0,,出发去哪里
+Dialogue: 0,0:00:54.85,0:00:55.41,Heart,NTP,0,0,0,,啊…
+Dialogue: 0,0:01:03.69,0:01:05.94,Defau,NTP,0,0,0,,各位好像遇上麻烦了
+Dialogue: 0,0:01:07.18,0:01:08.98,Defau,NTP,0,0,0,,请交给我来办…
+Dialogue: 0,0:01:09.41,0:01:10.77,Heart,NTP,0,0,0,,塞巴斯蒂安？
+Dialogue: 0,0:02:40.65,0:02:43.26,Heart,NTP,0,0,0,,Crystal的指引！前往公主大人身边！
+Dialogue: 0,0:02:52.22,0:02:54.95,Defau,NTP,0,0,0,,现在Crystal正向着西北方向
+Dialogue: 0,0:02:55.12,0:02:57.55,Defau,NTP,0,0,0,,以3马赫的速度移动
+Dialogue: 0,0:02:57.79,0:02:58.98,Heart,NTP,0,0,0,,好厉害
+Dialogue: 0,0:02:58.98,0:03:01.05,Heart,NTP,0,0,0,,这种事都能知道吗
+Dialogue: 0,0:03:01.16,0:03:05.45,Roset,NTP,0,0,0,,通过人工卫星发送来的信息可以确定位置
+Dialogue: 0,0:03:05.70,0:03:07.16,Diamo,NTP,0,0,0,,说得好随意
+Dialogue: 0,0:03:07.32,0:03:09.71,Diamo,NTP,0,0,0,,塞巴斯蒂安到底是什么人
+Dialogue: 0,0:03:09.71,0:03:12.65,Roset,NTP,0,0,0,,四叶家能干的管家
+Dialogue: 0,0:03:12.89,0:03:13.53,Defau,NTP,0,0,0,,嗯？
+Dialogue: 0,0:03:13.75,0:03:14.42,Toght,NTP,0,0,0,,诶？
+Dialogue: 0,0:03:15.43,0:03:17.14,Defau,NTP,0,0,0,,通讯反应消失了
+Dialogue: 0,0:03:18.34,0:03:19.55,Roset,NTP,0,0,0,,怎么回事
+Dialogue: 0,0:03:19.98,0:03:23.36,Defau,NTP,0,0,0,,没法知道Crystal位置的意思吗
+Dialogue: 0,0:03:23.71,0:03:24.22,Defau,NTP,0,0,0,,对
+Dialogue: 0,0:03:24.53,0:03:25.61,Sword,NTP,0,0,0,,怎么会…
+Dialogue: 0,0:03:28.68,0:03:31.06,Heart,NTP,0,0,0,,去Crystal消失的地方看看吧
+Dialogue: 0,0:03:31.43,0:03:34.77,Defau,NTP,0,0,0,,但是从坐标位置来看应该冰川地区…
+Dialogue: 0,0:03:34.89,0:03:36.00,Heart,NTP,0,0,0,,冰川地区？
+Dialogue: 0,0:03:36.14,0:03:38.07,Diamo,NTP,0,0,0,,那是什么样的地方？
+Dialogue: 0,0:03:38.28,0:03:40.74,Diamo,NTP,0,0,0,,被即使在夏天也不会融化的冰覆盖的地方
+Dialogue: 0,0:03:40.95,0:03:42.24,Diamo,NTP,0,0,0,,感觉很凉爽
+Dialogue: 0,0:03:42.70,0:03:46.99,Diamo,NTP,0,0,0,,虽然是完全没法说凉爽的寒冷危险的雪山
+Dialogue: 0,0:03:48.33,0:03:49.62,Sword,NTP,0,0,0,,怎么才能去？
+Dialogue: 0,0:03:49.93,0:03:51.54,Toght,NTP,0,0,0,,唔…
+Dialogue: 0,0:03:51.94,0:03:52.81,Defau,NTP,0,0,0,,各位…
+Dialogue: 0,0:03:53.86,0:03:55.75,Defau,NTP,0,0,0,,这事也请交给我…
+Dialogue: 0,0:04:02.67,0:04:05.11,Heart,NTP,0,0,0,,塞巴斯蒂安真厉害啊
+Dialogue: 0,0:04:05.40,0:04:08.08,Heart,NTP,0,0,0,,什么都能做到的超人
+Dialogue: 0,0:04:09.96,0:04:11.86,Roset,NTP,0,0,0,,真琴 怎么了？
+Dialogue: 0,0:04:12.36,0:04:16.51,Sword,NTP,0,0,0,,无论如何都要比Regina他们先找到Crystal
+Dialogue: 0,0:04:17.11,0:04:18.21,Roset,NTP,0,0,0,,是呢
+Dialogue: 0,0:04:18.21,0:04:18.71,Toght,NTP,0,0,0,,嗯
+Dialogue: 0,0:04:19.07,0:04:21.44,Sword,NTP,0,0,0,,不过Regina真是不可原谅
+Dialogue: 0,0:04:21.72,0:04:24.46,Roset,NTP,0,0,0,,打破了和爱的约定
+Dialogue: 0,0:04:25.91,0:04:29.79,Heart,NTP,0,0,0,,但是总感觉那时候的Regina有点奇怪…
+Dialogue: 0,0:04:32.07,0:04:34.35,Regna,NTP,0,0,0,,把Crystal交出去？
+Dialogue: 0,0:04:34.84,0:04:35.59,Heart,NTP,0,0,0,,Regina？
+Dialogue: 0,0:04:36.11,0:04:36.78,Regna,NTP,0,0,0,,不要…
+Dialogue: 0,0:04:37.75,0:04:38.64,Regna,NTP,0,0,0,,不要
+Dialogue: 0,0:04:39.35,0:04:41.42,Regna,NTP,0,0,0,,我想要Crystal
+Dialogue: 0,0:04:41.99,0:04:44.07,Heart,NTP,0,0,0,,眼神和平时不一样
+Dialogue: 0,0:04:44.75,0:04:46.92,Sword,NTP,0,0,0,,是本性显露出来了吧
+Dialogue: 0,0:04:48.75,0:04:51.26,Diamo,NTP,0,0,0,,我理解爱想相信Regina的心情
+Dialogue: 0,0:04:51.71,0:04:53.54,Diamo,NTP,0,0,0,,但是她背叛了爱
+Dialogue: 0,0:04:53.79,0:04:55.03,Diamo,NTP,0,0,0,,这是事实
+Dialogue: 0,0:04:55.37,0:04:59.22,Roset,NTP,0,0,0,,下次大概就不会像之前那样只是比赛了
+Dialogue: 0,0:05:00.12,0:05:00.71,Heart,NTP,0,0,0,,唔…
+Dialogue: 0,0:05:13.00,0:05:16.29,Defau,NTP,0,0,0,,Crystal是在那座山的山顶附近消失的
+Dialogue: 0,0:05:16.67,0:05:19.10,Defau,NTP,0,0,0,,直升机继续靠近的话很危险
+Dialogue: 0,0:05:19.50,0:05:22.15,Diamo,NTP,0,0,0,,就是说要从这里开始爬雪山吧
+Dialogue: 0,0:05:22.28,0:05:22.96,Defau,NTP,0,0,0,,正是
+Dialogue: 0,0:05:23.26,0:05:26.23,Defau,NTP,0,0,0,,你们难道要爬上山顶吗
+Dialogue: 0,0:05:26.35,0:05:26.92,Heart,NTP,0,0,0,,对
+Dialogue: 0,0:05:27.05,0:05:28.14,Defau,NTP,0,0,0,,这不行
+Dialogue: 0,0:05:28.70,0:05:30.86,Defau,NTP,0,0,0,,那座山一直被奉为灵峰
+Dialogue: 0,0:05:31.05,0:05:34.35,Defau,NTP,0,0,0,,山顶附近是不能进入的
+Dialogue: 0,0:05:35.08,0:05:38.08,Defau,NTP,0,0,0,,至今都没有人登上山顶
+Dialogue: 0,0:05:38.20,0:05:39.54,Heart,NTP,0,0,0,,诶 是吗？
+Dialogue: 0,0:05:40.20,0:05:41.15,Defau,NTP,0,0,0,,请放心
+Dialogue: 0,0:05:41.94,0:05:45.74,Defau,NTP,0,0,0,,坐标显示的地点在禁止进入的区域之外
+Dialogue: 0,0:05:46.06,0:05:50.08,Defau,NTP,0,0,0,,就算这样那座山对小姑娘来说太难了
+Dialogue: 0,0:05:50.35,0:05:51.82,Defau,NTP,0,0,0,,还是别逞强…
+Dialogue: 0,0:05:51.99,0:05:53.69,Sword,NTP,0,0,0,,就算这样也必须去
+Dialogue: 0,0:05:54.19,0:05:57.66,Sword,NTP,0,0,0,,那里肯定有我一直在寻找的东西
+Dialogue: 0,0:05:58.51,0:06:00.85,Defau,NTP,0,0,0,,好像有什么缘由呐
+Dialogue: 0,0:06:01.10,0:06:01.80,Sword,NTP,0,0,0,,对
+Dialogue: 0,0:06:02.33,0:06:06.17,Defau,NTP,0,0,0,,那么请相信那座山的光之传说
+Dialogue: 0,0:06:06.81,0:06:08.28,Sword,NTP,0,0,0,,「光之传说」？
+Dialogue: 0,0:06:11.84,0:06:14.96,Defau,NTP,0,0,0,,那座山上有相互信任的伙伴
+Dialogue: 0,0:06:14.96,0:06:19.22,Defau,NTP,0,0,0,,会被奇迹之光拯救的传说
+Dialogue: 0,0:06:19.96,0:06:21.51,Defau,NTP,0,0,0,,祝你们好运
+Dialogue: 0,0:06:21.90,0:06:23.29,Toght,NTP,0,0,0,,非常感谢
+Dialogue: 0,0:06:32.68,0:06:33.88,Heart,NTP,0,0,0,,好了 出发吧
+Dialogue: 0,0:06:34.20,0:06:35.85,Heart,NTP,0,0,0,,相信奇迹之光
+Dialogue: 0,0:06:36.46,0:06:37.06,Toght,NTP,0,0,0,,嗯
+Dialogue: 0,0:06:37.68,0:06:38.81,Defau,NTP,0,0,0,,路上小心
+Dialogue: 0,0:06:41.27,0:06:42.63,Heart,NTP,0,0,0,,查理
+Dialogue: 0,0:06:44.12,0:06:46.69,Toght,NTP,0,0,0,,Precure Love Link！
+Dialogue: 0,0:06:47.95,0:06:50.99,Toght,NTP,0,0,0,,L O V E
+Dialogue: 0,0:07:16.28,0:07:19.61,Heart,NTP,0,0,0,,满溢之爱！Cure Heart！
+Dialogue: 0,0:07:22.65,0:07:26.11,Diamo,NTP,0,0,0,,睿智之光！Cure Diamond！
+Dialogue: 0,0:07:28.79,0:07:32.35,Roset,NTP,0,0,0,,向阳之暖！Cure Rosetta！
+Dialogue: 0,0:07:34.28,0:07:37.53,Sword,NTP,0,0,0,,勇气之刃！Cure Sword！
+Dialogue: 0,0:07:40.94,0:07:45.00,Toght,NTP,0,0,0,,响彻吧 爱的心跳！ DokiDoki Precure！
+Dialogue: 0,0:07:50.19,0:07:51.25,Defau,NTP,0,0,0,,光…
+Dialogue: 0,0:07:53.18,0:07:54.92,Defau,NTP,0,0,0,,什么禁止进入啊
+Dialogue: 0,0:07:55.44,0:07:58.92,Defau,NTP,0,0,0,,我会成为第一个登顶的人
+Dialogue: 0,0:08:08.17,0:08:09.43,Heart,NTP,0,0,0,,没事吧
+Dialogue: 0,0:08:09.65,0:08:11.63,Roset,NTP,0,0,0,,已经气喘吁吁了
+Dialogue: 0,0:08:12.01,0:08:13.75,Defau,NTP,0,0,0,,这点程度 不算什么…
+Dialogue: 0,0:08:14.55,0:08:19.18,Defau,NTP,0,0,0,,别忘了我可是扑克王国的骑士
+Dialogue: 0,0:08:19.83,0:08:23.96,Sword,NTP,0,0,0,,虽然现在的样子不禁让人怀疑扑克王国骑士的能力
+Dialogue: 0,0:08:24.30,0:08:26.69,Diamo,NTP,0,0,0,,在雪山上不能勉强
+Dialogue: 0,0:08:26.89,0:08:28.19,Defau,NTP,0,0,0,,没…没关系
+Dialogue: 0,0:08:28.71,0:08:31.53,Defau,NTP,0,0,0,,万一有什么问题会马上让你们帮我的
+Dialogue: 0,0:08:41.18,0:08:42.67,Heart,NTP,0,0,0,,空气变稀薄了
+Dialogue: 0,0:08:42.86,0:08:44.69,Diamo,NTP,0,0,0,,气温也降得很低了
+Dialogue: 0,0:08:45.08,0:08:47.16,Diamo,NTP,0,0,0,,因为变身了才忍受得住
+Dialogue: 0,0:08:47.26,0:08:47.93,Sword,NTP,0,0,0,,嗯…
+Dialogue: 0,0:08:48.30,0:08:50.34,Sword,NTP,0,0,0,,Crystal是在什么地方消失的
+Dialogue: 0,0:08:51.19,0:08:54.35,Roset,NTP,0,0,0,,坐标显示的地点就在这附近…
+Dialogue: 0,0:08:55.98,0:08:57.50,Roset,NTP,0,0,0,,但是没看到啊
+Dialogue: 0,0:08:58.04,0:08:59.87,Sword,NTP,0,0,0,,说不定被埋在雪下了
+Dialogue: 0,0:09:01.48,0:09:02.90,Heart,NTP,0,0,0,,那好 来挖吧
+Dialogue: 0,0:09:02.90,0:09:03.56,Diamo,NTP,0,0,0,,诶？
+Dialogue: 0,0:09:03.91,0:09:05.16,Diamo,NTP,0,0,0,,挖这里一整片？
+Dialogue: 0,0:09:05.39,0:09:09.02,Defau,NTP,0,0,0,,再怎么说这也没可能…
+Dialogue: 0,0:09:09.98,0:09:12.16,Sword,NTP,0,0,0,,在哪里 Crystal
+Dialogue: 0,0:09:12.64,0:09:17.03,Sword,NTP,0,0,0,,奇迹之光的传说是真的话 请发光吧
+Dialogue: 0,0:09:21.64,0:09:23.16,Regna,NTP,0,0,0,,来了呢 Precure
+Dialogue: 0,0:09:23.45,0:09:24.29,Heart,NTP,0,0,0,,Regina
+Dialogue: 0,0:09:24.87,0:09:26.37,Defau,NTP,0,0,0,,听见你们说的了
+Dialogue: 0,0:09:26.76,0:09:29.19,Defau,NTP,0,0,0,,Crystal在这附近吧
+Dialogue: 0,0:09:29.32,0:09:31.18,Defau,NTP,0,0,0,,那就由我们收下了
+Dialogue: 0,0:09:31.45,0:09:32.77,Defau,NTP,0,0,0,,搜索辛苦了
+Dialogue: 0,0:09:33.13,0:09:35.03,Diamo,NTP,0,0,0,,有多厚颜无耻啊
+Dialogue: 0,0:09:35.35,0:09:37.59,Roset,NTP,0,0,0,,没有话要对Cure Heart说吗
+Dialogue: 0,0:09:38.77,0:09:39.48,Regna,NTP,0,0,0,,有啊
+Dialogue: 0,0:09:42.30,0:09:44.13,Regna,NTP,0,0,0,,Crystal不会交给你的
+Dialogue: 0,0:09:46.69,0:09:47.55,Heart,NTP,0,0,0,,Regina…
+Dialogue: 0,0:09:48.35,0:09:50.94,Sword,NTP,0,0,0,,得到Crystal想要干什么
+Dialogue: 0,0:09:51.50,0:09:53.79,Regna,NTP,0,0,0,,和你没关系吧
+Dialogue: 0,0:09:54.17,0:09:55.10,Sword,NTP,0,0,0,,有关系！
+Dialogue: 0,0:09:55.65,0:09:57.56,Sword,NTP,0,0,0,,Crystal可能是拯救扑克王国…
+Dialogue: 0,0:09:58.09,0:10:00.86,Sword,NTP,0,0,0,,拯救这个世界的关键
+Dialogue: 0,0:10:01.35,0:10:05.54,Sword,NTP,0,0,0,,王女大人和Crystal都绝不交给你
+Dialogue: 0,0:10:05.79,0:10:08.57,Regna,NTP,0,0,0,,哼 王女随便怎样都行
+Dialogue: 0,0:10:08.91,0:10:11.07,Regna,NTP,0,0,0,,我想要的是Crystal
+Dialogue: 0,0:10:12.10,0:10:13.19,Regna,NTP,0,0,0,,是Crystal！
+Dialogue: 0,0:10:13.44,0:10:15.91,Heart,NTP,0,0,0,,Regina你怎么了
+Dialogue: 0,0:10:16.59,0:10:18.87,Heart,NTP,0,0,0,,好像不是我所知的Regina…
+Dialogue: 0,0:10:19.38,0:10:22.30,Regna,NTP,0,0,0,,哼 你对我知道些什么
+Dialogue: 0,0:10:22.45,0:10:23.51,Heart,NTP,0,0,0,,Regina
+Dialogue: 0,0:10:23.72,0:10:26.55,Diamo,NTP,0,0,0,,再说下去也没用的 Cure Heart
+Dialogue: 0,0:10:26.93,0:10:28.03,Diamo,NTP,0,0,0,,她已经…
+Dialogue: 0,0:10:28.51,0:10:29.64,Diamo,NTP,0,0,0,,不是朋友了
+Dialogue: 0,0:10:31.21,0:10:34.27,Regna,NTP,0,0,0,,回去 Crystal是我的东西
+Dialogue: 0,0:10:39.82,0:10:41.53,Roset,NTP,0,0,0,,Love Heart Arrow！
+Dialogue: 0,0:10:48.63,0:10:51.19,Roset,NTP,0,0,0,,Precure Rosetta Reflection！
+Dialogue: 0,0:10:58.46,0:11:00.30,Regna,NTP,0,0,0,,全都消失吧
+Dialogue: 0,0:11:11.50,0:11:14.51,Sword,NTP,0,0,0,,Precure Sparkle Sword！
+Dialogue: 0,0:11:21.67,0:11:22.44,Heart,NTP,0,0,0,,Regina
+Dialogue: 0,0:11:31.16,0:11:32.03,Sword,NTP,0,0,0,,Cure Heart
+Dialogue: 0,0:11:54.27,0:11:55.38,Diamo,NTP,0,0,0,,爱
+Dialogue: 0,0:11:55.38,0:11:56.44,Roset,NTP,0,0,0,,爱
+Dialogue: 0,0:11:56.75,0:11:58.82,Sword,NTP,0,0,0,,都是我的错 Cure Heart她…
+Dialogue: 0,0:11:59.50,0:12:00.41,Diamo,NTP,0,0,0,,不
+Dialogue: 0,0:12:00.93,0:12:04.54,Diamo,NTP,0,0,0,,爱是出于自己的意志去救Regina的
+Dialogue: 0,0:12:04.75,0:12:05.91,Roset,NTP,0,0,0,,是啊
+Dialogue: 0,0:12:06.18,0:12:10.15,Roset,NTP,0,0,0,,大概对爱来说 Regina现在依然朋友
+Dialogue: 0,0:12:10.27,0:12:12.78,Defau,NTP,0,0,0,,不管怎么样 要马上去救她们
+Dialogue: 0,0:12:14.02,0:12:17.84,Defau,NTP,0,0,0,,各位 今天先暂时休战怎么样
+Dialogue: 0,0:12:18.24,0:12:19.00,Sword,NTP,0,0,0,,休战？
+Dialogue: 0,0:12:19.40,0:12:23.05,Diamo,NTP,0,0,0,,打算这么说让我们大意 一口气袭击过来吗
+Dialogue: 0,0:12:23.26,0:12:25.98,Defau,NTP,0,0,0,,哼 要这么想也随便
+Dialogue: 0,0:12:25.98,0:12:28.84,Defau,NTP,0,0,0,,但不去找同伴的话你们也会很糟吧
+Dialogue: 0,0:12:30.25,0:12:32.31,Defau,NTP,0,0,0,,对你们来说
+Dialogue: 0,0:12:32.56,0:12:35.73,Defau,NTP,0,0,0,,要是自我之王的女儿有个三长两短也很为难呢
+Dialogue: 0,0:12:35.86,0:12:39.70,Defau,NTP,0,0,0,,Regina怎么我都无所谓
+Dialogue: 0,0:12:40.07,0:12:41.64,Defau,NTP,0,0,0,,不过我可不想因为她
+Dialogue: 0,0:12:41.64,0:12:44.70,Defau,NTP,0,0,0,,而被自我之王惩罚
+Dialogue: 0,0:12:44.96,0:12:47.81,Defau,NTP,0,0,0,,我想双方都是不适合争斗的情况呢
+Dialogue: 0,0:12:48.00,0:12:48.59,Defau,NTP,0,0,0,,嗯…
+Dialogue: 0,0:12:49.70,0:12:51.77,Defau,NTP,0,0,0,,总之去找Cure Heart吧
+Dialogue: 0,0:12:51.98,0:12:52.47,Toght,NTP,0,0,0,,嗯
+Dialogue: 0,0:12:55.71,0:12:57.28,Defau,NTP,0,0,0,,我们也快走吧
+Dialogue: 0,0:12:58.19,0:12:59.93,Diamo,NTP,0,0,0,,非常深的冰隙啊
+Dialogue: 0,0:13:00.09,0:13:01.93,Roset,NTP,0,0,0,,大家小心地下去吧
+Dialogue: 0,0:13:02.05,0:13:02.61,Toght,NTP,0,0,0,,嗯
+Dialogue: 0,0:13:03.05,0:13:05.38,Sword,NTP,0,0,0,,要没事啊Cure Heart…
+Dialogue: 0,0:13:09.55,0:13:10.32,Regna,NTP,0,0,0,,好冷
+Dialogue: 0,0:13:15.80,0:13:16.47,Regna,NTP,0,0,0,,爱…
+Dialogue: 0,0:13:27.67,0:13:28.27,Regna,NTP,0,0,0,,什么
+Dialogue: 0,0:13:29.03,0:13:29.75,Regna,NTP,0,0,0,,Crystal！
+Dialogue: 0,0:13:35.56,0:13:36.38,Regna,NTP,0,0,0,,好漂亮
+Dialogue: 0,0:13:47.56,0:13:48.83,Heart,NTP,0,0,0,,Regina 危险
+Dialogue: 0,0:13:54.54,0:13:55.91,Regna,NTP,0,0,0,,爱！咦？
+Dialogue: 0,0:14:11.59,0:14:12.39,Regna,NTP,0,0,0,,是王女…
+Dialogue: 0,0:14:12.55,0:14:15.26,Heart,NTP,0,0,0,,诶 这个人就是！
+Dialogue: 0,0:14:16.09,0:14:19.54,Heart,NTP,0,0,0,,大概Crystal是引导我们来到王女大人的所在
+Dialogue: 0,0:14:20.16,0:14:21.31,Regna,NTP,0,0,0,,好漂亮的人
+Dialogue: 0,0:14:21.58,0:14:22.14,Heart,NTP,0,0,0,,嗯
+Dialogue: 0,0:14:24.90,0:14:25.66,Regna,NTP,0,0,0,,爱…
+Dialogue: 0,0:14:25.66,0:14:26.27,Heart,NTP,0,0,0,,嗯？
+Dialogue: 0,0:14:27.31,0:14:28.08,Regna,NTP,0,0,0,,这个…
+Dialogue: 0,0:14:29.13,0:14:29.75,Heart,NTP,0,0,0,,诶？
+Dialogue: 0,0:14:35.09,0:14:36.94,Regna,NTP,0,0,0,,对不起 打破了约定…
+Dialogue: 0,0:14:40.27,0:14:41.10,Heart,NTP,0,0,0,,Regina…
+Dialogue: 0,0:14:41.31,0:14:41.86,Regna,NTP,0,0,0,,诶？
+Dialogue: 0,0:14:43.03,0:14:45.37,Heart,NTP,0,0,0,,变回我认识的Regina了
+Dialogue: 0,0:14:46.75,0:14:47.94,Regna,NTP,0,0,0,,等等 爱！
+Dialogue: 0,0:14:50.40,0:14:51.86,Heart,NTP,0,0,0,,果然是Regina
+Dialogue: 0,0:14:51.98,0:14:54.47,Regna,NTP,0,0,0,,不是当然的吗 爱真奇怪
+Dialogue: 0,0:14:56.15,0:14:58.81,Regna,NTP,0,0,0,,但是「变回了」是什么意思
+Dialogue: 0,0:14:59.15,0:15:00.07,Heart,NTP,0,0,0,,不知道…
+Dialogue: 0,0:15:00.40,0:15:03.16,Heart,NTP,0,0,0,,就在刚才Regina还像是另一个人
+Dialogue: 0,0:15:03.86,0:15:07.07,Heart,NTP,0,0,0,,看着Crystal眼神就改变了的感觉
+Dialogue: 0,0:15:09.73,0:15:11.05,Regna,NTP,0,0,0,,现在呢？
+Dialogue: 0,0:15:11.82,0:15:14.42,Heart,NTP,0,0,0,,没变化 那是怎么回事呢
+Dialogue: 0,0:15:15.55,0:15:20.25,Heart,NTP,0,0,0,,不过那个人是王女大人的话 要马上告诉小真
+Dialogue: 0,0:15:20.60,0:15:23.28,Heart,NTP,0,0,0,,小真一直在寻找王女大人
+Dialogue: 0,0:15:23.61,0:15:24.71,Regna,NTP,0,0,0,,为了什么？
+Dialogue: 0,0:15:26.62,0:15:27.53,Heart,NTP,0,0,0,,那是…
+Dialogue: 0,0:15:28.37,0:15:33.14,Heart,NTP,0,0,0,,为了让毁灭的扑克王国恢复原样 拯救人们
+Dialogue: 0,0:15:34.16,0:15:37.51,Regna,NTP,0,0,0,,这样一来我的爸爸会怎么样？
+Dialogue: 0,0:15:38.20,0:15:40.48,Regna,NTP,0,0,0,,那个人把爸爸变成了石头…
+Dialogue: 0,0:15:41.05,0:15:42.31,Heart,NTP,0,0,0,,Regina
+Dialogue: 0,0:15:42.94,0:15:45.51,Heart,NTP,0,0,0,,我并不知道真实情况是什么
+Dialogue: 0,0:15:45.79,0:15:49.77,Heart,NTP,0,0,0,,但是如果Regina的爸爸把扑克王国恢复原样了
+Dialogue: 0,0:15:49.96,0:15:53.29,Heart,NTP,0,0,0,,王女大人也不会再继续战斗了吧
+Dialogue: 0,0:15:55.72,0:15:57.16,Heart,NTP,0,0,0,,一定能相互理解的
+Dialogue: 0,0:15:57.43,0:16:00.29,Heart,NTP,0,0,0,,因为我也和Regina成为朋友了
+Dialogue: 0,0:16:00.75,0:16:03.26,Regna,NTP,0,0,0,,但是爸爸很可怕…
+Dialogue: 0,0:16:03.80,0:16:04.75,Heart,NTP,0,0,0,,没关系
+Dialogue: 0,0:16:05.14,0:16:08.73,Heart,NTP,0,0,0,,我们来成为王女大人和Regina的爸爸之间沟通的桥梁吧
+Dialogue: 0,0:16:10.07,0:16:10.67,Heart,NTP,0,0,0,,嗯…
+Dialogue: 0,0:16:17.11,0:16:18.94,Heart,NTP,0,0,0,,大家
+Dialogue: 0,0:16:19.69,0:16:20.45,Diamo,NTP,0,0,0,,查理
+Dialogue: 0,0:16:20.91,0:16:23.24,Heart,NTP,0,0,0,,和爱分开了
+Dialogue: 0,0:16:23.38,0:16:26.20,Sword,NTP,0,0,0,,没关系的 爱一定在附近
+Dialogue: 0,0:16:26.75,0:16:28.07,Roset,NTP,0,0,0,,一起找吧
+Dialogue: 0,0:16:28.31,0:16:30.28,Defau,NTP,0,0,0,,但是有个问题…
+Dialogue: 0,0:16:31.82,0:16:33.42,Defau,NTP,0,0,0,,前面没有立足点了
+Dialogue: 0,0:16:34.44,0:16:35.87,Diamo,NTP,0,0,0,,让我来吧
+Dialogue: 0,0:16:40.13,0:16:43.69,Diamo,NTP,0,0,0,,Precure Diamond Shower！
+Dialogue: 0,0:16:52.30,0:16:55.29,Heart,NTP,0,0,0,,那是…Diamond Shower的光
+Dialogue: 0,0:16:55.70,0:16:56.24,Regna,NTP,0,0,0,,诶？
+Dialogue: 0,0:16:57.21,0:16:58.93,Heart,NTP,0,0,0,,一定是大家过来了
+Dialogue: 0,0:16:59.53,0:17:01.74,Heart,NTP,0,0,0,,喂 大家
+Dialogue: 0,0:17:01.74,0:17:02.27,Regna,NTP,0,0,0,,真是的
+Dialogue: 0,0:17:02.46,0:17:06.17,Regna,NTP,0,0,0,,不用喊那么大声我会把人带过来的
+Dialogue: 0,0:17:08.99,0:17:09.55,Regna,NTP,0,0,0,,咦？
+Dialogue: 0,0:17:12.52,0:17:13.07,Regna,NTP,0,0,0,,咦？
+Dialogue: 0,0:17:15.29,0:17:18.39,Regna,NTP,0,0,0,,为什么 力量不能用…
+Dialogue: 0,0:17:18.85,0:17:20.21,Toght,NTP,0,0,0,,爱
+Dialogue: 0,0:17:20.90,0:17:21.79,Heart,NTP,0,0,0,,大家
+Dialogue: 0,0:17:22.32,0:17:25.26,Heart,NTP,0,0,0,,Regina 大家果然来了
+Dialogue: 0,0:17:25.52,0:17:26.68,Regna,NTP,0,0,0,,那就走吧
+Dialogue: 0,0:17:26.85,0:17:27.31,Heart,NTP,0,0,0,,诶？
+Dialogue: 0,0:17:28.39,0:17:30.73,Regna,NTP,0,0,0,,我一起走会很奇怪吧
+Dialogue: 0,0:17:31.18,0:17:34.46,Regna,NTP,0,0,0,,打破了约定 还对大家做了过分的事情
+Dialogue: 0,0:17:35.43,0:17:36.98,Heart,NTP,0,0,0,,那一起道歉吧
+Dialogue: 0,0:17:36.98,0:17:37.54,Regna,NTP,0,0,0,,诶？
+Dialogue: 0,0:17:37.99,0:17:39.96,Heart,NTP,0,0,0,,无论多少次 直到被原谅为止
+Dialogue: 0,0:17:40.36,0:17:42.04,Heart,NTP,0,0,0,,我也会一起道歉的
+Dialogue: 0,0:17:42.54,0:17:43.70,Regna,NTP,0,0,0,,为什么爱要道歉？
+Dialogue: 0,0:17:44.08,0:17:46.84,Heart,NTP,0,0,0,,因为是朋友！不管Regina还是大家
+Dialogue: 0,0:17:48.29,0:17:52.31,Heart,NTP,0,0,0,,所以直到大家也明白Regina的事情为止
+Dialogue: 0,0:17:52.74,0:17:53.87,Heart,NTP,0,0,0,,一起道歉
+Dialogue: 0,0:17:54.89,0:17:55.77,Regna,NTP,0,0,0,,笨蛋一样
+Dialogue: 0,0:17:56.12,0:17:56.67,Heart,NTP,0,0,0,,诶？
+Dialogue: 0,0:18:00.33,0:18:03.32,Regna,NTP,0,0,0,,真的从没见过像爱这样的笨蛋
+Dialogue: 0,0:18:03.82,0:18:07.61,Regna,NTP,0,0,0,,但是背叛了爱的我更是笨蛋
+Dialogue: 0,0:18:08.21,0:18:10.09,Regna,NTP,0,0,0,,笨蛋笨蛋笨蛋
+Dialogue: 0,0:18:10.51,0:18:11.39,Heart,NTP,0,0,0,,Regina…
+Dialogue: 0,0:18:11.98,0:18:13.96,Heart,NTP,0,0,0,,爱
+Dialogue: 0,0:18:14.27,0:18:15.27,Heart,NTP,0,0,0,,查理
+Dialogue: 0,0:18:16.85,0:18:17.55,Toght,NTP,0,0,0,,爱
+Dialogue: 0,0:18:17.55,0:18:18.32,Roset,NTP,0,0,0,,爱
+Dialogue: 0,0:18:18.50,0:18:19.40,Heart,NTP,0,0,0,,大家
+Dialogue: 0,0:18:21.88,0:18:23.83,Sword,NTP,0,0,0,,太好了两个人都没事
+Dialogue: 0,0:18:24.21,0:18:24.78,Regna,NTP,0,0,0,,诶？
+Dialogue: 0,0:18:26.61,0:18:29.50,Sword,NTP,0,0,0,,我还是无法相信你
+Dialogue: 0,0:18:30.04,0:18:33.75,Sword,NTP,0,0,0,,但是你不在了的话爱会伤心的…
+Dialogue: 0,0:18:35.58,0:18:37.91,Heart,NTP,0,0,0,,谢谢 我一直相信着
+Dialogue: 0,0:18:38.02,0:18:40.11,Heart,NTP,0,0,0,,大家一定会来的
+Dialogue: 0,0:18:40.33,0:18:43.25,Heart,NTP,0,0,0,,然后就看见了Diamond Shower的光…
+Dialogue: 0,0:18:43.76,0:18:47.13,Roset,NTP,0,0,0,,发生了呢 奇迹之光的传说
+Dialogue: 0,0:18:47.38,0:18:49.45,Defau,NTP,0,0,0,,而且还有一个奇迹
+Dialogue: 0,0:18:50.40,0:18:50.86,Defau,NTP,0,0,0,,安
+Dialogue: 0,0:18:54.83,0:18:55.66,Sword,NTP,0,0,0,,王女大人
+Dialogue: 0,0:18:56.15,0:18:58.30,Heart,NTP,0,0,0,,果然是王女大人啊
+Dialogue: 0,0:18:58.30,0:18:59.55,Diamo,NTP,0,0,0,,找到了呢
+Dialogue: 0,0:18:59.55,0:19:00.16,Roset,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:00.75,0:19:01.48,Sword,NTP,0,0,0,,王女大人
+Dialogue: 0,0:19:01.48,0:19:01.88,Defau,NTP,0,0,0,,安
+Dialogue: 0,0:19:08.95,0:19:11.69,Defau,NTP,0,0,0,,回去 这座山是属于我的！
+Dialogue: 0,0:19:11.90,0:19:12.69,Heart,NTP,0,0,0,,自我中心！
+Dialogue: 0,0:19:12.89,0:19:13.42,Regna,NTP,0,0,0,,诶？
+Dialogue: 0,0:19:14.22,0:19:15.75,Defau,NTP,0,0,0,,干吧 自我中心
+Dialogue: 0,0:19:15.93,0:19:19.67,Defau,NTP,0,0,0,,把人驱散 登上顶峰！
+Dialogue: 0,0:19:19.67,0:19:21.97,Defau,NTP,0,0,0,,我第一个到！
+Dialogue: 0,0:19:27.07,0:19:28.80,Roset,NTP,0,0,0,,Love Heart Arrow！
+Dialogue: 0,0:19:35.16,0:19:36.24,Defau,NTP,0,0,0,,第一个
+Dialogue: 0,0:19:36.52,0:19:39.10,Roset,NTP,0,0,0,,Precure Rosetta Reflection！
+Dialogue: 0,0:19:43.71,0:19:44.65,Defau,NTP,0,0,0,,到
+Dialogue: 0,0:19:46.02,0:19:47.23,Defau,NTP,0,0,0,,自我中心！
+Dialogue: 0,0:19:47.68,0:19:48.70,Heart,NTP,0,0,0,,上吧 查理
+Dialogue: 0,0:19:49.61,0:19:50.95,Heart,NTP,0,0,0,,查理！
+Dialogue: 0,0:19:53.31,0:19:55.83,Heart,NTP,0,0,0,,Precure Love Link！
+Dialogue: 0,0:19:57.77,0:20:00.38,Heart,NTP,0,0,0,,L O V E
+Dialogue: 0,0:20:33.07,0:20:36.22,Heart,NTP,0,0,0,,满溢之爱！Cure Heart！
+Dialogue: 0,0:20:39.59,0:20:41.52,Heart,NTP,0,0,0,,Regina往后退
+Dialogue: 0,0:20:42.51,0:20:43.72,Defau,NTP,0,0,0,,第一个
+Dialogue: 0,0:20:44.29,0:20:47.37,Sword,NTP,0,0,0,,Precure Sparkle Sword！
+Dialogue: 0,0:20:49.03,0:20:50.55,Defau,NTP,0,0,0,,到
+Dialogue: 0,0:20:50.72,0:20:52.36,Defau,NTP,0,0,0,,好痛
+Dialogue: 0,0:20:53.50,0:20:54.86,Sword,NTP,0,0,0,,趁现在Cure Heart
+Dialogue: 0,0:20:55.30,0:20:56.83,Heart,NTP,0,0,0,,嗯 大家一起来
+Dialogue: 0,0:21:02.89,0:21:06.71,Toght,NTP,0,0,0,,Precure Lovely Force Arrow！
+Dialogue: 0,0:21:24.22,0:21:27.20,Defau,NTP,0,0,0,,Love Love Love
+Dialogue: 0,0:21:38.51,0:21:41.10,Defau,NTP,0,0,0,,咦 我为什么
+Dialogue: 0,0:21:47.00,0:21:48.53,Defau,NTP,0,0,0,,王女收下了
+Dialogue: 0,0:21:48.80,0:21:49.59,Sword,NTP,0,0,0,,王女大人？
+Dialogue: 0,0:21:49.59,0:21:50.03,Defau,NTP,0,0,0,,安
+Dialogue: 0,0:21:52.20,0:21:53.03,Heart,NTP,0,0,0,,Regina
+Dialogue: 0,0:21:53.56,0:21:54.24,Regna,NTP,0,0,0,,爱…
+Dialogue: 0,0:21:54.66,0:21:57.88,Defau,NTP,0,0,0,,走吧 令尊正等着你
+Dialogue: 0,0:22:00.31,0:22:01.21,Heart,NTP,0,0,0,,{\fad(0,350)}Regina！
+Dialogue: 0,0:23:37.52,0:23:39.15,Heart,NTP,0,0,0,,王女大人被带走了
+Dialogue: 0,0:23:39.45,0:23:42.76,Sword,NTP,0,0,0,,一定是被带去自我之王那里了
+Dialogue: 0,0:23:42.83,0:23:45.02,Diamo,NTP,0,0,0,,不好了 要马上去追
+Dialogue: 0,0:23:45.26,0:23:49.20,Roset,NTP,0,0,0,,但是我们没有去扑克王国的方法
+Dialogue: 0,0:23:49.58,0:23:50.92,Toght,NTP,0,0,0,,怎么办才好？
+Dialogue: 0,0:23:52.44,0:23:53.55,Heart,NTP,0,0,0,,DokiDoki！Precure
+Dialogue: 0,0:23:54.21,0:23:56.62,Heart,NTP,0,0,0,,前往扑克王国！去救王女大人！
+Dialogue: 0,0:23:57.48,0:23:59.02,Heart,NTP,0,0,0,,胸中的悸动 停不下来哟！
+Dialogue: 0,0:24:00.36,0:24:02.75,Heart,NTP,0,0,0,,马上会有新的Precure登场哦
+Dialogue: 0,0:24:02.92,0:24:03.78,Heart,NTP,0,0,0,,期待吧
+Dialogue: 0,0:24:17.77,0:24:18.63,Heart,NTP,0,0,0,,
+Dialogue: 0,0:01:13.84,0:01:18.21,oped,NTP,0,0,0,,(Happy Go! Lucky Girls! Precure! Yeah)
+Dialogue: 0,0:01:18.21,0:01:20.68,oped,NTP,0,0,0,,世界宛若旋转木马！
+Dialogue: 0,0:01:21.04,0:01:23.55,oped,NTP,0,0,0,,用爱周游世界 Three Two One!
+Dialogue: 0,0:01:23.85,0:01:25.58,oped,NTP,0,0,0,,光芒闪耀每一天
+Dialogue: 0,0:01:25.75,0:01:29.27,oped,NTP,0,0,0,,DokiDoki! Precure
+Dialogue: 0,0:01:30.75,0:01:36.13,oped,NTP,0,0,0,,身着新衣 向着未曾涉足的前方迈步
+Dialogue: 0,0:01:36.76,0:01:41.81,oped,NTP,0,0,0,,向着悸动景色 说Hello! Hello Hello
+Dialogue: 0,0:01:41.97,0:01:47.47,oped,NTP,0,0,0,,拐角处 花之色 被今天的Lucky Color眷顾着
+Dialogue: 0,0:01:47.99,0:01:52.91,oped,NTP,0,0,0,,全都包在这样的我的身上吧！
+Dialogue: 0,0:01:53.78,0:01:58.61,oped,NTP,0,0,0,,身为朋友 困窘之时
+Dialogue: 0,0:01:58.80,0:02:07.49,oped,NTP,0,0,0,,伸出援手是人之常情吧
+Dialogue: 0,0:02:07.49,0:02:09.16,oped,NTP,0,0,0,,(Happy! Lucky! Precure!)
+Dialogue: 0,0:02:09.16,0:02:11.56,oped,NTP,0,0,0,,唯有悸动之心 Precure！
+Dialogue: 0,0:02:11.78,0:02:14.40,oped,NTP,0,0,0,,能使世界改变 Happy Love!
+Dialogue: 0,0:02:14.66,0:02:17.20,oped,NTP,0,0,0,,秀外慧中的约定
+Dialogue: 0,0:02:17.50,0:02:21.07,oped,NTP,0,0,0,,才是女孩子们的约定
+Dialogue: 0,0:02:21.87,0:02:27.11,oped,NTP,0,0,0,,相信着你 为你而战
+Dialogue: 0,0:02:27.14,0:02:33.02,oped,NTP,0,0,0,,无敌的！温柔！紧握手中… (Yeah) Precure!
+Dialogue: 0,0:22:05.95,0:22:12.14,oped,NTP,0,0,0,,{\fs40}天空的彼岸飞翔着什么样的梦
+Dialogue: 0,0:22:12.93,0:22:22.19,oped,NTP,0,0,0,,{\fs40}无穷无尽 坚信未来伸出双手
+Dialogue: 0,0:22:22.42,0:22:27.72,oped,NTP,0,0,0,,{\fs40}PPP Precure! PPP Precure!
+Dialogue: 0,0:22:29.36,0:22:34.04,oped,NTP,0,0,0,,{\fs40}PPP Precure! 心跳起来吧 Yeah! Yeah!
+Dialogue: 0,0:22:34.33,0:22:40.58,oped,NTP,0,0,0,,{\fs40}对这小巧的双手要祈求些什么
+Dialogue: 0,0:22:41.27,0:22:47.42,oped,NTP,0,0,0,,{\fs40}如今的你身在何处 感受着什么
+Dialogue: 0,0:22:47.51,0:22:51.64,oped,NTP,0,0,0,,{\fs40}呐 数万光年并非遥远的未来
+Dialogue: 0,0:22:51.68,0:22:55.06,oped,NTP,0,0,0,,{\fs40}当然我也知道这不是时间的单位
+Dialogue: 0,0:22:55.10,0:22:59.60,oped,NTP,0,0,0,,{\fs40}闪亮的祈望连光芒也能超越
+Dialogue: 0,0:22:59.73,0:23:06.07,oped,NTP,0,0,0,,{\fs40}紧系这个世界的东西就是爱
+Dialogue: 0,0:23:06.83,0:23:13.53,oped,NTP,0,0,0,,{\fs40}不是梦中故事 无论何处紧握双手
+Dialogue: 0,0:23:13.58,0:23:19.75,oped,NTP,0,0,0,,{\fs40}天空的彼岸飞翔着什么样的梦
+Dialogue: 0,0:23:20.58,0:23:29.88,oped,NTP,0,0,0,,{\fs40}感受心意 让悸动乘着这首歌
+Dialogue: 0,0:23:30.05,0:23:33.43,oped,NTP,0,0,0,,{\fs40}PPP Precure! 带着笑容邂逅吧
+Dialogue: 0,0:23:39.25,0:24:05.31,Defau,NTP,0,0,0,Scroll up;200;50;30;25,妇联大友团 片源 Milky Rose\N翻译 Cure Humi 校对Cure Nine Cure sYan\N时间轴Cure Chang 海报Cure Sweet\N后期 Milky Rose Cure Ming\N雪飘工作室
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau,NTP,0,0,0,,

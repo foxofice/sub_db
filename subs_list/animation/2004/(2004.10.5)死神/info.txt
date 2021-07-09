@@ -1,0 +1,5 @@
+﻿chs: 死神
+cht: 死神
+jp: BLEACH
+en: Bleach
+rome: Bleach

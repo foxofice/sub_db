@@ -1,0 +1,64 @@
+﻿[Script Info]
+Title: サマーウォーズ -SUMMER WARS- Trailer 繁體中文字幕
+Original Script: 雪飄工作室
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,simhei,40,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,1,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.98,0:00:05.06,Default,,0000,0000,0000,,{\an8}日本奧斯卡獎得獎作品\N《穿越時空的少女》製作成員再次集結
+Dialogue: 0,0:00:00.98,0:00:05.06,Default,,0000,0000,0000,,{\an8}細田守 貞本義行
+Dialogue: 0,0:00:03.18,0:00:05.05,Default,,0000,0000,0000,,這是我所親歷的
+Dialogue: 0,0:00:05.38,0:00:06.51,Default,,0000,0000,0000,,不得了的夏天
+Dialogue: 0,0:00:06.94,0:00:08.17,Default,,0000,0000,0000,,吶 要打工嗎？
+Dialogue: 0,0:00:09.09,0:00:11.05,Default,,0000,0000,0000,,只收一個人
+Dialogue: 0,0:00:12.45,0:00:14.31,Default,,0000,0000,0000,,{\pos(830,132)\c&HCC1010&\bord0} {\an8}4\N天\N期\N間
+Dialogue: 0,0:00:12.90,0:00:14.32,Default,,0000,0000,0000,,{\an8\pos(490,132)\fad(400,0)\c&HCC1010&\bord0}打\N工\N的\N內\N容\N是\N
+Dialogue: 0,0:00:15.11,0:00:15.94,Default,,0000,0000,0000,,小磯健二君
+Dialogue: 0,0:00:16.26,0:00:17.56,Default,,0000,0000,0000,,啊 初次見面
+Dialogue: 0,0:00:17.85,0:00:18.71,Default,,0000,0000,0000,,我的男朋友
+Dialogue: 0,0:00:19.80,0:00:21.95,Default,,0000,0000,0000,,你有信心讓她幸福嗎？
+Dialogue: 0,0:00:22.06,0:00:25.88,Default,,0000,0000,0000,,啊 哈 呃 算是有吧…
+Dialogue: 0,0:00:24.03,0:00:26.37,Default,,0000,0000,0000,,{\pos(830,132)\an8\c&HCC1010&\bord0}暗\N戀\N著\N的\N夏\N希\N前\N輩\N的
+Dialogue: 0,0:00:24.46,0:00:26.38,Default,,0000,0000,0000,,{\an8\pos(490,132)\fad(400,0)\c&HCC1010&\bord0}代\N理\N男\N朋\N友
+Dialogue: 0,0:00:26.82,0:00:27.69,Default,,0000,0000,0000,,男朋友？
+Dialogue: 0,0:00:27.98,0:00:29.04,Default,,0000,0000,0000,,我不承認 夏希
+Dialogue: 0,0:00:29.21,0:00:29.78,Default,,0000,0000,0000,,看吧
+Dialogue: 0,0:00:30.52,0:00:31.24,Default,,0000,0000,0000,,烏賊耶
+Dialogue: 0,0:00:31.30,0:00:32.31,Default,,0000,0000,0000,,我所邂逅的是
+Dialogue: 0,0:00:32.59,0:00:33.75,Default,,0000,0000,0000,,話說小哥
+Dialogue: 0,0:00:33.88,0:00:35.08,Default,,0000,0000,0000,,造人運動怎麼樣了
+Dialogue: 0,0:00:35.70,0:00:39.28,Default,,0000,0000,0000,,先祖大人只憑兩千兵力與之對抗
+Dialogue: 0,0:00:39.28,0:00:40.63,Default,,0000,0000,0000,,第一次上田合戰
+Dialogue: 0,0:00:38.22,0:00:40.64,Default,,0000,0000,0000,,{\an8\fad(0,500)\3c&H1766FC&\blur6\bord3}以90歲老奶奶為首的
+Dialogue: 0,0:00:40.68,0:00:44.39,Default,,0000,0000,0000,,{\an8\fad(500,0)\3c&H1766FC&\blur6\bord3}陣內大家族
+Dialogue: 0,0:00:42.11,0:00:44.39,Default,,0000,0000,0000,,極有個性的大家族成員
+Dialogue: 0,0:00:47.65,0:00:48.27,Default,,0000,0000,0000,,還有——
+Dialogue: 0,0:00:53.44,0:00:55.50,Default,,0000,0000,0000,,毀滅世界的危機
+Dialogue: 0,0:00:56.85,0:00:58.81,Default,,0000,0000,0000,,那張照片真是你的嗎
+Dialogue: 0,0:00:59.05,0:01:01.19,Default,,0000,0000,0000,,我… 我是無辜的
+Dialogue: 0,0:01:01.39,0:01:03.51,Default,,0000,0000,0000,,關鍵是不能放棄
+Dialogue: 0,0:01:03.69,0:01:05.24,Default,,0000,0000,0000,,你能做到
+Dialogue: 0,0:01:06.32,0:01:07.99,Default,,0000,0000,0000,,有相信我的人
+Dialogue: 0,0:01:15.30,0:01:16.68,Default,,0000,0000,0000,,有我想守護的人
+Dialogue: 0,0:01:17.35,0:01:19.18,Default,,0000,0000,0000,,你想做什麼
+Dialogue: 0,0:01:19.31,0:01:19.98,Default,,0000,0000,0000,,合戰
+Dialogue: 0,0:01:24.46,0:01:25.22,Default,,0000,0000,0000,,振作點
+Dialogue: 0,0:01:25.57,0:01:26.48,Default,,0000,0000,0000,,有我們在
+Dialogue: 0,0:01:26.48,0:01:28.34,Default,,0000,0000,0000,,這玩意只有你才能解開吧
+Dialogue: 0,0:01:28.80,0:01:29.17,Default,,0000,0000,0000,,所以
+Dialogue: 0,0:01:29.66,0:01:30.81,Default,,0000,0000,0000,,在我瘦弱不堪的
+Dialogue: 0,0:01:31.02,0:01:31.57,Default,,0000,0000,0000,,加油啊
+Dialogue: 0,0:01:31.86,0:01:32.29,Default,,0000,0000,0000,,是
+Dialogue: 0,0:01:32.86,0:01:33.77,Default,,0000,0000,0000,,雙肩上——
+Dialogue: 0,0:01:34.01,0:01:35.12,Default,,0000,0000,0000,,上啊
+Dialogue: 0,0:01:35.12,0:01:36.34,Default,,0000,0000,0000,,干掉它
+Dialogue: 0,0:01:36.34,0:01:39.25,Default,,0000,0000,0000,,全拜託你了
+Dialogue: 0,0:01:40.79,0:01:42.79,Default,,0000,0000,0000,,肩負著人類的未來
+Dialogue: 0,0:01:44.50,0:01:48.42,Default,,0000,0000,0000,,{\fad(1000,1000)\c&H46FDFA&\pos(640,500)\t(\fs50)}夏日戰爭

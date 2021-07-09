@@ -1,0 +1,439 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Warning,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_20633_258_Massive_UFO_in_E,Open Sans Semibold,29,&H002E352D,&H000000FF,&H00C6C7C5,&H00DAE2D8,1,0,0,0,100,100,0,0,1,2,0,7,68,533,117,0
+Style: sign_29741_366_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H002C3635,&H000000FF,&H00C9E2EF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,221,91,159,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.13,0:00:03.40,Main,Kag,0000,0000,0000,,Let me introduce you, 'kay?
+Dialogue: 0,0:00:03.40,0:00:07.70,Main,Kag,0000,0000,0000,,This is my boyfriend, \NDai-chan from Planet Titan.
+Dialogue: 0,0:00:07.70,0:00:08.75,Main,Shin,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:08.75,0:00:10.62,Main,Shin,0000,0000,0000,,Wait, what?!
+Dialogue: 0,0:00:11.03,0:00:13.19,Main,Shin,0000,0000,0000,,Kagura-chan, what do you mean, Titan?!
+Dialogue: 0,0:00:14.58,0:00:18.08,Main,Gin,0000,0000,0000,,Hey, what's the meaning of \Nthis? This isn't what you said!
+Dialogue: 0,0:00:18.47,0:00:21.53,Main,UB,0000,0000,0000,,Kagura-chan, who was the boy \Nthat gave you the letter, then?
+Dialogue: 0,0:00:21.53,0:00:26.30,Main,Kag,0000,0000,0000,,Oh, he was just a friend who handed \Nover the letter in Dai-chan's place.
+Dialogue: 0,0:00:26.75,0:00:29.19,Main,Kag,0000,0000,0000,,Dai-chan's too big to write a letter,
+Dialogue: 0,0:00:29.19,0:00:31.55,Main,Kag,0000,0000,0000,,and it seems he was too shy \Nto hand it over himself.
+Dialogue: 0,0:00:31.55,0:00:35.65,Main,Shin,0000,0000,0000,,Uh... Wait, you actually \Nhad such a huge friend?
+Dialogue: 0,0:00:35.65,0:00:38.08,Main,Kag,0000,0000,0000,,Yep. Soyo-chan introduced us.
+Dialogue: 0,0:00:38.08,0:00:38.89,Main,Shin,0000,0000,0000,,The princess?
+Dialogue: 0,0:00:39.24,0:00:42.35,Main,Kag,0000,0000,0000,,Believe it or not, Dai-chan's \Nthe prince of Planet Titan.
+Dialogue: 0,0:00:42.35,0:00:46.40,Main,Kag,0000,0000,0000,,But being so big, he had no one to play with \Nand nowhere he could play, so he was bored.
+Dialogue: 0,0:00:50.71,0:00:52.41,Main,Kag,0000,0000,0000,,So I played with him, 'kay?
+Dialogue: 0,0:00:52.77,0:00:55.33,Main,Kag,0000,0000,0000,,And then he got attached to me.
+Dialogue: 0,0:01:00.04,0:01:01.08,Main,G,0000,0000,0000,,Monsters!
+Dialogue: 0,0:01:01.66,0:01:03.79,Internal,Gin,0000,0000,0000,,I don't know if I'd call this "attached"...
+Dialogue: 0,0:01:04.18,0:01:07.84,Internal,Bo,0000,0000,0000,,It looks more like he brought \Nan army to conquer Earth!
+Dialogue: 0,0:01:13.59,0:01:19.56,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:01:15.78,0:01:19.56,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:02:47.90,0:02:53.87,Ep Title,Title,0000,0000,0000,,{\fad(445,1)}My Bald Dad, My Light-Haired \NDad, and My Dad's Glasses
+Dialogue: 0,0:02:54.22,0:03:00.06,Warning,Warning,0000,0000,0000,,{\fad(505,535)}Watch the Slip Arc in a bright room and\Nat a safe distance from your TV!
+Dialogue: 0,0:02:55.32,0:02:58.43,Main,Kag,0000,0000,0000,,{\an8}Awesome, right? I totally got the \Njump on the bingo balls of life.
+Dialogue: 0,0:02:58.43,0:03:00.37,Main,Gin,0000,0000,0000,,{\an8}You may have hit bingo with royalty...
+Dialogue: 0,0:03:00.37,0:03:04.38,Main,Gin,0000,0000,0000,,But his balls are way too big! Riding those \Nwould be harder than riding a Gundam!
+Dialogue: 0,0:03:04.38,0:03:07.67,Main,Kag,0000,0000,0000,,Anyway, don't be so nervous, \N'kay? Take a seat, Dai-chan.
+Dialogue: 0,0:03:12.26,0:03:15.29,Internal,Gin,0000,0000,0000,,Huh? Wait, what now?
+Dialogue: 0,0:03:15.29,0:03:17.52,Internal,Gin,0000,0000,0000,,Is this the boy? Is this \Nreally the boyfriend?
+Dialogue: 0,0:03:17.52,0:03:20.96,Internal,Gin,0000,0000,0000,,What's a "boyfriend," \Nagain? How is it spelled?
+Dialogue: 0,0:03:20.96,0:03:23.84,Internal,UB,0000,0000,0000,,Calm down. He's just a big boyfriend.
+Dialogue: 0,0:03:23.84,0:03:26.83,Internal,UB,0000,0000,0000,,A father whose daughter's boyfriend \Nthinks he's a pushover is done for.
+Dialogue: 0,0:03:26.83,0:03:30.23,Main,UB,0000,0000,0000,,Oh, I see. So you're Kagura's boyfriend.
+Dialogue: 0,0:03:30.23,0:03:32.31,Main,UB,0000,0000,0000,,Thanks for being there for her.
+Dialogue: 0,0:03:32.31,0:03:33.82,Main,UB,0000,0000,0000,,I'm her father.
+Dialogue: 0,0:03:33.82,0:03:36.09,Internal,Gin,0000,0000,0000,,That's the space-famous Umibozu for you.
+Dialogue: 0,0:03:36.09,0:03:39.71,Internal,Gin,0000,0000,0000,,With no fear of the massive boyfriend, \Nhe showed off how dignified a father can be.
+Dialogue: 0,0:03:45.77,0:03:47.88,Internal,Gin,0000,0000,0000,,F-F...
+Dialogue: 0,0:03:47.88,0:03:49.88,Internal,Gin,0000,0000,0000,,Father!
+Dialogue: 0,0:03:49.88,0:03:51.56,Main,Shin,0000,0000,0000,,Umibozu-san!
+Dialogue: 0,0:03:51.56,0:03:54.48,Main,Shin,0000,0000,0000,,He's been turned to mincemeat! \NOnly one of his b*lls remains!
+Dialogue: 0,0:03:54.48,0:03:56.22,Main,Gin,0000,0000,0000,,That's not one of his b*lls! \NIt's just his cue ball!
+Dialogue: 0,0:03:56.22,0:03:58.89,Main,Dai,0000,0000,0000,,Ah, my bad.
+Dialogue: 0,0:03:58.89,0:04:01.05,Main,Dai,0000,0000,0000,,Damn, I overdid it.
+Dialogue: 0,0:04:01.05,0:04:04.77,Main,Dai,0000,0000,0000,,I ain't been on Earth long,
+Dialogue: 0,0:04:04.77,0:04:08.90,Main,Dai,0000,0000,0000,,so I don't really get how to do \Ngreetings or, like, the bowing thing.
+Dialogue: 0,0:04:08.90,0:04:13.40,Main,Dai,0000,0000,0000,,And, like, I can't stand that \Nkinda formal crap, anyway.
+Dialogue: 0,0:04:13.40,0:04:18.41,Main,Dai,0000,0000,0000,,You can ignore the prince thing, so why \Ndon't we keep things frank and casual, Pops?
+Dialogue: 0,0:04:18.41,0:04:22.12,Main,Dai,0000,0000,0000,,Since you're Kagura's old man, \NI already consider you a bro.
+Dialogue: 0,0:04:22.12,0:04:24.63,Main,Dai,0000,0000,0000,,Oh, could you tell me your email address?
+Dialogue: 0,0:04:24.63,0:04:27.17,Main,UB,0000,0000,0000,,I see. Then I'll tell you...
+Dialogue: 0,0:04:27.50,0:04:30.17,Main,UB,0000,0000,0000,,the email address to Hell!
+Dialogue: 0,0:04:33.63,0:04:34.80,Main,Gin,0000,0000,0000,,Why me?!
+Dialogue: 0,0:04:34.80,0:04:37.16,Main,UB,0000,0000,0000,,C-Calm down! Grow up!
+Dialogue: 0,0:04:37.16,0:04:38.90,Main,UB,0000,0000,0000,,You promised to be a grown-up today!
+Dialogue: 0,0:04:38.90,0:04:40.06,Main,Gin,0000,0000,0000,,{\i1}You{\i0} calm down!
+Dialogue: 0,0:04:40.06,0:04:42.93,Main,UB,0000,0000,0000,,He comes across as incredibly audacious, \Nbut I'm imagining things, right?
+Dialogue: 0,0:04:43.24,0:04:45.85,Main,UB,0000,0000,0000,,It just seems like he's looking down \Non us because he's so huge, right?
+Dialogue: 0,0:04:45.85,0:04:48.69,Main,UB,0000,0000,0000,,Kids these days are all \Nlike that, right? Right?!
+Dialogue: 0,0:04:48.69,0:04:52.17,Main,Gin,0000,0000,0000,,We'll never get anywhere if you \Nget pissed by whatever a kid says.
+Dialogue: 0,0:04:52.17,0:04:53.37,Main,Gin,0000,0000,0000,,Let me handle this.
+Dialogue: 0,0:04:54.56,0:04:58.29,Main,Gin,0000,0000,0000,,Y-Yeah, Earth's societal norms \Nare too complicated, huh?
+Dialogue: 0,0:04:58.29,0:05:02.24,Main,Gin,0000,0000,0000,,We just wanted to meet \NKagura's friend, is all.
+Dialogue: 0,0:05:02.24,0:05:04.71,Main,Gin,0000,0000,0000,,Anyway, make yourself at home. Want some tea?
+Dialogue: 0,0:05:04.71,0:05:06.93,Main,Dai,0000,0000,0000,,Nah, I'm good. I'm chewing gum.
+Dialogue: 0,0:05:06.93,0:05:09.32,Main,Gin,0000,0000,0000,,Really? We have snacks, too.
+Dialogue: 0,0:05:09.32,0:05:12.82,Main,Dai,0000,0000,0000,,Seriously, I'm good. Earth \Nfood doesn't suit my taste.
+Dialogue: 0,0:05:12.82,0:05:13.72,Main,Gin,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:05:14.04,0:05:17.31,Internal,Gin,0000,0000,0000,,Could he be any more blunt? \NIs he messing with me?
+Dialogue: 0,0:05:17.31,0:05:19.04,Main,Gin,0000,0000,0000,,What do you usually eat?
+Dialogue: 0,0:05:19.04,0:05:21.72,Main,Gin,0000,0000,0000,,Your size must complicate things.
+Dialogue: 0,0:05:22.83,0:05:23.91,Main,Dai,0000,0000,0000,,Hip hop.
+Dialogue: 0,0:05:23.91,0:05:26.52,Internal,Gin,0000,0000,0000,,What do you mean, you eat hip hop?
+Dialogue: 0,0:05:26.52,0:05:31.35,Main,Dai,0000,0000,0000,,The only things on Earth that suit \Nmy tastes are hip hop and reggae.
+Dialogue: 0,0:05:31.35,0:05:35.07,Main,Dai,0000,0000,0000,,They're music of the soul, check it out.
+Dialogue: 0,0:05:35.07,0:05:38.39,Main,Kag,0000,0000,0000,,Apparently, everyone on \Nhis planet is a b-boy.
+Dialogue: 0,0:05:38.39,0:05:40.41,Internal,Gin,0000,0000,0000,,Uh, you guys are just big boys!
+Dialogue: 0,0:05:40.41,0:05:44.04,Main,Dai,0000,0000,0000,,Everything else is old-fashioned and lame.
+Dialogue: 0,0:05:44.04,0:05:47.27,Internal,Gin,0000,0000,0000,,Look who's talking! You're \Nall dressed like cavemen!
+Dialogue: 0,0:05:47.27,0:05:50.29,Main,Dai,0000,0000,0000,,Honestly, I was shocked I had to \Ncome meet my girlfriend's folks.
+Dialogue: 0,0:05:50.29,0:05:51.73,Main,Gin,0000,0000,0000,,Huh? Why?
+Dialogue: 0,0:05:51.73,0:05:55.44,Main,Dai,0000,0000,0000,,What matters is how the couple \Nfeels in their hearts.
+Dialogue: 0,0:05:55.44,0:05:59.43,Main,Dai,0000,0000,0000,,Parents sticking their nose \Ninto it is totally lame, I say.
+Dialogue: 0,0:05:59.43,0:06:01.76,Main,Dai,0000,0000,0000,,Earth is pretty behind the times, huh?
+Dialogue: 0,0:06:01.76,0:06:05.88,Main,Gin,0000,0000,0000,,Really? I can't tell. Are we?
+Dialogue: 0,0:06:05.88,0:06:10.84,Main,Gin,0000,0000,0000,,Anyway, isn't it normal to be worried about \Nthe kind of friends your daughter has?
+Dialogue: 0,0:06:10.84,0:06:11.68,Main,Gin,0000,0000,0000,,Right, Kagura?
+Dialogue: 0,0:06:11.68,0:06:14.01,Main,Dai,0000,0000,0000,,Y'know, I've been meaning to point this out.
+Dialogue: 0,0:06:14.01,0:06:15.44,Main,Dai,0000,0000,0000,,I'm not her friend.
+Dialogue: 0,0:06:15.93,0:06:17.32,Main,Dai,0000,0000,0000,,I'm her boyfriend.
+Dialogue: 0,0:06:17.32,0:06:19.64,Main,Gin,0000,0000,0000,,Oh, sorry. Boyfriend, huh?
+Dialogue: 0,0:06:19.64,0:06:22.56,Main,Gin,0000,0000,0000,,I hate to say it, but that \Nword doesn't exist on Earth.
+Dialogue: 0,0:06:22.56,0:06:23.20,Main,Gin,0000,0000,0000,,Right, Kagura?
+Dialogue: 0,0:06:23.20,0:06:27.24,Main,Dai,0000,0000,0000,,Hey, can I be straight with you? \NWho are you to Kagura?
+Dialogue: 0,0:06:27.24,0:06:30.75,Main,Dai,0000,0000,0000,,I don't want some rando calling \Nher "Kagura" like they're close.
+Dialogue: 0,0:06:30.75,0:06:32.50,Main,Dai,0000,0000,0000,,She's my gal.
+Dialogue: 0,0:06:33.67,0:06:35.92,Main,Kag,0000,0000,0000,,Dai-chan, I mentioned this before.
+Dialogue: 0,0:06:35.92,0:06:39.10,Main,Kag,0000,0000,0000,,Gin-chan's my Earth dad.
+Dialogue: 0,0:06:39.10,0:06:41.89,Main,Kag,0000,0000,0000,,Wait, brother?
+Dialogue: 0,0:06:43.21,0:06:45.00,Main,Kag,0000,0000,0000,,Oh, I know. He's like crab lice, 'kay?
+Dialogue: 0,0:06:45.00,0:06:47.31,Internal,Gin,0000,0000,0000,,Why did I regress to being crab lice?!
+Dialogue: 0,0:06:47.63,0:06:51.52,Main,Dai,0000,0000,0000,,Y'know, you're going out with me. \NWhy are you still living with your ex?
+Dialogue: 0,0:06:51.52,0:06:53.27,Main,Dai,0000,0000,0000,,I won't stand for half-assing \Nthings like that.
+Dialogue: 0,0:06:54.16,0:06:58.74,Main,Dai,0000,0000,0000,,Keep messing with my gal, \Nand I'll make a mess of Earth.
+Dialogue: 0,0:06:58.74,0:07:02.93,Main,Dai,0000,0000,0000,,FYI, we could wipe out your\NEarth if we wanted to.
+Dialogue: 0,0:07:02.93,0:07:05.99,Main,Dai,0000,0000,0000,,If I say the word, my bros all \Nover the galaxy will gather here.
+Dialogue: 0,0:07:05.99,0:07:07.01,Main,Gin,0000,0000,0000,,Bring it!
+Dialogue: 0,0:07:07.01,0:07:09.64,Main,Gin,0000,0000,0000,,Attack on anytime you want, titans!
+Dialogue: 0,0:07:09.64,0:07:12.21,Main,Gin,0000,0000,0000,,I'll force a retreat back into space!
+Dialogue: 0,0:07:12.38,0:07:14.63,Main,Gin,0000,0000,0000,,For your hairline, that is!
+Dialogue: 0,0:07:17.51,0:07:19.38,Main,UB,0000,0000,0000,,Why my hairline?!
+Dialogue: 0,0:07:19.38,0:07:21.12,Main,Gin,0000,0000,0000,,Calm down! You're a grown-up!
+Dialogue: 0,0:07:21.12,0:07:22.43,Main,Gin,0000,0000,0000,,Now we're even!
+Dialogue: 0,0:07:22.43,0:07:24.30,Main,UB,0000,0000,0000,,Grown-ups don't obsess over getting even!
+Dialogue: 0,0:07:24.61,0:07:25.80,Main,Gin,0000,0000,0000,,I'm imagining things, right?
+Dialogue: 0,0:07:25.80,0:07:28.55,Main,Gin,0000,0000,0000,,Some brain-dead boy is saying \Nhe'll wipe out Earth,
+Dialogue: 0,0:07:28.55,0:07:30.56,Main,Gin,0000,0000,0000,,but only your hair roots \Nwill be wiped out, right?
+Dialogue: 0,0:07:30.56,0:07:31.20,Main,Gin,0000,0000,0000,,Right? Right?!
+Dialogue: 0,0:07:31.20,0:07:33.13,Main,UB,0000,0000,0000,,Just calm down, you two.
+Dialogue: 0,0:07:34.16,0:07:37.78,Main,UB,0000,0000,0000,,Dai-kun, it's not what you think. \NThese two aren't like that.
+Dialogue: 0,0:07:37.78,0:07:40.29,Main,UB,0000,0000,0000,,Kagura's only working a live-in job here.
+Dialogue: 0,0:07:40.29,0:07:43.20,Main,UB,0000,0000,0000,,Honestly, I'm against it too, \Nbut she doesn't listen to me.
+Dialogue: 0,0:07:43.20,0:07:46.29,Main,Dai,0000,0000,0000,,For real? Who would want to work here?
+Dialogue: 0,0:07:46.29,0:07:47.45,Main,Shin,0000,0000,0000,,Calm down!
+Dialogue: 0,0:07:47.91,0:07:50.41,Main,Dai,0000,0000,0000,,But you can rest assured, Pops.
+Dialogue: 0,0:07:50.41,0:07:53.42,Main,Dai,0000,0000,0000,,I'm gonna finish my work \Nhere and go back home soon.
+Dialogue: 0,0:07:53.42,0:07:55.80,Main,Dai,0000,0000,0000,,I plan on taking Kagura with me.
+Dialogue: 0,0:07:56.42,0:07:59.39,Main,Kag,0000,0000,0000,,Hey, what are you talking about?
+Dialogue: 0,0:07:59.39,0:08:02.05,Main,Dai,0000,0000,0000,,Oh, keep your mouth shut.
+Dialogue: 0,0:08:02.05,0:08:05.93,Main,Dai,0000,0000,0000,,I don't intend to half-ass \Nthings with Kagura.
+Dialogue: 0,0:08:06.69,0:08:08.81,Main,Dai,0000,0000,0000,,I'm gonna marry her.
+Dialogue: 0,0:08:12.05,0:08:14.72,Main,Shin,0000,0000,0000,,Hey! What are you two doing?!
+Dialogue: 0,0:08:14.72,0:08:15.92,Main,UB,0000,0000,0000,,I'm imagining things, right?
+Dialogue: 0,0:08:15.92,0:08:18.64,Main,UB,0000,0000,0000,,I think I heard the word "marry" just now, \Nbut I'm just imagining things, right?
+Dialogue: 0,0:08:18.64,0:08:21.31,Main,Gin,0000,0000,0000,,Yeah, that's right. It's \Ntotally just your imagination.
+Dialogue: 0,0:08:21.31,0:08:23.45,Main,Kag,0000,0000,0000,,Who said you could talk like that?
+Dialogue: 0,0:08:23.45,0:08:25.07,Main,Kag,0000,0000,0000,,Marry me? That's news to me.
+Dialogue: 0,0:08:25.07,0:08:27.67,Main,Dai,0000,0000,0000,,Oh, keep your mouth shut!
+Dialogue: 0,0:08:27.67,0:08:29.47,Main,Dai,0000,0000,0000,,We're discussing something important here.
+Dialogue: 0,0:08:29.47,0:08:33.56,Main,Gin,0000,0000,0000,,Uh, I'm not sure I follow. Aren't \Nyou skipping a few too many steps?
+Dialogue: 0,0:08:33.56,0:08:35.81,Main,Gin,0000,0000,0000,,That stuff comes after \Ndating and things going well.
+Dialogue: 0,0:08:35.81,0:08:38.00,Main,Gin,0000,0000,0000,,And you haven't even started dating yet.
+Dialogue: 0,0:08:38.00,0:08:40.61,Main,Dai,0000,0000,0000,,We don't need to do all that crap.
+Dialogue: 0,0:08:40.61,0:08:45.22,Main,Dai,0000,0000,0000,,We're soulmates. Our hearts \Nare totally resonating.
+Dialogue: 0,0:08:45.22,0:08:47.58,Main,Gin,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:08:47.58,0:08:53.21,Main,UB,0000,0000,0000,,Now, now. Puppy love makes your \Nmind go blank and blinds you.
+Dialogue: 0,0:08:53.21,0:08:55.35,Main,UB,0000,0000,0000,,Most people start finding tons of faults
+Dialogue: 0,0:08:55.35,0:08:57.38,Main,UB,0000,0000,0000,,and come to hate each other eventually.
+Dialogue: 0,0:08:57.38,0:08:59.67,Main,Dai,0000,0000,0000,,Nah, that ain't happening with us.
+Dialogue: 0,0:08:59.67,0:09:01.80,Main,Dai,0000,0000,0000,,I ain't got any faults.
+Dialogue: 0,0:09:01.80,0:09:05.74,Main,Dai,0000,0000,0000,,And even if Kagura does, I've got \Nthe heart to accept them all.
+Dialogue: 0,0:09:05.74,0:09:07.99,Main,UB,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:09:07.99,0:09:11.25,Main,Gin,0000,0000,0000,,Nah, you won't be saying that for long.
+Dialogue: 0,0:09:11.25,0:09:14.43,Main,Gin,0000,0000,0000,,You'll learn how big a glutton \Nshe is once you live with her.
+Dialogue: 0,0:09:14.43,0:09:15.71,Main,Gin,0000,0000,0000,,She'll destroy your food budget.
+Dialogue: 0,0:09:15.71,0:09:19.00,Main,Gin,0000,0000,0000,,Plus she's crude and can't \Ncook anything but egg-on-rice.
+Dialogue: 0,0:09:19.00,0:09:22.34,Main,Gin,0000,0000,0000,,She's sure to be a useless housewife \Nwho doesn't do any housework.
+Dialogue: 0,0:09:22.34,0:09:23.25,Main,UB,0000,0000,0000,,Yeah, yeah.
+Dialogue: 0,0:09:23.25,0:09:26.23,Main,UB,0000,0000,0000,,Plus she's a 'kay addict \Nwho needs a trip to 'Kay A.
+Dialogue: 0,0:09:26.23,0:09:28.48,Main,UB,0000,0000,0000,,And your kids will 100% \Ninherit the bald gene.
+Dialogue: 0,0:09:28.48,0:09:30.05,Main,UB,0000,0000,0000,,What do you even see in her?
+Dialogue: 0,0:09:30.05,0:09:32.99,Main,UB,0000,0000,0000,,If I were you, I'd never pick her up \Nif she was lying on the street.
+Dialogue: 0,0:09:32.99,0:09:34.50,Main,UB,0000,0000,0000,,I'd take her to the lost and found!
+Dialogue: 0,0:09:34.50,0:09:36.56,Main,Kag,0000,0000,0000,,Oh, really?!
+Dialogue: 0,0:09:38.60,0:09:40.35,Main,Kag,0000,0000,0000,,This is perfect, then.
+Dialogue: 0,0:09:40.35,0:09:42.82,Main,Kag,0000,0000,0000,,You can marry me off and get rid of me.
+Dialogue: 0,0:09:43.14,0:09:46.90,Main,Kag,0000,0000,0000,,Fine by me, 'kay? I don't like \Nhalf-assing things, either.
+Dialogue: 0,0:09:46.90,0:09:50.03,Main,Kag,0000,0000,0000,,Guess we can date with \Nan eye toward marriage.
+Dialogue: 0,0:09:50.03,0:09:50.95,Main,UB,0000,0000,0000,,Wait!
+Dialogue: 0,0:09:50.95,0:09:52.44,Main,Gin,0000,0000,0000,,That's not it!
+Dialogue: 0,0:09:52.44,0:09:56.08,Main,Dai,0000,0000,0000,,Well, there you have it. You'll \Ngive us your blessings, right?
+Dialogue: 0,0:09:56.08,0:09:57.42,Main,Shin,0000,0000,0000,,Now, now.
+Dialogue: 0,0:09:57.92,0:09:59.75,Main,Shin,0000,0000,0000,,Calm down, all of you.
+Dialogue: 0,0:09:59.75,0:10:02.50,Main,Shin,0000,0000,0000,,Putting aside the taking Kagura-chan \Nalong thing for now...
+Dialogue: 0,0:10:02.50,0:10:07.43,Main,Shin,0000,0000,0000,,We'll just take it as a sign that you're \Nserious about this relationship.
+Dialogue: 0,0:10:07.43,0:10:08.43,Main,Shin,0000,0000,0000,,That's okay, right?
+Dialogue: 0,0:10:08.43,0:10:11.10,Main,Bo,0000,0000,0000,,Hell no!
+Dialogue: 0,0:10:11.10,0:10:14.96,Main,UB,0000,0000,0000,,You're just a rotten virgin with \Nzero experience! Stay out of this!
+Dialogue: 0,0:10:14.96,0:10:17.72,Main,UB,0000,0000,0000,,They're not getting engaged \Nat such a young age!
+Dialogue: 0,0:10:17.72,0:10:19.90,Main,Gin,0000,0000,0000,,Quit mouthing off about your naïve ideals!
+Dialogue: 0,0:10:19.90,0:10:21.11,Main,Gin,0000,0000,0000,,Love is just a illusion!
+Dialogue: 0,0:10:21.11,0:10:23.95,Main,Gin,0000,0000,0000,,True love only begins once that \Nillusion wears off, you stupid brats!
+Dialogue: 0,0:10:23.95,0:10:26.22,Main,Shin,0000,0000,0000,,Tell them, not me!
+Dialogue: 0,0:10:26.22,0:10:29.57,Main,Bo,0000,0000,0000,,We're being grown-ups here \Nbecause you told us to grow up!
+Dialogue: 0,0:10:29.57,0:10:32.54,Main,Shin,0000,0000,0000,,Then say what you're \Nsupposed to as grown-ups!
+Dialogue: 0,0:10:32.54,0:10:34.64,Main,Gin,0000,0000,0000,,What the hell, man? \NWhat's a grown-up, anyway?
+Dialogue: 0,0:10:34.64,0:10:35.96,Main,Gin,0000,0000,0000,,I don't know anymore!
+Dialogue: 0,0:10:35.96,0:10:39.29,Main,Shin,0000,0000,0000,,Meanwhile, those two went off on their date!
+Dialogue: 0,0:10:41.79,0:10:43.63,Main,Bo,0000,0000,0000,,Ack!
+Dialogue: 0,0:10:46.91,0:10:50.26,Main,Kag,0000,0000,0000,,Man, dating is a pain.
+Dialogue: 0,0:10:50.60,0:10:53.76,Main,Kag,0000,0000,0000,,Can't we just stay friends?
+Dialogue: 0,0:10:53.76,0:10:56.63,Main,Kag,0000,0000,0000,,We're only gonna be sparring \Nlike usual anyway, right?
+Dialogue: 0,0:10:56.63,0:10:58.87,Main,Dai,0000,0000,0000,,Nah, it was only during the day so far,
+Dialogue: 0,0:10:58.87,0:11:02.11,Main,Dai,0000,0000,0000,,but now we'll be able to spar at night, too.
+Dialogue: 0,0:11:02.11,0:11:05.02,Main,Dai,0000,0000,0000,,More than anything, I don't \Nwanna let anyone else have you.
+Dialogue: 0,0:11:05.02,0:11:09.03,Main,Kag,0000,0000,0000,,I don't see why I have to be monopolized \Nby either you or those morons.
+Dialogue: 0,0:11:09.03,0:11:11.11,Main,Dai,0000,0000,0000,,Are you stupid? You know that ain't it.
+Dialogue: 0,0:11:11.55,0:11:14.39,Main,Dai,0000,0000,0000,,If you love someone, you \Nwanna make them yours alone.
+Dialogue: 0,0:11:15.05,0:11:17.20,Main,Dai,0000,0000,0000,,Ain't it only natural to feel that way?
+Dialogue: 0,0:11:17.20,0:11:21.07,Main,Kag,0000,0000,0000,,Well, I wouldn't really care \Nif someone else took you.
+Dialogue: 0,0:11:21.07,0:11:25.19,Main,Dai,0000,0000,0000,,Y-You just haven't realized that you're \Nin love yet because you're such a child!
+Dialogue: 0,0:11:25.19,0:11:28.08,Main,Kag,0000,0000,0000,,Then what? Those morons are saying \Nthey don't wanna give me away.
+Dialogue: 0,0:11:28.08,0:11:29.76,Main,Kag,0000,0000,0000,,Are they in love with me, too?
+Dialogue: 0,0:11:29.76,0:11:32.44,Main,Dai,0000,0000,0000,,That's a different kinda love. Like, familial.
+Dialogue: 0,0:11:32.44,0:11:37.72,Main,Dai,0000,0000,0000,,But we gotta distance ourselves from \Nthat and find our own love someday.
+Dialogue: 0,0:11:37.72,0:11:42.59,Main,Kag,0000,0000,0000,,I see. But in a way, they love me too, huh?
+Dialogue: 0,0:11:44.98,0:11:47.95,Main,Dai,0000,0000,0000,,Hey, what are you smirking for?
+Dialogue: 0,0:11:47.95,0:11:49.09,Main,Kag,0000,0000,0000,,No reason.
+Dialogue: 0,0:11:50.51,0:11:53.31,Main,Kag,0000,0000,0000,,It's been a long day. I'm exhausted.
+Dialogue: 0,0:11:53.31,0:11:55.31,Main,Kag,0000,0000,0000,,Let's save the date for another day, 'kay?
+Dialogue: 0,0:11:55.31,0:11:57.59,Main,Dai,0000,0000,0000,,What? Why?!
+Dialogue: 0,0:11:57.59,0:12:00.00,Main,Dai,0000,0000,0000,,I said I'm going back home soon, didn't I?
+Dialogue: 0,0:12:00.33,0:12:02.68,Main,Kag,0000,0000,0000,,We can just have a \Nlong-distance relationship.
+Dialogue: 0,0:12:02.68,0:12:04.18,Main,Dai,0000,0000,0000,,Hey, wait up!
+Dialogue: 0,0:12:04.18,0:12:07.28,Main,Dai,0000,0000,0000,,Are you okay with being separated from me?
+Dialogue: 0,0:12:07.28,0:12:10.43,Main,Dai,0000,0000,0000,,I could cheat on you back \Nhome! You okay with that?!
+Dialogue: 0,0:12:10.43,0:12:12.88,Main,Kag,0000,0000,0000,,That's pretty much it, Dai-chan.
+Dialogue: 0,0:12:12.88,0:12:15.72,Main,Kag,0000,0000,0000,,You can find love scattered anywhere.
+Dialogue: 0,0:12:15.72,0:12:18.01,Main,Kag,0000,0000,0000,,But those scatterbrains...
+Dialogue: 0,0:12:18.91,0:12:21.02,Main,Kag,0000,0000,0000,,...I can only find here.
+Dialogue: 0,0:12:22.69,0:12:23.61,Main,Kag,0000,0000,0000,,See you.
+Dialogue: 0,0:12:23.61,0:12:25.17,Main,Kag,0000,0000,0000,,Write to me, 'kay?
+Dialogue: 0,0:12:28.96,0:12:31.15,Main,Dai,0000,0000,0000,,I ain't letting you go, Kagura.
+Dialogue: 0,0:12:31.15,0:12:34.51,Main,Dai,0000,0000,0000,,I ain't gonna accept a \Nlong-distance relationship.
+Dialogue: 0,0:12:39.01,0:12:44.92,Main,Dai,0000,0000,0000,,I finally found robust genes that are \Nworthy of being inherited by titans.
+Dialogue: 0,0:12:46.97,0:12:51.80,Main,Dai,0000,0000,0000,,I can't let the people on this planet \Nkeep them all to themselves.
+Dialogue: 0,0:12:52.19,0:12:53.30,Main,Soyo,0000,0000,0000,,What?!
+Dialogue: 0,0:12:53.75,0:12:56.19,Main,Soyo,0000,0000,0000,,Kagura-chan and Prince Dai?!
+Dialogue: 0,0:12:56.19,0:13:00.18,Main,Soyo,0000,0000,0000,,I didn't know those two had \Nthat kind of relationship.
+Dialogue: 0,0:13:00.71,0:13:04.56,Main,Soyo,0000,0000,0000,,He took Kagura-chan from me. \NI feel a little burned.
+Dialogue: 0,0:13:05.87,0:13:07.86,Main,Bo,0000,0000,0000,,Things really will burn.
+Dialogue: 0,0:13:07.86,0:13:12.32,Main,UB,0000,0000,0000,,If you don't tell us where \Nthey hang out right now...
+Dialogue: 0,0:13:12.32,0:13:14.90,Main,Gin,0000,0000,0000,,...we'll burn down your castle.
+Dialogue: 0,0:13:14.90,0:13:17.41,Main,Shin,0000,0000,0000,,Hey! The princess has \Nnothing to do with this!
+Dialogue: 0,0:13:17.41,0:13:19.37,Main,Shin,0000,0000,0000,,She didn't do anything wrong!
+Dialogue: 0,0:13:19.37,0:13:22.70,Main,Gin,0000,0000,0000,,But you're the one who introduced \Nhim to Kagura, right?
+Dialogue: 0,0:13:22.70,0:13:24.27,Main,Gin,0000,0000,0000,,Where did you guys hang out?
+Dialogue: 0,0:13:24.27,0:13:27.15,Main,Gin,0000,0000,0000,,Which love hotel district? \NWhich storeroom behind a gym?
+Dialogue: 0,0:13:27.15,0:13:28.83,Main,Gin,0000,0000,0000,,Which orgy venue?
+Dialogue: 0,0:13:28.83,0:13:31.38,Main,Soyo,0000,0000,0000,,We'd never hang out at such places!
+Dialogue: 0,0:13:31.38,0:13:35.13,Main,Soyo,0000,0000,0000,,I-It was usually the \Nriver bank or the park...
+Dialogue: 0,0:13:35.51,0:13:36.63,Main,Soyo,0000,0000,0000,,Hey!
+Dialogue: 0,0:13:36.63,0:13:39.63,Main,Soyo,0000,0000,0000,,They might be gone already!
+Dialogue: 0,0:13:40.37,0:13:41.72,Main,Shin,0000,0000,0000,,There they go.
+Dialogue: 0,0:13:42.60,0:13:44.71,Main,Shin,0000,0000,0000,,What do you mean, they might be gone?
+Dialogue: 0,0:13:46.80,0:13:50.90,Main,Soyo,0000,0000,0000,,Despite what the titans look like,
+Dialogue: 0,0:13:50.90,0:13:55.99,Main,Soyo,0000,0000,0000,,they're a peaceful and quiet race as \Nlong as they can listen to hip hop.
+Dialogue: 0,0:13:55.99,0:13:57.35,Main,Soyo,0000,0000,0000,,There's just one thing.
+Dialogue: 0,0:13:57.35,0:14:03.90,Main,Soyo,0000,0000,0000,,Titan royalty have looked for their \Nbrides on other planets for generations.
+Dialogue: 0,0:14:03.90,0:14:07.25,Main,Soyo,0000,0000,0000,,But what they do after \Nthey find her is crazy.
+Dialogue: 0,0:14:07.75,0:14:10.57,Main,Soyo,0000,0000,0000,,They look to monopolize her genes.
+Dialogue: 0,0:14:10.57,0:14:16.00,Main,Soyo,0000,0000,0000,,To prevent the spread of their perfect \Nspouse's genes outside their own race,
+Dialogue: 0,0:14:16.00,0:14:19.39,Main,Soyo,0000,0000,0000,,they eradicate all life on \Nthe bride's home planet,
+Dialogue: 0,0:14:19.39,0:14:24.89,Main,Soyo,0000,0000,0000,,leaving no traces, \Nnot even a strand of DNA.
+Dialogue: 0,0:14:27.61,0:14:29.95,sign_20633_258_Massive_UFO_in_E,Sign,0000,0000,0000,,Massive UFO\Nin Edo Skies
+Dialogue: 0,0:14:27.94,0:14:29.95,Main,Hana,0000,0000,0000,,Are you all seeing this?
+Dialogue: 0,0:14:29.95,0:14:32.74,Main,Hana,0000,0000,0000,,Titans suddenly appeared in Edo,
+Dialogue: 0,0:14:32.74,0:14:36.63,Main,Hana,0000,0000,0000,,with a huge ship that nearly covers \Nthe entire sky above the city.
+Dialogue: 0,0:14:36.63,0:14:39.25,Main,Hana,0000,0000,0000,,Just who are they?
+Dialogue: 0,0:14:39.74,0:14:41.75,Main,Shin,0000,0000,0000,,Dai-kun will destroy Earth?
+Dialogue: 0,0:14:42.13,0:14:45.01,Main,Shin,0000,0000,0000,,No way! Did we treat him badly?
+Dialogue: 0,0:14:45.01,0:14:47.47,Main,Shin,0000,0000,0000,,Did we act too much like \Nan annoying mother-in-law?!
+Dialogue: 0,0:14:47.47,0:14:49.76,Main,Soyo,0000,0000,0000,,That's not really the issue.
+Dialogue: 0,0:14:50.25,0:14:52.51,Main,Shin,0000,0000,0000,,Forget coming to take our girl,
+Dialogue: 0,0:14:53.08,0:14:55.01,Main,Shin,0000,0000,0000,,he came to take our Earth?!
+Dialogue: 0,0:14:55.31,0:14:56.89,Main,Shin,0000,0000,0000,,Forget the bingo balls of life,
+Dialogue: 0,0:14:56.89,0:14:59.86,Main,Shin,0000,0000,0000,,he came to crush the \Nball that gives us life?!
+Dialogue: 0,0:15:00.77,0:15:02.63,Main,Soyo,0000,0000,0000,,We must stop the titans at once.
+Dialogue: 0,0:15:02.63,0:15:06.28,Main,Soyo,0000,0000,0000,,I'll let Brother know and have the \NBakufu Army move out right away.
+Dialogue: 0,0:15:06.28,0:15:07.64,Main,Shin,0000,0000,0000,,You've got it wrong.
+Dialogue: 0,0:15:08.89,0:15:12.28,Main,Shin,0000,0000,0000,,They aren't the ones we need to stop.
+Dialogue: 0,0:15:13.17,0:15:17.54,Main,Shin,0000,0000,0000,,The titans aren't the ones we \Nneed to be truly afraid of.
+Dialogue: 0,0:15:18.58,0:15:20.54,Main,Hana,0000,0000,0000,,Oh, look at that!
+Dialogue: 0,0:15:20.79,0:15:24.42,Main,Hana,0000,0000,0000,,An army of titans dressed in \Nformal attire is descending on us!
+Dialogue: 0,0:15:29.59,0:15:31.59,Main,Dai,0000,0000,0000,,Earthlings.
+Dialogue: 0,0:15:32.02,0:15:36.60,Main,Dai,0000,0000,0000,,As Planet Titan's representative, \Nallow me to express our gratitude.
+Dialogue: 0,0:15:37.32,0:15:43.48,Main,Dai,0000,0000,0000,,You have our heartfelt gratitude \Nfor giving us the perfect bride.
+Dialogue: 0,0:15:45.86,0:15:47.41,Main,Dai,0000,0000,0000,,Rejoice.
+Dialogue: 0,0:15:47.41,0:15:48.66,Main,Dai,0000,0000,0000,,With this ceremony,
+Dialogue: 0,0:15:48.66,0:15:55.99,Main,Dai,0000,0000,0000,,Earthling DNA will gain eternal \Nprosperity along with us titans.
+Dialogue: 0,0:15:58.66,0:16:04.92,Main,Dai,0000,0000,0000,,Please give your blessings \Nto our marriage ceremony.
+Dialogue: 0,0:16:04.92,0:16:07.23,Main,Hana,0000,0000,0000,,I-Is this a wedding?
+Dialogue: 0,0:16:07.23,0:16:12.57,Main,Hana,0000,0000,0000,,The titans have destroyed the city \Nand built a big marriage venue!
+Dialogue: 0,0:16:12.57,0:16:13.89,Main,Hana,0000,0000,0000,,Wait, is that...
+Dialogue: 0,0:16:13.89,0:16:15.60,Main,Hana,0000,0000,0000,,An Earthling girl?!
+Dialogue: 0,0:16:15.60,0:16:18.39,Main,Hana,0000,0000,0000,,The titans have taken a lone girl captive!
+Dialogue: 0,0:16:19.61,0:16:23.58,Main,P,0000,0000,0000,,Do you promise to be true to \Nher in good times and bad,
+Dialogue: 0,0:16:23.58,0:16:29.96,Main,P,0000,0000,0000,,in sickness and in health, and to love \Nand honor her all the days of your life?
+Dialogue: 0,0:16:29.96,0:16:31.15,Main,Dai,0000,0000,0000,,I do.
+Dialogue: 0,0:16:31.48,0:16:36.16,Main,Hana,0000,0000,0000,,Is this a ceremony to take \Nthat girl as his wife?
+Dialogue: 0,0:16:36.67,0:16:40.72,Main,P,0000,0000,0000,,Bride. Do you promise to be true \Nto him in good times and bad,
+Dialogue: 0,0:16:40.72,0:16:44.61,Main,P,0000,0000,0000,,in sickness and in health, and to love \Nand honor him all the days of your life?
+Dialogue: 0,0:16:44.61,0:16:46.17,Main,Dai,0000,0000,0000,,She said she does.
+Dialogue: 0,0:16:47.05,0:16:49.17,Main,P,0000,0000,0000,,You may now seal your vows with a kiss.
+Dialogue: 0,0:16:53.80,0:16:59.90,Main,Hana,0000,0000,0000,,That innocent girl's purity is about \Nto be taken by those massive lips!
+Dialogue: 0,0:16:59.90,0:17:00.60,Internal,Dai,0000,0000,0000,,Kagura...
+Dialogue: 0,0:17:01.04,0:17:04.60,Internal,Dai,0000,0000,0000,,Now your strong genes belong to me!
+Dialogue: 0,0:17:04.60,0:17:08.48,Internal,Dai,0000,0000,0000,,You should just look at me, and me alone.
+Dialogue: 0,0:17:09.48,0:17:11.23,Main,Shin,0000,0000,0000,,Hold it right there!
+Dialogue: 0,0:17:15.61,0:17:16.67,Main,Dai,0000,0000,0000,,Wait, father!
+Dialogue: 0,0:17:16.67,0:17:19.32,Main,Dai,0000,0000,0000,,We can't! I don't swing that way!
+Dialogue: 0,0:17:19.32,0:17:22.12,Main,Dai,0000,0000,0000,,Father? Father!
+Dialogue: 0,0:17:23.30,0:17:24.12,Main,Shin,0000,0000,0000,,Dai-kun.
+Dialogue: 0,0:17:24.54,0:17:27.92,Main,Shin,0000,0000,0000,,I'm sorry, but I can't \Nlet you have Kagura-chan.
+Dialogue: 0,0:17:28.69,0:17:30.59,Main,Shin,0000,0000,0000,,You don't have the right
+Dialogue: 0,0:17:32.17,0:17:34.30,Main,Shin,0000,0000,0000,,to call yourself her boyfriend.
+Dialogue: 0,0:17:34.69,0:17:35.85,Main,Dai,0000,0000,0000,,Damn you...
+Dialogue: 0,0:17:35.85,0:17:41.93,Main,Dai,0000,0000,0000,,How dare you ruin this sacred \Nceremony and my first kiss?!
+Dialogue: 0,0:17:42.29,0:17:43.76,Main,Shin,0000,0000,0000,,It's too bad.
+Dialogue: 0,0:17:43.76,0:17:46.52,Main,Shin,0000,0000,0000,,In your obsession with keeping \NKagura-chan to yourself,
+Dialogue: 0,0:17:46.52,0:17:50.94,Main,Shin,0000,0000,0000,,you trampled on her feelings and tried \Nto take away something precious to her.
+Dialogue: 0,0:17:50.94,0:17:53.81,Main,Dai,0000,0000,0000,,This has nothing to do with you! Piss off!
+Dialogue: 0,0:17:53.81,0:17:54.94,Main,Shin,0000,0000,0000,,Do you understand?!
+Dialogue: 0,0:17:55.74,0:18:00.58,Main,Shin,0000,0000,0000,,The dear daughter he raised was \Ntaken from him by some random guy,
+Dialogue: 0,0:18:00.58,0:18:03.70,Main,Shin,0000,0000,0000,,and yet, for her sake, he tried \Nto welcome him with a smile.
+Dialogue: 0,0:18:03.70,0:18:05.96,Main,Shin,0000,0000,0000,,Do you understand that \Nbald father's feelings?
+Dialogue: 0,0:18:06.33,0:18:07.46,Main,Shin,0000,0000,0000,,Do you understand?
+Dialogue: 0,0:18:07.81,0:18:11.06,Main,Shin,0000,0000,0000,,He let go of the person he'd \Nprotected with care for so long,
+Dialogue: 0,0:18:11.06,0:18:15.01,Main,Shin,0000,0000,0000,,believed in the man she chose, and even \Ntried to entrust his sword to him.
+Dialogue: 0,0:18:15.51,0:18:17.47,Main,Shin,0000,0000,0000,,Do you understand that \Nlight-haired father's feelings?
+Dialogue: 0,0:18:18.21,0:18:19.67,Main,Shin,0000,0000,0000,,Do you understand?
+Dialogue: 0,0:18:19.67,0:18:21.72,Main,Shin,0000,0000,0000,,He actually felt really sad,
+Dialogue: 0,0:18:21.72,0:18:24.97,Main,Shin,0000,0000,0000,,but held back his tears and played \Nthe straight man for Kagura's sake.
+Dialogue: 0,0:18:25.48,0:18:27.69,Main,Shin,0000,0000,0000,,Do you understand how those \Nfather's glasses felt?!
+Dialogue: 0,0:18:27.69,0:18:30.70,Main,Dai,0000,0000,0000,,Will you guys shut up about fathers already?
+Dialogue: 0,0:18:30.70,0:18:32.98,Main,Dai,0000,0000,0000,,Quit poking your nose in \Na couple's relationship!
+Dialogue: 0,0:18:32.98,0:18:35.01,Main,Dai,0000,0000,0000,,It's gross as hell!
+Dialogue: 0,0:18:35.01,0:18:38.95,Main,Dai,0000,0000,0000,,If you can't let your child go, \NI'll lop off your arm for you!
+Dialogue: 0,0:18:40.04,0:18:43.62,Main,Dai,0000,0000,0000,,Before the ceremony, cause a bloodbath \Nwith the annoying apes of Earth!
+Dialogue: 0,0:18:44.10,0:18:47.14,Main,Dai,0000,0000,0000,,Offer them up as sacrifices for our wedding!
+Dialogue: 0,0:18:47.14,0:18:49.37,Main,Dai,0000,0000,0000,,Attack on, titans!
+Dialogue: 0,0:18:49.37,0:18:52.26,Main,Hana,0000,0000,0000,,Oh, no! Titans are pouring \Nout of their mother ship!
+Dialogue: 0,0:18:52.26,0:18:54.25,Main,Hana,0000,0000,0000,,Are we witnessing the apocalypse?!
+Dialogue: 0,0:18:55.50,0:18:57.21,Main,Dai,0000,0000,0000,,Adios, fathers.
+Dialogue: 0,0:18:57.21,0:19:01.01,Main,Dai,0000,0000,0000,,Your dear daughter belongs \Nto me, the great Dai!
+Dialogue: 0,0:19:01.34,0:19:05.01,Main,Dai,0000,0000,0000,,Huh? I don't think we arranged \Nfor a rice shower...
+Dialogue: 0,0:19:06.84,0:19:08.39,Main,Hana,0000,0000,0000,,A rain of blood?
+Dialogue: 0,0:19:08.39,0:19:13.36,Main,Hana,0000,0000,0000,,Can you believe it? Instead of a rice shower, \Na red shower of blood is raining down!
+Dialogue: 0,0:19:13.89,0:19:15.18,Main,Hana,0000,0000,0000,,It's the blood of titans!
+Dialogue: 0,0:19:15.18,0:19:18.90,Main,Hana,0000,0000,0000,,This isn't titans attacking on! \NIt's an attack on titans!
+Dialogue: 0,0:19:18.90,0:19:21.11,Main,Dai,0000,0000,0000,,N-No way.
+Dialogue: 0,0:19:21.48,0:19:23.01,Main,Shin,0000,0000,0000,,Gross?
+Dialogue: 0,0:19:24.10,0:19:25.12,Main,Shin,0000,0000,0000,,Fine by us.
+Dialogue: 0,0:19:25.98,0:19:29.62,Main,Shin,0000,0000,0000,,Be it a boyfriend's possessiveness toward \Nhis girl, or a race's possessiveness,
+Dialogue: 0,0:19:30.30,0:19:32.66,Main,Shin,0000,0000,0000,,all men are gross in one way \Nor another, including you.
+Dialogue: 0,0:19:32.66,0:19:34.59,Main,Shin,0000,0000,0000,,But that's nothing.
+Dialogue: 0,0:19:34.59,0:19:38.77,Main,Shin,0000,0000,0000,,You're up against a father's gross \Npossessiveness toward his daughter.
+Dialogue: 0,0:19:38.77,0:19:40.41,Main,Shin,0000,0000,0000,,Don't think you can beat that!
+Dialogue: 0,0:19:42.80,0:19:45.26,Main,Gin,0000,0000,0000,,Hey, boyfriend. I'm impressed.
+Dialogue: 0,0:19:45.58,0:19:51.64,Main,Gin,0000,0000,0000,,I never expected you to be prepared \Nto destroy Earth to make Kagura yours.
+Dialogue: 0,0:19:51.98,0:19:55.44,Main,Gin,0000,0000,0000,,When you're asking someone for their \Ndaughter they raised with love,
+Dialogue: 0,0:19:55.44,0:19:58.40,Main,Gin,0000,0000,0000,,you do need the balls to \Ntake an entire planet.
+Dialogue: 0,0:19:58.86,0:20:02.28,Main,Gin,0000,0000,0000,,Yeah, it takes balls from \Nboth the taker and the giver.
+Dialogue: 0,0:20:02.28,0:20:07.79,Main,Dai,0000,0000,0000,,You guys want to start a planetary \Nwar over a single girl?!
+Dialogue: 0,0:20:07.79,0:20:13.46,Main,UB,0000,0000,0000,,As if grown-ass grown-ups would ever \Ndo that for a filthy brat like her.
+Dialogue: 0,0:20:13.46,0:20:16.13,Main,Gin,0000,0000,0000,,You can take her with you, but...
+Dialogue: 0,0:20:16.42,0:20:19.92,Main,Bo,0000,0000,0000,,Only once you grow up and learn how to bow!
+Dialogue: 0,0:20:26.84,0:20:29.55,Main,Gin,0000,0000,0000,,We finally said something grown up.
+Dialogue: 0,0:20:29.55,0:20:30.58,Main,UB,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:30.58,0:20:33.53,Main,UB,0000,0000,0000,,Now we're full-fledged adults, too.
+Dialogue: 0,0:20:33.96,0:20:34.69,Main,Bo,0000,0000,0000,,Oh...
+Dialogue: 0,0:20:34.69,0:20:37.29,Main,Bo,0000,0000,0000,,We forgot about Kagura.
+Dialogue: 0,0:20:47.49,0:20:49.74,sign_29741_366_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:20:48.09,0:20:49.74,Main,Shin,0000,0000,0000,,Whoa, hold it.
+Dialogue: 0,0:20:49.74,0:20:51.98,Main,Shin,0000,0000,0000,,What's with that huge letter?
+Dialogue: 0,0:20:51.98,0:20:54.75,Main,Kag,0000,0000,0000,,It's a letter from Dai-chan from back home.
+Dialogue: 0,0:20:55.11,0:20:56.88,Main,Kag,0000,0000,0000,,You guys should read it, too.
+Dialogue: 0,0:20:56.88,0:20:59.46,Main,Shin,0000,0000,0000,,What? From that prince?
+Dialogue: 0,0:20:59.46,0:21:02.84,Main,Shin,0000,0000,0000,,Are we gonna be okay? He's not \Ndeclaring war or anything, right?
+Dialogue: 0,0:21:02.84,0:21:06.14,Main,Shin,0000,0000,0000,,If he comes back to take Kagura-chan, \N what do we do, Gin-san?
+Dialogue: 0,0:21:06.14,0:21:08.58,Main,Gin,0000,0000,0000,,Shinpachi, send a reply at once.
+Dialogue: 0,0:21:08.58,0:21:11.14,Main,UB,0000,0000,0000,,"She's a good-for-nothing \Ndaughter, but please take—"
+Dialogue: 0,0:21:14.14,0:21:15.52,Main,Shin,0000,0000,0000,,Uh...
+Dialogue: 0,0:21:15.52,0:21:18.65,Main,Shin,0000,0000,0000,,"Thanks for taking care of \Nme during my stay on Earth.
+Dialogue: 0,0:21:19.42,0:21:22.61,Main,Shin,0000,0000,0000,,Interacting with a different culture, \NI've realized the importance of family.
+Dialogue: 0,0:21:22.61,0:21:25.99,Main,Shin,0000,0000,0000,,In particular, I had the opportunity to \Nlearn all too well how great fathers are.
+Dialogue: 0,0:21:25.99,0:21:27.66,Main,Shin,0000,0000,0000,,It was a great learning experience."
+Dialogue: 0,0:21:28.00,0:21:31.10,Main,Shin,0000,0000,0000,,Huh? He's turned over a new leaf \Nand become a different person!
+Dialogue: 0,0:21:31.10,0:21:34.58,Main,UB,0000,0000,0000,,Well, his letters are always polite.
+Dialogue: 0,0:21:34.58,0:21:36.33,Internal,Dai,0000,0000,0000,,The next time I get a girlfriend,
+Dialogue: 0,0:21:36.33,0:21:40.59,Internal,Dai,0000,0000,0000,,I want to forget about our dated and evil \Ncustoms and treat her family well, too.
+Dialogue: 0,0:21:40.59,0:21:42.86,Internal,Dai,0000,0000,0000,,In particular, I'll treat the father well.
+Dialogue: 0,0:21:42.86,0:21:45.59,Internal,Dai,0000,0000,0000,,I'll try not to defy the \Nfather, no matter what.
+Dialogue: 0,0:21:46.01,0:21:48.84,Main,Shin,0000,0000,0000,,Uh, fathers have totally \Nbecome a trauma to him now.
+Dialogue: 0,0:21:48.84,0:21:52.19,Main,UB,0000,0000,0000,,Well, a lot happened, but \Nall's well that ends well.
+Dialogue: 0,0:21:52.19,0:21:54.35,Main,UB,0000,0000,0000,,He took a step forward as a person.
+Dialogue: 0,0:21:54.35,0:21:57.48,Main,UB,0000,0000,0000,,With this, the home planet of those \Nlugs should improve a little bit.
+Dialogue: 0,0:21:57.48,0:22:00.19,Main,Gin,0000,0000,0000,,Apparently not.
+Dialogue: 0,0:22:00.19,0:22:04.19,Internal,Dai,0000,0000,0000,,P.S. I recently found some \Namazing genes that interest me.
+Dialogue: 0,0:22:04.77,0:22:07.99,Internal,Dai,0000,0000,0000,,Fathers really are amazing, huh?
+Dialogue: 0,0:22:09.90,0:22:10.97,Main,Shin,0000,0000,0000,,Um...
+Dialogue: 0,0:22:10.97,0:22:14.24,Main,Shin,0000,0000,0000,,I don't know about improving. If this \Nkeeps up, their planet will die out.
+Dialogue: 0,0:22:14.24,0:22:15.25,Main,Gin,0000,0000,0000,,This is on you.
+Dialogue: 0,0:22:15.25,0:22:17.81,Main,Gin,0000,0000,0000,,He awakened to the other side because \Nof what you did to the priest.
+Dialogue: 0,0:22:17.81,0:22:20.77,Main,Shin,0000,0000,0000,,Don't pin all the blame on me! \NYou did this by going too far!
+Dialogue: 0,0:22:20.77,0:22:23.52,Main,Gin,0000,0000,0000,,Tell the old man that. I'm not the father.
+Dialogue: 0,0:22:23.52,0:22:25.76,Main,UB,0000,0000,0000,,What do you mean? I'm still \Nyoung enough to be called "bro"!
+Dialogue: 0,0:22:25.76,0:22:28.25,Main,Gin,0000,0000,0000,,Yeah, right, "bro." More like \Nyour hair all went "go home."
+Dialogue: 0,0:22:28.25,0:22:30.81,Main,UB,0000,0000,0000,,They didn't go home! I'm \Nstill attacking on, fightan!
+Dialogue: 0,0:22:30.81,0:22:31.60,Main,Shin,0000,0000,0000,,What happened to bro?
+Dialogue: 0,0:22:32.10,0:22:33.52,Internal,Kag,0000,0000,0000,,To Dai-chan.
+Dialogue: 0,0:22:33.52,0:22:37.71,Internal,Kag,0000,0000,0000,,I learned a lot thanks to you, too.
+Dialogue: 0,0:22:37.71,0:22:41.60,Internal,Kag,0000,0000,0000,,I don't really get the difference \Nbetween romantic and familial love yet,
+Dialogue: 0,0:22:41.60,0:22:42.90,Internal,Kag,0000,0000,0000,,but for now,
+Dialogue: 0,0:22:44.09,0:22:46.61,Internal,Kag,0000,0000,0000,,I'm fine with having just \Nthese guys as boyfriends.
+Dialogue: 0,0:23:55.93,0:24:00.89,Ep Title,Title,0000,0000,0000,,{\fad(440,1)}A Bowl of Ramen
+Dialogue: 0,0:23:56.85,0:23:58.90,Main,Gin,0000,0000,0000,,Next time: "A Bowl of Ramen."
+Dialogue: 0,0:24:00.89,0:24:05.77,Side Bar Top,TextR,0000,0000,0000,,Next time, the widow running \Na ramen place,
+Dialogue: 0,0:24:00.89,0:24:05.77,Side Bar Bottom,TextL,0000,0000,0000,,Ikumatsu, makes an appearance \Nafter ten long years.
+Dialogue: 0,0:24:05.77,0:24:12.57,Side Bar Top,TextR,0000,0000,0000,,We have the always familiar, the nostalgic,
+Dialogue: 0,0:24:05.77,0:24:12.57,Side Bar Bottom,TextL,0000,0000,0000,,and the somewhat different people \Nall in one big gathering.

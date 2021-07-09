@@ -1,0 +1,516 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H000500A7,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H000500A7,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Spirit R,Open Sans Semibold,24,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,467,47,27,0
+Style: Spirit Text L,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,7,27,27,27,0
+Style: Spirit Text R,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,9,27,64,40,0
+Style: Spirit L,Open Sans Semibold,24,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,47,400,27,0
+Style: sign_25442_356_One_word_and_you,Open Sans Semibold,32,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,60,27,27,0
+Style: sign_31513_456_Kabuki_District_,Open Sans Semibold,32,&H0000000D,&H000000FF,&H00FEFCF0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: Warning,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_5046_48_Guardian_Spirit_,Open Sans Semibold,26,&H00EEDECA,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,501,13,152,0
+Style: sign_5163_51_A_spirit_that_be,Open Sans Semibold,26,&H00EEDECA,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,13,13,20,0
+Style: sign_5493_57_Prize__500_000_y,Open Sans Semibold,29,&H00333432,&H000000FF,&H00EDEFEF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,24,0
+Style: sign_6796_80_Kabuki_District_,Open Sans Semibold,32,&H00787B72,&H000000FF,&H00F0F4EF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_9130_111_Guardian_Spirit_,Open Sans Semibold,26,&H00EEDECA,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,0,440,27,0
+Style: sign_9322_115_Shimura_Tae_s_Gu,Open Sans Semibold,26,&H00EEDECA,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,419,13,191,0
+Style: sign_11250_150_Gorilla_Points,Open Sans Semibold,26,&H00EFE7DC,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,547,120,28,0
+Style: sign_12806_174_It_seems_we_ll_h,Open Sans Semibold,29,&H00191919,&H000000FF,&H00E8E9E6,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,400,80,33,0
+Style: sign_13143_180_Guardian_Fusion,Open Sans Semibold,29,&H002E2A2E,&H000000FF,&H00DEE1DD,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,56,244,0
+Style: sign_14268_195_Battle_Points,Open Sans Semibold,29,&H00EEDECA,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,608,79,36,0
+Style: sign_15357_213_Hey__taxi_,Open Sans Semibold,24,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,404,27,161,0
+Style: sign_18509_260_Guardian_Ghost_M,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,7,97,27,25,0
+Style: sign_21337_309_Cleans_up_all_im,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,9,333,49,269,0
+Style: sign_21373_310_elizabeth_s_sign,Open Sans Semibold,32,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,583,47,27,0
+Style: sign_21723_316_Finish_Line,Open Sans Semibold,29,&H006366DC,&H000000FF,&H00F9FFE7,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,96,49,0
+Style: sign_22785_332_Grandpa_s_dentur,Open Sans Semibold,32,&H001F2220,&H000000FF,&H00F2F3F1,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,24,0
+Style: sign_27036_396_They_said_it_was,Open Sans Semibold,29,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,47,133,27,0
+Style: sign_27844_405_Glasses,Open Sans Semibold,32,&H003F2A12,&H000000FF,&H00F5DBC2,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,24,0
+Style: sign_30128_431_Their_wearer_can,Open Sans Semibold,26,&H00EEDECA,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,4,0,3,267,61,49,0
+Style: sign_32824_437_Gintama,Open Sans Semibold,38,&H00000000,&H000000FF,&H0034307A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_32870_438_heads_toward_its,Open Sans Semibold,38,&H00FCFDFF,&H000000FF,&H004A45A8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_32922_439_Shogun_Assassina,Open Sans Semibold,38,&H000900C8,&H000000FF,&H00ECEDF6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_33173_443_Farewell_Shinsen,Open Sans Semibold,38,&H00A8675F,&H000000FF,&H00FEFAFE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_33425_446_The_Battle_on_Ra,Open Sans Semibold,38,&H000692AE,&H000000FF,&H00F7F3F6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_33677_448_And_now___,Open Sans Semibold,38,&H00F9FEFF,&H000000FF,&H00885A3A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_34100_454_Odd_Jobs_Gin_cha,Open Sans Semibold,35,&H00241C12,&H000000FF,&H009E9281,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_34243_458_Silver_Soul_Arc,Open Sans Semibold,38,&H00B7BBB8,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_34312_460_Look_forward_to_,Open Sans Semibold,36,&H00F6FAF4,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.90,0:00:05.07,Internal,Shin,0000,0000,0000,,I don't know if that store really existed.
+Dialogue: 0,0:00:05.82,0:00:07.24,Internal,Shin,0000,0000,0000,,At a seemingly cursed eyewear shop,
+Dialogue: 0,0:00:07.72,0:00:12.57,Internal,Shin,0000,0000,0000,,I was sold a pair of Curr Sedd Glasses \Nthat just turned out to be cursed glasses
+Dialogue: 0,0:00:13.03,0:00:16.37,Internal,Shin,0000,0000,0000,,and started seeing all kinds \Nof spirits haunting our world.
+Dialogue: 0,0:00:16.79,0:00:19.08,Internal,Shin,0000,0000,0000,,Gin-san's guardian spirit, Asuraman.
+Dialogue: 0,0:00:17.71,0:00:19.08,sign_25442_356_One_word_and_you,Sign,0000,0000,0000,,One word and you're dead.
+Dialogue: 0,0:00:19.71,0:00:21.97,Internal,Shin,0000,0000,0000,,Kagura-chan's guardian spirit, Alchu.
+Dialogue: 0,0:00:22.55,0:00:26.01,Internal,Shin,0000,0000,0000,,And I have to take part in the \Ndistrict sports meet in this state.
+Dialogue: 0,0:00:26.01,0:00:29.34,Internal,Shin,0000,0000,0000,,That fierce battle is about to begin!
+Dialogue: 0,0:00:27.28,0:00:28.09,sign_31513_456_Kabuki_District_,Sign,0000,0000,0000,,Kabuki District Sports Meet
+Dialogue: 0,0:00:30.47,0:00:35.35,Internal,Shin,0000,0000,0000,,Somebody get these messed-up \Nglasses off of me!
+Dialogue: 0,0:00:41.65,0:00:47.61,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:44.48,0:00:47.61,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:02:15.87,0:02:21.84,Ep Title,Title,0000,0000,0000,,{\fad(444,1)}Guardian Spirits Are Also\Na Part of the Soul
+Dialogue: 0,0:02:21.98,0:02:23.42,sign_31513_456_Kabuki_District_,Sign,0000,0000,0000,,{\fad(315,1)}Kabuki District Sports Meet
+Dialogue: 0,0:02:23.82,0:02:25.79,Main,Kag,0000,0000,0000,,{\an8}We're on Team White.
+Dialogue: 0,0:02:23.82,0:02:30.07,Warning,Warning,0000,0000,0000,,{\fad(460,493)}Watch the Slip Arc in a bright room\Nand at a safe distance from your TV!
+Dialogue: 0,0:02:25.79,0:02:27.69,Main,Kag,0000,0000,0000,,{\an8}The other guys are Team Red.
+Dialogue: 0,0:02:27.69,0:02:30.43,Main,Kag,0000,0000,0000,,{\an8}Aw, I wanted to be Red.
+Dialogue: 0,0:02:30.43,0:02:32.93,Internal,Shin,0000,0000,0000,,Uh, in my eyes,
+Dialogue: 0,0:02:33.96,0:02:36.72,Internal,Shin,0000,0000,0000,,they all look like Team \NDripping With Blood Red!
+Dialogue: 0,0:02:37.83,0:02:40.45,Main,G,0000,0000,0000,,Hey, aren't those guys on Team White?
+Dialogue: 0,0:02:40.45,0:02:41.50,Main,G,0000,0000,0000,,How about we curse them?
+Dialogue: 0,0:02:41.50,0:02:42.63,Main,G,0000,0000,0000,,Don't do it.
+Dialogue: 0,0:02:42.63,0:02:46.23,Main,G,0000,0000,0000,,They're {\i1}the{\i0} Asuraman and Alchu's masters.
+Dialogue: 0,0:02:46.23,0:02:47.44,Main,G,0000,0000,0000,,What? That's them?
+Dialogue: 0,0:02:47.80,0:02:49.87,Main,G,0000,0000,0000,,Asuraman, killer of 8,000 guardian spirits,
+Dialogue: 0,0:02:49.87,0:02:52.14,Main,G,0000,0000,0000,,and Alchu, the man who defeated \NAdmiral Great Spirit Battler?
+Dialogue: 0,0:02:52.14,0:02:55.33,Internal,Shin,0000,0000,0000,,What? Are these guys famous \Nin guardian-spirit circles?
+Dialogue: 0,0:02:55.33,0:02:57.41,Main,G,0000,0000,0000,,They mowed down a wave of guardian spirits
+Dialogue: 0,0:02:57.41,0:03:01.56,Main,G,0000,0000,0000,,and helped their masters win a box of \Ndetergent in the Edo Supermarket Lottery.
+Dialogue: 0,0:03:01.56,0:03:03.13,Main,G,0000,0000,0000,,They're monsters.
+Dialogue: 0,0:03:03.13,0:03:04.84,Flashback,G,0000,0000,0000,,You win fourth prize!
+Dialogue: 0,0:03:05.26,0:03:08.97,Internal,Shin,0000,0000,0000,,Wait, there was a bloodbath \Nhappening even then?!
+Dialogue: 0,0:03:05.27,0:03:07.14,Flashback,Gin,0000,0000,0000,,{\an8}What, just detergent?
+Dialogue: 0,0:03:09.47,0:03:12.72,Main,G,0000,0000,0000,,But that four-eyes is walking \Naround without a guardian spirit.
+Dialogue: 0,0:03:12.72,0:03:14.67,Main,G,0000,0000,0000,,Wanna go curse him?
+Dialogue: 0,0:03:14.67,0:03:17.64,Main,G,0000,0000,0000,,Even the slightest advantage could \Nhelp our masters in Team Red!
+Dialogue: 0,0:03:18.60,0:03:22.09,Internal,Shin,0000,0000,0000,,Wait, don't be hasty! \NIt's just a sports meet!
+Dialogue: 0,0:03:22.73,0:03:23.36,Main,Mad,0000,0000,0000,,Hey!
+Dialogue: 0,0:03:23.87,0:03:26.14,Main,Mad,0000,0000,0000,,That guy's my friend!
+Dialogue: 0,0:03:26.14,0:03:27.86,Main,G,0000,0000,0000,,Y-You're...
+Dialogue: 0,0:03:27.86,0:03:32.74,Main,G,0000,0000,0000,,The hero of the Great Discarded \NLunch Box War, MAD—
+Dialogue: 0,0:03:36.15,0:03:38.21,Main,Mad,0000,0000,0000,,Get lost, scrubs.
+Dialogue: 0,0:03:37.51,0:03:42.00,sign_5046_48_Guardian_Spirit_,Sign,0000,0000,0000,,Guardian Spirit MADAO\NShades's guardian spirit
+Dialogue: 0,0:03:38.21,0:03:39.95,Main,,0000,0000,0000,,Guardian Spirit MADAO.
+Dialogue: 0,0:03:39.95,0:03:42.00,Internal,Shin,0000,0000,0000,,Wait, you're a guardian spirit?!
+Dialogue: 0,0:03:42.39,0:03:50.38,sign_5163_51_A_spirit_that_be,Sign,0000,0000,0000,,Became a spirit while still a dead man walking. Looks like\Na normal person at first glance, but the shades are the actual body,\Nand the human is the spirit. Can't do anything without his shades.
+Dialogue: 0,0:03:43.23,0:03:45.05,Main,Mad,0000,0000,0000,,Are you okay, Shinpachi-kun?
+Dialogue: 0,0:03:45.05,0:03:46.79,Internal,Shin,0000,0000,0000,,No, are {\i0}you{\i1} okay?!
+Dialogue: 0,0:03:46.79,0:03:50.38,Internal,Shin,0000,0000,0000,,You became a spirit at some point! \NYour shades became the actual body!
+Dialogue: 0,0:03:51.65,0:03:55.11,Main,Mad,0000,0000,0000,,If things go bad, this sports \Nmeet could lead to deaths.
+Dialogue: 0,0:03:55.11,0:03:56.72,Internal,Shin,0000,0000,0000,,You're already dead, though.
+Dialogue: 0,0:03:56.14,0:04:02.64,sign_5493_57_Prize__500_000_y,Sign,0000,0000,0000,,Prize: 500,000 yen
+Dialogue: 0,0:03:57.33,0:04:02.08,Main,Mad,0000,0000,0000,,Looks like everyone's hyped after hearing \Nthat the winning team gets a cash prize.
+Dialogue: 0,0:04:02.08,0:04:02.64,Main,Mad,0000,0000,0000,,Look at that.
+Dialogue: 0,0:04:03.63,0:04:05.59,Main,G,0000,0000,0000,,H-Hey, Yosaku, what's wrong?
+Dialogue: 0,0:04:05.59,0:04:07.26,Main,G,0000,0000,0000,,My tummy just started aching.
+Dialogue: 0,0:04:07.26,0:04:08.32,Main,G,0000,0000,0000,,Pull yourself together.
+Dialogue: 0,0:04:09.23,0:04:10.52,Main,G,0000,0000,0000,,Kichinosuke!
+Dialogue: 0,0:04:11.70,0:04:14.20,Main,Mad,0000,0000,0000,,That's the effect of having their \Nguardian spirits taken out.
+Dialogue: 0,0:04:14.59,0:04:17.04,Main,Mad,0000,0000,0000,,The fates of guardian spirits and \Ntheir masters are intertwined.
+Dialogue: 0,0:04:17.04,0:04:20.20,Main,Mad,0000,0000,0000,,If a guardian spirit's in trouble, \Nits master will get in trouble, too.
+Dialogue: 0,0:04:20.20,0:04:21.15,Main,G,0000,0000,0000,,What the hell happened?
+Dialogue: 0,0:04:21.15,0:04:23.08,Main,G,0000,0000,0000,,Most of Team White got wiped out!
+Dialogue: 0,0:04:23.71,0:04:26.84,Main,Al,0000,0000,0000,,Okay. Now we can hog all the prize money.
+Dialogue: 0,0:04:26.10,0:04:28.59,Spirit L,Sign,0000,0000,0000,,I'm gonna kill you guys.
+Dialogue: 0,0:04:26.84,0:04:28.59,Internal,Shin,0000,0000,0000,,It was infighting?!
+Dialogue: 0,0:04:28.59,0:04:31.09,sign_31513_456_Kabuki_District_,Sign,0000,0000,0000,,Kabuki District Sports Meet
+Dialogue: 0,0:04:29.00,0:04:31.09,Main,MC,0000,0000,0000,,Participants are to take their positions.
+Dialogue: 0,0:04:31.43,0:04:33.46,Main,MC,0000,0000,0000,,The first game is pole basketball.
+Dialogue: 0,0:04:33.46,0:04:35.21,Main,MC,0000,0000,0000,,Get set, go!
+Dialogue: 0,0:04:38.10,0:04:40.97,Main,G,0000,0000,0000,,All right! We won't lose to Team White!
+Dialogue: 0,0:04:41.98,0:04:42.98,Main,G,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:43.32,0:04:45.88,Main,G,0000,0000,0000,,Take-chan, you've got \Nsomething red on your face.
+Dialogue: 0,0:04:45.88,0:04:46.98,Main,G,0000,0000,0000,,Huh? What is it?
+Dialogue: 0,0:04:50.48,0:04:53.24,sign_6796_80_Kabuki_District_,Sign,0000,0000,0000,,Kabuki District Association
+Dialogue: 0,0:04:51.49,0:04:53.24,Main,Oto,0000,0000,0000,,A bonding event like this
+Dialogue: 0,0:04:53.61,0:04:55.49,Main,Oto,0000,0000,0000,,isn't a bad idea once in a while.
+Dialogue: 0,0:04:56.02,0:04:57.99,Internal,Shin,0000,0000,0000,,What part of this is "bonding"?!
+Dialogue: 0,0:04:57.99,0:05:00.76,Internal,Shin,0000,0000,0000,,Right beside the kids throwing \Nballs with smiles on their faces,
+Dialogue: 0,0:05:00.76,0:05:03.21,Internal,Shin,0000,0000,0000,,guardian-spirit eyeballs are \Nflying all over the place!
+Dialogue: 0,0:05:03.21,0:05:06.72,Internal,Shin,0000,0000,0000,,How am I supposed to play this game \Nwhile watching a scene out of hell?!
+Dialogue: 0,0:05:07.20,0:05:10.13,Main,Shin,0000,0000,0000,,Someone get these cursed glasses off of me!
+Dialogue: 0,0:05:10.13,0:05:12.63,Main,Kag,0000,0000,0000,,Huh? That's weird.
+Dialogue: 0,0:05:12.63,0:05:16.51,Main,Kag,0000,0000,0000,,We've been throwing ball after ball, \Nbut they're not going in the basket.
+Dialogue: 0,0:05:17.37,0:05:21.00,Main,Gin,0000,0000,0000,,Is it just me, or did a ball that \Nwas clearly going in just rebound?
+Dialogue: 0,0:05:21.00,0:05:23.98,Main,Kag,0000,0000,0000,,It's like there's something invisible \Nin the basket already.
+Dialogue: 0,0:05:24.52,0:05:25.39,Internal,Shin,0000,0000,0000,,No...
+Dialogue: 0,0:05:26.20,0:05:28.75,Internal,Shin,0000,0000,0000,,There's a haunting spirit \Nliving in the basket!
+Dialogue: 0,0:05:28.75,0:05:30.65,Internal,Shin,0000,0000,0000,,What the hell are you doing \Nup there, Hasegawa-san?!
+Dialogue: 0,0:05:30.65,0:05:32.98,Main,Mad,0000,0000,0000,,R-Run away...
+Dialogue: 0,0:05:32.98,0:05:34.07,Main,Kag,0000,0000,0000,,Get in!
+Dialogue: 0,0:05:34.07,0:05:35.46,Main,Gin,0000,0000,0000,,Why won't they go in?
+Dialogue: 0,0:05:35.46,0:05:39.62,Internal,Shin,0000,0000,0000,,Wait! You may not see him, \Nbut Hasegawa-san's in there!
+Dialogue: 0,0:05:40.58,0:05:45.06,Main,Mad,0000,0000,0000,,Team Red has a crazy guardian spirit, too!
+Dialogue: 0,0:05:45.06,0:05:47.21,Main,Mad,0000,0000,0000,,A real monster!
+Dialogue: 0,0:05:49.59,0:05:51.59,Internal,Shin,0000,0000,0000,,Gin-san's guardian spirit!
+Dialogue: 0,0:05:52.71,0:05:53.91,Main,Kag,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:05:53.91,0:05:56.59,Main,Kag,0000,0000,0000,,Shinpachi! Gin-chan suddenly...
+Dialogue: 0,0:05:57.80,0:06:00.24,Internal,Shin,0000,0000,0000,,No way. Don't tell me...
+Dialogue: 0,0:06:00.85,0:06:03.60,Main,Tae,0000,0000,0000,,Fancy running into you here, Shin-chan.
+Dialogue: 0,0:06:03.60,0:06:06.02,Main,Tae,0000,0000,0000,,You're all taking part, too?
+Dialogue: 0,0:06:06.02,0:06:09.56,Main,Tae,0000,0000,0000,,Unfortunately, it looks like \Nwe're on opposing teams.
+Dialogue: 0,0:06:10.75,0:06:13.68,Main,Tae,0000,0000,0000,,But let's play fair and have fun, okay?
+Dialogue: 0,0:06:21.25,0:06:23.15,Internal,Shin,0000,0000,0000,,What part of this is fair?!
+Dialogue: 0,0:06:23.95,0:06:28.36,Internal,Shin,0000,0000,0000,,You have an S-ranked OP monster \Nas a guardian spirit!
+Dialogue: 0,0:06:27.85,0:06:30.83,sign_9130_111_Guardian_Spirit_,Sign,0000,0000,0000,,Guardian Spirit\NDark Thousand-Armed Kannon
+Dialogue: 0,0:06:28.36,0:06:30.83,Main,Voice,0000,0000,0000,,Guardian Spirit Dark Thousand-Armed Kannon.
+Dialogue: 0,0:06:30.83,0:06:34.71,Internal,Shin,0000,0000,0000,,What kind of lifestyle did you lead to \Nget haunted by a spirit like that, Sis?!
+Dialogue: 0,0:06:35.86,0:06:38.86,sign_9322_115_Shimura_Tae_s_Gu,Sign,0000,0000,0000,,Shimura Tae's Guardian Spirit\NThe thousands of eggs she \Nburned to death came together\Nto form this spirit.
+Dialogue: 0,0:06:36.36,0:06:38.27,Flashback,Tae,0000,0000,0000,,Oh, no. I burned it again.
+Dialogue: 0,0:06:38.27,0:06:39.72,Internal,Shin,0000,0000,0000,,It's the resentment of omelets?!
+Dialogue: 0,0:06:39.72,0:06:42.51,Internal,Shin,0000,0000,0000,,Just how deep must their grudge be \Nto turn them into that monster?!
+Dialogue: 0,0:06:43.49,0:06:48.35,sign_9322_115_Shimura_Tae_s_Gu,Sign,0000,0000,0000,,Karma causes her to be haunted \Nby Dark Kannon. She's put under \Nthe Dark Matter Curse, which burns\Neverything she touches pitch-black.
+Dialogue: 0,0:06:43.87,0:06:46.12,Flashback,Tae,0000,0000,0000,,Oh, no. I burned the fish, too.
+Dialogue: 0,0:06:46.12,0:06:48.35,Internal,Shin,0000,0000,0000,,The dark matter was the result of a curse?!
+Dialogue: 0,0:06:48.62,0:06:52.23,Spirit Text L,Sign,0000,0000,0000,,She's also put under the Ya**da\NYu Curse, meaning she has to\Nlive with a kid brother whose \Ntalents have all turned to ash.
+Dialogue: 0,0:06:50.07,0:06:52.23,Internal,Shin,0000,0000,0000,,Why am I being treated like a curse, too?!
+Dialogue: 0,0:06:52.38,0:07:00.20,Spirit Text R,Sign,0000,0000,0000,,Battle Points
+Dialogue: 0,0:06:52.74,0:06:54.17,Internal,Shin,0000,0000,0000,,What the hell are battle points?
+Dialogue: 0,0:06:54.17,0:06:56.32,Internal,Shin,0000,0000,0000,,I didn't know we had such \Na pretentious system!
+Dialogue: 0,0:06:55.88,0:07:00.20,Spirit Text L,Sign,0000,0000,0000,,{\an4}(But if brother is present,\NBP is reduced by 2,000.)
+Dialogue: 0,0:06:57.81,0:07:00.20,Internal,Shin,0000,0000,0000,,Could the brother be any more of a burden?!
+Dialogue: 0,0:07:00.79,0:07:04.78,Internal,Shin,0000,0000,0000,,That arm I got a glimpse of back \Nthen was one of its thousand arms?
+Dialogue: 0,0:07:04.78,0:07:08.29,Internal,Shin,0000,0000,0000,,I can't believe it took out \NAsuraman and Alchu in a flash.
+Dialogue: 0,0:07:08.29,0:07:10.66,Internal,Shin,0000,0000,0000,,It's only the first match, \Nand we're half-dead already.
+Dialogue: 0,0:07:10.66,0:07:13.29,Main,Kag,0000,0000,0000,,We got food poisoning, too?
+Dialogue: 0,0:07:13.29,0:07:15.81,Internal,Shin,0000,0000,0000,,There's no way we can beat \Na monster like that.
+Dialogue: 0,0:07:15.81,0:07:18.28,Main,Tae,0000,0000,0000,,Oh, we're out of balls.
+Dialogue: 0,0:07:18.28,0:07:21.43,Main,Tae,0000,0000,0000,,Staff, could we please get some more balls?
+Dialogue: 0,0:07:21.43,0:07:24.84,Main,Kon,0000,0000,0000,,Coming right up. We have \Nall the balls you want.
+Dialogue: 0,0:07:24.84,0:07:28.15,Main,Kon,0000,0000,0000,,Do you want red balls, white balls,
+Dialogue: 0,0:07:28.15,0:07:28.85,Main,Kon,0000,0000,0000,,or...
+Dialogue: 0,0:07:30.60,0:07:32.08,Main,Kon,0000,0000,0000,,my balls*ck?
+Dialogue: 0,0:07:36.00,0:07:40.49,Spirit Text R,Sign,0000,0000,0000,,Guardian Spirit\NTen-Thousand Vajra Ball Bodhisattva\NBalls*ck's guardian spirit.
+Dialogue: 0,0:07:36.28,0:07:39.07,Main,Voice,0000,0000,0000,,Guardian Spirit Ten-Thousand \NVajra Ball Bodhisattva.
+Dialogue: 0,0:07:39.07,0:07:40.49,Internal,Shin,0000,0000,0000,,What kinda guardian spirit is that?!
+Dialogue: 0,0:07:41.26,0:07:44.99,sign_5163_51_A_spirit_that_be,Sign,0000,0000,0000,,Along with being the guardian spirit of Kondo's balls*ck, \Nit's also the guardian spirit of Shimura Tae's guardian spirit.
+Dialogue: 0,0:07:42.81,0:07:44.99,Internal,Shin,0000,0000,0000,,What do you mean, the guardian \Nspirit of a guardian spirit?
+Dialogue: 0,0:07:45.39,0:07:47.70,Spirit Text R,Sign,0000,0000,0000,,The thousands of sticky eggs that\NKondo Isao wrapped in tissues and\Nkilled came together to form this spirit.
+Dialogue: 0,0:07:46.59,0:07:47.70,Internal,Shin,0000,0000,0000,,What eggs are you talking about?!
+Dialogue: 0,0:07:48.10,0:07:52.37,Spirit Text L,Sign,0000,0000,0000,,The karma from that puts him \Nunder the Stalker Curse, which \Nmakes him a devious stalker with \Na sticky body.
+Dialogue: 0,0:07:49.41,0:07:52.37,Internal,Shin,0000,0000,0000,,Don't try to blame a \Ncurse for your stalking!
+Dialogue: 0,0:07:53.52,0:07:56.13,Spirit Text R,Sign,0000,0000,0000,,His resemblance to gorillas has \Nnothing to do with any curses.
+Dialogue: 0,0:07:54.05,0:07:56.13,Internal,Shin,0000,0000,0000,,Blame a curse for {\i0}that{\i1}!
+Dialogue: 0,0:07:56.27,0:08:03.09,sign_11250_150_Gorilla_Points,Sign,0000,0000,0000,,Gorilla Points
+Dialogue: 0,0:07:57.36,0:07:59.44,Internal,Shin,0000,0000,0000,,Hey, what the hell are gorilla points?!
+Dialogue: 0,0:07:59.19,0:08:03.09,Spirit Text L,Sign,0000,0000,0000,,{\an4}But if Shimura Tae\Nis present, 2x GP.
+Dialogue: 0,0:08:00.20,0:08:03.09,Internal,Shin,0000,0000,0000,,Why'd it double? Don't \Ncount Sis as a gorilla!
+Dialogue: 0,0:08:03.47,0:08:06.53,Main,Kon,0000,0000,0000,,Make your choice: red balls, \Nwhite balls, or my balls*ck.
+Dialogue: 0,0:08:06.53,0:08:07.76,Main,Kon,0000,0000,0000,,Which will you pick?
+Dialogue: 0,0:08:08.33,0:08:09.21,Main,Tae,0000,0000,0000,,In that case,
+Dialogue: 0,0:08:09.89,0:08:11.21,Main,Tae,0000,0000,0000,,I'll use your soul balls as actual balls.
+Dialogue: 0,0:08:17.23,0:08:18.32,Main,MC,0000,0000,0000,,Time's up!
+Dialogue: 0,0:08:18.32,0:08:21.36,Main,MC,0000,0000,0000,,Both teams have scored \Nzero balls. It's a draw.
+Dialogue: 0,0:08:21.73,0:08:23.24,Internal,Shin,0000,0000,0000,,We tied!
+Dialogue: 0,0:08:23.24,0:08:26.23,Internal,Shin,0000,0000,0000,,Thanks to the moron, \Nwe somehow managed to tie!
+Dialogue: 0,0:08:26.23,0:08:28.79,Internal,Shin,0000,0000,0000,,B-But how will we play the next game?
+Dialogue: 0,0:08:29.11,0:08:31.51,Main,Shin,0000,0000,0000,,Gin-san, Kagura-chan, \Nwe can't go any further.
+Dialogue: 0,0:08:31.51,0:08:35.19,Main,Shin,0000,0000,0000,,Let's retire. Enough of \Nthis sports meet from hell.
+Dialogue: 0,0:08:35.19,0:08:38.04,Main,Gin,0000,0000,0000,,Don't be stupid. There's \Nprize money riding on this.
+Dialogue: 0,0:08:38.04,0:08:38.80,Main,Gin,0000,0000,0000,,Besides...
+Dialogue: 0,0:08:39.16,0:08:42.21,Main,MC,0000,0000,0000,,The next game is the \Nthree-legged obstacle race.
+Dialogue: 0,0:08:42.76,0:08:45.59,Main,Gin,0000,0000,0000,,As you heard, the next event \Nrelies on cooperation.
+Dialogue: 0,0:08:45.59,0:08:47.26,Main,Gin,0000,0000,0000,,We can get through this \Nwith each other's help.
+Dialogue: 0,0:08:47.59,0:08:51.78,Internal,Shin,0000,0000,0000,,Uh, you need the help of your guardian \Nspirits most, and they've been taken out.
+Dialogue: 0,0:08:51.78,0:08:52.64,Internal,Shin,0000,0000,0000,,Damn it.
+Dialogue: 0,0:08:52.95,0:08:56.15,Internal,Shin,0000,0000,0000,,I'm the only one who can see them. \NI have to do something.
+Dialogue: 0,0:08:57.45,0:09:03.05,Main,Al,0000,0000,0000,,I can't believe a god-level guardian \Nspirit is taking part in a sports meet.
+Dialogue: 0,0:09:01.23,0:09:05.95,sign_12806_174_It_seems_we_ll_h,Sign,0000,0000,0000,,It seems we'll have to \Ngo out all-out, too.
+Dialogue: 0,0:09:03.05,0:09:05.95,Main,Al,0000,0000,0000,,Yeah. We have no choice \Nbut to do {\i1}that{\i0}, Asuraman.
+Dialogue: 0,0:09:06.27,0:09:08.39,Internal,Shin,0000,0000,0000,,Do what? Do you have an idea?
+Dialogue: 0,0:09:08.80,0:09:11.70,Main,Al,0000,0000,0000,,If our masters are going three-legged,
+Dialogue: 0,0:09:11.70,0:09:14.21,Main,Al,0000,0000,0000,,we'll just do the same.
+Dialogue: 0,0:09:14.78,0:09:18.52,Main,Al,0000,0000,0000,,Guardian Fusion!
+Dialogue: 0,0:09:15.23,0:09:16.96,sign_13143_180_Guardian_Fusion,Sign,0000,0000,0000,,Guardian Fusion
+Dialogue: 0,0:09:18.52,0:09:19.17,Main,Shin,0000,0000,0000,,Fusion?!
+Dialogue: 0,0:09:21.52,0:09:24.01,Spirit Text R,Sign,0000,0000,0000,,Guardian Fusion refers to the phenomenon\N where multiple guardian spirits fuse together\N to form a stronger one.
+Dialogue: 0,0:09:24.28,0:09:26.01,Spirit Text R,Sign,0000,0000,0000,,When Asuraman and Alchu do\Nthe Guardian Fusion dance,
+Dialogue: 0,0:09:26.70,0:09:28.89,Spirit Text R,Sign,0000,0000,0000,,they protect Odd Jobs
+Dialogue: 0,0:09:27.91,0:09:28.89,Spirit Text L,Sign,0000,0000,0000,,{\an4}by evolving into a\Ndivine guardian spirit.
+Dialogue: 0,0:09:34.16,0:09:38.90,Spirit Text R,Sign,0000,0000,0000,,Divine Guardian Spirit MADAO \N(MAd DAmnation Omen)
+Dialogue: 0,0:09:34.48,0:09:37.23,Main,Voice,0000,0000,0000,,Divine Guardian Spirit MADAO.
+Dialogue: 0,0:09:37.23,0:09:40.03,Internal,Shin,0000,0000,0000,,Something else got mixed in!
+Dialogue: 0,0:09:50.15,0:09:52.00,Main,Voice,0000,0000,0000,,Divine Guardian Spirit MADAO.
+Dialogue: 0,0:09:50.15,0:09:56.93,sign_5163_51_A_spirit_that_be,Sign,0000,0000,0000,,MADAO: A guardian spirit accidentally born when a fly\Njoined the Guardian Fusion. Currently unemployed.
+Dialogue: 0,0:09:53.92,0:09:56.94,Internal,Shin,0000,0000,0000,,We forgot about the fly in the basket!
+Dialogue: 0,0:09:58.28,0:10:02.14,Spirit Text L,Sign,0000,0000,0000,,The three spirit's powers have combined, \Nmeaning it's an unemployed alcoholic that\Ncan only communicate with a whiteboard.
+Dialogue: 0,0:09:59.88,0:10:02.14,Internal,Shin,0000,0000,0000,,It's just a fusion of all their problems!
+Dialogue: 0,0:10:02.14,0:10:08.02,sign_14268_195_Battle_Points,Sign,0000,0000,0000,,Battle Points
+Dialogue: 0,0:10:03.36,0:10:04.73,Internal,Shin,0000,0000,0000,,Whoa, that's super high!
+Dialogue: 0,0:10:04.37,0:10:08.02,Spirit Text L,Sign,0000,0000,0000,,{\an4}(But on days when it lacks\Nthe motivation to work, BP \Nis reduced by 31999.)
+Dialogue: 0,0:10:05.84,0:10:08.02,Internal,Shin,0000,0000,0000,,So it's trash all 365 days of the year!
+Dialogue: 0,0:10:08.02,0:10:10.60,Main,MC,0000,0000,0000,,Participants, are you ready?
+Dialogue: 0,0:10:10.60,0:10:11.40,Internal,Shin,0000,0000,0000,,Crap.
+Dialogue: 0,0:10:11.40,0:10:13.20,Internal,Shin,0000,0000,0000,,The race is about to begin.
+Dialogue: 0,0:10:13.77,0:10:17.09,Main,MC,0000,0000,0000,,Three-legged obstacle race! Get set, go!
+Dialogue: 0,0:10:19.46,0:10:22.53,Internal,Shin,0000,0000,0000,,Not a single group's running on three legs!
+Dialogue: 0,0:10:22.53,0:10:24.74,Internal,Shin,0000,0000,0000,,What the hell is this creepy game?
+Dialogue: 0,0:10:24.74,0:10:27.37,Internal,Shin,0000,0000,0000,,Is this how three-legged \Nraces have always worked?
+Dialogue: 0,0:10:27.75,0:10:29.04,Internal,Shin,0000,0000,0000,,But we might have a shot here.
+Dialogue: 0,0:10:29.04,0:10:30.84,Internal,Shin,0000,0000,0000,,Divine Guardian Spirit MADAO is a quadruped.
+Dialogue: 0,0:10:30.84,0:10:32.78,Internal,Shin,0000,0000,0000,,It's perfect to ride on!
+Dialogue: 0,0:10:34.93,0:10:37.17,Internal,Shin,0000,0000,0000,,That's how it walks?!
+Dialogue: 0,0:10:37.17,0:10:39.65,Internal,Shin,0000,0000,0000,,What I thought was its face \Nwas actually its sole?!
+Dialogue: 0,0:10:39.65,0:10:42.69,Internal,Shin,0000,0000,0000,,It's gonna take more than a hundred \Nyears to cross the finish line!
+Dialogue: 0,0:10:42.69,0:10:46.18,Internal,Shin,0000,0000,0000,,Get off! You're sure to \Ngo much faster that way!
+Dialogue: 0,0:10:47.58,0:10:51.69,sign_15357_213_Hey__taxi_,Sign,0000,0000,0000,,Hey, taxi.
+Dialogue: 0,0:10:47.90,0:10:50.14,Internal,Shin,0000,0000,0000,,Don't try to hail a cab!
+Dialogue: 0,0:10:52.08,0:10:56.04,Main,Kat,0000,0000,0000,,Gintoki, Leader. What are you doing here?
+Dialogue: 0,0:10:56.52,0:10:59.03,Main,Kat,0000,0000,0000,,Want a ride on my guardian spirit?
+Dialogue: 0,0:10:59.03,0:11:00.36,Main,Voice,0000,0000,0000,,Guardian Spirit...
+Dialogue: 0,0:10:59.22,0:11:04.33,Spirit Text R,Sign,0000,0000,0000,,Guardian Spirit \NKatsulla Not Corolla
+Dialogue: 0,0:11:00.36,0:11:02.27,Main,Kat,0000,0000,0000,,Katsulla Not Corolla.
+Dialogue: 0,0:11:02.27,0:11:04.34,Internal,Shin,0000,0000,0000,,Why is a Corolla your guardian spirit?!
+Dialogue: 0,0:11:04.85,0:11:11.08,sign_5163_51_A_spirit_that_be,Sign,0000,0000,0000,,{\fs16}Katsura Kotaro's guardian spirit. When he got in a traffic accident, his soul was\Nsplit in two. One half entered a Corolla, and the other was bound for hell, \Nbut was given a ride to his body by the Corolla and safely made it through.
+Dialogue: 0,0:11:07.52,0:11:11.61,Internal,Shin,0000,0000,0000,,But it didn't! Half his soul is still gone!
+Dialogue: 0,0:11:11.94,0:11:16.76,sign_5163_51_A_spirit_that_be,Sign,0000,0000,0000,,Ever since, he kept the spirit of the car around even after \Nit went out of service, used it to escape in emergencies, \Nand came to be known as Runaway Kotarou.
+Dialogue: 0,0:11:14.10,0:11:16.76,Internal,Shin,0000,0000,0000,,Runaway Kotarou was running \Naway in a Corolla?!
+Dialogue: 0,0:11:18.23,0:11:24.76,sign_5163_51_A_spirit_that_be,Sign,0000,0000,0000,,In return for that power, he would be put under the Katsura\NNot Zura Curse, meaning he had to always drag the Corolla\N around with his hair and abuse his hair roots to the limit.
+Dialogue: 0,0:11:20.45,0:11:22.48,Internal,Shin,0000,0000,0000,,You were always pushing \Nyourself to the extreme?
+Dialogue: 0,0:11:22.48,0:11:24.76,Internal,Shin,0000,0000,0000,,The "I'm not Zura, I'm Katsura" \Nthing always bothered you?
+Dialogue: 0,0:11:25.15,0:11:27.20,Main,Kat,0000,0000,0000,,What's wrong? Aren't you getting on, Gintoki?
+Dialogue: 0,0:11:27.20,0:11:28.62,Main,Gin,0000,0000,0000,,Uh, get on what?
+Dialogue: 0,0:11:28.62,0:11:31.56,Main,Kat,0000,0000,0000,,Right. We're on opposite sides now.
+Dialogue: 0,0:11:31.56,0:11:33.27,Main,Kat,0000,0000,0000,,I'll be waiting for you \Nat the finish line, then!
+Dialogue: 0,0:11:34.40,0:11:35.57,Internal,Shin,0000,0000,0000,,Is that even allowed?!
+Dialogue: 0,0:11:35.57,0:11:38.46,Internal,Shin,0000,0000,0000,,They're the biggest obstacles \Nin this obstacle race!
+Dialogue: 0,0:11:38.46,0:11:39.51,sign_5493_57_Prize__500_000_y,,0000,0000,0000,,Danger\N{\fs24}Demons
+Dialogue: 0,0:11:40.97,0:11:42.91,Main,MC,0000,0000,0000,,Whoa, an explosion!
+Dialogue: 0,0:11:42.91,0:11:47.29,Main,MC,0000,0000,0000,,They've run into the talisman area, \Nwhich fends off all wicked beings!
+Dialogue: 0,0:11:47.29,0:11:48.62,Main,Kat,0000,0000,0000,,Corolla!
+Dialogue: 0,0:11:48.62,0:11:50.52,Internal,Shin,0000,0000,0000,,What the hell is a talisman area?!
+Dialogue: 0,0:11:50.52,0:11:53.88,Internal,Shin,0000,0000,0000,,Why are talismans part of an obstacle race?!
+Dialogue: 0,0:11:53.88,0:11:56.88,Internal,Shin,0000,0000,0000,,They're clearly out to \Nget the guardian spirits!
+Dialogue: 0,0:11:59.18,0:12:02.09,Internal,Shin,0000,0000,0000,,They're all passing on one after \Nanother! What's with this sports meet?
+Dialogue: 0,0:12:02.09,0:12:06.45,Main,Kat,0000,0000,0000,,Hang in there, Corolla. \NI won't leave you behind.
+Dialogue: 0,0:12:06.45,0:12:09.96,Internal,Shin,0000,0000,0000,,The master's carrying his guardian \Nspirit! Talk about role reversal!
+Dialogue: 0,0:12:10.81,0:12:12.10,Main,Hij,0000,0000,0000,,Now!
+Dialogue: 0,0:12:12.10,0:12:15.34,Main,MC,0000,0000,0000,,Whoa! There's another pair in hot pursuit!
+Dialogue: 0,0:12:15.34,0:12:19.70,Main,Hij,0000,0000,0000,,Katsura, your time's up! Surrender \Nto the long arm of the law!
+Dialogue: 0,0:12:19.70,0:12:22.24,Internal,Shin,0000,0000,0000,,Why're you guys running on three legs, too?!
+Dialogue: 0,0:12:19.70,0:12:22.24,Main,Bo,0000,0000,0000,,{\an8}One, two... One, two...
+Dialogue: 0,0:12:22.57,0:12:26.57,Main,Kat,0000,0000,0000,,They were waiting for the \Nmoment my Corolla broke down?
+Dialogue: 0,0:12:26.57,0:12:28.24,Main,Kat,0000,0000,0000,,Of all the cowardly schemes!
+Dialogue: 0,0:12:28.24,0:12:29.50,Main,Hij,0000,0000,0000,,Keep talking!
+Dialogue: 0,0:12:29.50,0:12:33.07,Main,Hij,0000,0000,0000,,You dug your own grave by taking part \Nin a sports meet as a Joi Rebel!
+Dialogue: 0,0:12:33.07,0:12:35.75,Internal,Shin,0000,0000,0000,,You're one to talk, cop taking \Npart in a sports meet!
+Dialogue: 0,0:12:35.75,0:12:39.62,Main,Kat,0000,0000,0000,,But can you two cross this talisman area?
+Dialogue: 0,0:12:39.62,0:12:43.30,Main,Kat,0000,0000,0000,,If you can't, you'll never \Ncatch me and my Corolla!
+Dialogue: 0,0:12:45.21,0:12:45.80,Main,Kat,0000,0000,0000,,Wha...
+Dialogue: 0,0:12:45.80,0:12:50.31,Main,MC,0000,0000,0000,,Wait, what's going on here? The talismans!
+Dialogue: 0,0:12:50.62,0:12:54.23,Main,Kat,0000,0000,0000,,Impossible! You're negating the talismans?
+Dialogue: 0,0:12:54.23,0:12:57.31,Main,Kat,0000,0000,0000,,Don't tell me, your guardian spirit...
+Dialogue: 0,0:12:58.09,0:12:59.37,Main,Kat,0000,0000,0000,,It's Western?!
+Dialogue: 0,0:12:59.04,0:13:06.24,sign_18509_260_Guardian_Ghost_M,Sign,0000,0000,0000,,Guardian Ghost Mayorati Not Maserati
+Dialogue: 0,0:12:59.37,0:13:00.88,Main,Voice,0000,0000,0000,,Guardian Ghost...
+Dialogue: 0,0:13:00.88,0:13:02.95,Main,Hij,0000,0000,0000,,Mayorati Not Maserati.
+Dialogue: 0,0:13:02.95,0:13:05.42,Internal,Shin,0000,0000,0000,,That's it? It's a foreign brand?!
+Dialogue: 0,0:13:06.61,0:13:11.36,Main,Kat,0000,0000,0000,,A foreign car, not a domestic one? Of course \NJapanese talismans wouldn't affect it!
+Dialogue: 0,0:13:11.36,0:13:13.45,Main,Kat,0000,0000,0000,,That guardian spirit is cheating!
+Dialogue: 0,0:13:13.45,0:13:17.75,Internal,Shin,0000,0000,0000,,Your guardian spirits are Corolla \Nand Maserati! You're all cheating!
+Dialogue: 0,0:13:19.86,0:13:21.71,Spirit Text R,Sign,0000,0000,0000,,Hijikata Toshiro's guardian spirit. \NThe spirit of a rich man's Maserati he ruined\N by pouring mayonnaise in its tank as a\N prank back when he was a bad boy.
+Dialogue: 0,0:13:21.73,0:13:28.01,Spirit Text R,Sign,0000,0000,0000,,Due to that, he was put under the \NMayorati Curse, meaning he has to intake \Nmayonnaise at regular intervals.
+Dialogue: 0,0:13:23.01,0:13:24.84,Internal,Shin,0000,0000,0000,,You were cursed, too?!
+Dialogue: 0,0:13:24.84,0:13:28.01,Internal,Shin,0000,0000,0000,,Why are all your character \Ntraits made up of curses?!
+Dialogue: 0,0:13:28.01,0:13:29.73,Flashback,Hij,0000,0000,0000,,Hold it!
+Dialogue: 0,0:13:29.28,0:13:33.39,Spirit Text R,Sign,0000,0000,0000,,He was also put under the V-Shaped Bangs Curse, \Nmeaning his bangs are always being pulled\Nby a Maserati, putting him at risk of balding.
+Dialogue: 0,0:13:31.26,0:13:33.39,Internal,Shin,0000,0000,0000,,Of course they'd call you \Nthe demonic vice chief!
+Dialogue: 0,0:13:33.39,0:13:34.64,Main,Hij,0000,0000,0000,,Katsura!
+Dialogue: 0,0:13:34.64,0:13:36.72,Main,Hij,0000,0000,0000,,You're done for now!
+Dialogue: 0,0:13:36.72,0:13:38.69,Main,Hij,0000,0000,0000,,We've got this race in the bag!
+Dialogue: 0,0:13:38.69,0:13:39.89,Internal,Shin,0000,0000,0000,,What happened to catching him?!
+Dialogue: 0,0:13:43.85,0:13:47.04,Main,MC,0000,0000,0000,,Whoa, the Shinsengumi have \Ncome to a standstill!
+Dialogue: 0,0:13:47.82,0:13:50.69,Main,MC,0000,0000,0000,,Is that... a cross?!
+Dialogue: 0,0:13:50.69,0:13:54.24,Main,MC,0000,0000,0000,,It's a godly trap that can fend off \Nwicked beings from overseas, too!
+Dialogue: 0,0:13:54.24,0:13:56.25,Internal,Shin,0000,0000,0000,,They even have an obstacle like that?!
+Dialogue: 0,0:13:56.25,0:13:59.00,Main,MC,0000,0000,0000,,Actually, upon closer inspection, \Nit looks like the letter T?
+Dialogue: 0,0:13:59.00,0:14:01.41,Main,Oki,0000,0000,0000,,What're you doing, Hijikata-san?
+Dialogue: 0,0:14:01.41,0:14:03.50,Main,Oki,0000,0000,0000,,Could you move your leg already?
+Dialogue: 0,0:14:03.88,0:14:05.92,Main,Oki,0000,0000,0000,,If you waste too much time,
+Dialogue: 0,0:14:05.92,0:14:09.30,Main,Oki,0000,0000,0000,,I'll rip that leg of yours right off.
+Dialogue: 0,0:14:08.74,0:14:15.77,Spirit Text R,Sign,0000,0000,0000,,Divine Guardian Spirit\NTormenting Sadist
+Dialogue: 0,0:14:09.30,0:14:10.57,Main,Voice,0000,0000,0000,,Divine Guardian Spirit...
+Dialogue: 0,0:14:10.57,0:14:12.17,Main,Oki,0000,0000,0000,,Tormenting Sadist.
+Dialogue: 0,0:14:12.17,0:14:13.52,Internal,Shin,0000,0000,0000,,It was your doing?!
+Dialogue: 0,0:14:13.52,0:14:15.77,Internal,Shin,0000,0000,0000,,What kind of god is named Tormenting Sadist?!
+Dialogue: 0,0:14:15.98,0:14:19.00,Flashback,Oki,0000,0000,0000,,I hear Maserati can run on mayonnaise, too.
+Dialogue: 0,0:14:19.00,0:14:20.59,Flashback,Hij,0000,0000,0000,,Don't be stupid.
+Dialogue: 0,0:14:20.59,0:14:23.02,Internal,Shin,0000,0000,0000,,You were the mastermind \Nwho ruined the Maserati?
+Dialogue: 0,0:14:23.02,0:14:27.90,Spirit Text L,Sign,0000,0000,0000,,After he tricked Hijikata Toshiro \Nand was tied up and left deep\N in the mountains,
+Dialogue: 0,0:14:24.05,0:14:27.90,Spirit Text R,Sign,0000,0000,0000,,he met a god in the dark.
+Dialogue: 0,0:14:25.18,0:14:26.98,Flashback,T,0000,0000,0000,,Do you want revenge?
+Dialogue: 0,0:14:26.98,0:14:27.90,Flashback,Oki,0000,0000,0000,,Wh-Who's there?
+Dialogue: 0,0:14:28.93,0:14:32.85,Flashback,T,0000,0000,0000,,I'm you. The very darkness within you.
+Dialogue: 0,0:14:32.85,0:14:34.41,Internal,Shin,0000,0000,0000,,It's basically a devil!
+Dialogue: 0,0:14:35.56,0:14:39.08,Spirit Text L,Sign,0000,0000,0000,,It's stuck in Hijikata Toshiro's body\Nand is sucking up his life force.
+Dialogue: 0,0:14:37.25,0:14:39.08,Internal,Shin,0000,0000,0000,,That's one disturbing guardian spirit!
+Dialogue: 0,0:14:39.08,0:14:41.46,Main,Kat,0000,0000,0000,,This is our chance, Elizabeth.
+Dialogue: 0,0:14:41.46,0:14:43.42,Main,Kat,0000,0000,0000,,We've made it past the talisman area.
+Dialogue: 0,0:14:43.42,0:14:46.26,Main,Kat,0000,0000,0000,,Now to overtake them in \None go with our Corolla!
+Dialogue: 0,0:14:52.37,0:14:54.85,Spirit Text R,Sign,0000,0000,0000,,Divine Guardian Spirit\NGod of Toilets
+Dialogue: 0,0:14:52.54,0:14:55.06,Main,Voice,0000,0000,0000,,Divine Guardian Spirit God of Toilets.
+Dialogue: 0,0:14:55.37,0:14:58.48,Spirit Text R,Sign,0000,0000,0000,,Elizabeth's guardian spirit.\NA god he gave birth to in order \Nto escape reality while \Ncleaning the toilet.
+Dialogue: 0,0:14:56.99,0:15:00.06,sign_21337_309_Cleans_up_all_im,Sign,0000,0000,0000,,Cleans up all impurities, whether the \Ntoilet is Japanese or Western style.
+Dialogue: 0,0:14:58.10,0:15:00.06,Internal,Shin,0000,0000,0000,,You're getting in your partner's way, too?!
+Dialogue: 0,0:14:58.50,0:15:00.06,sign_21373_310_elizabeth_s_sign,,0000,0000,0000,,Bleaurgh
+Dialogue: 0,0:15:00.06,0:15:02.93,Main,Kat,0000,0000,0000,,Corolla! My Corolla!
+Dialogue: 0,0:15:02.93,0:15:05.32,Main,Hij,0000,0000,0000,,Damn it, what's going on? \NI can't move my legs!
+Dialogue: 0,0:15:05.32,0:15:09.26,Internal,Shin,0000,0000,0000,,Why are both of them running three-legged \Nwith their biggest obstacles?
+Dialogue: 0,0:15:11.26,0:15:13.85,Main,MC,0000,0000,0000,,Time's up! The game is over!
+Dialogue: 0,0:15:13.07,0:15:17.66,sign_21723_316_Finish_Line,Sign,0000,0000,0000,,Finish Line
+Dialogue: 0,0:15:13.85,0:15:17.66,Main,MC,0000,0000,0000,,Neither team has crossed the \Nfinish line. It's a draw.
+Dialogue: 0,0:15:17.66,0:15:19.86,Internal,Shin,0000,0000,0000,,Like we could ever cross it!
+Dialogue: 0,0:15:19.86,0:15:23.17,Internal,Shin,0000,0000,0000,,All we're getting are guardian-spirit \Ncorpses and injured people!
+Dialogue: 0,0:15:23.17,0:15:24.82,Internal,Shin,0000,0000,0000,,We really should retire.
+Dialogue: 0,0:15:24.17,0:15:25.52,Main,BG,0000,0000,0000,,{\an8}This way!
+Dialogue: 0,0:15:24.82,0:15:26.17,Internal,Shin,0000,0000,0000,,Any more would be...
+Dialogue: 0,0:15:28.17,0:15:30.58,Internal,Shin,0000,0000,0000,,Was that the eyewear seller just now?
+Dialogue: 0,0:15:31.04,0:15:32.72,Main,Gin,0000,0000,0000,,Hey, what's wrong, Shinpachi?
+Dialogue: 0,0:15:33.13,0:15:36.47,Internal,Shin,0000,0000,0000,,He was here. Is he taking \Npart in the sports meet?
+Dialogue: 0,0:15:37.30,0:15:39.31,Internal,Shin,0000,0000,0000,,Where is he? Where'd he go?
+Dialogue: 0,0:15:39.31,0:15:40.48,Main,MC,0000,0000,0000,,Let's move on to the next event.
+Dialogue: 0,0:15:41.42,0:15:44.26,Main,MC,0000,0000,0000,,We had a bread-eating race,
+Dialogue: 0,0:15:44.26,0:15:47.38,Main,MC,0000,0000,0000,,a scavenger hunt, and a cavalry \Nbattle planned after this,
+Dialogue: 0,0:15:47.38,0:15:52.49,Main,MC,0000,0000,0000,,but due to a lack of participants, we'll \Ncombine all of these into one final game.
+Dialogue: 0,0:15:52.93,0:15:57.37,Main,MC,0000,0000,0000,,The team that eats the opponent's bread and \Nprotects its own bread to the end wins.
+Dialogue: 0,0:15:57.37,0:16:02.25,sign_22785_332_Grandpa_s_dentur,Sign,0000,0000,0000,,Grandpa's dentures
+Dialogue: 0,0:15:57.89,0:16:03.78,Main,MC,0000,0000,0000,,But you can borrow the items written \Non the papers strewn about the course
+Dialogue: 0,0:16:03.78,0:16:06.25,Main,MC,0000,0000,0000,,and eat them or use them as a weapon.
+Dialogue: 0,0:16:06.60,0:16:09.21,Main,MC,0000,0000,0000,,Additionally, the member riding on top
+Dialogue: 0,0:16:10.29,0:16:11.95,Main,MC,0000,0000,0000,,doesn't have to be human.
+Dialogue: 0,0:16:11.95,0:16:14.59,Internal,Shin,0000,0000,0000,,Using guardian spirits is tacitly allowed?!
+Dialogue: 0,0:16:14.59,0:16:18.50,Internal,Shin,0000,0000,0000,,What's the meaning of this? What do \Nthose people think they're carrying?!
+Dialogue: 0,0:16:19.10,0:16:21.18,Internal,Shin,0000,0000,0000,,But maybe...
+Dialogue: 0,0:16:21.18,0:16:23.60,Internal,Shin,0000,0000,0000,,Maybe the eyewear seller is among them.
+Dialogue: 0,0:16:23.60,0:16:27.37,Internal,Shin,0000,0000,0000,,If I find him, I might be able \Nto take off these cursed glasses.
+Dialogue: 0,0:16:28.86,0:16:30.35,Main,Gin,0000,0000,0000,,Listen, Shinpachi.
+Dialogue: 0,0:16:30.35,0:16:32.99,Main,Gin,0000,0000,0000,,Even if you're hungry, don't \Nyou dare touch that bread.
+Dialogue: 0,0:16:33.54,0:16:36.32,Main,MC,0000,0000,0000,,Get set, go!
+Dialogue: 0,0:16:38.38,0:16:39.83,Internal,Shin,0000,0000,0000,,Wait, I'm riding?!
+Dialogue: 0,0:16:39.83,0:16:41.73,Internal,Shin,0000,0000,0000,,You think I'm a spirit?!
+Dialogue: 0,0:16:42.77,0:16:44.33,Internal,Shin,0000,0000,0000,,They're really gonna make me a spirit!
+Dialogue: 0,0:16:49.84,0:16:51.36,Internal,Shin,0000,0000,0000,,MADAO!
+Dialogue: 0,0:16:51.36,0:16:55.84,Internal,Shin,0000,0000,0000,,It was struggling so much to move \Nbefore, but to protect me...
+Dialogue: 0,0:16:57.53,0:17:00.56,sign_22785_332_Grandpa_s_dentur,Sign,0000,0000,0000,,Gimme the bread.
+Dialogue: 0,0:16:59.54,0:17:01.01,Internal,Shin,0000,0000,0000,,That's your goal?!
+Dialogue: 0,0:17:01.01,0:17:03.97,Main,Shin,0000,0000,0000,,Wait, wait! Not this bread!
+Dialogue: 0,0:17:03.97,0:17:05.31,Main,Shin,0000,0000,0000,,If you want bread, go after the enemy's!
+Dialogue: 0,0:17:05.31,0:17:06.15,Main,Shin,0000,0000,0000,,The enemy's...
+Dialogue: 0,0:17:07.24,0:17:09.32,Internal,Shin,0000,0000,0000,,The enemy's bread is huge!
+Dialogue: 0,0:17:10.10,0:17:12.19,Internal,Shin,0000,0000,0000,,The enemy's bread is fast!
+Dialogue: 0,0:17:13.00,0:17:15.20,Internal,Shin,0000,0000,0000,,The enemy's bread is a baguette!
+Dialogue: 0,0:17:15.77,0:17:16.69,Main,Shin,0000,0000,0000,,This isn't working.
+Dialogue: 0,0:17:16.69,0:17:19.70,Main,Shin,0000,0000,0000,,Let's borrow a weapon, Gin-san. \NPick up a piece of paper.
+Dialogue: 0,0:17:20.06,0:17:22.20,Main,Shin,0000,0000,0000,,What does it say? Please be a weapon!
+Dialogue: 0,0:17:22.33,0:17:23.58,sign_22785_332_Grandpa_s_dentur,Sign,0000,0000,0000,,Love and Courage
+Dialogue: 0,0:17:23.89,0:17:28.18,Main,Gin,0000,0000,0000,,Excuse me. Could any of you \Nlend us love and courage?
+Dialogue: 0,0:17:28.18,0:17:29.38,Main,Gin,0000,0000,0000,,We promise to give it back.
+Dialogue: 0,0:17:29.38,0:17:31.59,Main,Gin,0000,0000,0000,,Love and courage separate is fine, too.
+Dialogue: 0,0:17:32.01,0:17:35.23,Main,G,0000,0000,0000,,That stuff's always been in your hearts.
+Dialogue: 0,0:17:35.23,0:17:36.44,Internal,Shin,0000,0000,0000,,Bullshit!
+Dialogue: 0,0:17:36.44,0:17:39.68,Internal,Shin,0000,0000,0000,,Sure, they're the greatest weapons one \Ncould have, but they're useless right now!
+Dialogue: 0,0:17:39.68,0:17:41.22,Internal,Shin,0000,0000,0000,,We need something more specific!
+Dialogue: 0,0:17:41.31,0:17:42.60,sign_22785_332_Grandpa_s_dentur,Sign,0000,0000,0000,,Daddy's Bat
+Dialogue: 0,0:17:42.96,0:17:46.92,Main,Kag,0000,0000,0000,,Could any of you lend us a daddy's bat?
+Dialogue: 0,0:17:46.92,0:17:49.61,Main,Kag,0000,0000,0000,,Daddy and bat separate is fine, too, 'kay?
+Dialogue: 0,0:17:49.61,0:17:52.07,Main,G,0000,0000,0000,,You can use this, then.
+Dialogue: 0,0:17:52.07,0:17:54.61,Internal,Shin,0000,0000,0000,,The daddy and the bat really are separate!
+Dialogue: 0,0:17:54.61,0:17:57.84,Main,G,0000,0000,0000,,Sasuke, are you sure? \NThat's a memento of Daddy.
+Dialogue: 0,0:17:57.84,0:18:01.48,Main,G,0000,0000,0000,,It's fine. I'm sure Daddy up in \Nheaven will allow it with a smile.
+Dialogue: 0,0:18:01.48,0:18:02.74,Internal,Shin,0000,0000,0000,,Like we could borrow that!
+Dialogue: 0,0:18:02.74,0:18:04.62,Internal,Shin,0000,0000,0000,,Daddy's not smiling at all! He's crying!
+Dialogue: 0,0:18:04.62,0:18:07.75,Internal,Shin,0000,0000,0000,,We need something that's not \NDaddy's or something sad!
+Dialogue: 0,0:18:06.62,0:18:07.75,sign_22785_332_Grandpa_s_dentur,Sign,0000,0000,0000,,Mommy's Jackknife
+Dialogue: 0,0:18:08.06,0:18:10.11,Main,G,0000,0000,0000,,Can you really wield me?
+Dialogue: 0,0:18:10.11,0:18:11.85,Internal,Shin,0000,0000,0000,,That's just an edgy mommy!
+Dialogue: 0,0:18:11.85,0:18:13.74,Internal,Shin,0000,0000,0000,,That's sad in its own way!
+Dialogue: 0,0:18:13.85,0:18:14.96,sign_22785_332_Grandpa_s_dentur,Sign,0000,0000,0000,,Grandpa's a Jack
+Dialogue: 0,0:18:15.62,0:18:18.13,Internal,Shin,0000,0000,0000,,Who?! What does he have to do with a weapon?!
+Dialogue: 0,0:18:18.13,0:18:20.75,Internal,Shin,0000,0000,0000,,We need something that's not so complicated!
+Dialogue: 0,0:18:20.86,0:18:21.97,sign_22785_332_Grandpa_s_dentur,Sign,0000,0000,0000,,Divine Sword God Death Crimson Blade Mk. 2
+Dialogue: 0,0:18:21.97,0:18:27.97,Main,Gin,0000,0000,0000,,Excuse me. Could any of you lend us a Divine \NSword God Death Crimson Blade Mk. 2?
+Dialogue: 0,0:18:27.97,0:18:29.97,Internal,Shin,0000,0000,0000,,The weapon itself is complicated now!
+Dialogue: 0,0:18:29.97,0:18:33.12,Main,Kag,0000,0000,0000,,God and Death Crimson \Nseparate is fine, too, 'kay?
+Dialogue: 0,0:18:33.12,0:18:36.03,Internal,Shin,0000,0000,0000,,As if anyone would have something \Nlike that at a sports meet!
+Dialogue: 0,0:18:36.03,0:18:37.77,Main,G,0000,0000,0000,,Sure, if you're okay with mine.
+Dialogue: 0,0:18:37.77,0:18:39.78,Internal,Shin,0000,0000,0000,,You have one? Who the hell are you?!
+Dialogue: 0,0:18:40.64,0:18:44.40,Internal,Shin,0000,0000,0000,,What's a Divine Sword God Death \NCrimson Blade Mk. 2 doing here?
+Dialogue: 0,0:18:44.40,0:18:46.94,Internal,Shin,0000,0000,0000,,But we could win the \Ncavalry battle with this.
+Dialogue: 0,0:18:50.78,0:18:54.96,Main,Shin,0000,0000,0000,,Why the hell are you eating the Divine \NSword God Death Crimson Blade Mk. 2?!
+Dialogue: 0,0:18:54.69,0:18:58.49,sign_27036_396_They_said_it_was,Sign,0000,0000,0000,,They said it was okay to \Neat borrowed items...
+Dialogue: 0,0:18:56.01,0:19:00.22,Main,Shin,0000,0000,0000,,Do you really get it? This is a Divine \NSword God Death Crimson Blade Mk. 2!
+Dialogue: 0,0:19:01.74,0:19:06.85,sign_5163_51_A_spirit_that_be,Sign,0000,0000,0000,,Divine Sword God Death Crimson Blade Mk. 2 is a holy sword that \Npurges evil. Any evil that touches the blade will be burned by holy flames.
+Dialogue: 0,0:19:03.08,0:19:06.85,Internal,Shin,0000,0000,0000,,Oh, crap. Because he ate a holy \Nsword, MADAO's body is...
+Dialogue: 0,0:19:06.85,0:19:09.28,Main,Gin,0000,0000,0000,,M-My body's losing strength!
+Dialogue: 0,0:19:09.28,0:19:10.73,Main,Shin,0000,0000,0000,,Gin-san, Kagura-chan!
+Dialogue: 0,0:19:13.37,0:19:15.78,Internal,Shin,0000,0000,0000,,I'm done for! It's all over!
+Dialogue: 0,0:19:20.88,0:19:22.11,Main,Shin,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:22.11,0:19:24.12,Main,Shin,0000,0000,0000,,Wh-Where am I?
+Dialogue: 0,0:19:28.37,0:19:30.12,sign_27844_405_Glasses,Sign,0000,0000,0000,,Glasses
+Dialogue: 0,0:19:31.26,0:19:34.38,Main,Zoff,0000,0000,0000,,Your glasses are right here.
+Dialogue: 0,0:19:34.38,0:19:37.13,Main,Zoff,0000,0000,0000,,I fixed them up nice and good.
+Dialogue: 0,0:19:37.13,0:19:40.54,Main,Zoff,0000,0000,0000,,However, these glasses are really old.
+Dialogue: 0,0:19:40.54,0:19:44.26,Main,Zoff,0000,0000,0000,,If you wear them, you'll go back \Nto not being able to see anything.
+Dialogue: 0,0:19:45.52,0:19:47.39,Main,Zoff,0000,0000,0000,,Is that all right?
+Dialogue: 0,0:19:48.10,0:19:51.64,Main,Zoff,0000,0000,0000,,I wanted you to see it at least once...
+Dialogue: 0,0:19:52.09,0:19:54.32,Main,Zoff,0000,0000,0000,,See the world we live in.
+Dialogue: 0,0:19:56.48,0:20:02.41,Main,Zoff,0000,0000,0000,,Should you put on these glasses, \Nyou'll never return to this world.
+Dialogue: 0,0:20:02.41,0:20:08.02,Main,Zoff,0000,0000,0000,,But I want you to remember once \Nin a while that you three have
+Dialogue: 0,0:20:08.02,0:20:09.79,Main,Zoff,0000,0000,0000,,Asuraman,
+Dialogue: 0,0:20:09.98,0:20:11.79,Main,Zoff,0000,0000,0000,,Alchu,
+Dialogue: 0,0:20:12.54,0:20:15.73,Main,Zoff,0000,0000,0000,,and me by your side.
+Dialogue: 0,0:20:18.67,0:20:23.00,Main,Zoff,0000,0000,0000,,We're always watching over you,
+Dialogue: 0,0:20:23.49,0:20:24.81,Main,Zoff,0000,0000,0000,,Master.
+Dialogue: 0,0:20:30.31,0:20:32.20,Main,Kag,0000,0000,0000,,This is bad, Shinpachi!
+Dialogue: 0,0:20:32.20,0:20:34.56,Main,Gin,0000,0000,0000,,We haven't gotten a weapon yet!
+Dialogue: 0,0:20:34.56,0:20:36.90,Main,Mad,0000,0000,0000,,Hey! What now, Shinpachi-kun?
+Dialogue: 0,0:20:37.56,0:20:39.77,Main,Shin,0000,0000,0000,,I'm already holding a weapon.
+Dialogue: 0,0:20:40.74,0:20:42.82,Main,Shin,0000,0000,0000,,I don't have to see now. I know.
+Dialogue: 0,0:20:43.62,0:20:44.57,Main,Shin,0000,0000,0000,,Asuraman,
+Dialogue: 0,0:20:45.26,0:20:46.32,Main,Shin,0000,0000,0000,,Alchu,
+Dialogue: 0,0:20:46.68,0:20:49.20,Main,Shin,0000,0000,0000,,and my glasses!
+Dialogue: 0,0:20:50.79,0:20:54.08,Main,Shin,0000,0000,0000,,Your hearts and ours are always as one.
+Dialogue: 0,0:20:54.08,0:20:59.80,Main,Shin,0000,0000,0000,,Even if I can't see you, these glasses \Nclearly display your feelings!
+Dialogue: 0,0:21:02.07,0:21:07.60,Spirit Text L,Sign,0000,0000,0000,,Guardian Spirit Glasses. \NShinpachi's glasses, which have\Nbeen repaired and fitted with \Na new feature.
+Dialogue: 0,0:21:03.65,0:21:05.61,sign_30128_431_Their_wearer_can,Sign,0000,0000,0000,,Their wearer can see distant \Nfeelings and emotions
+Dialogue: 0,0:21:05.61,0:21:07.60,sign_30128_431_Their_wearer_can,Sign,0000,0000,0000,,Their wearer can see distant feelings and emotions, but...
+Dialogue: 0,0:21:07.87,0:21:10.33,Spirit Text R,Sign,0000,0000,0000,,...is totally farsighted and\Nunable to see anything close.
+Dialogue: 0,0:21:11.47,0:21:13.48,sign_31513_456_Kabuki_District_,Sign,0000,0000,0000,,Kabuki District Sports Meet
+Dialogue: 0,0:21:20.98,0:21:24.12,Main,Shin,0000,0000,0000,,All right. Time to buy new glasses.
+Dialogue: 0,0:22:56.13,0:22:57.92,sign_32824_437_Gintama,Sign,0000,0000,0000,,{\fad(755,1)}Gintama
+Dialogue: 0,0:22:58.04,0:23:00.22,sign_32870_438_heads_toward_its,Sign,0000,0000,0000,,{\fad(888,1)}heads toward its conclusion
+Dialogue: 0,0:23:00.22,0:23:10.66,sign_32922_439_Shogun_Assassina,Sign,0000,0000,0000,,{\fad(460,1)}Shogun Assassination Arc
+Dialogue: 0,0:23:02.91,0:23:03.91,Main,Gin,0000,0000,0000,,Before dawn.
+Dialogue: 0,0:23:05.25,0:23:07.37,Main,Gin,0000,0000,0000,,The night is darkest just before the dawn.
+Dialogue: 0,0:23:08.62,0:23:10.66,Main,Gin,0000,0000,0000,,But keep your eyes open.
+Dialogue: 0,0:23:10.66,0:23:21.18,sign_33173_443_Farewell_Shinsen,Sign,0000,0000,0000,,{\fad(530,1)}Farewell Shinsengumi Arc
+Dialogue: 0,0:23:12.98,0:23:15.79,Main,Hij,0000,0000,0000,,Kondo-san, I've finally become
+Dialogue: 0,0:23:19.00,0:23:21.18,Main,Hij,0000,0000,0000,,a proper member of the Shinsengumi.
+Dialogue: 0,0:23:21.18,0:23:31.69,sign_33425_446_The_Battle_on_Ra,Sign,0000,0000,0000,,{\fad(520,1)}The Battle on Rakuyo Arc
+Dialogue: 0,0:23:24.55,0:23:28.56,Main,Kag,0000,0000,0000,,I still have a job to do, huh?
+Dialogue: 0,0:23:31.69,0:23:33.19,sign_33677_448_And_now___,Sign,0000,0000,0000,,{\fad(772,1)}And now...
+Dialogue: 0,0:23:33.89,0:23:35.94,Main,Tae,0000,0000,0000,,We're basically a colony.
+Dialogue: 0,0:23:35.94,0:23:40.65,Main,Kyu,0000,0000,0000,,Our country may have been done \Nfor long before all of this.
+Dialogue: 0,0:23:41.11,0:23:42.86,Main,Mad,0000,0000,0000,,We can't give up.
+Dialogue: 0,0:23:42.86,0:23:45.82,Main,Kat,0000,0000,0000,,This is Lord Tokugawa Nobunobu!
+Dialogue: 0,0:23:45.82,0:23:49.33,Main,Oto,0000,0000,0000,,I wonder where those morons \Nare and what they're up to.
+Dialogue: 0,0:23:49.33,0:23:52.16,sign_34100_454_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:23:51.15,0:23:52.84,Main,Gin,0000,0000,0000,,We've got you covered.
+Dialogue: 0,0:23:52.84,0:23:55.92,Main,Gin,0000,0000,0000,,From walking your dog to keeping Earth safe,
+Dialogue: 0,0:23:55.29,0:23:58.17,sign_34243_458_Silver_Soul_Arc,Sign,0000,0000,0000,,{\fad(200,1)}Silver Soul Arc
+Dialogue: 0,0:23:55.92,0:23:58.17,Main,Gin,0000,0000,0000,,we Odd Jobs will do anything.
+Dialogue: 0,0:23:58.17,0:24:00.92,Gintama,Sign,0000,0000,0000,,Gintama
+Dialogue: 0,0:23:58.17,0:24:00.92,sign_34312_460_Look_forward_to_,Sign,0000,0000,0000,,Look forward to it.
+Dialogue: 0,0:24:00.92,0:24:12.35,Side Bar Top,TextR,0000,0000,0000,,The final long arc begins next episode.
+Dialogue: 0,0:24:00.92,0:24:12.35,Side Bar Bottom,TextL,0000,0000,0000,,We enter the Silver Soul Arc.

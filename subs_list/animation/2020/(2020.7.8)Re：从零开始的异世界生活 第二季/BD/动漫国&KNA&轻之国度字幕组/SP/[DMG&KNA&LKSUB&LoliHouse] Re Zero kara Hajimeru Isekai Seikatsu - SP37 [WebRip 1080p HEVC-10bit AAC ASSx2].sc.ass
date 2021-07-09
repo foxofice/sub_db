@@ -1,0 +1,83 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP37]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  动漫国&KNA&轻之国度字幕组  联合制作\N仅供试看,请支持购买正版音像制品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻译&时轴:傻瓜三世   后期:小圣
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}国\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}动
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}轻
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}国
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.84,0:00:04.71,Default,,0,0,0,,Re:从零开始的休息时间  女仆日常
+Dialogue: 0,0:00:05.99,0:00:10.89,Default,,0,0,0,,还有很多事情要教给女仆新手佩特拉
+Dialogue: 0,0:00:11.31,0:00:14.94,Default,,0,0,0,,我也知道自己要认真一点
+Dialogue: 0,0:00:15.64,0:00:19.74,Default,,0,0,0,,但是听到她叫姐姐  不偷着乐真的很难
+Dialogue: 0,0:00:20.17,0:00:23.53,Default,,0,0,0,,我还有一个重要的命令
+Dialogue: 0,0:00:24.88,0:00:28.40,Default,,0,0,0,,以后叫我法兰黛莉卡姐姐
+Dialogue: 0,0:00:28.81,0:00:32.99,Default,,0,0,0,,这是这座宅邸里  女仆前后辈之间的习惯
+Dialogue: 0,0:00:33.23,0:00:34.26,Default,,0,0,0,,也是规矩
+Dialogue: 0,0:00:34.57,0:00:36.55,Default,,0,0,0,,是  法兰黛莉卡姐姐
+Dialogue: 0,0:00:37.39,0:00:42.41,Default,,0,0,0,,她那么率直又可爱  还肯叫我姐姐
+Dialogue: 0,0:00:43.23,0:00:44.98,Default,,0,0,0,,和拉姆完全不一样
+Dialogue: 0,0:00:45.71,0:00:49.09,Default,,0,0,0,,{\fs35}「姐姐」只有我  {\fs50}请不要想当然的
+Dialogue: 0,0:00:50.87,0:00:53.95,Default,,0,0,0,,那时还有雷姆在吧
+Dialogue: 0,0:00:55.40,0:00:58.12,Default,,0,0,0,,还是等昴大人他们的好消息吧
+Dialogue: 0,0:00:59.15,0:00:59.71,Default,,0,0,0,,请进
+Dialogue: 0,0:01:01.46,0:01:04.21,Default,,0,0,0,,法兰黛莉卡姐姐  想跟你一起睡可不可…
+Dialogue: 0,0:01:04.21,0:01:06.34,Default,,0,0,0,,当然可以  你好可爱啊
+Dialogue: 0,0:01:07.76,0:01:09.56,Default,,0,0,0,,这么说来  昴他啊…
+Dialogue: 0,0:01:09.56,0:01:10.23,Default,,0,0,0,,佩特拉
+Dialogue: 0,0:01:10.50,0:01:11.21,Default,,0,0,0,,是
+Dialogue: 0,0:01:12.50,0:01:15.74,Default,,0,0,0,,不是「昴」 而是「昴大人」哦
+Dialogue: 0,0:01:16.10,0:01:17.38,Default,,0,0,0,,对不起
+Dialogue: 0,0:01:18.61,0:01:20.61,Default,,0,0,0,,我不会为这点事而生气的
+Dialogue: 0,0:01:21.37,0:01:24.79,Default,,0,0,0,,我不是一个记忆力很好的人
+Dialogue: 0,0:01:24.96,0:01:28.83,Default,,0,0,0,,为了改正措辞  我也付出了很大努力
+Dialogue: 0,0:01:30.90,0:01:34.54,Default,,0,0,0,,我这是挖坑给自己跳啊
+Dialogue: 0,0:01:34.61,0:01:38.29,Default,,0,0,0,,那姐姐以前是怎么说话的呢
+Dialogue: 0,0:01:42.63,0:01:47.05,Default,,0,0,0,,平时说话跟你没什么不同
+Dialogue: 0,0:01:47.15,0:01:51.49,Default,,0,0,0,,只是要说敬语的时候…
+Dialogue: 0,0:01:51.75,0:01:53.32,Default,,0,0,0,,会怎么样呢
+Dialogue: 0,0:01:53.64,0:01:58.53,Default,,0,0,0,,因为养我长大的人是婆婆
+Dialogue: 0,0:01:58.53,0:02:02.76,Default,,0,0,0,,讲话自然就变得像老人一样
+Dialogue: 0,0:02:03.07,0:02:04.15,Default,,0,0,0,,老人啊
+Dialogue: 0,0:02:09.24,0:02:11.57,Default,,0,0,0,,我是法兰黛莉卡·鲍曼
+Dialogue: 0,0:02:12.07,0:02:14.63,Default,,0,0,0,,梅札斯邸的女仆啊喂
+Dialogue: 0,0:02:18.37,0:02:20.43,Default,,0,0,0,,法兰黛莉卡姐姐啊喂
+Dialogue: 0,0:02:22.09,0:02:24.31,Default,,0,0,0,,我是很不好意思的
+Dialogue: 0,0:02:24.48,0:02:26.79,Default,,0,0,0,,为了改掉这一点  我花了很大工夫
+Dialogue: 0,0:02:26.79,0:02:29.97,Default,,0,0,0,,啊喂  啊喂  啊喂
+Dialogue: 0,0:02:30.08,0:02:32.89,Default,,0,0,0,,喂  你要笑到什么时候
+Dialogue: 0,0:02:33.49,0:02:36.80,Default,,0,0,0,,大晚上的  不要大声喧哗
+Dialogue: 0,0:02:37.03,0:02:39.97,Default,,0,0,0,,快点钻进被窝吧
+Dialogue: 0,0:02:41.40,0:02:42.47,Default,,0,0,0,,嗯  姐姐
+Dialogue: 0,0:02:42.72,0:02:44.59,Default,,0,0,0,,我铺好了啊喂
+Dialogue: 0,0:02:45.28,0:02:47.03,Default,,0,0,0,,佩特拉
+Dialogue: 0,0:02:47.92,0:02:49.51,Default,,0,0,0,,晚安
+Dialogue: 0,0:02:51.17,0:02:54.97,Default,,0,0,0,,呼呼  呼呼  呼呼
+Dialogue: 0,0:02:55.47,0:02:57.14,Default,,0,0,0,,呼呼啊喂
+Dialogue: 0,0:02:57.14,0:02:58.73,Default,,0,0,0,,说梦话的时候还是老样子啊
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

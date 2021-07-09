@@ -1,0 +1,71 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,7,7,7,1
+Style: ZW,方正准圆_GBK,47,&H14FFFFFF,&H000000FF,&H00000000,&HFF000000,-1,0,0,0,100,100,1,0,1,1,2,2,13,13,27,1
+Style: ZWXX2,方正准圆_GBK,37,&H14FFFFFF,&H000000FF,&H00000000,&HFF000000,-1,0,0,0,100,100,1,0,1,1,2,1,13,13,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:03.46,ZWXX2,,0,0,0,,{\an8\fs30}手抄：D.賊子  時軸：消逝的精靈  校對：89  後期：FM
+Dialogue: 0,0:00:16.39,0:00:18.02,ZW,,0,0,0,,上廁所 上廁所
+Dialogue: 0,0:00:38.37,0:00:42.42,ZW,,0,0,0,,熏…熏 到底以什麼樣子在睡覺啊
+Dialogue: 0,0:00:43.42,0:00:45.59,ZW,,0,0,0,,這…這難道是…
+Dialogue: 0,0:00:48.22,0:00:50.30,ZW,,0,0,0,,所謂的機…機會麼？！
+Dialogue: 0,0:00:52.14,0:00:55.10,ZW,,0,0,0,,不不不不 我到底在想什麼啊
+Dialogue: 0,0:00:56.10,0:00:58.60,ZW,,0,0,0,,機會什麼的 熏可是在睡覺啊
+Dialogue: 0,0:00:59.02,0:01:00.23,ZW,,0,0,0,,那樣不是太卑鄙了嗎！
+Dialogue: 0,0:01:01.40,0:01:04.48,ZW,,0,0,0,,不對！我們不是正在交往嗎！
+Dialogue: 0,0:01:05.73,0:01:06.94,ZW,,0,0,0,,這次的旅行
+Dialogue: 0,0:01:07.28,0:01:09.11,ZW,,0,0,0,,基本上也是為了兩人能在一起
+Dialogue: 0,0:01:09.90,0:01:11.16,ZW,,0,0,0,,現在就是只有我們兩個人
+Dialogue: 0,0:01:11.61,0:01:13.53,ZW,,0,0,0,,又是夜裏 又是溫泉旅館的
+Dialogue: 0,0:01:14.24,0:01:16.74,ZW,,0,0,0,,不…不過…但是
+Dialogue: 0,0:01:43.44,0:01:44.94,ZW,,0,0,0,,誒 什麼 什麼
+Dialogue: 0,0:01:45.36,0:01:47.69,ZW,,0,0,0,,為什麼純一會向這邊靠過來
+Dialogue: 0,0:01:48.90,0:01:50.32,ZW,,0,0,0,,他準備想幹嘛
+Dialogue: 0,0:01:50.90,0:01:53.87,ZW,,0,0,0,,說起來 我現在是什麼樣子
+Dialogue: 0,0:01:54.95,0:01:57.20,ZW,,0,0,0,,好像沒有蓋著被子的感覺
+Dialogue: 0,0:01:57.58,0:01:59.66,ZW,,0,0,0,,感覺身體各處涼颼颼的
+Dialogue: 0,0:02:00.25,0:02:01.79,ZW,,0,0,0,,浴衣…走光了吧
+Dialogue: 0,0:02:02.96,0:02:04.08,ZW,,0,0,0,,這邊 那邊
+Dialogue: 0,0:02:04.63,0:02:06.34,ZW,,0,0,0,,莫非都被他看到了？
+Dialogue: 0,0:02:07.25,0:02:07.92,ZW,,0,0,0,,不行
+Dialogue: 0,0:02:08.30,0:02:09.92,ZW,,0,0,0,,瞇著眼睛什麼都看不清啊
+Dialogue: 0,0:02:12.26,0:02:13.72,ZW,,0,0,0,,等…等一下 純一
+Dialogue: 0,0:02:14.05,0:02:14.47,ZW,,0,0,0,,等等
+Dialogue: 0,0:02:14.84,0:02:16.30,ZW,,0,0,0,,你到底打算幹什麼
+Dialogue: 0,0:02:17.26,0:02:17.93,ZW,,0,0,0,,會怎麼樣
+Dialogue: 0,0:02:18.18,0:02:19.85,ZW,,0,0,0,,接下來會變成怎麼樣呢
+Dialogue: 0,0:02:20.73,0:02:22.73,ZW,,0,0,0,,就這樣順其自然？
+Dialogue: 0,0:02:24.06,0:02:24.60,ZW,,0,0,0,,不行
+Dialogue: 0,0:02:24.98,0:02:27.44,ZW,,0,0,0,,難得一次旅行的回憶就這樣可不行
+Dialogue: 0,0:02:28.32,0:02:31.69,ZW,,0,0,0,,但是 內衣已經穿著我中意的那一套了
+Dialogue: 0,0:02:32.07,0:02:34.95,ZW,,0,0,0,,不對 我的bra被猴子抓走了啊！
+Dialogue: 0,0:02:35.91,0:02:39.87,ZW,,0,0,0,,啊…純一的手…手啊….
+Dialogue: 0,0:02:44.00,0:02:44.33,ZW,,0,0,0,,誒？
+Dialogue: 0,0:02:45.08,0:02:46.50,ZW,,0,0,0,,怎麼回事？ 什麼狀況？
+Dialogue: 0,0:03:28.63,0:03:30.46,ZW,,0,0,0,,稍微 有點心跳加速啊…
+Dialogue: 0,0:03:31.80,0:03:34.01,ZW,,0,0,0,,這種回憶很少有呢
+Dialogue: 0,0:03:36.59,0:03:38.18,ZW,,0,0,0,,3Q 純一
+Dialogue: 0,0:03:38.18,0:03:40.18,Default,,0,0,0,,
+

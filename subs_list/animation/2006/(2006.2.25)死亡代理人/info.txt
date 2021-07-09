@@ -1,0 +1,5 @@
+﻿chs: 死亡代理人
+cht: 死亡代理人
+jp: エルゴプラクシー
+en: Ergo Proxy
+rome: Ergo Proxy

@@ -1,0 +1,764 @@
+﻿[Script Info]
+Title: ドキドキ!プリキュア 第38回
+Original Script: 雪飘工作室
+Original Translation: hooming&ds006425
+Original Timing: zwc
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Toght_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H0079307E,&H647F3385,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Heart_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H64A234FF,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Diamo_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64D97900,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Roset_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Sword_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H64C33978,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Prins_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00D890FE,&H64D890FE,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Regna_CN,Droid Sans Fallback,80,&H00000000,&H00FFFFFF,&H00009F9F,&H64009F9F,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: Regn2_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00009F9F,&H64009F9F,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: AceSS_CN,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H004D4EFC,&H64271EC8,-1,0,0,0,100,100,1,0.00,1,3,2,2,10,10,5,1
+Style: oped,华康圆体W7(P),50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0.00,1,3,0,2,10,10,2,1
+Style: staff,Droid Sans Fallback,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0.00,1,4,0,2,10,10,2,1
+Style: Defau_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Toght_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H0079307E,&H647F3385,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Heart_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H64A234FF,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Diamo_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64D97900,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Roset_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Sword_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H64C33978,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Prins_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H00D890FE,&H64D890FE,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Regna_JP,Droid Sans Fallback,50,&H00000000,&H00FFFFFF,&H00009F9F,&H64009F9F,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: Regn2_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H00009F9F,&H64009F9F,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: AceSS_JP,Droid Sans Fallback,50,&H00FFFFFF,&H00FFFFFF,&H004D4EFC,&H64271EC8,-1,0,0,0,100,100,1,0.00,1,2,1,2,10,10,90,1
+Style: in_Heart_CN,华康圆体W7(P),65,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H64A234FF,-1,0,0,0,100,100,2,0.00,1,3,0,9,30,30,5,1
+Style: in_Heart_JP,DFMaruGothic-Bd,40,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H64A234FF,-1,0,0,0,100,100,2,0.00,1,3,0,9,30,30,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.42,0:00:11.77,Heart_CN,NTP,0,0,0,,很好 但是吃太多对身体不好 这点就够了
+Dialogue: 0,0:00:15.01,0:00:17.34,Diamo_CN,NTP,0,0,0,,喝的过量也一样哦
+Dialogue: 0,0:00:18.55,0:00:21.17,Roset_CN,NTP,0,0,0,,好孩子要好好奖励
+Dialogue: 0,0:00:22.33,0:00:24.58,Roset_CN,NTP,0,0,0,,兰斯～
+Dialogue: 0,0:00:36.37,0:00:41.34,Sword_CN,NTP,0,0,0,,前一阵还一直处在说什么都『不要不要』的不要不要期
+Dialogue: 0,0:00:41.56,0:00:44.37,AceSS_CN,NTP,0,0,0,,有种已经从中毕业的感觉
+Dialogue: 0,0:00:46.56,0:00:47.82,Heart_CN,NTP,0,0,0,,真是不可思议...
+Dialogue: 0,0:00:48.01,0:00:49.88,Heart_CN,NTP,0,0,0,,看着小爱的笑脸
+Dialogue: 0,0:00:50.14,0:00:52.34,Diamo_CN,NTP,0,0,0,,心里像被治愈了一样...
+Dialogue: 0,0:00:53.00,0:00:54.39,Sword_CN,NTP,0,0,0,,{\pos(1355,1075)}变得有精神了！
+Dialogue: 0,0:00:53.00,0:00:54.39,Roset_CN,NTP,0,0,0,,{\pos(520,1075)}变得有精神了呢！
+Dialogue: 0,0:00:56.13,0:01:00.77,AceSS_CN,NTP,0,0,0,,只要有这笑容 就不用担心自我中心会提升力量了
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:02:29.30,0:02:30.09,Defau_CN,NTP,0,0,0,,说什么？
+Dialogue: 0,0:02:30.75,0:02:34.46,Defau_CN,NTP,0,0,0,,把那个长翅膀的小宝宝变成自我中心！？
+Dialogue: 0,0:02:30.53,0:02:34.24,Defau_CN,NTP,0,0,0,,{\an8\fs50} 『为什么会这样？正确抚养孩子的方法\N--新妈妈的1000问』
+Dialogue: 0,0:02:34.55,0:02:35.67,Defau_CN,NTP,0,0,0,,名字叫小爱
+Dialogue: 0,0:02:35.88,0:02:36.80,Defau_CN,NTP,0,0,0,,开玩笑！
+Dialogue: 0,0:02:37.06,0:02:38.43,Defau_CN,NTP,0,0,0,,要干自己去...
+Dialogue: 0,0:02:40.46,0:02:48.79,Defau_CN,NTP,0,0,0,,{\an7\fs50\frz9\pos(1060,360)}1.肚子饿了\N2.撒娇\N3.午睡多了晚上就不想睡\N4.白天遇到较为刺激的事
+Dialogue: 0,0:02:40.46,0:02:42.58,Defau_CN,NTP,0,0,0,,小爱变成自我中心的话
+Dialogue: 0,0:02:42.80,0:02:44.75,Defau_CN,NTP,0,0,0,,就能够增强我们的力量
+Dialogue: 0,0:02:44.95,0:02:47.51,Defau_CN,NTP,0,0,0,,这样就能干掉Precure了
+Dialogue: 0,0:02:47.77,0:02:49.14,Defau_CN,NTP,0,0,0,,但是要怎么做？
+Dialogue: 0,0:02:49.40,0:02:52.64,Defau_CN,NTP,0,0,0,,说是要培养成自我中心 但没这麽简单吧
+Dialogue: 0,0:02:52.86,0:02:54.92,Defau_CN,NTP,0,0,0,,嗯 我已经计划好了...
+Dialogue: 0,0:03:01.15,0:03:02.09,Defau_CN,NTP,0,0,0,,不要不要...
+Dialogue: 0,0:03:04.76,0:03:06.93,Defau_CN,NTP,0,0,0,,用手指娃娃
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:10.10,0:03:13.26,Defau_CN,NTP,0,0,0,,Bel的阴谋！小爱变成了自我中心！？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:21.90,0:03:23.61,Defau_CN,NTP,0,0,0,,小爱... 咳咳...
+Dialogue: 0,0:03:23.95,0:03:25.27,Defau_CN,NTP,0,0,0,,小爱？
+Dialogue: 0,0:03:30.36,0:03:32.68,Defau_CN,NTP,0,0,0,,在这儿 小爱
+Dialogue: 0,0:03:49.99,0:03:52.01,Defau_CN,NTP,0,0,0,,晚上好 小爱！
+Dialogue: 0,0:03:52.29,0:03:54.21,Defau_CN,NTP,0,0,0,,我们是你的朋友
+Dialogue: 0,0:03:54.44,0:03:56.22,Defau_CN,NTP,0,0,0,,要睡觉还太早了
+Dialogue: 0,0:03:56.46,0:03:58.00,Defau_CN,NTP,0,0,0,,一起来玩吧！
+Dialogue: 0,0:04:01.44,0:04:02.74,Defau_CN,NTP,0,0,0,,一起去梦幻天堂吧
+Dialogue: 0,0:04:02.92,0:04:04.64,Defau_CN,NTP,0,0,0,,Let's go！
+Dialogue: 0,0:04:04.82,0:04:06.03,Defau_CN,NTP,0,0,0,,会很开心哦～！
+Dialogue: 0,0:04:06.24,0:04:07.42,Defau_CN,NTP,0,0,0,,来吧来吧～！
+Dialogue: 0,0:04:07.62,0:04:09.11,Defau_CN,NTP,0,0,0,,快点 快点～！
+Dialogue: 0,0:04:12.16,0:04:14.28,Defau_CN,NTP,0,0,0,,小爱 这边走～！
+Dialogue: 0,0:04:15.74,0:04:17.54,Defau_CN,NTP,0,0,0,,很开心呢 小爱
+Dialogue: 0,0:04:17.70,0:04:20.13,Defau_CN,NTP,0,0,0,,今晚可睡不着哦 小爱
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:04:27.18,0:04:29.22,Heart_CN,NTP,0,0,0,,小爱 天亮了～
+Dialogue: 0,0:04:31.80,0:04:35.69,Heart_CN,NTP,0,0,0,,怎么了？ 早晨时小爱应该很精神的啊
+Dialogue: 0,0:04:38.81,0:04:40.17,Heart_CN,NTP,0,0,0,,来 啊
+Dialogue: 0,0:04:42.06,0:04:44.02,Heart_CN,NTP,0,0,0,,嗯？ 不想吃吗？
+Dialogue: 0,0:04:44.22,0:04:46.74,Heart_CN,NTP,0,0,0,,这样不行 不好好吃的话
+Dialogue: 0,0:04:46.96,0:04:47.75,AceSS_CN,NTP,0,0,0,,不要！
+Dialogue: 0,0:04:47.97,0:04:49.94,Heart_CN,NTP,0,0,0,,哎呀？ 又是不要不要期？
+Dialogue: 0,0:04:50.13,0:04:51.41,AceSS_CN,NTP,0,0,0,,不要不要～
+Dialogue: 0,0:04:52.17,0:04:56.20,Heart_CN,NTP,0,0,0,,啊！？ 小爱要快点了 上学要迟到了！
+Dialogue: 0,0:04:56.40,0:04:57.08,Heart_CN,NTP,0,0,0,,真是的！
+Dialogue: 0,0:04:57.37,0:04:59.62,Heart_CN,NTP,0,0,0,,那么 今天小爱交给查理照顾了
+Dialogue: 0,0:05:00.26,0:05:01.91,Heart_CN,NTP,0,0,0,,就交给我吧！
+Dialogue: 0,0:05:03.34,0:05:04.27,Heart_CN,NTP,0,0,0,,我回来了～！
+Dialogue: 0,0:05:04.49,0:05:05.33,Heart_CN,NTP,0,0,0,,哇！？
+Dialogue: 0,0:05:07.14,0:05:09.09,Heart_CN,NTP,0,0,0,,查理 发生什么了？
+Dialogue: 0,0:05:09.31,0:05:11.94,Heart_CN,NTP,0,0,0,,小爱不想午睡
+Dialogue: 0,0:05:12.12,0:05:14.31,Heart_CN,NTP,0,0,0,,我们想把玩具取走
+Dialogue: 0,0:05:14.57,0:05:15.50,Heart_CN,NTP,0,0,0,,她就『不要不要』的
+Dialogue: 0,0:05:15.89,0:05:17.46,Heart_CN,NTP,0,0,0,,开始争起来了...
+Dialogue: 0,0:05:18.98,0:05:20.08,Diamo_CN,NTP,0,0,0,,{\pos(1390,1075)}不要！
+Dialogue: 0,0:05:18.98,0:05:20.08,Sword_CN,NTP,0,0,0,,{\pos(676,1075)}哔！
+Dialogue: 0,0:05:20.31,0:05:23.35,Diamo_CN,NTP,0,0,0,,小爱也是很有力气的
+Dialogue: 0,0:05:23.64,0:05:26.68,Heart_CN,NTP,0,0,0,,今天早上貌似又开始不要不要期了
+Dialogue: 0,0:05:26.91,0:05:29.51,Heart_CN,NTP,0,0,0,,小爱好像变了
+Dialogue: 0,0:05:29.80,0:05:32.00,Sword_CN,NTP,0,0,0,,怎么说都还是小宝宝
+Dialogue: 0,0:05:32.23,0:05:35.03,AceSS_CN,NTP,0,0,0,,小宝宝每天都伴随着变化而成长
+Dialogue: 0,0:05:35.72,0:05:37.37,Heart_CN,NTP,0,0,0,,肯定发生了什么
+Dialogue: 0,0:05:37.54,0:05:39.88,Heart_CN,NTP,0,0,0,,由查理我来阻止
+Dialogue: 0,0:05:47.96,0:05:49.93,Heart_CN,NTP,0,0,0,,由查理我来阻...
+Dialogue: 0,0:05:50.11,0:05:54.31,Heart_CN,NTP,0,0,0,,哈～ 止...
+Dialogue: 0,0:06:00.16,0:06:01.43,Heart_CN,NTP,0,0,0,,早上好 查理
+Dialogue: 0,0:06:01.61,0:06:03.24,Heart_CN,NTP,0,0,0,,不好了～！
+Dialogue: 0,0:06:03.53,0:06:04.62,Heart_CN,NTP,0,0,0,,小爱呢！？
+Dialogue: 0,0:06:04.83,0:06:07.13,Heart_CN,NTP,0,0,0,,小爱还睡着熟熟的
+Dialogue: 0,0:06:07.50,0:06:11.38,Heart_CN,NTP,0,0,0,,小爱 早上了～ 起床了～
+Dialogue: 0,0:06:15.01,0:06:16.39,Heart_CN,NTP,0,0,0,,难道说？
+Dialogue: 0,0:06:18.71,0:06:21.20,Heart_CN,NTP,0,0,0,,小爱 喝太多了
+Dialogue: 0,0:06:22.61,0:06:27.43,Heart_CN,NTP,0,0,0,,好像真的是第二次不要不要期了
+Dialogue: 0,0:06:27.82,0:06:30.66,Heart_CN,NTP,0,0,0,,今晚一定要...！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:33.47,0:06:36.06,Heart_CN,NTP,0,0,0,,坚持 不能睡 加油...
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:42.45,0:06:43.73,AceSS_CN,NTP,0,0,0,,点星～！
+Dialogue: 0,0:06:44.00,0:06:44.87,Defau_CN,NTP,0,0,0,,给～！
+Dialogue: 0,0:06:45.10,0:06:46.29,AceSS_CN,NTP,0,0,0,,果兹～！
+Dialogue: 0,0:06:46.52,0:06:47.50,Defau_CN,NTP,0,0,0,,来了～！
+Dialogue: 0,0:06:47.68,0:06:48.79,AceSS_CN,NTP,0,0,0,,玩机～！
+Dialogue: 0,0:06:49.03,0:06:50.30,Defau_CN,NTP,0,0,0,,玩吧！
+Dialogue: 0,0:06:50.54,0:06:52.26,Defau_CN,NTP,0,0,0,,自我中心最好了
+Dialogue: 0,0:06:52.47,0:06:54.54,Defau_CN,NTP,0,0,0,,吃吧 喝吧 玩吧！
+Dialogue: 0,0:06:54.87,0:06:55.92,AceSS_CN,NTP,0,0,0,,哈要～！
+Dialogue: 0,0:06:56.20,0:06:57.36,Defau_CN,NTP,0,0,0,,好的 好的...
+Dialogue: 0,0:06:57.66,0:06:59.28,Defau_CN,NTP,0,0,0,,再怎么被说是任性
+Dialogue: 0,0:06:59.46,0:07:03.39,Defau_CN,NTP,0,0,0,,全部按自己想的来 不是最棒了吗？
+Dialogue: 0,0:07:03.59,0:07:05.36,Defau_CN,NTP,0,0,0,,这就是自我中心
+Dialogue: 0,0:07:05.54,0:07:08.06,Defau_CN,NTP,0,0,0,,小爱也想成为自我中心吧？
+Dialogue: 0,0:07:09.64,0:07:11.25,Defau_CN,NTP,0,0,0,,痛痛痛痛！
+Dialogue: 0,0:07:12.10,0:07:13.33,Defau_CN,NTP,0,0,0,,开...开心吗？
+Dialogue: 0,0:07:14.08,0:07:15.53,Defau_CN,NTP,0,0,0,,这真是太好了...
+Dialogue: 0,0:07:18.63,0:07:23.52,Defau_CN,NTP,0,0,0,,小爱变成真正的自我中心 也就是时间问题了
+Dialogue: 0,0:07:24.01,0:07:26.71,Defau_CN,NTP,0,0,0,,这样的话 就能再增强我的能力
+Dialogue: 0,0:07:27.22,0:07:31.17,Defau_CN,NTP,0,0,0,,独享从人类世界掠夺的邪念能
+Dialogue: 0,0:07:31.45,0:07:35.13,Defau_CN,NTP,0,0,0,,得到能超过自我中心之王力量的话
+Dialogue: 0,0:07:35.34,0:07:39.70,Defau_CN,NTP,0,0,0,,就能成为自我中心世界的NO.1
+Dialogue: 0,0:07:47.42,0:07:49.29,Defau_CN,NTP,0,0,0,,小爱说想玩保龄球
+Dialogue: 0,0:07:50.38,0:07:52.23,Defau_CN,NTP,0,0,0,,哼！ 真是愚蠢
+Dialogue: 0,0:07:57.69,0:07:58.89,Defau_CN,NTP,0,0,0,,怎...怎么了！？
+Dialogue: 0,0:08:08.39,0:08:10.86,Defau_CN,NTP,0,0,0,,全倒！很好哦！
+Dialogue: 0,0:08:11.03,0:08:12.36,Defau_CN,NTP,0,0,0,,好棒～！ 再来 再来！
+Dialogue: 0,0:08:16.71,0:08:17.54,Defau_CN,NTP,0,0,0,,不是这样！
+Dialogue: 0,0:08:17.75,0:08:19.06,Defau_CN,NTP,0,0,0,,不是倒我们！
+Dialogue: 0,0:08:46.88,0:08:48.70,Defau_CN,NTP,0,0,0,,现在要忍耐...
+Dialogue: 0,0:08:49.11,0:08:51.02,Defau_CN,NTP,0,0,0,,马上我就会...
+Dialogue: 0,0:08:52.47,0:08:54.70,Defau_CN,NTP,0,0,0,,NO... 1！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:09:03.01,0:09:04.04,Heart_CN,NTP,0,0,0,,嗯！？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:09:05.37,0:09:07.38,Diamo_CN,NTP,0,0,0,,哎！？ 小爱早上才回来？
+Dialogue: 0,0:09:07.64,0:09:09.74,Heart_CN,NTP,0,0,0,,嗯 查理看到了
+Dialogue: 0,0:09:09.92,0:09:11.76,Sword_CN,NTP,0,0,0,,小爱怎么可能这样
+Dialogue: 0,0:09:12.28,0:09:16.97,Heart_CN,NTP,0,0,0,,但是最近的小爱的确变得很任性
+Dialogue: 0,0:09:17.64,0:09:18.39,Heart_CN,NTP,0,0,0,,嗯？
+Dialogue: 0,0:09:18.58,0:09:22.15,Diamo_CN,NTP,0,0,0,,哇！情...情情情...苏...！？
+Dialogue: 0,0:09:23.53,0:09:24.76,Heart_CN,NTP,0,0,0,,挑战书！？
+Dialogue: 0,0:09:26.64,0:09:28.15,Heart_CN,NTP,0,0,0,,小爱在我们手里
+Dialogue: 0,0:09:28.35,0:09:31.83,Heart_CN,NTP,0,0,0,,想要回去的话 来镇外的废弃工厂
+Dialogue: 0,0:09:32.19,0:09:33.07,Heart_CN,NTP,0,0,0,,Bel 上
+Dialogue: 0,0:09:33.56,0:09:34.95,Sword_CN,NTP,0,0,0,,小爱被拐走了！？
+Dialogue: 0,0:09:35.33,0:09:37.16,Heart_CN,NTP,0,0,0,,现在就去救她！
+Dialogue: 0,0:09:37.63,0:09:40.69,Diamo_CN,NTP,0,0,0,,但是 肯定又是什么阴谋？
+Dialogue: 0,0:09:41.02,0:09:42.95,Heart_CN,NTP,0,0,0,,即使这样...
+Dialogue: 0,0:09:43.33,0:09:46.14,Heart_CN,NTP,0,0,0,,绝对要救回小爱！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:10:06.49,0:10:07.80,Heart_CN,NTP,0,0,0,,小爱在哪里！？
+Dialogue: 0,0:10:07.99,0:10:09.71,AceSS_CN,NTP,0,0,0,,别藏了 快交出来！
+Dialogue: 0,0:10:10.08,0:10:11.94,Defau_CN,NTP,0,0,0,,在这里哦
+Dialogue: 0,0:10:14.51,0:10:15.55,Heart_CN,NTP,0,0,0,,小爱！？
+Dialogue: 0,0:10:15.87,0:10:17.46,Diamo_CN,NTP,0,0,0,,怎么这副打扮！？
+Dialogue: 0,0:10:17.66,0:10:18.93,AceSS_CN,NTP,0,0,0,,小爱 回这边来！
+Dialogue: 0,0:10:20.36,0:10:22.05,Defau_CN,NTP,0,0,0,,她说不要呢！
+Dialogue: 0,0:10:22.25,0:10:24.51,Heart_CN,NTP,0,0,0,,是你随口胡说的吧！
+Dialogue: 0,0:10:24.72,0:10:27.77,Defau_CN,NTP,0,0,0,,才不是胡说 真的是小爱的想法
+Dialogue: 0,0:10:28.40,0:10:32.90,Defau_CN,NTP,0,0,0,,小爱跟我们在一起更开心吧～？
+Dialogue: 0,0:10:35.19,0:10:38.23,Defau_CN,NTP,0,0,0,,小爱变成了完全的自我中心哦！
+Dialogue: 0,0:10:38.43,0:10:39.73,AceSS_CN,NTP,0,0,0,,别胡说了！
+Dialogue: 0,0:10:40.05,0:10:42.21,Defau_CN,NTP,0,0,0,,自我中心的想喝就喝！
+Dialogue: 0,0:10:42.44,0:10:44.77,Defau_CN,NTP,0,0,0,,自我中心的想吃就吃！
+Dialogue: 0,0:10:47.91,0:10:49.14,Heart_CN,NTP,0,0,0,,我明白了！
+Dialogue: 0,0:10:49.37,0:10:51.61,Heart_CN,NTP,0,0,0,,他们每晚都把小爱带出去
+Dialogue: 0,0:10:51.83,0:10:54.26,Heart_CN,NTP,0,0,0,,宠坏成自我中心
+Dialogue: 0,0:10:54.50,0:10:55.89,Defau_CN,NTP,0,0,0,,答对了！
+Dialogue: 0,0:10:56.09,0:10:58.48,Defau_CN,NTP,0,0,0,,但是现在才知道已经为时过晚
+Dialogue: 0,0:11:01.72,0:11:03.05,Heart_CN,NTP,0,0,0,,不行啊 小爱！
+Dialogue: 0,0:11:03.23,0:11:04.34,Sword_CN,NTP,0,0,0,,快停止！
+Dialogue: 0,0:11:04.51,0:11:05.93,Diamo_CN,NTP,0,0,0,,肚子会吃坏的！
+Dialogue: 0,0:11:06.13,0:11:09.77,Defau_CN,NTP,0,0,0,,看吧～ 吓人的姐姐们发火了
+Dialogue: 0,0:11:09.96,0:11:11.59,Defau_CN,NTP,0,0,0,,只能拿走了
+Dialogue: 0,0:11:11.87,0:11:13.89,AceSS_CN,NTP,0,0,0,,还给小爱～！
+Dialogue: 0,0:11:14.15,0:11:16.10,Defau_CN,NTP,0,0,0,,好啊！ 这样自我中心—！
+Dialogue: 0,0:11:16.31,0:11:17.56,Defau_CN,NTP,0,0,0,,来了 来了！
+Dialogue: 0,0:11:17.76,0:11:19.84,Defau_CN,NTP,0,0,0,,感觉到邪念能了！
+Dialogue: 0,0:11:20.86,0:11:23.30,Heart_CN,NTP,0,0,0,,绝对要把小爱救回来！
+Dialogue: 0,0:11:23.58,0:11:25.08,Heart_CN,NTP,0,0,0,,大家 上吧！
+Dialogue: 0,0:11:26.33,0:11:27.06,AceSS_CN,NTP,0,0,0,,小爱！
+Dialogue: 0,0:11:27.34,0:11:28.02,AceSS_CN,NTP,0,0,0,,呸！
+Dialogue: 0,0:11:28.39,0:11:30.30,Heart_CN,NTP,0,0,0,,会很危险 亚久里先躲起来！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:11:32.81,0:11:34.30,Heart_CN,NTP,0,0,0,,查理！
+Dialogue: 0,0:11:35.47,0:11:37.94,Toght_CN,NTP,0,0,0,,Precure Love Link！
+Dialogue: 0,0:11:38.65,0:11:41.71,Toght_CN,NTP,0,0,0,,L O V E！
+Dialogue: 0,0:11:58.67,0:12:02.04,Heart_CN,NTP,0,0,0,,满溢之爱 Cure Heart！
+Dialogue: 0,0:12:04.86,0:12:08.49,Diamo_CN,NTP,0,0,0,,睿智之光 Cure Diamond！
+Dialogue: 0,0:12:11.15,0:12:15.16,Roset_CN,NTP,0,0,0,,向阳之暖 Cure Rosetta！
+Dialogue: 0,0:12:16.74,0:12:20.05,Sword_CN,NTP,0,0,0,,勇气之刃 Cure Sword！
+Dialogue: 0,0:12:23.16,0:12:25.33,Toght_CN,NTP,0,0,0,,响彻吧 爱的心跳！
+Dialogue: 0,0:12:25.85,0:12:27.35,Toght_CN,NTP,0,0,0,,DokiDoki Precure！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:12:29.15,0:12:30.37,Defau_CN,NTP,0,0,0,,Precure！
+Dialogue: 0,0:12:30.59,0:12:33.19,Defau_CN,NTP,0,0,0,,今天就是你们的末日！
+Dialogue: 0,0:12:47.13,0:12:48.17,Diamo_CN,NTP,0,0,0,,两边夹击！
+Dialogue: 0,0:12:49.08,0:12:50.60,Defau_CN,NTP,0,0,0,,小菜一碟！
+Dialogue: 0,0:12:54.44,0:12:55.22,Roset_CN,NTP,0,0,0,,大家！
+Dialogue: 0,0:12:55.43,0:12:56.23,Defau_CN,NTP,0,0,0,,有机可乘！
+Dialogue: 0,0:12:59.32,0:13:02.88,Defau_CN,NTP,0,0,0,,一直在烦小爱的吓人大姐姐们
+Dialogue: 0,0:13:03.08,0:13:05.88,Defau_CN,NTP,0,0,0,,由哥哥们来教训她们～
+Dialogue: 0,0:13:07.29,0:13:08.87,Defau_CN,NTP,0,0,0,,哈哈哈！ 你看看你
+Dialogue: 0,0:13:09.05,0:13:10.93,Defau_CN,NTP,0,0,0,,说什么 满溢的爱！
+Dialogue: 0,0:13:11.18,0:13:15.40,Defau_CN,NTP,0,0,0,,爱这种转瞬即逝 没用的东西！
+Dialogue: 0,0:13:15.69,0:13:18.38,Heart_CN,NTP,0,0,0,,爱... 才不是没用的！
+Dialogue: 0,0:13:18.58,0:13:19.33,Defau_CN,NTP,0,0,0,,哈？
+Dialogue: 0,0:13:19.55,0:13:22.24,Heart_CN,NTP,0,0,0,,并且 绝对不会消失
+Dialogue: 0,0:13:22.61,0:13:24.56,Heart_CN,NTP,0,0,0,,因为相信着爱...
+Dialogue: 0,0:13:25.14,0:13:27.83,Heart_CN,NTP,0,0,0,,只要我还相信着小爱
+Dialogue: 0,0:13:28.20,0:13:30.18,Heart_CN,NTP,0,0,0,,爱就能无限的满满溢出！
+Dialogue: 0,0:13:30.86,0:13:31.68,Defau_CN,NTP,0,0,0,,啰嗦！
+Dialogue: 0,0:13:40.39,0:13:41.18,AceSS_CN,NTP,0,0,0,,小爱！
+Dialogue: 0,0:13:41.50,0:13:43.92,AceSS_CN,NTP,0,0,0,,快醒醒吧！小爱！
+Dialogue: 0,0:13:48.90,0:13:52.23,Defau_CN,NTP,0,0,0,,小爱越哭 邪念能就越强
+Dialogue: 0,0:13:59.81,0:14:00.62,Heart_CN,NTP,0,0,0,,危险！
+Dialogue: 0,0:14:07.01,0:14:07.74,Heart_CN,NTP,0,0,0,,大家...！
+Dialogue: 0,0:14:08.09,0:14:09.53,Toght_CN,NTP,0,0,0,,这里交给我们！
+Dialogue: 0,0:14:10.09,0:14:11.76,Diamo_CN,NTP,0,0,0,,Cure Heart去救小爱！
+Dialogue: 0,0:14:12.00,0:14:12.85,Heart_CN,NTP,0,0,0,,嗯...
+Dialogue: 0,0:14:15.94,0:14:17.38,Heart_CN,NTP,0,0,0,,来这边！ 小爱！
+Dialogue: 0,0:14:17.59,0:14:19.19,Defau_CN,NTP,0,0,0,,怎么可能给你！
+Dialogue: 0,0:14:28.71,0:14:29.62,Heart_CN,NTP,0,0,0,,小爱！
+Dialogue: 0,0:14:35.70,0:14:36.53,Roset_CN,NTP,0,0,0,,小爱！
+Dialogue: 0,0:14:36.74,0:14:37.67,Toght_CN,NTP,0,0,0,,Cure Heart！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:14:58.34,0:14:59.76,Heart_CN,NTP,0,0,0,,抱歉 小爱...
+Dialogue: 0,0:15:00.13,0:15:03.72,Heart_CN,NTP,0,0,0,,都没发觉小爱成了自我中心...
+Dialogue: 0,0:15:11.77,0:15:16.57,Heart_CN,NTP,0,0,0,,我相信着 小爱绝对没忘掉我们...
+Dialogue: 0,0:15:18.19,0:15:20.59,Heart_CN,NTP,0,0,0,,只要小爱精神的笑着
+Dialogue: 0,0:15:20.81,0:15:23.75,Heart_CN,NTP,0,0,0,,我们就会感到十分幸福...
+Dialogue: 0,0:15:24.85,0:15:27.33,Heart_CN,NTP,0,0,0,,所以 想起来吧...
+Dialogue: 0,0:15:30.31,0:15:31.73,Heart_CN,NTP,0,0,0,,我说 小爱
+Dialogue: 0,0:15:32.17,0:15:35.77,Heart_CN,NTP,0,0,0,,还记得 前一会大家一起去农园吗？
+Dialogue: 0,0:15:36.49,0:15:38.31,Heart_CN,NTP,0,0,0,,见到亚久里的努力
+Dialogue: 0,0:15:38.56,0:15:41.40,Heart_CN,NTP,0,0,0,,小爱也喜欢吃胡萝卜了
+Dialogue: 0,0:15:41.77,0:15:43.92,Heart_CN,NTP,0,0,0,,多吃多长！
+Dialogue: 0,0:15:46.10,0:15:49.90,Heart_CN,NTP,0,0,0,,不要不要期时的小爱 经常哭吧
+Dialogue: 0,0:15:50.30,0:15:53.89,Heart_CN,NTP,0,0,0,,我都不知道该怎么办 手足无措
+Dialogue: 0,0:15:54.41,0:15:56.88,Heart_CN,NTP,0,0,0,,但是 我也是从小宝宝的时候起
+Dialogue: 0,0:15:57.08,0:16:00.29,Heart_CN,NTP,0,0,0,,在妈妈们的照顾下 长大成人的
+Dialogue: 0,0:16:00.93,0:16:04.34,Heart_CN,NTP,0,0,0,,小爱想成为怎么样的女孩子呢？
+Dialogue: 0,0:16:05.66,0:16:09.54,Heart_CN,NTP,0,0,0,,短短的日子里一起经历了很多
+Dialogue: 0,0:16:10.21,0:16:13.65,Heart_CN,NTP,0,0,0,,我与蕾吉娜分离 失落的时候
+Dialogue: 0,0:16:13.86,0:16:16.15,Heart_CN,NTP,0,0,0,,是小爱替我解忧
+Dialogue: 0,0:16:16.84,0:16:18.98,Heart_CN,NTP,0,0,0,,第一次开口说『好腻害』的时候
+Dialogue: 0,0:16:19.21,0:16:21.68,Heart_CN,NTP,0,0,0,,在学校玩闹的时候
+Dialogue: 0,0:16:22.37,0:16:26.95,Heart_CN,NTP,0,0,0,,跟六花 有栖 小真 亚久里 查理她们一起
+Dialogue: 0,0:16:27.14,0:16:28.48,Heart_CN,NTP,0,0,0,,还有哥哥
+Dialogue: 0,0:16:28.93,0:16:31.74,Heart_CN,NTP,0,0,0,,大家一起相持 一起度过...
+Dialogue: 0,0:16:32.55,0:16:38.34,Heart_CN,NTP,0,0,0,,还记得我们最初遇到的时候吗？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:00.88,0:17:02.77,AceSS_CN,NTP,0,0,0,,小... 爱...
+Dialogue: 0,0:17:03.59,0:17:04.72,Heart_CN,NTP,0,0,0,,小爱...
+Dialogue: 0,0:17:08.53,0:17:09.67,AceSS_CN,NTP,0,0,0,,小爱～！
+Dialogue: 0,0:17:10.77,0:17:13.08,Heart_CN,NTP,0,0,0,,最喜欢小爱了！
+Dialogue: 0,0:17:27.32,0:17:28.30,Toght_CN,NTP,0,0,0,,Cure Heart！
+Dialogue: 0,0:17:28.49,0:17:29.26,AceSS_CN,NTP,0,0,0,,小爱！
+Dialogue: 0,0:17:29.53,0:17:31.62,Defau_CN,NTP,0,0,0,,啊！？ 力量没了！
+Dialogue: 0,0:17:31.93,0:17:32.79,Defau_CN,NTP,0,0,0,,快溜吧
+Dialogue: 0,0:17:35.16,0:17:37.71,Defau_CN,NTP,0,0,0,,用黑色指环的最大力量上！
+Dialogue: 0,0:17:39.25,0:17:40.72,Defau_CN,NTP,0,0,0,,哦！ 好厉害～！
+Dialogue: 0,0:17:41.20,0:17:42.69,Defau_CN,NTP,0,0,0,,这样的话 能战！
+Dialogue: 0,0:17:42.93,0:17:43.72,AceSS_CN,NTP,0,0,0,,小爱！
+Dialogue: 0,0:17:45.69,0:17:48.13,AceSS_CN,NTP,0,0,0,,Precure Dress up！
+Dialogue: 0,0:18:26.54,0:18:29.50,AceSS_CN,NTP,0,0,0,,爱之王牌 Cure Ace！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:18:31.71,0:18:32.78,Defau_CN,NTP,0,0,0,,吃我一招！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:18:34.97,0:18:38.34,AceSS_CN,NTP,0,0,0,,着色！ Love Kiss Rouge！
+Dialogue: 0,0:18:51.02,0:18:53.64,AceSS_CN,NTP,0,0,0,,兴奋起来吧！ Ace Shot！
+Dialogue: 0,0:18:58.43,0:18:59.25,Heart_CN,NTP,0,0,0,,厉害！
+Dialogue: 0,0:18:59.66,0:19:03.81,AceSS_CN,NTP,0,0,0,,这就是完全取回爱之后 小爱的力量！
+Dialogue: 0,0:19:04.38,0:19:06.51,Defau_CN,NTP,0,0,0,,嘁 没用的家伙们！
+Dialogue: 0,0:19:14.99,0:19:18.25,Defau_CN,NTP,0,0,0,,Super Bel！
+Dialogue: 0,0:19:19.76,0:19:21.62,Heart_CN,NTP,0,0,0,,小爱现在已经取回爱了
+Dialogue: 0,0:19:22.06,0:19:24.18,Heart_CN,NTP,0,0,0,,我们没什么好畏惧的！
+Dialogue: 0,0:19:25.50,0:19:27.10,Toght_CN,NTP,0,0,0,,Magical Lovely Pad！
+Dialogue: 0,0:19:43.33,0:19:46.02,Toght_CN,NTP,0,0,0,,把我们的力量传给Cure Heart！
+Dialogue: 0,0:19:55.32,0:19:59.46,Heart_CN,NTP,0,0,0,,Precure Lovely Straight Flush！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:15.22,0:20:21.35,Defau_CN,NTP,0,0,0,,我是要成为... NO.1的男人啊～！
+Dialogue: 0,0:20:22.95,0:20:23.96,Defau_CN,NTP,0,0,0,,真的假的...
+Dialogue: 0,0:20:26.75,0:20:28.07,Defau_CN,NTP,0,0,0,,给我记住了！
+Dialogue: 0,0:20:28.45,0:20:30.61,Defau_CN,NTP,0,0,0,,走了！你这呆子！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:39.74,0:20:41.05,Heart_CN,NTP,0,0,0,,睡的真香
+Dialogue: 0,0:20:41.60,0:20:43.42,Diamo_CN,NTP,0,0,0,,今天发生了很多
+Dialogue: 0,0:20:44.33,0:20:46.09,Sword_CN,NTP,0,0,0,,有小爱的力量的话...
+Dialogue: 0,0:20:46.47,0:20:49.10,Sword_CN,NTP,0,0,0,,说不定能打赢自我中心之王
+Dialogue: 0,0:20:49.93,0:20:50.97,Roset_CN,NTP,0,0,0,,的确是这样...
+Dialogue: 0,0:20:51.16,0:20:54.69,Roset_CN,NTP,0,0,0,,小爱的笑容有着这么强的力量
+Dialogue: 0,0:20:54.89,0:20:56.05,AceSS_CN,NTP,0,0,0,,说的是呢
+Dialogue: 0,0:20:56.31,0:20:59.93,AceSS_CN,NTP,0,0,0,,大概到了与自我中心之王决战的时刻
+Dialogue: 0,0:21:00.33,0:21:01.38,Heart_CN,NTP,0,0,0,,那样的话...
+Dialogue: 0,0:21:01.81,0:21:02.77,Toght_CN,NTP,0,0,0,,嗯？
+Dialogue: 0,0:21:03.22,0:21:05.58,Heart_CN,NTP,0,0,0,,就能再见到蕾吉娜！
+Dialogue: 0,0:21:10.68,0:21:16.12,Defau_CN,NTP,0,0,0,,啊～ 被特意叫回扑克王国
+Dialogue: 0,0:21:16.42,0:21:17.80,Defau_CN,NTP,0,0,0,,又要被训话？
+Dialogue: 0,0:21:18.19,0:21:20.52,Defau_CN,NTP,0,0,0,,闭上嘴 会被听到的
+Dialogue: 0,0:21:26.12,0:21:29.57,Regna_CN,NTP,0,0,0,,果然我不在话的 你们就是没用啊
+Dialogue: 0,0:21:29.78,0:21:31.54,Defau_CN,NTP,0,0,0,,这... 这个声音是！？
+Dialogue: 0,0:21:56.65,0:21:57.59,Defau_CN,NTP,0,0,0,,蕾吉娜！？
+Dialogue: 0,0:21:57.89,0:21:58.92,Regna_CN,NTP,0,0,0,,呜！
+Dialogue: 0,0:21:59.20,0:22:01.83,Regna_CN,NTP,0,0,0,,该叫『蕾吉娜大小姐』！对吧？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:23:37.45,0:23:39.06,Heart_CN,NTP,0,0,0,,我们也变强了！
+Dialogue: 0,0:23:39.25,0:23:41.77,Roset_CN,NTP,0,0,0,,Lovely Pad也能运用自如了
+Dialogue: 0,0:23:41.99,0:23:44.96,AceSS_CN,NTP,0,0,0,,终于到了与自我中心之王决战的时候
+Dialogue: 0,0:23:45.15,0:23:47.55,Sword_CN,NTP,0,0,0,,这样就能够夺回扑克王国！
+Dialogue: 0,0:23:47.73,0:23:49.58,Heart_CN,NTP,0,0,0,,还能再见到蕾吉娜！
+Dialogue: 0,0:23:49.77,0:23:50.97,Diamo_CN,NTP,0,0,0,,但是要怎么去呢？
+Dialogue: 0,0:23:51.15,0:23:53.29,Roset_CN,NTP,0,0,0,,乔先生会帮我们的
+Dialogue: 0,0:23:53.29,0:23:55.17,Heart_CN,NTP,0,0,0,,诶！哥哥为什么会在这
+Dialogue: 0,0:23:57.09,0:23:58.19,Heart_CN,NTP,0,0,0,,DokiDoki Precure
+Dialogue: 0,0:23:58.64,0:24:00.97,Heart_CN,NTP,0,0,0,,来见你了！与蕾吉娜再会！
+Dialogue: 0,0:24:01.72,0:24:03.53,Heart_CN,NTP,0,0,0,,心中的悸动 停不下来哦
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:28.02,0:17:32.39,in_Heart_CN,NTP,0,0,0,,(Happy Go! Lucky Girls! Precure! Yeah)
+Dialogue: 0,0:17:32.57,0:17:34.49,in_Heart_CN,NTP,0,0,0,,世界宛若旋转木马！
+Dialogue: 0,0:17:34.90,0:17:37.28,in_Heart_CN,NTP,0,0,0,,用爱周游世界 Three Two One!
+Dialogue: 0,0:17:37.87,0:17:43.42,in_Heart_CN,NTP,0,0,0,,光芒闪耀每一天 DokiDoki! Precure
+Dialogue: 0,0:17:44.94,0:17:50.28,in_Heart_CN,NTP,0,0,0,,身着新衣 向着未曾涉足的前方迈步
+Dialogue: 0,0:17:50.96,0:17:55.58,in_Heart_CN,NTP,0,0,0,,向着悸动景色 说Hello! Hello Hello
+Dialogue: 0,0:17:55.90,0:18:01.46,in_Heart_CN,NTP,0,0,0,,拐角处 花之色 被今天的Lucky Color眷顾着
+Dialogue: 0,0:18:01.91,0:18:06.96,in_Heart_CN,NTP,0,0,0,,全都包在这样的我的身上吧！
+Dialogue: 0,0:18:07.69,0:18:12.58,in_Heart_CN,NTP,0,0,0,,身为朋友 困窘之时
+Dialogue: 0,0:18:12.76,0:18:21.40,in_Heart_CN,NTP,0,0,0,,伸出援手是人之常情吧
+Dialogue: 0,0:18:21.55,0:18:24.12,in_Heart_CN,NTP,0,0,0,,{\an7}(Happy! Lucky! Precure!)
+Dialogue: 0,0:18:23.08,0:18:25.44,in_Heart_CN,NTP,0,0,0,,唯有悸动之心 Precure!
+Dialogue: 0,0:18:25.74,0:18:28.34,in_Heart_CN,NTP,0,0,0,,能使世界改变 Happy Love!
+Dialogue: 0,0:18:28.71,0:18:31.09,in_Heart_CN,NTP,0,0,0,,秀外慧中的约定
+Dialogue: 0,0:18:31.48,0:18:35.22,in_Heart_CN,NTP,0,0,0,,才是女孩子们的约定
+Dialogue: 0,0:18:35.92,0:18:40.92,in_Heart_CN,NTP,0,0,0,,相信着你 为你而战
+Dialogue: 0,0:18:41.10,0:18:47.24,in_Heart_CN,NTP,0,0,0,,无敌的！温柔！紧握手中… (Yeah) Precure!
+Dialogue: 0,0:00:00.00,0:00:00.00,in_Heart_CN,NTP,0,0,0,,
+Dialogue: 0,0:18:50.93,0:18:55.24,in_Heart_CN,NTP,0,0,0,,抬头仰望 满布乌云的天空独自叹息
+Dialogue: 0,0:18:55.57,0:19:00.57,in_Heart_CN,NTP,0,0,0,,不如伸出双手 Marshmallow! Mallow Mallow
+Dialogue: 0,0:19:00.90,0:19:06.56,in_Heart_CN,NTP,0,0,0,,蓝天中 白云上 温暖的晴天在等待着
+Dialogue: 0,0:19:06.89,0:19:11.87,in_Heart_CN,NTP,0,0,0,,雨中并不孤独有我伴你身边！
+Dialogue: 0,0:19:12.66,0:19:17.62,in_Heart_CN,NTP,0,0,0,,环绕世界 横冲直撞
+Dialogue: 0,0:19:17.81,0:19:26.36,in_Heart_CN,NTP,0,0,0,,放眼天下共寻觅希望吧
+Dialogue: 0,0:00:00.00,0:00:00.00,in_Heart_CN,NTP,0,0,0,,
+Dialogue: 0,0:19:26.65,0:19:28.59,in_Heart_CN,NTP,0,0,0,,{\an7}(Happy! Lucky! Precure!)
+Dialogue: 0,0:19:28.03,0:19:30.47,in_Heart_CN,NTP,0,0,0,,唯有悸动之心 Precure!
+Dialogue: 0,0:19:30.78,0:19:33.20,in_Heart_CN,NTP,0,0,0,,就要满溢出来 Happy Love!
+Dialogue: 0,0:19:33.50,0:19:35.97,in_Heart_CN,NTP,0,0,0,,来填满整个地球
+Dialogue: 0,0:19:36.33,0:19:40.08,in_Heart_CN,NTP,0,0,0,,打扮起来漂亮又美丽
+Dialogue: 0,0:19:40.72,0:19:45.87,in_Heart_CN,NTP,0,0,0,,不变的心 照亮未来
+Dialogue: 0,0:19:46.09,0:19:52.11,in_Heart_CN,NTP,0,0,0,,率直的！闪亮！就在心中… (Yeah) Precure!
+Dialogue: 0,0:00:00.00,0:00:00.00,in_Heart_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:00.83,0:20:02.73,in_Heart_CN,NTP,0,0,0,,{\an7}(Happy! Lucky! Precure!)
+Dialogue: 0,0:20:02.29,0:20:04.40,in_Heart_CN,NTP,0,0,0,,唯有悸动之心 Precure!
+Dialogue: 0,0:20:04.64,0:20:07.07,in_Heart_CN,NTP,0,0,0,,能使世界改变 Happy Love!
+Dialogue: 0,0:20:07.76,0:20:09.91,in_Heart_CN,NTP,0,0,0,,秀外慧中的约定
+Dialogue: 0,0:20:10.46,0:20:14.15,in_Heart_CN,NTP,0,0,0,,才是女孩子们的约定
+Dialogue: 0,0:20:14.64,0:20:19.70,in_Heart_CN,NTP,0,0,0,,相信着你 为你而战
+Dialogue: 0,0:20:19.96,0:20:25.95,in_Heart_CN,NTP,0,0,0,,无敌的！温柔！紧握手中… (Yeah) Precure!
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:01:04.83,0:01:09.20,oped,NTP,0,0,0,,(Happy Go! Lucky Girls! Precure! Yeah)
+Dialogue: 0,0:01:09.20,0:01:11.67,oped,NTP,0,0,0,,世界宛若旋转木马！
+Dialogue: 0,0:01:12.03,0:01:14.54,oped,NTP,0,0,0,,用爱周游世界 Three Two One!
+Dialogue: 0,0:01:14.84,0:01:16.57,oped,NTP,0,0,0,,光芒闪耀每一天
+Dialogue: 0,0:01:16.74,0:01:20.23,oped,NTP,0,0,0,,DokiDoki! Precure
+Dialogue: 0,0:01:21.74,0:01:27.14,oped,NTP,0,0,0,,身着新衣 向着未曾涉足的前方迈步
+Dialogue: 0,0:01:27.75,0:01:32.80,oped,NTP,0,0,0,,向着悸动景色 说Hello! Hello Hello
+Dialogue: 0,0:01:32.98,0:01:38.46,oped,NTP,0,0,0,,拐角处 花之色 被今天的Lucky Color眷顾着
+Dialogue: 0,0:01:38.98,0:01:43.90,oped,NTP,0,0,0,,全都包在这样的我的身上吧！
+Dialogue: 0,0:01:44.77,0:01:49.60,oped,NTP,0,0,0,,身为朋友 困窘之时
+Dialogue: 0,0:01:49.81,0:01:58.48,oped,NTP,0,0,0,,伸出援手是人之常情吧
+Dialogue: 0,0:01:58.48,0:02:00.15,oped,NTP,0,0,0,,(Happy! Lucky! Precure!)
+Dialogue: 0,0:02:00.15,0:02:02.55,oped,NTP,0,0,0,,唯有悸动之心 Precure!
+Dialogue: 0,0:02:02.77,0:02:05.39,oped,NTP,0,0,0,,能使世界改变 Happy Love!
+Dialogue: 0,0:02:05.65,0:02:08.19,oped,NTP,0,0,0,,秀外慧中的约定
+Dialogue: 0,0:02:08.49,0:02:12.06,oped,NTP,0,0,0,,才是女孩子们的约定
+Dialogue: 0,0:02:12.86,0:02:18.10,oped,NTP,0,0,0,,相信着你 为你而战
+Dialogue: 0,0:02:18.13,0:02:24.01,oped,NTP,0,0,0,,无敌的！温柔！紧握手中… (Yeah) Precure!
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:22:07.49,0:22:15.26,oped,NTP,0,0,0,,和你牵手之后 已经是朋友了哦
+Dialogue: 0,0:22:15.51,0:22:24.02,oped,NTP,0,0,0,,去让笑容的花朵 现在绽放吧 直到永远{\fnDroid Sans Fallback}{\fs60}♡{\r}LOVE
+Dialogue: 0,0:22:29.30,0:22:34.53,oped,NTP,0,0,0,,L O V E  Precure!
+Dialogue: 0,0:22:36.22,0:22:39.06,oped,NTP,0,0,0,,想更多更多地了解你
+Dialogue: 0,0:22:39.35,0:22:42.54,oped,NTP,0,0,0,,想知道你热衷的事情
+Dialogue: 0,0:22:42.81,0:22:46.15,oped,NTP,0,0,0,,心里扑通扑通 (Yeah!)  忐忑不安 (Yeah!)
+Dialogue: 0,0:22:46.32,0:22:49.49,oped,NTP,0,0,0,,大家一起去找寻未来吧！
+Dialogue: 0,0:22:49.86,0:22:53.07,oped,NTP,0,0,0,,有时抽啜流泪
+Dialogue: 0,0:22:53.16,0:22:56.20,oped,NTP,0,0,0,,不过没有关系 因为是女孩子嘛
+Dialogue: 0,0:22:56.41,0:23:03.79,oped,NTP,0,0,0,,但是看看周围 世界上不是只有孤单的一个人！
+Dialogue: 0,0:23:03.96,0:23:11.86,oped,NTP,0,0,0,,和你牵手之后 已经是朋友了哦
+Dialogue: 0,0:23:12.15,0:23:18.68,oped,NTP,0,0,0,,大家一起变得纯真 一起变得快乐
+Dialogue: 0,0:23:18.99,0:23:25.54,oped,NTP,0,0,0,,只要不放弃真实的心意
+Dialogue: 0,0:23:25.90,0:23:34.66,oped,NTP,0,0,0,,就会发生奇迹 现在就出发吧 直到永远{\fnDroid Sans Fallback}{\fs60}♡{\r}LOVE
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:23:39.18,0:24:05.24,staff,NTP,0,0,0,Scroll up;200;50;30;25,妇联大友团 片源 Milky Rose\N翻译 Cure sYan Cure Humi Cure Nine \N时间轴Cure Chang 海报Cure Sweet\N后期 Milky Rose Cure Ming\N雪飘工作室
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:08.42,0:00:11.77,Heart_JP,NTP,0000,0000,0000,,はい　食べすぎると よくないから　そこまでね
+Dialogue: 0,0:00:15.01,0:00:17.34,Diamo_JP,NTP,0000,0000,0000,,飲みすぎも よくないから　そこまでよ アイ
+Dialogue: 0,0:00:18.55,0:00:21.17,Roset_JP,NTP,0000,0000,0000,,素直ないい子には ご褒美ですわ
+Dialogue: 0,0:00:22.33,0:00:24.58,Roset_JP,NTP,0000,0000,0000,,ランスッス～！
+Dialogue: 0,0:00:36.37,0:00:41.34,Sword_JP,NTP,0000,0000,0000,,この間までは 何を言っても　イヤイヤっていう イヤイヤ期だったけど
+Dialogue: 0,0:00:41.56,0:00:44.37,AceSS_JP,NTP,0000,0000,0000,,それも卒業したって感じですわね
+Dialogue: 0,0:00:46.56,0:00:47.82,Heart_JP,NTP,0000,0000,0000,,ふしぎだね… 
+Dialogue: 0,0:00:48.01,0:00:49.88,Heart_JP,NTP,0000,0000,0000,,アイちゃんの笑顔を見てると
+Dialogue: 0,0:00:50.14,0:00:52.34,Diamo_JP,NTP,0000,0000,0000,,心がとっても　やさしくなって…
+Dialogue: 0,0:00:53.00,0:00:54.39,Sword_JP,NTP,0000,0000,0000,,{\pos(1355,990)}元気が出てくる！
+Dialogue: 0,0:00:53.00,0:00:54.39,Roset_JP,NTP,0000,0000,0000,,{\pos(520,990)}元気が出てきます！
+Dialogue: 0,0:00:56.13,0:01:00.77,AceSS_JP,NTP,0000,0000,0000,,この笑顔があれば　ジコチューが パワーアップすることも ありませんわね
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:02:29.30,0:02:30.09,Defau_JP,NTP,0000,0000,0000,,なにぃ？
+Dialogue: 0,0:02:30.75,0:02:34.46,Defau_JP,NTP,0000,0000,0000,,あの羽の生えた赤ん坊を ジコチューに育てるだと！？
+Dialogue: 0,0:02:30.53,0:02:34.24,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:02:34.55,0:02:35.67,Defau_JP,NTP,0000,0000,0000,,アイちゃんだ 
+Dialogue: 0,0:02:35.88,0:02:36.80,Defau_JP,NTP,0000,0000,0000,,くだらねぇ！
+Dialogue: 0,0:02:37.06,0:02:38.43,Defau_JP,NTP,0000,0000,0000,,自分でやったら… 
+Dialogue: 0,0:02:40.46,0:02:48.79,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:02:40.46,0:02:42.58,Defau_JP,NTP,0000,0000,0000,,アイちゃんがジコチューになれば 
+Dialogue: 0,0:02:42.80,0:02:44.75,Defau_JP,NTP,0000,0000,0000,,われわれのパワーがアップする
+Dialogue: 0,0:02:44.95,0:02:47.51,Defau_JP,NTP,0000,0000,0000,,そうすれば プリキュアをぶちたおせる
+Dialogue: 0,0:02:47.77,0:02:49.14,Defau_JP,NTP,0000,0000,0000,,でも　どうやって？
+Dialogue: 0,0:02:49.40,0:02:52.64,Defau_JP,NTP,0000,0000,0000,,ジコチューに育てるっていっても 簡単じゃないわよ
+Dialogue: 0,0:02:52.86,0:02:54.92,Defau_JP,NTP,0000,0000,0000,,うむ　そこでだ…
+Dialogue: 0,0:03:01.15,0:03:02.09,Defau_JP,NTP,0000,0000,0000,,いやいや…
+Dialogue: 0,0:03:04.76,0:03:06.93,Defau_JP,NTP,0000,0000,0000,,指人形でいく
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:03:10.10,0:03:13.26,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:03:21.90,0:03:23.61,Defau_JP,NTP,0000,0000,0000,,アイちゃん…　ウウン…
+Dialogue: 0,0:03:23.95,0:03:25.27,Defau_JP,NTP,0000,0000,0000,,アイちゃん？
+Dialogue: 0,0:03:30.36,0:03:32.68,Defau_JP,NTP,0000,0000,0000,,ここだよ　アイちゃん
+Dialogue: 0,0:03:49.99,0:03:52.01,Defau_JP,NTP,0000,0000,0000,,こんばんは　アイちゃん！
+Dialogue: 0,0:03:52.29,0:03:54.21,Defau_JP,NTP,0000,0000,0000,,ボクたちは　きみの友達さ 
+Dialogue: 0,0:03:54.44,0:03:56.22,Defau_JP,NTP,0000,0000,0000,,ねるのは　まだ早いわ
+Dialogue: 0,0:03:56.46,0:03:58.00,Defau_JP,NTP,0000,0000,0000,,いっしょに遊ぼうよ！
+Dialogue: 0,0:04:01.44,0:04:02.74,Defau_JP,NTP,0000,0000,0000,,夢のパラダイスへ 
+Dialogue: 0,0:04:02.92,0:04:04.64,Defau_JP,NTP,0000,0000,0000,,レッツ　ラ　ゴーだ！
+Dialogue: 0,0:04:04.82,0:04:06.03,Defau_JP,NTP,0000,0000,0000,,楽しいよ～！ 
+Dialogue: 0,0:04:06.24,0:04:07.42,Defau_JP,NTP,0000,0000,0000,,おいでよ～！
+Dialogue: 0,0:04:07.62,0:04:09.11,Defau_JP,NTP,0000,0000,0000,,早く　早く～！
+Dialogue: 0,0:04:12.16,0:04:14.28,Defau_JP,NTP,0000,0000,0000,,アイちゃん　こっちだよ～！ 
+Dialogue: 0,0:04:15.74,0:04:17.54,Defau_JP,NTP,0000,0000,0000,,ノリノリだね　アイちゃん
+Dialogue: 0,0:04:17.70,0:04:20.13,Defau_JP,NTP,0000,0000,0000,,今夜は　ねかさないわよ アイちゃん
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:04:27.18,0:04:29.22,Heart_JP,NTP,0000,0000,0000,,アイちゃん　朝だよ～
+Dialogue: 0,0:04:31.80,0:04:35.69,Heart_JP,NTP,0000,0000,0000,,あれ？　アイちゃんって いつも朝から元気なんだけど
+Dialogue: 0,0:04:38.81,0:04:40.17,Heart_JP,NTP,0000,0000,0000,,はい　アーン
+Dialogue: 0,0:04:42.06,0:04:44.02,Heart_JP,NTP,0000,0000,0000,,うん？　食べたくないの？
+Dialogue: 0,0:04:44.22,0:04:46.74,Heart_JP,NTP,0000,0000,0000,,ダメシャル　ちゃんと食べないと
+Dialogue: 0,0:04:46.96,0:04:47.75,AceSS_JP,NTP,0000,0000,0000,,イヤ！
+Dialogue: 0,0:04:47.97,0:04:49.94,Heart_JP,NTP,0000,0000,0000,,あれ？　またイヤイヤ期？
+Dialogue: 0,0:04:50.13,0:04:51.41,AceSS_JP,NTP,0000,0000,0000,,イヤイヤ～
+Dialogue: 0,0:04:52.17,0:04:56.20,Heart_JP,NTP,0000,0000,0000,,あっ！　マナ　急がないと 学校に遅刻しちゃうシャル！
+Dialogue: 0,0:04:56.40,0:04:57.08,Heart_JP,NTP,0000,0000,0000,,ほんとだ！　
+Dialogue: 0,0:04:57.37,0:04:59.62,Heart_JP,NTP,0000,0000,0000,,じゃあ　シャルル 今日はアイちゃんを見てて
+Dialogue: 0,0:05:00.26,0:05:01.91,Heart_JP,NTP,0000,0000,0000,,まかせるシャル！
+Dialogue: 0,0:05:03.34,0:05:04.27,Heart_JP,NTP,0000,0000,0000,,ただいま～！
+Dialogue: 0,0:05:04.49,0:05:05.33,Heart_JP,NTP,0000,0000,0000,,うわっ！？
+Dialogue: 0,0:05:07.14,0:05:09.09,Heart_JP,NTP,0000,0000,0000,,シャルル　どうしたの？
+Dialogue: 0,0:05:09.31,0:05:11.94,Heart_JP,NTP,0000,0000,0000,,アイちゃんが　お昼寝しないから
+Dialogue: 0,0:05:12.12,0:05:14.31,Heart_JP,NTP,0000,0000,0000,,おもちゃを取り上げようとしたら
+Dialogue: 0,0:05:14.57,0:05:15.50,Heart_JP,NTP,0000,0000,0000,,イヤイヤって 
+Dialogue: 0,0:05:15.89,0:05:17.46,Heart_JP,NTP,0000,0000,0000,,引っぱり合いになって…
+Dialogue: 0,0:05:18.98,0:05:20.08,Diamo_JP,NTP,0000,0000,0000,,{\pos(1390,990)}イヤ！
+Dialogue: 0,0:05:18.98,0:05:20.08,Sword_JP,NTP,0000,0000,0000,,{\pos(676,990)}ビィ！
+Dialogue: 0,0:05:20.31,0:05:23.35,Diamo_JP,NTP,0000,0000,0000,,アイちゃんも　ずいぶん 力持ちになったのねぇ
+Dialogue: 0,0:05:23.64,0:05:26.68,Heart_JP,NTP,0000,0000,0000,,今朝から　またイヤイヤ期が 始まったみたいなの
+Dialogue: 0,0:05:26.91,0:05:29.51,Heart_JP,NTP,0000,0000,0000,,アイちゃん なんか　かわったシャル
+Dialogue: 0,0:05:29.80,0:05:32.00,Sword_JP,NTP,0000,0000,0000,,まぁ　まだ赤ちゃんだもんね
+Dialogue: 0,0:05:32.23,0:05:35.03,AceSS_JP,NTP,0000,0000,0000,,日々　変化 成長するのが 赤ちゃんですわ
+Dialogue: 0,0:05:35.72,0:05:37.37,Heart_JP,NTP,0000,0000,0000,,きっと何かあるシャル
+Dialogue: 0,0:05:37.54,0:05:39.88,Heart_JP,NTP,0000,0000,0000,,シャルルが つき止めてみせるシャル
+Dialogue: 0,0:05:47.96,0:05:49.93,Heart_JP,NTP,0000,0000,0000,,シャルルが　つき止め…
+Dialogue: 0,0:05:50.11,0:05:54.31,Heart_JP,NTP,0000,0000,0000,,フワァ～…　みせる…　シャル…
+Dialogue: 0,0:06:00.16,0:06:01.43,Heart_JP,NTP,0000,0000,0000,,おはよう　シャルル
+Dialogue: 0,0:06:01.61,0:06:03.24,Heart_JP,NTP,0000,0000,0000,,しまったシャル～！ 
+Dialogue: 0,0:06:03.53,0:06:04.62,Heart_JP,NTP,0000,0000,0000,,アイちゃんは！？
+Dialogue: 0,0:06:04.83,0:06:07.13,Heart_JP,NTP,0000,0000,0000,,アイちゃんも まだ　ぐっすり　ねてるよ
+Dialogue: 0,0:06:07.50,0:06:11.38,Heart_JP,NTP,0000,0000,0000,,アイちゃん　朝だよ～　起きて～
+Dialogue: 0,0:06:15.01,0:06:16.39,Heart_JP,NTP,0000,0000,0000,,まさか？
+Dialogue: 0,0:06:18.71,0:06:21.20,Heart_JP,NTP,0000,0000,0000,,アイちゃん　飲みすぎだよ ブ～！
+Dialogue: 0,0:06:22.61,0:06:27.43,Heart_JP,NTP,0000,0000,0000,,なんか本格的に　二度目の イヤイヤ期が始まったって感じ
+Dialogue: 0,0:06:27.82,0:06:30.66,Heart_JP,NTP,0000,0000,0000,,シャル～　今晩こそ…！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:06:33.47,0:06:36.06,Heart_JP,NTP,0000,0000,0000,,我慢シャル　ねちゃダメシャル ファイトシャル…
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:06:42.45,0:06:43.73,AceSS_JP,NTP,0000,0000,0000,,おもちゃ～！ 
+Dialogue: 0,0:06:44.00,0:06:44.87,Defau_JP,NTP,0000,0000,0000,,は～い！
+Dialogue: 0,0:06:45.10,0:06:46.29,AceSS_JP,NTP,0000,0000,0000,,ジュ～チュ～！ 
+Dialogue: 0,0:06:46.52,0:06:47.50,Defau_JP,NTP,0000,0000,0000,,は～い！
+Dialogue: 0,0:06:47.68,0:06:48.79,AceSS_JP,NTP,0000,0000,0000,,おもちゃ～！ 
+Dialogue: 0,0:06:49.03,0:06:50.30,Defau_JP,NTP,0000,0000,0000,,どうぞ！
+Dialogue: 0,0:06:50.54,0:06:52.26,Defau_JP,NTP,0000,0000,0000,,ジコチューにすきなだけ 
+Dialogue: 0,0:06:52.47,0:06:54.54,Defau_JP,NTP,0000,0000,0000,,食べて　飲んで　遊んでね！
+Dialogue: 0,0:06:54.87,0:06:55.92,AceSS_JP,NTP,0000,0000,0000,,もっと～！ 
+Dialogue: 0,0:06:56.20,0:06:57.36,Defau_JP,NTP,0000,0000,0000,,はい　はい…
+Dialogue: 0,0:06:57.66,0:06:59.28,Defau_JP,NTP,0000,0000,0000,,どんな　わがままを言っても
+Dialogue: 0,0:06:59.46,0:07:03.39,Defau_JP,NTP,0000,0000,0000,,全部　自分の思いどおりになるって 最高だろ？
+Dialogue: 0,0:07:03.59,0:07:05.36,Defau_JP,NTP,0000,0000,0000,,それがジコチューよ
+Dialogue: 0,0:07:05.54,0:07:08.06,Defau_JP,NTP,0000,0000,0000,,アイちゃんもジコチューに なりたいよね？
+Dialogue: 0,0:07:09.64,0:07:11.25,Defau_JP,NTP,0000,0000,0000,,イデデデデ！
+Dialogue: 0,0:07:12.10,0:07:13.33,Defau_JP,NTP,0000,0000,0000,,た…　楽しいか？ 
+Dialogue: 0,0:07:14.08,0:07:15.53,Defau_JP,NTP,0000,0000,0000,,よかったわ…
+Dialogue: 0,0:07:18.63,0:07:23.52,Defau_JP,NTP,0000,0000,0000,,アイちゃんが 完全なジコチューになるのも 時間の問題だな
+Dialogue: 0,0:07:24.01,0:07:26.71,Defau_JP,NTP,0000,0000,0000,,そうなれば オレは　さらにパワーアップ
+Dialogue: 0,0:07:27.22,0:07:31.17,Defau_JP,NTP,0000,0000,0000,,人間界からうばった ジャネジーをも　ひとりじめし
+Dialogue: 0,0:07:31.45,0:07:35.13,Defau_JP,NTP,0000,0000,0000,,キングジコチューさまを こえる力を手に入れれば
+Dialogue: 0,0:07:35.34,0:07:39.70,Defau_JP,NTP,0000,0000,0000,,ジコチュー界のナンバートゥーから ワンに昇格だ！
+Dialogue: 0,0:07:47.42,0:07:49.29,Defau_JP,NTP,0000,0000,0000,,アイちゃんがボウリングしようって きゅぴ～！
+Dialogue: 0,0:07:50.38,0:07:52.23,Defau_JP,NTP,0000,0000,0000,,フン！　バカバカしい
+Dialogue: 0,0:07:57.69,0:07:58.89,Defau_JP,NTP,0000,0000,0000,,な…　なんだ！？
+Dialogue: 0,0:08:08.39,0:08:10.86,Defau_JP,NTP,0000,0000,0000,,ストラーイク！　いいぞ！
+Dialogue: 0,0:08:11.03,0:08:12.36,Defau_JP,NTP,0000,0000,0000,,最高～！　もっと　やって！
+Dialogue: 0,0:08:16.71,0:08:17.54,Defau_JP,NTP,0000,0000,0000,,ちがう！ 
+Dialogue: 0,0:08:17.75,0:08:19.06,Defau_JP,NTP,0000,0000,0000,,わたしたちじゃない！
+Dialogue: 0,0:08:46.88,0:08:48.70,Defau_JP,NTP,0000,0000,0000,,今は我慢だ…
+Dialogue: 0,0:08:49.11,0:08:51.02,Defau_JP,NTP,0000,0000,0000,,もう少しでオレが…　ガクッ
+Dialogue: 0,0:08:52.47,0:08:54.70,Defau_JP,NTP,0000,0000,0000,,ナンバー…　ワン！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:09:03.01,0:09:04.04,Heart_JP,NTP,0000,0000,0000,,うん！？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:09:05.37,0:09:07.38,Diamo_JP,NTP,0000,0000,0000,,えっ！？　アイちゃんが朝帰り？
+Dialogue: 0,0:09:07.64,0:09:09.74,Heart_JP,NTP,0000,0000,0000,,うん　シャルルが見たって 
+Dialogue: 0,0:09:09.92,0:09:11.76,Sword_JP,NTP,0000,0000,0000,,まさか　アイちゃんが　そんな
+Dialogue: 0,0:09:12.28,0:09:16.97,Heart_JP,NTP,0000,0000,0000,,でも確かに　最近のアイちゃんは すごく　わがままになっちゃって
+Dialogue: 0,0:09:17.64,0:09:18.39,Heart_JP,NTP,0000,0000,0000,,うん？
+Dialogue: 0,0:09:18.58,0:09:22.15,Diamo_JP,NTP,0000,0000,0000,,まっ！　ラ…　ラララ… ラブレチャァ…！？
+Dialogue: 0,0:09:23.53,0:09:24.76,Heart_JP,NTP,0000,0000,0000,,「果たし状」！？
+Dialogue: 0,0:09:26.64,0:09:28.15,Heart_JP,NTP,0000,0000,0000,,「アイちゃんは　あずかった」
+Dialogue: 0,0:09:28.35,0:09:31.83,Heart_JP,NTP,0000,0000,0000,,「返してほしければ 町外れの廃工場まで来い」　
+Dialogue: 0,0:09:32.19,0:09:33.07,Heart_JP,NTP,0000,0000,0000,,「ベール」
+Dialogue: 0,0:09:33.56,0:09:34.95,Sword_JP,NTP,0000,0000,0000,,アイちゃんが　さわられた！？ 
+Dialogue: 0,0:09:35.33,0:09:37.16,Heart_JP,NTP,0000,0000,0000,,今すぐ助けに行かないと！
+Dialogue: 0,0:09:37.63,0:09:40.69,Diamo_JP,NTP,0000,0000,0000,,でも　また何か たくらんでるかもしれないよ？
+Dialogue: 0,0:09:41.02,0:09:42.95,Heart_JP,NTP,0000,0000,0000,,たとえ　そうだとしても…
+Dialogue: 0,0:09:43.33,0:09:46.14,Heart_JP,NTP,0000,0000,0000,,アイちゃんは　ぜったいに 取りもどしてみせる！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:10:06.49,0:10:07.80,Heart_JP,NTP,0000,0000,0000,,アイちゃんは　どこ！？
+Dialogue: 0,0:10:07.99,0:10:09.71,AceSS_JP,NTP,0000,0000,0000,,かくしてないで　お出しなさい！
+Dialogue: 0,0:10:10.08,0:10:11.94,Defau_JP,NTP,0000,0000,0000,,ここにいるよ
+Dialogue: 0,0:10:14.51,0:10:15.55,Heart_JP,NTP,0000,0000,0000,,アイちゃん！？
+Dialogue: 0,0:10:15.87,0:10:17.46,Diamo_JP,NTP,0000,0000,0000,,その格好　どうしたの！？
+Dialogue: 0,0:10:17.66,0:10:18.93,AceSS_JP,NTP,0000,0000,0000,,アイちゃん　こっちへ！
+Dialogue: 0,0:10:20.36,0:10:22.05,Defau_JP,NTP,0000,0000,0000,,アウ～ イヤだって言ってるよ？
+Dialogue: 0,0:10:22.25,0:10:24.51,Heart_JP,NTP,0000,0000,0000,,あなたが勝手に そう言っているだけでしょ！
+Dialogue: 0,0:10:24.72,0:10:27.77,Defau_JP,NTP,0000,0000,0000,,ちがうよ これはアイちゃんの意思だよ
+Dialogue: 0,0:10:28.40,0:10:32.90,Defau_JP,NTP,0000,0000,0000,,アイちゃんは～　あたしたちと いるほうが楽しいんだよね？
+Dialogue: 0,0:10:35.19,0:10:38.23,Defau_JP,NTP,0000,0000,0000,,アイちゃんは完全なジコチューに なったんだよ！
+Dialogue: 0,0:10:38.43,0:10:39.73,AceSS_JP,NTP,0000,0000,0000,,そんなのウソですわ！
+Dialogue: 0,0:10:40.05,0:10:42.21,Defau_JP,NTP,0000,0000,0000,,ジコチューに すきなだけ飲んで！
+Dialogue: 0,0:10:42.44,0:10:44.77,Defau_JP,NTP,0000,0000,0000,,ジコチューに すきなだけ　たべてね！ 
+Dialogue: 0,0:10:47.91,0:10:49.14,Heart_JP,NTP,0000,0000,0000,,分かったシャル！　
+Dialogue: 0,0:10:49.37,0:10:51.61,Heart_JP,NTP,0000,0000,0000,,あいつらが 夜な夜な　アイちゃんをつれ出して
+Dialogue: 0,0:10:51.83,0:10:54.26,Heart_JP,NTP,0000,0000,0000,,ジコチューに育てていたシャルよ 
+Dialogue: 0,0:10:54.50,0:10:55.89,Defau_JP,NTP,0000,0000,0000,,正解だよ！
+Dialogue: 0,0:10:56.09,0:10:58.48,Defau_JP,NTP,0000,0000,0000,,でも　いまさら気づいても おそいよ
+Dialogue: 0,0:11:01.72,0:11:03.05,Heart_JP,NTP,0000,0000,0000,,ダメだよ　アイちゃん！ 
+Dialogue: 0,0:11:03.23,0:11:04.34,Sword_JP,NTP,0000,0000,0000,,もうやめて！
+Dialogue: 0,0:11:04.51,0:11:05.93,Diamo_JP,NTP,0000,0000,0000,,おなか　こわしちゃうよ！
+Dialogue: 0,0:11:06.13,0:11:09.77,Defau_JP,NTP,0000,0000,0000,,ほ～ら　こわ～いお姉ちゃんたちが おこってるから
+Dialogue: 0,0:11:09.96,0:11:11.59,Defau_JP,NTP,0000,0000,0000,,取り上げちゃうね 
+Dialogue: 0,0:11:11.87,0:11:13.89,AceSS_JP,NTP,0000,0000,0000,,アイちゃんの返して～！
+Dialogue: 0,0:11:14.15,0:11:16.10,Defau_JP,NTP,0000,0000,0000,,いいね！　そのジコチュー！
+Dialogue: 0,0:11:16.31,0:11:17.56,Defau_JP,NTP,0000,0000,0000,,きたよ　きたよ！ 
+Dialogue: 0,0:11:17.76,0:11:19.84,Defau_JP,NTP,0000,0000,0000,,ジャネジーがみなぎってきたよ！
+Dialogue: 0,0:11:20.86,0:11:23.30,Heart_JP,NTP,0000,0000,0000,,クッ…　アイちゃんは ぜったいに取りもどしてみせる！
+Dialogue: 0,0:11:23.58,0:11:25.08,Heart_JP,NTP,0000,0000,0000,,みんな　いくよ！
+Dialogue: 0,0:11:26.33,0:11:27.06,AceSS_JP,NTP,0000,0000,0000,,アイちゃん！ 
+Dialogue: 0,0:11:27.34,0:11:28.02,AceSS_JP,NTP,0000,0000,0000,,プイッ！
+Dialogue: 0,0:11:28.39,0:11:30.30,Heart_JP,NTP,0000,0000,0000,,亜久里ちゃんは　あぶないから 下がってて！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:11:32.81,0:11:34.30,Heart_JP,NTP,0000,0000,0000,,シャルル！
+Dialogue: 0,0:11:35.47,0:11:37.94,Toght_JP,NTP,0000,0000,0000,,プリキュア　ラブリンク！
+Dialogue: 0,0:11:38.65,0:11:41.71,Toght_JP,NTP,0000,0000,0000,,Ｌ　Ｏ　Ｖ　Ｅ
+Dialogue: 0,0:11:58.67,0:12:02.04,Heart_JP,NTP,0000,0000,0000,,みなぎる愛　キュアハート！
+Dialogue: 0,0:12:04.86,0:12:08.49,Diamo_JP,NTP,0000,0000,0000,,英知の光　キュアダイヤモンド！
+Dialogue: 0,0:12:11.15,0:12:15.16,Roset_JP,NTP,0000,0000,0000,,ひだまりポカポカ キュアロゼッタ！
+Dialogue: 0,0:12:16.74,0:12:20.05,Sword_JP,NTP,0000,0000,0000,,勇気のやいば　キュアソード！
+Dialogue: 0,0:12:23.16,0:12:25.33,Toght_JP,NTP,0000,0000,0000,,ひびけ　愛の鼓動！
+Dialogue: 0,0:12:25.85,0:12:27.35,Toght_JP,NTP,0000,0000,0000,,ドキドキプリキュア！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:12:29.15,0:12:30.37,Defau_JP,NTP,0000,0000,0000,,プリキュアども！ 
+Dialogue: 0,0:12:30.59,0:12:33.19,Defau_JP,NTP,0000,0000,0000,,今日がお前たちの最期の日よ！
+Dialogue: 0,0:12:47.13,0:12:48.17,Diamo_JP,NTP,0000,0000,0000,,はさみうちよ！ 
+Dialogue: 0,0:12:49.08,0:12:50.60,Defau_JP,NTP,0000,0000,0000,,なんのこれしき！
+Dialogue: 0,0:12:54.44,0:12:55.22,Roset_JP,NTP,0000,0000,0000,,みなさん！ 
+Dialogue: 0,0:12:55.43,0:12:56.23,Defau_JP,NTP,0000,0000,0000,,スキあり！
+Dialogue: 0,0:12:59.32,0:13:02.88,Defau_JP,NTP,0000,0000,0000,,アイちゃんに　うるさいことを 言う　こわ～いお姉ちゃんたちを
+Dialogue: 0,0:13:03.08,0:13:05.88,Defau_JP,NTP,0000,0000,0000,,お兄さんたちが とっちめてくれるよ～
+Dialogue: 0,0:13:07.29,0:13:08.87,Defau_JP,NTP,0000,0000,0000,,ハハハ！　ざまぁねぇな 
+Dialogue: 0,0:13:09.05,0:13:10.93,Defau_JP,NTP,0000,0000,0000,,何が　みなぎる愛だ！
+Dialogue: 0,0:13:11.18,0:13:15.40,Defau_JP,NTP,0000,0000,0000,,愛なんてものは　はかなく消える くだらないものなのよ！
+Dialogue: 0,0:13:15.69,0:13:18.38,Heart_JP,NTP,0000,0000,0000,,愛は…　くだらなくない！ 
+Dialogue: 0,0:13:18.58,0:13:19.33,Defau_JP,NTP,0000,0000,0000,,はぁ？
+Dialogue: 0,0:13:19.55,0:13:22.24,Heart_JP,NTP,0000,0000,0000,,それに 決して　なくなったりしない
+Dialogue: 0,0:13:22.61,0:13:24.56,Heart_JP,NTP,0000,0000,0000,,愛って　しんじることだから…
+Dialogue: 0,0:13:25.14,0:13:27.83,Heart_JP,NTP,0000,0000,0000,,あたしがアイちゃんを しんじているかぎり
+Dialogue: 0,0:13:28.20,0:13:30.18,Heart_JP,NTP,0000,0000,0000,,愛は無限にあふれてくる！
+Dialogue: 0,0:13:30.86,0:13:31.68,Defau_JP,NTP,0000,0000,0000,,うるせぇ！
+Dialogue: 0,0:13:40.39,0:13:41.18,AceSS_JP,NTP,0000,0000,0000,,アイちゃん！
+Dialogue: 0,0:13:41.50,0:13:43.92,AceSS_JP,NTP,0000,0000,0000,,目をさますのです！　アイちゃん！
+Dialogue: 0,0:13:48.90,0:13:52.23,Defau_JP,NTP,0000,0000,0000,,アイちゃんがなけば ジャネジーがつよくなるわ
+Dialogue: 0,0:13:59.81,0:14:00.62,Heart_JP,NTP,0000,0000,0000,,あぶない！
+Dialogue: 0,0:14:07.01,0:14:07.74,Heart_JP,NTP,0000,0000,0000,,みんな…！
+Dialogue: 0,0:14:08.09,0:14:09.53,Toght_JP,NTP,0000,0000,0000,,ここは　わたしたちが！
+Dialogue: 0,0:14:10.09,0:14:11.76,Diamo_JP,NTP,0000,0000,0000,,キュアハートはアイちゃんを！ 
+Dialogue: 0,0:14:12.00,0:14:12.85,Heart_JP,NTP,0000,0000,0000,,うん…
+Dialogue: 0,0:14:15.94,0:14:17.38,Heart_JP,NTP,0000,0000,0000,,おいで！　アイちゃん！ 
+Dialogue: 0,0:14:17.59,0:14:19.19,Defau_JP,NTP,0000,0000,0000,,ダレがわたすか！
+Dialogue: 0,0:14:28.71,0:14:29.62,Heart_JP,NTP,0000,0000,0000,,アイちゃん！
+Dialogue: 0,0:14:35.70,0:14:36.53,Roset_JP,NTP,0000,0000,0000,,アイちゃん！ 
+Dialogue: 0,0:14:36.74,0:14:37.67,Toght_JP,NTP,0000,0000,0000,,キュアハート！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:14:58.34,0:14:59.76,Heart_JP,NTP,0000,0000,0000,,アイちゃん　ごめん…
+Dialogue: 0,0:15:00.13,0:15:03.72,Heart_JP,NTP,0000,0000,0000,,アイちゃんのこと ジコチューになるまで気づけなくて…
+Dialogue: 0,0:15:11.77,0:15:16.57,Heart_JP,NTP,0000,0000,0000,,アイちゃんが　あたしたちのこと わすれてしまっても しんじてるから…
+Dialogue: 0,0:15:18.19,0:15:20.59,Heart_JP,NTP,0000,0000,0000,,アイちゃんが元気に わらってくれたら
+Dialogue: 0,0:15:20.81,0:15:23.75,Heart_JP,NTP,0000,0000,0000,,すっごく幸せな気持ちに なれるんだから…
+Dialogue: 0,0:15:24.85,0:15:27.33,Heart_JP,NTP,0000,0000,0000,,だから　思い出して…
+Dialogue: 0,0:15:30.31,0:15:31.73,Heart_JP,NTP,0000,0000,0000,,ねぇ　アイちゃん
+Dialogue: 0,0:15:32.17,0:15:35.77,Heart_JP,NTP,0000,0000,0000,,この前　みんなで農園へ行ったこと おぼえてるかな？
+Dialogue: 0,0:15:36.49,0:15:38.31,Heart_JP,NTP,0000,0000,0000,,がんばる亜久里ちゃんにつられて
+Dialogue: 0,0:15:38.56,0:15:41.40,Heart_JP,NTP,0000,0000,0000,,アイちゃんも　ニンジンが 大すきになったんだよね
+Dialogue: 0,0:15:41.77,0:15:43.92,Heart_JP,NTP,0000,0000,0000,,いっぱい食べて大きくなろう！ 
+Dialogue: 0,0:15:46.10,0:15:49.90,Heart_JP,NTP,0000,0000,0000,,あのころのアイちゃん イヤイヤ期で　よくないてたよね
+Dialogue: 0,0:15:50.30,0:15:53.89,Heart_JP,NTP,0000,0000,0000,,あたし　どうしていいか 分からなくて　こまってたなぁ
+Dialogue: 0,0:15:54.41,0:15:56.88,Heart_JP,NTP,0000,0000,0000,,でも　あたしも赤ちゃんの時に
+Dialogue: 0,0:15:57.08,0:16:00.29,Heart_JP,NTP,0000,0000,0000,,ママやみんなに　ささえられて 大きくなれたんだよね
+Dialogue: 0,0:16:00.93,0:16:04.34,Heart_JP,NTP,0000,0000,0000,,アイちゃんは　どんな女の子に なるのかなぁ？
+Dialogue: 0,0:16:05.66,0:16:09.54,Heart_JP,NTP,0000,0000,0000,,短い間に　色んなことが たくさんあったよね
+Dialogue: 0,0:16:10.21,0:16:13.65,Heart_JP,NTP,0000,0000,0000,,あたしがレジーナと はなればなれになって 落ちこんでいた時 
+Dialogue: 0,0:16:13.86,0:16:16.15,Heart_JP,NTP,0000,0000,0000,,アイちゃんが　はげましてくれたこと
+Dialogue: 0,0:16:16.84,0:16:18.98,Heart_JP,NTP,0000,0000,0000,,初めて 「しゅごーい」って　しゃべったり
+Dialogue: 0,0:16:19.21,0:16:21.68,Heart_JP,NTP,0000,0000,0000,,学校で　ヒヤヒヤしたりしたこと
+Dialogue: 0,0:16:22.37,0:16:26.95,Heart_JP,NTP,0000,0000,0000,,六花 ありす まこぴー  亜久里ちゃん シャルルたち
+Dialogue: 0,0:16:27.14,0:16:28.48,Heart_JP,NTP,0000,0000,0000,,それから　お兄さん
+Dialogue: 0,0:16:28.93,0:16:31.74,Heart_JP,NTP,0000,0000,0000,,みんなで　ささえ合って やってこれたよね…
+Dialogue: 0,0:16:32.55,0:16:38.34,Heart_JP,NTP,0000,0000,0000,,そして　あたしたちと 初めて出会った時のこと… おぼえてるかな？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:17:00.88,0:17:02.77,AceSS_JP,NTP,0000,0000,0000,,マ…　ナ…
+Dialogue: 0,0:17:03.59,0:17:04.72,Heart_JP,NTP,0000,0000,0000,,アイちゃん…
+Dialogue: 0,0:17:08.53,0:17:09.67,AceSS_JP,NTP,0000,0000,0000,,マナ～！
+Dialogue: 0,0:17:10.77,0:17:13.08,Heart_JP,NTP,0000,0000,0000,,アイちゃん　大すきだよ！
+Dialogue: 0,0:17:27.32,0:17:28.30,Toght_JP,NTP,0000,0000,0000,,キュアハート！
+Dialogue: 0,0:17:28.49,0:17:29.26,AceSS_JP,NTP,0000,0000,0000,,アイちゃん！
+Dialogue: 0,0:17:29.53,0:17:31.62,Defau_JP,NTP,0000,0000,0000,,ああっ！？　力が落ちていく！ 
+Dialogue: 0,0:17:31.93,0:17:32.79,Defau_JP,NTP,0000,0000,0000,,か～えろっと
+Dialogue: 0,0:17:35.16,0:17:37.71,Defau_JP,NTP,0000,0000,0000,,ブラッドリング 最大パワーでいけ！
+Dialogue: 0,0:17:39.25,0:17:40.72,Defau_JP,NTP,0000,0000,0000,,オッ！　すげ～！ 
+Dialogue: 0,0:17:41.20,0:17:42.69,Defau_JP,NTP,0000,0000,0000,,こうなりゃ　ヤケよ！
+Dialogue: 0,0:17:42.93,0:17:43.72,AceSS_JP,NTP,0000,0000,0000,,アイちゃん！
+Dialogue: 0,0:17:45.69,0:17:48.13,AceSS_JP,NTP,0000,0000,0000,,プリキュア　ドレスアップ！
+Dialogue: 0,0:18:26.54,0:18:29.50,AceSS_JP,NTP,0000,0000,0000,,愛の切り札　キュアエース！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:18:31.71,0:18:32.78,Defau_JP,NTP,0000,0000,0000,,くらえ！　
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:18:34.97,0:18:38.34,AceSS_JP,NTP,0000,0000,0000,,彩れ！　ラブキッスルージュ！
+Dialogue: 0,0:18:51.02,0:18:53.64,AceSS_JP,NTP,0000,0000,0000,,ときめきなさい！ エースショット！
+Dialogue: 0,0:18:58.43,0:18:59.25,Heart_JP,NTP,0000,0000,0000,,すごい！
+Dialogue: 0,0:18:59.66,0:19:03.81,AceSS_JP,NTP,0000,0000,0000,,これが完全に愛を取りもどした アイちゃんの力ですわ！
+Dialogue: 0,0:19:04.38,0:19:06.51,Defau_JP,NTP,0000,0000,0000,,チッ　役立たずどもが！ 
+Dialogue: 0,0:19:14.99,0:19:18.25,Defau_JP,NTP,0000,0000,0000,,スーパーベール！
+Dialogue: 0,0:19:19.76,0:19:21.62,Heart_JP,NTP,0000,0000,0000,,アイちゃんに愛がもどった今
+Dialogue: 0,0:19:22.06,0:19:24.18,Heart_JP,NTP,0000,0000,0000,,あたしたちに おそれるものはない！
+Dialogue: 0,0:19:25.50,0:19:27.10,Toght_JP,NTP,0000,0000,0000,,マジカルラブリーパッド！
+Dialogue: 0,0:19:43.33,0:19:46.02,Toght_JP,NTP,0000,0000,0000,,わたしたちの力を キュアハートのもとへ！
+Dialogue: 0,0:19:55.32,0:19:59.46,Heart_JP,NTP,0000,0000,0000,,プリキュア！ ラブリーストレートフラッシュ！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:20:15.22,0:20:21.35,Defau_JP,NTP,0000,0000,0000,,オレは… ナンバーワンになる男だぁ～！
+Dialogue: 0,0:20:22.95,0:20:23.96,Defau_JP,NTP,0000,0000,0000,,やまじ…
+Dialogue: 0,0:20:26.75,0:20:28.07,Defau_JP,NTP,0000,0000,0000,,おぼえてなさい！ 
+Dialogue: 0,0:20:28.45,0:20:30.61,Defau_JP,NTP,0000,0000,0000,,行くわよ！　このポンコツ！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:20:39.74,0:20:41.05,Heart_JP,NTP,0000,0000,0000,,よくねてるね
+Dialogue: 0,0:20:41.60,0:20:43.42,Diamo_JP,NTP,0000,0000,0000,,今日は　いろいろあったもんね
+Dialogue: 0,0:20:44.33,0:20:46.09,Sword_JP,NTP,0000,0000,0000,,アイちゃんの力があれば…
+Dialogue: 0,0:20:46.47,0:20:49.10,Sword_JP,NTP,0000,0000,0000,,キングジコチューにも 勝てるかもしれない
+Dialogue: 0,0:20:49.93,0:20:50.97,Roset_JP,NTP,0000,0000,0000,,確かに…　
+Dialogue: 0,0:20:51.16,0:20:54.69,Roset_JP,NTP,0000,0000,0000,,アイちゃんの笑顔には それだけの力がありますわ
+Dialogue: 0,0:20:54.89,0:20:56.05,AceSS_JP,NTP,0000,0000,0000,,そうですわね
+Dialogue: 0,0:20:56.31,0:20:59.93,AceSS_JP,NTP,0000,0000,0000,,キングジコチューと相対する時が 来たのかもしれません
+Dialogue: 0,0:21:00.33,0:21:01.38,Heart_JP,NTP,0000,0000,0000,,そしたら…
+Dialogue: 0,0:21:01.81,0:21:02.77,Toght_JP,NTP,0000,0000,0000,,うん？
+Dialogue: 0,0:21:03.22,0:21:05.58,Heart_JP,NTP,0000,0000,0000,,レジーナにも　また会えるんだ！
+Dialogue: 0,0:21:10.68,0:21:16.12,Defau_JP,NTP,0000,0000,0000,,あ～あ　わざわざトランプ王国に よび出されたってことは
+Dialogue: 0,0:21:16.42,0:21:17.80,Defau_JP,NTP,0000,0000,0000,,またお説教？ 
+Dialogue: 0,0:21:18.19,0:21:20.52,Defau_JP,NTP,0000,0000,0000,,口をつつしめ　聞こえるぞ
+Dialogue: 0,0:21:26.12,0:21:29.57,Regna_JP,NTP,0000,0000,0000,,あんたたちって やっぱりダメね　あたしがいないと？
+Dialogue: 0,0:21:29.78,0:21:31.54,Defau_JP,NTP,0000,0000,0000,,そ…　その声は！？
+Dialogue: 0,0:21:56.65,0:21:57.59,Defau_JP,NTP,0000,0000,0000,,レジーナ！？
+Dialogue: 0,0:21:57.89,0:21:58.92,Regna_JP,NTP,0000,0000,0000,,むっ！
+Dialogue: 0,0:21:59.20,0:22:01.83,Regna_JP,NTP,0000,0000,0000,,「レジーナさま」！　でしょ？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:17:28.02,0:17:32.39,in_Heart_JP,NTP,0000,0000,0000,,(Happy Go! Lucky girls! プリキュア! Yeah)
+Dialogue: 0,0:17:32.57,0:17:34.49,in_Heart_JP,NTP,0000,0000,0000,,世界はまるでメリーゴーランド!
+Dialogue: 0,0:17:34.90,0:17:37.28,in_Heart_JP,NTP,0000,0000,0000,,愛で回るよ　スリートゥーワン!
+Dialogue: 0,0:17:37.87,0:17:43.42,in_Heart_JP,NTP,0000,0000,0000,,キラめいてエブリデイっ　ドキドキ! プリキュア
+Dialogue: 0,0:17:44.94,0:17:50.28,in_Heart_JP,NTP,0000,0000,0000,,あたらしい服を着て　はじめての道歩く
+Dialogue: 0,0:17:50.96,0:17:55.58,in_Heart_JP,NTP,0000,0000,0000,,トキメク景色に　おハロー! ハローハロ
+Dialogue: 0,0:17:55.90,0:18:01.46,in_Heart_JP,NTP,0000,0000,0000,,曲がり角　花の色　今日のラッキーカラー
+Dialogue: 0,0:18:01.91,0:18:06.96,in_Heart_JP,NTP,0000,0000,0000,,ツイてるあたしに　ぜんぶおまかせ!
+Dialogue: 0,0:18:07.69,0:18:12.58,in_Heart_JP,NTP,0000,0000,0000,,トモダチだったら　困ってる時は
+Dialogue: 0,0:18:12.76,0:18:21.40,in_Heart_JP,NTP,0000,0000,0000,,力になりたい　それが普通でしょ
+Dialogue: 0,0:18:21.55,0:18:24.12,in_Heart_JP,NTP,0000,0000,0000,,{\an7}(Happy! Lucky! プリキュア!)
+Dialogue: 0,0:18:23.08,0:18:25.44,in_Heart_JP,NTP,0000,0000,0000,,ドキドキだけが　プリキュア!
+Dialogue: 0,0:18:25.74,0:18:28.34,in_Heart_JP,NTP,0000,0000,0000,,世界を変える　ハッピーラブ!
+Dialogue: 0,0:18:28.71,0:18:31.09,in_Heart_JP,NTP,0000,0000,0000,,可愛いだけじゃないのが
+Dialogue: 0,0:18:31.48,0:18:35.22,in_Heart_JP,NTP,0000,0000,0000,,ガールズの約束なの
+Dialogue: 0,0:18:35.92,0:18:40.92,in_Heart_JP,NTP,0000,0000,0000,,君を信じる ために戦う
+Dialogue: 0,0:18:41.10,0:18:47.24,in_Heart_JP,NTP,0000,0000,0000,,無敵な! 優しさ! あつめて… (Yeah) プリキュア!
+Dialogue: 0,0:00:00.00,0:00:00.00,in_Heart_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:18:50.93,0:18:55.24,in_Heart_JP,NTP,0000,0000,0000,,くもり空　見上げまた　ため息ついてるより
+Dialogue: 0,0:18:55.57,0:19:00.57,in_Heart_JP,NTP,0000,0000,0000,,両手を伸ばして　マシュマロ　マロ　マロ
+Dialogue: 0,0:19:00.90,0:19:06.56,in_Heart_JP,NTP,0000,0000,0000,,青空はその上の　空でちゃんと待ってる
+Dialogue: 0,0:19:06.89,0:19:11.87,in_Heart_JP,NTP,0000,0000,0000,,雨宿りひとり　あたしがいるよ
+Dialogue: 0,0:19:12.66,0:19:17.62,in_Heart_JP,NTP,0000,0000,0000,,いつもの世界を　タテ　ヨコ　ナナメに
+Dialogue: 0,0:19:17.81,0:19:26.36,in_Heart_JP,NTP,0000,0000,0000,,のぞいてみてごらん　希望　探すなら
+Dialogue: 0,0:00:00.00,0:00:00.00,in_Heart_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:19:26.65,0:19:28.59,in_Heart_JP,NTP,0000,0000,0000,,{\an7}(Happy! Lucky! プリキュア!)
+Dialogue: 0,0:19:28.03,0:19:30.47,in_Heart_JP,NTP,0000,0000,0000,,ドキドキすると　プリキュア!
+Dialogue: 0,0:19:30.78,0:19:33.20,in_Heart_JP,NTP,0000,0000,0000,,あふれて来るよ　ハッピーラブ!
+Dialogue: 0,0:19:33.50,0:19:35.97,in_Heart_JP,NTP,0000,0000,0000,,まるい地球　あふれだし
+Dialogue: 0,0:19:36.33,0:19:40.08,in_Heart_JP,NTP,0000,0000,0000,,キレイにしちゃうからね
+Dialogue: 0,0:19:40.72,0:19:45.87,in_Heart_JP,NTP,0000,0000,0000,,変わらぬ気持ち　未来へキラリ
+Dialogue: 0,0:19:46.09,0:19:52.11,in_Heart_JP,NTP,0000,0000,0000,,まっすぐ!! 輝く! 心が… (Yeah) プリキュア!
+Dialogue: 0,0:00:00.00,0:00:00.00,in_Heart_JP,NTP,0000,0000,0000,,
+Dialogue: 0,0:20:00.83,0:20:02.73,in_Heart_JP,NTP,0000,0000,0000,,{\an7}(Happy! Lucky! プリキュア!)
+Dialogue: 0,0:20:02.29,0:20:04.40,in_Heart_JP,NTP,0000,0000,0000,,ドキドキだけが　プリキュア!
+Dialogue: 0,0:20:04.64,0:20:07.07,in_Heart_JP,NTP,0000,0000,0000,,世界を変える　ハッピーラブ!
+Dialogue: 0,0:20:07.76,0:20:09.91,in_Heart_JP,NTP,0000,0000,0000,,可愛いだけじゃないのが
+Dialogue: 0,0:20:10.46,0:20:14.15,in_Heart_JP,NTP,0000,0000,0000,,ガールズの約束なの
+Dialogue: 0,0:20:14.64,0:20:19.70,in_Heart_JP,NTP,0000,0000,0000,,君を信じる ために戦う
+Dialogue: 0,0:20:19.96,0:20:25.95,in_Heart_JP,NTP,0000,0000,0000,,無敵な! 優しさ! あつめて… (Yeah) プリキュア!
+Dialogue: 0,0:00:00.00,0:00:00.00,in_Heart_JP,NTP,0000,0000,0000,,

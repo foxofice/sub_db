@@ -1,0 +1,5 @@
+﻿chs: 新世纪福音战士剧场版 Air/真心为你
+cht: 新世紀福音戰士劇場版 Air/真心爲你
+jp: 新世紀エヴァンゲリオン劇場版 Air/まごころを、君に
+en: NEON GENESSI EVANGELION THE END OF EVANGELION
+rome: NEON GENESSI EVANGELION THE END OF EVANGELION

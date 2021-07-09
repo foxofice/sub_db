@@ -1,0 +1,5 @@
+﻿chs: 俗・再见绝望先生
+cht: 俗・再見絕望先生
+jp: 俗・さよなら絶望先生
+en: Zoku Sayonara Zetsubou-sensei
+rome: Zoku Sayonara Zetsubou-sensei

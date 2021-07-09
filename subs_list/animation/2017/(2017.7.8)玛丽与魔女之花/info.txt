@@ -1,0 +1,5 @@
+﻿chs: 玛丽与魔女之花
+cht: 瑪麗與魔女之花
+jp: メアリと魔女の花
+en: Mary and the Witch`s Flower
+rome: Mary to Majo no Hana

@@ -1,0 +1,5 @@
+﻿chs: 言叶之庭
+cht: 言葉之庭
+jp: 言の葉の庭
+en: The Garden of Words
+rome: Kotonoha no Niwa

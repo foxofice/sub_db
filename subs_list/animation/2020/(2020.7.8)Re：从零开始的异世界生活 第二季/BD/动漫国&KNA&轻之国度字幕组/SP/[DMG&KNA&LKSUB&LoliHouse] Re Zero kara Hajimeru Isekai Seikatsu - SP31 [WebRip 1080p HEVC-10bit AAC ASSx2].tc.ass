@@ -1,0 +1,98 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP31]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  動漫國&KNA&輕之國度字幕組  聯合製作\N僅供試看,請支持購買正版音像製品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻譯&時軸:傻瓜三世   後期:小聖
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}國\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}動
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}輕
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}國
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.19,0:00:04.75,Default,,0,0,0,,Re:從零開始的休息時間  奧托日記
+Dialogue: 0,0:00:05.77,0:00:11.08,Default,,0,0,0,,菜月帶著粉色頭髮的女僕拉姆  回阿拉姆村了
+Dialogue: 0,0:00:11.82,0:00:14.35,Default,,0,0,0,,奧托  你留在這裡看守
+Dialogue: 0,0:00:14.35,0:00:16.16,Default,,0,0,0,,你被排除出可用戰力了
+Dialogue: 0,0:00:16.16,0:00:18.09,Default,,0,0,0,,我還什麼都沒做就被排除了?
+Dialogue: 0,0:00:18.19,0:00:20.29,Default,,0,0,0,,我先說一句  其實我比你還要…
+Dialogue: 0,0:00:20.29,0:00:23.25,Default,,0,0,0,,行了行了  我不是這個意思
+Dialogue: 0,0:00:23.25,0:00:24.30,Default,,0,0,0,,那是為什麼?
+Dialogue: 0,0:00:24.81,0:00:27.04,Default,,0,0,0,,你是來談生意的
+Dialogue: 0,0:00:27.18,0:00:30.14,Default,,0,0,0,,現在發生的事跟你無關
+Dialogue: 0,0:00:30.23,0:00:31.25,Default,,0,0,0,,我是無關人員…
+Dialogue: 0,0:00:31.60,0:00:33.94,Default,,0,0,0,,如果你不涉足這件事
+Dialogue: 0,0:00:33.94,0:00:36.28,Default,,0,0,0,,之後要辯解的時候心裡也有底
+Dialogue: 0,0:00:36.55,0:00:37.77,Default,,0,0,0,,這還要我說嗎  笨蛋
+Dialogue: 0,0:00:37.77,0:00:40.54,Default,,0,0,0,,之前的商談我都參加了  已經遲了
+Dialogue: 0,0:00:40.54,0:00:42.02,Default,,0,0,0,,你這種體貼是沒用的
+Dialogue: 0,0:00:42.40,0:00:43.52,Default,,0,0,0,,說的也是
+Dialogue: 0,0:00:44.23,0:00:46.51,Default,,0,0,0,,反正我去去就回
+Dialogue: 0,0:00:46.57,0:00:50.38,Default,,0,0,0,,你在這裡放個優雅的小假…好像沒這種氣氛呢
+Dialogue: 0,0:00:50.38,0:00:51.23,Default,,0,0,0,,就是沒有啊
+Dialogue: 0,0:00:51.23,0:00:55.11,Default,,0,0,0,,無論如何  我們不在的期間要乖一點啊
+Dialogue: 0,0:00:55.22,0:00:57.94,Default,,0,0,0,,巴魯斯  你還沒做好準備嗎
+Dialogue: 0,0:00:58.40,0:01:00.05,Default,,0,0,0,,拉姆陪著你吧
+Dialogue: 0,0:01:00.14,0:01:02.75,Default,,0,0,0,,你就為這榮譽而一邊顫抖一邊俐落地幹活吧
+Dialogue: 0,0:01:02.96,0:01:05.48,Default,,0,0,0,,要是顫抖還怎麼幹活
+Dialogue: 0,0:01:06.42,0:01:10.45,Default,,0,0,0,,雖然商談時不帶上這個男人是理所當然的事
+Dialogue: 0,0:01:10.81,0:01:12.31,Default,,0,0,0,,但怎麼連我都排除在外
+Dialogue: 0,0:01:12.40,0:01:13.97,Default,,0,0,0,,說得好過分啊
+Dialogue: 0,0:01:14.81,0:01:18.61,Default,,0,0,0,,對不起  等一切結束我會全部道歉的
+Dialogue: 0,0:01:18.86,0:01:22.44,Default,,0,0,0,,菜月  我也算一個道歉對象嗎
+Dialogue: 0,0:01:22.98,0:01:24.20,Default,,0,0,0,,當然算了
+Dialogue: 0,0:01:24.70,0:01:29.05,Default,,0,0,0,,所以你一定要乖乖的  聽話聽話
+Dialogue: 0,0:01:27.77,0:01:30.25,Comment,,0,0,0,,幹嘛啊  對待人家像貓狗一樣
+Dialogue: 0,0:01:30.25,0:01:32.28,Default,,0,0,0,,不要撫摸我的下巴了
+Dialogue: 0,0:01:33.78,0:01:37.96,Default,,0,0,0,,真是的…我在這邊會盡我所能的
+Dialogue: 0,0:01:38.55,0:01:40.34,Default,,0,0,0,,雖然幫不上大忙
+Dialogue: 0,0:01:40.56,0:01:43.81,Default,,0,0,0,,但能幫上愛蜜莉雅大人的事  我都會做的
+Dialogue: 0,0:01:45.81,0:01:47.02,Default,,0,0,0,,怎麼了嗎
+Dialogue: 0,0:01:47.68,0:01:50.42,Default,,0,0,0,,我驚訝到了  想不到你還挺會動腦子的
+Dialogue: 0,0:01:50.67,0:01:52.43,Default,,0,0,0,,你這是什麼意思啊
+Dialogue: 0,0:01:52.72,0:01:54.76,Default,,0,0,0,,雖然你說會盡你所能
+Dialogue: 0,0:01:54.80,0:01:57.36,Default,,0,0,0,,但我感覺你也只能當當肉盾
+Dialogue: 0,0:01:57.43,0:01:59.22,Default,,0,0,0,,只能當肉盾嗎
+Dialogue: 0,0:01:59.44,0:02:04.39,Default,,0,0,0,,但臉長得又柔弱  估計一拳頭你就吃不消了
+Dialogue: 0,0:02:04.56,0:02:08.72,Default,,0,0,0,,喂  拉姆  你不能這樣說奧托啊
+Dialogue: 0,0:02:09.26,0:02:11.63,Default,,0,0,0,,一定要好好撫摸他  疼愛他
+Dialogue: 0,0:02:11.63,0:02:13.80,Default,,0,0,0,,你怎麼傷人的話一句接著一句的
+Dialogue: 0,0:02:13.80,0:02:17.01,Default,,0,0,0,,別再這樣拿我開玩笑了吧
+Dialogue: 0,0:02:17.28,0:02:17.88,Default,,0,0,0,,巴魯斯
+Dialogue: 0,0:02:19.56,0:02:21.79,Default,,0,0,0,,你撿了個出乎意料的好傢伙啊
+Dialogue: 0,0:02:22.30,0:02:25.00,Default,,0,0,0,,對吧?  他就躺在路邊上
+Dialogue: 0,0:02:25.10,0:02:27.70,Default,,0,0,0,,我會照顧他的  所以可以養他嗎
+Dialogue: 0,0:02:27.78,0:02:29.59,Default,,0,0,0,,那你一定得好好關照他
+Dialogue: 0,0:02:29.59,0:02:31.62,Default,,0,0,0,,你們還要繼續這個設定嗎
+Dialogue: 0,0:02:31.73,0:02:34.04,Default,,0,0,0,,而且你們也太一唱一和了吧
+Dialogue: 0,0:02:34.51,0:02:35.23,Default,,0,0,0,,奧托
+Dialogue: 0,0:02:35.70,0:02:36.70,Default,,0,0,0,,是
+Dialogue: 0,0:02:37.18,0:02:39.71,Default,,0,0,0,,要在指定的位置大小便啊
+Dialogue: 0,0:02:39.71,0:02:42.93,Default,,0,0,0,,這我會啊  怎麼這樣對待我
+Dialogue: 0,0:02:43.70,0:02:45.89,Default,,0,0,0,,菜月這人真是的
+Dialogue: 0,0:02:46.85,0:02:49.25,Default,,0,0,0,,總是一副半開玩笑的樣子
+Dialogue: 0,0:02:49.45,0:02:51.73,Default,,0,0,0,,一看就知道是裝出來的
+Dialogue: 0,0:02:52.95,0:02:54.56,Default,,0,0,0,,原來不是開玩笑嗎
+Dialogue: 0,0:02:55.73,0:02:57.81,Default,,0,0,0,,等下  不要這樣對待我
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

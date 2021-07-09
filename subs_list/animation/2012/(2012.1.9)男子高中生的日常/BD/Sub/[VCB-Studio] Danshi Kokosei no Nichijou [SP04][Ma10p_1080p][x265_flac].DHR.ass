@@ -1,0 +1,72 @@
+﻿[Script Info]
+;本字幕文件用 SrtEdit MPC播放版 Version 5.2 编辑制作
+;Unicode SrtEdit Copyright(C) 2005-2009 袁卫国
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,華康方圓體W7(P),47,&H00FFFFFF,&HF0000000,&H0FC24300,&H96000000,0,0,0,0,100,100,0,0,1,5,2,2,10,10,20,1
+Style: Title,華康海報體W12(P),40,&H00FFFFFF,&H000000FF,&H64AE2E95,&H96000000,0,0,0,0,100,100,0,0,1,4,3,2,10,10,10,1
+Style: STAFF,華康儷中黑(P),28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.74,0:00:11.12,Title,,0000,0000,0000,,{\blur12\fs60\fad(750,750)\shad0\1a&H01&\3a&H01&\pos(424,195)\3c&H109316&}男子高中生与整人
+Dialogue: 0,0:00:17.83,0:00:20.87,Default,,0000,0000,0000,,元治 要口香糖吗
+Dialogue: 0,0:00:23.58,0:00:24.99,Default,,0000,0000,0000,,恩
+Dialogue: 0,0:00:27.45,0:00:30.29,Default,,0000,0000,0000,,这个…难道是…
+Dialogue: 0,0:00:30.99,0:00:34.66,Default,,0000,0000,0000,,最近不知为何流行起来的整人游戏吗
+Dialogue: 0,0:00:35.14,0:00:38.51,Default,,0000,0000,0000,,如果抽出口香糖的话夹子就会夹住手指的玩具
+Dialogue: 0,0:00:40.09,0:00:42.50,Default,,0000,0000,0000,,想要整我吗
+Dialogue: 0,0:00:42.86,0:00:47.44,Default,,0000,0000,0000,,没办法 这里要装作没有察觉的样子
+Dialogue: 0,0:00:47.62,0:00:50.00,Default,,0000,0000,0000,,不被整一下的话他也难下台
+Dialogue: 0,0:01:00.32,0:01:01.45,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:01:02.38,0:01:03.89,Default,,0000,0000,0000,,原来只是给我口香糖啊
+Dialogue: 0,0:01:04.59,0:01:08.03,Default,,0000,0000,0000,,话说你的手有股柠檬的味道
+Dialogue: 0,0:01:08.44,0:01:10.20,Default,,0000,0000,0000,,这是
+Dialogue: 0,0:01:11.07,0:01:12.65,Default,,0000,0000,0000,,想要确认手上的味道
+Dialogue: 0,0:01:12.65,0:01:15.45,Default,,0000,0000,0000,,在收靠近鼻子的时候出拳
+Dialogue: 0,0:01:16.50,0:01:18.56,Default,,0000,0000,0000,,是让对方受伤的恶作剧呢
+Dialogue: 0,0:01:19.64,0:01:22.20,Default,,0000,0000,0000,,装作没察觉的样子吃他一拳吧
+Dialogue: 0,0:01:23.31,0:01:25.43,Default,,0000,0000,0000,,真的有柠檬味啊
+Dialogue: 0,0:01:29.24,0:01:31.51,Default,,0000,0000,0000,,说10遍鹿看看
+Dialogue: 0,0:01:33.45,0:01:35.21,Default,,0000,0000,0000,,有名的整人问题啊…
+Dialogue: 0,0:01:35.73,0:01:38.14,Default,,0000,0000,0000,,抱歉 答案我已经知道了
+Dialogue: 0,0:01:39.47,0:01:43.27,Default,,0000,0000,0000,,放心我会让你整的
+Dialogue: 0,0:01:44.26,0:01:46.32,Default,,0000,0000,0000,,圣诞老人坐的是？
+Dialogue: 0,0:01:46.38,0:01:47.46,Default,,0000,0000,0000,,驯鹿
+Dialogue: 0,0:01:47.76,0:01:48.55,Default,,0000,0000,0000,,正解
+Dialogue: 0,0:01:50.32,0:01:51.74,Default,,0000,0000,0000,,不是这样的吧
+Dialogue: 0,0:01:51.74,0:01:54.32,Default,,0000,0000,0000,,圣诞老人坐的不是驯鹿而是雪橇吧
+Dialogue: 0,0:01:54.32,0:01:55.89,Default,,0000,0000,0000,,为什么会是正解啊
+Dialogue: 0,0:01:56.43,0:02:00.55,Default,,0000,0000,0000,,日本上坡和下坡哪个多呢
+Dialogue: 0,0:02:03.58,0:02:05.00,Default,,0000,0000,0000,,应该是下坡吧
+Dialogue: 0,0:02:05.36,0:02:06.84,Default,,0000,0000,0000,,实际上到底是哪个呢
+Dialogue: 0,0:02:07.32,0:02:10.06,Default,,0000,0000,0000,,不知道啊 这都算不上猜谜了啊
+Dialogue: 0,0:02:10.06,0:02:11.24,Default,,0000,0000,0000,,只是单纯的问题了啊
+Dialogue: 0,0:02:12.74,0:02:17.25,Default,,0000,0000,0000,,他完全没有理解我是多么想被整
+Dialogue: 0,0:02:18.40,0:02:20.16,Default,,0000,0000,0000,,我来做个示范吧
+Dialogue: 0,0:02:21.37,0:02:23.50,Default,,0000,0000,0000,,我也带了口香糖
+Dialogue: 0,0:02:24.69,0:02:25.21,Default,,0000,0000,0000,,要吗
+Dialogue: 0,0:02:26.49,0:02:28.09,Default,,0000,0000,0000,,恩 我拿一个
+Dialogue: 0,0:02:34.35,0:02:36.77,Default,,0000,0000,0000,,哈哈 吓了一跳吧
+Dialogue: 0,0:02:36.92,0:02:37.78,Default,,0000,0000,0000,,这是玩具啦
+Dialogue: 0,0:02:41.95,0:02:42.81,Default,,0000,0000,0000,,去死
+Dialogue: 0,0:02:48.21,0:02:54.09,Default,,0000,0000,0000,,这样啊 骗人的恶作剧是不好的吧
+Dialogue: 0,0:02:54.36,0:02:57.02,STAFF,,0000,0000,0000,,{\fad(800,0)\pos(248,683)}翻译：牧濑氏 其他：水姬
+Dialogue: 0,0:02:57.02,0:02:59.02,Default,,0000,0000,0000,,

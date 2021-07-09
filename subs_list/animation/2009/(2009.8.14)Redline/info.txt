@@ -1,0 +1,5 @@
+﻿chs: 红线
+cht: 紅綫
+jp: REDLINE
+en: Redline
+rome: Redline

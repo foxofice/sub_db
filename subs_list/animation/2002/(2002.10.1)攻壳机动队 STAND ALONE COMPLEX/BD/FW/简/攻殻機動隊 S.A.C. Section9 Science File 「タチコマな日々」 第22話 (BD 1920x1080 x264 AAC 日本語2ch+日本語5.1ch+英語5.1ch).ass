@@ -1,0 +1,33 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-26 23:23:58
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.68,0:00:11.32,SP,NTP,0000,0000,0000,,好想念9课啊
+Dialogue: 0,0:00:11.99,0:00:14.63,SP,NTP,0000,0000,0000,,啊 看啊看啊 是石川先生
+Dialogue: 0,0:00:15.48,0:00:19.04,SP,NTP,0000,0000,0000,,真的啊 而且这是石川先生的家里啊
+Dialogue: 0,0:00:19.04,0:00:21.85,SP,NTP,0000,0000,0000,,你们在看什么 我也想看想看想看
+Dialogue: 0,0:00:23.12,0:00:25.60,SP,NTP,0000,0000,0000,,石川先生洗完澡喝牛奶啊
+Dialogue: 0,0:00:25.78,0:00:26.50,SP,NTP,0000,0000,0000,,真意外啊
+Dialogue: 0,0:00:28.80,0:00:33.50,SP,NTP,0000,0000,0000,,而且还穿着短袖汗衫 跟他太相称 真恶心
+Dialogue: 0,0:00:36.36,0:00:37.44,SP,NTP,0000,0000,0000,,进被窝了
+Dialogue: 0,0:00:39.47,0:00:39.99,SP,NTP,0000,0000,0000,,看到了
+Dialogue: 0,0:00:41.43,0:00:44.89,SP,NTP,0000,0000,0000,,石川先生 原来睡觉前要摘下胡子啊
+Dialogue: 0,0:00:47.26,0:00:48.54,SP,NTP,0000,0000,0000,,晾晾胡子晾晾胡子
+
+

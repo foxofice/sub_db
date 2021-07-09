@@ -1,0 +1,5 @@
+﻿chs: 平成狸合战/百变狸猫
+cht: 平成狸合戰/百變狸貓
+jp: 平成狸合戦ぽんぽこ
+en: Pom Poko
+rome: Heisei Tanuki Gassen Ponpoko

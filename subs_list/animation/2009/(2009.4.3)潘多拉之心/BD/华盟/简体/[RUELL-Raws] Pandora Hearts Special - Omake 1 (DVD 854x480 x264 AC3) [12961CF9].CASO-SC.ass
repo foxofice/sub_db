@@ -1,0 +1,78 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[Aegisub Project Garbage]
+Audio File: [RUELL-Raws] Pandora Hearts Special - Omake 1 (DVD 854x480 x264 AC3) [12961CF9].mkv
+Video File: [RUELL-Raws] Pandora Hearts Special - Omake 1 (DVD 854x480 x264 AC3) [12961CF9].mkv
+Video AR Mode: 4
+Video AR Value: 1.779167
+Video Zoom Percent: 0.750000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.69,0:00:07.85,zhengwen,NTP,0,0,0,,潘多拉之心  附录小动画
+Dialogue: 0,0:00:09.69,0:00:10.35,zhengwen,NTP,0,0,0,,你好啊
+Dialogue: 0,0:00:10.92,0:00:15.28,zhengwen,NTP,0,0,0,,感谢你买下了潘多拉之心DVD第一卷
+Dialogue: 0,0:00:15.91,0:00:18.29,zhengwen,NTP,0,0,0,,此刻我的英姿能到达你的身边
+Dialogue: 0,0:00:18.68,0:00:21.56,zhengwen,NTP,0,0,0,,想必也是无可抗拒的命运吧
+Dialogue: 0,0:00:21.96,0:00:24.38,zhengwen,NTP,0,0,0,,我只属于你
+Dialogue: 0,0:00:25.83,0:00:28.28,zhengwen,NTP,0,0,0,,欢迎来到潘多拉之心的世界
+Dialogue: 0,0:00:29.38,0:00:30.75,zhengwen,NTP,0,0,0,,好了  OK了
+Dialogue: 0,0:00:30.98,0:00:32.16,zhengwen,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:00:32.95,0:00:34.30,zhengwen,NTP,0,0,0,,大家也辛苦了
+Dialogue: 0,0:00:34.56,0:00:39.56,zhushi,NTP,0,0,0,,Pandora Hearts\N（仆多拉之心）
+Dialogue: 0,0:00:37.32,0:00:38.53,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:00:49.87,0:00:53.38,zhengwen,NTP,0,0,0,,{\fs22}{\fsp66}　{\fsp1}布雷克{\r}\N迷侦探  无礼句
+Dialogue: 0,0:00:54.94,0:00:57.02,zhengwen,NTP,0,0,0,,他口中侃侃道来的
+Dialogue: 0,0:00:58.85,0:01:00.88,zhushi,NTP,0,0,0,,{\an7\fs18}布雷克{\r}\N无礼句
+Dialogue: 0,0:00:58.85,0:01:00.88,zhushi,NTP,0,0,0,,{\an3}算是这个故事的主角？
+Dialogue: 0,0:01:02.13,0:01:05.53,zhengwen,NTP,0,0,0,,是隐藏在黑暗之中的  唯一的真相
+Dialogue: 0,0:01:06.15,0:01:11.00,zhengwen,NTP,0,0,0,,只要您愿意  就由我来把这个谜团咬碎吧
+Dialogue: 0,0:01:11.83,0:01:12.75,zhengwen,NTP,0,0,0,,老师
+Dialogue: 0,0:01:15.37,0:01:17.52,zhengwen,NTP,0,0,0,,您的糖就暂时由我保管了
+Dialogue: 0,0:01:17.75,0:01:20.40,zhengwen,NTP,0,0,0,,要是您因为糖尿病而倒下  我可是会很困扰的
+Dialogue: 0,0:01:21.04,0:01:23.01,zhushi,NTP,0,0,0,,{\an7\fs18}夏罗{\r}\N射论
+Dialogue: 0,0:01:21.04,0:01:23.01,zhushi,NTP,0,0,0,,{\an3}无礼句的助手  通过旁推侧敲的吐槽来射杀敌人
+Dialogue: 0,0:01:23.32,0:01:27.92,zhengwen,NTP,0,0,0,,谜团吗  真不错  我正无聊呢
+Dialogue: 0,0:01:28.28,0:01:30.55,zhushi,NTP,0,0,0,,{\an7}奥兹
+Dialogue: 0,0:01:28.28,0:01:30.55,zhushi,NTP,0,0,0,,{\an3}谎报年龄的馆主
+Dialogue: 0,0:01:30.81,0:01:31.82,zhengwen,NTP,0,0,0,,谜团？
+Dialogue: 0,0:01:32.62,0:01:34.55,zhushi,NTP,0,0,0,,{\an7}基尔巴特
+Dialogue: 0,0:01:32.62,0:01:34.55,zhushi,NTP,0,0,0,,{\an3}大家心目中的偶像
+Dialogue: 0,0:01:36.39,0:01:40.45,zhengwen,NTP,0,0,0,,在这个迷宫的尽头  是否存在光明呢
+Dialogue: 0,0:01:41.46,0:01:46.43,zhushi,NTP,0,0,0,,Pandora Hearts\N（仆多拉之心）
+Dialogue: 0,0:01:44.05,0:01:45.40,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:01:47.59,0:01:52.05,zhengwen,NTP,0,0,0,,这个谜团  就由我来咬碎吧
+Dialogue: 0,0:02:00.93,0:02:04.45,zhengwen,NTP,0,0,0,,犯人是…你哦
+Dialogue: 0,0:02:05.48,0:02:07.37,zhengwen,NTP,0,0,0,,你的罪孽  那就是…
+Dialogue: 0,0:02:07.56,0:02:08.20,zhengwen,NTP,0,0,0,,射论
+Dialogue: 0,0:02:08.36,0:02:08.89,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:02:10.58,0:02:13.06,zhengwen,NTP,0,0,0,,就是你那怕猫的性格
+Dialogue: 0,0:02:36.98,0:02:41.77,zhengwen,NTP,0,0,0,,顺便说一句  只是吃糖的话是不会得糖尿病的
+Dialogue: 0,0:02:42.05,0:02:42.95,zhengwen,NTP,0,0,0,,结束啦
+Dialogue: 0,0:02:43.19,0:02:48.19,zhushi,NTP,0,0,0,,Pandora Hearts\N（仆多拉之心）
+Dialogue: 0,0:02:45.85,0:02:47.46,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:02:48.34,0:02:49.91,zhengwen,NTP,0,0,0,,下回预告
+Dialogue: 0,0:02:50.45,0:02:53.53,zhengwen,NTP,0,0,0,,哎呀哎呀哎呀  这究竟是怎么回事  布雷克
+Dialogue: 0,0:02:53.73,0:02:58.60,zhengwen,NTP,0,0,0,,在这张DVD第一卷里  我们一句台词都没有啊
+Dialogue: 0,0:03:00.19,0:03:02.21,zhengwen,NTP,0,0,0,,请您放心  大小姐
+Dialogue: 0,0:03:02.47,0:03:05.01,zhengwen,NTP,0,0,0,,这回的内容只不过是个铺垫
+Dialogue: 0,0:03:05.28,0:03:06.18,zhengwen,NTP,0,0,0,,从下回开始就是
+Dialogue: 0,0:03:06.37,0:03:11.33,zhengwen,NTP,0,0,0,,只属于大小姐的  由大小姐表演的  为了大小姐而存在的独裁动画
+Dialogue: 0,0:03:11.44,0:03:12.73,zhengwen,NTP,0,0,0,,哎呀真的吗
+Dialogue: 0,0:03:12.83,0:03:16.12,zhengwen,NTP,0,0,0,,就是这样  下回开始我和大小姐会替代奥兹成为主角
+Dialogue: 0,0:03:16.21,0:03:19.80,zhengwen,NTP,0,0,0,,由我们来出演的感人豪华巨作
+Dialogue: 0,0:03:19.97,0:03:23.58,zhengwen,NTP,0,0,0,,「一击必杀  千根针」要开始了…
+Dialogue: 0,0:03:23.59,0:03:25.30,zhengwen,NTP,0,0,0,,少骗人了！

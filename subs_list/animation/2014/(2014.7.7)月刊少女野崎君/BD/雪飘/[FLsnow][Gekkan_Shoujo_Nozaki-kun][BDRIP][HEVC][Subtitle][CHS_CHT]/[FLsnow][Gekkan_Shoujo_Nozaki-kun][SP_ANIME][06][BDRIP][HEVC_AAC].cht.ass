@@ -1,0 +1,89 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん SP ANIME 06
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+Style: Tittle 01,@冬青黑体简体中文 W6,42,&H00AAE86D,&H00AAE86D,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,2,-90,1,3,0,5,10,10,10,1
+Style: Tittle 02,@冬青黑体简体中文 W6,38,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,98,100,4,-90,1,3,0,5,10,10,10,1
+Style: Staff,方正准圆_GBK,20,&H00FFFFFF,&H00FFFFFF,&H0007AC70,&H00000000,-1,0,0,0,100,100,1.2,0,1,2,2,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.81,0:00:04.44,Main,,0,0,0,,野崎同學 野崎同學
+Dialogue: 0,0:00:04.48,0:00:06.00,Main,,0,0,0,,有特典影片哦
+Dialogue: 0,0:00:06.04,0:00:07.21,Main,,0,0,0,,一起看吧
+Dialogue: 0,0:00:10.99,0:00:11.62,Main,,0,0,0,,哎
+Dialogue: 0,0:00:11.70,0:00:13.12,Main,,0,0,0,,哎？怎麼回事
+Dialogue: 0,0:00:13.12,0:00:16.30,Main,,0,0,0,,咦 夢…這是在做夢嗎
+Dialogue: 0,0:00:17.49,0:00:22.50,Tittle 01,,0,0,0,,{\pos(728,158)\be0.2}特典動畫
+Dialogue: 0,0:00:17.49,0:00:22.50,Tittle 01,,0,0,0,,{\pos(728,372)\be0.2}第六號
+Dialogue: 0,0:00:17.49,0:00:22.50,Tittle 02,,0,0,0,,{\pos(600,245)\be0.2}這件事將會變成少女漫畫
+Dialogue: 0,0:00:23.25,0:00:25.83,Main,,0,0,0,,什麼？想看搭訕？
+Dialogue: 0,0:00:26.16,0:00:29.74,Main,,0,0,0,,或者說想看意外的展開之類的…
+Dialogue: 0,0:00:30.82,0:00:32.89,Main,,0,0,0,,意外嗎…
+Dialogue: 0,0:00:34.47,0:00:35.49,Main,,0,0,0,,稍等一下
+Dialogue: 0,0:00:39.97,0:00:42.55,Main,,0,0,0,,於是 盡情地往對面游吧
+Dialogue: 0,0:00:45.44,0:00:46.79,Main,,0,0,0,,你做了什麼啊 結月
+Dialogue: 0,0:00:47.49,0:00:48.81,Main,,0,0,0,,我把泳褲的帶子扯下來了
+Dialogue: 0,0:00:48.83,0:00:49.61,Main,,0,0,0,,什麼？
+Dialogue: 0,0:00:50.58,0:00:51.53,Main,,0,0,0,,不是吧？
+Dialogue: 0,0:00:52.02,0:00:53.22,Main,,0,0,0,,被沖走了！
+Dialogue: 0,0:00:59.84,0:01:01.70,Main,,0,0,0,,咦 這是什麼？
+Dialogue: 0,0:01:03.17,0:01:04.17,Main,,0,0,0,,泳褲？！
+Dialogue: 0,0:01:04.42,0:01:05.67,Main,,0,0,0,,等等…堀前輩
+Dialogue: 0,0:01:05.67,0:01:06.84,Main,,0,0,0,,你掉了不得了的東西
+Dialogue: 0,0:01:08.15,0:01:09.37,Main,,0,0,0,,啊…
+Dialogue: 0,0:01:10.28,0:01:12.56,Main,,0,0,0,,幾條…你到底穿了幾條啊！
+Dialogue: 0,0:01:10.76,0:01:11.30,Main,,0,0,0,,{\an8\fs45}喂！
+Dialogue: 0,0:01:12.56,0:01:13.86,Main,,0,0,0,,肯定是一條啊
+Dialogue: 0,0:01:13.86,0:01:14.96,Main,,0,0,0,,你是白癡嗎！
+Dialogue: 0,0:01:19.20,0:01:22.48,Main,,0,0,0,,啊…
+Dialogue: 0,0:01:22.90,0:01:27.61,Main,,0,0,0,,我想 我已經明白比基尼被海水沖走的女生的心情了
+Dialogue: 0,0:01:27.61,0:01:29.34,Main,,0,0,0,,真巧 我也一樣
+Dialogue: 0,0:01:29.34,0:01:30.22,Main,,0,0,0,,我也明白了
+Dialogue: 0,0:01:30.23,0:01:31.48,Main,,0,0,0,,{\frz-90\fn@冬青黑体简体中文 W6\c&HFE7EFD&\3c&HFFFFFF&\fs45\bord2\shad0\move(840,128,876,128)}沒穿泳褲
+Dialogue: 0,0:01:30.48,0:01:31.48,Main,,0,0,0,,{\fn冬青黑体简体中文 W6\c&HFE7EFD&\3c&HFFFFFF&\fs45\bord2\shad0\move(742,108,770,108)}沒穿　泳褲
+Dialogue: 0,0:01:30.73,0:01:31.48,Main,,0,0,0,,{\frz-90\fn@冬青黑体简体中文 W6\c&HFE7EFD&\3c&HFFFFFF&\fs45\bord2\shad0\move(122,128,142,128)}沒穿泳褲
+Dialogue: 0,0:01:31.80,0:01:33.81,Main,,0,0,0,,你們三個沒事吧
+Dialogue: 0,0:01:34.20,0:01:35.34,Main,,0,0,0,,停…停下來
+Dialogue: 0,0:01:35.34,0:01:36.68,Main,,0,0,0,,別靠近我們 佐倉
+Dialogue: 0,0:01:36.68,0:01:38.36,Main,,0,0,0,,別過來 別過來啊
+Dialogue: 0,0:01:38.36,0:01:41.12,Main,,0,0,0,,抱歉 拜託你千萬別過來
+Dialogue: 0,0:01:42.25,0:01:45.89,Main,,0,0,0,,怎麼辦 我好像明白欺負人是什麼感覺了
+Dialogue: 0,0:01:50.54,0:01:51.75,Main,,0,0,0,,啊 小千代
+Dialogue: 0,0:01:51.87,0:01:54.32,Main,,0,0,0,,這附近有人掉了泳褲嗎
+Dialogue: 0,0:01:54.32,0:01:55.58,Main,,0,0,0,,啊 就是這些
+Dialogue: 0,0:01:57.94,0:02:01.25,Main,,0,0,0,,各位 太好了找到泳褲啦
+Dialogue: 0,0:02:01.25,0:02:02.82,Main,,0,0,0,,真的嗎 好 快丟過來
+Dialogue: 0,0:02:02.82,0:02:03.50,Main,,0,0,0,,嗯
+Dialogue: 0,0:02:03.64,0:02:04.22,Main,,0,0,0,,給你！
+Dialogue: 0,0:02:07.24,0:02:07.90,Main,,0,0,0,,啊…
+Dialogue: 0,0:02:14.05,0:02:15.98,Main,,0,0,0,,今天大家一起去了海水浴
+Dialogue: 0,0:02:16.52,0:02:17.48,Main,,0,0,0,,可是…
+Dialogue: 0,0:02:17.97,0:02:18.92,Main,,0,0,0,,怎麼辦…
+Dialogue: 0,0:02:19.24,0:02:21.00,Main,,0,0,0,,泳衣被沖走了
+Dialogue: 0,0:02:21.38,0:02:22.70,Main,,0,0,0,,呦 麻美子
+Dialogue: 0,0:02:23.05,0:02:24.49,Main,,0,0,0,,這件是你的吧？
+Dialogue: 0,0:02:24.49,0:02:25.31,Main,,0,0,0,,那是…
+Dialogue: 0,0:02:25.58,0:02:27.01,Main,,0,0,0,,嗯 謝謝你
+Dialogue: 0,0:02:27.48,0:02:27.98,Main,,0,0,0,,啊！
+Dialogue: 0,0:02:28.27,0:02:31.99,Main,,0,0,0,,哼 我像是那麼天真的男人嗎
+Dialogue: 0,0:02:32.44,0:02:35.24,Main,,0,0,0,,來 自己來找吧
+Dialogue: 0,0:02:35.37,0:02:36.52,Main,,0,0,0,,你這隻母狗
+Dialogue: 0,0:02:37.51,0:02:40.67,Main,,0,0,0,,麻美子的表情是參考了御子柴的反應畫的
+Dialogue: 0,0:02:41.13,0:02:42.89,Main,,0,0,0,,那副絕望的樣子太棒啦
+Dialogue: 0,0:02:43.32,0:02:45.24,Main,,0,0,0,,真對不起！
+Dialogue: 0,0:02:48.63,0:02:49.38,Main,,0,0,0,,完結啦
+Dialogue: 0,0:02:49.83,0:02:51.83,Main,,0,0,0,,再見啦
+Dialogue: 0,0:02:51.83,0:02:52.65,Main,,0,0,0,,別哭哦
+Dialogue: 0,0:02:52.65,0:03:02.66,Staff,,0,0,0,,{\pos(1022,680)\fs16\4a&80}雪飄工作室　Flsnow

@@ -1,0 +1,5 @@
+﻿chs: 大都会
+cht: 大都會
+jp: メトロポリス
+en: Metropolis
+rome: Metropolis

@@ -1,0 +1,5 @@
+﻿chs: 舞动青春
+cht: 舞動青春
+jp: ボールルームへようこそ
+en: Welcome to the Ballroom
+rome: Ballroom e Youkoso

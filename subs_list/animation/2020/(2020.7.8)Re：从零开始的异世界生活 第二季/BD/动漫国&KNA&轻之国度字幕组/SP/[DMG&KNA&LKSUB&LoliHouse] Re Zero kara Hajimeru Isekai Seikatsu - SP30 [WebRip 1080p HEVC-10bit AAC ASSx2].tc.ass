@@ -1,0 +1,79 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP30]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  動漫國&KNA&輕之國度字幕組  聯合製作\N僅供試看,請支持購買正版音像製品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻譯&時軸:傻瓜三世   後期:小聖
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}國\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}動
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}輕
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}國
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.98,0:00:04.73,Default,,0,0,0,,Re:從零開始的休息時間  奧托日記
+Dialogue: 0,0:00:05.89,0:00:08.18,Default,,0,0,0,,我真是服氣了
+Dialogue: 0,0:00:08.75,0:00:12.43,Default,,0,0,0,,我一個人在龍車裡  等著跟昴商談事情
+Dialogue: 0,0:00:12.83,0:00:15.98,Default,,0,0,0,,沒想到就一直被放鴿子
+Dialogue: 0,0:00:16.69,0:00:19.73,Default,,0,0,0,,抱歉抱歉  我真的忘記了
+Dialogue: 0,0:00:19.73,0:00:20.46,Default,,0,0,0,,果然啊
+Dialogue: 0,0:00:20.46,0:00:23.68,Default,,0,0,0,,但既然已經會合了  就算了吧
+Dialogue: 0,0:00:23.68,0:00:27.81,Default,,0,0,0,,你敢看著我的眼睛再說一遍嗎  混蛋
+Dialogue: 0,0:00:29.47,0:00:32.35,Default,,0,0,0,,但既然已經會合了  就算了吧
+Dialogue: 0,0:00:32.35,0:00:35.37,Default,,0,0,0,,你是看著我的眼睛說的吧  混蛋
+Dialogue: 0,0:00:35.77,0:00:40.32,Default,,0,0,0,,話說  是你自己跟嘉飛爾解釋又留在龍車裡的
+Dialogue: 0,0:00:40.32,0:00:42.03,Default,,0,0,0,,雖然是這樣沒錯
+Dialogue: 0,0:00:42.03,0:00:45.13,Default,,0,0,0,,還有帕特拉修陪著  我想你也沒什麼寂寞的
+Dialogue: 0,0:00:45.36,0:00:47.44,Default,,0,0,0,,雖然我忘記也是事實
+Dialogue: 0,0:00:47.44,0:00:49.61,Default,,0,0,0,,這個事實太傷我的心了
+Dialogue: 0,0:00:49.61,0:00:52.65,Default,,0,0,0,,總之是我不好  我真的忘記了
+Dialogue: 0,0:00:52.94,0:00:56.68,Default,,0,0,0,,難道道歉之後就必須跟這句話嗎
+Dialogue: 0,0:01:00.97,0:01:03.26,Default,,0,0,0,,儘管還有不少話想說
+Dialogue: 0,0:01:04.02,0:01:06.67,Default,,0,0,0,,但看過了無比憔悴的愛蜜莉雅大人
+Dialogue: 0,0:01:07.03,0:01:08.94,Default,,0,0,0,,我不忍心再多說什麼
+Dialogue: 0,0:01:10.89,0:01:15.47,Default,,0,0,0,,愛蜜莉雅大人正在挑戰解放聖域的試煉
+Dialogue: 0,0:01:17.25,0:01:21.21,Default,,0,0,0,,愛蜜莉雅大人是個率直善良的人
+Dialogue: 0,0:01:22.64,0:01:23.48,Default,,0,0,0,,奧托
+Dialogue: 0,0:01:25.84,0:01:28.25,Default,,0,0,0,,愛蜜莉雅大人  怎麼了嗎
+Dialogue: 0,0:01:29.56,0:01:32.76,Default,,0,0,0,,跟微精靈聊挺久了  我在休息
+Dialogue: 0,0:01:33.28,0:01:34.25,Default,,0,0,0,,那你呢
+Dialogue: 0,0:01:34.59,0:01:37.96,Default,,0,0,0,,明天要出發了  我正在重新清點貨物
+Dialogue: 0,0:01:39.41,0:01:39.96,Default,,0,0,0,,這些嗎
+Dialogue: 0,0:01:40.80,0:01:43.12,Default,,0,0,0,,不勞愛蜜莉雅大人動手的
+Dialogue: 0,0:01:43.28,0:01:45.13,Default,,0,0,0,,沒事的  別客氣
+Dialogue: 0,0:01:45.74,0:01:49.84,Default,,0,0,0,,只是不好意思  我只搬得動又小又輕的東西
+Dialogue: 0,0:01:55.90,0:01:57.73,Default,,0,0,0,,愛蜜莉雅大人是半妖精
+Dialogue: 0,0:01:58.55,0:02:02.80,Default,,0,0,0,,和世人們都畏懼的嫉妒魔女一樣
+Dialogue: 0,0:02:04.27,0:02:08.34,Default,,0,0,0,,400年前  嫉妒魔女讓世界瀕臨毀滅
+Dialogue: 0,0:02:09.67,0:02:12.36,Default,,0,0,0,,和那個魔女長相一致的愛蜜莉雅大人
+Dialogue: 0,0:02:12.99,0:02:16.16,Default,,0,0,0,,一定遇上過很多困難的事
+Dialogue: 0,0:02:17.00,0:02:19.58,Default,,0,0,0,,肯定也受過不少誹謗中傷
+Dialogue: 0,0:02:20.91,0:02:23.85,Default,,0,0,0,,她的處境一定很艱難
+Dialogue: 0,0:02:24.51,0:02:26.97,Default,,0,0,0,,但她卻堅強地參加了王選
+Dialogue: 0,0:02:29.65,0:02:32.72,Default,,0,0,0,,真是太了不起了
+Dialogue: 0,0:02:34.24,0:02:37.81,Default,,0,0,0,,看到菜月想要支持愛蜜莉雅大人
+Dialogue: 0,0:02:39.57,0:02:43.25,Default,,0,0,0,,看到他的樣子  我就…
+Dialogue: 0,0:02:43.67,0:02:47.23,Default,,0,0,0,,這傢伙的夢話是真的多
+Dialogue: 0,0:02:48.01,0:02:52.00,Default,,0,0,0,,菜月  我已經…
+Dialogue: 0,0:02:56.19,0:02:58.17,Default,,0,0,0,,這究竟是誰幹的
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

@@ -1,0 +1,36 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん 11 Long Trailer
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.11,0:00:04.99,Main,,0,0,0,,瀨尾老師 唱歌的指導就拜託你了
+Dialogue: 0,0:00:05.16,0:00:06.69,Main,,0,0,0,,喂喂 老師你在聽嗎
+Dialogue: 0,0:00:06.69,0:00:08.68,Main,,0,0,0,,啊 忘記把耳塞取下來了
+Dialogue: 0,0:00:08.68,0:00:09.48,Main,,0,0,0,,哎
+Dialogue: 0,0:00:09.61,0:00:11.02,Main,,0,0,0,,下集 「戀米吧」
+Dialogue: 0,0:00:11.03,0:00:11.90,Main,,0,0,0,,{\fn方正宋一_GBK\fs34\fad(50,0)\3c&H000000&\b1\shad0\pos(274,694)}—前任責編　前野氏—
+Dialogue: 0,0:00:11.14,0:00:12.80,Main,,0,0,0,,是什麼啊 戀米
+Dialogue: 0,0:00:12.80,0:00:15.06,Main,,0,0,0,,雖然不明白…敬請期待！
+Dialogue: 0,0:00:15.28,0:00:17.20,Main,,0,0,0,,不明白還怎麼期待啊
+Dialogue: 0,0:00:17.24,0:00:18.45,Main,,0,0,0,,那就期待吃大米嗎
+Dialogue: 0,0:00:18.45,0:00:19.59,Main,,0,0,0,,壽司嗎
+Dialogue: 0,0:00:19.59,0:00:20.90,Main,,0,0,0,,老師喜歡吃壽司嗎
+Dialogue: 0,0:00:20.90,0:00:21.86,Main,,0,0,0,,老師是什麼鬼啊
+Dialogue: 0,0:00:21.86,0:00:23.31,Main,,0,0,0,,你是教我唱歌的老師啊
+Dialogue: 0,0:00:24.25,0:00:25.36,Main,,0,0,0,,為啥不說話了啊
+Dialogue: 0,0:00:25.36,0:00:27.38,Main,,0,0,0,,喂 別塞耳塞 我沒在唱歌啊
+Dialogue: 0,0:00:27.38,0:00:29.21,Main,,0,0,0,,那我們去吃壽司吧 鹿島
+Dialogue: 0,0:00:29.21,0:00:30.50,Main,,0,0,0,,哈哈哈…

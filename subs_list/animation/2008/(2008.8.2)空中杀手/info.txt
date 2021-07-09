@@ -1,0 +1,5 @@
+﻿chs: 空中杀手
+cht: 空中殺手
+jp: スカイ・クロラ
+en: The Sky Crawlers
+rome: Sky Crawlers

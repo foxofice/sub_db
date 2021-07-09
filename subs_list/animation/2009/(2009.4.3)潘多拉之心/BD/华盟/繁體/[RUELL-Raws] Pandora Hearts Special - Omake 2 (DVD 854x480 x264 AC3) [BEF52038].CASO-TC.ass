@@ -1,0 +1,84 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[Aegisub Project Garbage]
+Active Line: 5
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.49,0:00:07.25,zhengwen,NTP,0,0,0,,潘多拉之心  附錄小動畫
+Dialogue: 0,0:00:09.40,0:00:11.14,zhengwen,NTP,0,0,0,,大家好
+Dialogue: 0,0:00:12.23,0:00:17.75,zhengwen,NTP,0,0,0,,感謝您購買潘多拉之心DVD第二卷
+Dialogue: 0,0:00:18.43,0:00:21.40,zhengwen,NTP,0,0,0,,這次少爺很活躍  您覺得如何呢
+Dialogue: 0,0:00:22.40,0:00:24.87,zhengwen,NTP,0,0,0,,少爺總是很開朗又充滿活力
+Dialogue: 0,0:00:25.49,0:00:28.82,zhengwen,NTP,0,0,0,,我能侍奉少爺真的很幸福
+Dialogue: 0,0:00:29.19,0:00:29.91,zhengwen,NTP,0,0,0,,雖然有的時候…
+Dialogue: 0,0:00:30.48,0:00:33.43,zhengwen,NTP,0,0,0,,不  應該說常常做些讓凱特小姐困擾的事
+Dialogue: 0,0:00:33.66,0:00:35.67,zhengwen,NTP,0,0,0,,每次都害得我…
+Dialogue: 0,0:00:39.09,0:00:40.71,zhengwen,NTP,0,0,0,,為什麼  為什麼
+Dialogue: 0,0:00:40.73,0:00:41.65,zhengwen,NTP,0,0,0,,好  OK了
+Dialogue: 0,0:00:43.29,0:00:48.29,zhushi,NTP,0,0,0,,熊貓們之心\N（PANDAra Hearts）
+Dialogue: 0,0:00:45.76,0:00:47.20,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:00:58.31,0:01:01.67,zhengwen,NTP,0,0,0,,夏羅的心跳撲通撲通大作戰
+Dialogue: 0,0:01:03.76,0:01:04.48,zhengwen,NTP,0,0,0,,各位
+Dialogue: 0,0:01:05.83,0:01:06.93,zhushi,NTP,0,0,0,,（注：這裡基爾手上拿的似乎是《聖騎士物語》）
+Dialogue: 0,0:01:08.80,0:01:13.04,zhengwen,NTP,0,0,0,,為了讓艾莉絲萌發作為女性心動不已的感覺
+Dialogue: 0,0:01:13.34,0:01:15.47,zhengwen,NTP,0,0,0,,今天要請你們協助一下
+Dialogue: 0,0:01:21.58,0:01:24.16,zhengwen,NTP,0,0,0,,你微笑的表情  生氣的表情
+Dialogue: 0,0:01:24.59,0:01:26.32,zhengwen,NTP,0,0,0,,還有幸福地吃著肉的表情
+Dialogue: 0,0:01:26.86,0:01:30.06,zhengwen,NTP,0,0,0,,我只要看著你  就很幸福了
+Dialogue: 0,0:01:30.41,0:01:34.83,zhengwen,NTP,0,0,0,,所以  今後我會讓你幸福的
+Dialogue: 0,0:01:35.29,0:01:37.46,zhengwen,NTP,0,0,0,,來吧  跟我…
+Dialogue: 0,0:01:39.40,0:01:41.54,zhengwen,NTP,0,0,0,,不過是個僕人  你太狂妄了
+Dialogue: 0,0:01:41.72,0:01:43.06,zhengwen,NTP,0,0,0,,有請下一位
+Dialogue: 0,0:01:47.71,0:01:49.97,zhengwen,NTP,0,0,0,,只要有你在就足夠了
+Dialogue: 0,0:01:50.37,0:01:52.43,zhengwen,NTP,0,0,0,,我絕對不想再失去了
+Dialogue: 0,0:01:52.90,0:01:55.75,zhengwen,NTP,0,0,0,,為此  我什麼都肯做
+Dialogue: 0,0:01:56.26,0:01:58.52,zhengwen,NTP,0,0,0,,我願意接受你的一切
+Dialogue: 0,0:02:00.43,0:02:03.11,zhengwen,NTP,0,0,0,,那是我的東西  你這海藻頭
+Dialogue: 0,0:02:03.29,0:02:04.61,zhengwen,NTP,0,0,0,,你好煩  笨兔子
+Dialogue: 0,0:02:04.78,0:02:07.09,zhushi,NTP,0,0,0,,你說什麼  你這海藻頭
+Dialogue: 0,0:02:07.82,0:02:09.81,zhushi,NTP,0,0,0,,我的髮型哪裡是海藻頭了
+Dialogue: 0,0:02:09.90,0:02:11.33,zhushi,NTP,0,0,0,,你們倆都冷靜一下
+Dialogue: 0,0:02:11.50,0:02:12.21,zhushi,NTP,0,0,0,,少囉嗦
+Dialogue: 0,0:02:12.21,0:02:17.21,zhushi,NTP,0,0,0,,{\an4}熊貓們之心\N（PANDAra Hearts）
+Dialogue: 0,0:02:13.86,0:02:16.29,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:02:12.21,0:02:17.21,zhushi,NTP,0,0,0,,（注1：基爾頭上被奧茲用紅蠟筆寫了「基爾」）
+Dialogue: 0,0:02:12.21,0:02:17.21,zhushi,NTP,0,0,0,,（注2：牆上貼的海報上寫「竹筍小班」）
+Dialogue: 0,0:02:18.95,0:02:19.90,zhengwen,NTP,0,0,0,,不要再哭了
+Dialogue: 0,0:02:20.65,0:02:24.41,zhengwen,NTP,0,0,0,,我來治癒你心中的傷痛吧
+Dialogue: 0,0:02:24.82,0:02:28.15,zhengwen,NTP,0,0,0,,但希望你能實現我的一個願望
+Dialogue: 0,0:02:28.92,0:02:33.14,zhengwen,NTP,0,0,0,,能讓我永遠留在你的記憶之中嗎
+Dialogue: 0,0:02:34.48,0:02:35.75,zhengwen,NTP,0,0,0,,死小丑
+Dialogue: 0,0:02:37.94,0:02:40.34,zhengwen,NTP,0,0,0,,你們好  我正好路過附近
+Dialogue: 0,0:02:40.61,0:02:42.60,zhengwen,NTP,0,0,0,,就給你買了你喜歡的蛋糕
+Dialogue: 0,0:02:42.96,0:02:44.18,zhengwen,NTP,0,0,0,,為什麼要送這個給我
+Dialogue: 0,0:02:44.39,0:02:47.05,zhengwen,NTP,0,0,0,,你在想什麼我都明白
+Dialogue: 0,0:02:47.83,0:02:51.59,zhengwen,NTP,0,0,0,,因為你和我有著很深的羈絆啊
+Dialogue: 0,0:02:52.79,0:02:57.70,zhengwen,NTP,0,0,0,,無論相隔多遠  我們必定會到達同一個目的地
+Dialogue: 0,0:02:57.94,0:03:00.74,zhengwen,NTP,0,0,0,,這就是我們的命運
+Dialogue: 0,0:03:04.09,0:03:04.10,zhengwen,NTP,0,0,0,,熊貓們之心\N（PANDAra Hearts）
+Dialogue: 0,0:03:06.59,0:03:08.32,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:03:09.16,0:03:10.75,zhengwen,NTP,0,0,0,,下回預告
+Dialogue: 0,0:03:11.66,0:03:13.44,zhengwen,NTP,0,0,0,,大家好
+Dialogue: 0,0:03:13.69,0:03:17.68,zhengwen,NTP,0,0,0,,下回的潘多拉之心有這樣那樣的基爾
+Dialogue: 0,0:03:17.82,0:03:20.11,zhengwen,NTP,0,0,0,,害羞的基爾  痛苦的基爾
+Dialogue: 0,0:03:20.39,0:03:22.59,zhengwen,NTP,0,0,0,,又是叫喊  又是低落  還會被綁起來
+Dialogue: 0,0:03:22.67,0:03:24.87,zhengwen,NTP,0,0,0,,都讓人想說「啊  你到底想怎樣啦」的
+Dialogue: 0,0:03:24.90,0:03:26.81,zhengwen,NTP,0,0,0,,基爾基爾基爾的大狂歡
+Dialogue: 0,0:03:27.79,0:03:29.81,zhengwen,NTP,0,0,0,,我好像有點興奮起來了
+Dialogue: 0,0:03:30.79,0:03:35.09,zhengwen,NTP,0,0,0,,不過基爾是我的  你們別想打他的主意哦
+Dialogue: 0,0:03:35.81,0:03:37.28,zhengwen,NTP,0,0,0,,嗯？我嗎？
+Dialogue: 0,0:03:39.12,0:03:40.98,zhengwen,NTP,0,0,0,,敬請期待下一卷哦
+Dialogue: 0,0:03:42.10,0:03:44.44,zhengwen,NTP,0,0,0,,咦  好像是下下卷來的？

@@ -1,0 +1,31 @@
+﻿[Script Info]
+Title:Pandora Hearts
+Original Script:华盟字幕社
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0.00,1,2,0,2,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.97,zhengwen,NTP,0000,0000,0000,,{\fad(0,540)}東京國際動畫展宣傳映像
+Dialogue: 0,0:00:23.53,0:00:29.07,zhengwen,NTP,0000,0000,0000,,記得聽誰說過  那裡是吞噬一切的黑暗
+Dialogue: 0,0:00:30.38,0:00:33.90,zhengwen,NTP,0000,0000,0000,,但是  並非完全沒有光明
+Dialogue: 0,0:00:39.59,0:00:41.54,zhengwen,NTP,0000,0000,0000,,據說如果有人犯了重罪
+Dialogue: 0,0:00:41.81,0:00:43.51,zhengwen,NTP,0000,0000,0000,,阿比斯就會派使者來
+Dialogue: 0,0:00:43.91,0:00:48.11,zhengwen,NTP,0000,0000,0000,,把犯罪者帶到一個極為恐怖的地方
+Dialogue: 0,0:00:51.26,0:00:53.02,zhengwen,NTP,0000,0000,0000,,奧茲·貝薩流斯
+Dialogue: 0,0:00:54.30,0:00:55.52,zhengwen,NTP,0000,0000,0000,,你的罪名
+Dialogue: 0,0:00:57.69,0:00:59.97,zhengwen,NTP,0000,0000,0000,,即是你的存在本身
+Dialogue: 0,0:01:10.00,0:01:10.99,zhengwen,NTP,0000,0000,0000,,不是的  基爾
+Dialogue: 0,0:01:11.59,0:01:13.06,zhengwen,NTP,0000,0000,0000,,不是作為一個侍僕
+Dialogue: 0,0:01:13.75,0:01:16.40,zhengwen,NTP,0000,0000,0000,,我希望你作為我的朋友來參加儀式
+Dialogue: 0,0:01:18.88,0:01:20.10,zhengwen,NTP,0000,0000,0000,,只要有你在
+Dialogue: 0,0:01:20.64,0:01:23.19,zhengwen,NTP,0000,0000,0000,,就算我永遠不能離開這裡也沒關係
+Dialogue: 0,0:01:23.30,0:01:25.27,zhengwen,NTP,0000,0000,0000,,你到底是什麼人啊

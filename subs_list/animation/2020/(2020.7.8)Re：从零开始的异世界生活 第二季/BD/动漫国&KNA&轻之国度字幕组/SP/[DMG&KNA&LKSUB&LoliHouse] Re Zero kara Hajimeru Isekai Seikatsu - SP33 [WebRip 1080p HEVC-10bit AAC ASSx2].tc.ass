@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP33]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  動漫國&KNA&輕之國度字幕組  聯合製作\N僅供試看,請支持購買正版音像製品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻譯&時軸:傻瓜三世   後期:小聖
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}國\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}動
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}輕
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}國
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.68,0:00:04.62,Default,,0,0,0,,Re:從零開始的休息時間  女僕日常
+Dialogue: 0,0:00:05.51,0:00:08.73,Default,,0,0,0,,自從佩特拉來到這個宅邸  已經第6天了
+Dialogue: 0,0:00:09.36,0:00:11.92,Default,,0,0,0,,她真的非常努力
+Dialogue: 0,0:00:12.97,0:00:15.98,Default,,0,0,0,,考慮到她的年齡  可以說及格…
+Dialogue: 0,0:00:16.22,0:00:19.05,Default,,0,0,0,,不對  應該說工作表現遠超她應有的水準
+Dialogue: 0,0:00:19.64,0:00:21.41,Default,,0,0,0,,她做什麼都盡心盡力
+Dialogue: 0,0:00:21.64,0:00:25.06,Default,,0,0,0,,看著她的我都變得專注了起來
+Dialogue: 0,0:00:25.83,0:00:28.28,Default,,0,0,0,,當然了  她還是個小女孩
+Dialogue: 0,0:00:28.28,0:00:32.29,Default,,0,0,0,,一開始不知道她打的什麼心思  我也擔心過
+Dialogue: 0,0:00:32.95,0:00:35.61,Default,,0,0,0,,你要當這裡的女僕?
+Dialogue: 0,0:00:35.61,0:00:36.17,Default,,0,0,0,,是的
+Dialogue: 0,0:00:36.78,0:00:39.64,Default,,0,0,0,,你明白我們在招募什麼人吧
+Dialogue: 0,0:00:40.28,0:00:41.82,Default,,0,0,0,,這可不是遊戲
+Dialogue: 0,0:00:42.00,0:00:43.77,Default,,0,0,0,,是的  我明白
+Dialogue: 0,0:00:43.91,0:00:46.48,Default,,0,0,0,,怎麼可能來領主大人的宅邸玩耍呢
+Dialogue: 0,0:00:46.48,0:00:50.03,Default,,0,0,0,,雖然之前有來玩過
+Dialogue: 0,0:00:50.39,0:00:52.83,Default,,0,0,0,,你過來玩過的嗎
+Dialogue: 0,0:00:53.14,0:00:58.61,Default,,0,0,0,,是…是昴邀請我和村裡的朋友們一起來宅邸
+Dialogue: 0,0:00:58.61,0:00:59.86,Default,,0,0,0,,玩追人遊戲
+Dialogue: 0,0:01:00.02,0:01:02.13,Default,,0,0,0,,原來是追人遊戲
+Dialogue: 0,0:01:03.71,0:01:06.33,Default,,0,0,0,,在這個宅邸玩追人遊戲?
+Dialogue: 0,0:01:06.36,0:01:08.66,Default,,0,0,0,,昴大人到底在想什麼
+Dialogue: 0,0:01:08.66,0:01:12.64,Default,,0,0,0,,我覺得這就是昴奇怪又有趣的一面
+Dialogue: 0,0:01:12.86,0:01:16.57,Default,,0,0,0,,請不要太怪罪他  求求你了
+Dialogue: 0,0:01:17.17,0:01:19.84,Default,,0,0,0,,你很看好他啊
+Dialogue: 0,0:01:20.28,0:01:23.80,Default,,0,0,0,,「不要太怪罪他」——考慮到年齡差距
+Dialogue: 0,0:01:23.84,0:01:26.09,Default,,0,0,0,,我都覺得有點丟面子
+Dialogue: 0,0:01:26.67,0:01:30.27,Default,,0,0,0,,話又說回來  追人遊戲  追人遊戲
+Dialogue: 0,0:01:30.27,0:01:33.11,Default,,0,0,0,,要不然換個話題繼續吧
+Dialogue: 0,0:01:33.23,0:01:35.54,Default,,0,0,0,,我也很擅長裁縫
+Dialogue: 0,0:01:35.59,0:01:38.75,Default,,0,0,0,,本來我就很想做製衣的工作
+Dialogue: 0,0:01:38.78,0:01:40.90,Default,,0,0,0,,縫補工作可以做得很好
+Dialogue: 0,0:01:40.95,0:01:42.53,Default,,0,0,0,,而且我也會下廚
+Dialogue: 0,0:01:42.58,0:01:44.79,Default,,0,0,0,,雖然才剛開始練習
+Dialogue: 0,0:01:44.79,0:01:48.01,Default,,0,0,0,,媽媽已經說她沒什麼可以教我的了
+Dialogue: 0,0:01:48.54,0:01:51.30,Default,,0,0,0,,這孩子真是太了不起了
+Dialogue: 0,0:01:52.53,0:01:53.62,Default,,0,0,0,,佩特拉·萊特小姐
+Dialogue: 0,0:01:53.73,0:01:54.42,Default,,0,0,0,,是
+Dialogue: 0,0:01:55.03,0:01:59.71,Default,,0,0,0,,我明白你對昴大人有特殊的感情
+Dialogue: 0,0:02:00.42,0:02:07.46,Default,,0,0,0,,但是女僕工作並不簡單  光有感情是干不好的
+Dialogue: 0,0:02:08.98,0:02:13.15,Default,,0,0,0,,而且愛蜜莉雅大人的王選在即
+Dialogue: 0,0:02:13.28,0:02:14.99,Default,,0,0,0,,梅札斯家現在處於關鍵時期
+Dialogue: 0,0:02:15.65,0:02:19.20,Default,,0,0,0,,生命危險恐怕也是少不了的
+Dialogue: 0,0:02:21.01,0:02:22.44,Default,,0,0,0,,要重新考慮一下嗎
+Dialogue: 0,0:02:23.01,0:02:25.46,Default,,0,0,0,,我很害怕  但是
+Dialogue: 0,0:02:26.32,0:02:31.25,Default,,0,0,0,,我喜歡的人非常特別  我不願意因為害怕而放棄
+Dialogue: 0,0:02:31.75,0:02:33.96,Default,,0,0,0,,所以我不會灰心的
+Dialogue: 0,0:02:35.45,0:02:37.93,Default,,0,0,0,,那我只好同意你了
+Dialogue: 0,0:02:38.46,0:02:41.01,Default,,0,0,0,,謝謝你  法蘭黛莉卡大人
+Dialogue: 0,0:02:42.11,0:02:45.22,Default,,0,0,0,,我覺得佩特拉能成為好女僕的
+Dialogue: 0,0:02:45.54,0:02:47.69,Default,,0,0,0,,雖然還需要時間培養
+Dialogue: 0,0:02:48.38,0:02:54.94,Default,,0,0,0,,希望我的期待與希望  能有一天成真
+Dialogue: 0,0:02:55.62,0:02:59.70,Default,,0,0,0,,您說是吧  愛蜜莉雅大人
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

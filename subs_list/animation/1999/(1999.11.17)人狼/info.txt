@@ -1,0 +1,5 @@
+﻿chs: 人狼
+cht: 人狼
+jp: 人狼 JIN-ROH
+en: Jin-Roh: The Wolf Brigade
+rome: Jin-Rou

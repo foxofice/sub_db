@@ -1,0 +1,5 @@
+﻿chs: 寒蝉鸣泣之时 业
+cht: 寒蟬鳴泣之時 業/暮蟬悲鳴時 業
+jp: ひぐらしのなく頃に業
+en: Higurashi: When They Cry Gou
+rome: Higurashi no Naku Koro ni Gou

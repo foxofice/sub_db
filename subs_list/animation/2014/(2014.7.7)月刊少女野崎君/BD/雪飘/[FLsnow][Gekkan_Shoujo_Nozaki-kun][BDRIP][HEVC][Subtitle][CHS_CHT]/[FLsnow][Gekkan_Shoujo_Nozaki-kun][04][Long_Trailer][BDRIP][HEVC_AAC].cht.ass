@@ -1,0 +1,37 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん 04 Long Trailer
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.62,0:00:05.43,Main,,0,0,0,,堀前輩 我不會把可愛後輩的寶座讓給野崎的
+Dialogue: 0,0:00:05.43,0:00:06.92,Main,,0,0,0,,誰是可愛的後輩啊
+Dialogue: 0,0:00:06.92,0:00:07.70,Main,,0,0,0,,我可是第一次聽說
+Dialogue: 0,0:00:07.70,0:00:09.74,Main,,0,0,0,,不要害羞 坦率一點嘛
+Dialogue: 0,0:00:09.97,0:00:12.07,Main,,0,0,0,,野崎和我誰更可愛
+Dialogue: 0,0:00:12.07,0:00:12.57,Main,,0,0,0,,野崎
+Dialogue: 0,0:00:12.57,0:00:14.06,Main,,0,0,0,,雖然嘴上這麼說 其實呢？
+Dialogue: 0,0:00:14.06,0:00:14.48,Main,,0,0,0,,野崎
+Dialogue: 0,0:00:14.48,0:00:15.36,Main,,0,0,0,,明天什麼天氣？
+Dialogue: 0,0:00:15.36,0:00:15.76,Main,,0,0,0,,野崎
+Dialogue: 0,0:00:15.76,0:00:17.15,Main,,0,0,0,,前輩你根本沒在聽我說話吧
+Dialogue: 0,0:00:17.15,0:00:17.53,Main,,0,0,0,,野崎
+Dialogue: 0,0:00:17.53,0:00:18.23,Main,,0,0,0,,今天的內褲是什麼樣的？
+Dialogue: 0,0:00:18.23,0:00:19.15,Main,,0,0,0,,性騷擾嗎！
+Dialogue: 0,0:00:19.28,0:00:21.06,Main,,0,0,0,,痛…這不是在聽嘛！
+Dialogue: 0,0:00:21.12,0:00:24.63,Main,,0,0,0,,下集 「是男人就有非戰鬥不可的時刻」
+Dialogue: 0,0:00:24.86,0:00:26.33,Main,,0,0,0,,我也要戰鬥！
+Dialogue: 0,0:00:26.33,0:00:27.88,Main,,0,0,0,,你要和什麼戰鬥啊！
+Dialogue: 0,0:00:27.88,0:00:29.18,Main,,0,0,0,,戰鬥！

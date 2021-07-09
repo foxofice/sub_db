@@ -1,0 +1,75 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP32]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  動漫國&KNA&輕之國度字幕組  聯合製作\N僅供試看,請支持購買正版音像製品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻譯&時軸:傻瓜三世   後期:小聖
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}國\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}動
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}輕
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}國
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.90,0:00:04.55,Default,,0,0,0,,Re:從零開始的休息時間  奧托日記
+Dialogue: 0,0:00:05.69,0:00:08.52,Default,,0,0,0,,唉  我好慘
+Dialogue: 0,0:00:10.24,0:00:13.72,Default,,0,0,0,,我提醒過你  不要幹多餘的事吧
+Dialogue: 0,0:00:14.21,0:00:18.53,Default,,0,0,0,,我說啊  我是來這裡談生意的
+Dialogue: 0,0:00:18.95,0:00:22.17,Default,,0,0,0,,商人做自己的工作有何不可?
+Dialogue: 0,0:00:22.49,0:00:24.98,Default,,0,0,0,,那塊魔石還不夠嗎
+Dialogue: 0,0:00:25.87,0:00:28.56,Default,,0,0,0,,看來那塊魔石果然是為了這個目的
+Dialogue: 0,0:00:28.84,0:00:29.70,Default,,0,0,0,,什麼
+Dialogue: 0,0:00:30.61,0:00:33.77,Default,,0,0,0,,你突然給我一塊魔石  嚇我一跳
+Dialogue: 0,0:00:34.21,0:00:36.66,Default,,0,0,0,,都不知道你是什麼目的
+Dialogue: 0,0:00:37.30,0:00:42.25,Default,,0,0,0,,那你現在知道了  你又準備做什麼?
+Dialogue: 0,0:00:42.36,0:00:46.70,Default,,0,0,0,,就是這個  所以我想過了
+Dialogue: 0,0:00:47.59,0:00:51.67,Default,,0,0,0,,我——奧托·思文到底該如何行動
+Dialogue: 0,0:00:52.14,0:00:53.90,Default,,0,0,0,,你想說什麼
+Dialogue: 0,0:00:54.85,0:00:57.77,Default,,0,0,0,,思文家代代從商
+Dialogue: 0,0:00:58.06,0:01:02.50,Default,,0,0,0,,我從小就被教育  男子漢要不知飢渴地發家立業
+Dialogue: 0,0:01:03.27,0:01:06.68,Default,,0,0,0,,可惜我在進貨油料的時候犯了失誤
+Dialogue: 0,0:01:07.05,0:01:10.00,Default,,0,0,0,,所以才接受了菜月的提議
+Dialogue: 0,0:01:10.00,0:01:11.71,Default,,0,0,0,,你到底想說什麼
+Dialogue: 0,0:01:11.71,0:01:13.63,Default,,0,0,0,,身為男子漢!
+Dialogue: 0,0:01:14.57,0:01:17.93,Default,,0,0,0,,身為男子漢  就不會鬆開握住了的手
+Dialogue: 0,0:01:18.66,0:01:21.34,Default,,0,0,0,,不會背叛承諾
+Dialogue: 0,0:01:24.81,0:01:29.14,Default,,0,0,0,,「用荒地合辛的旗幟擦擦  銀幣也會閃光」嗎
+Dialogue: 0,0:01:29.33,0:01:31.47,Default,,0,0,0,,所以這個還給你
+Dialogue: 0,0:01:35.52,0:01:40.42,Default,,0,0,0,,你明白這是什麼意思吧?
+Dialogue: 0,0:01:40.42,0:01:41.90,Default,,0,0,0,,請不要小看我了
+Dialogue: 0,0:01:42.29,0:01:44.23,Default,,0,0,0,,我沒有傻到不理解這種事
+Dialogue: 0,0:01:44.79,0:01:50.29,Default,,0,0,0,,那麼你也知道接下來自己會如何了吧
+Dialogue: 0,0:01:50.37,0:01:52.84,Default,,0,0,0,,對了  現在幾點了?
+Dialogue: 0,0:01:56.05,0:01:59.91,Default,,0,0,0,,愛蜜莉雅大人該到挑戰試煉的時間了吧?
+Dialogue: 0,0:02:00.46,0:02:02.20,Default,,0,0,0,,你幹什麼
+Dialogue: 0,0:02:05.17,0:02:06.10,Default,,0,0,0,,嘉飛爾
+Dialogue: 0,0:02:09.57,0:02:14.75,Default,,0,0,0,,我尊重你的立場  也請你尊重我的立場
+Dialogue: 0,0:02:16.39,0:02:18.36,Default,,0,0,0,,站住  你個混蛋
+Dialogue: 0,0:02:21.36,0:02:22.12,Default,,0,0,0,,可惡
+Dialogue: 0,0:02:24.74,0:02:27.50,Default,,0,0,0,,把森林給我搜個底朝天
+Dialogue: 0,0:02:30.36,0:02:33.84,Default,,0,0,0,,我不會便宜了你的
+Dialogue: 0,0:02:36.72,0:02:40.37,Default,,0,0,0,,現在想想真怕得發抖  還掉眼淚
+Dialogue: 0,0:02:46.07,0:02:50.47,Default,,0,0,0,,這樣啊  看來我該走了
+Dialogue: 0,0:02:53.19,0:02:55.06,Default,,0,0,0,,去救我的好哥們
+Dialogue: 0,0:02:55.83,0:02:58.69,Default,,0,0,0,,等下  他不會嫌我臭吧?
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

@@ -1,0 +1,5 @@
+﻿chs: 龙猫
+cht: 龍貓
+jp: となりのトトロ
+en: My Neighbor Totoro
+rome: Tonari no Totoro

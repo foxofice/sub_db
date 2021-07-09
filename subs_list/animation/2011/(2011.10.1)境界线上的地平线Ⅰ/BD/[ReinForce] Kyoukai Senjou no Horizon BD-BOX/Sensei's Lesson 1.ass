@@ -1,0 +1,116 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: [LKSUB][Kyoukai_Senjou_no_Horizon][BDrip][SP2][1920x1080][x264_flac][D634499A]
+Original Script: 轻国字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,浪漫雅圆,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,6,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.96,Default,,0,0,0,,{\fs16}境界線上的地平線\N{\fs10}\N{\fs20}極東  原來如此講座{\alpha&HFF\t(1627,1629,\alpha&H00)}  其①
+Dialogue: 0,0:00:08.38,0:00:09.59,Default,,0,0,0,,好了  大家在座位上坐好
+Dialogue: 0,0:00:09.59,0:00:11.01,Default,,0,0,0,,要開始上課了都給我做好準備
+Dialogue: 0,0:00:11.01,0:00:15.26,Default,,0,0,0,,今天要講講關於『極東』和『武藏』的知識
+Dialogue: 0,0:00:16.14,0:00:18.06,Default,,0,0,0,,那麼…
+Dialogue: 0,0:00:19.39,0:00:20.77,Default,,0,0,0,,…點藏  你來替我說明一下吧
+Dialogue: 0,0:00:22.52,0:00:24.31,Default,,0,0,0,,是  不過老師
+Dialogue: 0,0:00:24.31,0:00:25.27,Default,,0,0,0,,將如此寶貴的初次官方情報解說交給在下
+Dialogue: 0,0:00:25.27,0:00:28.77,Default,,0,0,0,,真的沒問題嗎？
+Dialogue: 0,0:00:30.44,0:00:32.24,Default,,0,0,0,,嗯？情報解說是什麼？
+Dialogue: 0,0:00:32.24,0:00:35.32,Default,,0,0,0,,這是上課哦  單純的日常上課而已哦
+Dialogue: 0,0:00:36.70,0:00:37.45,Default,,0,0,0,,快點搞定！
+Dialogue: 0,0:00:39.49,0:00:41.33,Default,,0,0,0,,{\fs10\pos(437,336)}Judgement
+Dialogue: 0,0:00:39.49,0:00:41.33,Default,,0,0,0,,好吧  如果在下可以勝任的話…Jud.
+Dialogue: 0,0:00:44.58,0:00:46.04,Default,,0,0,0,,那麼  首先關於『極東』進行一些說明是也
+Dialogue: 0,0:00:47.79,0:00:49.34,Default,,0,0,0,,以前在這地圖中陸地的部分
+Dialogue: 0,0:00:49.34,0:00:51.55,Default,,0,0,0,,全都被稱為『神州』是也
+Dialogue: 0,0:00:53.80,0:00:55.38,Default,,0,0,0,,但是在爭亂發生之後大部分的土地
+Dialogue: 0,0:00:55.38,0:01:00.06,Default,,0,0,0,,都被現在的聖譜聯盟暫定支配了是也
+Dialogue: 0,0:01:02.98,0:01:04.69,Default,,0,0,0,,於是便不再稱為『神州』而是改稱為『極東』了是也
+Dialogue: 0,0:01:07.19,0:01:07.23,Default,,0,0,0,,從那之後極東住民 就在各國的極東居留地
+Dialogue: 0,0:01:07.94,0:01:11.28,Default,,0,0,0,,以及『武藏』中居住了是也
+Dialogue: 0,0:01:14.11,0:01:15.70,Default,,0,0,0,,而說到『武藏』乃是極東所擁有的唯一的獨立領土是也
+Dialogue: 0,0:01:15.70,0:01:20.79,Default,,0,0,0,,如你所見  這是一艘航空艦是也
+Dialogue: 0,0:01:23.04,0:01:25.12,Default,,0,0,0,,艦長約7,335米  寬約2,076米是也
+Dialogue: 0,0:01:25.12,0:01:28.42,Default,,0,0,0,,呃  也就是說  非常龐大了是也
+Dialogue: 0,0:01:29.88,0:01:31.05,Default,,0,0,0,,真的  從數字上這麼一看
+Dialogue: 0,0:01:31.05,0:01:34.51,Default,,0,0,0,,還真是大的誇張呢  真虧他還能移動
+Dialogue: 0,0:01:36.01,0:01:41.56,Default,,0,0,0,,話雖如此  這麼龐大的傢伙其實並不是完整一體的是也
+Dialogue: 0,0:01:44.73,0:01:48.48,Default,,0,0,0,,武藏總共由八個艦體組成是也  若要一一介紹的話
+Dialogue: 0,0:01:51.61,0:01:54.69,Default,,0,0,0,,一號艦為品川  淺草  這兩艘艦體主要用來裝載貨物是也
+Dialogue: 0,0:01:56.86,0:01:58.57,Default,,0,0,0,,接著是二號艦多摩  村山
+Dialogue: 0,0:01:58.57,0:01:59.91,Default,,0,0,0,,這兩艘艦體由於是港口  因此有許多觀光客
+Dialogue: 0,0:01:59.91,0:02:04.20,Default,,0,0,0,,同時也是行政以及外交活動的場所是也
+Dialogue: 0,0:02:06.58,0:02:07.41,Default,,0,0,0,,然後是三號艦高尾  青梅
+Dialogue: 0,0:02:07.41,0:02:08.12,Default,,0,0,0,,這兩艘艦體是極東住民的住宅
+Dialogue: 0,0:02:08.12,0:02:11.71,Default,,0,0,0,,以及工作場所是也
+Dialogue: 0,0:02:14.09,0:02:15.09,Default,,0,0,0,,那麼來看看中央吧
+Dialogue: 0,0:02:18.30,0:02:19.84,Default,,0,0,0,,前艦的武藏野  有作為主艦橋的橋狀艦橋
+Dialogue: 0,0:02:19.84,0:02:23.35,Default,,0,0,0,,是掌控武藏全艦指揮權的場所是也
+Dialogue: 0,0:02:26.06,0:02:27.35,Default,,0,0,0,,接著在武藏野後面是後艦奧多摩
+Dialogue: 0,0:02:29.44,0:02:32.98,Default,,0,0,0,,即是我們所在的  武藏Ariadust教導院是也
+Dialogue: 0,0:02:34.57,0:02:35.61,Default,,0,0,0,,嗯  OK  說的不賴嘛
+Dialogue: 0,0:02:37.70,0:02:40.24,Default,,0,0,0,,{\fs10\pos(207,336)}Judgement
+Dialogue: 0,0:02:37.70,0:02:40.24,Default,,0,0,0,,Jud.  你能這麼說真是太好了是也
+Dialogue: 0,0:02:41.57,0:02:42.87,Default,,0,0,0,,因為要是說錯了  作為懲罰
+Dialogue: 0,0:02:42.87,0:02:48.00,Default,,0,0,0,,就得朗讀黑髮貧乳的Galgame攻略過程是也啊……。
+Dialogue: 0,0:02:49.54,0:02:52.63,Default,,0,0,0,,對於金髮巨乳教徒來說  這簡直就是大·悲·劇啊……
+Dialogue: 0,0:02:53.88,0:02:56.46,Default,,0,0,0,,別一字一句的念叨
+Dialogue: 0,0:02:56.46,0:02:58.47,Default,,0,0,0,,那麼  繼續解說下去  沒問題吧？
+Dialogue: 0,0:03:00.18,0:03:00.68,Default,,0,0,0,,這  這是何等的壓迫感！
+Dialogue: 0,0:03:00.68,0:03:02.26,Default,,0,0,0,,Sunrise！？
+Dialogue: 0,0:03:03.64,0:03:05.18,Default,,0,0,0,,好了  繼續說吧
+Dialogue: 0,0:03:05.18,0:03:07.31,Default,,0,0,0,,接著到你們經常去的地方看看吧
+Dialogue: 0,0:03:08.85,0:03:10.44,Default,,0,0,0,,{\fs10\pos(268,336)}Judgement
+Dialogue: 0,0:03:08.85,0:03:10.44,Default,,0,0,0,,Jud.  趕緊搞定它
+Dialogue: 0,0:03:10.44,0:03:13.44,Default,,0,0,0,,從這個壓迫感中解放是也
+Dialogue: 0,0:03:15.57,0:03:17.36,Default,,0,0,0,,在下經常去的是這個商業街是也  在這可以採購食材和日常用品
+Dialogue: 0,0:03:17.36,0:03:22.49,Default,,0,0,0,,和托利殿一起來買Galgame  和托利殿一起來…買用於應對少子化問題的遊戲
+Dialogue: 0,0:03:24.74,0:03:27.16,Default,,0,0,0,,在這條商業街上  各種忍者用的道具也是一應俱全是​​也
+Dialogue: 0,0:03:29.83,0:03:30.96,Default,,0,0,0,,這是被稱為BlueThunder的青雷亭是也
+Dialogue: 0,0:03:30.96,0:03:35.63,Default,,0,0,0,,托利殿倒是經常去這家青雷亭
+Dialogue: 0,0:03:37.55,0:03:39.30,Default,,0,0,0,,似乎是看上了看板娘了是也
+Dialogue: 0,0:03:42.97,0:03:44.43,Default,,0,0,0,,教導院所在的奧多摩上  還有一處公墓
+Dialogue: 0,0:03:44.43,0:03:49.43,Default,,0,0,0,,是個鬱鬱蔥蔥  感覺十分祥和的地方是也
+Dialogue: 0,0:03:52.35,0:03:55.56,Default,,0,0,0,,說起來  有看過正純殿去過這裡呢
+Dialogue: 0,0:03:58.48,0:04:00.19,Default,,0,0,0,,在公墓之外  就在教導院邊上的
+Dialogue: 0,0:04:00.19,0:04:03.03,Default,,0,0,0,,悔恨之道中也有一座墓碑是也
+Dialogue: 0,0:04:05.49,0:04:07.16,Default,,0,0,0,,那是為了悼念托利殿和淺間殿的青梅竹馬
+Dialogue: 0,0:04:07.16,0:04:10.08,Default,,0,0,0,,同時也是我們的朋友的那個少女是也
+Dialogue: 0,0:04:12.62,0:04:13.79,Default,,0,0,0,,哎呀  大概就是這樣了是也
+Dialogue: 0,0:04:16.96,0:04:18.63,Default,,0,0,0,,最後就是  我們的教導院是也
+Dialogue: 0,0:04:18.63,0:04:22.84,Default,,0,0,0,,和他國的教導院比起來實在小得多了呢
+Dialogue: 0,0:04:25.34,0:04:25.89,Default,,0,0,0,,不過  每天的生活都過得很熱鬧是也
+Dialogue: 0,0:04:25.89,0:04:29.77,Default,,0,0,0,,以上  感覺應該就是這些了是也
+Dialogue: 0,0:04:31.68,0:04:34.27,Default,,0,0,0,,{\fs10\pos(226,336)}Judgement Judgement
+Dialogue: 0,0:04:31.68,0:04:34.27,Default,,0,0,0,,嗯嗯 Jud. Jud. 謝了  總體來說感覺還不賴嘛
+Dialogue: 0,0:04:35.77,0:04:36.69,Default,,0,0,0,,——那麼  今天的懲罰
+Dialogue: 0,0:04:36.69,0:04:39.82,Default,,0,0,0,,就先讓你用默念的就好了吧
+Dialogue: 0,0:04:41.65,0:04:43.86,Default,,0,0,0,,啊？ 老師  在下難道有哪裡失誤了嗎
+Dialogue: 0,0:04:45.78,0:04:47.12,Default,,0,0,0,,…哎呀  你剛剛不是說了個Galgame什麼的嗎
+Dialogue: 0,0:04:47.12,0:04:49.45,Default,,0,0,0,,R-元服之類的我也是理解的嘛
+Dialogue: 0,0:04:51.08,0:04:52.20,Default,,0,0,0,,不  那是少子化問題的對策
+Dialogue: 0,0:04:52.20,0:04:54.29,Default,,0,0,0,,是為了尋找少子化問題對策的學習是也
+Dialogue: 0,0:04:55.79,0:04:57.21,Default,,0,0,0,,吵死了
+Dialogue: 0,0:04:57.21,0:04:58.63,Default,,0,0,0,,既然是少子化對策  那你就給我和Galgame結婚
+Dialogue: 0,0:04:58.63,0:05:01.80,Default,,0,0,0,,生一群崽子來給我看看啊  怎麼樣？ 做得到嗎？
+Dialogue: 0,0:05:04.01,0:05:08.72,Default,,0,0,0,,{\fad(0,300)}太糟糕了  太糟糕了是也!嗚  我在下就做給你看看是也！
+Dialogue: 0,0:05:08.72,0:05:10.72,Default,,0,0,0,,
+

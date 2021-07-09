@@ -1,0 +1,29 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-07-29 11:17:31
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Higurashi_Kai
+Original Script:CASO&I.G
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,26,&H00FFFFFF,&HF0000000,&H001F0A79,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00150861,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:00.50,0:00:05.27,*Default,NTP,0000,0000,0000,,{\fad(500,0)}Mamoru(卫)'s BootCamp
+Dialogue: 0,0:00:08.36,0:00:09.37,*Default,NTP,0000,0000,0000,,赤坂卫
+Dialogue: 0,0:00:09.96,0:00:12.97,*Default,NTP,0000,0000,0000,,警视厅公安部所属  3○岁
+Dialogue: 0,0:00:13.79,0:00:15.98,*Default,NTP,0000,0000,0000,,兴趣是锻炼身体
+Dialogue: 0,0:00:16.92,0:00:17.95,*Default,NTP,0000,0000,0000,,喜欢吃的东西是…

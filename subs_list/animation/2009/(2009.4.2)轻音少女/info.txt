@@ -1,0 +1,5 @@
+﻿chs: 轻音少女
+cht: 輕音少女
+jp: けいおん!
+en: K-On!
+rome: K-On!

@@ -1,0 +1,341 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 犬夜叉完结篇
+Original Script: 四魂制作组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Chinese,SIMHEI,23,&H00FFFFFF,&H00000000,&H00804000,&H004D2600,0,0,0,0,100,100,0,0,1,1,2,2,5,5,10,134
+Style: Staff,SIMHEI,18,&H00FFFFFF,&H00000000,&H00353535,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,8,30,30,10,134
+Style: Title,SIMHEI,30,&H00FFFFFF,&H00000000,&H002F2F2F,&H001F1F1F,-1,0,0,0,100,100,0,0,1,1,2,2,30,30,30,134
+Style: OP-JP,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,2,30,30,10,134
+Style: ED-JP,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,2,30,30,10,134
+Style: OP-Ch,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,8,30,30,10,134
+Style: ED-Ch,Microsoft YaHei,21,&H00FFFFFF,&H00000000,&H004F4F4F,&H000F0F0F,0,0,0,0,100,100,0,0,1,1,1,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.20,0:00:06.35,Chinese,NTP,0,0,0,,什…冥道
+Dialogue: 0,0:00:07.40,0:00:08.25,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:00:08.43,0:00:09.30,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:00:10.78,0:00:11.68,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:00:13.23,0:00:16.48,Chinese,NTP,0,0,0,,井…食骨之井怎么了
+Dialogue: 0,0:00:18.05,0:00:19.57,Chinese,NTP,0,0,0,,井消失了
+Dialogue: 0,0:00:21.70,0:00:24.58,Chinese,NTP,0,0,0,,冥道残月破
+Dialogue: 0,0:00:26.25,0:00:28.78,Chinese,NTP,0,0,0,,四魂之玉在害怕戈薇
+Dialogue: 0,0:00:29.53,0:00:33.33,Chinese,NTP,0,0,0,,你不是属于战国时代的人
+Dialogue: 0,0:00:34.42,0:00:38.37,Chinese,NTP,0,0,0,,回去 回到属于你的世界去
+Dialogue: 0,0:00:38.74,0:00:43.10,Chinese,NTP,0,0,0,,若我许愿想回去的话 就能回去…
+Dialogue: 0,0:00:44.92,0:00:46.64,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:00:47.36,0:00:48.82,Chinese,NTP,0,0,0,,不要许愿
+Dialogue: 0,0:00:49.35,0:00:51.63,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:01:03.52,0:01:08.94,Title,NTP,0,0,0,,{\fad(130,130)}明日
+Dialogue: 0,0:01:18.39,0:01:19.01,Chinese,NTP,0,0,0,,七宝
+Dialogue: 0,0:01:19.95,0:01:21.00,Chinese,NTP,0,0,0,,换人看守吧
+Dialogue: 0,0:01:21.40,0:01:23.31,Chinese,NTP,0,0,0,,一直待在外面的话 身体撑不下去
+Dialogue: 0,0:01:24.51,0:01:27.47,Chinese,NTP,0,0,0,,犬夜叉和戈薇怎么样了
+Dialogue: 0,0:01:28.32,0:01:30.48,Chinese,NTP,0,0,0,,只要打倒奈落 一切都会结束
+Dialogue: 0,0:01:30.99,0:01:32.84,Chinese,NTP,0,0,0,,虽然我们一直这么想
+Dialogue: 0,0:01:33.64,0:01:36.36,Chinese,NTP,0,0,0,,但与四魂之玉的因缘还没切断
+Dialogue: 0,0:02:01.39,0:02:02.77,Chinese,NTP,0,0,0,,什…人类
+Dialogue: 0,0:02:15.24,0:02:18.25,Chinese,NTP,0,0,0,,那便是孕育出这四魂之玉的巫女
+Dialogue: 0,0:02:26.58,0:02:28.09,Chinese,NTP,0,0,0,,那就是翠子吗
+Dialogue: 0,0:02:29.41,0:02:32.00,Chinese,NTP,0,0,0,,现在也在和我们战斗
+Dialogue: 0,0:02:32.17,0:02:35.65,Chinese,NTP,0,0,0,,四魂之玉诞生后几百年一直
+Dialogue: 0,0:02:35.71,0:02:38.19,Chinese,NTP,0,0,0,,然后戈薇也注定会这样
+Dialogue: 0,0:02:38.58,0:02:40.73,Chinese,NTP,0,0,0,,谁要听你们的梦话
+Dialogue: 0,0:02:52.47,0:02:54.63,Chinese,NTP,0,0,0,,奈落 还活着吗
+Dialogue: 0,0:02:55.09,0:02:56.24,Chinese,NTP,0,0,0,,已经死了
+Dialogue: 0,0:02:56.47,0:02:58.77,Chinese,NTP,0,0,0,,不过马上就会苏醒
+Dialogue: 0,0:02:59.08,0:03:04.71,Chinese,NTP,0,0,0,,当戈薇败给黑暗 被四魂之玉吞噬之时
+Dialogue: 0,0:03:04.83,0:03:10.14,Chinese,NTP,0,0,0,,奈落将会再次苏醒 在这里开始新的灵魂之战
+Dialogue: 0,0:03:12.55,0:03:15.32,Chinese,NTP,0,0,0,,永恒不止的战斗…
+Dialogue: 0,0:03:15.73,0:03:21.55,Chinese,NTP,0,0,0,,从穿越时空 四魂之玉再次回到战国时代起
+Dialogue: 0,0:03:21.63,0:03:24.41,Chinese,NTP,0,0,0,,戈薇的命运就已经注定了
+Dialogue: 0,0:03:24.81,0:03:31.34,Chinese,NTP,0,0,0,,难道你说 这次是戈薇和奈落的灵魂\N在这个四魂之玉之中不断争斗吗
+Dialogue: 0,0:03:31.91,0:03:32.64,Chinese,NTP,0,0,0,,正是
+Dialogue: 0,0:03:33.34,0:03:38.17,Chinese,NTP,0,0,0,,戈薇是为了成为玉的一部份 并在玉中不断争斗而诞生
+Dialogue: 0,0:03:38.38,0:03:42.23,Chinese,NTP,0,0,0,,不对 戈薇才不是为了这种事而诞生的
+Dialogue: 0,0:03:52.90,0:03:54.64,Chinese,NTP,0,0,0,,戈薇教会了我
+Dialogue: 0,0:03:55.23,0:03:58.47,Chinese,NTP,0,0,0,,教会了我笑容 相信他人的心
+Dialogue: 0,0:03:59.35,0:04:01.20,Chinese,NTP,0,0,0,,因为有戈薇在我才找到了伙伴
+Dialogue: 0,0:04:01.70,0:04:05.23,Chinese,NTP,0,0,0,,依赖伙伴 为人而流下的泪
+Dialogue: 0,0:04:05.60,0:04:10.07,Chinese,NTP,0,0,0,,还有真正的坚强和温柔 都是戈薇教我的
+Dialogue: 0,0:04:10.98,0:04:14.81,Chinese,NTP,0,0,0,,戈薇是为了与我邂逅而诞生的
+Dialogue: 0,0:04:15.26,0:04:18.38,Chinese,NTP,0,0,0,,然后 我也是为了戈薇而…
+Dialogue: 0,0:04:19.98,0:04:21.14,Chinese,NTP,0,0,0,,你不祈愿吗
+Dialogue: 0,0:04:24.03,0:04:28.30,Chinese,NTP,0,0,0,,你要选择在这黑暗之中 度过永远的孤独吗
+Dialogue: 0,0:04:32.81,0:04:35.98,Chinese,NTP,0,0,0,,戈薇 你听得见我的声音吗
+Dialogue: 0,0:04:43.07,0:04:47.19,Chinese,NTP,0,0,0,,戈薇 听到吗 戈薇！
+Dialogue: 0,0:04:47.78,0:04:48.43,Chinese,NTP,0,0,0,,犬夜叉？
+Dialogue: 0,0:04:49.28,0:04:49.89,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:04:51.09,0:04:52.50,Chinese,NTP,0,0,0,,听到犬夜叉的声音
+Dialogue: 0,0:04:52.97,0:04:55.45,Chinese,NTP,0,0,0,,什么愿望都不要许 在我赶到之前
+Dialogue: 0,0:04:55.85,0:04:57.65,Chinese,NTP,0,0,0,,在我赶到之前 你等着吧
+Dialogue: 0,0:04:59.58,0:05:01.99,Chinese,NTP,0,0,0,,犬夜叉 你在附近吧
+Dialogue: 0,0:05:03.64,0:05:05.34,Chinese,NTP,0,0,0,,你想见犬夜叉吗
+Dialogue: 0,0:05:06.95,0:05:08.25,Chinese,NTP,0,0,0,,回答我 戈薇
+Dialogue: 0,0:05:08.91,0:05:10.09,Chinese,NTP,0,0,0,,想见吗
+Dialogue: 0,0:05:12.96,0:05:17.12,Chinese,NTP,0,0,0,,桔梗仅仅是祈愿再次见到犬夜叉
+Dialogue: 0,0:05:17.96,0:05:22.49,Chinese,NTP,0,0,0,,奈落也一定 只许了个简朴的愿望
+Dialogue: 0,0:05:26.02,0:05:29.67,Chinese,NTP,0,0,0,,四魂之玉不会实现真正的愿望
+Dialogue: 0,0:05:30.15,0:05:31.95,Chinese,NTP,0,0,0,,那么 你要怎么做
+Dialogue: 0,0:05:35.46,0:05:40.07,Chinese,NTP,0,0,0,,我应该说过 你们相见的方法只有一个
+Dialogue: 0,0:05:40.21,0:05:45.93,Chinese,NTP,0,0,0,,戈薇向玉许愿 作为堕落巫女被困于此
+Dialogue: 0,0:05:46.37,0:05:47.96,Chinese,NTP,0,0,0,,真愚蠢 半妖
+Dialogue: 0,0:05:48.13,0:05:53.65,Chinese,NTP,0,0,0,,就因为听到了你的声音 戈薇产生了多余的希望
+Dialogue: 0,0:05:53.77,0:05:54.41,Chinese,NTP,0,0,0,,什么
+Dialogue: 0,0:05:54.95,0:05:57.39,Chinese,NTP,0,0,0,,然后会许愿吧
+Dialogue: 0,0:05:57.79,0:06:00.79,Chinese,NTP,0,0,0,,跟玉说「犬夜叉 想见你」
+Dialogue: 0,0:06:00.97,0:06:01.89,Chinese,NTP,0,0,0,,戈薇！
+Dialogue: 0,0:06:02.38,0:06:05.47,Chinese,NTP,0,0,0,,没用的 不会让她再听到你的声音
+Dialogue: 0,0:06:05.62,0:06:07.19,Chinese,NTP,0,0,0,,吵死了
+Dialogue: 0,0:06:08.06,0:06:09.72,Chinese,NTP,0,0,0,,戈薇！！
+Dialogue: 0,0:06:11.00,0:06:13.28,Chinese,NTP,0,0,0,,坦率地面对自己的真心吧
+Dialogue: 0,0:06:13.68,0:06:17.39,Chinese,NTP,0,0,0,,想见犬夜叉 只要这样许愿就好
+Dialogue: 0,0:06:18.16,0:06:20.89,Chinese,NTP,0,0,0,,这是唯一正确的愿望吗
+Dialogue: 0,0:06:23.48,0:06:29.13,Chinese,NTP,0,0,0,,然后 最终得到四魂之玉的人\N选择了唯一正确的愿望之时
+Dialogue: 0,0:06:29.44,0:06:32.52,Chinese,NTP,0,0,0,,玉就会被净化 从这世上消失
+Dialogue: 0,0:06:33.39,0:06:35.16,Chinese,NTP,0,0,0,,唯一正确的愿望…
+Dialogue: 0,0:06:36.34,0:06:39.14,Chinese,NTP,0,0,0,,那是什么 我现在终于明白了
+Dialogue: 0,0:06:45.06,0:06:47.85,Chinese,NTP,0,0,0,,你在哪 戈薇
+Dialogue: 0,0:06:58.87,0:07:01.10,Chinese,NTP,0,0,0,,可恶 看不见出口
+Dialogue: 0,0:07:02.64,0:07:04.63,Chinese,NTP,0,0,0,,犬夜叉无论何时都会来
+Dialogue: 0,0:07:05.85,0:07:08.34,Chinese,NTP,0,0,0,,我…不会许愿
+Dialogue: 0,0:07:11.33,0:07:14.80,Chinese,NTP,0,0,0,,我相信犬夜叉一定会来
+Dialogue: 0,0:07:28.98,0:07:30.58,Chinese,NTP,0,0,0,,冥道的铁碎牙
+Dialogue: 0,0:07:36.28,0:07:37.69,Chinese,NTP,0,0,0,,要我砍那边吗
+Dialogue: 0,0:07:41.21,0:07:44.36,Chinese,NTP,0,0,0,,没问题 我相信你 犬夜叉
+Dialogue: 0,0:07:45.94,0:07:48.70,Chinese,NTP,0,0,0,,冥道残月破
+Dialogue: 0,0:08:02.53,0:08:03.03,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:08:05.46,0:08:06.23,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:08:15.41,0:08:16.33,Chinese,NTP,0,0,0,,不是幻象
+Dialogue: 0,0:08:20.27,0:08:21.03,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:08:23.52,0:08:26.23,Chinese,NTP,0,0,0,,犬夜叉 我好想你
+Dialogue: 0,0:08:34.93,0:08:37.67,Chinese,NTP,0,0,0,,四魂之玉 我说出我的愿望
+Dialogue: 0,0:08:47.69,0:08:49.65,Chinese,NTP,0,0,0,,如果犬夜叉没有来的话
+Dialogue: 0,0:08:49.82,0:08:53.95,Chinese,NTP,0,0,0,,我就会输给黑暗的恐惧 不能得出正确的答案
+Dialogue: 0,0:08:55.71,0:08:58.53,Chinese,NTP,0,0,0,,不过现在 犬夜叉就在我的身边
+Dialogue: 0,0:08:59.22,0:09:00.36,Chinese,NTP,0,0,0,,已经没有任何畏惧
+Dialogue: 0,0:09:02.98,0:09:05.12,Chinese,NTP,0,0,0,,四魂之玉 消失吧
+Dialogue: 0,0:09:07.96,0:09:08.80,Chinese,NTP,0,0,0,,永远地
+Dialogue: 0,0:09:31.58,0:09:35.99,Chinese,NTP,0,0,0,,好温暖 这就是安息吗
+Dialogue: 0,0:09:44.42,0:09:45.30,Chinese,NTP,0,0,0,,结束了啊
+Dialogue: 0,0:09:46.25,0:09:49.03,Chinese,NTP,0,0,0,,嗯 结束了
+Dialogue: 0,0:10:01.31,0:10:02.68,Chinese,NTP,0,0,0,,枫婆婆 快点
+Dialogue: 0,0:10:03.00,0:10:04.29,Chinese,NTP,0,0,0,,别这么急
+Dialogue: 0,0:10:04.60,0:10:06.19,Chinese,NTP,0,0,0,,因为快要生了哦
+Dialogue: 0,0:10:06.97,0:10:08.45,Chinese,NTP,0,0,0,,她丈夫不在吗
+Dialogue: 0,0:10:08.76,0:10:09.82,Chinese,NTP,0,0,0,,说是在工作
+Dialogue: 0,0:10:10.31,0:10:12.53,Chinese,NTP,0,0,0,,嘛 毕竟是第三胎了
+Dialogue: 0,0:10:12.81,0:10:16.38,Chinese,NTP,0,0,0,,说起来 自那以后已经三年了啊
+Dialogue: 0,0:10:20.43,0:10:21.78,Chinese,NTP,0,0,0,,那么 宅院的各位
+Dialogue: 0,0:10:22.01,0:10:24.08,Chinese,NTP,0,0,0,,我接下来就驱赶妖怪
+Dialogue: 0,0:10:24.25,0:10:26.48,Chinese,NTP,0,0,0,,一张符竟然就要一票银
+Dialogue: 0,0:10:26.56,0:10:28.09,Chinese,NTP,0,0,0,,会不会太贵了呢
+Dialogue: 0,0:10:30.53,0:10:31.60,Chinese,NTP,0,0,0,,还三张
+Dialogue: 0,0:10:34.85,0:10:36.24,Chinese,NTP,0,0,0,,犬夜叉 出来了
+Dialogue: 0,0:10:40.39,0:10:41.62,Chinese,NTP,0,0,0,,铁碎牙
+Dialogue: 0,0:10:47.16,0:10:49.51,Chinese,NTP,0,0,0,,真是的 这也太奸了
+Dialogue: 0,0:10:49.67,0:10:52.49,Chinese,NTP,0,0,0,,弥勒 你真黑啊
+Dialogue: 0,0:10:52.62,0:10:56.49,Chinese,NTP,0,0,0,,有钱不赚的话 我也不会好过
+Dialogue: 0,0:10:56.77,0:10:59.91,Chinese,NTP,0,0,0,,说起来 你那边快生了吧
+Dialogue: 0,0:11:03.74,0:11:06.36,Chinese,NTP,0,0,0,,好的 你真努力啊 珊瑚
+Dialogue: 0,0:11:09.80,0:11:11.62,Chinese,NTP,0,0,0,,是个健康的男孩
+Dialogue: 0,0:11:11.82,0:11:13.51,Chinese,NTP,0,0,0,,顺产啊
+Dialogue: 0,0:11:15.22,0:11:16.20,Chinese,NTP,0,0,0,,出生了吗
+Dialogue: 0,0:11:17.71,0:11:18.64,Chinese,NTP,0,0,0,,抱一抱吧
+Dialogue: 0,0:11:26.05,0:11:28.32,Chinese,NTP,0,0,0,,戈薇 怎么样了呢
+Dialogue: 0,0:11:28.52,0:11:31.52,Chinese,NTP,0,0,0,,嗯 从那以后已经三年
+Dialogue: 0,0:11:32.64,0:11:36.27,Chinese,NTP,0,0,0,,打倒奈落 食骨之井消失后第三天
+Dialogue: 0,0:11:41.03,0:11:44.55,Chinese,NTP,0,0,0,,与光之柱一同 井再次出现
+Dialogue: 0,0:11:45.69,0:11:48.21,Chinese,NTP,0,0,0,,犬夜叉一人回来了
+Dialogue: 0,0:11:50.57,0:11:51.81,Chinese,NTP,0,0,0,,戈薇没事
+Dialogue: 0,0:11:53.97,0:11:57.43,Chinese,NTP,0,0,0,,正如犬夜叉所说 回到那边的世界了吗
+Dialogue: 0,0:11:58.01,0:11:59.96,Chinese,NTP,0,0,0,,虽然犬夜叉不太想说
+Dialogue: 0,0:12:01.01,0:12:02.15,Chinese,NTP,0,0,0,,不过也有提过
+Dialogue: 0,0:12:04.81,0:12:10.03,Chinese,NTP,0,0,0,,戈薇小姐所爱 所需要的东西 还有其他
+Dialogue: 0,0:12:10.83,0:12:13.72,Chinese,NTP,0,0,0,,犬夜叉 会不会寂寞呢
+Dialogue: 0,0:12:26.58,0:12:28.82,Chinese,NTP,0,0,0,,恭喜你们毕业
+Dialogue: 0,0:12:34.93,0:12:35.54,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:12:38.11,0:12:39.28,Chinese,NTP,0,0,0,,你好 阿姨
+Dialogue: 0,0:12:39.72,0:12:41.06,Chinese,NTP,0,0,0,,恭喜毕业
+Dialogue: 0,0:12:41.40,0:12:43.39,Chinese,NTP,0,0,0,,大家都考上大学了
+Dialogue: 0,0:12:43.64,0:12:44.97,Chinese,NTP,0,0,0,,哇 真好啊
+Dialogue: 0,0:12:45.21,0:12:47.11,Chinese,NTP,0,0,0,,我志愿是做翻译
+Dialogue: 0,0:12:47.27,0:12:48.51,Chinese,NTP,0,0,0,,我是女主播
+Dialogue: 0,0:12:48.60,0:12:50.69,Chinese,NTP,0,0,0,,那先得成为校园小姐呢
+Dialogue: 0,0:12:55.29,0:12:56.56,Chinese,NTP,0,0,0,,从那以后三年
+Dialogue: 0,0:12:59.99,0:13:01.74,Chinese,NTP,0,0,0,,这边的井消失后第三天
+Dialogue: 0,0:13:02.93,0:13:06.13,Chinese,NTP,0,0,0,,与光之柱一同 井再次出现
+Dialogue: 0,0:13:07.02,0:13:09.16,Chinese,NTP,0,0,0,,我和犬夜叉一起回来了
+Dialogue: 0,0:13:10.20,0:13:10.88,Chinese,NTP,0,0,0,,姐姐
+Dialogue: 0,0:13:11.00,0:13:11.85,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:13:11.91,0:13:12.61,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:13:14.75,0:13:15.35,Chinese,NTP,0,0,0,,妈妈
+Dialogue: 0,0:13:16.10,0:13:17.76,Chinese,NTP,0,0,0,,我都担心死了
+Dialogue: 0,0:13:19.17,0:13:20.98,Chinese,NTP,0,0,0,,犬夜叉救我了
+Dialogue: 0,0:13:21.75,0:13:23.01,Chinese,NTP,0,0,0,,犬夜叉 谢谢…
+Dialogue: 0,0:13:30.37,0:13:31.26,Chinese,NTP,0,0,0,,犬夜叉
+Dialogue: 0,0:13:32.70,0:13:35.50,Chinese,NTP,0,0,0,,从那时起 井就再也没连通
+Dialogue: 0,0:13:37.92,0:13:40.23,Chinese,NTP,0,0,0,,已经不能与犬夜叉相见
+Dialogue: 0,0:13:43.23,0:13:47.57,Chinese,NTP,0,0,0,,那时候 把戈薇送到那边后一安下心来
+Dialogue: 0,0:13:48.00,0:13:50.27,Chinese,NTP,0,0,0,,就回来这边了吗
+Dialogue: 0,0:13:50.46,0:13:51.88,Chinese,NTP,0,0,0,,嘛 就是这么回事了
+Dialogue: 0,0:13:52.83,0:13:56.34,Chinese,NTP,0,0,0,,戈薇的老妈和弟弟还有爷爷都哭了啊
+Dialogue: 0,0:13:57.81,0:14:02.73,Chinese,NTP,0,0,0,,我发觉了 珍视戈薇的不只有我一个
+Dialogue: 0,0:14:03.33,0:14:08.23,Chinese,NTP,0,0,0,,犬夜叉 你什么时候开始这么懂事的
+Dialogue: 0,0:14:08.40,0:14:09.45,Chinese,NTP,0,0,0,,我知道的
+Dialogue: 0,0:14:09.72,0:14:10.62,Chinese,NTP,0,0,0,,喔 七宝
+Dialogue: 0,0:14:11.21,0:14:14.00,Chinese,NTP,0,0,0,,你去参加狐狸妖术考试了吧
+Dialogue: 0,0:14:15.18,0:14:16.12,Chinese,NTP,0,0,0,,我升级了
+Dialogue: 0,0:14:17.78,0:14:21.26,Chinese,NTP,0,0,0,,犬夜叉 你三天一次进到那井里去吧
+Dialogue: 0,0:14:21.57,0:14:25.17,Chinese,NTP,0,0,0,,三天一次？真是惊人的执着啊
+Dialogue: 0,0:14:26.32,0:14:27.77,Chinese,NTP,0,0,0,,真是好天气
+Dialogue: 0,0:14:29.09,0:14:30.91,Chinese,NTP,0,0,0,,即使这样也见不到啊
+Dialogue: 0,0:14:31.94,0:14:34.52,Chinese,NTP,0,0,0,,戈薇与四魂之玉一同出现
+Dialogue: 0,0:14:34.96,0:14:37.64,Chinese,NTP,0,0,0,,随四魂之玉的消失一同离去
+Dialogue: 0,0:14:40.25,0:14:43.78,Chinese,NTP,0,0,0,,戈薇是为了消灭四魂之玉而来到这里的
+Dialogue: 0,0:14:44.54,0:14:49.38,Chinese,NTP,0,0,0,,说不定戈薇在这个世界的使命已经完结了
+Dialogue: 0,0:15:09.63,0:15:14.68,Chinese,NTP,0,0,0,,井连不通 是因为我的心情…吗
+Dialogue: 0,0:15:16.63,0:15:20.88,Chinese,NTP,0,0,0,,食骨之井消失 被扔到黑暗之中那时
+Dialogue: 0,0:15:21.51,0:15:23.33,Chinese,NTP,0,0,0,,我又害怕又伤心
+Dialogue: 0,0:15:24.18,0:15:29.01,Chinese,NTP,0,0,0,,然而我不曾知道 自己在黑暗中三天
+Dialogue: 0,0:15:29.96,0:15:34.68,Chinese,NTP,0,0,0,,让妈妈 爷爷还有草太跟我一样害怕与伤心
+Dialogue: 0,0:15:36.01,0:15:40.69,Chinese,NTP,0,0,0,,我觉得很对不起他们 能回到这里真的很高兴
+Dialogue: 0,0:15:42.29,0:15:44.81,Chinese,NTP,0,0,0,,然后 井被封上了
+Dialogue: 0,0:15:46.40,0:15:49.59,Chinese,NTP,0,0,0,,犬夜叉 在那以后我一直在想
+Dialogue: 0,0:15:50.44,0:15:52.39,Chinese,NTP,0,0,0,,我去战国时代的理由
+Dialogue: 0,0:15:53.17,0:15:56.53,Chinese,NTP,0,0,0,,四魂之玉消失后 井就连不通的理由
+Dialogue: 0,0:15:57.84,0:15:59.56,Chinese,NTP,0,0,0,,我应做之事完成了
+Dialogue: 0,0:16:00.08,0:16:02.88,Chinese,NTP,0,0,0,,今后也一直在自己这个世界…
+Dialogue: 0,0:16:06.56,0:16:08.99,Chinese,NTP,0,0,0,,在没有犬夜叉的…这个世界…
+Dialogue: 0,0:16:11.11,0:16:12.07,Chinese,NTP,0,0,0,,不过 犬夜叉…
+Dialogue: 0,0:16:14.34,0:16:15.14,Chinese,NTP,0,0,0,,我…
+Dialogue: 0,0:16:17.61,0:16:18.50,Chinese,NTP,0,0,0,,想见你
+Dialogue: 0,0:16:28.70,0:16:29.30,Chinese,NTP,0,0,0,,戈薇？
+Dialogue: 0,0:16:31.17,0:16:31.92,Chinese,NTP,0,0,0,,怎么了
+Dialogue: 0,0:16:32.99,0:16:33.51,Chinese,NTP,0,0,0,,妈妈
+Dialogue: 0,0:16:41.07,0:16:41.99,Chinese,NTP,0,0,0,,天空…
+Dialogue: 0,0:16:51.94,0:16:54.12,Chinese,NTP,0,0,0,,妈妈 我…
+Dialogue: 0,0:16:56.21,0:16:56.90,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:16:59.25,0:17:00.33,Chinese,NTP,0,0,0,,这样就好了
+Dialogue: 0,0:17:04.48,0:17:06.59,Chinese,NTP,0,0,0,,狗狗 狗狗
+Dialogue: 0,0:17:06.99,0:17:07.93,Chinese,NTP,0,0,0,,真是个好玩具
+Dialogue: 0,0:17:08.36,0:17:10.51,Chinese,NTP,0,0,0,,喂 想想办法搞走这对双胞胎
+Dialogue: 0,0:17:10.82,0:17:12.53,Chinese,NTP,0,0,0,,不要玩耳朵啊 耳朵
+Dialogue: 0,0:17:12.97,0:17:14.39,Chinese,NTP,0,0,0,,对不起啊 犬夜叉
+Dialogue: 0,0:17:17.05,0:17:18.35,Chinese,NTP,0,0,0,,来驱除狐狸吧
+Dialogue: 0,0:17:20.87,0:17:22.47,Chinese,NTP,0,0,0,,喂 突然干什么啊
+Dialogue: 0,0:17:22.57,0:17:23.30,Chinese,NTP,0,0,0,,七宝
+Dialogue: 0,0:17:23.59,0:17:24.43,Chinese,NTP,0,0,0,,退治
+Dialogue: 0,0:17:25.25,0:17:27.46,Chinese,NTP,0,0,0,,这个气味 不会有错
+Dialogue: 0,0:17:54.51,0:17:58.02,Chinese,NTP,0,0,0,,犬夜叉 对不起 你等我了啊
+Dialogue: 0,0:17:59.43,0:18:00.19,Chinese,NTP,0,0,0,,戈…
+Dialogue: 0,0:18:02.51,0:18:03.40,Chinese,NTP,0,0,0,,你个白痴
+Dialogue: 0,0:18:04.30,0:18:06.08,Chinese,NTP,0,0,0,,你都干什么去了
+Dialogue: 0,0:18:09.75,0:18:10.46,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:18:10.63,0:18:11.51,Chinese,NTP,0,0,0,,戈薇
+Dialogue: 0,0:18:12.19,0:18:14.73,Chinese,NTP,0,0,0,,久违了 戈薇小姐
+Dialogue: 0,0:18:15.90,0:18:18.55,Chinese,NTP,0,0,0,,弥勒法师 珊瑚 七宝
+Dialogue: 0,0:18:22.53,0:18:24.39,Chinese,NTP,0,0,0,,我来了
+Dialogue: 0,0:18:37.79,0:18:39.54,Chinese,NTP,0,0,0,,看什么电影呢
+Dialogue: 0,0:18:40.86,0:18:43.92,Chinese,NTP,0,0,0,,喂喂 草太 你家有个漂亮姐姐吧
+Dialogue: 0,0:18:44.39,0:18:45.90,Chinese,NTP,0,0,0,,下次介绍我们认识吧
+Dialogue: 0,0:18:46.23,0:18:47.42,Chinese,NTP,0,0,0,,姐姐不在哦
+Dialogue: 0,0:18:47.66,0:18:49.60,Chinese,NTP,0,0,0,,读完高中就嫁了
+Dialogue: 0,0:18:49.76,0:18:50.36,Chinese,NTP,0,0,0,,真快
+Dialogue: 0,0:18:50.59,0:18:51.60,Chinese,NTP,0,0,0,,飞女？
+Dialogue: 0,0:18:51.82,0:18:53.20,Chinese,NTP,0,0,0,,啊 爷爷
+Dialogue: 0,0:18:54.28,0:18:55.57,Chinese,NTP,0,0,0,,检查结果怎么样了
+Dialogue: 0,0:18:55.77,0:18:58.18,Chinese,NTP,0,0,0,,尿酸值高了点而已
+Dialogue: 0,0:18:58.47,0:19:01.67,Chinese,NTP,0,0,0,,你回来了啊 晚饭做好了
+Dialogue: 0,0:19:02.00,0:19:02.54,Chinese,NTP,0,0,0,,拜
+Dialogue: 0,0:19:02.82,0:19:03.86,Chinese,NTP,0,0,0,,再见了
+Dialogue: 0,0:19:08.45,0:19:11.73,Chinese,NTP,0,0,0,,利吉 今天也干劲十足啊
+Dialogue: 0,0:19:11.98,0:19:14.05,Chinese,NTP,0,0,0,,噢 你也是啊
+Dialogue: 0,0:19:16.52,0:19:21.24,Chinese,NTP,0,0,0,,我不在的三年间 各种事物发生了改变
+Dialogue: 0,0:19:22.47,0:19:25.58,Chinese,NTP,0,0,0,,七宝为了成为出色的狐狸妖
+Dialogue: 0,0:19:25.66,0:19:28.79,Chinese,NTP,0,0,0,,常常到村外修行
+Dialogue: 0,0:19:29.73,0:19:34.18,Chinese,NTP,0,0,0,,弥勒法师和珊瑚 家人多了变得很热闹
+Dialogue: 0,0:19:35.54,0:19:37.57,Chinese,NTP,0,0,0,,珊瑚的弟弟 琥珀…
+Dialogue: 0,0:19:38.23,0:19:39.12,Chinese,NTP,0,0,0,,刀刀斋大人
+Dialogue: 0,0:19:39.41,0:19:42.71,Chinese,NTP,0,0,0,,噢 琥珀 这是你拜托的武器
+Dialogue: 0,0:19:43.01,0:19:44.08,Chinese,NTP,0,0,0,,有点重哦
+Dialogue: 0,0:19:45.86,0:19:46.92,Chinese,NTP,0,0,0,,谢谢您
+Dialogue: 0,0:19:48.01,0:19:51.60,Chinese,NTP,0,0,0,,偶尔也回去看看珊瑚吧
+Dialogue: 0,0:19:51.72,0:19:54.04,Chinese,NTP,0,0,0,,不 那家太窄了
+Dialogue: 0,0:19:54.56,0:19:59.88,Chinese,NTP,0,0,0,,为了被妖怪折磨的人们\N展开了成为强大除妖师的修行之旅
+Dialogue: 0,0:20:00.67,0:20:03.05,Chinese,NTP,0,0,0,,顺带一提 跳蚤冥加爷爷…
+Dialogue: 0,0:20:03.06,0:20:05.18,Chinese,NTP,0,0,0,,嗡 嗡 我在这里啊
+Dialogue: 0,0:20:06.32,0:20:12.90,Chinese,NTP,0,0,0,,传闻说 钢牙跟菖蒲举行婚礼 成为了妖狼族的头领
+Dialogue: 0,0:20:13.51,0:20:16.49,Chinese,NTP,0,0,0,,菖蒲大姐 钢牙拜托你了
+Dialogue: 0,0:20:16.78,0:20:19.54,Chinese,NTP,0,0,0,,注意别鬼混哦 钢牙
+Dialogue: 0,0:20:19.78,0:20:21.14,Chinese,NTP,0,0,0,,你们吵死了
+Dialogue: 0,0:20:21.33,0:20:23.48,Chinese,NTP,0,0,0,,再说我揍死你
+Dialogue: 0,0:20:25.87,0:20:27.57,Chinese,NTP,0,0,0,,这也能做药草吗
+Dialogue: 0,0:20:28.26,0:20:34.48,Chinese,NTP,0,0,0,,我一边受地念儿和枫婆婆指导\N一边煎药驱邪什么的
+Dialogue: 0,0:20:34.70,0:20:36.51,Chinese,NTP,0,0,0,,你真用功嘛
+Dialogue: 0,0:20:36.74,0:20:39.52,Chinese,NTP,0,0,0,,嗯 我得快点熟悉这时代
+Dialogue: 0,0:20:40.24,0:20:43.64,Chinese,NTP,0,0,0,,小铃也被托到枫婆婆那生活
+Dialogue: 0,0:20:44.91,0:20:47.28,Chinese,NTP,0,0,0,,我还以为是杀生丸带着她
+Dialogue: 0,0:20:47.45,0:20:50.90,Chinese,NTP,0,0,0,,枫似乎说是帮她回到人类村落的训练
+Dialogue: 0,0:20:51.43,0:20:53.35,Chinese,NTP,0,0,0,,为了到时候两边都可以选择
+Dialogue: 0,0:20:57.06,0:21:00.07,Chinese,NTP,0,0,0,,喔 杀生丸大人 戈薇回来了
+Dialogue: 0,0:21:02.09,0:21:03.83,Chinese,NTP,0,0,0,,哥哥
+Dialogue: 0,0:21:05.60,0:21:07.74,Chinese,NTP,0,0,0,,咦 他好像很不高兴
+Dialogue: 0,0:21:07.99,0:21:09.18,Chinese,NTP,0,0,0,,诶 你也是啊
+Dialogue: 0,0:21:09.42,0:21:11.53,Chinese,NTP,0,0,0,,真是非常讨厌的字眼
+Dialogue: 0,0:21:12.05,0:21:13.89,Chinese,NTP,0,0,0,,真是个不会客气的家伙
+Dialogue: 0,0:21:14.10,0:21:15.76,Chinese,NTP,0,0,0,,我去训她一顿吧
+Dialogue: 0,0:21:16.01,0:21:18.05,Chinese,NTP,0,0,0,,吵死了 看我杀了你
+Dialogue: 0,0:21:20.59,0:21:23.50,Chinese,NTP,0,0,0,,杀生丸又拿什么东西来了吗
+Dialogue: 0,0:21:23.51,0:21:25.21,Chinese,NTP,0,0,0,,是新的衣服
+Dialogue: 0,0:21:25.96,0:21:30.06,Chinese,NTP,0,0,0,,今后也一定 会有更多事物发生变化
+Dialogue: 0,0:21:30.49,0:21:32.20,Chinese,NTP,0,0,0,,我将在这里生活下去
+Dialogue: 0,0:21:33.19,0:21:36.54,Chinese,NTP,0,0,0,,与犬夜叉一起朝夕相处
+Dialogue: 0,0:21:40.54,0:21:41.87,Chinese,NTP,0,0,0,,犬夜叉和我
+Dialogue: 0,0:21:44.43,0:21:46.05,Chinese,NTP,0,0,0,,连系着明日
+Dialogue: 0,0:21:57.46,0:22:05.07,ED-JP,NTP,0,0,0,,{\fad(130,130)}遠い道の先で あなたの事をずっと想う
+Dialogue: 0,0:22:05.09,0:22:12.51,ED-JP,NTP,0,0,0,,{\fad(130,130)}昨日のように感じる 出逢い忘れはしない
+Dialogue: 0,0:22:12.52,0:22:19.86,ED-JP,NTP,0,0,0,,{\fad(130,130)}遠い道の先に あなたがいれば見つめ合える
+Dialogue: 0,0:22:19.93,0:22:28.14,ED-JP,NTP,0,0,0,,{\fad(130,130)}変わらぬ愛守る そう 永遠に忘れはしない
+Dialogue: 0,0:22:28.36,0:22:34.49,ED-JP,NTP,0,0,0,,{\fad(130,130)}Oh 寂しさで 時が流れなくなっても
+Dialogue: 0,0:22:35.96,0:22:42.06,ED-JP,NTP,0,0,0,,{\fad(130,130)}Oh どの道も あなたへと続いてるから
+Dialogue: 0,0:22:43.40,0:22:45.50,ED-JP,NTP,0,0,0,,{\fad(130,130)}悲しみはすぐに捨てるの
+Dialogue: 0,0:22:45.73,0:22:50.96,ED-JP,NTP,0,0,0,,{\fad(130,130)}ここには 涙色の君映らないけど
+Dialogue: 0,0:22:51.03,0:22:55.51,ED-JP,NTP,0,0,0,,{\fad(130,130)}今を生きる私の姿だけ届いて欲しい
+Dialogue: 0,0:22:57.64,0:23:05.04,ED-JP,NTP,0,0,0,,{\fad(130,130)}振り返ればきっと 二人の歩幅遠のくから
+Dialogue: 0,0:23:05.14,0:23:12.91,ED-JP,NTP,0,0,0,,{\fad(130,130)}結び合った運命よ 今は解きはしない
+Dialogue: 0,0:23:13.02,0:23:20.06,ED-JP,NTP,0,0,0,,{\fad(130,130)}遠い道の先で あなたの事をずっと想う
+Dialogue: 0,0:23:20.17,0:23:28.56,ED-JP,NTP,0,0,0,,{\fad(130,130)}あなたと二人 嘘のない世界築ける きっと
+Dialogue: 0,0:21:58.47,0:22:01.70,ED-Ch,NTP,0,0,0,,{\an9\fad(130,130)}「在遙遠的前路上」
+Dialogue: 0,0:21:57.46,0:22:05.07,ED-Ch,NTP,0,0,0,,{\fad(130,130)}在遥远的前路上 我一直思念着你
+Dialogue: 0,0:22:05.09,0:22:12.51,ED-Ch,NTP,0,0,0,,{\fad(130,130)}恍如昨日的邂逅 我不会忘记
+Dialogue: 0,0:22:12.52,0:22:19.86,ED-Ch,NTP,0,0,0,,{\fad(130,130)}在遥远的前路上 你若能与我相伴 便能互相注视
+Dialogue: 0,0:22:19.93,0:22:28.14,ED-Ch,NTP,0,0,0,,{\fad(130,130)}守护不变的爱 永远不会忘记
+Dialogue: 0,0:22:28.36,0:22:34.49,ED-Ch,NTP,0,0,0,,{\fad(130,130)}Oh 寂寞 即使让时间停止
+Dialogue: 0,0:22:35.96,0:22:42.06,ED-Ch,NTP,0,0,0,,{\fad(130,130)}Oh 无论哪条路 都与你相通
+Dialogue: 0,0:22:43.40,0:22:45.50,ED-Ch,NTP,0,0,0,,{\fad(130,130)}因此我可以马上忘记悲伤
+Dialogue: 0,0:22:45.73,0:22:50.96,ED-Ch,NTP,0,0,0,,{\fad(130,130)}这里 没有映现着落泪的你
+Dialogue: 0,0:22:51.03,0:22:55.51,ED-Ch,NTP,0,0,0,,{\fad(130,130)}但请把我现在活着的身姿 传递给你
+Dialogue: 0,0:22:57.64,0:23:05.04,ED-Ch,NTP,0,0,0,,{\fad(130,130)}回过头看 两人的步伐必定远离
+Dialogue: 0,0:23:05.14,0:23:12.91,ED-Ch,NTP,0,0,0,,{\fad(130,130)}结合的命运 现在请不要解开
+Dialogue: 0,0:23:13.02,0:23:20.06,ED-Ch,NTP,0,0,0,,{\fad(130,130)}在遥远的前路上 我一直思念着你
+Dialogue: 0,0:23:20.17,0:23:28.56,ED-Ch,NTP,0,0,0,,{\fad(130,130)}只要与你 定能筑起没有谎言的世界
+

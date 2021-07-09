@@ -1,0 +1,5 @@
+﻿chs: 蒸汽男孩
+cht: 蒸汽男孩
+jp: スチームボーイ
+en: Steamboy
+rome: Steamboy

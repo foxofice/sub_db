@@ -1,0 +1,35 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん 03 Long Trailer
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.48,0:00:04.09,Main,,0,0,0,,呦 野崎 听说下周又有新角色登场？
+Dialogue: 0,0:00:04.09,0:00:04.74,Main,,0,0,0,,是啊
+Dialogue: 0,0:00:04.74,0:00:06.26,Main,,0,0,0,,啊 等不及了啊
+Dialogue: 0,0:00:06.26,0:00:07.09,Main,,0,0,0,,是嘛
+Dialogue: 0,0:00:07.16,0:00:09.51,Main,,0,0,0,,喂 回应我 好好回应我啊
+Dialogue: 0,0:00:09.59,0:00:10.19,Main,,0,0,0,,知道了
+Dialogue: 0,0:00:10.33,0:00:11.25,Main,,0,0,0,,那再来一次
+Dialogue: 0,0:00:11.56,0:00:13.41,Main,,0,0,0,,听说下周又有新角色登场？
+Dialogue: 0,0:00:13.41,0:00:13.79,Main,,0,0,0,,啊
+Dialogue: 0,0:00:13.79,0:00:14.83,Main,,0,0,0,,等不及了啊
+Dialogue: 0,0:00:14.83,0:00:15.23,Main,,0,0,0,,啊
+Dialogue: 0,0:00:15.23,0:00:16.81,Main,,0,0,0,,喂 你丫居然还是这个样子
+Dialogue: 0,0:00:16.90,0:00:20.46,Main,,0,0,0,,明明身体向前稍稍倾斜了15度啊
+Dialogue: 0,0:00:20.46,0:00:23.74,Main,,0,0,0,,鬼才懂啊 再说电视对面又看不到你
+Dialogue: 0,0:00:23.77,0:00:25.80,Main,,0,0,0,,下集 「Violence VS Prince」
+Dialogue: 0,0:00:26.09,0:00:28.75,Main,,0,0,0,,会看的吧 全国的可爱小绵羊们
+Dialogue: 0,0:00:28.75,0:00:30.09,Main,,0,0,0,,别抢我的台词啊！

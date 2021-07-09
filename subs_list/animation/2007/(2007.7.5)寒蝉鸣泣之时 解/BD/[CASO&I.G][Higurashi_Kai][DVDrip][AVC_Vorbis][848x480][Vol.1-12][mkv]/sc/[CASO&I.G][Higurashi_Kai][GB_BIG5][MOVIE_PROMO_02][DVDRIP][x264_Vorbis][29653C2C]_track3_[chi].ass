@@ -1,0 +1,58 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-04-27 15:07:14
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Higurashi_Kai
+Original Script:CASO&I.G
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,26,&H00FFFFFF,&HF0000000,&H001F0A79,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00150861,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:02.37,0:00:03.97,*Default,NTP,0000,0000,0000,,前原先生  你怎么了
+Dialogue: 0,0:00:04.91,0:00:06.92,*Default,NTP,0000,0000,0000,,你在哪里？你在哪里？前原先生
+Dialogue: 0,0:00:07.50,0:00:09.58,*Default,NTP,0000,0000,0000,,前原先生？前原先生？
+Dialogue: 0,0:00:09.86,0:00:14.49,zhushi,NTP,0000,0000,0000,,原作游戏发售累计50万份、漫画累计500万份突破！\N大热作、终于电影化！
+Dialogue: 0,0:00:12.36,0:00:19.10,*Default,NTP,0000,0000,0000,,我们在犯人前原圭一的房间里发现了貌似是犯人所写的笔记
+Dialogue: 0,0:00:21.41,0:00:26.82,*Default,NTP,0000,0000,0000,,我不知道为什么会变成这样
+Dialogue: 0,0:00:27.07,0:00:29.46,*Default,NTP,0000,0000,0000,,请务必查明真相
+Dialogue: 0,0:00:29.65,0:00:32.01,*Default,NTP,0000,0000,0000,,这是我仅有的愿望
+Dialogue: 0,0:00:32.39,0:00:34.22,*Default,NTP,0000,0000,0000,,前原圭一
+Dialogue: 0,0:00:36.60,0:00:40.54,*Default,NTP,0000,0000,0000,,让我来介绍今天来到雏见泽分校的新的一员
+Dialogue: 0,0:00:41.45,0:00:45.06,*Default,NTP,0000,0000,0000,,阿圭你是新来的  不诚心是不行的哦
+Dialogue: 0,0:00:45.21,0:00:48.07,*Default,NTP,0000,0000,0000,,要是不向御社神道歉的话  会遭报应的
+Dialogue: 0,0:00:48.27,0:00:52.82,*Default,NTP,0000,0000,0000,,这是在深山老村中、每年都会发生的…
+Dialogue: 0,0:00:54.63,0:00:55.63,zhushi,NTP,0000,0000,0000,,在每年相同的日子里
+Dialogue: 0,0:00:57.33,0:00:58.30,zhushi,NTP,0000,0000,0000,,一人死亡
+Dialogue: 0,0:00:59.70,0:01:00.69,zhushi,NTP,0000,0000,0000,,一人失踪
+Dialogue: 0,0:01:01.49,0:01:03.68,*Default,NTP,0000,0000,0000,,这里以前发生过杀人案是真的吗
+Dialogue: 0,0:01:03.78,0:01:04.38,*Default,NTP,0000,0000,0000,,不知道
+Dialogue: 0,0:01:04.87,0:01:07.99,*Default,NTP,0000,0000,0000,,有可能是整个村子的人策划的案件
+Dialogue: 0,0:01:08.20,0:01:09.44,*Default,NTP,0000,0000,0000,,这是谁说的
+Dialogue: 0,0:01:09.57,0:01:11.18,*Default,NTP,0000,0000,0000,,你觉得这是偶然吗？
+Dialogue: 0,0:01:11.32,0:01:12.69,*Default,NTP,0000,0000,0000,,这到底是怎么回事
+Dialogue: 0,0:01:16.46,0:01:19.74,*Default,NTP,0000,0000,0000,,御社神  对不起！
+Dialogue: 0,0:01:19.89,0:01:22.49,zhushi,NTP,0000,0000,0000,,然而  她们却一反常态
+Dialogue: 0,0:01:22.05,0:01:25.36,*Default,NTP,0000,0000,0000,,对不起  对不起  御社神！
+Dialogue: 0,0:01:25.46,0:01:28.00,*Default,NTP,0000,0000,0000,,这些村里的小孩都疯了！
+Dialogue: 0,0:01:28.13,0:01:30.36,*Default,NTP,0000,0000,0000,,你就献给御社神当祭品好了
+Dialogue: 0,0:01:31.67,0:01:34.98,*Default,NTP,0000,0000,0000,,是报应吗？大家都因为御社神的报应死了吗？
+Dialogue: 0,0:01:37.38,0:01:38.71,*Default,NTP,0000,0000,0000,,住手！
+Dialogue: 0,0:01:41.88,0:01:42.50,zhushi,NTP,0000,0000,0000,,是人？
+Dialogue: 0,0:01:43.18,0:01:43.68,zhushi,NTP,0000,0000,0000,,是天？
+Dialogue: 0,0:01:44.27,0:01:44.68,zhushi,NTP,0000,0000,0000,,是偶然？
+Dialogue: 0,0:01:47.29,0:01:48.75,*Default,NTP,0000,0000,0000,,寒蝉鸣泣之时
+Dialogue: 0,0:01:49.26,0:01:53.11,*Default,NTP,0000,0000,0000,,正确率1%的谜题  将迎来意想不到的结果

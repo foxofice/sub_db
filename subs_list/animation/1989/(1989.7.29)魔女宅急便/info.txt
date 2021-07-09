@@ -1,0 +1,5 @@
+﻿chs: 魔女宅急便
+cht: 魔女宅急便
+jp: 魔女の宅急便
+en: Kiki`s Delivery Service
+rome: Majo no Takkyuubin

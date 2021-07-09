@@ -1,0 +1,42 @@
+﻿[Script Info]
+Title: [Fune_o_Amu][SP04]
+Original Script: DMG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX: 1280
+PlayResY: 720
+Timer:100.0000
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,8,10,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.77,0:00:04.69,Default,,0,0,0,,教教我吧!  辭典小傢伙們!!
+Dialogue: 0,0:00:05.06,0:00:07.65,Default,,0,0,0,,{\fn微软雅黑\bord4\be5\fs65\c&H000000&\fade(120,294)\b1\3c&HFFFFFF&\pos(640,70)}『{\fn萝莉体 第二版}辭典編纂  之歌{\fn微软雅黑}』
+Dialogue: 0,0:00:05.06,0:00:07.65,Default,,0,0,0,,{\fn微软雅黑\bord4\be5\fs65\c&H000000&\fade(120,294)\b1\3c&HFFFFFF&\pos(640,350)}~{\fn萝莉体 第二版}我們是辭典小傢伙們{\fn微软雅黑}~
+Dialogue: 0,0:00:08.78,0:00:11.15,Default,,0,0,0,,收集全世界的語言
+Dialogue: 0,0:00:11.15,0:00:13.36,Default,,0,0,0,,詞條的選擇如同心聲
+Dialogue: 0,0:00:13.36,0:00:15.78,Default,,0,0,0,,編寫釋義好似語言的舞步
+Dialogue: 0,0:00:15.78,0:00:18.12,Default,,0,0,0,,排版設計乃是天下絕景
+Dialogue: 0,0:00:18.12,0:00:20.12,Default,,0,0,0,,找出錯誤
+Dialogue: 0,0:00:20.25,0:00:22.41,Default,,0,0,0,,絕不妥協
+Dialogue: 0,0:00:22.58,0:00:23.08,Default,,0,0,0,,校畢
+Dialogue: 0,0:00:23.08,0:00:23.58,Default,,0,0,0,,印刷
+Dialogue: 0,0:00:23.58,0:00:24.25,Default,,0,0,0,,出版
+Dialogue: 0,0:00:24.25,0:00:24.79,Default,,0,0,0,,修訂
+Dialogue: 0,0:00:24.79,0:00:26.92,Default,,0,0,0,,我愛語言  我們是辭典小傢伙們!
+Dialogue: 0,0:00:26.96,0:00:27.50,Default,,0,0,0,,校畢
+Dialogue: 0,0:00:27.50,0:00:28.17,Default,,0,0,0,,印刷
+Dialogue: 0,0:00:28.17,0:00:28.71,Default,,0,0,0,,出版
+Dialogue: 0,0:00:28.71,0:00:29.21,Default,,0,0,0,,修訂
+Dialogue: 0,0:00:29.21,0:00:29.75,Default,,0,0,0,,我愛語言
+Dialogue: 0,0:00:31.42,0:00:33.76,Default,,0,0,0,,我們是辭典小傢伙們!
+Dialogue: 0,0:00:40.77,0:00:43.98,Default,,0,0,0,,{\fn萝莉体 第二版\bord0\fs65\c&H000000&\b1\pos(633,575)}以上 {\i1}!{\r}\N{\fn萝莉体 第二版\bord0\fs65\c&H000000&\b1\pos(636,572)}這就是製作辭典的工序
+Comment: 0,0:00:00.06,0:00:00.06,Comment,,0,0,0,,

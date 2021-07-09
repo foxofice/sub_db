@@ -1,0 +1,5 @@
+﻿chs: 鲁邦三世 血烟的石川五右卫
+cht: 魯邦三世 血煙的石川五右衛
+jp: LUPIN THE IIIRD 血煙の石川五ェ門 
+en: Lupin the IIIrd: Goemon Ishikawa`s Blood Spray
+rome: Lupin the IIIrd: Chikemuri no Ishikawa Goemon

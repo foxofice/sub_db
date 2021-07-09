@@ -1,0 +1,361 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,39,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: Gintama,Open Sans Semibold,39,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,39,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Side Bar Top,Open Sans Semibold,39,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,39,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Warning,Open Sans Semibold,27,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_3472_15_Smithy,Open Sans Semibold,36,&H003D4038,&H000000FF,&H00E5EBE4,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,20,0
+Style: sign_30590_295_Sneak_Peek,Open Sans Semibold,33,&H007BFFF4,&H000000FF,&H00000201,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,123,549,97,1
+Style: sign_30590_296_The_Bloody_Shins,Open Sans Semibold,39,&H00DE048D,&H000000FF,&H0005040A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,115,108,127,1
+Style: sign_31431_306_The_End,Open Sans Semibold,36,&H00FBFFFD,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,640,72,121,1
+Style: Preview,Open Sans Semibold,36,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: sign_34020_316_Preview,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: sign_34053_317_Beginning_Soon,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,277,277,27,1
+Style: sign_34080_318_The_Final_Arc,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,307,301,201,1
+Style: sign_34248_322_Silver_Soul_Arc,Open Sans Semibold,39,&H00FAD8DC,&H000000FF,&H00885A22,&H00E8651C,1,0,0,0,100,100,0,0,1,1,1,8,289,289,27,1
+Style: sign_34317_323_Production_is_sm,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,211,211,27,1
+Style: sign_34328_324_you_know_what_,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,280,280,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.18,0:00:08.28,Default,Kus,0000,0000,0000,,We excaliburlings do our work by being \Nused as bloodsucking biological weapons.
+Dialogue: 0,0:00:08.82,0:00:11.62,Default,Kus,0000,0000,0000,,But Maganagi is worse.
+Dialogue: 0,0:00:11.62,0:00:14.78,Default,Kus,0000,0000,0000,,His staple food is swords, meaning...
+Dialogue: 0,0:00:14.78,0:00:16.04,Default,Kus,0000,0000,0000,,He's a cannibal.
+Dialogue: 0,0:00:16.04,0:00:17.66,Internal,Hij,0000,0000,0000,,My bad feeling was on the mark.
+Dialogue: 0,0:00:18.12,0:00:20.04,Internal,Hij,0000,0000,0000,,That man wasn't Senbe the Manslayer.
+Dialogue: 0,0:00:20.04,0:00:22.96,Internal,Hij,0000,0000,0000,,It was his sword!
+Dialogue: 0,0:00:23.46,0:00:26.71,Default,Gin,0000,0000,0000,,Looks like the one sword \Nwe really wanted to avoid
+Dialogue: 0,0:00:26.71,0:00:31.39,Default,Gin,0000,0000,0000,,showed up in the hands of the \None guy who shouldn't wield it.
+Dialogue: 0,0:00:32.26,0:00:34.76,Default,Mag,0000,0000,0000,,Nothing vanished.
+Dialogue: 0,0:00:34.76,0:00:38.75,Default,Mag,0000,0000,0000,,They're right here in my belly.
+Dialogue: 0,0:00:39.29,0:00:41.10,Default,Mag,0000,0000,0000,,Both your sword
+Dialogue: 0,0:00:41.95,0:00:43.98,Default,Mag,0000,0000,0000,,and this man.
+Dialogue: 0,0:00:51.61,0:00:57.62,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:54.49,0:00:57.62,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:02:25.87,0:02:31.84,Ep Title,Title,0000,0000,0000,,{\fad(444,1)}The Strongest Sword, and the Dullest Sword
+Dialogue: 0,0:02:36.84,0:02:38.59,Default,Shin,0000,0000,0000,,I-Is that...
+Dialogue: 0,0:02:38.96,0:02:40.77,Default,Kon,0000,0000,0000,,S-Sogo?
+Dialogue: 0,0:02:42.60,0:02:44.85,Default,Hij,0000,0000,0000,,That's not him anymore.
+Dialogue: 0,0:02:44.85,0:02:46.20,Default,Kon,0000,0000,0000,,T-Toshi!
+Dialogue: 0,0:02:46.20,0:02:48.35,Default,Hij,0000,0000,0000,,Damn, we were too late.
+Dialogue: 0,0:02:48.78,0:02:52.01,Default,Gin,0000,0000,0000,,Hey, Kusanagi, could it be?
+Dialogue: 0,0:02:53.25,0:02:59.63,Warning,Warning,0000,0000,0000,,{\fad(466,534)}Watch the Slip Arc in a bright room and at a safe distance from your TV!
+Dialogue: 0,0:02:54.66,0:03:00.11,Default,Mag,0000,0000,0000,,{\an8}I'm amazed you had the gall to treat me,\NCursed Sword Maganagi, as you did.
+Dialogue: 0,0:03:00.58,0:03:06.32,Default,Mag,0000,0000,0000,,Nobody has ever mocked me so much.\NNo vessel has been such a pain to take over.
+Dialogue: 0,0:03:06.32,0:03:09.62,Default,Mag,0000,0000,0000,,You were the first, Master.
+Dialogue: 0,0:03:09.62,0:03:15.38,Default,Mag,0000,0000,0000,,But your superhuman body and mind, \Nrare anywhere in the universe,
+Dialogue: 0,0:03:15.82,0:03:19.63,Default,Mag,0000,0000,0000,,already belong to me, Maganagi.
+Dialogue: 0,0:03:19.63,0:03:22.63,Default,Mag,0000,0000,0000,,The strongest sword and the \Nstrongest vessel are now one.
+Dialogue: 0,0:03:22.63,0:03:27.27,Default,Mag,0000,0000,0000,,At last, I have attained strength \Nunparalleled across the universe.
+Dialogue: 0,0:03:27.59,0:03:33.02,Default,Kus,0000,0000,0000,,He got consumed! That bro \Ngot consumed by Maganagi!
+Dialogue: 0,0:03:33.02,0:03:33.52,Default,Hij,0000,0000,0000,,Capture him!
+Dialogue: 0,0:03:35.84,0:03:39.53,Default,Mag,0000,0000,0000,,Wow, what do you think you're \Ndoing to one of your comrades?
+Dialogue: 0,0:03:39.53,0:03:41.46,Default,Kon,0000,0000,0000,,H-Hey, Toshi!
+Dialogue: 0,0:03:41.46,0:03:45.24,Default,Hij,0000,0000,0000,,Just trust me for now. \NThat's not Sogo anymore.
+Dialogue: 0,0:03:45.79,0:03:47.64,Default,Hij,0000,0000,0000,,Your stupid game is over.
+Dialogue: 0,0:03:47.64,0:03:50.66,Default,Hij,0000,0000,0000,,We know what you really are.\NThrow that sword away.
+Dialogue: 0,0:03:52.66,0:03:56.63,Default,Mag,0000,0000,0000,,What are you saying? I'm in the \Nmiddle of a real-sword fight here.
+Dialogue: 0,0:03:57.10,0:04:00.92,Default,Mag,0000,0000,0000,,If I threw my sword away, \NI'd get sliced in half.
+Dialogue: 0,0:04:01.29,0:04:04.68,Default,Hij,0000,0000,0000,,And if you won't do it,\NI'll just cut you down myself.
+Dialogue: 0,0:04:05.14,0:04:06.93,Default,Mag,0000,0000,0000,,Can you do it?
+Dialogue: 0,0:04:07.74,0:04:09.82,Default,Mag,0000,0000,0000,,Can you guys cut me down?
+Dialogue: 0,0:04:09.82,0:04:12.97,Default,Mag,0000,0000,0000,,Because I can cut anything.
+Dialogue: 0,0:04:15.31,0:04:16.82,Default,Kon,0000,0000,0000,,O-Our swords!
+Dialogue: 0,0:04:18.32,0:04:21.45,Default,Mag,0000,0000,0000,,I'm sick of eating dull swords.
+Dialogue: 0,0:04:22.32,0:04:23.75,Default,Kon,0000,0000,0000,,Sogo!
+Dialogue: 0,0:04:25.83,0:04:28.45,Default,Gin,0000,0000,0000,,Hey, you're going after the wrong guy.
+Dialogue: 0,0:04:28.45,0:04:31.20,Default,Gin,0000,0000,0000,,I'm your opponent.
+Dialogue: 0,0:04:33.71,0:04:36.70,Default,Hij,0000,0000,0000,,Hey! You're the one who \Nwent after the wrong guy!
+Dialogue: 0,0:04:36.70,0:04:39.14,Default,Hij,0000,0000,0000,,Why'd you throw poop at {\i1}my{\i0} face?
+Dialogue: 0,0:04:39.14,0:04:43.72,Default,Gin,0000,0000,0000,,I didn't. It got sucked in to your face like\Nit was going home to where it belonged.
+Dialogue: 0,0:04:43.72,0:04:45.79,Default,Hij,0000,0000,0000,,Whose face are you calling a toilet?!
+Dialogue: 0,0:04:45.79,0:04:47.35,Default,Hij,0000,0000,0000,,I'm gonna kill him for sure.
+Dialogue: 0,0:04:47.35,0:04:48.43,Default,Hij,0000,0000,0000,,Wait, Toshi.
+Dialogue: 0,0:04:48.43,0:04:49.36,Default,Tet,0000,0000,0000,,Gin-san...
+Dialogue: 0,0:04:49.36,0:04:50.37,Default,Gin,0000,0000,0000,,Stay away.
+Dialogue: 0,0:04:50.79,0:04:53.92,Default,Gin,0000,0000,0000,,This is a real-sword fight.\NKeep your noses out of it.
+Dialogue: 0,0:04:54.36,0:04:56.90,Default,Tet,0000,0000,0000,,Gin-san, this is no time for that.
+Dialogue: 0,0:04:56.90,0:04:59.81,Default,Shin,0000,0000,0000,,She's right. Even if you want \Nto fight, your sword's gone.
+Dialogue: 0,0:04:59.81,0:05:01.19,Default,Gin,0000,0000,0000,,But I have a sword right here.
+Dialogue: 0,0:05:01.60,0:05:04.96,Default,Gin,0000,0000,0000,,The best sword and wielder in the universe?
+Dialogue: 0,0:05:04.96,0:05:08.95,Default,Gin,0000,0000,0000,,What's so scary about that? \NAll they can do is cut.
+Dialogue: 0,0:05:09.56,0:05:15.10,Default,Gin,0000,0000,0000,,We're the dullest sword and the man with \Nthe most constipated ass in the universe.
+Dialogue: 0,0:05:15.10,0:05:17.19,Default,Gin,0000,0000,0000,,Not even you can cut us down.
+Dialogue: 0,0:05:17.19,0:05:18.96,Default,Shin,0000,0000,0000,,All we've got is negatives!
+Dialogue: 0,0:05:19.30,0:05:21.21,Default,Kus,0000,0000,0000,,G-Gintoki-han!
+Dialogue: 0,0:05:21.21,0:05:22.49,Default,Gin,0000,0000,0000,,Maganagi...
+Dialogue: 0,0:05:22.99,0:05:25.72,Default,Gin,0000,0000,0000,,No matter how much you corner them,
+Dialogue: 0,0:05:25.72,0:05:30.71,Default,Gin,0000,0000,0000,,you can't sever the bond between Kusanagi \Nand Scabberina, between husband and wife.
+Dialogue: 0,0:05:30.71,0:05:32.22,Default,Sca,0000,0000,0000,,So-kun!
+Dialogue: 0,0:05:32.22,0:05:34.79,Default,Sca,0000,0000,0000,,What's wrong, So-kun?!
+Dialogue: 0,0:05:34.79,0:05:37.90,Default,Shin,0000,0000,0000,,It's already severed, though! \NShe's not worried about us at all!
+Dialogue: 0,0:05:38.37,0:05:42.28,Default,Gin,0000,0000,0000,,Even if you lose your memories, the \Nvow between husband and wife...
+Dialogue: 0,0:05:43.07,0:05:46.26,Default,Gin,0000,0000,0000,,The depraved memories of the ***** \Nthey exchanged thousands of times
+Dialogue: 0,0:05:46.26,0:05:48.20,Default,Gin,0000,0000,0000,,will never vanish from their bodies!
+Dialogue: 0,0:05:48.53,0:05:51.17,Default,Shin,0000,0000,0000,,In the end, they're only \Nlinked by dirty things!
+Dialogue: 0,0:05:51.92,0:05:55.16,Default,Mag,0000,0000,0000,,Fool. If you fight at such close range,
+Dialogue: 0,0:05:55.16,0:05:57.83,Default,Mag,0000,0000,0000,,you'll be forced to step deep \Ninto your enemy's reach.
+Dialogue: 0,0:05:58.35,0:06:03.46,Default,Mag,0000,0000,0000,,And once I'm awakened, any sword within \Nmy reach is rendered dull and useless!
+Dialogue: 0,0:06:03.46,0:06:05.50,Default,Kus,0000,0000,0000,,No! Don't touch him!
+Dialogue: 0,0:06:05.50,0:06:08.22,Default,Kus,0000,0000,0000,,If you touch him right now,\NI'll be cannibalized!
+Dialogue: 0,0:06:08.54,0:06:10.40,Default,Kus,0000,0000,0000,,Gintoki-han!
+Dialogue: 0,0:06:12.68,0:06:14.89,Default,Gin,0000,0000,0000,,Don't touch the sword? Are you stupid?
+Dialogue: 0,0:06:15.30,0:06:17.60,Default,Gin,0000,0000,0000,,That's obvious in a real-sword fight.
+Dialogue: 0,0:06:18.35,0:06:21.98,Default,Kon,0000,0000,0000,,No way. He's seeing through \Nall of Sogo's moves.
+Dialogue: 0,0:06:22.34,0:06:25.74,Default,Gin,0000,0000,0000,,You probably don't get it since \Nyou change bodies all the time.
+Dialogue: 0,0:06:26.15,0:06:28.75,Default,Gin,0000,0000,0000,,But for us, it's all over if \Nwe get cut by a sword once.
+Dialogue: 0,0:06:28.75,0:06:31.74,Default,Gin,0000,0000,0000,,We won't get anything done \Nif we hesitate, though.
+Dialogue: 0,0:06:31.74,0:06:33.47,Default,Gin,0000,0000,0000,,When it comes to real-sword fights,
+Dialogue: 0,0:06:33.47,0:06:39.13,Default,Gin,0000,0000,0000,,only those crazy enough to walk into mortal \Ndanger bare-handed are cut out for it.
+Dialogue: 0,0:06:39.13,0:06:40.63,Default,Gin,0000,0000,0000,,Right, Okita-kun?
+Dialogue: 0,0:06:40.63,0:06:41.88,Default,Gin,0000,0000,0000,,Actually, you're not him.
+Dialogue: 0,0:06:42.88,0:06:46.63,Default,Gin,0000,0000,0000,,His moves aren't this easy to read.
+Dialogue: 0,0:06:46.63,0:06:50.25,Default,Gin,0000,0000,0000,,What did you even take over his body for?
+Dialogue: 0,0:06:50.25,0:06:51.92,Default,Mag,0000,0000,0000,,You little!
+Dialogue: 0,0:06:53.14,0:06:57.14,Default,Gin,0000,0000,0000,,I don't know or care how many \Nblades you've eaten in your life.
+Dialogue: 0,0:06:57.14,0:07:01.27,Default,Gin,0000,0000,0000,,But I know that I've beaten \Nmany more than that!
+Dialogue: 0,0:07:07.40,0:07:11.52,Default,Kus,0000,0000,0000,,C-Crap... Gintoki-han, I can't go on.
+Dialogue: 0,0:07:11.52,0:07:15.66,Default,Kus,0000,0000,0000,,Th-The Viagra's effects r-ran out.
+Dialogue: 0,0:07:16.02,0:07:18.11,Default,Gin,0000,0000,0000,,Huh? Wait a second!
+Dialogue: 0,0:07:18.11,0:07:22.67,Default,Gin,0000,0000,0000,,You can't pull that now! And I don't \Nremember giving you any Viagra!
+Dialogue: 0,0:07:22.67,0:07:27.24,Default,Kus,0000,0000,0000,,Shaddup! I told ya my speed's all I got!
+Dialogue: 0,0:07:27.24,0:07:30.19,Default,Kus,0000,0000,0000,,This is all yer fault for \Ndraggin' out the foreplay!
+Dialogue: 0,0:07:30.19,0:07:32.30,Default,Gin,0000,0000,0000,,My foreplay doesn't take too long,\Nyou broken bastard!
+Dialogue: 0,0:07:32.30,0:07:35.19,Default,Gin,0000,0000,0000,,Get it up already! This is way \Nworse than just being dull!
+Dialogue: 0,0:07:35.19,0:07:37.29,Default,Gin,0000,0000,0000,,You're basically a soggy Curl snack now!
+Dialogue: 0,0:07:37.29,0:07:41.98,Default,Kag,0000,0000,0000,,Don't worry, Gin-chan! The cheese \Nflavor is good even when soggy!
+Dialogue: 0,0:07:41.98,0:07:43.31,Default,Gin,0000,0000,0000,,You keep your mouth shut!
+Dialogue: 0,0:07:44.79,0:07:47.73,Default,Mag,0000,0000,0000,,You let the chance of a lifetime slip.
+Dialogue: 0,0:07:47.73,0:07:50.20,Default,Mag,0000,0000,0000,,Thanks for your helpful advice!
+Dialogue: 0,0:07:54.70,0:07:56.33,Internal,Gin,0000,0000,0000,,His moves are getting sharper!
+Dialogue: 0,0:07:56.33,0:08:00.99,Default,Mag,0000,0000,0000,,Did you think I can only \Ncontrol the body, the vessel?
+Dialogue: 0,0:08:01.40,0:08:07.84,Default,Mag,0000,0000,0000,,My belly is filled with the experience \Nand tactics of everyone I've eaten.
+Dialogue: 0,0:08:07.84,0:08:10.20,Default,Mag,0000,0000,0000,,By the time I get used to this body,
+Dialogue: 0,0:08:10.20,0:08:13.09,Default,Mag,0000,0000,0000,,I'll bring out more power \Nthan it originally had.
+Dialogue: 0,0:08:13.56,0:08:15.00,Default,Mag,0000,0000,0000,,You know why?
+Dialogue: 0,0:08:15.00,0:08:22.41,Default,Mag,0000,0000,0000,,Because I've eaten and beaten more \Nblades than you could ever hope to!
+Dialogue: 0,0:08:22.88,0:08:24.98,Default,Gin,0000,0000,0000,,Guess he's not called a \Ncursed sword for nothing.
+Dialogue: 0,0:08:25.30,0:08:26.36,Default,Shin,0000,0000,0000,,Th-This is bad.
+Dialogue: 0,0:08:26.70,0:08:29.86,Default,Shin,0000,0000,0000,,He has to avoid contact with the blade. \NAnd Kusanagi-san's all limp, to boot!
+Dialogue: 0,0:08:29.86,0:08:33.11,Internal,Gin,0000,0000,0000,,I've gotta do something, or I'll lose here.
+Dialogue: 0,0:08:33.11,0:08:34.11,Default,Shin,0000,0000,0000,,Gin-san!
+Dialogue: 0,0:08:37.67,0:08:40.62,Default,Sca,0000,0000,0000,,That's enough! Stop it, you two!
+Dialogue: 0,0:08:40.62,0:08:42.12,Default,Kus,0000,0000,0000,,S-Scabberina.
+Dialogue: 0,0:08:42.79,0:08:43.62,Default,Mag,0000,0000,0000,,Oh?
+Dialogue: 0,0:08:43.62,0:08:47.24,Default,Sca,0000,0000,0000,,Stop fighting over me.
+Dialogue: 0,0:08:47.24,0:08:51.63,Default,Sca,0000,0000,0000,,I can't bear to watch So-kun \Ngetting hurt anymore!
+Dialogue: 0,0:08:51.63,0:08:54.30,Default,Kus,0000,0000,0000,,Wh-What're ya sayin', Scabberina?
+Dialogue: 0,0:08:54.30,0:08:58.15,Default,Kus,0000,0000,0000,,Th-That ain't your sword or So-kun.
+Dialogue: 0,0:08:58.15,0:09:02.16,Default,Kus,0000,0000,0000,,That's Cursed Sword Maganagi, \Nthe one who put us through hell!
+Dialogue: 0,0:09:02.16,0:09:06.23,Default,Sca,0000,0000,0000,,Shut it, geezer! I don't give \Na flying rat's ass about you!
+Dialogue: 0,0:09:06.23,0:09:09.74,Default,Sca,0000,0000,0000,,All I care about is So-kun's safety.
+Dialogue: 0,0:09:09.74,0:09:11.83,Default,Kus,0000,0000,0000,,S-Scabberina...
+Dialogue: 0,0:09:11.83,0:09:16.53,Default,Kus,0000,0000,0000,,Did ya forget about not \Njust me, but Maganagi, too?
+Dialogue: 0,0:09:16.53,0:09:19.91,Default,Sca,0000,0000,0000,,I beg you, So-kun. Please stop...
+Dialogue: 0,0:09:23.16,0:09:24.99,Default,Kus,0000,0000,0000,,Scabberina!
+Dialogue: 0,0:09:24.99,0:09:27.13,Default,Kus,0000,0000,0000,,Maganagi, you bastard!
+Dialogue: 0,0:09:27.13,0:09:33.34,Default,Mag,0000,0000,0000,,Kusanagi, it seems your blade isn't \Nthe only thing that's gone dull.
+Dialogue: 0,0:09:33.94,0:09:36.84,Default,Mag,0000,0000,0000,,That girl hasn't forgotten a thing.
+Dialogue: 0,0:09:37.32,0:09:41.23,Default,Mag,0000,0000,0000,,She hasn't forgotten \Nanything about you or me.
+Dialogue: 0,0:09:41.23,0:09:43.18,Default,Mag,0000,0000,0000,,She just never knew.
+Dialogue: 0,0:09:43.75,0:09:46.44,Default,Kus,0000,0000,0000,,She never knew? What do ya mean?
+Dialogue: 0,0:09:46.79,0:09:49.03,Default,Mag,0000,0000,0000,,Haven't you figured it out yet?
+Dialogue: 0,0:09:49.03,0:09:53.36,Default,Mag,0000,0000,0000,,That scabbard isn't yours or mine.
+Dialogue: 0,0:09:53.36,0:09:57.07,Default,Mag,0000,0000,0000,,It's your daughter, Scarlett.
+Dialogue: 0,0:09:57.07,0:09:58.45,Default,Kus,0000,0000,0000,,Say what?
+Dialogue: 0,0:09:59.12,0:10:01.70,Default,Tet,0000,0000,0000,,What does he mean, daughter? \NHow do they give birth?
+Dialogue: 0,0:10:01.70,0:10:03.89,Default,Mag,0000,0000,0000,,I don't blame you for mistaking her.
+Dialogue: 0,0:10:03.89,0:10:07.07,Default,Mag,0000,0000,0000,,Scarlett does look exactly \Nlike a younger version of her.
+Dialogue: 0,0:10:08.16,0:10:14.71,Default,Mag,0000,0000,0000,,Scabberina was already pregnant with \Nyour daughter when you were separated.
+Dialogue: 0,0:10:15.23,0:10:18.04,Default,Mag,0000,0000,0000,,And she raised her all by herself,
+Dialogue: 0,0:10:18.04,0:10:22.47,Default,Mag,0000,0000,0000,,believing that you three would \Nlive as a family again one day.
+Dialogue: 0,0:10:23.82,0:10:25.58,Default,Mag,0000,0000,0000,,But she was a single mother.
+Dialogue: 0,0:10:25.58,0:10:30.02,Default,Mag,0000,0000,0000,,It wasn't easy for a scabbard \Nwithout a sword to protect her child.
+Dialogue: 0,0:10:30.02,0:10:35.40,Default,Mag,0000,0000,0000,,So she chose to survive by housing \Nall kinds of other swords,
+Dialogue: 0,0:10:35.90,0:10:40.05,Default,Mag,0000,0000,0000,,even if it meant betraying her husband.
+Dialogue: 0,0:10:40.05,0:10:44.87,Default,Mag,0000,0000,0000,,But by then, she was already \Ndrained and exhausted.
+Dialogue: 0,0:10:45.35,0:10:49.25,Default,Kus,0000,0000,0000,,Wh-Why? Why do ya know all this?!
+Dialogue: 0,0:10:49.25,0:10:54.38,Default,Mag,0000,0000,0000,,Isn't that obvious? It's because I \Nsaved her from the hell she was in.
+Dialogue: 0,0:10:54.74,0:10:58.41,Default,Mag,0000,0000,0000,,In the place of a dullard \Nwho never came to help her,
+Dialogue: 0,0:10:58.41,0:11:01.76,Default,Mag,0000,0000,0000,,I freed Scabberina from her suffering.
+Dialogue: 0,0:11:02.94,0:11:05.14,Default,Kus,0000,0000,0000,,D-Don't tell me, ya...
+Dialogue: 0,0:11:05.46,0:11:11.15,Default,Mag,0000,0000,0000,,The reason I'm here right now \Nis to keep my promise to her.
+Dialogue: 0,0:11:12.27,0:11:14.21,Flashback,Sca,0000,0000,0000,,I don't care what happens to me.
+Dialogue: 0,0:11:14.74,0:11:17.99,Flashback,Sca,0000,0000,0000,,But please help those two meet.
+Dialogue: 0,0:11:17.99,0:11:23.55,Flashback,Sca,0000,0000,0000,,Even just one look will do. Let him \Nsee his daughter alive and well.
+Dialogue: 0,0:11:26.02,0:11:31.79,Flashback,Sen,0000,0000,0000,,One look? Do I seem that heartless to you?
+Dialogue: 0,0:11:32.06,0:11:36.00,Default,Mag,0000,0000,0000,,I'll bring your entire family together.
+Dialogue: 0,0:11:36.00,0:11:38.92,Default,Mag,0000,0000,0000,,All three of you can meet in my belly.
+Dialogue: 0,0:11:39.90,0:11:43.79,Default,Kus,0000,0000,0000,,Maganagi, you...
+Dialogue: 0,0:11:45.00,0:11:46.06,Default,Gin,0000,0000,0000,,K-Kusanagi!
+Dialogue: 0,0:11:46.71,0:11:48.06,Internal,Gin,0000,0000,0000,,Don't tell me, back then?
+Dialogue: 0,0:11:48.06,0:11:54.16,Default,Gin,0000,0000,0000,,Didn't I tell you? From the moment you \Ntricked me, your fates were sealed.
+Dialogue: 0,0:11:54.16,0:11:56.60,Default,Kus,0000,0000,0000,,W-Wait, Maganagi!
+Dialogue: 0,0:11:56.60,0:12:01.32,Default,Mag,0000,0000,0000,,Fret not. I'll send your \Ndaughter after you at once.
+Dialogue: 0,0:12:01.77,0:12:04.90,Default,Mag,0000,0000,0000,,Resent your own dull blade if you must.
+Dialogue: 0,0:12:04.90,0:12:08.83,Default,Mag,0000,0000,0000,,Curse your foolishness for \Ndaring to defy me, Maganagi.
+Dialogue: 0,0:12:09.19,0:12:10.38,Default,Kus,0000,0000,0000,,Don't!
+Dialogue: 0,0:12:10.38,0:12:14.83,Default,Kus,0000,0000,0000,,Stop it, Maganagi!
+Dialogue: 0,0:12:24.86,0:12:27.75,Default,Kus,0000,0000,0000,,Stop it, Maganagi!
+Dialogue: 0,0:12:27.75,0:12:29.09,Default,Kus,0000,0000,0000,,Leave her alone!
+Dialogue: 0,0:12:29.09,0:12:32.65,Default,Kus,0000,0000,0000,,Leave our... Leave our daughter alone!
+Dialogue: 0,0:12:36.25,0:12:37.75,Default,Shin,0000,0000,0000,,Kusanagi-san!
+Dialogue: 0,0:12:42.85,0:12:44.76,Default,Mag,0000,0000,0000,,This is the end...
+Dialogue: 0,0:12:46.76,0:12:48.14,Default,Mag,0000,0000,0000,,I can't move?
+Dialogue: 0,0:12:48.14,0:12:51.14,Default,Oki,0000,0000,0000,,Hold up. You're jumping the gun.
+Dialogue: 0,0:12:54.16,0:12:57.48,Default,Oki,0000,0000,0000,,It's too early to go back into the scabbard.
+Dialogue: 0,0:12:57.48,0:12:59.15,Default,Mag,0000,0000,0000,,Y-You...
+Dialogue: 0,0:12:59.53,0:13:01.15,Default,Kon,0000,0000,0000,,S-Sogo?
+Dialogue: 0,0:13:01.54,0:13:07.03,Internal,Mag,0000,0000,0000,,How are you still here? I consumed your mind!
+Dialogue: 0,0:13:07.86,0:13:12.29,Internal,Mag,0000,0000,0000,,Th-The scabbard's... This can't be.
+Dialogue: 0,0:13:13.00,0:13:17.13,Internal,Mag,0000,0000,0000,,I, Maganagi, cannot control this man?
+Dialogue: 0,0:13:17.13,0:13:19.54,Default,Oki,0000,0000,0000,,The duel isn't over yet.
+Dialogue: 0,0:13:21.30,0:13:25.27,Default,Oki,0000,0000,0000,,They're not done yet.
+Dialogue: 0,0:13:30.14,0:13:31.56,Default,Mag,0000,0000,0000,,What are you...
+Dialogue: 0,0:13:32.48,0:13:35.79,Default,Mag,0000,0000,0000,,What do you plan to do with\Njust that rotting, dull blade?
+Dialogue: 0,0:13:36.44,0:13:40.57,Default,Mag,0000,0000,0000,,Kusanagi is already dead. \NEverything is all over.
+Dialogue: 0,0:13:41.36,0:13:45.25,Default,Mag,0000,0000,0000,,The scabbard he was looking \Nfor is long gone, too.
+Dialogue: 0,0:13:45.25,0:13:48.77,Default,Mag,0000,0000,0000,,You people lost to me, Maganagi.
+Dialogue: 0,0:13:49.40,0:13:51.83,Default,Gin,0000,0000,0000,,Oh, but there's a scabbard right here.
+Dialogue: 0,0:13:52.58,0:13:54.94,Default,Gin,0000,0000,0000,,Can't you see it?
+Dialogue: 0,0:13:54.94,0:13:59.17,Default,Gin,0000,0000,0000,,Can't you see the scabbard that continued \Nto protect her sword even when separated?
+Dialogue: 0,0:13:59.84,0:14:04.71,Default,Gin,0000,0000,0000,,Can't you see this great scabbard that\Nprotected her husband and daughter to the end?
+Dialogue: 0,0:14:05.28,0:14:07.54,Default,Gin,0000,0000,0000,,No matter how many times \Nhis blade crumbles away,
+Dialogue: 0,0:14:07.54,0:14:11.72,Default,Gin,0000,0000,0000,,his soul doesn't have a single scratch on it.
+Dialogue: 0,0:14:11.72,0:14:16.10,Default,Gin,0000,0000,0000,,With a true masterpiece,\Neven if its blade chips away,
+Dialogue: 0,0:14:16.10,0:14:19.57,Default,Gin,0000,0000,0000,,it can be reforged over and over \Nas long as its core doesn't break.
+Dialogue: 0,0:14:19.57,0:14:23.06,Default,Gin,0000,0000,0000,,It can be reborn over and over \Nas long as it's doused in flames.
+Dialogue: 0,0:14:23.06,0:14:26.49,Default,Gin,0000,0000,0000,,The flame hasn't gone out, Kusanagi.
+Dialogue: 0,0:14:26.49,0:14:31.37,Default,Gin,0000,0000,0000,,My flame of life is still burning bright!
+Dialogue: 0,0:14:31.76,0:14:33.38,Default,Kag,0000,0000,0000,,Gin-chan!
+Dialogue: 0,0:14:33.38,0:14:36.55,Default,Mag,0000,0000,0000,,I-Impossible! He stuck the \Nsword into his own butt?
+Dialogue: 0,0:14:36.55,0:14:39.00,Default,Mag,0000,0000,0000,,C-Could that man be...
+Dialogue: 0,0:14:39.00,0:14:42.50,Default,Gin,0000,0000,0000,,I'll let you suck me dry \None last time, dumbass.
+Dialogue: 0,0:14:42.50,0:14:46.51,Default,Gin,0000,0000,0000,,Drink as much of my boiling \Nblood as you want!
+Dialogue: 0,0:14:46.84,0:14:50.06,Default,Mag,0000,0000,0000,,No! He's feeding his own blood to Kusanagi?!
+Dialogue: 0,0:14:51.48,0:14:54.39,Default,Mag,0000,0000,0000,,Is he trying to revive the sword?
+Dialogue: 0,0:14:54.39,0:14:57.66,Default,Mag,0000,0000,0000,,Doesn't that man care about his own life?
+Dialogue: 0,0:14:59.49,0:15:02.28,Default,Oki,0000,0000,0000,,He's such a messed-up samurai.
+Dialogue: 0,0:15:02.28,0:15:04.97,Default,Oki,0000,0000,0000,,Forget protecting himself with a sword.
+Dialogue: 0,0:15:04.97,0:15:09.15,Default,Oki,0000,0000,0000,,He himself became a scabbard \Nthat protects his sword.
+Dialogue: 0,0:15:10.15,0:15:11.81,Default,Oki,0000,0000,0000,,Interesting.
+Dialogue: 0,0:15:12.34,0:15:14.62,Default,Oki,0000,0000,0000,,Boss really
+Dialogue: 0,0:15:16.16,0:15:17.50,Default,Oki,0000,0000,0000,,is interesting.
+Dialogue: 0,0:15:18.29,0:15:20.04,Default,Kon,0000,0000,0000,,S-Sogo!
+Dialogue: 0,0:15:20.04,0:15:22.25,Default,Mag,0000,0000,0000,,Wh-What are you doing?!
+Dialogue: 0,0:15:22.25,0:15:25.15,Default,Oki,0000,0000,0000,,A duel has to be fair, or it'll be boring.
+Dialogue: 0,0:15:25.15,0:15:27.55,Default,Oki,0000,0000,0000,,You can dig in if you're hungry, too.
+Dialogue: 0,0:15:28.24,0:15:31.05,Default,Oki,0000,0000,0000,,{\i1}If{\i0} you can consume me, that is.
+Dialogue: 0,0:15:35.44,0:15:39.81,Default,Mag,0000,0000,0000,,Fine! I'll devour every last bit of you!
+Dialogue: 0,0:15:47.56,0:15:48.40,Default,All,0000,0000,0000,,Gin-san!
+Dialogue: 0,0:15:48.40,0:15:49.65,Default,Bo,0000,0000,0000,,Sogo!
+Dialogue: 0,0:16:17.25,0:16:19.89,Default,Shin,0000,0000,0000,,Gin-san... Okita-san...
+Dialogue: 0,0:16:22.72,0:16:27.65,Default,Kus,0000,0000,0000,,Maganagi, looks like we both found \Nourselves some fine scabbards.
+Dialogue: 0,0:16:29.74,0:16:30.90,Default,Mag,0000,0000,0000,,No doubt.
+Dialogue: 0,0:16:37.74,0:16:43.61,Default,Mag,0000,0000,0000,,Looks like I was the dull one all along...
+Dialogue: 0,0:16:57.70,0:16:58.41,Default,Gin,0000,0000,0000,,You...
+Dialogue: 0,0:16:58.41,0:17:02.43,Default,Oki,0000,0000,0000,,Boss, let's fight with no \Ndistractions next time.
+Dialogue: 0,0:17:04.02,0:17:06.94,Default,Shin,0000,0000,0000,,Gin-san! Kusanagi-san!
+Dialogue: 0,0:17:06.94,0:17:09.37,Default,Kag,0000,0000,0000,,You did it! You really did it!
+Dialogue: 0,0:17:09.37,0:17:12.38,Default,Shin,0000,0000,0000,,You won! Kusanagi-san won!
+Dialogue: 0,0:17:12.38,0:17:14.45,Default,Kus,0000,0000,0000,,Yeah. It's all thanks to ya guys.
+Dialogue: 0,0:17:16.41,0:17:23.23,Default,Kus,0000,0000,0000,,Thank ya so much for makin' me\Na masterpiece right at the very end.
+Dialogue: 0,0:17:25.41,0:17:27.46,Default,Shin,0000,0000,0000,,K-Kusanagi-san?
+Dialogue: 0,0:17:27.46,0:17:30.00,Default,Shin,0000,0000,0000,,How? Why?
+Dialogue: 0,0:17:30.00,0:17:35.00,Default,Kus,0000,0000,0000,,It's fine. I've been runnin' \Non fumes for a long time.
+Dialogue: 0,0:17:35.00,0:17:37.62,Default,Kus,0000,0000,0000,,I was always prepared for this.
+Dialogue: 0,0:17:38.22,0:17:41.47,Default,Kus,0000,0000,0000,,Scabberina laid down her life \Nta protect our daughter.
+Dialogue: 0,0:17:42.05,0:17:47.71,Default,Kus,0000,0000,0000,,If I didn't do the same,\Nhow could I face her in heaven?
+Dialogue: 0,0:17:48.50,0:17:51.48,Default,Shin,0000,0000,0000,,Why are you being so negative?
+Dialogue: 0,0:17:51.48,0:17:53.93,Default,Shin,0000,0000,0000,,You finally met your daughter!
+Dialogue: 0,0:17:53.93,0:17:57.05,Default,Shin,0000,0000,0000,,Are you gonna leave her behind \Nwithout introducing yourself?!
+Dialogue: 0,0:18:01.40,0:18:06.77,Default,Kus,0000,0000,0000,,She grew up inta a fine woman.\NShe really is just like Scabberina.
+Dialogue: 0,0:18:08.25,0:18:12.42,Default,Kus,0000,0000,0000,,I got ta see that beautiful scabbard \Nwith my own eyes one more time.
+Dialogue: 0,0:18:14.72,0:18:19.41,Default,Kus,0000,0000,0000,,I'm satisfied with that.
+Dialogue: 0,0:18:19.41,0:18:25.94,Default,Kus,0000,0000,0000,,She shouldn't have ta live with the death \Nof a dad who she'd never seen before.
+Dialogue: 0,0:18:27.84,0:18:30.94,Default,Kus,0000,0000,0000,,She shouldn't need ta bear that cross.
+Dialogue: 0,0:18:31.40,0:18:34.92,Default,Kus,0000,0000,0000,,As long as she lives strong \Nwith a smile on her face,
+Dialogue: 0,0:18:34.92,0:18:39.77,Default,Kus,0000,0000,0000,,that's enough for Scabberina and me.
+Dialogue: 0,0:18:40.66,0:18:42.66,Default,Kus,0000,0000,0000,,So please...
+Dialogue: 0,0:18:43.45,0:18:46.05,Default,Kus,0000,0000,0000,,I beg ya...
+Dialogue: 0,0:18:49.42,0:18:54.67,Default,Kus,0000,0000,0000,,Could ya put me ta rest \Nin that lump of ironsand?
+Dialogue: 0,0:18:56.01,0:19:01.79,Default,Kus,0000,0000,0000,,In that excaliburling grave,\Nwhere I'm sure Scabberina's resting, too.
+Dialogue: 0,0:19:03.41,0:19:04.77,Default,Kag,0000,0000,0000,,Kusanagi...
+Dialogue: 0,0:19:10.94,0:19:12.37,Default,Kag,0000,0000,0000,,Gin-chan.
+Dialogue: 0,0:19:13.04,0:19:14.90,Default,Gin,0000,0000,0000,,Even if you don't exchange any words,
+Dialogue: 0,0:19:15.68,0:19:18.22,Default,Gin,0000,0000,0000,,even when you're far apart,
+Dialogue: 0,0:19:19.06,0:19:20.95,Default,Gin,0000,0000,0000,,there are some things you just can't sever.
+Dialogue: 0,0:19:21.82,0:19:24.41,Default,Gin,0000,0000,0000,,Not by such a dull sword, anyway.
+Dialogue: 0,0:19:24.88,0:19:30.33,Default,Gin,0000,0000,0000,,You guys will always be connected.\NAnd we'll always be connected to you.
+Dialogue: 0,0:19:31.50,0:19:35.26,Default,Kus,0000,0000,0000,,Gintoki-han, thank you.
+Dialogue: 0,0:19:36.45,0:19:43.22,Default,Kus,0000,0000,0000,,I'm truly glad I got ta meet \Nscabbards like you in the end.
+Dialogue: 0,0:19:57.86,0:20:01.36,sign_3472_15_Smithy,Sign,0000,0000,0000,,Smithy
+Dialogue: 0,0:20:01.96,0:20:06.99,Default,Sac,0000,0000,0000,,Gee, So-kun, are you really \Ngonna buy a new sword for me?
+Dialogue: 0,0:20:06.99,0:20:09.53,Default,Oki,0000,0000,0000,,Maybe 'cause I kept wielding strange swords,
+Dialogue: 0,0:20:09.53,0:20:12.51,Default,Oki,0000,0000,0000,,I don't feel like using a normal one anymore.
+Dialogue: 0,0:20:12.51,0:20:17.80,Default,Oki,0000,0000,0000,,You too, right? An ordinary Kikuichimonji \Ncan't satisfy you anymore, right?
+Dialogue: 0,0:20:17.80,0:20:21.39,Default,Oki,0000,0000,0000,,You'd prefer one with pearls \Nor one that vibrates, right?
+Dialogue: 0,0:20:21.39,0:20:23.97,Default,Sac,0000,0000,0000,,Eek, So-kun, you perv.
+Dialogue: 0,0:20:24.38,0:20:28.86,Default,Tet,0000,0000,0000,,I'm sorry, but we don't \Nsell such filthy swords.
+Dialogue: 0,0:20:28.86,0:20:29.89,Default,Oki,0000,0000,0000,,That so?
+Dialogue: 0,0:20:30.72,0:20:34.25,Default,Oki,0000,0000,0000,,And here I thought you picked up some pearls.
+Dialogue: 0,0:20:34.82,0:20:36.85,Default,Oki,0000,0000,0000,,Ever since that day, the four of you
+Dialogue: 0,0:20:36.85,0:20:40.90,Default,Oki,0000,0000,0000,,were stuck to the ground there,\Ndesperately picking up something.
+Dialogue: 0,0:20:42.10,0:20:43.54,Default,Tet,0000,0000,0000,,It was just gravel.
+Dialogue: 0,0:20:45.60,0:20:51.25,Default,Tet,0000,0000,0000,,But mixed in with that gravel is iron \Nthat's far more valuable than pearls.
+Dialogue: 0,0:20:51.89,0:20:55.54,Default,Tet,0000,0000,0000,,I'm going to use it all to forge a sword.
+Dialogue: 0,0:20:55.88,0:20:58.65,Default,Oki,0000,0000,0000,,That sounds like a pain.
+Dialogue: 0,0:20:58.65,0:21:01.30,Default,Oki,0000,0000,0000,,Well, let me know when you're done.
+Dialogue: 0,0:21:01.80,0:21:03.17,Default,Tet,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:21:03.17,0:21:05.93,Default,Tet,0000,0000,0000,,I bet it's going to be the \Ndullest sword in the universe.
+Dialogue: 0,0:21:06.30,0:21:09.17,Default,Oki,0000,0000,0000,,Yeah. It doesn't have to cut anything.
+Dialogue: 0,0:21:14.13,0:21:20.03,Default,Oki,0000,0000,0000,,Because I'm sure the sword and scabbard \Nare never gonna leave each other again.
+Dialogue: 0,0:21:22.88,0:21:27.87,sign_30590_295_Sneak_Peek,Sign,0000,0000,0000,,{\fad(695,750)}Sneak Peek
+Dialogue: 0,0:21:22.88,0:21:27.87,sign_30590_296_The_Bloody_Shins,Sign,0000,0000,0000,,{\fad(695,750)}The Bloody Shinsengumi Records
+Dialogue: 0,0:21:30.47,0:21:32.25,Default,Oki,0000,0000,0000,,Hey, Hijikata.
+Dialogue: 0,0:21:33.35,0:21:36.35,Default,Oki,0000,0000,0000,,Go get me some yakisoba bread.
+Dialogue: 0,0:21:36.75,0:21:37.73,Default,Mit,0000,0000,0000,,So-chan!
+Dialogue: 0,0:21:38.43,0:21:42.12,Default,Mit,0000,0000,0000,,Be polite when speaking to your superiors.
+Dialogue: 0,0:21:42.12,0:21:43.74,Default,Oki,0000,0000,0000,,I'm sorry, Sister.
+Dialogue: 0,0:21:48.44,0:21:49.62,Default,Oki,0000,0000,0000,,Hey, Hijikata.
+Dialogue: 0,0:21:50.03,0:21:52.57,Default,Oki,0000,0000,0000,,Go get me some esteemed yakisoba bread.
+Dialogue: 0,0:21:52.98,0:21:55.12,Default,Mit,0000,0000,0000,,Well done.
+Dialogue: 0,0:21:56.32,0:21:59.01,Default,Hij,0000,0000,0000,,Uh, that wasn't all that different.
+Dialogue: 0,0:21:57.98,0:22:00.96,sign_31431_306_The_End,Sign,0000,0000,0000,,{\fad(2800,1)}The End
+Dialogue: 0,0:23:30.84,0:23:37.98,Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:31.99,0:23:33.85,Default,Shin,0000,0000,0000,,Otsu-chan will show up next episode!
+Dialogue: 0,0:23:33.85,0:23:37.98,Default,Shin,0000,0000,0000,,You all remember that I'm the captain \Nof the Terakado Otsu fan club, right?
+Dialogue: 0,0:23:37.98,0:23:38.72,Default,Shin,0000,0000,0000,,Right?
+Dialogue: 0,0:23:37.98,0:23:41.48,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}Wash Your Hands Before a Handshake
+Dialogue: 0,0:23:38.72,0:23:41.12,Default,Shin,0000,0000,0000,,Next time: "Wash Your \NHands Before a Handshake."
+Dialogue: 0,0:23:41.12,0:23:43.36,Default,Shin,0000,0000,0000,,Wash up well, Takachin!
+Dialogue: 0,0:23:41.48,0:23:45.82,Preview,Shin,0000,0000,0000,,Preview
+Dialogue: 0,0:23:45.96,0:23:47.23,sign_34020_316_Preview,Sign,0000,0000,0000,,{\fad(300,220)}Preview
+Dialogue: 0,0:23:47.34,0:23:51.28,sign_34053_317_Beginning_Soon,Sign,0000,0000,0000,,{\fad(254,1)}Beginning Soon
+Dialogue: 0,0:23:48.46,0:23:51.28,sign_34080_318_The_Final_Arc,Sign,0000,0000,0000,,{\fad(260,1)}The Final Arc
+Dialogue: 0,0:23:50.07,0:23:51.28,Default,Gin,0000,0000,0000,,We've got you covered.
+Dialogue: 0,0:23:51.85,0:23:54.90,Default,Gin,0000,0000,0000,,From walking your dog to keeping Earth safe,
+Dialogue: 0,0:23:54.90,0:23:57.07,Default,Gin,0000,0000,0000,,we Odd Jobs will do anything.
+Dialogue: 0,0:23:55.47,0:23:58.29,sign_34248_322_Silver_Soul_Arc,Sign,0000,0000,0000,,{\fad(300,1)}Silver Soul Arc
+Dialogue: 0,0:23:58.33,0:24:00.79,sign_34317_323_Production_is_sm,Sign,0000,0000,0000,,{\fad(150,1)}Production is smoothly
+Dialogue: 0,0:23:58.81,0:24:00.79,sign_34328_324_you_know_what_,Sign,0000,0000,0000,,you-know-what.
+Dialogue: 0,0:24:00.79,0:24:05.92,Side Bar Top,TextR,0000,0000,0000,,The final arc was in a situation much like
+Dialogue: 0,0:24:00.79,0:24:05.92,Side Bar Bottom,TextL,0000,0000,0000,,a restaurant that doesn't get any orders.
+Dialogue: 0,0:24:05.92,0:24:12.30,Side Bar Top,TextR,0000,0000,0000,,But it's not like we forgot about it.
+Dialogue: 0,0:24:05.92,0:24:12.30,Side Bar Bottom,TextL,0000,0000,0000,,There were just some adult issues at play.

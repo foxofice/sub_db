@@ -1,0 +1,101 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP34]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  動漫國&KNA&輕之國度字幕組  聯合製作\N僅供試看,請支持購買正版音像製品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻譯&時軸:傻瓜三世   後期:小聖
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}國\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}動
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}輕
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}國
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.74,0:00:05.11,Default,,0,0,0,,Re:從零開始的休息時間  鐵之牙報告書
+Dialogue: 0,0:00:05.59,0:00:07.53,Default,,0,0,0,,團長  你在做什麼
+Dialogue: 0,0:00:07.59,0:00:10.20,Default,,0,0,0,,蜜蜜啊  我在做報告書  報告書
+Dialogue: 0,0:00:10.25,0:00:11.34,Default,,0,0,0,,報告書?
+Dialogue: 0,0:00:11.72,0:00:15.29,Default,,0,0,0,,整理今日工作內容  才好去領錢啊
+Dialogue: 0,0:00:15.35,0:00:16.98,Default,,0,0,0,,你不是也會寫嗎
+Dialogue: 0,0:00:17.84,0:00:20.90,Default,,0,0,0,,我也不記得有沒有寫過
+Dialogue: 0,0:00:20.90,0:00:22.94,Default,,0,0,0,,姐姐根本沒寫過
+Dialogue: 0,0:00:23.03,0:00:23.94,Default,,0,0,0,,真的嗎  緹碧
+Dialogue: 0,0:00:23.94,0:00:27.75,Default,,0,0,0,,千真萬確  姐姐的報告書都是我寫的
+Dialogue: 0,0:00:27.83,0:00:29.07,Default,,0,0,0,,蜜蜜  你…
+Dialogue: 0,0:00:29.07,0:00:31.94,Default,,0,0,0,,騙人  我也有寫的
+Dialogue: 0,0:00:31.94,0:00:33.13,Default,,0,0,0,,那個我寫了我寫了
+Dialogue: 0,0:00:33.13,0:00:36.98,Default,,0,0,0,,姐姐  請你別碰那裡  我好不容易整理好的
+Dialogue: 0,0:00:36.98,0:00:39.62,Default,,0,0,0,,有了  這就是我寫的報告書
+Dialogue: 0,0:00:39.62,0:00:40.90,Default,,0,0,0,,讓我看看
+Dialogue: 0,0:00:41.30,0:00:45.41,Default,,0,0,0,,那個啊  救了那個不幸小哥的時候
+Dialogue: 0,0:00:45.96,0:00:48.98,Default,,0,0,0,,為什麼總是我遭殃
+Dialogue: 0,0:00:49.13,0:00:53.79,Default,,0,0,0,,小哥  平靜點啊  魔女教的人已經全幹掉了
+Dialogue: 0,0:00:54.79,0:00:56.41,Default,,0,0,0,,殺光啦
+Dialogue: 0,0:00:56.92,0:01:01.54,Default,,0,0,0,,我不知道各位是什麼人  但謝謝你們
+Dialogue: 0,0:01:02.22,0:01:04.13,Default,,0,0,0,,會道謝就好  很了不起
+Dialogue: 0,0:01:04.32,0:01:08.41,Default,,0,0,0,,說的是啊  話說我有個請求
+Dialogue: 0,0:01:08.46,0:01:09.34,Default,,0,0,0,,什麼啊
+Dialogue: 0,0:01:09.68,0:01:12.48,Default,,0,0,0,,能不能把這個繩子解開啊
+Dialogue: 0,0:01:13.35,0:01:14.24,Default,,0,0,0,,這個啊
+Dialogue: 0,0:01:14.24,0:01:17.95,Default,,0,0,0,,這可不好說  小哥看看團長的表情吧
+Dialogue: 0,0:01:18.74,0:01:21.62,Default,,0,0,0,,這是要吃了你的表情
+Dialogue: 0,0:01:23.35,0:01:24.98,Default,,0,0,0,,我怎麼可能吃了他
+Dialogue: 0,0:01:24.98,0:01:26.97,Default,,0,0,0,,大口大口地吃掉
+Dialogue: 0,0:01:26.97,0:01:29.06,Default,,0,0,0,,不要啊
+Dialogue: 0,0:01:30.14,0:01:33.60,Default,,0,0,0,,是蜜蜜寫了那時的報告書啊
+Dialogue: 0,0:01:33.60,0:01:35.17,Default,,0,0,0,,是啊  我好厲害
+Dialogue: 0,0:01:35.17,0:01:38.50,Default,,0,0,0,,根本當不了報告書  所以我重寫了
+Dialogue: 0,0:01:38.56,0:01:39.90,Default,,0,0,0,,是嗎
+Dialogue: 0,0:01:40.07,0:01:43.77,Default,,0,0,0,,那個小哥  跟著眼神凶惡的小哥走了
+Dialogue: 0,0:01:43.98,0:01:45.22,Default,,0,0,0,,不知道現在過得如何
+Dialogue: 0,0:01:45.22,0:01:47.95,Default,,0,0,0,,說不定現在已經被大口吃掉了
+Dialogue: 0,0:01:47.95,0:01:49.06,Default,,0,0,0,,被誰啊
+Dialogue: 0,0:01:49.06,0:01:52.02,Default,,0,0,0,,喂  別一直摸魚了
+Dialogue: 0,0:01:52.10,0:01:54.55,Default,,0,0,0,,該開始討論下明天的安排了
+Dialogue: 0,0:01:54.55,0:01:55.72,Default,,0,0,0,,好的
+Dialogue: 0,0:01:57.61,0:01:58.57,Default,,0,0,0,,怎麼了?
+Dialogue: 0,0:01:59.03,0:02:03.23,Default,,0,0,0,,小姐以前也被抓住綁起來過吧
+Dialogue: 0,0:02:03.31,0:02:05.13,Default,,0,0,0,,真是懷念啊
+Dialogue: 0,0:02:05.13,0:02:06.87,Default,,0,0,0,,小姐被抓住過啊
+Dialogue: 0,0:02:06.87,0:02:09.61,Default,,0,0,0,,你不是也跟黑塔羅一起被抓了嗎
+Dialogue: 0,0:02:09.61,0:02:11.73,Default,,0,0,0,,我又沒有被抓住
+Dialogue: 0,0:02:11.73,0:02:14.39,Default,,0,0,0,,不對  姐姐你一起被抓住的
+Dialogue: 0,0:02:14.39,0:02:17.21,Default,,0,0,0,,不對  和黑塔羅一起被抓的是緹碧
+Dialogue: 0,0:02:17.23,0:02:18.95,Default,,0,0,0,,我是沒有被抓住的
+Dialogue: 0,0:02:19.20,0:02:22.82,Default,,0,0,0,,就是在那之後吧  蜜蜜幾個來到我的手下
+Dialogue: 0,0:02:22.82,0:02:26.20,Default,,0,0,0,,是啊  我是跟小姐一起被抓的
+Dialogue: 0,0:02:26.39,0:02:27.54,Default,,0,0,0,,姐姐
+Dialogue: 0,0:02:29.50,0:02:31.27,Default,,0,0,0,,這麼說來
+Dialogue: 0,0:02:32.27,0:02:34.33,Default,,0,0,0,,那個小哥也被抓住過
+Dialogue: 0,0:02:34.33,0:02:36.78,Default,,0,0,0,,總有一天會成為小姐的手下吧
+Dialogue: 0,0:02:37.41,0:02:40.35,Default,,0,0,0,,應該不會吧  小姐你說呢
+Dialogue: 0,0:02:40.35,0:02:41.29,Default,,0,0,0,,是啊
+Dialogue: 0,0:02:41.29,0:02:43.22,Default,,0,0,0,,這樣啊  可惜了
+Dialogue: 0,0:02:43.22,0:02:46.28,Default,,0,0,0,,但是那位小哥也是商人
+Dialogue: 0,0:02:46.45,0:02:50.80,Default,,0,0,0,,而且還跟著菜月先生  估計很快還能見面的
+Dialogue: 0,0:02:50.94,0:02:51.86,Default,,0,0,0,,是啊
+Dialogue: 0,0:02:51.86,0:02:54.01,Default,,0,0,0,,好  該去開討論會了
+Dialogue: 0,0:02:54.08,0:02:55.16,Default,,0,0,0,,好的
+Dialogue: 0,0:02:55.39,0:02:58.28,Default,,0,0,0,,討論如何大口吃了那個小哥
+Dialogue: 0,0:02:58.28,0:02:59.76,Default,,0,0,0,,你蠢啊  不會的
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

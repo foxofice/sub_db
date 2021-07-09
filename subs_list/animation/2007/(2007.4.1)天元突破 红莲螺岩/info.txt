@@ -1,0 +1,5 @@
+﻿chs: 天元突破 红莲螺岩
+cht: 天元突破 紅蓮螺岩
+jp: 天元突破グレンラガン
+en: Tengen Toppa Gurren Lagann
+rome: Tengen Toppa Gurren Lagann

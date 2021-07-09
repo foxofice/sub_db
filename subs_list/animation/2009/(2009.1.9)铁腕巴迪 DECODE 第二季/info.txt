@@ -1,0 +1,5 @@
+﻿chs: 铁腕巴迪 DECODE 第二季
+cht: 鉄腕巴迪 DECODE 第二季
+jp: 鉄腕バーディー DECODE:02
+en: Birdy the Mighty: Decode (2)
+rome: Tetsuwan Birdy Decode:02

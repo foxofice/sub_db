@@ -1,0 +1,5 @@
+﻿chs: 在这世界（更多一些）的角落/在这世界的（还有更多的）角落
+cht: 在這世界（更多一些）的角落/在這世界的（还有更多的）角落
+jp: この世界の(さらにいくつもの)片隅に
+en: Kono Sekai no (Sara ni Ikutsumo no) Katasumi ni
+rome: Kono Sekai no (Sara ni Ikutsumo no) Katasumi ni

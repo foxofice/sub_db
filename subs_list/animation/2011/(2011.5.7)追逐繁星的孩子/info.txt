@@ -1,0 +1,5 @@
+﻿chs: 追逐繁星的孩子
+cht: 追逐繁星的孩子
+jp: 星を追う子ども
+en: Children Who Chase Lost Voices
+rome: Hoshi o Ou Kodomo

@@ -1,0 +1,5 @@
+﻿chs: 狼的孩子雨和雪
+cht: 狼的孩子雨和雪
+jp: おおかみこどもの雨と雪
+en: Wolf Children
+rome: Ookami Kodomo no Ame to Yuki

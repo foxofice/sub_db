@@ -1,0 +1,5 @@
+﻿chs: 我的英雄学院(第2季)
+cht: 我的英雄學院(第2季)
+jp: 僕のヒーローアカデミア (2017)
+en: My Hero Academia Season 2
+rome: Boku no Hero Academia (2017)

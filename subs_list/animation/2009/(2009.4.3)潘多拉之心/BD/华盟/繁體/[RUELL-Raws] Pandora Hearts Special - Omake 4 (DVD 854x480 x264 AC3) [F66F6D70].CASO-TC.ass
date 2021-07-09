@@ -1,0 +1,86 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[Aegisub Project Garbage]
+Active Line: 7
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.60,0:00:07.33,zhengwen,NTP,0,0,0,,潘多拉之心  附錄小動畫
+Dialogue: 0,0:00:10.34,0:00:13.72,zhengwen,NTP,0,0,0,,切  為什麼我是第四卷
+Dialogue: 0,0:00:14.88,0:00:15.67,zhengwen,NTP,0,0,0,,算了
+Dialogue: 0,0:00:17.95,0:00:22.87,zhengwen,NTP,0,0,0,,你就是購買了潘多拉之心DVD第四卷的好事的傢伙嗎
+Dialogue: 0,0:00:23.35,0:00:27.48,zhengwen,NTP,0,0,0,,既然是我的僕人  當然要一直買下去了
+Dialogue: 0,0:00:27.83,0:00:31.23,zhengwen,NTP,0,0,0,,你做得很好  值得表揚
+Dialogue: 0,0:00:31.37,0:00:34.06,zhengwen,NTP,0,0,0,,今後也拜託你了
+Dialogue: 0,0:00:34.64,0:00:38.54,zhengwen,NTP,0,0,0,,好了  來好好欣賞我的英姿吧
+Dialogue: 0,0:00:38.82,0:00:41.38,zhengwen,NTP,0,0,0,,OK了  非常感謝
+Dialogue: 0,0:00:41.65,0:00:43.26,zhengwen,NTP,0,0,0,,謝謝
+Dialogue: 0,0:00:43.61,0:00:45.54,zhengwen,NTP,0,0,0,,嗯  這是當然了
+Dialogue: 0,0:00:45.71,0:00:50.67,zhushi,NTP,0,0,0,,（睡相系列）
+Dialogue: 0,0:00:48.97,0:00:50.62,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:00:54.19,0:00:57.52,zhengwen,NTP,0,0,0,,艾莉絲  砂糖和小麥粉和草莓哦
+Dialogue: 0,0:00:57.95,0:00:59.60,zhengwen,NTP,0,0,0,,不用擔心  交給我吧
+Dialogue: 0,0:00:59.96,0:01:01.76,zhengwen,NTP,0,0,0,,路上小心哦
+Dialogue: 0,0:01:02.00,0:01:02.80,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:01:05.42,0:01:07.55,zhengwen,NTP,0,0,0,,拜託你去買慣例的那個哦  艾可
+Dialogue: 0,0:01:07.83,0:01:10.03,zhengwen,NTP,0,0,0,,是  文森特大人
+Dialogue: 0,0:01:11.07,0:01:15.06,zhengwen,NTP,0,0,0,,艾莉絲和艾可的小差遣
+Dialogue: 0,0:01:16.60,0:01:19.94,zhengwen,NTP,0,0,0,,不是很遠的過去  有兩個小女孩叫艾莉絲和艾可
+Dialogue: 0,0:01:20.78,0:01:22.72,zhengwen,NTP,0,0,0,,她們倆一步一步地走著
+Dialogue: 0,0:01:23.52,0:01:24.53,zhengwen,NTP,0,0,0,,穿過原野
+Dialogue: 0,0:01:25.52,0:01:27.17,zhengwen,NTP,0,0,0,,翻山越嶺
+Dialogue: 0,0:01:29.56,0:01:30.56,zhengwen,NTP,0,0,0,,渡過大海
+Dialogue: 0,0:01:32.45,0:01:34.34,zhengwen,NTP,0,0,0,,前往某一個地方
+Dialogue: 0,0:01:34.51,0:01:39.72,zhushi,NTP,0,0,0,,（「藩銅鑼」在日語裡和「潘多拉」諧音）
+Dialogue: 0,0:01:34.51,0:01:39.72,zhengwen,NTP,0,0,0,,歡迎來到藩銅鑼銀座
+Dialogue: 0,0:01:35.80,0:01:39.36,zhengwen,NTP,0,0,0,,歷盡千辛萬苦  終於來到了藩銅鑼銀座
+Dialogue: 0,0:01:40.82,0:01:43.58,zhengwen,NTP,0,0,0,,她們倆非常努力地開始買東西
+Dialogue: 0,0:01:44.55,0:01:47.15,zhengwen,NTP,0,0,0,,任務完成  回家
+Dialogue: 0,0:01:48.46,0:01:49.90,zhengwen,NTP,0,0,0,,差不多了吧
+Dialogue: 0,0:01:58.86,0:02:03.87,zhushi,NTP,0,0,0,,（睡相系列）
+Dialogue: 0,0:02:00.85,0:02:02.41,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:02:06.34,0:02:09.22,zhengwen,NTP,0,0,0,,要快點回去  不然文森特大人會…
+Dialogue: 0,0:02:09.88,0:02:10.94,zhengwen,NTP,0,0,0,,痛
+Dialogue: 0,0:02:16.26,0:02:17.11,zhengwen,NTP,0,0,0,,艾可
+Dialogue: 0,0:02:17.66,0:02:18.24,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:02:19.40,0:02:22.03,zhengwen,NTP,0,0,0,,這是…什麼？
+Dialogue: 0,0:02:25.04,0:02:26.13,zhengwen,NTP,0,0,0,,艾莉絲
+Dialogue: 0,0:02:26.33,0:02:27.17,zhengwen,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:02:28.33,0:02:29.22,zhengwen,NTP,0,0,0,,這是…
+Dialogue: 0,0:02:33.56,0:02:38.57,zhushi,NTP,0,0,0,,（睡相系列）
+Dialogue: 0,0:02:33.74,0:02:34.24,zhengwen,NTP,0,0,0,,潘多拉…
+Dialogue: 0,0:02:34.24,0:02:34.93,zhengwen,NTP,0,0,0,,噓
+Dialogue: 0,0:02:36.69,0:02:38.24,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:02:38.71,0:02:40.30,zhengwen,NTP,0,0,0,,下回預告
+Dialogue: 0,0:02:40.55,0:02:42.15,zhengwen,NTP,0,0,0,,下回的潘多拉之心
+Dialogue: 0,0:02:42.37,0:02:46.38,zhengwen,NTP,0,0,0,,竟…竟然是艾可用快到驚人的速度
+Dialogue: 0,0:02:46.54,0:02:52.09,zhengwen,NTP,0,0,0,,喋喋不休最終說服文森特讓他跪下的恐怖故事
+Dialogue: 0,0:02:52.20,0:02:53.80,zhengwen,NTP,0,0,0,,艾可才不會做那種事
+Dialogue: 0,0:02:53.99,0:02:55.79,zhengwen,NTP,0,0,0,,請不要胡說八道
+Dialogue: 0,0:02:55.99,0:02:59.72,zhengwen,NTP,0,0,0,,話說回來  你說話能說得那麼快嗎
+Dialogue: 0,0:02:59.86,0:03:02.07,zhengwen,NTP,0,0,0,,那就試試看繞口令吧
+Dialogue: 0,0:03:02.42,0:03:05.42,zhengwen,NTP,0,0,0,,紅色小基爾藍色小基爾黃色小基爾  請
+Dialogue: 0,0:03:05.53,0:03:07.77,zhengwen,NTP,0,0,0,,紅色小基爾藍色小基爾黃色小基爾
+Dialogue: 0,0:03:07.91,0:03:09.95,zhengwen,NTP,0,0,0,,紅色小基爾藍色小基爾黃色小基爾
+Dialogue: 0,0:03:11.58,0:03:14.15,zhengwen,NTP,0,0,0,,番外篇
+Dialogue: 0,0:03:14.25,0:03:16.09,zhengwen,NTP,0,0,0,,紅色小基爾藍色小基爾黃色小基爾
+Dialogue: 0,0:03:16.11,0:03:18.33,zhengwen,NTP,0,0,0,,紅色小爾……去死海藻頭！
+Dialogue: 0,0:03:18.79,0:03:21.04,zhengwen,NTP,0,0,0,,話說回來
+Dialogue: 0,0:03:21.30,0:03:22.92,zhengwen,NTP,0,0,0,,紅色小基爾藍色小基爾黃色小基爾
+Dialogue: 0,0:03:22.93,0:03:25.00,zhengwen,NTP,0,0,0,,紅色小基爾藍色小基爾黃色小基爾  很好！
+Dialogue: 0,0:03:25.42,0:03:27.86,zhengwen,NTP,0,0,0,,順帶一提
+Dialogue: 0,0:03:28.40,0:03:30.52,zhengwen,NTP,0,0,0,,紅色小基爾茶色小基爾黃色小基爾
+Dialogue: 0,0:03:30.51,0:03:32.04,zhengwen,NTP,0,0,0,,紅色小基爾紅……
+Dialogue: 0,0:03:33.11,0:03:34.64,zhengwen,NTP,0,0,0,,基爾巴——特

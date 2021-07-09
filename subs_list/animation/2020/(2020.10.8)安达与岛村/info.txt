@@ -1,0 +1,5 @@
+﻿chs: 安达与岛村
+cht: 安達與島村
+jp: 安達としまむら
+en: Adachi and Shimamura
+rome: Adachi to Shimamura

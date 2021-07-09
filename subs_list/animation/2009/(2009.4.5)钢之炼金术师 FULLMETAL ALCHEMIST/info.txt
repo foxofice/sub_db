@@ -1,0 +1,5 @@
+﻿chs: 钢之炼金术师 FULLMETAL ALCHEMIST
+cht: 鋼之煉金術師 FULLMETAL ALCHEMIST
+jp: 鋼の錬金術師 FULLMETAL ALCHEMIST
+en: Fullmetal Alchemist: Brotherhood
+rome: Hagane no Renkinjutsushi (2009)

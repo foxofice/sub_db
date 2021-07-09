@@ -1,0 +1,394 @@
+﻿[Script Info]
+Title: ドキドキ！プリキュア 第24回「衝撃！まこぴーアイドル引退宣言！」
+Original Script: 雪飘工作室
+Original Translation: hooming&ds006425
+Original Timing: zwc
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Toght,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H0079307E,&H647F3385,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Heart,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H64A234FF,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Diamo,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64D97900,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Roset,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Sword,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H64C33978,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Prins,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00D890FE,&H64D890FE,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Regna,Droid Sans Fallback,80,&H00000000,&H00FFFFFF,&H00009F9F,&H64009F9F,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: Regn2,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H00009F9F,&H64009F9F,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: AceSS,Droid Sans Fallback,80,&H00FFFFFF,&H00FFFFFF,&H004D4EFC,&H64271EC8,-1,0,0,0,100,100,1,0,1,3,2,2,10,10,30,1
+Style: oped,华康圆体W7(P),50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,3,0,2,10,10,2,1
+Style: staff,Droid Sans Fallback,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,4,0,2,10,10,2,1
+Style: in_Sword,华康圆体W7(P),65,&H00FFFFFF,&H00FFFFFF,&H00BE3979,&H00BE3979,-1,0,0,0,100,100,2,0,1,3,0,9,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.41,0:00:06.55,in_Sword,NTP,0,0,0,,{\fad(200,200)}「One！Two！Three！Four！Fly！」
+Dialogue: 0,0:00:07.94,0:00:10.54,in_Sword,NTP,0,0,0,,{\fad(200,200)}「Fly！」
+Dialogue: 0,0:00:11.49,0:00:12.59,Defau,NTP,0,0,0,,OK
+Dialogue: 0,0:00:15.92,0:00:18.76,Sword,NTP,0,0,0,,听说下一场演唱会的票已经都卖完了
+Dialogue: 0,0:00:19.47,0:00:21.55,Sword,NTP,0,0,0,,还有补加演唱会的请求
+Dialogue: 0,0:00:24.32,0:00:24.87,Sword,NTP,0,0,0,,真琴？
+Dialogue: 0,0:00:26.29,0:00:29.00,Sword,NTP,0,0,0,,我再唱下去好吗
+Dialogue: 0,0:00:29.52,0:00:30.08,Sword,NTP,0,0,0,,诶
+Dialogue: 0,0:00:31.59,0:00:35.47,Sword,NTP,0,0,0,,至今为止都是为了找到公主而唱歌
+Dialogue: 0,0:00:36.32,0:00:39.60,Sword,NTP,0,0,0,,结果我的歌声什么用都没有
+Dialogue: 0,0:00:39.72,0:00:40.90,Sword,NTP,0,0,0,,没有这回事
+Dialogue: 0,0:00:41.32,0:00:43.18,Sword,NTP,0,0,0,,不只是为了公主
+Dialogue: 0,0:00:43.44,0:00:45.91,Sword,NTP,0,0,0,,你不是有很多的粉丝吗
+Dialogue: 0,0:00:46.22,0:00:48.38,Sword,NTP,0,0,0,,大家都很期待你的歌声
+Dialogue: 0,0:00:51.16,0:00:52.30,Heart,NTP,0,0,0,,Cure Ace
+Dialogue: 0,0:01:00.02,0:01:01.26,Heart,NTP,0,0,0,,好强啊
+Dialogue: 0,0:01:02.08,0:01:05.56,Roset,NTP,0,0,0,,要是没有那一位的话不知道会怎么样呢
+Dialogue: 0,0:01:05.85,0:01:08.68,Sword,NTP,0,0,0,,但是扑克王国剩下的Precure
+Dialogue: 0,0:01:08.68,0:01:10.41,Sword,NTP,0,0,0,,应该只有Sword
+Dialogue: 0,0:01:10.87,0:01:12.05,Diamo,NTP,0,0,0,,这样的话…
+Dialogue: 0,0:01:15.78,0:01:16.88,Diamo,NTP,0,0,0,,她到底是什么人
+Dialogue: 0,0:01:17.31,0:01:18.88,Toght,NTP,0,0,0,,嗯…
+Dialogue: 0,0:01:19.81,0:01:24.85,Diamo,NTP,0,0,0,,总之从变身前的样子看比我们年纪小
+Dialogue: 0,0:01:25.60,0:01:27.10,Diamo,NTP,0,0,0,,是小学三年生吗
+Dialogue: 0,0:01:27.10,0:01:28.27,AceSS,NTP,0,0,0,,是四年生
+Dialogue: 0,0:01:29.46,0:01:31.86,Roset,NTP,0,0,0,,你好 Cure Ace小姐
+Dialogue: 0,0:01:32.26,0:01:36.27,AceSS,NTP,0,0,0,,你好 我的名字是圆亚久里
+Dialogue: 0,0:03:07.70,0:03:10.54,Heart,NTP,0,0,0,,震惊！小真的偶像隐退宣言！
+Dialogue: 0,0:03:13.74,0:03:14.57,AceSS,NTP,0,0,0,,小愛
+Dialogue: 0,0:03:17.95,0:03:19.80,AceSS,NTP,0,0,0,,今天也很可爱呐～
+Dialogue: 0,0:03:21.23,0:03:22.43,AceSS,NTP,0,0,0,,话说 你们几个
+Dialogue: 0,0:03:22.69,0:03:23.16,Toght,NTP,0,0,0,,在
+Dialogue: 0,0:03:24.31,0:03:25.50,AceSS,NTP,0,0,0,,这个是什么
+Dialogue: 0,0:03:25.75,0:03:26.27,Heart,NTP,0,0,0,,诶
+Dialogue: 0,0:03:27.49,0:03:30.81,Roset,NTP,0,0,0,,塞巴斯蒂安做的桃子味卷筒蛋糕
+Dialogue: 0,0:03:31.12,0:03:32.99,Defau,NTP,0,0,0,,请您慢用
+Dialogue: 0,0:03:36.54,0:03:37.49,AceSS,NTP,0,0,0,,我开动了
+Dialogue: 0,0:03:44.34,0:03:46.17,Heart,NTP,0,0,0,,怎…怎么了
+Dialogue: 0,0:03:46.51,0:03:48.60,AceSS,NTP,0,0,0,,好好吃～
+Dialogue: 0,0:03:48.93,0:03:51.64,AceSS,NTP,0,0,0,,烤得恰到好处的软绵绵海绵一样的蛋糕
+Dialogue: 0,0:03:51.92,0:03:54.38,AceSS,NTP,0,0,0,,味道浓厚却不过甜的鲜奶油
+Dialogue: 0,0:03:54.60,0:03:57.69,AceSS,NTP,0,0,0,,毫不吝啬多多镶嵌点缀的鲜桃子
+Dialogue: 0,0:03:57.86,0:04:01.92,AceSS,NTP,0,0,0,,所有的这些温和优美地融合 清爽的初夏般的感觉
+Dialogue: 0,0:04:02.67,0:04:05.76,AceSS,NTP,0,0,0,,这是 爱的和弦
+Dialogue: 0,0:04:07.41,0:04:08.77,Heart,NTP,0,0,0,,真厉害
+Dialogue: 0,0:04:09.14,0:04:12.54,Heart,NTP,0,0,0,,只吃了一口就能说成这样
+Dialogue: 0,0:04:12.81,0:04:15.84,Roset,NTP,0,0,0,,亚久里很喜欢甜点呀
+Dialogue: 0,0:04:17.11,0:04:19.30,AceSS,NTP,0,0,0,,令专业糕点师自愧不如的漂亮手法
+Dialogue: 0,0:04:19.51,0:04:23.28,AceSS,NTP,0,0,0,,最重要的是我能感受到你想让吃的人高兴的爱
+Dialogue: 0,0:04:23.53,0:04:24.71,AceSS,NTP,0,0,0,,太棒了
+Dialogue: 0,0:04:25.01,0:04:26.11,Defau,NTP,0,0,0,,不敢当
+Dialogue: 0,0:04:27.24,0:04:28.21,AceSS,NTP,0,0,0,,再说的话
+Dialogue: 0,0:04:28.54,0:04:32.92,AceSS,NTP,0,0,0,,没有因访客突然到来而慌乱 干净漂亮的应对手段
+Dialogue: 0,0:04:33.39,0:04:35.34,AceSS,NTP,0,0,0,,的确是专业的管家
+Dialogue: 0,0:04:36.04,0:04:37.25,AceSS,NTP,0,0,0,,和这个比起来
+Dialogue: 0,0:04:38.26,0:04:39.97,AceSS,NTP,0,0,0,,你真的是专业的吗
+Dialogue: 0,0:04:40.14,0:04:40.60,Sword,NTP,0,0,0,,诶
+Dialogue: 0,0:04:41.11,0:04:44.16,AceSS,NTP,0,0,0,,昨天我在电视上听了你的歌
+Dialogue: 0,0:04:45.25,0:04:47.21,AceSS,NTP,0,0,0,,说实话我很失望
+Dialogue: 0,0:04:49.68,0:04:51.06,Heart,NTP,0,0,0,,喂 等等
+Dialogue: 0,0:04:51.45,0:04:53.99,Heart,NTP,0,0,0,,小真是人气很高的歌手
+Dialogue: 0,0:04:54.28,0:04:56.65,Diamo,NTP,0,0,0,,是公认的有歌唱力的实力派
+Dialogue: 0,0:04:56.80,0:05:01.13,Sword,NTP,0,0,0,,扑克王国里也是最棒的女歌手
+Dialogue: 0,0:05:01.56,0:05:03.32,AceSS,NTP,0,0,0,,我不知道大众的评价
+Dialogue: 0,0:05:03.72,0:05:05.73,AceSS,NTP,0,0,0,,只是从你昨天的歌听来
+Dialogue: 0,0:05:05.92,0:05:08.33,AceSS,NTP,0,0,0,,一点爱我也没感受到
+Dialogue: 0,0:05:09.29,0:05:10.96,AceSS,NTP,0,0,0,,我所感受到的东西是
+Dialogue: 0,0:05:12.29,0:05:12.89,AceSS,NTP,0,0,0,,迷茫
+Dialogue: 0,0:05:17.68,0:05:21.02,AceSS,NTP,0,0,0,,作为一个专业歌手唱成这样不觉得丢脸吗
+Dialogue: 0,0:05:21.42,0:05:22.85,Heart,NTP,0,0,0,,小真在努力着
+Dialogue: 0,0:05:23.21,0:05:25.24,Heart,NTP,0,0,0,,一边唱歌一边做Precure
+Dialogue: 0,0:05:26.20,0:05:28.56,AceSS,NTP,0,0,0,,作为Precure也不成熟
+Dialogue: 0,0:05:29.21,0:05:32.87,AceSS,NTP,0,0,0,,我要是不帮你们你们就会输给自我中心
+Dialogue: 0,0:05:33.29,0:05:34.32,AceSS,NTP,0,0,0,,不对吗
+Dialogue: 0,0:05:34.80,0:05:36.84,Heart,NTP,0,0,0,,这 这个…
+Dialogue: 0,0:05:38.48,0:05:40.50,AceSS,NTP,0,0,0,,所有的地方都不成熟
+Dialogue: 0,0:05:41.21,0:05:45.62,AceSS,NTP,0,0,0,,现在这个样子是无论如何也打不赢自我之王
+Dialogue: 0,0:05:47.79,0:05:49.01,AceSS,NTP,0,0,0,,我吃饱了
+Dialogue: 0,0:05:49.42,0:05:51.39,AceSS,NTP,0,0,0,,那我就此告辞了
+Dialogue: 0,0:05:52.28,0:05:53.24,Heart,NTP,0,0,0,,等一等
+Dialogue: 0,0:05:55.67,0:05:56.47,Heart,NTP,0,0,0,,Cure Ace
+Dialogue: 0,0:06:05.21,0:06:08.70,Heart,NTP,0,0,0,,小真 我很期待下次的演唱会
+Dialogue: 0,0:06:09.94,0:06:12.36,Sword,NTP,0,0,0,,我不是一个够格的专业歌手
+Dialogue: 0,0:06:12.56,0:06:13.01,Heart,NTP,0,0,0,,诶
+Dialogue: 0,0:06:15.16,0:06:16.76,Sword,NTP,0,0,0,,就像Cure Ace所说的
+Dialogue: 0,0:06:17.66,0:06:19.38,Sword,NTP,0,0,0,,最近一直在迷茫
+Dialogue: 0,0:06:20.48,0:06:24.06,Sword,NTP,0,0,0,,现在王女大人也找见了 那么我是为了什么唱歌呢
+Dialogue: 0,0:06:25.13,0:06:27.85,Sword,NTP,0,0,0,,我想不能用这样犹豫的心情唱歌
+Dialogue: 0,0:06:29.84,0:06:31.87,Sword,NTP,0,0,0,,我不当歌手了
+Dialogue: 0,0:06:31.87,0:06:32.54,Toght,NTP,0,0,0,,诶
+Dialogue: 0,0:06:32.91,0:06:35.61,Sword,NTP,0,0,0,,在下场演唱会上我会发表隐退宣言
+Dialogue: 0,0:06:35.80,0:06:37.84,Heart,NTP,0,0,0,,等一等 小真
+Dialogue: 0,0:06:37.84,0:06:39.04,Diamo,NTP,0,0,0,,不至于要放弃呀
+Dialogue: 0,0:06:39.39,0:06:40.51,Sword,NTP,0,0,0,,我已经决定了
+Dialogue: 0,0:06:41.16,0:06:42.54,Sword,NTP,0,0,0,,我不再唱歌了
+Dialogue: 0,0:06:44.31,0:06:45.47,Sword,NTP,0,0,0,,我已经这样决定了
+Dialogue: 0,0:06:50.24,0:06:51.32,Diamo,NTP,0,0,0,,她是认真的吗
+Dialogue: 0,0:06:51.52,0:06:52.50,Heart,NTP,0,0,0,,不行
+Dialogue: 0,0:06:52.84,0:06:56.31,Heart,NTP,0,0,0,,小真绝对绝对不能不唱歌
+Dialogue: 0,0:06:59.91,0:07:01.13,Defau,NTP,0,0,0,,早上好
+Dialogue: 0,0:07:01.13,0:07:02.12,Defau,NTP,0,0,0,,早上好
+Dialogue: 0,0:07:04.36,0:07:06.49,Diamo,NTP,0,0,0,,喂 真的要做吗
+Dialogue: 0,0:07:06.76,0:07:07.45,Heart,NTP,0,0,0,,当然
+Dialogue: 0,0:07:07.88,0:07:10.45,Heart,NTP,0,0,0,,让小真唱歌作战 Let's go
+Dialogue: 0,0:07:11.32,0:07:12.09,Heart,NTP,0,0,0,,小真
+Dialogue: 0,0:07:13.87,0:07:16.81,Heart,NTP,0,0,0,,小真放弃唱歌是不行的
+Dialogue: 0,0:07:17.10,0:07:19.29,Heart,NTP,0,0,0,,绝对绝对不能放弃
+Dialogue: 0,0:07:19.98,0:07:21.68,Sword,NTP,0,0,0,,爱 你打算干什么
+Dialogue: 0,0:07:22.28,0:07:23.38,Heart,NTP,0,0,0,,啊 那个
+Dialogue: 0,0:07:23.89,0:07:27.94,Heart,NTP,0,0,0,,我以为由王女大人阻止你你就会改变想法
+Dialogue: 0,0:07:28.26,0:07:29.15,Heart,NTP,0,0,0,,为什么暴露了
+Dialogue: 0,0:07:29.33,0:07:32.02,Sword,NTP,0,0,0,,王女大人可不会叫我小真
+Dialogue: 0,0:07:32.27,0:07:33.92,Heart,NTP,0,0,0,,糟了
+Dialogue: 0,0:07:34.42,0:07:34.98,Diamo,NTP,0,0,0,,不
+Dialogue: 0,0:07:35.85,0:07:37.58,Diamo,NTP,0,0,0,,还有很多其他的地方讲不通
+Dialogue: 0,0:07:46.88,0:07:50.52,Roset,NTP,0,0,0,,由四叶爱乐管弦乐团带来的现场演奏
+Dialogue: 0,0:07:50.89,0:07:52.96,Roset,NTP,0,0,0,,来请唱歌吧
+Dialogue: 0,0:07:53.35,0:07:53.88,Defau,NTP,0,0,0,,怎么了
+Dialogue: 0,0:07:56.77,0:07:58.33,Sword,NTP,0,0,0,,我不是说不唱了吗
+Dialogue: 0,0:07:59.62,0:08:01.80,Heart,NTP,0,0,0,,现场演奏也失败了吗
+Dialogue: 0,0:08:02.45,0:08:05.36,Roset,NTP,0,0,0,,还以为这是能让她不由自主想要唱歌的音色呢
+Dialogue: 0,0:08:05.77,0:08:08.57,Diamo,NTP,0,0,0,,不是 这个场合会更难唱的吧
+Dialogue: 0,0:08:11.84,0:08:15.04,Sword,NTP,0,0,0,,为了不输给自我中心哪怕多锻炼一点也好
+Dialogue: 0,0:08:18.48,0:08:23.80,Heart,NTP,0,0,0,,快睡吧 快睡吧
+Dialogue: 0,0:08:23.96,0:08:26.18,Heart,NTP,0,0,0,,妈妈的…
+Dialogue: 0,0:08:27.52,0:08:31.00,Heart,NTP,0,0,0,,啊 小愛怎么了？
+Dialogue: 0,0:08:33.18,0:08:36.85,Heart,NTP,0,0,0,,小真 不知怎么小愛一直哭个不停
+Dialogue: 0,0:08:37.52,0:08:39.04,Heart,NTP,0,0,0,,能唱首催眠曲吗
+Dialogue: 0,0:08:45.90,0:08:46.98,Sword,NTP,0,0,0,,我不再唱歌了
+Dialogue: 0,0:08:48.14,0:08:49.25,Sword,NTP,0,0,0,,应该已经这样说过了
+Dialogue: 0,0:08:50.51,0:08:51.40,Heart,NTP,0,0,0,,为什么
+Dialogue: 0,0:08:52.04,0:08:54.18,Heart,NTP,0,0,0,,明明大家都想听小真唱歌
+Dialogue: 0,0:08:54.40,0:08:56.12,Sword,NTP,0,0,0,,歌手不是只有我一个
+Dialogue: 0,0:08:56.40,0:08:58.13,Heart,NTP,0,0,0,,唱歌的时候不快乐吗 小真
+Dialogue: 0,0:08:59.03,0:09:02.72,Heart,NTP,0,0,0,,唱歌的小真总是看上去很快乐
+Dialogue: 0,0:09:03.05,0:09:04.23,Heart,NTP,0,0,0,,看着这样的小真
+Dialogue: 0,0:09:04.45,0:09:08.05,Heart,NTP,0,0,0,,我也会不由得心里暖洋洋的 变得很快乐
+Dialogue: 0,0:09:08.05,0:09:09.59,Sword,NTP,0,0,0,,没有时间瞎高兴了
+Dialogue: 0,0:09:10.80,0:09:12.22,Sword,NTP,0,0,0,,没有唱歌的空闲
+Dialogue: 0,0:09:13.11,0:09:15.68,Sword,NTP,0,0,0,,爱你们缺少作为Precure的责任意识
+Dialogue: 0,0:09:18.35,0:09:21.40,Sword,NTP,0,0,0,,大家都想让小真继续唱歌
+Dialogue: 0,0:09:22.08,0:09:24.19,Sword,NTP,0,0,0,,大卫 你也是吗
+Dialogue: 0,0:09:25.11,0:09:27.68,Sword,NTP,0,0,0,,我想让真琴做自己喜欢做的事
+Dialogue: 0,0:09:30.54,0:09:32.70,Sword,NTP,0,0,0,,我会支持你的
+Dialogue: 0,0:09:37.71,0:09:39.27,Defau,NTP,0,0,0,,看我的
+Dialogue: 0,0:09:46.24,0:09:47.62,Defau,NTP,0,0,0,,真难吃
+Dialogue: 0,0:09:48.61,0:09:50.30,Defau,NTP,0,0,0,,这不是吃的东西 我说
+Dialogue: 0,0:09:50.74,0:09:53.37,Defau,NTP,0,0,0,,连保龄球也不知道 真是野蛮
+Dialogue: 0,0:09:53.44,0:09:55.30,Defau,NTP,0,0,0,,我们知道才这么做的
+Dialogue: 0,0:09:58.32,0:10:00.71,Defau,NTP,0,0,0,,你们快给我找王女去
+Dialogue: 0,0:10:00.92,0:10:03.21,Defau,NTP,0,0,0,,你们凭什么命令我们
+Dialogue: 0,0:10:03.31,0:10:06.33,Defau,NTP,0,0,0,,这是自我之王大人的命令
+Dialogue: 0,0:10:09.29,0:10:11.08,Defau,NTP,0,0,0,,没办法了 走吧
+Dialogue: 0,0:10:11.50,0:10:11.92,Defau,NTP,0,0,0,,切
+Dialogue: 0,0:10:12.36,0:10:13.46,Defau,NTP,0,0,0,,给我记住
+Dialogue: 0,0:10:14.36,0:10:14.83,Defau,NTP,0,0,0,,哼
+Dialogue: 0,0:10:21.18,0:10:22.65,Defau,NTP,0,0,0,,好像很有意思
+Dialogue: 0,0:10:42.71,0:10:44.83,Heart,NTP,0,0,0,,诶 小真还没有来
+Dialogue: 0,0:10:45.34,0:10:46.96,Roset,NTP,0,0,0,,联系不上她
+Dialogue: 0,0:10:47.45,0:10:49.95,Diamo,NTP,0,0,0,,演唱会马上就要开始了
+Dialogue: 0,0:10:50.41,0:10:50.96,Roset,NTP,0,0,0,,塞巴斯蒂安
+Dialogue: 0,0:10:51.37,0:10:51.80,Defau,NTP,0,0,0,,在
+Dialogue: 0,0:10:51.85,0:10:53.10,Heart,NTP,0,0,0,,我们也去找吧
+Dialogue: 0,0:10:59.67,0:11:02.98,Sword,NTP,0,0,0,,真琴 演唱会要开始了
+Dialogue: 0,0:11:03.81,0:11:05.92,Sword,NTP,0,0,0,,是呀 该去了
+Dialogue: 0,0:11:06.70,0:11:08.96,Sword,NTP,0,0,0,,去那里 宣布隐退
+Dialogue: 0,0:11:11.02,0:11:11.89,Sword,NTP,0,0,0,,不说不行呀
+Dialogue: 0,0:11:14.30,0:11:16.11,Defau,NTP,0,0,0,,难道是开演前有麻烦了
+Dialogue: 0,0:11:16.53,0:11:18.41,Defau,NTP,0,0,0,,要偷偷溜进准备室吗
+Dialogue: 0,0:11:20.81,0:11:23.66,Defau,NTP,0,0,0,,不行不行 这明显是违反规则的
+Dialogue: 0,0:11:25.80,0:11:27.87,Defau,NTP,0,0,0,,进去不就行了
+Dialogue: 0,0:11:29.96,0:11:32.92,Defau,NTP,0,0,0,,我来实现你的愿望
+Dialogue: 0,0:11:35.48,0:11:39.75,Defau,NTP,0,0,0,,放纵吧！解放你心中的黑暗！
+Dialogue: 0,0:11:46.12,0:11:47.60,Defau,NTP,0,0,0,,大家好！
+Dialogue: 0,0:11:48.33,0:11:51.84,Defau,NTP,0,0,0,,今天舞台的主角是我和
+Dialogue: 0,0:11:54.66,0:11:56.36,Defau,NTP,0,0,0,,自我中心！
+Dialogue: 0,0:11:56.66,0:11:59.53,Defau,NTP,0,0,0,,大家 在自我中心吗？
+Dialogue: 0,0:11:59.53,0:12:00.69,Defau,NTP,0,0,0,,Yeah！
+Dialogue: 0,0:12:02.36,0:12:06.00,Defau,NTP,0,0,0,,真是的 没有热情的观众 退场！
+Dialogue: 0,0:12:06.00,0:12:09.10,Defau,NTP,0,0,0,,退场—！
+Dialogue: 0,0:12:09.16,0:12:09.76,Heart,NTP,0,0,0,,上吧
+Dialogue: 0,0:12:11.03,0:12:12.32,Heart,NTP,0,0,0,,查理！
+Dialogue: 0,0:12:14.15,0:12:16.69,Toght,NTP,0,0,0,,Precure Love Link！
+Dialogue: 0,0:12:17.00,0:12:19.86,Toght,NTP,0,0,0,,L O V E
+Dialogue: 0,0:12:36.29,0:12:39.35,Heart,NTP,0,0,0,,满溢之爱！Cure Heart！
+Dialogue: 0,0:12:42.87,0:12:46.28,Diamo,NTP,0,0,0,,睿智之光！Cure Diamond！
+Dialogue: 0,0:12:48.94,0:12:52.72,Roset,NTP,0,0,0,,向阳之暖！Cure Rosetta！
+Dialogue: 0,0:12:54.83,0:12:56.87,Heart,NTP,0,0,0,,失去爱的可怜的麦客
+Dialogue: 0,0:12:57.80,0:12:59.06,Heart,NTP,0,0,0,,就让我Cure Heart
+Dialogue: 0,0:12:59.35,0:13:02.26,Heart,NTP,0,0,0,,夺回你的心跳！
+Dialogue: 0,0:13:03.35,0:13:04.96,Defau,NTP,0,0,0,,来了呀 Precure
+Dialogue: 0,0:13:05.09,0:13:06.53,Defau,NTP,0,0,0,,突进
+Dialogue: 0,0:13:06.76,0:13:08.58,Heart,NTP,0,0,0,,这里是小真的舞台
+Dialogue: 0,0:13:14.55,0:13:15.67,Sword,NTP,0,0,0,,是自我中心
+Dialogue: 0,0:13:16.60,0:13:17.23,Sword,NTP,0,0,0,,大家
+Dialogue: 0,0:13:18.14,0:13:21.00,Defau,NTP,0,0,0,,Precure突击采访
+Dialogue: 0,0:13:21.78,0:13:22.28,Heart,NTP,0,0,0,,嗯？
+Dialogue: 0,0:13:23.37,0:13:25.13,Defau,NTP,0,0,0,,有恋人吗
+Dialogue: 0,0:13:25.41,0:13:25.91,Heart,NTP,0,0,0,,哈？
+Dialogue: 0,0:13:26.92,0:13:29.34,Defau,NTP,0,0,0,,考试考了多少分呀
+Dialogue: 0,0:13:29.69,0:13:31.58,Diamo,NTP,0,0,0,,这种事现在没关系吧
+Dialogue: 0,0:13:32.17,0:13:34.53,Defau,NTP,0,0,0,,银行里存了多少钱
+Dialogue: 0,0:13:35.03,0:13:37.77,Roset,NTP,0,0,0,,不知道 没数过
+Dialogue: 0,0:13:37.93,0:13:40.74,Defau,NTP,0,0,0,,给我好好回答！
+Dialogue: 0,0:13:41.96,0:13:43.86,Diamo,NTP,0,0,0,,怎么问这么古怪的问题
+Dialogue: 0,0:13:44.32,0:13:45.99,Roset,NTP,0,0,0,,这是侵犯隐私
+Dialogue: 0,0:13:46.28,0:13:48.40,Heart,NTP,0,0,0,,但是这个自我中心好强
+Dialogue: 0,0:13:51.13,0:13:51.74,Sword,NTP,0,0,0,,大家
+Dialogue: 0,0:13:53.37,0:13:54.70,Sword,NTP,0,0,0,,好疼
+Dialogue: 0,0:13:56.07,0:13:57.53,Sword,NTP,0,0,0,,小爱 为什么在这里
+Dialogue: 0,0:13:57.74,0:13:58.58,Prins,NTP,0,0,0,,这个
+Dialogue: 0,0:13:59.52,0:14:00.34,Sword,NTP,0,0,0,,Loveads?
+Dialogue: 0,0:14:00.55,0:14:01.91,Sword,NTP,0,0,0,,安在我身上
+Dialogue: 0,0:14:02.56,0:14:04.34,Sword,NTP,0,0,0,,大卫大卫大卫大卫大卫！
+Dialogue: 0,0:14:13.43,0:14:14.21,Sword,NTP,0,0,0,,镜子？
+Dialogue: 0,0:14:15.77,0:14:16.32,Prins,NTP,0,0,0,,Sword
+Dialogue: 0,0:14:18.65,0:14:20.76,Sword,NTP,0,0,0,,王女大人！ 您醒来了吗
+Dialogue: 0,0:14:21.44,0:14:22.96,Prins,NTP,0,0,0,,不 还没有
+Dialogue: 0,0:14:23.95,0:14:26.36,Prins,NTP,0,0,0,,现在是借着小愛的力量和你说话
+Dialogue: 0,0:14:27.11,0:14:28.26,Prins,NTP,0,0,0,,不能保持很长时间
+Dialogue: 0,0:14:29.87,0:14:30.67,Prins,NTP,0,0,0,,Cure Sword
+Dialogue: 0,0:14:31.83,0:14:35.38,Prins,NTP,0,0,0,,你在那边的世界也为了我唱歌
+Dialogue: 0,0:14:36.11,0:14:38.54,Prins,NTP,0,0,0,,你的歌声 你的心意
+Dialogue: 0,0:14:39.20,0:14:40.28,Prins,NTP,0,0,0,,传达给我了
+Dialogue: 0,0:14:42.16,0:14:43.22,Sword,NTP,0,0,0,,真的吗
+Dialogue: 0,0:14:44.31,0:14:46.96,Prins,NTP,0,0,0,,我不能动 也不能发出声音
+Dialogue: 0,0:14:47.72,0:14:50.25,Prins,NTP,0,0,0,,鼓励渐渐失去希望的我的是
+Dialogue: 0,0:14:51.19,0:14:53.48,Prins,NTP,0,0,0,,Sword 你的歌声
+Dialogue: 0,0:14:54.51,0:14:55.79,Prins,NTP,0,0,0,,听着你的歌声
+Dialogue: 0,0:14:56.14,0:14:59.03,Prins,NTP,0,0,0,,我心里就暖洋洋的 有精神了
+Dialogue: 0,0:15:00.50,0:15:01.83,Prins,NTP,0,0,0,,真的谢谢你了
+Dialogue: 0,0:15:03.44,0:15:04.26,Sword,NTP,0,0,0,,王女大人…
+Dialogue: 0,0:15:05.31,0:15:07.35,Prins,NTP,0,0,0,,虽然我还不能醒来
+Dialogue: 0,0:15:08.11,0:15:11.41,Prins,NTP,0,0,0,,但是因为有乔在身边 所以我很好
+Dialogue: 0,0:15:12.71,0:15:15.93,Prins,NTP,0,0,0,,因此从今以后请为了自己唱歌
+Dialogue: 0,0:15:17.93,0:15:20.22,Sword,NTP,0,0,0,,为了自己…
+Dialogue: 0,0:15:21.55,0:15:23.81,Prins,NTP,0,0,0,,像从前一样 一边享受一边唱歌
+Dialogue: 0,0:15:25.31,0:15:28.49,Prins,NTP,0,0,0,,你快乐我就快乐
+Dialogue: 0,0:15:35.38,0:15:37.72,Prins,NTP,0,0,0,,请唱歌吧 Cure Sword
+Dialogue: 0,0:15:40.41,0:15:43.47,Sword,NTP,0,0,0,,王女大人和爱在说同样的话
+Dialogue: 0,0:15:44.24,0:15:46.41,Sword,NTP,0,0,0,,王女大人 爱和我
+Dialogue: 0,0:15:46.68,0:15:49.07,Sword,NTP,0,0,0,,都非常喜欢小真的歌
+Dialogue: 0,0:15:49.51,0:15:52.38,Sword,NTP,0,0,0,,想听快乐地唱歌的小真的歌声
+Dialogue: 0,0:15:57.39,0:15:58.08,Sword,NTP,0,0,0,,我…
+Dialogue: 0,0:16:03.82,0:16:04.67,Sword,NTP,0,0,0,,想唱歌
+Dialogue: 0,0:16:06.22,0:16:07.37,Sword,NTP,0,0,0,,我会支持你
+Dialogue: 0,0:16:11.10,0:16:12.08,Sword,NTP,0,0,0,,谢谢
+Dialogue: 0,0:16:17.58,0:16:19.88,Defau,NTP,0,0,0,,Precure也要完蛋了
+Dialogue: 0,0:16:20.25,0:16:21.56,Diamo,NTP,0,0,0,,还没完
+Dialogue: 0,0:16:22.07,0:16:23.99,Roset,NTP,0,0,0,,我们不会放弃
+Dialogue: 0,0:16:24.41,0:16:28.43,Heart,NTP,0,0,0,,绝对绝对要保护小真重要的演唱会
+Dialogue: 0,0:16:33.80,0:16:34.56,Heart,NTP,0,0,0,,Sword
+Dialogue: 0,0:16:35.43,0:16:37.59,Sword,NTP,0,0,0,,大家 为了我
+Dialogue: 0,0:16:39.14,0:16:39.96,Sword,NTP,0,0,0,,谢谢
+Dialogue: 0,0:16:42.14,0:16:45.76,Defau,NTP,0,0,0,,明明是Precure为什么在唱歌
+Dialogue: 0,0:16:45.96,0:16:48.38,Defau,NTP,0,0,0,,这样也算Precure吗
+Dialogue: 0,0:16:49.78,0:16:51.51,Sword,NTP,0,0,0,,我是唱歌的Precure！
+Dialogue: 0,0:16:52.00,0:16:52.60,Defau,NTP,0,0,0,,嗯
+Dialogue: 0,0:16:53.33,0:16:55.99,Defau,NTP,0,0,0,,唱歌能怎么样呢
+Dialogue: 0,0:16:56.24,0:16:58.55,Defau,NTP,0,0,0,,明明没什么用
+Dialogue: 0,0:16:58.89,0:17:00.67,Sword,NTP,0,0,0,,也许没什么用
+Dialogue: 0,0:17:01.27,0:17:02.65,Sword,NTP,0,0,0,,也许没有意义
+Dialogue: 0,0:17:03.38,0:17:03.84,Sword,NTP,0,0,0,,但是…
+Dialogue: 0,0:17:05.04,0:17:05.92,Sword,NTP,0,0,0,,我很快乐
+Dialogue: 0,0:17:07.76,0:17:08.59,Sword,NTP,0,0,0,,很喜悦
+Dialogue: 0,0:17:10.25,0:17:13.85,Sword,NTP,0,0,0,,我是因为喜欢唱歌所以才一直唱下来的
+Dialogue: 0,0:17:14.00,0:17:16.31,Heart,NTP,0,0,0,,我也很喜欢小真的歌
+Dialogue: 0,0:17:16.63,0:17:20.76,Defau,NTP,0,0,0,,想唱歌而唱歌 真是很自我中心呢
+Dialogue: 0,0:17:21.93,0:17:22.62,Sword,NTP,0,0,0,,是呀
+Dialogue: 0,0:17:24.12,0:17:27.53,Sword,NTP,0,0,0,,但是有人支持这样的我
+Dialogue: 0,0:17:28.26,0:17:31.50,Sword,NTP,0,0,0,,所以为了她们 为了我
+Dialogue: 0,0:17:32.11,0:17:33.20,Sword,NTP,0,0,0,,我要唱歌
+Dialogue: 0,0:17:42.91,0:17:45.76,AceSS,NTP,0,0,0,,看来你的爱觉醒了 Cure Sword
+Dialogue: 0,0:17:47.63,0:17:50.26,AceSS,NTP,0,0,0,,Precure的力量来自爱
+Dialogue: 0,0:17:50.98,0:17:53.59,AceSS,NTP,0,0,0,,真挚地坚持做自己喜欢的事
+Dialogue: 0,0:17:53.88,0:17:55.27,AceSS,NTP,0,0,0,,这也是爱
+Dialogue: 0,0:17:56.14,0:17:56.64,Sword,NTP,0,0,0,,爱…
+Dialogue: 0,0:17:58.05,0:18:00.78,AceSS,NTP,0,0,0,,迷茫阻碍了爱的力量
+Dialogue: 0,0:18:01.14,0:18:02.86,AceSS,NTP,0,0,0,,现在你战胜了迷茫
+Dialogue: 0,0:18:03.16,0:18:06.92,AceSS,NTP,0,0,0,,新的力量 更强大的爱觉醒了
+Dialogue: 0,0:18:07.93,0:18:08.79,AceSS,NTP,0,0,0,,做得很精彩
+Dialogue: 0,0:18:10.35,0:18:12.20,AceSS,NTP,0,0,0,,Precure的五条誓言
+Dialogue: 0,0:18:12.82,0:18:15.16,AceSS,NTP,0,0,0,,其之一 爱是被给与的
+Dialogue: 0,0:18:17.35,0:18:20.33,AceSS,NTP,0,0,0,,你通过歌声把爱给与了全世界
+Dialogue: 0,0:18:21.23,0:18:23.66,AceSS,NTP,0,0,0,,从今以后也请让你的爱的歌声
+Dialogue: 0,0:18:24.28,0:18:25.17,AceSS,NTP,0,0,0,,在世界中回响！
+Dialogue: 0,0:18:25.96,0:18:26.44,Sword,NTP,0,0,0,,嗯
+Dialogue: 0,0:18:28.21,0:18:30.13,AceSS,NTP,0,0,0,,小愛 上吧
+Dialogue: 0,0:18:31.38,0:18:33.85,AceSS,NTP,0,0,0,,Precure Dress Up！
+Dialogue: 0,0:19:22.90,0:19:25.96,AceSS,NTP,0,0,0,,爱之王牌 Cure Ace！
+Dialogue: 0,0:19:28.89,0:19:30.88,AceSS,NTP,0,0,0,,美丽是正义的证明
+Dialogue: 0,0:19:32.54,0:19:33.64,AceSS,NTP,0,0,0,,眨一眨眼
+Dialogue: 0,0:19:33.99,0:19:36.85,AceSS,NTP,0,0,0,,射穿你的心！
+Dialogue: 0,0:19:38.26,0:19:40.83,Defau,NTP,0,0,0,,喜欢的点心是什…啊！
+Dialogue: 0,0:19:41.11,0:19:44.28,Defau,NTP,0,0,0,,喂喂 这里是我的舞台
+Dialogue: 0,0:19:44.50,0:19:45.81,Defau,NTP,0,0,0,,禁止闯入
+Dialogue: 0,0:19:46.52,0:19:48.91,AceSS,NTP,0,0,0,,自以为是的人的舞台是个麻烦
+Dialogue: 0,0:19:50.09,0:19:50.72,AceSS,NTP,0,0,0,,哈！
+Dialogue: 0,0:19:54.59,0:19:57.50,AceSS,NTP,0,0,0,,我感觉不到你所作所为中的爱
+Dialogue: 0,0:20:14.28,0:20:17.78,AceSS,NTP,0,0,0,,着色！ Love Kiss Rouge！
+Dialogue: 0,0:20:27.00,0:20:29.64,AceSS,NTP,0,0,0,,兴奋起来吧！ Ace Shot！
+Dialogue: 0,0:20:36.70,0:20:37.83,Defau,NTP,0,0,0,,不能动了自我！
+Dialogue: 0,0:20:38.33,0:20:39.79,AceSS,NTP,0,0,0,,Sword 就是现在
+Dialogue: 0,0:20:45.25,0:20:48.36,Sword,NTP,0,0,0,,Precure Sparkle Sword！
+Dialogue: 0,0:20:50.13,0:20:52.12,Defau,NTP,0,0,0,,自我！
+Dialogue: 0,0:20:52.63,0:20:54.89,Defau,NTP,0,0,0,,LoveLoveLove！
+Dialogue: 0,0:21:02.50,0:21:04.09,Defau,NTP,0,0,0,,挺能干的嘛
+Dialogue: 0,0:21:04.45,0:21:06.08,Defau,NTP,0,0,0,,变得有趣了
+Dialogue: 0,0:21:14.59,0:21:16.68,Heart,NTP,0,0,0,,小真毕竟还是厉害
+Dialogue: 0,0:21:17.03,0:21:19.84,Heart,NTP,0,0,0,,能用歌声带给大家这么多的欢乐
+Dialogue: 0,0:21:20.89,0:21:21.71,Diamo,NTP,0,0,0,,是呀
+Dialogue: 0,0:21:22.22,0:21:24.14,Diamo,NTP,0,0,0,,笑容会消除邪念能
+Dialogue: 0,0:21:25.15,0:21:28.86,Diamo,NTP,0,0,0,,小真说不定在用歌声拯救着世界
+Dialogue: 0,0:21:30.07,0:21:32.11,AceSS,NTP,0,0,0,,爱从歌声中溢出
+Dialogue: 0,0:21:33.36,0:21:34.65,AceSS,NTP,0,0,0,,太棒了
+Dialogue: 0,0:21:41.96,0:21:44.11,Sword,NTP,0,0,0,,我最喜欢唱歌了
+Dialogue: 0,0:21:44.67,0:21:49.40,Sword,NTP,0,0,0,,只要唱歌就会高兴 快乐 变得幸福
+Dialogue: 0,0:21:49.96,0:21:53.57,Sword,NTP,0,0,0,,我想让大家也感受到这样的心情
+Dialogue: 0,0:21:55.83,0:21:57.16,Sword,NTP,0,0,0,,所以我要唱歌！
+Dialogue: 0,0:23:37.50,0:23:41.63,Heart,NTP,0,0,0,,大新闻 听说有栖的管家开发了人工Commune
+Dialogue: 0,0:23:41.63,0:23:42.83,Sword,NTP,0,0,0,,人工Commune？
+Dialogue: 0,0:23:42.95,0:23:45.97,Roset,NTP,0,0,0,,可以让任何人变成Precure的厉害发明
+Dialogue: 0,0:23:46.25,0:23:47.57,Defau,NTP,0,0,0,,我名叫Cure塞巴斯蒂安
+Dialogue: 0,0:23:47.98,0:23:50.46,Defau,NTP,0,0,0,,为了帮助大小姐而登场
+Dialogue: 0,0:23:50.54,0:23:52.76,Heart,NTP,0,0,0,,好厉害 真的变身了
+Dialogue: 0,0:23:52.84,0:23:55.53,Diamo,NTP,0,0,0,,咦 又有一位身份不明的女英雄出现了
+Dialogue: 0,0:23:55.60,0:23:56.20,Heart,NTP,0,0,0,,是谁？
+Dialogue: 0,0:23:57.40,0:23:58.53,Heart,NTP,0,0,0,,DokiDoki！Precure
+Dialogue: 0,0:23:59.10,0:24:01.50,Heart,NTP,0,0,0,,华丽的变身！新女英雄登场！？
+Dialogue: 0,0:24:02.14,0:24:03.83,Heart,NTP,0,0,0,,胸中的悸动 停不下来哟！
+Dialogue: 0,0:00:00.20,0:00:00.20,Defau,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau,NTP,0,0,0,,
+Dialogue: 0,0:01:40.86,0:01:45.23,oped,,0,0,0,,(Happy Go! Lucky Girls! Precure! Yeah)
+Dialogue: 0,0:01:45.23,0:01:47.70,oped,,0,0,0,,世界宛若旋转木马！
+Dialogue: 0,0:01:48.06,0:01:50.57,oped,,0,0,0,,用爱周游世界 Three Two One!
+Dialogue: 0,0:01:50.87,0:01:52.60,oped,,0,0,0,,光芒闪耀每一天
+Dialogue: 0,0:01:52.77,0:01:56.31,oped,,0,0,0,,DokiDoki! Precure
+Dialogue: 0,0:01:57.77,0:02:03.17,oped,,0,0,0,,身着新衣 向着未曾涉足的前方迈步
+Dialogue: 0,0:02:03.78,0:02:08.83,oped,,0,0,0,,向着悸动景色 说Hello! Hello Hello
+Dialogue: 0,0:02:09.01,0:02:14.49,oped,,0,0,0,,拐角处 花之色 被今天的Lucky Color眷顾着
+Dialogue: 0,0:02:15.03,0:02:19.93,oped,,0,0,0,,全都包在这样的我的身上吧！
+Dialogue: 0,0:02:20.80,0:02:25.63,oped,,0,0,0,,身为朋友 困窘之时
+Dialogue: 0,0:02:25.84,0:02:34.51,oped,,0,0,0,,伸出援手是人之常情吧
+Dialogue: 0,0:02:34.51,0:02:36.18,oped,,0,0,0,,(Happy! Lucky! Precure!)
+Dialogue: 0,0:02:36.18,0:02:38.58,oped,,0,0,0,,唯有悸动之心 Precure！
+Dialogue: 0,0:02:38.82,0:02:41.42,oped,,0,0,0,,能使世界改变 Happy Love!
+Dialogue: 0,0:02:41.68,0:02:44.22,oped,,0,0,0,,秀外慧中的约定
+Dialogue: 0,0:02:44.52,0:02:48.09,oped,,0,0,0,,才是女孩子们的约定
+Dialogue: 0,0:02:48.89,0:02:54.13,oped,,0,0,0,,相信着你 为你而战
+Dialogue: 0,0:02:54.16,0:03:00.04,oped,,0,0,0,,无敌的！温柔！紧握手中… (Yeah) Precure!
+Dialogue: 0,0:22:05.95,0:22:12.14,oped,NTP,0,0,0,,{\fs40}天空的彼岸飞翔着什么样的梦
+Dialogue: 0,0:22:12.93,0:22:22.19,oped,NTP,0,0,0,,{\fs40}无穷无尽 坚信未来伸出双手
+Dialogue: 0,0:22:22.42,0:22:27.72,oped,NTP,0,0,0,,{\fs40}PPP Precure! PPP Precure!
+Dialogue: 0,0:22:29.36,0:22:34.04,oped,NTP,0,0,0,,{\fs40}PPP Precure! 心跳起来吧 Yeah! Yeah!
+Dialogue: 0,0:22:34.33,0:22:40.58,oped,NTP,0,0,0,,{\fs40}对这小巧的双手要祈求些什么
+Dialogue: 0,0:22:41.27,0:22:47.42,oped,NTP,0,0,0,,{\fs40}如今的你身在何处 感受着什么
+Dialogue: 0,0:22:47.51,0:22:51.64,oped,NTP,0,0,0,,{\fs40}呐 数万光年并非遥远的未来
+Dialogue: 0,0:22:51.68,0:22:55.06,oped,NTP,0,0,0,,{\fs40}当然我也知道这不是时间的单位
+Dialogue: 0,0:22:55.10,0:22:59.60,oped,NTP,0,0,0,,{\fs40}闪亮的祈望连光芒也能超越
+Dialogue: 0,0:22:59.73,0:23:06.07,oped,NTP,0,0,0,,{\fs40}紧系这个世界的东西就是爱
+Dialogue: 0,0:23:06.83,0:23:13.53,oped,NTP,0,0,0,,{\fs40}不是梦中故事 无论何处紧握双手
+Dialogue: 0,0:23:13.58,0:23:19.75,oped,NTP,0,0,0,,{\fs40}天空的彼岸飞翔着什么样的梦
+Dialogue: 0,0:23:20.58,0:23:29.88,oped,NTP,0,0,0,,{\fs40}感受心意 让悸动乘着这首歌
+Dialogue: 0,0:23:30.05,0:23:33.43,oped,NTP,0,0,0,,{\fs40}PPP Precure! 带着笑容邂逅吧
+Dialogue: 0,0:23:39.25,0:24:05.31,Defau,NTP,0,0,0,Scroll up;200;50;30;25,妇联大友团 片源 Milky Rose\N翻译 Cure sYan Cure Humi Cure Nine \N时间轴Cure Chang 海报Cure Sweet\N后期 Milky Rose Cure Ming\N雪飘工作室

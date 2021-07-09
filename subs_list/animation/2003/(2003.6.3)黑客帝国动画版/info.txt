@@ -1,0 +1,5 @@
+﻿chs: 黑客帝国动画版
+cht: 黑客帝國動畫版
+jp: アニマトリックス
+en: The Animatrix
+rome: The Animatrix

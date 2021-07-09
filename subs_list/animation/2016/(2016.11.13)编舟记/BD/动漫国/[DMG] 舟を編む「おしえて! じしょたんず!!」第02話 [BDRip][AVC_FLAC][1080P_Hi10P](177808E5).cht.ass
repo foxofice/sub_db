@@ -1,0 +1,60 @@
+﻿[Script Info]
+Title: [Fune_o_Amu][SP02]
+Original Script: DMG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX: 1280
+PlayResY: 720
+Timer:100.0000
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,8,10,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.48,0:00:04.40,Default,,0,0,0,,教教我吧!  辭典小傢伙們!!
+Dialogue: 0,0:00:07.11,0:00:10.69,Default,,0,0,0,,{\fn微软雅黑\bord0\fs55\c&H000000&\pos(660,500)\b0}『{\fn萝莉体 第二版}小海{\fn微软雅黑}』        『{\fn萝莉体 第二版}林太{\fn微软雅黑}』        『{\fn萝莉体 第二版}小泉{\fn微软雅黑}』      『{\fn萝莉体 第二版}小廣{\fn微软雅黑}』
+Dialogue: 0,0:00:12.24,0:00:12.28,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4EFEFE&\bord1.5\fs60\frz10.63\pos(645,65)}開始
+Dialogue: 0,0:00:12.28,0:00:12.32,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4EFEFE&\bord1.5\fs60\frz10.63\pos(645,210)}開始
+Dialogue: 0,0:00:12.32,0:00:12.36,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4B4DF7&\bord1.5\fs60\frz10.63\pos(582,83)}詞語接龍
+Dialogue: 0,0:00:12.32,0:00:12.36,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4EFEFE&\bord1.5\fs60\frz10.63\pos(645,350)}開始
+Dialogue: 0,0:00:12.36,0:00:12.40,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4B4DF7&\bord1.5\fs60\frz10.63\pos(582,222)}詞語接龍
+Dialogue: 0,0:00:12.36,0:00:12.40,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4EFEFE&\bord1.5\fs60\frz10.63\pos(645,489)}開始
+Dialogue: 0,0:00:12.40,0:00:13.24,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4B4DF7&\bord1.5\fs60\pos(582,365)\frz10.63}詞語接龍
+Dialogue: 0,0:00:12.40,0:00:13.24,Default,,0,0,0,,{\fn萝莉体 第二版\c&H4EFEFE&\bord1.5\fs60\frz10.63\pos(645,632)}開始
+Dialogue: 0,0:00:04.73,0:00:07.15,Default,,0,0,0,,辭典間要是玩起詞語接龍會出現什麼情況呢
+Dialogue: 0,0:00:07.40,0:00:08.69,Default,,0,0,0,,會沒完沒了吧
+Dialogue: 0,0:00:08.78,0:00:10.78,Default,,0,0,0,,因為我們知曉的詞彙可不少啊
+Dialogue: 0,0:00:10.82,0:00:12.20,Default,,0,0,0,,總之先試試看吧
+Dialogue: 0,0:00:13.57,0:00:14.86,Default,,0,0,0,,{\fs32\pos(640,660)}yourei
+Dialogue: 0,0:00:13.57,0:00:14.86,Default,,0,0,0,,先從「用例」開始
+Dialogue: 0,0:00:14.86,0:00:16.28,Default,,0,0,0,,使用的例子
+Dialogue: 0,0:00:16.03,0:00:17.24,Default,,0,0,0,,{\fn微软雅黑\bord0\fs65\fsp5\c&H000000&\pos(660,510)}『{\fn萝莉体 第二版}那是釋義{\fn微软雅黑}』
+Dialogue: 0,0:00:17.33,0:00:18.24,Default,,0,0,0,,你發什麼瘋啊
+Dialogue: 0,0:00:18.37,0:00:20.37,Default,,0,0,0,,我也不懂啊  下意識反應
+Dialogue: 0,0:00:20.54,0:00:21.70,Default,,0,0,0,,i…
+Dialogue: 0,0:00:21.75,0:00:22.33,Default,,0,0,0,,{\fs32\pos(640,660)}imi
+Dialogue: 0,0:00:21.75,0:00:22.33,Default,,0,0,0,,語義
+Dialogue: 0,0:00:22.79,0:00:24.58,Default,,0,0,0,,詞語所表達的內容
+Dialogue: 0,0:00:24.21,0:00:24.83,Default,,0,0,0,,{\fn微软雅黑\bord0\fs75\fsp5\c&H000000&\pos(640,530)}『{\fn萝莉体 第二版}那是釋義{\fn微软雅黑}』
+Dialogue: 0,0:00:24.92,0:00:26.00,Default,,0,0,0,,你不也一樣!
+Dialogue: 0,0:00:26.00,0:00:27.42,Default,,0,0,0,,我體內的洪荒之力…
+Dialogue: 0,0:00:27.50,0:00:29.17,Default,,0,0,0,,兩位  我們玩的是詞語接龍啊
+Dialogue: 0,0:00:29.55,0:00:30.34,Default,,0,0,0,,是呀
+Dialogue: 0,0:00:30.59,0:00:31.13,Default,,0,0,0,,mi
+Dialogue: 0,0:00:31.55,0:00:32.42,Default,,0,0,0,,{\fs32\pos(640,660)}midasi
+Dialogue: 0,0:00:31.55,0:00:32.42,Default,,0,0,0,,目錄
+Dialogue: 0,0:00:32.72,0:00:34.88,Default,,0,0,0,,辭典中表示收錄詞目的部分
+Dialogue: 0,0:00:34.68,0:00:35.68,Default,,0,0,0,,{\fn微软雅黑\bord0\fs85\fsp5\c&H000000&\pos(680,610)}『{\fn萝莉体 第二版}那是釋義{\fn微软雅黑}』
+Dialogue: 0,0:00:35.76,0:00:36.93,Default,,0,0,0,,連你也來!
+Dialogue: 0,0:00:37.55,0:00:41.60,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\b0\c&H030303&\pos(822,521)}【釋義】
+Dialogue: 0,0:00:37.55,0:00:41.60,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\b0\c&H030303&\pos(659,255)}辭典內
+Dialogue: 0,0:00:37.55,0:00:41.60,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\b0\c&H030303&\pos(547,349)}用於解釋詞語的意義
+Dialogue: 0,0:00:38.39,0:00:41.06,Default,,0,0,0,,大家總是馬上想把釋義給說出來呢
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,

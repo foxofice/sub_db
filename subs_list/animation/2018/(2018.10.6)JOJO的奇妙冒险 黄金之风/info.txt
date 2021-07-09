@@ -1,0 +1,5 @@
+﻿chs: JOJO的奇妙冒险 黄金之风
+cht: JOJO的奇妙冒險 黃金之風
+jp: ジョジョの奇妙な冒険 黄金の風
+en: JoJo`s Bizarre Adventure: Golden Wind
+rome: JoJo no Kimyou na Bouken: Ougon no Kaze

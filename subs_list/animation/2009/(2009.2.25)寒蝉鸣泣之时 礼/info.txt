@@ -1,0 +1,5 @@
+﻿chs: 寒蝉鸣泣之时 礼
+cht: 寒蟬鳴泣之時 禮/暮蟬悲鳴時 禮
+jp: ひぐらしのなく頃に礼
+en: When They Cry: Rei
+rome: Higurashi no Naku Koro ni Rei

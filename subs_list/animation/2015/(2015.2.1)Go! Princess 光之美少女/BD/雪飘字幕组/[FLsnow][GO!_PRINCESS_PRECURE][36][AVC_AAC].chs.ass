@@ -1,0 +1,423 @@
+﻿[Script Info]
+Title:(アニメ) Go！プリンセスプリキュア 第36話 「波立つ心…！みなみの守りたいもの！」
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Original Translation: FLsnow
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Flora_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H644E008C,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Merma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64A85C00,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Twink_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Scarl_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000000FF,&H640000DD,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Aroma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DC619B,&H647C254D,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: MissS_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00555555,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: DDark_CN,Droid Sans Fallback,54,&H00000000,&H00FFFFFF,&H00DBDBDB,&H64FFFFFF,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: OP-CN,方正细圆_GBK,35,&H00E3E3E3,&H000000FF,&HC8000000,&H64000000,-1,0,0,0,100,100,2,0,1,1,2,2,10,10,5,1
+Style: ED-CN,方正细圆_GBK,40,&H00FFFFFF,&H000000FF,&H009D2ECD,&H649028BD,0,0,0,0,100,100,2,0,1,2,0,2,10,10,5,1
+Style: EDFlora-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H644E008C,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+Style: EDMerma-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H00E3AA14,&H64A85C00,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+Style: EDTwink-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H000EBAE6,&H644B96CB,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+Style: EDScarl-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H005225C6,&H641B07A2,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.40,0:00:15.36,Merma_CN,NTP,0,0,0,,蒂娜
+Dialogue: 0,0:00:17.58,0:00:19.41,Merma_CN,NTP,0,0,0,,贵安 蒂娜
+Dialogue: 0,0:00:20.63,0:00:23.89,Flora_CN,NTP,0,0,0,,那只海豚可是南姐姐的朋友呢
+Dialogue: 0,0:00:24.06,0:00:26.08,Defau_CN,NTP,0,0,0,,真不愧是海洋公主
+Dialogue: 0,0:00:26.32,0:00:28.86,Flora_CN,NTP,0,0,0,,能见到南姐姐的父母什么的
+Dialogue: 0,0:00:29.09,0:00:30.45,Flora_CN,NTP,0,0,0,,感觉好开心
+Dialogue: 0,0:00:30.66,0:00:34.01,Twink_CN,NTP,0,0,0,,毕竟是闻名全球的海藤集团的首脑
+Dialogue: 0,0:00:34.25,0:00:35.40,Merma_CN,NTP,0,0,0,,可以看到了
+Dialogue: 0,0:00:38.87,0:00:40.55,Flora_CN,NTP,0,0,0,,好大
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:02:46.90,0:02:49.97,Merma_CN,NTP,0,0,0,,真是好久不见了 父亲 母亲
+Dialogue: 0,0:02:50.12,0:02:52.63,Defau_CN,NTP,0,0,0,,嗯 看上去挺精神的啊 南
+Dialogue: 0,0:02:52.89,0:02:54.08,Defau_CN,NTP,0,0,0,,还好吧
+Dialogue: 0,0:02:54.27,0:02:56.95,Merma_CN,NTP,0,0,0,,嗯 每天过的都很开心
+Dialogue: 0,0:02:57.18,0:03:00.17,Defau_CN,NTP,0,0,0,,航 百忙之中前来 抱歉啊
+Dialogue: 0,0:03:00.36,0:03:04.50,Defau_CN,NTP,0,0,0,,没什么 只要是为了可爱的妹妹 不管怎样都会赶到的
+Dialogue: 0,0:03:04.89,0:03:06.58,Merma_CN,NTP,0,0,0,,谢谢你 哥哥
+Dialogue: 0,0:03:07.21,0:03:10.37,Flora_CN,NTP,0,0,0,,我是第一次见到 如此优秀的家人
+Dialogue: 0,0:03:10.55,0:03:12.30,Twink_CN,NTP,0,0,0,,好强的名人气场
+Dialogue: 0,0:03:12.51,0:03:13.60,Defau_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:03:15.49,0:03:17.47,Defau_CN,NTP,0,0,0,,这么晚过来打招呼真是抱歉
+Dialogue: 0,0:03:17.96,0:03:19.27,Flora_CN,NTP,0,0,0,,没 没事的
+Dialogue: 0,0:03:19.45,0:03:20.67,Flora_CN,NTP,0,0,0,,初次见面
+Dialogue: 0,0:03:20.88,0:03:23.30,Flora_CN,NTP,0,0,0,,我是 春...春野
+Dialogue: 0,0:03:23.68,0:03:25.54,Twink_CN,NTP,0,0,0,,自己的名字也会咬到么
+Dialogue: 0,0:03:25.75,0:03:27.43,Flora_CN,NTP,0,0,0,,毕 毕竟
+Dialogue: 0,0:03:27.62,0:03:29.51,Defau_CN,NTP,0,0,0,,真是个有趣的小姑娘呢
+Dialogue: 0,0:03:29.92,0:03:33.24,Defau_CN,NTP,0,0,0,,这次承蒙款待 真是感激不尽
+Dialogue: 0,0:03:34.10,0:03:37.30,Scarl_CN,NTP,0,0,0,,我们前来造访真的可以么
+Dialogue: 0,0:03:37.53,0:03:40.84,Defau_CN,NTP,0,0,0,,今天的聚会招待了很多重要的人物
+Dialogue: 0,0:03:41.24,0:03:45.53,Defau_CN,NTP,0,0,0,,我希望作为我女儿朋友的你们也能出席
+Dialogue: 0,0:03:45.96,0:03:48.93,Defau_CN,NTP,0,0,0,,各位 请尽情享受吧
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:52.35,0:03:55.51,Defau_CN,NTP,0,0,0,,波涛汹涌的内心...！南想要守护的东西！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:56.97,0:03:59.25,Defau_CN,NTP,0,0,0,,真的太合身了 南
+Dialogue: 0,0:03:59.44,0:04:03.32,Merma_CN,NTP,0,0,0,,其实无需特地为我定制新礼服的
+Dialogue: 0,0:04:03.93,0:04:06.66,Defau_CN,NTP,0,0,0,,这可是最重要的女儿的主场
+Dialogue: 0,0:04:07.18,0:04:10.51,Defau_CN,NTP,0,0,0,,我可是一直都在期待着的你进入海藤集团
+Dialogue: 0,0:04:10.79,0:04:12.78,Defau_CN,NTP,0,0,0,,没有比这更让我开心的了
+Dialogue: 0,0:04:13.06,0:04:14.49,Merma_CN,NTP,0,0,0,,母亲
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:04:16.47,0:04:18.40,Flora_CN,NTP,0,0,0,,在船上有泳池
+Dialogue: 0,0:04:19.09,0:04:20.44,Flora_CN,NTP,0,0,0,,电影院
+Dialogue: 0,0:04:20.86,0:04:22.86,Flora_CN,NTP,0,0,0,,甚至还有舞厅
+Dialogue: 0,0:04:23.06,0:04:24.88,Flora_CN,NTP,0,0,0,,真大
+Dialogue: 0,0:04:29.93,0:04:31.55,Merma_CN,NTP,0,0,0,,小遥看上去好开心
+Dialogue: 0,0:04:34.03,0:04:35.67,Flora_CN,NTP,0,0,0,,抱歉 不小心
+Dialogue: 0,0:04:36.02,0:04:37.71,Defau_CN,NTP,0,0,0,,这艘船叫『Sea Dream』
+Dialogue: 0,0:04:38.07,0:04:39.96,Defau_CN,NTP,0,0,0,,也就是海洋之梦
+Dialogue: 0,0:04:40.15,0:04:41.69,Defau_CN,NTP,0,0,0,,你知道其中的缘由么
+Dialogue: 0,0:04:43.37,0:04:47.04,Defau_CN,NTP,0,0,0,,在海洋中使人仿佛置身于梦境中 开心地度过每一天
+Dialogue: 0,0:04:47.40,0:04:49.41,Defau_CN,NTP,0,0,0,,怀着这样的祝愿 为其如此命名的
+Dialogue: 0,0:04:49.68,0:04:53.27,Defau_CN,NTP,0,0,0,,我们会因你们的笑容而感到高兴
+Dialogue: 0,0:05:01.42,0:05:03.37,Flora_CN,NTP,0,0,0,,你哥哥虽然很出色
+Dialogue: 0,0:05:03.55,0:05:06.09,Flora_CN,NTP,0,0,0,,不过你爹父母更加完美呢
+Dialogue: 0,0:05:06.27,0:05:09.05,Twink_CN,NTP,0,0,0,,我能理解南南为何会憧憬了
+Dialogue: 0,0:05:09.25,0:05:10.24,Merma_CN,NTP,0,0,0,,谢谢
+Dialogue: 0,0:05:10.48,0:05:14.52,Defau_CN,NTP,0,0,0,,小南以后也打算进入海藤集团工作是吧
+Dialogue: 0,0:05:14.71,0:05:15.47,Merma_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:05:15.68,0:05:18.11,Merma_CN,NTP,0,0,0,,我也想成为像哥哥以及父母那样
+Dialogue: 0,0:05:18.27,0:05:20.49,Merma_CN,NTP,0,0,0,,能为别人做些什么
+Dialogue: 0,0:05:20.87,0:05:23.57,Merma_CN,NTP,0,0,0,,这是我从小就有的梦想
+Dialogue: 0,0:05:23.85,0:05:26.33,Scarl_CN,NTP,0,0,0,,这梦想太棒了
+Dialogue: 0,0:05:26.75,0:05:27.86,Defau_CN,NTP,0,0,0,,梦想
+Dialogue: 0,0:05:37.00,0:05:38.52,Merma_CN,NTP,0,0,0,,蒂娜
+Dialogue: 0,0:05:43.67,0:05:45.15,Merma_CN,NTP,0,0,0,,是谁呀
+Dialogue: 0,0:05:50.34,0:05:51.61,Merma_CN,NTP,0,0,0,,蒂娜
+Dialogue: 0,0:05:58.23,0:05:59.92,Merma_CN,NTP,0,0,0,,真是的
+Dialogue: 0,0:06:03.24,0:06:05.12,Defau_CN,NTP,0,0,0,,你真厉害呀
+Dialogue: 0,0:06:06.42,0:06:10.70,Defau_CN,NTP,0,0,0,,我可是第一次看到能如此驾驭野生海豚的人啊
+Dialogue: 0,0:06:10.91,0:06:14.18,Merma_CN,NTP,0,0,0,,蒂娜在我小时候就已经是朋友了
+Dialogue: 0,0:06:14.36,0:06:16.11,Defau_CN,NTP,0,0,0,,那孩子叫蒂娜啊
+Dialogue: 0,0:06:16.50,0:06:17.46,Defau_CN,NTP,0,0,0,,你呢
+Dialogue: 0,0:06:19.29,0:06:20.85,Merma_CN,NTP,0,0,0,,我叫海藤南
+Dialogue: 0,0:06:21.33,0:06:23.81,Defau_CN,NTP,0,0,0,,海藤...
+Dialogue: 0,0:06:24.46,0:06:26.64,Defau_CN,NTP,0,0,0,,我叫北风明日香
+Dialogue: 0,0:06:27.37,0:06:29.09,Defau_CN,NTP,0,0,0,,请多指教 小南
+Dialogue: 0,0:06:30.22,0:06:31.61,Merma_CN,NTP,0,0,0,,哪里哪里
+Dialogue: 0,0:06:33.20,0:06:36.43,Defau_CN,NTP,0,0,0,,哎呀 得回去了
+Dialogue: 0,0:06:36.71,0:06:37.84,Defau_CN,NTP,0,0,0,,拜拜
+Dialogue: 0,0:06:38.03,0:06:39.41,Defau_CN,NTP,0,0,0,,有什么急事么
+Dialogue: 0,0:06:39.64,0:06:41.31,Defau_CN,NTP,0,0,0,,是工作啦
+Dialogue: 0,0:06:41.50,0:06:42.52,Flora_CN,NTP,0,0,0,,工作么
+Dialogue: 0,0:06:42.72,0:06:43.93,Defau_CN,NTP,0,0,0,,我是兽医
+Dialogue: 0,0:06:44.24,0:06:46.61,Defau_CN,NTP,0,0,0,,是被附近的水族馆请过来的
+Dialogue: 0,0:06:46.99,0:06:49.04,Defau_CN,NTP,0,0,0,,负责海洋生物的医生
+Dialogue: 0,0:06:50.37,0:06:52.21,Flora_CN,NTP,0,0,0,,是做怎样的工作呢
+Dialogue: 0,0:06:52.46,0:06:54.30,Defau_CN,NTP,0,0,0,,感兴趣的话那就过来看看吧
+Dialogue: 0,0:06:54.60,0:06:55.68,Flora_CN,NTP,0,0,0,,可以么
+Dialogue: 0,0:06:55.92,0:06:57.02,Defau_CN,NTP,0,0,0,,当然啦
+Dialogue: 0,0:06:57.26,0:06:58.81,Flora_CN,NTP,0,0,0,,太棒了
+Dialogue: 0,0:06:58.99,0:07:00.19,Flora_CN,NTP,0,0,0,,大家一起去吧
+Dialogue: 0,0:07:01.11,0:07:03.23,Merma_CN,NTP,0,0,0,,虽然难得 不过我就
+Dialogue: 0,0:07:04.08,0:07:07.08,Flora_CN,NTP,0,0,0,,诶 一起去吧
+Dialogue: 0,0:07:07.29,0:07:09.56,Merma_CN,NTP,0,0,0,,今天有重要的聚会
+Dialogue: 0,0:07:09.76,0:07:11.29,Twink_CN,NTP,0,0,0,,还是有些时间的
+Dialogue: 0,0:07:11.52,0:07:14.44,Defau_CN,NTP,0,0,0,,我去和你父亲说下吧
+Dialogue: 0,0:07:14.69,0:07:15.55,Defau_CN,NTP,0,0,0,,去吧
+Dialogue: 0,0:07:17.55,0:07:19.97,Flora_CN,NTP,0,0,0,,一起去吧 呐 呢
+Dialogue: 0,0:07:21.62,0:07:23.07,Merma_CN,NTP,0,0,0,,那就一会儿吧
+Dialogue: 0,0:07:28.28,0:07:30.48,Flora_CN,NTP,0,0,0,,好多鱼啊
+Dialogue: 0,0:07:30.91,0:07:33.87,Defau_CN,NTP,0,0,0,,那只螃蟹 就像是在跳舞
+Dialogue: 0,0:07:39.46,0:07:41.21,Merma_CN,NTP,0,0,0,,你是在看什么呢
+Dialogue: 0,0:07:41.53,0:07:44.70,Defau_CN,NTP,0,0,0,,正在检查是否有无精打采的鱼
+Dialogue: 0,0:07:44.89,0:07:46.18,Defau_CN,NTP,0,0,0,,首先是观察
+Dialogue: 0,0:07:51.68,0:07:55.42,Merma_CN,NTP,0,0,0,,那条鱼我感觉好像行动有些迟缓
+Dialogue: 0,0:07:56.41,0:07:57.39,Defau_CN,NTP,0,0,0,,真的耶
+Dialogue: 0,0:07:57.63,0:07:59.21,Defau_CN,NTP,0,0,0,,你观察的挺仔细的啊
+Dialogue: 0,0:07:59.38,0:08:00.70,Defau_CN,NTP,0,0,0,,之后会再进行观察的
+Dialogue: 0,0:08:05.97,0:08:07.84,Flora_CN,NTP,0,0,0,,哇 笑啦
+Dialogue: 0,0:08:08.08,0:08:10.31,Flora_CN,NTP,0,0,0,,这只海豹好可爱啊
+Dialogue: 0,0:08:10.72,0:08:12.03,Defau_CN,NTP,0,0,0,,这是海狮
+Dialogue: 0,0:08:12.29,0:08:13.71,Defau_CN,NTP,0,0,0,,比海豹还要大的
+Dialogue: 0,0:08:13.92,0:08:15.28,Defau_CN,NTP,0,0,0,,是用前鳍来游泳的
+Dialogue: 0,0:08:15.47,0:08:17.43,Defau_CN,NTP,0,0,0,,以及有小耳垂
+Dialogue: 0,0:08:17.66,0:08:18.67,Flora_CN,NTP,0,0,0,,诶
+Dialogue: 0,0:08:19.11,0:08:20.77,Defau_CN,NTP,0,0,0,,那边有乌龟
+Dialogue: 0,0:08:21.57,0:08:22.92,Scarl_CN,NTP,0,0,0,,哇 好大
+Dialogue: 0,0:08:23.10,0:08:24.19,Twink_CN,NTP,0,0,0,,去吧去吧
+Dialogue: 0,0:08:24.38,0:08:25.61,Flora_CN,NTP,0,0,0,,乌龟
+Dialogue: 0,0:08:30.07,0:08:31.90,Merma_CN,NTP,0,0,0,,前鳍和小耳垂
+Dialogue: 0,0:08:32.09,0:08:33.59,Merma_CN,NTP,0,0,0,,真的呢
+Dialogue: 0,0:08:37.94,0:08:39.21,Flora_CN,NTP,0,0,0,,抱歉
+Dialogue: 0,0:08:39.75,0:08:40.91,Flora_CN,NTP,0,0,0,,吃下去了
+Dialogue: 0,0:08:41.91,0:08:43.45,Scarl_CN,NTP,0,0,0,,真的太可爱了
+Dialogue: 0,0:08:43.64,0:08:45.33,Twink_CN,NTP,0,0,0,,好 好可爱
+Dialogue: 0,0:08:45.83,0:08:48.77,Scarl_CN,NTP,0,0,0,,不过稍微有些可怜啊
+Dialogue: 0,0:08:48.96,0:08:50.37,Twink_CN,NTP,0,0,0,,是啊
+Dialogue: 0,0:08:50.56,0:08:51.71,Defau_CN,NTP,0,0,0,,这么说的话
+Dialogue: 0,0:08:51.89,0:08:53.54,Defau_CN,NTP,0,0,0,,就会变成什么都不能吃了
+Dialogue: 0,0:08:55.23,0:08:58.16,Defau_CN,NTP,0,0,0,,我们是通过其他的生命体存活下来的
+Dialogue: 0,0:08:58.39,0:08:59.83,Defau_CN,NTP,0,0,0,,并不只是鱼
+Dialogue: 0,0:09:00.05,0:09:01.59,Defau_CN,NTP,0,0,0,,其他的食物也是如此
+Dialogue: 0,0:09:02.16,0:09:04.39,Defau_CN,NTP,0,0,0,,人类以及海洋都是如此循环着
+Dialogue: 0,0:09:04.78,0:09:07.38,Defau_CN,NTP,0,0,0,,对于生存而言这是理所当然的
+Dialogue: 0,0:09:08.00,0:09:11.52,Defau_CN,NTP,0,0,0,,所以 我开动了 多谢款待
+Dialogue: 0,0:09:11.99,0:09:13.68,Defau_CN,NTP,0,0,0,,只要不忘记感恩的心情
+Dialogue: 0,0:09:13.88,0:09:15.07,Defau_CN,NTP,0,0,0,,这就足够了
+Dialogue: 0,0:09:16.34,0:09:19.06,Merma_CN,NTP,0,0,0,,以往都未曾如此想过
+Dialogue: 0,0:09:19.39,0:09:21.52,Defau_CN,NTP,0,0,0,,嘛 一般都是如此啦
+Dialogue: 0,0:09:22.35,0:09:24.90,Merma_CN,NTP,0,0,0,,话说 你在记录什么呀
+Dialogue: 0,0:09:25.07,0:09:28.03,Defau_CN,NTP,0,0,0,,记录这些动物们吃了多少
+Dialogue: 0,0:09:28.27,0:09:29.38,Merma_CN,NTP,0,0,0,,这是为什么呐
+Dialogue: 0,0:09:29.69,0:09:31.34,Defau_CN,NTP,0,0,0,,如果有没食欲的动物的话
+Dialogue: 0,0:09:31.58,0:09:34.21,Defau_CN,NTP,0,0,0,,就会检查是否受伤亦或是生病了么
+Dialogue: 0,0:09:36.17,0:09:37.47,Merma_CN,NTP,0,0,0,,明日香在的话
+Dialogue: 0,0:09:37.68,0:09:39.60,Merma_CN,NTP,0,0,0,,这些动物们就都能安心了呢
+Dialogue: 0,0:09:39.80,0:09:41.25,Defau_CN,NTP,0,0,0,,并非如此
+Dialogue: 0,0:09:42.12,0:09:46.17,Defau_CN,NTP,0,0,0,,也有无法顺利进行治疗 束手无策的情况
+Dialogue: 0,0:09:46.35,0:09:48.40,Defau_CN,NTP,0,0,0,,海洋 以及海中生物
+Dialogue: 0,0:09:48.61,0:09:50.86,Defau_CN,NTP,0,0,0,,依旧还有许多是未知的
+Dialogue: 0,0:09:51.44,0:09:53.03,Defau_CN,NTP,0,0,0,,每天都在学习着呢
+Dialogue: 0,0:09:53.80,0:09:56.30,Defau_CN,NTP,0,0,0,,如果通过这些动物能取得研究进展的话
+Dialogue: 0,0:09:56.55,0:10:01.43,Defau_CN,NTP,0,0,0,,也许就能找到保护正在减少的生物们的方法
+Dialogue: 0,0:10:02.02,0:10:05.24,Merma_CN,NTP,0,0,0,,非常具有意义的工作呢
+Dialogue: 0,0:10:05.61,0:10:06.53,Defau_CN,NTP,0,0,0,,有兴趣么
+Dialogue: 0,0:10:07.99,0:10:09.56,Defau_CN,NTP,0,0,0,,小南也来怎样
+Dialogue: 0,0:10:09.74,0:10:10.87,Merma_CN,NTP,0,0,0,,诶
+Dialogue: 0,0:10:11.06,0:10:13.80,Defau_CN,NTP,0,0,0,,我感觉你很适合这个工作
+Dialogue: 0,0:10:14.40,0:10:16.05,Merma_CN,NTP,0,0,0,,何出此言
+Dialogue: 0,0:10:17.49,0:10:20.84,Defau_CN,NTP,0,0,0,,嗯 个人感觉吧
+Dialogue: 0,0:10:22.48,0:10:25.48,Scarl_CN,NTP,0,0,0,,啊 吃下去了
+Dialogue: 0,0:10:26.28,0:10:27.76,Defau_CN,NTP,0,0,0,,好了要前往下个地点啦
+Dialogue: 0,0:10:27.93,0:10:29.54,Flora_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:10:42.90,0:10:45.29,Defau_CN,NTP,0,0,0,,在大家愉快享受的时候打扰了
+Dialogue: 0,0:10:46.01,0:10:50.22,Defau_CN,NTP,0,0,0,,今天我要向大家介绍我的女儿
+Dialogue: 0,0:10:52.56,0:10:57.47,Merma_CN,NTP,0,0,0,,各位 初次见面 我是海藤南
+Dialogue: 0,0:10:58.66,0:11:00.23,Defau_CN,NTP,0,0,0,,真是一位优秀的大小姐啊
+Dialogue: 0,0:11:01.01,0:11:02.49,Flora_CN,NTP,0,0,0,,真漂亮
+Dialogue: 0,0:11:02.68,0:11:10.15,Merma_CN,NTP,0,0,0,,在不久的将来 我想与家人以及各位为海藤集团竭尽全力
+Dialogue: 0,0:11:10.59,0:11:13.98,Defau_CN,NTP,0,0,0,,这是吾妹从小就有的梦想
+Dialogue: 0,0:11:14.28,0:11:17.69,Defau_CN,NTP,0,0,0,,到那时 请各位多多相助
+Dialogue: 0,0:11:17.93,0:11:20.78,Defau_CN,NTP,0,0,0,,我们一家人将会齐心协力前进
+Dialogue: 0,0:11:20.94,0:11:24.69,Defau_CN,NTP,0,0,0,,今后 海藤集团也请各位多多关照
+Dialogue: 0,0:11:32.44,0:11:33.47,Merma_CN,NTP,0,0,0,,明日香姐
+Dialogue: 0,0:11:33.64,0:11:35.46,Defau_CN,NTP,0,0,0,,抱歉 这幅打扮
+Dialogue: 0,0:11:35.65,0:11:36.99,Merma_CN,NTP,0,0,0,,你为什么会来这里
+Dialogue: 0,0:11:37.16,0:11:40.02,Defau_CN,NTP,0,0,0,,啊 其实也没什么
+Dialogue: 0,0:11:40.37,0:11:42.42,Defau_CN,NTP,0,0,0,,哎呀 这不是北风博士么
+Dialogue: 0,0:11:42.59,0:11:43.63,Merma_CN,NTP,0,0,0,,博士...
+Dialogue: 0,0:11:43.84,0:11:44.51,Defau_CN,NTP,0,0,0,,你好
+Dialogue: 0,0:11:45.49,0:11:47.00,Merma_CN,NTP,0,0,0,,熟人么
+Dialogue: 0,0:11:47.21,0:11:49.43,Defau_CN,NTP,0,0,0,,这位可是闻名世界的海洋学者
+Dialogue: 0,0:11:49.61,0:11:51.85,Defau_CN,NTP,0,0,0,,兽医的北风博士啊
+Dialogue: 0,0:11:54.20,0:11:57.55,Defau_CN,NTP,0,0,0,,我本以为你不会来
+Dialogue: 0,0:11:57.76,0:12:02.24,Defau_CN,NTP,0,0,0,,毕竟听闻博士几乎不出席这种场合
+Dialogue: 0,0:12:02.42,0:12:04.92,Defau_CN,NTP,0,0,0,,嘛 一直是这样没错啦
+Dialogue: 0,0:12:05.13,0:12:08.29,Defau_CN,NTP,0,0,0,,今天是因为工作 所以才凑巧在附近而已
+Dialogue: 0,0:12:08.50,0:12:11.36,Defau_CN,NTP,0,0,0,,你重新考虑过那些话了么
+Dialogue: 0,0:12:11.72,0:12:13.69,Defau_CN,NTP,0,0,0,,请务必加入我的海藤集团
+Dialogue: 0,0:12:13.88,0:12:16.27,Defau_CN,NTP,0,0,0,,我们需要博士的才能
+Dialogue: 0,0:12:17.20,0:12:19.02,Defau_CN,NTP,0,0,0,,非常抱歉
+Dialogue: 0,0:12:19.22,0:12:20.78,Defau_CN,NTP,0,0,0,,答案是不会改变的
+Dialogue: 0,0:12:20.97,0:12:22.35,Defau_CN,NTP,0,0,0,,我拒绝
+Dialogue: 0,0:12:23.29,0:12:26.40,Defau_CN,NTP,0,0,0,,我们会全面援助博士的研究哟
+Dialogue: 0,0:12:26.59,0:12:30.48,Defau_CN,NTP,0,0,0,,这么一说我还有些心动了呢
+Dialogue: 0,0:12:30.74,0:12:35.55,Defau_CN,NTP,0,0,0,,不过 我比较想忠于自己的内心
+Dialogue: 0,0:12:35.85,0:12:37.84,Merma_CN,NTP,0,0,0,,自己的内心
+Dialogue: 0,0:12:38.28,0:12:41.76,Defau_CN,NTP,0,0,0,,为公司尽力确实是个不错的工作
+Dialogue: 0,0:12:41.98,0:12:43.79,Defau_CN,NTP,0,0,0,,但是进去之后
+Dialogue: 0,0:12:43.99,0:12:45.77,Defau_CN,NTP,0,0,0,,会被形形色色所束缚
+Dialogue: 0,0:12:46.15,0:12:49.32,Defau_CN,NTP,0,0,0,,最终失去了自己的梦想
+Dialogue: 0,0:12:49.82,0:12:50.92,Merma_CN,NTP,0,0,0,,梦想
+Dialogue: 0,0:12:51.08,0:12:53.05,Defau_CN,NTP,0,0,0,,我想要了解大海
+Dialogue: 0,0:12:53.54,0:12:55.10,Defau_CN,NTP,0,0,0,,不想受到束缚
+Dialogue: 0,0:12:55.41,0:12:56.77,Defau_CN,NTP,0,0,0,,用自己的双眼去注视
+Dialogue: 0,0:12:57.38,0:13:00.06,Defau_CN,NTP,0,0,0,,用自己的内心和身体去感受
+Dialogue: 0,0:13:00.54,0:13:07.05,Defau_CN,NTP,0,0,0,,因此 我希望能像纵身于大海间那般自由
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:13:15.30,0:13:16.49,DDark_CN,NTP,0,0,0,,是笑声啊
+Dialogue: 0,0:13:16.86,0:13:18.80,DDark_CN,NTP,0,0,0,,洋溢着梦想啊
+Dialogue: 0,0:13:26.90,0:13:30.11,Defau_CN,NTP,0,0,0,,什么 今天是化妆舞会么
+Dialogue: 0,0:13:30.30,0:13:32.44,DDark_CN,NTP,0,0,0,,你的梦想 让我瞧瞧
+Dialogue: 0,0:13:35.73,0:13:37.08,Defau_CN,NTP,0,0,0,,想要了解海洋
+Dialogue: 0,0:13:38.28,0:13:40.32,DDark_CN,NTP,0,0,0,,将其关进绝望的牢笼中
+Dialogue: 0,0:13:40.61,0:13:41.17,DDark_CN,NTP,0,0,0,,Stop
+Dialogue: 0,0:13:41.37,0:13:42.26,DDark_CN,NTP,0,0,0,,Freeze
+Dialogue: 0,0:13:42.65,0:13:44.41,DDark_CN,NTP,0,0,0,,your dream
+Dialogue: 0,0:13:45.13,0:13:46.93,DDark_CN,NTP,0,0,0,,去吧 绝望堡
+Dialogue: 0,0:13:54.43,0:13:56.59,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:14:02.10,0:14:04.62,Flora_CN,NTP,0,0,0,,南姐姐 南姐姐
+Dialogue: 0,0:14:04.83,0:14:05.97,Merma_CN,NTP,0,0,0,,啊
+Dialogue: 0,0:14:06.16,0:14:07.68,Flora_CN,NTP,0,0,0,,怎么啦
+Dialogue: 0,0:14:08.47,0:14:09.67,Twink_CN,NTP,0,0,0,,真少见呢
+Dialogue: 0,0:14:09.95,0:14:11.91,Twink_CN,NTP,0,0,0,,南南竟然会发呆
+Dialogue: 0,0:14:12.11,0:14:13.68,Scarl_CN,NTP,0,0,0,,发生了什么吗
+Dialogue: 0,0:14:13.97,0:14:15.46,Merma_CN,NTP,0,0,0,,什么都没有
+Dialogue: 0,0:14:21.31,0:14:22.35,Defau_CN,NTP,0,0,0,,那是
+Dialogue: 0,0:14:22.53,0:14:23.48,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:14:26.39,0:14:27.55,Merma_CN,NTP,0,0,0,,明日香姐
+Dialogue: 0,0:14:27.88,0:14:29.11,DDark_CN,NTP,0,0,0,,梦想结束了
+Dialogue: 0,0:14:29.29,0:14:30.95,DDark_CN,NTP,0,0,0,,绝望开始了
+Dialogue: 0,0:14:31.14,0:14:32.15,Merma_CN,NTP,0,0,0,,不会让你得逞的
+Dialogue: 0,0:14:32.48,0:14:34.34,Merma_CN,NTP,0,0,0,,我会夺回明日香姐的
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:14:36.50,0:14:38.00,Flora_CN,NTP,0,0,0,,{\pos(465,705)}Precure
+Dialogue: 0,0:14:38.66,0:14:40.76,Flora_CN,NTP,0,0,0,,{\pos(485,705)}Princess Engage
+Dialogue: 0,0:14:36.50,0:14:38.00,Scarl_CN,NTP,0,0,0,,{\pos(830,705)}Precure
+Dialogue: 0,0:14:38.66,0:14:40.76,Scarl_CN,NTP,0,0,0,,{\pos(810,655)}Princess Engage
+Dialogue: 0,0:14:36.50,0:14:38.00,Twink_CN,NTP,0,0,0,,{\pos(160,705)}Precure
+Dialogue: 0,0:14:38.66,0:14:40.76,Twink_CN,NTP,0,0,0,,{\pos(185,655)}Princess Engage
+Dialogue: 0,0:14:36.50,0:14:38.00,Merma_CN,NTP,0,0,0,,{\pos(1160,705)}Precure
+Dialogue: 0,0:14:38.66,0:14:40.76,Merma_CN,NTP,0,0,0,,{\pos(1110,705)}Princess Engage
+Dialogue: 0,0:15:18.90,0:15:22.06,Flora_CN,NTP,0,0,0,,绽放的花朵公主
+Dialogue: 0,0:15:24.57,0:15:26.37,Flora_CN,NTP,0,0,0,,Cure Flora
+Dialogue: 0,0:15:28.37,0:15:32.18,Merma_CN,NTP,0,0,0,,澄澈的海洋公主
+Dialogue: 0,0:15:34.75,0:15:36.86,Merma_CN,NTP,0,0,0,,Cure Mermaid
+Dialogue: 0,0:15:40.35,0:15:42.65,Twink_CN,NTP,0,0,0,,闪耀的明星公主
+Dialogue: 0,0:15:45.39,0:15:47.28,Twink_CN,NTP,0,0,0,,Cure Twinkle
+Dialogue: 0,0:15:50.11,0:15:52.11,Scarl_CN,NTP,0,0,0,,真红的烈焰公主
+Dialogue: 0,0:15:55.87,0:15:57.64,Scarl_CN,NTP,0,0,0,,Cure Scarlet
+Dialogue: 0,0:15:59.98,0:16:00.72,Flora_CN,NTP,0,0,0,,坚强
+Dialogue: 0,0:16:00.91,0:16:01.89,Merma_CN,NTP,0,0,0,,温柔
+Dialogue: 0,0:16:02.06,0:16:03.21,Twink_CN,NTP,0,0,0,,美丽
+Dialogue: 0,0:16:03.83,0:16:04.94,Scarl_CN,NTP,0,0,0,,Go！
+Dialogue: 0,0:16:05.27,0:16:07.02,Flora_CN,NTP,0,0,0,,Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:16:09.95,0:16:12.31,Merma_CN,NTP,0,0,0,,关在冰冷牢笼里的梦想
+Dialogue: 0,0:16:14.82,0:16:16.75,Merma_CN,NTP,0,0,0,,是时候归还了
+Dialogue: 0,0:16:17.13,0:16:19.33,Merma_CN,NTP,0,0,0,,做好觉悟了吧？
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:16:19.71,0:16:22.37,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:16:23.10,0:16:24.52,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:16:27.30,0:16:28.74,Defau_CN,NTP,0,0,0,,那是什么
+Dialogue: 0,0:16:30.05,0:16:31.92,Defau_CN,NTP,0,0,0,,很危险 快去避一下
+Dialogue: 0,0:16:32.10,0:16:33.26,Defau_CN,NTP,0,0,0,,你们先走吧
+Dialogue: 0,0:16:33.44,0:16:36.16,Defau_CN,NTP,0,0,0,,我有守护这艘船的义务
+Dialogue: 0,0:16:36.84,0:16:38.63,Defau_CN,NTP,0,0,0,,你是谁
+Dialogue: 0,0:16:38.79,0:16:41.28,DDark_CN,NTP,0,0,0,,绝望...绝望堡
+Dialogue: 0,0:16:44.75,0:16:45.47,Defau_CN,NTP,0,0,0,,你是？
+Dialogue: 0,0:16:45.68,0:16:47.16,Merma_CN,NTP,0,0,0,,请去帮助客人们避难
+Dialogue: 0,0:16:47.49,0:16:49.49,Merma_CN,NTP,0,0,0,,我定会守护这艘船的
+Dialogue: 0,0:16:50.81,0:16:52.19,Merma_CN,NTP,0,0,0,,去吧 快点
+Dialogue: 0,0:16:52.80,0:16:54.89,Defau_CN,NTP,0,0,0,,嗯 抱歉
+Dialogue: 0,0:16:56.05,0:16:57.29,Twink_CN,NTP,0,0,0,,月亮
+Dialogue: 0,0:16:57.99,0:17:01.36,Twink_CN,NTP,0,0,0,,Precure Full Moon Humming
+Dialogue: 0,0:17:02.33,0:17:03.26,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:17:05.18,0:17:06.78,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:09.36,0:17:10.99,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:17:14.25,0:17:16.60,DDark_CN,NTP,0,0,0,,绝望...堡
+Dialogue: 0,0:17:22.24,0:17:24.00,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:17:26.88,0:17:28.36,Merma_CN,NTP,0,0,0,,我是你的对手
+Dialogue: 0,0:17:28.89,0:17:30.15,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:17:33.84,0:17:35.03,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:17:35.77,0:17:37.16,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:17:39.12,0:17:40.44,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:17:40.61,0:17:45.87,Merma_CN,NTP,0,0,0,,这艘船连结着我父母希望所有人都能幸福的梦想
+Dialogue: 0,0:17:46.24,0:17:48.34,Merma_CN,NTP,0,0,0,,绝不会允许你破坏它
+Dialogue: 0,0:17:48.76,0:17:49.96,Merma_CN,NTP,0,0,0,,泡泡
+Dialogue: 0,0:17:50.68,0:17:52.55,Merma_CN,NTP,0,0,0,,咆哮吧 泡泡
+Dialogue: 0,0:17:52.86,0:17:55.84,Merma_CN,NTP,0,0,0,,Precure Bubble Ripple
+Dialogue: 0,0:18:01.28,0:18:03.33,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:18:03.63,0:18:04.83,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:18:08.00,0:18:10.18,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:18:12.36,0:18:13.41,Merma_CN,NTP,0,0,0,,冰雪
+Dialogue: 0,0:18:14.32,0:18:17.73,Merma_CN,NTP,0,0,0,,Precure Frozen Ripple
+Dialogue: 0,0:18:23.15,0:18:24.21,Merma_CN,NTP,0,0,0,,各位
+Dialogue: 0,0:18:41.23,0:18:43.11,Flora_CN,NTP,0,0,0,,优雅模式
+Dialogue: 0,0:18:41.23,0:18:43.11,Flora_CN,NTP,0,0,0,,{\pos(640,650)}{\fs30}Mode Elegant
+Dialogue: 0,0:18:51.07,0:18:51.83,Flora_CN,NTP,0,0,0,,樱花
+Dialogue: 0,0:18:52.04,0:18:52.96,Merma_CN,NTP,0,0,0,,珊瑚
+Dialogue: 0,0:18:53.17,0:18:54.04,Twink_CN,NTP,0,0,0,,银河
+Dialogue: 0,0:18:54.27,0:18:55.28,Scarl_CN,NTP,0,0,0,,太阳
+Dialogue: 0,0:19:16.78,0:19:19.71,Merma_CN,NTP,0,0,0,,Dress Up Premium
+Dialogue: 0,0:19:33.10,0:19:36.30,Merma_CN,NTP,0,0,0,,响彻吧 所有的力量
+Dialogue: 0,0:19:38.34,0:19:45.07,Merma_CN,NTP,0,0,0,,Precure Eclat Espoir
+Dialogue: 0,0:19:48.20,0:19:50.75,DDark_CN,NTP,0,0,0,,Dreaming
+Dialogue: 0,0:19:58.13,0:19:59.58,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:03.53,0:20:05.69,DDark_CN,NTP,0,0,0,,梦想 永不停歇
+Dialogue: 0,0:20:05.92,0:20:07.66,DDark_CN,NTP,0,0,0,,永不冻结
+Dialogue: 0,0:20:07.94,0:20:10.48,DDark_CN,NTP,0,0,0,,但是绝望吧
+Dialogue: 0,0:20:16.52,0:20:17.51,Merma_CN,NTP,0,0,0,,打开
+Dialogue: 0,0:20:18.58,0:20:20.28,Merma_CN,NTP,0,0,0,,通往梦想的大门
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:28.50,0:20:30.36,Merma_CN,NTP,0,0,0,,没事真是太好了
+Dialogue: 0,0:20:32.53,0:20:35.25,Defau_CN,NTP,0,0,0,,我想要了解大海
+Dialogue: 0,0:20:45.10,0:20:47.51,Defau_CN,NTP,0,0,0,,那究竟是怎么一回事
+Dialogue: 0,0:20:47.68,0:20:49.91,Defau_CN,NTP,0,0,0,,让大家留下了不好的回忆了吧
+Dialogue: 0,0:20:50.10,0:20:50.91,Flora_CN,NTP,0,0,0,,没有没有
+Dialogue: 0,0:20:51.08,0:20:53.20,Flora_CN,NTP,0,0,0,,聚会非常的开心
+Dialogue: 0,0:20:53.39,0:20:54.42,Defau_CN,NTP,0,0,0,,但是
+Dialogue: 0,0:20:54.60,0:20:56.66,Defau_CN,NTP,0,0,0,,那些孩子究竟是去了哪里
+Dialogue: 0,0:20:56.83,0:20:59.37,Defau_CN,NTP,0,0,0,,承蒙蓝发的那个孩子出手相救了呢
+Dialogue: 0,0:21:02.49,0:21:04.72,Merma_CN,NTP,0,0,0,,还能再见面真是太开心了
+Dialogue: 0,0:21:04.89,0:21:05.86,Defau_CN,NTP,0,0,0,,我也是
+Dialogue: 0,0:21:06.27,0:21:10.59,Defau_CN,NTP,0,0,0,,其实是为了再见你一面才去聚会的
+Dialogue: 0,0:21:11.86,0:21:14.97,Defau_CN,NTP,0,0,0,,被大海以及海中的生物所吸引
+Dialogue: 0,0:21:15.50,0:21:16.94,Defau_CN,NTP,0,0,0,,所以想去了解
+Dialogue: 0,0:21:17.23,0:21:18.30,Defau_CN,NTP,0,0,0,,怎么说呢
+Dialogue: 0,0:21:18.47,0:21:21.37,Defau_CN,NTP,0,0,0,,稍微和我有些相似呢
+Dialogue: 0,0:21:23.18,0:21:24.10,Defau_CN,NTP,0,0,0,,所以
+Dialogue: 0,0:21:24.28,0:21:26.24,Defau_CN,NTP,0,0,0,,如果有那想法的话
+Dialogue: 0,0:21:26.59,0:21:29.53,Defau_CN,NTP,0,0,0,,找个机会 我们一起
+Dialogue: 0,0:21:32.98,0:21:35.64,Defau_CN,NTP,0,0,0,,什么嘛 只是稍微想了下而已
+Dialogue: 0,0:21:36.58,0:21:39.37,Defau_CN,NTP,0,0,0,,在海藤集团和家人一起工作
+Dialogue: 0,0:21:39.65,0:21:42.72,Defau_CN,NTP,0,0,0,,那是你的梦想对吧
+Dialogue: 0,0:21:45.21,0:21:46.39,Defau_CN,NTP,0,0,0,,太棒了
+Dialogue: 0,0:21:46.54,0:21:47.93,Defau_CN,NTP,0,0,0,,不错的梦想
+Dialogue: 0,0:21:48.11,0:21:49.84,Defau_CN,NTP,0,0,0,,这套礼服也挺合身的
+Dialogue: 0,0:21:50.03,0:21:51.71,Merma_CN,NTP,0,0,0,,谢谢你
+Dialogue: 0,0:21:52.34,0:21:53.51,Defau_CN,NTP,0,0,0,,那么我走了
+Dialogue: 0,0:21:53.68,0:21:54.74,Merma_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:21:55.05,0:21:57.39,Merma_CN,NTP,0,0,0,,贵安 明日香姐
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:23:51.34,0:23:54.71,Flora_CN,NTP,0,0,0,,啊 罗密欧 为什么你偏偏是罗密欧
+Dialogue: 0,0:23:55.11,0:23:57.08,Flora_CN,NTP,0,0,0,,Go！Princess  Precure
+Dialogue: 0,0:23:57.28,0:24:00.35,Flora_CN,NTP,0,0,0,,小遥是主演！？乱七八糟的浪漫戏剧
+Dialogue: 0,0:24:00.66,0:24:02.00,Flora_CN,NTP,0,0,0,,朝着梦想 Go!Go!
+Dialogue: 0,0:24:02.17,0:24:03.48,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========OP========
+Dialogue: 0,0:00:46.44,0:00:48.83,Merma_CN,NTP,0,0,0,,坚强 温柔 美丽
+Dialogue: 0,0:00:49.23,0:00:52.15,Merma_CN,NTP,0,0,0,,这是打算成为真正公主的四个人的故事
+Dialogue: 0,0:00:52.45,0:00:56.35,Merma_CN,NTP,0,0,0,,朝着梦想 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:01:02.06,0:01:08.29,OP-CN,NTP,0,0,0,,展翅高飞Princess 轻轻飘飘笔直飞向梦想!!
+Dialogue: 0,0:01:08.54,0:01:15.49,OP-CN,NTP,0,0,0,,努力之后Happy Come! 引发奇迹 Go! Princess Precure
+Dialogue: 0,0:01:19.83,0:01:24.83,OP-CN,NTP,0,0,0,,笑脸是宝石 女孩子是公主{\fnDroid Sans Fallback}♥　
+Dialogue: 0,0:01:25.00,0:01:30.92,OP-CN,NTP,0,0,0,,心里揪揪揪欢闹不已 打开那扇门吧
+Dialogue: 0,0:01:30.98,0:01:36.05,OP-CN,NTP,0,0,0,,雨天时道一声「贵安」 路被幸福所阻
+Dialogue: 0,0:01:36.22,0:01:42.14,OP-CN,NTP,0,0,0,,把坏蛋砰砰砰打败 我们将一直努力
+Dialogue: 0,0:01:42.31,0:01:49.40,OP-CN,NTP,0,0,0,,就像那照亮黑暗的火焰般 热情之心 幻作丝带
+Dialogue: 0,0:01:49.65,0:01:53.92,OP-CN,NTP,0,0,0,,携手实现 世界和平
+Dialogue: 0,0:01:57.28,0:02:03.29,OP-CN,NTP,0,0,0,,加油努力Princess 一路惊悚颤栗不会败于危机
+Dialogue: 0,0:02:03.79,0:02:08.35,OP-CN,NTP,0,0,0,,大家相伴一起 手牵手奋进！
+Dialogue: 0,0:02:08.54,0:02:14.63,OP-CN,NTP,0,0,0,,展翅高飞Princess 慢慢连起希望与光芒 不论到何时
+Dialogue: 0,0:02:14.90,0:02:21.99,OP-CN,NTP,0,0,0,,向着眼泪Say,Good Bye! 照亮未来的 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:02:28.21,0:02:35.05,Defau_CN,NTP,0,0,0,,{\fad(200,0)\fnMicrosoft YaHei\b0\shad0\bord3}妇联大友团
+Dialogue: 0,0:02:35.05,0:02:39.07,Defau_CN,NTP,0,0,0,,{\fnMicrosoft YaHei\b0\shad0\bord3}翻译:落花 syan 杂务:时雨家的妹抖 繁化:BeNi 协力:ayukas 自助烤肉:蛇富帅
+Dialogue: 0,0:02:39.07,0:02:42.83,Defau_CN,NTP,0,0,0,,{\fad(0,200)\fnMicrosoft YaHei\b0\shad0\bord3}雪飘工作室 http://bbs.flsnow.net
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,ED2-2
+Dialogue: 0,0:22:29.34,0:22:32.15,EDMerma-CN,NTP,0,0,0,,想要实现 通往未来之路
+Dialogue: 0,0:22:32.30,0:22:35.01,EDMerma-CN,NTP,0,0,0,,若是将其称之为「梦想」
+Dialogue: 0,0:22:35.14,0:22:41.35,EDMerma-CN,NTP,0,0,0,,就和伙伴们一起奔跑吧
+Dialogue: 0,0:22:41.68,0:22:44.58,EDMerma-CN,NTP,0,0,0,,Let's GO! (GO!)  贵安
+Dialogue: 0,0:22:44.81,0:22:47.36,EDMerma-CN,NTP,0,0,0,,Let's GO! (GO!)  海的女儿!
+Dialogue: 0,0:22:47.48,0:22:53.36,EDMerma-CN,NTP,0,0,0,,漫无边际的大海宛如明镜
+Dialogue: 0,0:22:53.57,0:22:59.54,EDMerma-CN,NTP,0,0,0,,映照出南风与心灵
+Dialogue: 0,0:22:59.70,0:23:05.98,EDMerma-CN,NTP,0,0,0,,想去了解藏在心里的答案
+Dialogue: 0,0:23:06.21,0:23:09.09,EDMerma-CN,NTP,0,0,0,,今天拿出勇气
+Dialogue: 0,0:23:09.42,0:23:14.09,EDMerma-CN,NTP,0,0,0,,只为改变明天
+Dialogue: 0,0:23:15.01,0:23:17.97,EDMerma-CN,NTP,0,0,0,,快看公主们！ 尊贵的公主们！
+Dialogue: 0,0:23:18.07,0:23:21.64,EDMerma-CN,NTP,0,0,0,,在实现「梦想」之前不曾放弃
+Dialogue: 0,0:23:22.10,0:23:27.23,EDMerma-CN,NTP,0,0,0,,看啊！ 大家都在期待着
+Dialogue: 0,0:23:27.44,0:23:30.19,EDMerma-CN,NTP,0,0,0,,快看公主们！ 尊贵的公主们！
+Dialogue: 0,0:23:30.36,0:23:36.03,EDMerma-CN,NTP,0,0,0,,莎啦啦 这个世界与幸福如此相配
+Dialogue: 0,0:23:36.20,0:23:42.62,EDMerma-CN,NTP,0,0,0,,用希望的钥匙去释放吧！
+Dialogue: 0,0:23:42.91,0:23:47.96,EDMerma-CN,NTP,0,0,0,,Let's GO! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,

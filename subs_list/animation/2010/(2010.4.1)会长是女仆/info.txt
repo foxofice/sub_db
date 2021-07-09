@@ -1,0 +1,5 @@
+﻿chs: 会长是女仆大人
+cht: 会長是女僕大人/學生會長是女僕
+jp: 会長はメイド様!
+en: Maid Sama!
+rome: Kaichou wa Maid-sama!

@@ -1,0 +1,280 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,15,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.30,Default,NTP,0,0,0,,== OCR ==
+Dialogue: 0,0:02:44.39,0:02:46.09,Default,NTP,0,0,0,,地底的主電源…
+Dialogue: 0,0:03:45.82,0:03:47.21,Default,NTP,0,0,0,,今後怎麼辦
+Dialogue: 0,0:03:47.45,0:03:50.05,Default,NTP,0,0,0,,那種事你去問工會的幹部
+Dialogue: 0,0:03:50.29,0:03:51.56,Default,NTP,0,0,0,,你誤會了
+Dialogue: 0,0:03:52.39,0:03:54.52,Default,NTP,0,0,0,,我看反正即使繼續罷工
+Dialogue: 0,0:03:54.69,0:03:56.89,Default,NTP,0,0,0,,上頭也不會接納我們的要求
+Dialogue: 0,0:03:57.10,0:03:59.16,Default,NTP,0,0,0,,我是問跟常規警察合倂之後
+Dialogue: 0,0:03:59.23,0:04:00.96,Default,NTP,0,0,0,,我們怎麼辦
+Dialogue: 0,0:04:04.17,0:04:05.27,Default,NTP,0,0,0,,不知道
+Dialogue: 0,0:04:06.94,0:04:09.67,Default,NTP,0,0,0,,不如回鄉繼承農場的業務吧
+Dialogue: 0,0:04:11.21,0:04:16.34,Default,NTP,0,0,0,,優秀的警察一生只能當警察
+Dialogue: 0,0:04:19.18,0:04:22.82,Default,NTP,0,0,0,,沒什麼 我說廢話罷了
+Dialogue: 0,0:04:26.42,0:04:27.69,Default,NTP,0,0,0,,可是
+Dialogue: 0,0:04:27.79,0:04:30.29,Default,NTP,0,0,0,,儘管一間企業改變經營方針也好
+Dialogue: 0,0:04:30.40,0:04:33.76,Default,NTP,0,0,0,,我們這麼隨便便被遺棄 究竟…
+Dialogue: 0,0:04:34.03,0:04:36.53,Default,NTP,0,0,0,,你不覺得那有古怪嗎
+Dialogue: 0,0:04:36.77,0:04:37.97,Default,NTP,0,0,0,,你指什麼
+Dialogue: 0,0:04:38.37,0:04:41.76,Default,NTP,0,0,0,,他們以往一直利用我們為擋箭牌
+Dialogue: 0,0:04:41.97,0:04:45.07,Default,NTP,0,0,0,,來逃避亞人意外所帶來的責任
+Dialogue: 0,0:04:45.48,0:04:47.80,Default,NTP,0,0,0,,沒有我們也可以則表示
+Dialogue: 0,0:04:48.21,0:04:50.24,Default,NTP,0,0,0,,他們這次轉移主力工業
+Dialogue: 0,0:04:50.32,0:04:51.88,Default,NTP,0,0,0,,是一項胸有成竹的計劃
+Dialogue: 0,0:04:52.05,0:04:53.44,Default,NTP,0,0,0,,他們可能打算…
+Dialogue: 0,0:04:53.55,0:04:56.29,Default,NTP,0,0,0,,交由Knight Sabers去消滅亞人
+Dialogue: 0,0:04:56.96,0:05:00.05,Default,NTP,0,0,0,,她們說不定也得到積蒙的資助
+Dialogue: 0,0:05:00.19,0:05:01.96,Default,NTP,0,0,0,,不 你錯了
+Dialogue: 0,0:05:02.83,0:05:05.76,Default,NTP,0,0,0,,不…我看是有事發生
+Dialogue: 0,0:05:05.96,0:05:08.20,Default,NTP,0,0,0,,積蒙之內有事發生
+Dialogue: 0,0:05:12.04,0:05:13.00,Default,NTP,0,0,0,,我是里昂
+Dialogue: 0,0:05:13.41,0:05:14.54,Default,NTP,0,0,0,,瑪莉亞
+Dialogue: 0,0:05:14.61,0:05:15.50,Default,NTP,0,0,0,,什麼人
+Dialogue: 0,0:05:15.57,0:05:16.57,Default,NTP,0,0,0,,部長的千金
+Dialogue: 0,0:05:16.91,0:05:18.40,Default,NTP,0,0,0,,你好 里昂先生
+Dialogue: 0,0:05:18.84,0:05:22.37,Default,NTP,0,0,0,,那個…我從剛才起聯絡不上家父
+Dialogue: 0,0:05:22.98,0:05:25.04,Default,NTP,0,0,0,,里昂先生你知道他在哪裡嗎
+Dialogue: 0,0:05:25.42,0:05:26.62,Default,NTP,0,0,0,,尼克
+Dialogue: 0,0:05:26.89,0:05:29.81,Default,NTP,0,0,0,,他應該還留在圖騰柱內
+Dialogue: 0,0:05:30.89,0:05:33.21,Default,NTP,0,0,0,,因為他是管理階層啊
+Dialogue: 0,0:05:33.56,0:05:36.38,Default,NTP,0,0,0,,但是…新聞也有報導
+Dialogue: 0,0:05:36.39,0:05:38.82,Default,NTP,0,0,0,,AD警察的總廳在封鎖之下
+Dialogue: 0,0:05:38.96,0:05:40.99,Default,NTP,0,0,0,,跟外界斷絕一切聯絡
+Dialogue: 0,0:05:41.20,0:05:42.43,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:05:43.03,0:05:44.30,Default,NTP,0,0,0,,那就奇怪了
+Dialogue: 0,0:05:45.67,0:05:47.94,Default,NTP,0,0,0,,連私人電話也接不上
+Dialogue: 0,0:05:48.04,0:05:49.57,Default,NTP,0,0,0,,我想知道發生什麼事
+Dialogue: 0,0:05:50.14,0:05:52.20,Default,NTP,0,0,0,,我並非有急事要找他
+Dialogue: 0,0:05:52.41,0:05:55.41,Default,NTP,0,0,0,,但我有點擔心 所以…謝謝你
+Dialogue: 0,0:05:57.02,0:05:58.61,Default,NTP,0,0,0,,現在是新聞時間
+Dialogue: 0,0:05:58.68,0:06:01.18,Default,NTP,0,0,0,,今早黎明 AD警察開始罷工
+Dialogue: 0,0:06:01.35,0:06:04.12,Default,NTP,0,0,0,,勞資雙方的談判至今還未有結果
+Dialogue: 0,0:06:04.26,0:06:08.12,Default,NTP,0,0,0,,談判看來會繼續一段長時間
+Dialogue: 0,0:06:19.87,0:06:20.93,Default,NTP,0,0,0,,撬開升降機門之後
+Dialogue: 0,0:06:21.07,0:06:23.24,Default,NTP,0,0,0,,牠們不會蜂湧而出吧
+Dialogue: 0,0:06:23.51,0:06:26.04,Default,NTP,0,0,0,,五樓以下的閘門已經全部關上
+Dialogue: 0,0:06:26.18,0:06:27.84,Default,NTP,0,0,0,,暫時沒危險
+Dialogue: 0,0:06:28.11,0:06:30.35,Default,NTP,0,0,0,,但我不知道能支持多久
+Dialogue: 0,0:06:30.48,0:06:32.04,Default,NTP,0,0,0,,還未行嗎 羅蘭度…
+Dialogue: 0,0:06:35.42,0:06:36.81,Default,NTP,0,0,0,,撬開了
+Dialogue: 0,0:07:04.55,0:07:06.71,Default,NTP,0,0,0,,臭怪物…
+Dialogue: 0,0:07:06.79,0:07:07.81,Default,NTP,0,0,0,,矢野
+Dialogue: 0,0:07:09.72,0:07:11.25,Default,NTP,0,0,0,,快點
+Dialogue: 0,0:07:16.43,0:07:17.75,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:07:23.77,0:07:25.33,Default,NTP,0,0,0,,部長 部長 快點
+Dialogue: 0,0:07:25.44,0:07:27.00,Default,NTP,0,0,0,,閘門已經支持不住
+Dialogue: 0,0:07:27.44,0:07:29.21,Default,NTP,0,0,0,,你們那一層也已經有亞人…
+Dialogue: 0,0:07:29.47,0:07:32.44,Default,NTP,0,0,0,,快點 我們先跟她會合
+Dialogue: 0,0:08:04.84,0:08:07.67,Default,NTP,0,0,0,,報告最新情況 莉莉·羅瑪洛吧芭
+Dialogue: 0,0:08:07.91,0:08:11.15,Default,NTP,0,0,0,,那個…亞人的數量大約是230
+Dialogue: 0,0:08:11.18,0:08:13.47,Default,NTP,0,0,0,,三樓以下已經被牠們徹底占領
+Dialogue: 0,0:08:13.95,0:08:15.81,Default,NTP,0,0,0,,牠們如今也不斷向上…
+Dialogue: 0,0:08:17.16,0:08:19.22,Default,NTP,0,0,0,,部長 不可去那邊
+Dialogue: 0,0:08:50.72,0:08:51.92,Default,NTP,0,0,0,,等等
+Dialogue: 0,0:08:52.39,0:08:54.49,Default,NTP,0,0,0,,對不起 那段再來一次
+Dialogue: 0,0:08:54.83,0:08:56.15,Default,NTP,0,0,0,,要休息嗎
+Dialogue: 0,0:08:56.79,0:08:57.86,Default,NTP,0,0,0,,我沒事
+Dialogue: 0,0:08:58.46,0:09:00.09,Default,NTP,0,0,0,,那麼 再來一次
+Dialogue: 0,0:09:02.50,0:09:05.17,Default,NTP,0,0,0,,1 2 3 4
+Dialogue: 0,0:09:15.65,0:09:17.11,Default,NTP,0,0,0,,這班亞人從哪裡來
+Dialogue: 0,0:09:17.65,0:09:19.78,Default,NTP,0,0,0,,可惡 被包圍了
+Dialogue: 0,0:09:32.16,0:09:33.40,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:09:38.57,0:09:39.63,Default,NTP,0,0,0,,矢野
+Dialogue: 0,0:10:03.66,0:10:05.45,Default,NTP,0,0,0,,你沒事吧 矢野部長
+Dialogue: 0,0:10:06.66,0:10:08.40,Default,NTP,0,0,0,,總算未死…
+Dialogue: 0,0:10:08.67,0:10:10.13,Default,NTP,0,0,0,,請你們穿過公關部
+Dialogue: 0,0:10:10.27,0:10:11.90,Default,NTP,0,0,0,,由東面的樓梯上來
+Dialogue: 0,0:10:12.30,0:10:14.13,Default,NTP,0,0,0,,我會開放前往那裡的通道
+Dialogue: 0,0:10:18.11,0:10:20.17,Default,NTP,0,0,0,,總之 我們先要補充武器
+Dialogue: 0,0:10:33.46,0:10:35.62,Default,NTP,0,0,0,,沒有辦法跟外界聯絡嗎
+Dialogue: 0,0:10:36.46,0:10:37.73,Default,NTP,0,0,0,,晴間部長
+Dialogue: 0,0:10:37.90,0:10:41.39,Default,NTP,0,0,0,,是 那先要解除防衛系統
+Dialogue: 0,0:10:42.03,0:10:43.66,Default,NTP,0,0,0,,怎麼辦才能把它解除
+Dialogue: 0,0:10:43.90,0:10:47.43,Default,NTP,0,0,0,,內部感應器已經掃描過入侵者
+Dialogue: 0,0:10:48.14,0:10:50.68,Default,NTP,0,0,0,,在把所有入侵者消滅之前
+Dialogue: 0,0:10:50.68,0:10:52.60,Default,NTP,0,0,0,,防衛系統是不能解除的
+Dialogue: 0,0:10:53.31,0:10:54.64,Default,NTP,0,0,0,,混帳
+Dialogue: 0,0:10:54.95,0:10:57.27,Default,NTP,0,0,0,,世上怎麼會有那種保全系統
+Dialogue: 0,0:10:57.45,0:10:59.88,Default,NTP,0,0,0,,危急時便犧牲我們嗎
+Dialogue: 0,0:11:00.15,0:11:01.42,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:11:02.42,0:11:05.99,Default,NTP,0,0,0,,萬一恐怖組織入侵AD警察
+Dialogue: 0,0:11:06.26,0:11:09.58,Default,NTP,0,0,0,,跟外界斷絕通訊來孤立他們
+Dialogue: 0,0:11:09.66,0:11:12.43,Default,NTP,0,0,0,,對市民來說是最安全的措施
+Dialogue: 0,0:11:12.80,0:11:15.36,Default,NTP,0,0,0,,我看不單是為了市民的安全
+Dialogue: 0,0:11:15.37,0:11:16.83,Default,NTP,0,0,0,,當然 從這個系統
+Dialogue: 0,0:11:16.93,0:11:20.23,Default,NTP,0,0,0,,甚至能入侵國防省的壓縮檔案
+Dialogue: 0,0:11:20.57,0:11:22.50,Default,NTP,0,0,0,,而且也能入侵積蒙的
+Dialogue: 0,0:11:22.57,0:11:23.60,Default,NTP,0,0,0,,羅蘭度
+Dialogue: 0,0:11:25.31,0:11:26.58,Default,NTP,0,0,0,,不過 也好
+Dialogue: 0,0:11:26.78,0:11:28.64,Default,NTP,0,0,0,,現在至少可以肯定的是
+Dialogue: 0,0:11:28.81,0:11:31.05,Default,NTP,0,0,0,,只要一日未把牠們全部消滅
+Dialogue: 0,0:11:31.25,0:11:33.45,Default,NTP,0,0,0,,我們也不能離開這裡
+Dialogue: 0,0:11:33.58,0:11:34.91,Default,NTP,0,0,0,,那個…晴間部長
+Dialogue: 0,0:11:35.19,0:11:36.15,Default,NTP,0,0,0,,什麼事
+Dialogue: 0,0:11:36.72,0:11:39.11,Default,NTP,0,0,0,,若把所有內部感應器暫時關掉
+Dialogue: 0,0:11:39.39,0:11:41.49,Default,NTP,0,0,0,,防衛系統也就能解除吧
+Dialogue: 0,0:11:41.73,0:11:42.82,Default,NTP,0,0,0,,無可能
+Dialogue: 0,0:11:42.93,0:11:45.35,Default,NTP,0,0,0,,感應器裝有保全系統
+Dialogue: 0,0:11:45.43,0:11:46.79,Default,NTP,0,0,0,,以便我們一起管理
+Dialogue: 0,0:11:46.86,0:11:49.36,Default,NTP,0,0,0,,不可能一下子把它們全部關掉
+Dialogue: 0,0:11:50.00,0:11:52.70,Default,NTP,0,0,0,,我剛剛解除了那個保全系統
+Dialogue: 0,0:11:53.17,0:11:54.37,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:11:54.54,0:11:56.70,Default,NTP,0,0,0,,那個系統無理由那麼簡單…
+Dialogue: 0,0:11:57.71,0:12:00.10,Default,NTP,0,0,0,,我們看來一直把一個難得的人才
+Dialogue: 0,0:12:00.24,0:12:02.41,Default,NTP,0,0,0,,用作情報中心的控制員啊
+Dialogue: 0,0:12:02.71,0:12:05.24,Default,NTP,0,0,0,,我現在把感應器暫時關掉
+Dialogue: 0,0:12:05.72,0:12:07.64,Default,NTP,0,0,0,,由於我在那段期間
+Dialogue: 0,0:12:07.79,0:12:09.31,Default,NTP,0,0,0,,也看不見亞人的動靜
+Dialogue: 0,0:12:09.39,0:12:10.75,Default,NTP,0,0,0,,你們小心
+Dialogue: 0,0:12:10.99,0:12:12.45,Default,NTP,0,0,0,,發出求救訊號之後
+Dialogue: 0,0:12:12.59,0:12:13.95,Default,NTP,0,0,0,,我便會馬上重開感應器
+Dialogue: 0,0:12:14.46,0:12:15.49,Default,NTP,0,0,0,,知道
+Dialogue: 0,0:12:15.69,0:12:18.09,Default,NTP,0,0,0,,好 關掉所有感應器
+Dialogue: 0,0:12:18.86,0:12:21.46,Default,NTP,0,0,0,,防衛系統解除 發出求救訊號
+Dialogue: 0,0:12:30.11,0:12:31.20,Default,NTP,0,0,0,,騙人
+Dialogue: 0,0:12:32.31,0:12:34.58,Default,NTP,0,0,0,,為什麼…發生什麼事
+Dialogue: 0,0:12:35.45,0:12:38.37,Default,NTP,0,0,0,,難道…連主電腦的電源也…
+Dialogue: 0,0:12:55.37,0:12:56.56,Default,NTP,0,0,0,,什麼事
+Dialogue: 0,0:13:02.84,0:13:05.27,Default,NTP,0,0,0,,不…不好
+Dialogue: 0,0:13:14.35,0:13:15.91,Default,NTP,0,0,0,,喂 怎麼了 莉莉
+Dialogue: 0,0:13:16.05,0:13:17.08,Default,NTP,0,0,0,,發生什麼事
+Dialogue: 0,0:13:24.36,0:13:26.82,Default,NTP,0,0,0,,連情報中心也失守了嗎
+Dialogue: 0,0:13:27.33,0:13:28.60,Default,NTP,0,0,0,,真可憐
+Dialogue: 0,0:13:30.10,0:13:33.00,Default,NTP,0,0,0,,那麼 我們跟著究竟怎麼辦
+Dialogue: 0,0:13:33.67,0:13:35.10,Default,NTP,0,0,0,,無論守在哪裡
+Dialogue: 0,0:13:35.27,0:13:36.80,Default,NTP,0,0,0,,這種武器也對付不了牠們
+Dialogue: 0,0:13:38.01,0:13:41.37,Default,NTP,0,0,0,,但是 最接近的武器庫在地底
+Dialogue: 0,0:13:41.65,0:13:43.71,Default,NTP,0,0,0,,其他有武器的地方就在…
+Dialogue: 0,0:13:44.12,0:13:45.71,Default,NTP,0,0,0,,九樓的出口
+Dialogue: 0,0:13:46.18,0:13:47.95,Default,NTP,0,0,0,,還要再上四層
+Dialogue: 0,0:13:52.19,0:13:54.52,Default,NTP,0,0,0,,沒什麼 我想起我沒跟女兒說
+Dialogue: 0,0:13:54.69,0:13:57.09,Default,NTP,0,0,0,,我今晚不回家吃晚餐
+Dialogue: 0,0:14:12.61,0:14:13.74,Default,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:14:21.75,0:14:22.95,Default,NTP,0,0,0,,是 我是布烈絲
+Dialogue: 0,0:14:23.62,0:14:24.79,Default,NTP,0,0,0,,終於找到你了
+Dialogue: 0,0:14:25.12,0:14:27.22,Default,NTP,0,0,0,,布烈絲 大件事 莉莉她…
+Dialogue: 0,0:14:44.38,0:14:46.04,Default,NTP,0,0,0,,你在做什麼
+Dialogue: 0,0:14:47.58,0:14:50.35,Default,NTP,0,0,0,,是 我在檢索資料
+Dialogue: 0,0:14:53.28,0:14:56.28,Default,NTP,0,0,0,,你不會背叛我 是吧
+Dialogue: 0,0:14:56.35,0:14:59.21,Default,NTP,0,0,0,,是 我體內的程式
+Dialogue: 0,0:14:59.26,0:15:02.69,Default,NTP,0,0,0,,不許我違抗主人的命令
+Dialogue: 0,0:15:04.60,0:15:06.62,Default,NTP,0,0,0,,那麼 這是什麼東西
+Dialogue: 0,0:15:07.27,0:15:11.13,Default,NTP,0,0,0,,這是我奉命進行檢索的檔案
+Dialogue: 0,0:15:12.77,0:15:14.94,Default,NTP,0,0,0,,是事先想定的台詞嗎
+Dialogue: 0,0:15:19.81,0:15:22.10,Default,NTP,0,0,0,,那麼 告訴我是誰命令你的
+Dialogue: 0,0:15:22.55,0:15:24.44,Default,NTP,0,0,0,,命令有矛盾
+Dialogue: 0,0:15:24.65,0:15:25.94,Default,NTP,0,0,0,,我再問一次
+Dialogue: 0,0:15:26.45,0:15:28.55,Default,NTP,0,0,0,,是誰命令你的
+Dialogue: 0,0:15:28.82,0:15:31.02,Default,NTP,0,0,0,,我體內的程式
+Dialogue: 0,0:15:31.16,0:15:34.42,Default,NTP,0,0,0,,不許我違抗主人的命令
+Dialogue: 0,0:15:41.07,0:15:43.30,Default,NTP,0,0,0,,我體內的程式
+Dialogue: 0,0:15:43.43,0:15:47.57,Default,NTP,0,0,0,,不許我違抗主人的命令
+Dialogue: 0,0:15:55.58,0:15:58.94,Default,NTP,0,0,0,,原來所有亞人都不能背叛會長
+Dialogue: 0,0:16:00.89,0:16:03.48,Default,NTP,0,0,0,,一個由木偶保護的裸體帝王
+Dialogue: 0,0:16:03.79,0:16:05.06,Default,NTP,0,0,0,,真可憐
+Dialogue: 0,0:16:08.23,0:16:10.15,Default,NTP,0,0,0,,什麼回事
+Dialogue: 0,0:16:10.53,0:16:13.13,Default,NTP,0,0,0,,美臣那傢伙竟然把她…
+Dialogue: 0,0:16:13.30,0:16:18.16,Default,NTP,0,0,0,,無可能 他想變成惡魔嗎
+Dialogue: 0,0:16:19.27,0:16:23.03,Default,NTP,0,0,0,,但是 美臣 你看來忘了一件事
+Dialogue: 0,0:16:23.14,0:16:26.57,Default,NTP,0,0,0,,那就是在這裡我才是神
+Dialogue: 0,0:16:43.76,0:16:44.99,Default,NTP,0,0,0,,美臣
+Dialogue: 0,0:16:46.90,0:16:48.43,Default,NTP,0,0,0,,美臣
+Dialogue: 0,0:16:48.73,0:16:51.56,Default,NTP,0,0,0,,你覺得如何 我的格拉迪亞
+Dialogue: 0,0:16:51.94,0:16:53.64,Default,NTP,0,0,0,,剛才那本書我看厭了
+Dialogue: 0,0:16:53.87,0:16:55.64,Default,NTP,0,0,0,,我想看些不同的
+Dialogue: 0,0:16:55.84,0:16:58.84,Default,NTP,0,0,0,,好 我下次拿些其他書給你
+Dialogue: 0,0:16:58.98,0:17:01.87,Default,NTP,0,0,0,,虧你能在短時間之內便會看呢
+Dialogue: 0,0:17:02.08,0:17:03.61,Default,NTP,0,0,0,,我認識了一個朋友
+Dialogue: 0,0:17:04.05,0:17:06.91,Default,NTP,0,0,0,,朋友跟格拉迪亞聊天
+Dialogue: 0,0:17:07.25,0:17:08.95,Default,NTP,0,0,0,,你跟誰聊天
+Dialogue: 0,0:17:09.55,0:17:10.62,Default,NTP,0,0,0,,米奇
+Dialogue: 0,0:17:10.76,0:17:11.68,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:17:15.89,0:17:16.75,Default,NTP,0,0,0,,布烈絲
+Dialogue: 0,0:17:16.96,0:17:18.52,Default,NTP,0,0,0,,究竟為何會這樣子的
+Dialogue: 0,0:17:18.83,0:17:20.86,Default,NTP,0,0,0,,是格拉迪亞的惡作劇啊
+Dialogue: 0,0:17:21.43,0:17:22.60,Default,NTP,0,0,0,,因此
+Dialogue: 0,0:17:22.70,0:17:25.53,Default,NTP,0,0,0,,AD警察裡的失常亞人活過來了
+Dialogue: 0,0:17:25.67,0:17:26.87,Default,NTP,0,0,0,,格拉迪亞
+Dialogue: 0,0:17:26.97,0:17:28.17,Default,NTP,0,0,0,,是素體的名字
+Dialogue: 0,0:17:28.31,0:17:31.04,Default,NTP,0,0,0,,是美臣博士替她命名的
+Dialogue: 0,0:17:31.18,0:17:33.60,Default,NTP,0,0,0,,美臣就是積蒙的那個傢伙嗎
+Dialogue: 0,0:17:34.28,0:17:36.31,Default,NTP,0,0,0,,那麼 聯絡到莉莉嗎
+Dialogue: 0,0:17:36.58,0:17:39.28,Default,NTP,0,0,0,,不行 完全沒有回音
+Dialogue: 0,0:17:39.28,0:17:42.25,Default,NTP,0,0,0,,恐怕是AD警察防衛系統的關係
+Dialogue: 0,0:17:42.72,0:17:45.28,Default,NTP,0,0,0,,為了令內部的敵人跟外界隔絕
+Dialogue: 0,0:17:45.29,0:17:48.42,Default,NTP,0,0,0,,那還在做什麼 不去救她嗎
+Dialogue: 0,0:17:48.46,0:17:50.89,Default,NTP,0,0,0,,但是 我們沒有裝甲服
+Dialogue: 0,0:17:51.90,0:17:54.29,Default,NTP,0,0,0,,那種東西即使有 我也不會穿
+Dialogue: 0,0:17:55.07,0:17:56.23,Default,NTP,0,0,0,,布烈絲
+Dialogue: 0,0:17:59.40,0:18:00.64,Default,NTP,0,0,0,,還要一星期
+Dialogue: 0,0:18:01.31,0:18:04.01,Default,NTP,0,0,0,,最快也要四五日
+Dialogue: 0,0:18:04.98,0:18:06.44,Default,NTP,0,0,0,,那麼久…
+Dialogue: 0,0:18:06.61,0:18:10.35,Default,NTP,0,0,0,,沒錯 我回去工作了
+Dialogue: 0,0:18:10.78,0:18:11.91,Default,NTP,0,0,0,,等等
+Dialogue: 0,0:18:12.75,0:18:14.54,Default,NTP,0,0,0,,MOTOSLAVE…
+Dialogue: 0,0:18:15.22,0:18:16.54,Default,NTP,0,0,0,,能駕駛它去嗎
+Dialogue: 0,0:18:16.82,0:18:18.65,Default,NTP,0,0,0,,但那一定要穿上裝甲服…
+Dialogue: 0,0:18:19.29,0:18:21.02,Default,NTP,0,0,0,,能加上轉換器
+Dialogue: 0,0:18:21.13,0:18:22.76,Default,NTP,0,0,0,,好讓沒穿裝甲服也能駕駛吧
+Dialogue: 0,0:18:23.79,0:18:25.72,Default,NTP,0,0,0,,那也不是不可能
+Dialogue: 0,0:18:25.90,0:18:27.09,Default,NTP,0,0,0,,需要多少時間
+Dialogue: 0,0:18:28.10,0:18:29.56,Default,NTP,0,0,0,,大約30分鐘
+Dialogue: 0,0:18:30.03,0:18:32.39,Default,NTP,0,0,0,,麻煩你 我駕駛它去
+Dialogue: 0,0:18:33.47,0:18:35.67,Default,NTP,0,0,0,,無可能 縱使是布烈絲小姐你
+Dialogue: 0,0:18:35.91,0:18:37.20,Default,NTP,0,0,0,,沒穿裝甲服根本不能開動
+Dialogue: 0,0:18:37.34,0:18:38.90,Default,NTP,0,0,0,,那麼重的機車啊
+Dialogue: 0,0:18:39.51,0:18:40.90,Default,NTP,0,0,0,,開工了 米奇
+Dialogue: 0,0:18:45.58,0:18:47.78,Default,NTP,0,0,0,,縱使魯莽也只好一試
+Dialogue: 0,0:18:54.19,0:18:55.82,Default,NTP,0,0,0,,米奇…
+Dialogue: 0,0:20:09.77,0:20:13.04,Default,NTP,0,0,0,,別過來
+Dialogue: 0,0:21:09.86,0:21:12.53,Default,NTP,0,0,0,,總之 我要跟部長他們會合
+Dialogue: 0,0:21:16.63,0:21:17.70,Default,NTP,0,0,0,,你沒事吧
+Dialogue: 0,0:21:18.17,0:21:19.99,Default,NTP,0,0,0,,可惡 沒完沒了
+Dialogue: 0,0:21:36.45,0:21:38.24,Default,NTP,0,0,0,,怎麼會的…
+Dialogue: 0,0:21:47.53,0:21:48.96,Default,NTP,0,0,0,,的確有古怪
+Dialogue: 0,0:21:49.10,0:21:51.66,Default,NTP,0,0,0,,這是一級戒備狀態啊
+Dialogue: 0,0:21:55.04,0:21:56.47,Default,NTP,0,0,0,,里昂 達利
+Dialogue: 0,0:21:57.01,0:21:57.97,Default,NTP,0,0,0,,嗨
+Dialogue: 0,0:21:58.14,0:22:00.67,Default,NTP,0,0,0,,原來大家已經集合了
+Dialogue: 0,0:22:01.21,0:22:03.21,Default,NTP,0,0,0,,究竟發生什麼事
+Dialogue: 0,0:22:03.98,0:22:05.87,Default,NTP,0,0,0,,我還以為收到求救訊號
+Dialogue: 0,0:22:05.95,0:22:07.15,Default,NTP,0,0,0,,但馬上便中斷了
+Dialogue: 0,0:22:09.72,0:22:12.68,Default,NTP,0,0,0,,總之只好進去看一看了
+Dialogue: 0,0:22:23.23,0:22:25.02,Default,NTP,0,0,0,,那傢伙…
+Dialogue: 0,0:22:31.14,0:22:33.03,Default,NTP,0,0,0,,里昂 你幫我
+Dialogue: 0,0:22:33.68,0:22:35.47,Default,NTP,0,0,0,,布烈絲…
+Dialogue: 0,0:24:12.28,0:24:14.67,Default,NTP,0,0,0,,混帳 真是討厭得不得了
+Dialogue: 0,0:24:14.91,0:24:17.78,Default,NTP,0,0,0,,無論朝哪裡走都遇到亞人
+Dialogue: 0,0:24:17.78,0:24:21.05,Default,NTP,0,0,0,,觀眾是不可以走上舞台的
+Dialogue: 0,0:24:21.42,0:24:23.45,Default,NTP,0,0,0,,可是 你們卻違反規則
+Dialogue: 0,0:24:23.72,0:24:24.78,Default,NTP,0,0,0,,事到如今
+Dialogue: 0,0:24:24.92,0:24:27.49,Default,NTP,0,0,0,,我只好要你們冷靜一下呢
+Dialogue: 0,0:24:27.76,0:24:30.92,Default,NTP,0,0,0,,對 使用那個最後的方法
+Dialogue: 0,0:24:31.26,0:24:33.76,Default,NTP,0,0,0,,次回 吹波糖危機
+

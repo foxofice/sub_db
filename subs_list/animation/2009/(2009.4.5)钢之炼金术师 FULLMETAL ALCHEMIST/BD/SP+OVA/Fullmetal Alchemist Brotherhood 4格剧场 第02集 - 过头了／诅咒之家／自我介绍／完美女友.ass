@@ -1,0 +1,72 @@
+﻿[Script Info]
+Title: 鋼の錬金術師 映像特典「ハガレン4コマ劇場02」
+Original Script: 動漫花園楓組&卡通空間字幕組
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SubSans,70,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,-1,0,0,0,100,95,0,0,1,3,0,2,30,30,30,134
+Style: TITLE,方正平和_GBK,120,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,0,0,0,0,100,100,9,0,1,2,0,2,30,30,250,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.67,0:00:02.15,Default,,0,0,0,,开幕啦
+Dialogue: 0,0:00:06.27,0:00:07.82,Default,,0,0,0,,女猪脚
+Dialogue: 0,0:00:14.07,0:00:16.45,TITLE,,0,0,0,,{\fad(500,0)}过头了
+Dialogue: 0,0:00:16.89,0:00:18.12,Default,,0,0,0,,只要画下最后这笔
+Dialogue: 0,0:00:18.22,0:00:19.36,Default,,0,0,0,,区区一个坏掉的收音机
+Dialogue: 0,0:00:19.51,0:00:20.50,Default,,0,0,0,,马上就能恢复原状
+Dialogue: 0,0:00:20.63,0:00:21.72,Default,,0,0,0,,跟新的一摸一样
+Dialogue: 0,0:00:22.20,0:00:23.48,Default,,0,0,0,,哇 厉害
+Dialogue: 0,0:00:23.48,0:00:24.91,Default,,0,0,0,,跟新出厂的一样
+Dialogue: 0,0:00:24.91,0:00:25.63,Default,,0,0,0,,奇迹啊
+Dialogue: 0,0:00:25.71,0:00:26.47,Default,,0,0,0,,糟糕
+Dialogue: 0,0:00:26.52,0:00:28.21,Default,,0,0,0,,用力过头了 连商店都变成新的了
+Dialogue: 0,0:00:28.21,0:00:28.94,Default,,0,0,0,,奇迹啊
+Dialogue: 0,0:00:28.96,0:00:30.42,Default,,0,0,0,,连商店老板都变成新的了
+Dialogue: 0,0:00:30.68,0:00:31.48,Default,,0,0,0,,奇迹啊
+Dialogue: 0,0:00:31.51,0:00:32.61,Default,,0,0,0,,话说这是谁？
+Dialogue: 0,0:00:32.76,0:00:35.18,TITLE,,0,0,0,,{\fad(500,0)}诅咒之家
+Dialogue: 0,0:00:35.41,0:00:36.81,Default,,0,0,0,,啊 你的母亲？
+Dialogue: 0,0:00:37.15,0:00:39.31,Default,,0,0,0,,嗯 两年前离家出走了
+Dialogue: 0,0:00:39.93,0:00:43.34,Default,,0,0,0,,她说爸爸赚的钱太少 过不下去了
+Dialogue: 0,0:00:43.93,0:00:45.43,Default,,0,0,0,,原以为嫁给炼金术师的话
+Dialogue: 0,0:00:45.79,0:00:47.72,Default,,0,0,0,,整天都能大把大把地赚钱
+Dialogue: 0,0:00:48.02,0:00:50.15,Default,,0,0,0,,可以过上大鱼大肉的日子
+Dialogue: 0,0:00:50.53,0:00:51.80,Default,,0,0,0,,结果太失望了
+Dialogue: 0,0:00:52.74,0:00:56.50,Default,,0,0,0,,还说爸爸长得又不怎么样 个子还矮
+Dialogue: 0,0:00:57.36,0:00:59.97,Default,,0,0,0,,出于寂寞 她在外面找了个情人
+Dialogue: 0,0:01:00.33,0:01:02.02,Default,,0,0,0,,为了让我对爸爸保密
+Dialogue: 0,0:01:02.31,0:01:04.12,Default,,0,0,0,,她给了我好多零花钱
+Dialogue: 0,0:01:04.56,0:01:07.93,Default,,0,0,0,,其实那些都是从爸爸的钱包里偷拿的
+Dialogue: 0,0:01:08.71,0:01:11.89,Default,,0,0,0,,不过她说"没关系 那个笨蛋发现不了"
+Dialogue: 0,0:01:12.57,0:01:13.39,Default,,0,0,0,,还说等到离婚的时候
+Dialogue: 0,0:01:13.39,0:01:16.04,Default,,0,0,0,,要把这栋房子当做分手费要去
+Dialogue: 0,0:01:16.65,0:01:20.04,Default,,0,0,0,,可又嫌不想分手的爸爸哭哭啼啼的烦人
+Dialogue: 0,0:01:20.71,0:01:23.41,Default,,0,0,0,,所以每天都在晚饭里投毒…
+Dialogue: 0,0:01:24.40,0:01:27.50,Default,,0,0,0,,是啊 所以我才把老婆和狗合成在一起
+Dialogue: 0,0:01:27.57,0:01:28.98,Default,,0,0,0,,炼成了合成兽
+Dialogue: 0,0:01:29.83,0:01:32.05,Default,,0,0,0,,可是那种做法也不好啊
+Dialogue: 0,0:01:32.69,0:01:35.11,TITLE,,0,0,0,,{\fad(500,0)}自我介绍
+Dialogue: 0,0:01:35.47,0:01:35.98,Default,,0,0,0,,猜猜我是谁
+Dialogue: 0,0:01:36.93,0:01:38.56,Default,,0,0,0,,褐色的皮肤 红色的眼睛
+Dialogue: 0,0:01:40.85,0:01:42.18,Default,,0,0,0,,看H看到用眼过度的猥琐男
+Dialogue: 0,0:01:42.63,0:01:44.40,Default,,0,0,0,,暑假去游泳池玩过头的小学生
+Dialogue: 0,0:01:44.90,0:01:46.28,Default,,0,0,0,,你该抹点防晒油的
+Dialogue: 0,0:01:46.41,0:01:49.28,Default,,0,0,0,,我是伊修巴尔人 别把我忘了啊
+Dialogue: 0,0:01:49.63,0:01:52.04,TITLE,,0,0,0,,{\fad(500,0)}完美女友
+Dialogue: 0,0:01:52.49,0:01:55.05,Default,,0,0,0,,爱德 阿尔 一路走好
+Dialogue: 0,0:01:56.15,0:01:56.86,Default,,0,0,0,,是温莉
+Dialogue: 0,0:01:57.30,0:01:59.42,Default,,0,0,0,,这么早就专门起床为我们送行了呀
+Dialogue: 0,0:01:59.54,0:02:03.03,Default,,0,0,0,,能有人对自己说一路走好 真幸福啊
+Dialogue: 0,0:02:03.24,0:02:05.08,Default,,0,0,0,,咳 真没办法
+Dialogue: 0,0:02:06.17,0:02:08.49,Default,,0,0,0,,一路走好 一路走好…
+Dialogue: 0,0:02:08.66,0:02:10.17,Default,,0,0,0,,洛克贝尔工房特制
+Dialogue: 0,0:02:10.23,0:02:12.38,Default,,0,0,0,,带定时器的"一路走好机"
+Dialogue: 0,0:02:12.58,0:02:13.41,Default,,0,0,0,,只要有了它
+Dialogue: 0,0:02:13.41,0:02:16.68,Default,,0,0,0,,你就算睡着不起床也能感动男人的心
+Dialogue: 0,0:02:17.11,0:02:19.00,Default,,0,0,0,,税前售价25万

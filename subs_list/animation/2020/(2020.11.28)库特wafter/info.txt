@@ -1,0 +1,5 @@
+﻿chs: 库特wafter
+cht: 庫特wafter
+jp: クドわふたー
+en: Kud Wafter
+rome: Kud Wafter

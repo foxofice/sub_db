@@ -1,0 +1,53 @@
+﻿[Script Info]
+Title: 鋼の錬金術師 映像特典「ハガレン4コマ劇場06」
+Original Script: 動漫花園楓組&卡通空間字幕組
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SubSans,70,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,-1,0,0,0,100,95,0,0,1,3,0,2,30,30,30,134
+Style: TITLE,方正平和_GBK,120,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,0,0,0,0,100,100,9,0,1,2,0,2,30,30,250,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.01,0:00:06.61,Default,,0,0,0,,少主！？
+Dialogue: 0,0:00:07.54,0:00:08.73,Default,,0,0,0,,少主 少主…
+Dialogue: 0,0:00:10.35,0:00:12.62,Default,,0,0,0,,少主！！！
+Dialogue: 0,0:00:13.81,0:00:16.42,Default,,0,0,0,,肚子好饿…
+Dialogue: 0,0:00:20.04,0:00:23.04,TITLE,,0,0,0,,{\fad(500,0)}爆炸头
+Dialogue: 0,0:00:23.09,0:00:24.82,Default,,0,0,0,,职责在身 虽死不惜
+Dialogue: 0,0:00:30.33,0:00:30.84,Default,,0,0,0,,What？
+Dialogue: 0,0:00:32.65,0:00:33.02,Default,,0,0,0,,噗（笑）
+Dialogue: 0,0:00:34.70,0:00:36.68,Default,,0,0,0,,伤口又裂开了…
+Dialogue: 0,0:00:36.83,0:00:38.95,Default,,0,0,0,,大佐
+Dialogue: 0,0:00:39.04,0:00:39.55,Default,,0,0,0,,What？
+Dialogue: 0,0:00:40.43,0:00:43.39,TITLE,,0,0,0,,{\fad(500,0)}铁家伙
+Dialogue: 0,0:00:43.81,0:00:46.10,Default,,0,0,0,,阿尔方斯的身体还真是方便
+Dialogue: 0,0:00:46.98,0:00:48.15,Default,,0,0,0,,要是有什么损坏的话
+Dialogue: 0,0:00:48.43,0:00:51.10,Default,,0,0,0,,只要把灵魂转移到其他东西上就行了
+Dialogue: 0,0:00:52.03,0:00:53.31,Default,,0,0,0,,要是用这种方法的话
+Dialogue: 0,0:00:53.71,0:00:55.75,Default,,0,0,0,,就算把灵魂移到又大又猛的铁家伙上
+Dialogue: 0,0:00:55.75,0:00:56.43,Default,,0,0,0,,也是可行的
+Dialogue: 0,0:00:56.63,0:00:57.74,Default,,0,0,0,,太棒了
+Dialogue: 0,0:00:59.47,0:01:01.29,Default,,0,0,0,,又大又猛的铁家伙…？
+Dialogue: 0,0:01:04.55,0:01:07.05,Default,,0,0,0,,哟~ 我是姚麟王子号~
+Dialogue: 0,0:01:08.92,0:01:10.96,Default,,0,0,0,,呃 干啥 什么事
+Dialogue: 0,0:01:12.55,0:01:15.38,TITLE,,0,0,0,,{\fad(500,0)}看看这速度
+Dialogue: 0,0:01:15.38,0:01:17.88,Default,,0,0,0,,不用管我 你自己先走
+Dialogue: 0,0:01:18.40,0:01:20.04,Default,,0,0,0,,我不需要什么同情
+Dialogue: 0,0:01:21.97,0:01:24.07,Default,,0,0,0,,明白了 那我不管你
+Dialogue: 0,0:01:25.48,0:01:31.48,Default,,0,0,0,,{\an8\fad(800,0)}青春日记 东部中学2年纪 间·哈勃克
+Dialogue: 0,0:01:26.94,0:01:29.35,Default,,0,0,0,,我就先走一步 你一定要追上来
+Dialogue: 0,0:01:31.39,0:01:33.26,Default,,0,0,0,,一定要追上来哦~
+Dialogue: 0,0:01:36.11,0:01:38.95,TITLE,,0,0,0,,{\fad(500,0)}赎罪
+Dialogue: 0,0:01:39.00,0:01:41.72,Default,,0,0,0,,把我的爸爸妈妈还给我
+Dialogue: 0,0:01:45.41,0:01:49.61,Default,,0,0,0,,我无话可说 的确是我杀了你的父母
+Dialogue: 0,0:01:50.23,0:01:51.05,Default,,0,0,0,,为了赎罪…
+Dialogue: 0,0:01:52.08,0:01:56.19,Default,,0,0,0,,从今天开始 我就来当你的爸爸和妈妈吧
+Dialogue: 0,0:01:56.96,0:01:59.11,Default,,0,0,0,,来 让妈妈抱抱…
+Dialogue: 0,0:02:01.61,0:02:05.27,Default,,0,0,0,,没必要为这种家伙脏了自己的手 温莉
+Dialogue: 0,0:02:05.36,0:02:06.29,Default,,0,0,0,,说得对

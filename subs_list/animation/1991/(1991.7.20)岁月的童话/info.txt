@@ -1,0 +1,5 @@
+﻿chs: 岁月的童话
+cht: 歲月的童話
+jp: おもひでぽろぽろ
+en: Only Yesterday
+rome: Omoide Poroporo

@@ -1,0 +1,51 @@
+﻿[Script Info]
+; Made by Kamigami for education purpose only
+; Visit us at www.kamigami.org
+; 本字幕由诸神字幕组出品，仅供学习交流，禁止用于商业用途
+; 更多中日双语字幕，尽在 www.kamigami.org 和微博 @诸神字幕组
+Title: 编舟记
+Original Script: 诸神字幕组
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+YCbCr Matrix: TV.709
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OP-JP,EPSON 太明朝体Ｂ,28,&H00990000,&H00FFFFFF,&H00FFFFFF,&H000D2801,0,0,0,0,100,106,0,0,1,2,0,2,10,10,15,128
+Style: ED-JP,EPSON 太明朝体Ｂ,28,&H00FFFFFF,&H00FFFFFF,&H006F1712,&H000D2801,-1,0,0,0,100,106,0,0,1,2,0,2,10,10,10,128
+Style: STAFF,方正粗雅宋_GBK,36,&H00FFFFFF,&H000000FF,&H006F1712,&H64283D57,0,0,0,0,100,100,1,0,1,2,0,2,10,10,10,1
+Style: TEXT-JP,EPSON 太明朝体Ｂ,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.8,0,2,0,0,15,128
+Style: TEXT-JP(UP),EPSON 太明朝体Ｂ,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.8,0,8,10,10,10,128
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+; --- ;
+Comment: 0,0:00:01.94,0:00:03.94,TEXT-JP,,0,0,0,,-----TEXT JP-----
+Dialogue: 0,0:00:01.60,0:00:02.69,TEXT-JP,,0,0,0,,おしえて!
+Dialogue: 0,0:00:02.98,0:00:04.81,TEXT-JP,,0,0,0,,じしょたんず!!
+Dialogue: 0,0:00:04.81,0:00:08.52,TEXT-JP,,0,0,0,,あ　あの　改訂されるってどんな感じがするんですか
+Dialogue: 0,0:00:10.03,0:00:12.03,TEXT-JP,,0,0,0,,海くん　まだ改訂してないの
+Dialogue: 0,0:00:12.03,0:00:13.36,TEXT-JP,,0,0,0,,僕は一回したよ
+Dialogue: 0,0:00:13.36,0:00:14.49,TEXT-JP,,0,0,0,,俺なんか二回
+Dialogue: 0,0:00:14.95,0:00:16.16,TEXT-JP,,0,0,0,,私は五回
+Dialogue: 0,0:00:16.37,0:00:18.03,TEXT-JP,,0,0,0,,大人ぁ
+Dialogue: 0,0:00:18.03,0:00:21.04,TEXT-JP,,0,0,0,,改訂は未知なる世界との出合い
+Dialogue: 0,0:00:21.20,0:00:25.83,TEXT-JP,,0,0,0,,何かを失う痛み　その先に待っている新しい自分
+Dialogue: 0,0:00:25.96,0:00:29.00,TEXT-JP,,0,0,0,,常に私たちを成長させてくれるもの
+Dialogue: 0,0:00:29.13,0:00:31.30,TEXT-JP,,0,0,0,,あれはそう　まるで恋
+Dialogue: 0,0:00:31.71,0:00:33.76,TEXT-JP,,0,0,0,,ヒロシくん　赤くなってる
+Dialogue: 0,0:00:33.76,0:00:36.18,TEXT-JP,,0,0,0,,五回も改訂したなんて　嘘なんじゃ
+Dialogue: 0,0:00:36.18,0:00:38.30,TEXT-JP,,0,0,0,,嘘ではない　あの時の…
+Dialogue: 0,0:00:38.39,0:00:40.77,TEXT-JP,,0,0,0,,ドキドキ　いつか僕も
+; --- ;
+Comment: 0,0:00:00.18,0:00:00.18,STAFF,,0,0,0,,-----STAFF-----
+Dialogue: 0,0:00:44.02,0:00:45.02,STAFF,,0,0,0,,{\an8}日听：9麻&Floria  翻译：天上ウテナ&裏spartan  日校：Ⅴ
+Dialogue: 0,0:00:44.02,0:00:45.02,STAFF,,0,0,0,,翻校：aeyou   时间轴：Foyzi    压制：有纪
+Dialogue: 0,0:00:00.05,0:00:03.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}本字幕由弑神字幕组出品，仅供学习交流，禁止用于商业用途
+Dialogue: 0,0:00:03.05,0:00:06.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}弑神成员为诸神新人，旨在提升做番水平，如有疏漏在所难免，还请看官多多包涵
+Dialogue: 0,0:00:06.05,0:00:09.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}更多中日双语字幕，尽在 sub.kamigami.org 及微博 @诸神字幕组
+; --- ;

@@ -1,0 +1,5 @@
+﻿chs: Go! Princess 光之美少女/Go! 公主光之美少女
+cht: Go! Princess 光之美少女/Go! 公主光之美少女
+jp: Go! プリンセスプリキュア
+en: Go! Princess Precure
+rome: Go! Princess Precure

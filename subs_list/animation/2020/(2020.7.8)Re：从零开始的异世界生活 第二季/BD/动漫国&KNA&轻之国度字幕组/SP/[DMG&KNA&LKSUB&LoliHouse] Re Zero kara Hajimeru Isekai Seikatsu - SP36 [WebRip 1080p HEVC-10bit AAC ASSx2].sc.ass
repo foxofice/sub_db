@@ -1,0 +1,86 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP36]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:43.16,0:02:47.33,Staff,,0,0,0,,{\fade(500,500)}本字幕由  动漫国&KNA&轻之国度字幕组  联合制作\N仅供试看,请支持购买正版音像制品
+Dialogue: 0,0:02:48.37,0:02:52.13,Staff,,0,0,0,,{\fade(500,500)}翻译&时轴:傻瓜三世   后期:小圣
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}国\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}动
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}轻
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}国
+Dialogue: 0,0:00:00.00,0:00:04.98,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.69,0:00:04.99,Default,,0,0,0,,Re:从零开始的休息时间  脏活姐妹秘密活动日报
+Dialogue: 0,0:00:07.76,0:00:11.77,Default,,0,0,0,,艾尔莎  你别这么不高兴了
+Dialogue: 0,0:00:12.08,0:00:14.87,Default,,0,0,0,,可是我并没有不高兴啊
+Dialogue: 0,0:00:15.03,0:00:16.66,Default,,0,0,0,,就是不高兴
+Dialogue: 0,0:00:17.01,0:00:21.31,Default,,0,0,0,,艾尔莎不高兴了  一定会挖自己的伤口
+Dialogue: 0,0:00:21.39,0:00:21.92,Default,,0,0,0,,是吗
+Dialogue: 0,0:00:22.19,0:00:23.09,Default,,0,0,0,,就是这样
+Dialogue: 0,0:00:24.08,0:00:24.78,Default,,0,0,0,,是吗
+Dialogue: 0,0:00:25.00,0:00:28.16,Default,,0,0,0,,这么不喜欢那个哥哥吗
+Dialogue: 0,0:00:28.22,0:00:31.97,Default,,0,0,0,,不喜欢  我确实没中意上他
+Dialogue: 0,0:00:32.23,0:00:33.55,Default,,0,0,0,,他怎么不好了
+Dialogue: 0,0:00:34.89,0:00:40.49,Default,,0,0,0,,在面临死亡时  人的行动分为两大类
+Dialogue: 0,0:00:40.94,0:00:45.15,Default,,0,0,0,,我知道  要么是接受死亡  要么是反抗死亡
+Dialogue: 0,0:00:45.35,0:00:48.30,Default,,0,0,0,,没错  两者都是面对生命的反应
+Dialogue: 0,0:00:48.90,0:00:50.45,Default,,0,0,0,,你就是反抗了的
+Dialogue: 0,0:00:50.86,0:00:51.89,Default,,0,0,0,,是吗
+Dialogue: 0,0:00:52.25,0:00:55.64,Default,,0,0,0,,当时被你咬住的脖颈又疼了
+Dialogue: 0,0:00:55.69,0:00:56.96,Default,,0,0,0,,你真会骗人
+Dialogue: 0,0:00:58.58,0:01:00.43,Default,,0,0,0,,接着刚刚的话题吧
+Dialogue: 0,0:01:00.94,0:01:03.28,Default,,0,0,0,,那个哥哥是哪一类呢
+Dialogue: 0,0:01:03.94,0:01:05.63,Default,,0,0,0,,哪一类都不是
+Dialogue: 0,0:01:08.20,0:01:12.38,Default,,0,0,0,,不是反抗死亡  也不是接受死亡
+Dialogue: 0,0:01:13.01,0:01:15.98,Default,,0,0,0,,感觉他没有面对即将到来的死亡
+Dialogue: 0,0:01:16.66,0:01:20.04,Default,,0,0,0,,难道不是太怕死而心理逃避吗
+Dialogue: 0,0:01:20.31,0:01:21.50,Default,,0,0,0,,不太一样
+Dialogue: 0,0:01:22.23,0:01:28.59,Default,,0,0,0,,这么说吧  我感觉他不把死亡当作是结束
+Dialogue: 0,0:01:29.71,0:01:32.51,Default,,0,0,0,,我明白你讨厌他的理由了
+Dialogue: 0,0:01:32.73,0:01:33.67,Default,,0,0,0,,对吧?
+Dialogue: 0,0:01:34.45,0:01:38.67,Default,,0,0,0,,给这种人开肠破肚  也没有一点意思
+Dialogue: 0,0:01:39.25,0:01:41.75,Default,,0,0,0,,我不理解这点
+Dialogue: 0,0:01:44.51,0:01:46.76,Default,,0,0,0,,你扎辫子变熟练了
+Dialogue: 0,0:01:47.35,0:01:50.06,Default,,0,0,0,,第一次见到你的时候  你一头散发
+Dialogue: 0,0:01:50.38,0:01:52.98,Default,,0,0,0,,只有这一点是你教得好
+Dialogue: 0,0:01:53.39,0:01:58.00,Default,,0,0,0,,艾尔莎  你也该改改总是让我干活的懒病了
+Dialogue: 0,0:01:58.50,0:02:00.31,Default,,0,0,0,,可你比我干得好
+Dialogue: 0,0:02:04.14,0:02:05.31,Default,,0,0,0,,你怎么了
+Dialogue: 0,0:02:05.49,0:02:08.97,Default,,0,0,0,,没什么  我想起了往事而已
+Dialogue: 0,0:02:10.57,0:02:13.33,Default,,0,0,0,,下次我要是咬死了你  我可不管
+Dialogue: 0,0:02:13.54,0:02:17.03,Default,,0,0,0,,没事的  你不是不会再咬我了吗
+Dialogue: 0,0:02:17.40,0:02:19.26,Default,,0,0,0,,可我刚刚才咬过
+Dialogue: 0,0:02:19.44,0:02:22.96,Default,,0,0,0,,你这只是闹着玩  跟那时候不一样
+Dialogue: 0,0:02:23.34,0:02:24.95,Default,,0,0,0,,那你也不一样了吗
+Dialogue: 0,0:02:25.39,0:02:28.66,Default,,0,0,0,,不想再剖开我肚子了吗
+Dialogue: 0,0:02:29.11,0:02:31.80,Default,,0,0,0,,我并非对你肚子里没有好奇心
+Dialogue: 0,0:02:32.72,0:02:35.74,Default,,0,0,0,,但魅力也没大到让我打破眼下的宁静
+Dialogue: 0,0:02:36.39,0:02:37.36,Default,,0,0,0,,你放心吧
+Dialogue: 0,0:02:38.99,0:02:40.18,Default,,0,0,0,,是吗
+Dialogue: 0,0:02:41.47,0:02:45.46,Default,,0,0,0,,好了  我也该写日报了
+Dialogue: 0,0:02:46.03,0:02:49.19,Default,,0,0,0,,为了你讨厌的那个雇主吧
+Dialogue: 0,0:02:49.54,0:02:54.02,Default,,0,0,0,,是啊  和那个小子有一样眼神的那个雇主
+Dialogue: 0,0:02:55.32,0:02:57.95,Default,,0,0,0,,你脖子上涂的药好苦啊
+Dialogue: 0,0:02:57.95,0:02:59.55,Default,,0,0,0,,那当然了  本来就是毒
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

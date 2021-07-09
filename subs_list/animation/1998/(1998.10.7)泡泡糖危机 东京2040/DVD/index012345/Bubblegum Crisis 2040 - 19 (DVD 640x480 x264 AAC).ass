@@ -1,0 +1,342 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,15,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.50,Default,NTP,0,0,0,,== OCR ==
+Dialogue: 0,0:01:29.15,0:01:30.95,Default,NTP,0,0,0,,全日本的各位觀眾
+Dialogue: 0,0:01:30.95,0:01:33.22,Default,NTP,0,0,0,,今日的天氣亦非常好
+Dialogue: 0,0:01:33.22,0:01:35.95,Default,NTP,0,0,0,,舒適的季節真的已經來臨呢
+Dialogue: 0,0:01:36.33,0:01:38.93,Default,NTP,0,0,0,,雖然東京因為能源供給線的意外
+Dialogue: 0,0:01:38.93,0:01:40.89,Default,NTP,0,0,0,,以致有點不便
+Dialogue: 0,0:01:41.87,0:01:44.40,Default,NTP,0,0,0,,但其他地區完全沒受到影響
+Dialogue: 0,0:01:44.40,0:01:45.70,Default,NTP,0,0,0,,請不要擔…
+Dialogue: 0,0:01:46.30,0:01:48.54,Default,NTP,0,0,0,,全東京的亞人已經失控
+Dialogue: 0,0:01:48.54,0:01:50.01,Default,NTP,0,0,0,,這是會傳染的
+Dialogue: 0,0:01:50.01,0:01:53.04,Default,NTP,0,0,0,,小心 這不單只是能源供給的意外
+Dialogue: 0,0:01:53.04,0:01:54.81,Default,NTP,0,0,0,,亞人不是普通機械人…
+Dialogue: 0,0:01:54.81,0:01:57.11,Default,NTP,0,0,0,,【衛星頻道發生故障】
+Dialogue: 0,0:01:57.11,0:01:58.81,Default,NTP,0,0,0,,【請等一會】
+Dialogue: 0,0:02:48.70,0:02:51.90,Default,NTP,0,0,0,,快逃 還留在東京這裡的人
+Dialogue: 0,0:02:51.90,0:02:53.04,Default,NTP,0,0,0,,馬上快逃
+Dialogue: 0,0:02:53.04,0:02:54.36,Default,NTP,0,0,0,,積蒙…
+Dialogue: 0,0:03:46.32,0:03:48.33,Default,NTP,0,0,0,,想不到費挪現象的擴散…
+Dialogue: 0,0:03:48.33,0:03:50.22,Default,NTP,0,0,0,,會急劇到這地步
+Dialogue: 0,0:03:50.79,0:03:52.42,Default,NTP,0,0,0,,真精彩
+Dialogue: 0,0:04:01.17,0:04:03.53,Default,NTP,0,0,0,,已故史汀奇博士製造出來的
+Dialogue: 0,0:04:04.01,0:04:06.91,Default,NTP,0,0,0,,並非只是模仿人類的機械人
+Dialogue: 0,0:04:10.31,0:04:12.54,Default,NTP,0,0,0,,史汀奇博士想製造的
+Dialogue: 0,0:04:12.65,0:04:14.35,Default,NTP,0,0,0,,是有生命的金屬
+Dialogue: 0,0:04:14.35,0:04:16.58,Default,NTP,0,0,0,,而且還是具有智慧的
+Dialogue: 0,0:04:17.75,0:04:20.42,Default,NTP,0,0,0,,那種模擬生命體…亞人的誕生
+Dialogue: 0,0:04:20.42,0:04:21.86,Default,NTP,0,0,0,,全賴博士把牠們的「seed」
+Dialogue: 0,0:04:21.86,0:04:23.49,Default,NTP,0,0,0,,殖入自己女兒腦內
+Dialogue: 0,0:04:23.49,0:04:25.62,Default,NTP,0,0,0,,然後由熟習了…
+Dialogue: 0,0:04:25.66,0:04:29.39,Default,NTP,0,0,0,,人類腦內神經電氣特性的抗體
+Dialogue: 0,0:04:29.43,0:04:32.26,Default,NTP,0,0,0,,自動完成其進化
+Dialogue: 0,0:04:44.72,0:04:48.18,Default,NTP,0,0,0,,原來是你 別嚇我啊 霍斯
+Dialogue: 0,0:04:48.29,0:04:50.11,Default,NTP,0,0,0,,你有何打算
+Dialogue: 0,0:04:50.19,0:04:52.02,Default,NTP,0,0,0,,我只好回國吧
+Dialogue: 0,0:04:52.19,0:04:55.62,Default,NTP,0,0,0,,留在這種地方只會給亞人殺死
+Dialogue: 0,0:04:56.73,0:04:59.52,Default,NTP,0,0,0,,想不到會因為這種事而解散
+Dialogue: 0,0:05:00.80,0:05:02.52,Default,NTP,0,0,0,,沒辦法啊
+Dialogue: 0,0:05:03.13,0:05:05.10,Default,NTP,0,0,0,,布烈絲去了哪裡
+Dialogue: 0,0:05:06.04,0:05:08.57,Default,NTP,0,0,0,,她沒有回車屋
+Dialogue: 0,0:05:08.57,0:05:10.07,Default,NTP,0,0,0,,難道…
+Dialogue: 0,0:05:10.24,0:05:13.31,Default,NTP,0,0,0,,她不是那種會輕易被亞人殺死的人
+Dialogue: 0,0:05:15.15,0:05:16.61,Default,NTP,0,0,0,,說的也是
+Dialogue: 0,0:05:17.41,0:05:19.75,Default,NTP,0,0,0,,Sekiria世界巡迴演唱會
+Dialogue: 0,0:05:19.75,0:05:21.87,Default,NTP,0,0,0,,已經變成一場夢嗎
+Dialogue: 0,0:05:25.29,0:05:26.62,Default,NTP,0,0,0,,【本公司已經關閉】
+Dialogue: 0,0:05:26.62,0:05:28.21,Default,NTP,0,0,0,,【有事的請聯絡大阪分公司】
+Dialogue: 0,0:05:44.74,0:05:47.24,Default,NTP,0,0,0,,電話仍未接通呢
+Dialogue: 0,0:05:47.24,0:05:50.11,Default,NTP,0,0,0,,她連打個電話回來也不懂嗎
+Dialogue: 0,0:05:50.11,0:05:51.91,Default,NTP,0,0,0,,你說得真刻薄
+Dialogue: 0,0:05:52.08,0:05:54.41,Default,NTP,0,0,0,,東京好像發生大件事啊
+Dialogue: 0,0:05:56.52,0:05:59.09,Default,NTP,0,0,0,,電視新聞為何沒有報導
+Dialogue: 0,0:06:01.06,0:06:05.49,Default,NTP,0,0,0,,先進的科技一定會引來投資者
+Dialogue: 0,0:06:06.86,0:06:09.83,Default,NTP,0,0,0,,看中亞人的就是積蒙
+Dialogue: 0,0:06:12.07,0:06:16.94,Default,NTP,0,0,0,,積蒙會長羅辛格爾把亞人商品化
+Dialogue: 0,0:06:16.94,0:06:19.30,Default,NTP,0,0,0,,好讓人類不會受到良心的責備
+Dialogue: 0,0:06:20.81,0:06:24.01,Default,NTP,0,0,0,,近似人類般會獨立思考的亞人
+Dialogue: 0,0:06:24.38,0:06:27.18,Default,NTP,0,0,0,,需要一副枷鎖來令牠們服從人類
+Dialogue: 0,0:06:29.09,0:06:30.91,Default,NTP,0,0,0,,那副枷鎖就是…
+Dialogue: 0,0:06:30.92,0:06:33.15,Default,NTP,0,0,0,,牠們跟人類相似的外形
+Dialogue: 0,0:06:33.72,0:06:36.19,Default,NTP,0,0,0,,只要外形一日模仿人類
+Dialogue: 0,0:06:36.19,0:06:39.73,Default,NTP,0,0,0,,亞人便注定只可以是亞人
+Dialogue: 0,0:06:40.96,0:06:44.97,Default,NTP,0,0,0,,獨立的思考對人類根本沒幫助
+Dialogue: 0,0:06:49.74,0:06:52.17,Default,NTP,0,0,0,,但是 亞人有時會失常
+Dialogue: 0,0:06:52.68,0:06:54.74,Default,NTP,0,0,0,,雖然沒公開報導
+Dialogue: 0,0:06:54.85,0:06:58.21,Default,NTP,0,0,0,,但亞人失控的機率是沒規則的
+Dialogue: 0,0:07:00.28,0:07:02.69,Default,NTP,0,0,0,,積蒙撥出大量資金
+Dialogue: 0,0:07:02.69,0:07:04.69,Default,NTP,0,0,0,,給予日本國家警察
+Dialogue: 0,0:07:04.69,0:07:08.55,Default,NTP,0,0,0,,把本來是反恐怖分子的AD警察
+Dialogue: 0,0:07:08.89,0:07:11.79,Default,NTP,0,0,0,,變成專門對付亞人罪案的部隊
+Dialogue: 0,0:07:14.43,0:07:18.59,Default,NTP,0,0,0,,但是 AD警察亦已經不再存在
+Dialogue: 0,0:07:49.40,0:07:50.80,Default,NTP,0,0,0,,有映像了
+Dialogue: 0,0:07:51.23,0:07:55.57,Default,NTP,0,0,0,,積蒙的素成計劃利用宇宙的傘子
+Dialogue: 0,0:07:55.57,0:07:58.17,Default,NTP,0,0,0,,把太陽能直接投射到地底
+Dialogue: 0,0:07:58.17,0:08:00.48,Default,NTP,0,0,0,,因此 設在地底的龍脈…
+Dialogue: 0,0:08:00.48,0:08:01.95,Default,NTP,0,0,0,,Dragon line
+Dialogue: 0,0:08:01.95,0:08:04.17,Default,NTP,0,0,0,,令亞人變得失常
+Dialogue: 0,0:08:04.35,0:08:06.54,Default,NTP,0,0,0,,這樣下去 不只東京…
+Dialogue: 0,0:08:07.88,0:08:11.58,Default,NTP,0,0,0,,可惡 這次給徹底封鎖了
+Dialogue: 0,0:08:11.66,0:08:14.05,Default,NTP,0,0,0,,莉莉 能再次轉換頻道嗎
+Dialogue: 0,0:08:14.42,0:08:17.46,Default,NTP,0,0,0,,算了吧 沒人看得到的
+Dialogue: 0,0:08:17.76,0:08:19.69,Default,NTP,0,0,0,,你們很努力啊
+Dialogue: 0,0:08:19.70,0:08:22.09,Default,NTP,0,0,0,,你們已經能做的都做了
+Dialogue: 0,0:08:22.63,0:08:23.99,Default,NTP,0,0,0,,莉莉
+Dialogue: 0,0:08:26.14,0:08:29.20,Default,NTP,0,0,0,,謝謝你來幫我們
+Dialogue: 0,0:08:29.71,0:08:33.80,Default,NTP,0,0,0,,別客氣 我也是AD警察的員工
+Dialogue: 0,0:08:33.81,0:08:35.47,Default,NTP,0,0,0,,員工…
+Dialogue: 0,0:08:35.55,0:08:38.44,Default,NTP,0,0,0,,雖然怪 但形容得非常貼切
+Dialogue: 0,0:08:40.88,0:08:43.28,Default,NTP,0,0,0,,媒體被控制了
+Dialogue: 0,0:08:43.49,0:08:46.71,Default,NTP,0,0,0,,沒想過原來是這麼令人沮喪的
+Dialogue: 0,0:08:49.16,0:08:51.42,Default,NTP,0,0,0,,你們有何打算
+Dialogue: 0,0:08:51.59,0:08:54.97,Default,NTP,0,0,0,,你指我們Knight Sabers
+Dialogue: 0,0:08:54.97,0:08:57.70,Default,NTP,0,0,0,,失常亞人的影子執法者
+Dialogue: 0,0:08:57.70,0:09:00.74,Default,NTP,0,0,0,,現在的確已經無計可施了吧
+Dialogue: 0,0:09:01.07,0:09:04.11,Default,NTP,0,0,0,,我們不會再穿裝甲服…
+Dialogue: 0,0:09:07.68,0:09:09.34,Default,NTP,0,0,0,,有電郵
+Dialogue: 0,0:09:09.41,0:09:12.07,Default,NTP,0,0,0,,是AD警察行動部隊的暗號
+Dialogue: 0,0:09:14.58,0:09:16.15,Default,NTP,0,0,0,,我也收到
+Dialogue: 0,0:09:16.15,0:09:17.25,Default,NTP,0,0,0,,里昂
+Dialogue: 0,0:09:17.25,0:09:19.79,Default,NTP,0,0,0,,行動部隊的兄弟還在東京啊
+Dialogue: 0,0:09:19.86,0:09:21.75,Default,NTP,0,0,0,,大家正在等候指示
+Dialogue: 0,0:09:22.56,0:09:24.59,Default,NTP,0,0,0,,怎麼辦 里昂
+Dialogue: 0,0:09:26.76,0:09:29.83,Default,NTP,0,0,0,,利用餘下的裝備把龍脈封鎖
+Dialogue: 0,0:09:29.83,0:09:32.50,Default,NTP,0,0,0,,但是…餘下的裝備也…
+Dialogue: 0,0:09:32.50,0:09:35.04,Default,NTP,0,0,0,,雖然沒有反亞人電磁鎗…
+Dialogue: 0,0:09:35.41,0:09:38.84,Default,NTP,0,0,0,,但我們應該能使用分署的手榴彈
+Dialogue: 0,0:09:39.64,0:09:42.65,Default,NTP,0,0,0,,達利 要在東京截斷龍脈
+Dialogue: 0,0:09:42.65,0:09:44.34,Default,NTP,0,0,0,,應該炸毀哪裡
+Dialogue: 0,0:09:44.91,0:09:46.78,Default,NTP,0,0,0,,待我看看…
+Dialogue: 0,0:09:47.18,0:09:49.29,Default,NTP,0,0,0,,如果給龍脈從這裡…
+Dialogue: 0,0:09:49.29,0:09:50.92,Default,NTP,0,0,0,,接上北面的lifeline
+Dialogue: 0,0:09:50.92,0:09:52.72,Default,NTP,0,0,0,,那東北部便會被感染
+Dialogue: 0,0:09:52.72,0:09:55.69,Default,NTP,0,0,0,,好 召集我們的員工
+Dialogue: 0,0:10:37.20,0:10:39.34,Default,NTP,0,0,0,,若你想離開這裡 可以的
+Dialogue: 0,0:10:39.34,0:10:40.83,Default,NTP,0,0,0,,米西奧
+Dialogue: 0,0:10:41.27,0:10:43.53,Default,NTP,0,0,0,,我想留在這裡
+Dialogue: 0,0:10:43.77,0:10:45.01,Default,NTP,0,0,0,,絲莉亞小姐
+Dialogue: 0,0:10:45.01,0:10:48.48,Default,NTP,0,0,0,,我想服侍你直到我終老
+Dialogue: 0,0:10:53.82,0:10:56.18,Default,NTP,0,0,0,,布烈絲你也應該試試游泳嘛
+Dialogue: 0,0:10:57.72,0:10:59.51,Default,NTP,0,0,0,,我沒那種心情
+Dialogue: 0,0:10:59.59,0:11:01.28,Default,NTP,0,0,0,,你為何再來這裡
+Dialogue: 0,0:11:01.49,0:11:03.49,Default,NTP,0,0,0,,你不是已經退出的嗎
+Dialogue: 0,0:11:04.96,0:11:06.66,Default,NTP,0,0,0,,這裡安全嗎
+Dialogue: 0,0:11:06.66,0:11:09.00,Default,NTP,0,0,0,,核彈也好 若非直接擊中
+Dialogue: 0,0:11:09.00,0:11:10.59,Default,NTP,0,0,0,,這裡便不會有事
+Dialogue: 0,0:11:17.64,0:11:20.57,Default,NTP,0,0,0,,我以為裝甲服能更進化一點
+Dialogue: 0,0:11:21.95,0:11:23.94,Default,NTP,0,0,0,,我看你已經知道
+Dialogue: 0,0:11:24.01,0:11:27.01,Default,NTP,0,0,0,,裝甲服是抑制了核心的亞人變體
+Dialogue: 0,0:11:27.85,0:11:28.99,Default,NTP,0,0,0,,牠能透過…
+Dialogue: 0,0:11:28.99,0:11:30.85,Default,NTP,0,0,0,,跟穿起牠的女孩的身體同化…
+Dialogue: 0,0:11:30.85,0:11:34.45,Default,NTP,0,0,0,,來發揮機能和抑制其亞人的自我
+Dialogue: 0,0:11:35.19,0:11:38.36,Default,NTP,0,0,0,,絲莉亞 最討厭亞人的是你吧
+Dialogue: 0,0:11:38.36,0:11:39.76,Default,NTP,0,0,0,,是
+Dialogue: 0,0:11:39.76,0:11:43.39,Default,NTP,0,0,0,,但是 最接近亞人的人類亦是我
+Dialogue: 0,0:11:43.93,0:11:46.70,Default,NTP,0,0,0,,因為 格拉迪亞和米奇
+Dialogue: 0,0:11:46.70,0:11:49.57,Default,NTP,0,0,0,,也是在我的腦內孕育出來的
+Dialogue: 0,0:11:50.84,0:11:53.61,Default,NTP,0,0,0,,我以為只要使用爸爸研究所裡…
+Dialogue: 0,0:11:53.61,0:11:55.61,Default,NTP,0,0,0,,遺下來的最純淨核心
+Dialogue: 0,0:11:55.61,0:11:57.74,Default,NTP,0,0,0,,那就不會像亞人般失控
+Dialogue: 0,0:11:58.11,0:11:59.94,Default,NTP,0,0,0,,但是 那失控了
+Dialogue: 0,0:12:07.22,0:12:11.38,Default,NTP,0,0,0,,對 根本就沒有不會失控的亞人
+Dialogue: 0,0:12:11.76,0:12:15.06,Default,NTP,0,0,0,,亞人透過改變自己的外形…
+Dialogue: 0,0:12:15.06,0:12:18.22,Default,NTP,0,0,0,,去擁有跟人截然不同的思考模式
+Dialogue: 0,0:12:18.40,0:12:19.94,Default,NTP,0,0,0,,所以 我明白了
+Dialogue: 0,0:12:19.94,0:12:22.63,Default,NTP,0,0,0,,亞人是會改變外形的
+Dialogue: 0,0:12:22.84,0:12:25.51,Default,NTP,0,0,0,,所以 我的心不容許我…
+Dialogue: 0,0:12:25.51,0:12:27.94,Default,NTP,0,0,0,,不積極利用那一點
+Dialogue: 0,0:12:28.24,0:12:29.68,Default,NTP,0,0,0,,什麼意思
+Dialogue: 0,0:12:29.68,0:12:31.71,Default,NTP,0,0,0,,你看過拉謝爾和米奇…
+Dialogue: 0,0:12:31.71,0:12:33.80,Default,NTP,0,0,0,,正在製造的東西便會明白
+Dialogue: 0,0:12:34.25,0:12:37.61,Default,NTP,0,0,0,,失控的可能性並非已經消失吧
+Dialogue: 0,0:12:38.09,0:12:42.79,Default,NTP,0,0,0,,那完全取決於我們精神上的強弱
+Dialogue: 0,0:12:42.79,0:12:45.23,Default,NTP,0,0,0,,我討厭那種精神論啊
+Dialogue: 0,0:12:45.23,0:12:46.95,Default,NTP,0,0,0,,早料到你會那樣說
+Dialogue: 0,0:12:47.46,0:12:49.50,Default,NTP,0,0,0,,我剛才說得不貼切
+Dialogue: 0,0:12:49.50,0:12:51.36,Default,NTP,0,0,0,,那換過你喜歡的
+Dialogue: 0,0:12:51.40,0:12:53.63,Default,NTP,0,0,0,,那要看我們的拼勁啊
+Dialogue: 0,0:13:01.18,0:13:02.44,Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:13:03.81,0:13:06.14,Default,NTP,0,0,0,,格拉…迪亞…
+Dialogue: 0,0:13:10.62,0:13:12.78,Default,NTP,0,0,0,,絲莉亞…絲莉亞
+Dialogue: 0,0:13:13.59,0:13:15.05,Default,NTP,0,0,0,,米西奧
+Dialogue: 0,0:13:29.87,0:13:33.78,Default,NTP,0,0,0,,你的費挪現象正透過地底龍脈
+Dialogue: 0,0:13:33.78,0:13:37.50,Default,NTP,0,0,0,,擴展至全日本…以致全世界
+Dialogue: 0,0:13:38.45,0:13:39.95,Default,NTP,0,0,0,,格拉迪亞
+Dialogue: 0,0:13:39.95,0:13:43.07,Default,NTP,0,0,0,,你想把人類變為亞人的僕人嗎
+Dialogue: 0,0:13:43.42,0:13:46.51,Default,NTP,0,0,0,,那樣做有何有趣之處
+Dialogue: 0,0:13:46.99,0:13:49.29,Default,NTP,0,0,0,,我完全無法理解
+Dialogue: 0,0:13:49.89,0:13:53.03,Default,NTP,0,0,0,,身為人類的我也料到…
+Dialogue: 0,0:13:53.03,0:13:57.03,Default,NTP,0,0,0,,想向人類報復並非無聊的目的
+Dialogue: 0,0:13:57.37,0:14:00.53,Default,NTP,0,0,0,,我還有很多不明白的事情
+Dialogue: 0,0:14:01.24,0:14:03.41,Default,NTP,0,0,0,,你為何身為人類…
+Dialogue: 0,0:14:03.41,0:14:06.67,Default,NTP,0,0,0,,卻想解放我們的自我
+Dialogue: 0,0:14:07.11,0:14:10.04,Default,NTP,0,0,0,,而且你還不惜勉強自己
+Dialogue: 0,0:14:11.58,0:14:15.15,Default,NTP,0,0,0,,因為我並非完全的人類啊
+Dialogue: 0,0:14:16.42,0:14:19.18,Default,NTP,0,0,0,,你指你小時曾因病…
+Dialogue: 0,0:14:19.29,0:14:21.52,Default,NTP,0,0,0,,以致大部份內藏和筋肉…
+Dialogue: 0,0:14:21.52,0:14:24.49,Default,NTP,0,0,0,,都被換上人工代替品一事
+Dialogue: 0,0:14:24.86,0:14:27.19,Default,NTP,0,0,0,,會長跟我相反
+Dialogue: 0,0:14:27.20,0:14:30.33,Default,NTP,0,0,0,,他討厭自己的體內藏有外物
+Dialogue: 0,0:14:30.33,0:14:32.10,Default,NTP,0,0,0,,於是全身插上喉管
+Dialogue: 0,0:14:32.10,0:14:34.10,Default,NTP,0,0,0,,不像樣的活下去
+Dialogue: 0,0:14:34.44,0:14:37.67,Default,NTP,0,0,0,,儘管如此 你也不過是人類
+Dialogue: 0,0:14:38.14,0:14:40.78,Default,NTP,0,0,0,,人類只是一群已經不會再進化的
+Dialogue: 0,0:14:40.78,0:14:42.41,Default,NTP,0,0,0,,末期生物
+Dialogue: 0,0:14:42.41,0:14:45.48,Default,NTP,0,0,0,,人類和這個地球的下場
+Dialogue: 0,0:14:45.48,0:14:47.48,Default,NTP,0,0,0,,全都已經在預測之中
+Dialogue: 0,0:14:47.55,0:14:50.64,Default,NTP,0,0,0,,甚至連發生混亂的餘地亦沒有
+Dialogue: 0,0:14:51.62,0:14:54.22,Default,NTP,0,0,0,,所以 我想親眼看看…
+Dialogue: 0,0:14:54.22,0:14:57.23,Default,NTP,0,0,0,,你這種跟人類截然不同的生物…
+Dialogue: 0,0:14:57.23,0:15:00.02,Default,NTP,0,0,0,,會帶來怎麼樣的變數
+Dialogue: 0,0:15:00.93,0:15:04.33,Default,NTP,0,0,0,,你體內的亞人是初期型的吧
+Dialogue: 0,0:15:05.07,0:15:08.16,Default,NTP,0,0,0,,跟人類的器官黏在一起
+Dialogue: 0,0:15:08.24,0:15:10.70,Default,NTP,0,0,0,,所以 牠們沒有覺醒
+Dialogue: 0,0:15:11.01,0:15:14.87,Default,NTP,0,0,0,,我… 我既非人類亦非亞人
+Dialogue: 0,0:15:16.11,0:15:17.91,Default,NTP,0,0,0,,我是觀察者
+Dialogue: 0,0:15:21.78,0:15:24.85,Default,NTP,0,0,0,,位於這裡地底的儲水庫
+Dialogue: 0,0:15:24.85,0:15:27.75,Default,NTP,0,0,0,,正好是龍脈連接的部份
+Dialogue: 0,0:15:28.26,0:15:30.79,Default,NTP,0,0,0,,炸毀這個儲水庫便能把龍脈…
+Dialogue: 0,0:15:30.79,0:15:34.06,Default,NTP,0,0,0,,跟北面的lifeline分開
+Dialogue: 0,0:15:35.40,0:15:37.90,Default,NTP,0,0,0,,大家真的會來嗎
+Dialogue: 0,0:15:38.17,0:15:39.84,Default,NTP,0,0,0,,大家全是男子漢
+Dialogue: 0,0:15:39.84,0:15:41.70,Default,NTP,0,0,0,,他們不會不來的
+Dialogue: 0,0:15:41.70,0:15:45.40,Default,NTP,0,0,0,,在這種情況下 我看那可沒關係
+Dialogue: 0,0:15:46.81,0:15:48.38,Default,NTP,0,0,0,,那是
+Dialogue: 0,0:15:55.12,0:15:58.55,Default,NTP,0,0,0,,尼克 我召集的只是行動部隊…
+Dialogue: 0,0:15:58.55,0:16:01.09,Default,NTP,0,0,0,,不 只是前行動部隊啊
+Dialogue: 0,0:16:01.16,0:16:04.09,Default,NTP,0,0,0,,我以前也是行動部隊的一員吧
+Dialogue: 0,0:16:05.09,0:16:06.73,Default,NTP,0,0,0,,雖然沒錯
+Dialogue: 0,0:16:06.73,0:16:09.82,Default,NTP,0,0,0,,但部長你因為年紀大而退休了呢
+Dialogue: 0,0:16:10.10,0:16:12.24,Default,NTP,0,0,0,,部長
+Dialogue: 0,0:16:12.24,0:16:13.57,Default,NTP,0,0,0,,莉莉·羅瑪洛吧芭
+Dialogue: 0,0:16:13.57,0:16:16.00,Default,NTP,0,0,0,,這次的行動跟你才毫無關係
+Dialogue: 0,0:16:16.21,0:16:19.93,Default,NTP,0,0,0,,單靠你優秀的頭腦是沒幫助的
+Dialogue: 0,0:16:20.54,0:16:22.95,Default,NTP,0,0,0,,只要有裝甲服
+Dialogue: 0,0:16:22.95,0:16:25.88,Default,NTP,0,0,0,,我也能夠輕而易舉的制伏亞人
+Dialogue: 0,0:16:25.88,0:16:29.05,Default,NTP,0,0,0,,又或者用武器令牠們變成蜂巢
+Dialogue: 0,0:16:29.05,0:16:32.26,Default,NTP,0,0,0,,最後一口氣把牠們的核心挖出來
+Dialogue: 0,0:16:32.26,0:16:34.25,Default,NTP,0,0,0,,跟牠們說再見
+Dialogue: 0,0:16:34.56,0:16:37.13,Default,NTP,0,0,0,,里昂 你可以糾正一下…
+Dialogue: 0,0:16:37.13,0:16:38.73,Default,NTP,0,0,0,,這位小姐說話的口吻嗎
+Dialogue: 0,0:16:38.73,0:16:40.63,Default,NTP,0,0,0,,不行 你習慣一下吧
+Dialogue: 0,0:16:42.13,0:16:43.27,Default,NTP,0,0,0,,但是
+Dialogue: 0,0:16:43.27,0:16:46.07,Default,NTP,0,0,0,,單靠我們四人根本無法破壞龍脈
+Dialogue: 0,0:16:46.07,0:16:47.76,Default,NTP,0,0,0,,不只有你們的
+Dialogue: 0,0:16:59.92,0:17:01.98,Default,NTP,0,0,0,,厲害 大家…
+Dialogue: 0,0:17:01.98,0:17:04.61,Default,NTP,0,0,0,,大家 你們來啦
+Dialogue: 0,0:17:49.63,0:17:51.10,Default,NTP,0,0,0,,布烈絲小姐
+Dialogue: 0,0:17:53.10,0:17:55.19,Default,NTP,0,0,0,,這些亞人會改成裝甲服
+Dialogue: 0,0:17:55.61,0:17:57.17,Default,NTP,0,0,0,,這樣子能造多少件
+Dialogue: 0,0:17:57.17,0:17:59.83,Default,NTP,0,0,0,,不多啊 這裡的亞人只夠造一件
+Dialogue: 0,0:17:59.91,0:18:01.08,Default,NTP,0,0,0,,騙人
+Dialogue: 0,0:18:01.08,0:18:04.01,Default,NTP,0,0,0,,這次的裝甲服透過自我意識控制
+Dialogue: 0,0:18:04.01,0:18:06.05,Default,NTP,0,0,0,,甚至能強化金屬組織
+Dialogue: 0,0:18:06.12,0:18:08.88,Default,NTP,0,0,0,,所以 那會非常重的
+Dialogue: 0,0:18:08.89,0:18:10.85,Default,NTP,0,0,0,,但是 你放心
+Dialogue: 0,0:18:10.85,0:18:12.89,Default,NTP,0,0,0,,威力也會相應所升
+Dialogue: 0,0:18:13.62,0:18:16.46,Default,NTP,0,0,0,,咦 布烈絲小姐 你來這裡…
+Dialogue: 0,0:18:16.46,0:18:18.13,Default,NTP,0,0,0,,代表你會再穿裝甲服吧
+Dialogue: 0,0:18:18.13,0:18:20.16,Default,NTP,0,0,0,,我沒那樣說吧
+Dialogue: 0,0:18:20.16,0:18:21.46,Default,NTP,0,0,0,,布烈絲
+Dialogue: 0,0:18:27.87,0:18:29.20,Default,NTP,0,0,0,,好看嗎
+Dialogue: 0,0:18:29.44,0:18:30.84,Default,NTP,0,0,0,,很厲害啊
+Dialogue: 0,0:18:30.84,0:18:33.38,Default,NTP,0,0,0,,雖然穿上身時覺得很不習慣
+Dialogue: 0,0:18:33.38,0:18:36.45,Default,NTP,0,0,0,,但靈活度比以往所高很多啊
+Dialogue: 0,0:18:36.45,0:18:38.27,Default,NTP,0,0,0,,雖然未在外面試過
+Dialogue: 0,0:18:38.51,0:18:41.05,Default,NTP,0,0,0,,但彈跳力也一定所升了
+Dialogue: 0,0:18:41.05,0:18:42.41,Default,NTP,0,0,0,,是7倍
+Dialogue: 0,0:18:43.09,0:18:45.45,Default,NTP,0,0,0,,威力也所升了5倍
+Dialogue: 0,0:18:46.29,0:18:47.39,Default,NTP,0,0,0,,但是
+Dialogue: 0,0:18:47.39,0:18:49.96,Default,NTP,0,0,0,,這些新裝甲服最大的特點是…
+Dialogue: 0,0:18:53.80,0:18:55.46,Default,NTP,0,0,0,,你們早晚會知道吧
+Dialogue: 0,0:18:55.46,0:18:57.93,Default,NTP,0,0,0,,別賣關子嘛 拉謝爾
+Dialogue: 0,0:18:58.17,0:18:59.86,Default,NTP,0,0,0,,絲莉亞…
+Dialogue: 0,0:19:00.44,0:19:02.57,Default,NTP,0,0,0,,全賴絲莉亞容許…
+Dialogue: 0,0:19:02.57,0:19:04.80,Default,NTP,0,0,0,,裝甲服留有亞人的特性
+Dialogue: 0,0:19:05.17,0:19:07.24,Default,NTP,0,0,0,,我們才能造出新裝甲服
+Dialogue: 0,0:19:09.01,0:19:10.84,Default,NTP,0,0,0,,她怎麼了呢
+Dialogue: 0,0:19:11.95,0:19:15.14,Default,NTP,0,0,0,,喂 你也不要一直堅持己見啊
+Dialogue: 0,0:19:15.25,0:19:16.62,Default,NTP,0,0,0,,沒那回事
+Dialogue: 0,0:19:16.62,0:19:18.05,Default,NTP,0,0,0,,那怎麼了
+Dialogue: 0,0:19:18.55,0:19:20.38,Default,NTP,0,0,0,,那裡看得很清楚呢
+Dialogue: 0,0:19:21.99,0:19:24.62,Default,NTP,0,0,0,,原…原來這麼暴露的嗎
+Dialogue: 0,0:19:25.29,0:19:27.02,Default,NTP,0,0,0,,你在望什麼
+Dialogue: 0,0:19:27.06,0:19:28.86,Default,NTP,0,0,0,,我…沒有…
+Dialogue: 0,0:19:30.40,0:19:32.36,Default,NTP,0,0,0,,是…是誰呢…
+Dialogue: 0,0:19:33.70,0:19:35.71,Default,NTP,0,0,0,,米奇 怎麼辦
+Dialogue: 0,0:19:35.71,0:19:37.64,Default,NTP,0,0,0,,莉莉 發…發生什麼事
+Dialogue: 0,0:19:48.15,0:19:51.82,Default,NTP,0,0,0,,亞人跟留在隧道內的車融合了
+Dialogue: 0,0:19:51.82,0:19:54.45,Default,NTP,0,0,0,,我們的裝備對牠完全無效
+Dialogue: 0,0:19:55.73,0:19:59.03,Default,NTP,0,0,0,,達利 在這麼遠的地方開槍也是沒用的
+Dialogue: 0,0:19:59.03,0:20:01.43,Default,NTP,0,0,0,,好像是了 怎麼辦
+Dialogue: 0,0:20:04.07,0:20:05.17,Default,NTP,0,0,0,,好
+Dialogue: 0,0:20:05.17,0:20:06.67,Default,NTP,0,0,0,,只好一試呢
+Dialogue: 0,0:20:07.60,0:20:10.54,Default,NTP,0,0,0,,那兩個蠢材 里昂 達利
+Dialogue: 0,0:20:10.67,0:20:13.10,Default,NTP,0,0,0,,難…難道想撞過去 里昂仔
+Dialogue: 0,0:20:14.31,0:20:16.71,Default,NTP,0,0,0,,我說過別那樣稱呼我吧
+Dialogue: 0,0:20:16.71,0:20:17.75,Default,NTP,0,0,0,,那個丫頭
+Dialogue: 0,0:20:17.75,0:20:20.91,Default,NTP,0,0,0,,這個大哥哥為何那麼生氣呢
+Dialogue: 0,0:20:21.15,0:20:22.92,Default,NTP,0,0,0,,在牠跟車融合前決勝負
+Dialogue: 0,0:20:22.92,0:20:23.69,Default,NTP,0,0,0,,準備了
+Dialogue: 0,0:20:23.69,0:20:24.95,Default,NTP,0,0,0,,知道
+Dialogue: 0,0:20:35.83,0:20:37.80,Default,NTP,0,0,0,,里昂 達利
+Dialogue: 0,0:20:38.50,0:20:40.14,Default,NTP,0,0,0,,如果有裝甲服…
+Dialogue: 0,0:20:40.14,0:20:41.37,Default,NTP,0,0,0,,你說什麼
+Dialogue: 0,0:20:41.37,0:20:43.77,Default,NTP,0,0,0,,現…現在不是說那種話的時候吧
+Dialogue: 0,0:20:46.81,0:20:50.21,Default,NTP,0,0,0,,里昂 那傢伙好像很生氣呢
+Dialogue: 0,0:20:50.21,0:20:53.72,Default,NTP,0,0,0,,我才不管 亞人又怎麼會懂生氣
+Dialogue: 0,0:20:53.72,0:20:55.02,Default,NTP,0,0,0,,聽好
+Dialogue: 0,0:20:55.02,0:20:56.91,Default,NTP,0,0,0,,核心應該在那對眼裡
+Dialogue: 0,0:20:57.05,0:20:58.69,Default,NTP,0,0,0,,因為無論變得多大
+Dialogue: 0,0:20:58.69,0:21:01.45,Default,NTP,0,0,0,,脊髓部份也有人型時的核心
+Dialogue: 0,0:21:01.92,0:21:04.46,Default,NTP,0,0,0,,好 你不走近一點
+Dialogue: 0,0:21:04.46,0:21:07.26,Default,NTP,0,0,0,,我們便無法射穿你的裝甲啊
+Dialogue: 0,0:21:07.40,0:21:08.30,Default,NTP,0,0,0,,還未行嗎
+Dialogue: 0,0:21:08.30,0:21:09.73,Default,NTP,0,0,0,,還差少許
+Dialogue: 0,0:21:09.87,0:21:12.23,Default,NTP,0,0,0,,不好… 開始融合了
+Dialogue: 0,0:21:14.70,0:21:16.97,Default,NTP,0,0,0,,可惡 到極限了 達利
+Dialogue: 0,0:21:16.97,0:21:18.31,Default,NTP,0,0,0,,還差少許
+Dialogue: 0,0:21:18.31,0:21:19.74,Default,NTP,0,0,0,,別那麼冷靜
+Dialogue: 0,0:21:19.74,0:21:21.43,Default,NTP,0,0,0,,我說還差少許
+Dialogue: 0,0:21:22.14,0:21:25.31,Default,NTP,0,0,0,,達利 你要回國繼承農場的吧
+Dialogue: 0,0:21:25.31,0:21:27.44,Default,NTP,0,0,0,,我就是不願意才來這裡的
+Dialogue: 0,0:21:27.45,0:21:28.71,Default,NTP,0,0,0,,就是現在
+Dialogue: 0,0:21:49.64,0:21:51.21,Default,NTP,0,0,0,,成功了嗎
+Dialogue: 0,0:22:04.02,0:22:05.68,Default,NTP,0,0,0,,真的假的..
+Dialogue: 0,0:22:13.56,0:22:15.29,Default,NTP,0,0,0,,什麼…為什麼…
+Dialogue: 0,0:22:15.50,0:22:18.43,Default,NTP,0,0,0,,牠應該…已經沒有核心…
+Dialogue: 0,0:23:54.30,0:23:56.47,Default,NTP,0,0,0,,蓮娜你姦茅
+Dialogue: 0,0:23:56.47,0:23:59.20,Default,NTP,0,0,0,,很好看啊 我也想穿那套衫啊
+Dialogue: 0,0:23:59.20,0:24:01.84,Default,NTP,0,0,0,,好 我也要跟絲莉亞說
+Dialogue: 0,0:24:01.84,0:24:04.04,Default,NTP,0,0,0,,給我量身訂造一套
+Dialogue: 0,0:24:04.04,0:24:06.68,Default,NTP,0,0,0,,富金屬感和冰冷的衫
+Dialogue: 0,0:24:06.68,0:24:08.78,Default,NTP,0,0,0,,到時失常亞人也就不是我對手
+Dialogue: 0,0:24:08.78,0:24:12.65,Default,NTP,0,0,0,,待我揭曉吧 那就是新型裝甲服
+Dialogue: 0,0:24:12.65,0:24:14.95,Default,NTP,0,0,0,,都無人聽我講
+Dialogue: 0,0:24:14.95,0:24:17.21,Default,NTP,0,0,0,,次回 吹波糖危機
+

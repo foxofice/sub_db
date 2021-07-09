@@ -1,0 +1,519 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Warning,Open Sans Semibold,26,&H00FFFFF6,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: sign_2985_16_missing,Open Sans Semibold,35,&H00394440,&H000000FF,&H00EAEEEB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_4872_42_Bandai_Namco,Open Sans Semibold,29,&H002E2B29,&H000000FF,&H00010200,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,255,111,27,0
+Style: sign_4914_43_Lab_A,Open Sans Semibold,24,&H0026200F,&H000000FF,&H00EAEAC9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,64,177,55,0
+Style: sign_5013_46_Unlocked,Open Sans Semibold,35,&H00506635,&H000000FF,&H005DFF53,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,29,27,163,0
+Style: sign_4986_45_missing,Open Sans Semibold,26,&H00F9FFFA,&H000000FF,&H00201505,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,109,100,159,0
+Style: sign_5808_60_Gintama_Rumble,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_7436_88_Tales_of_Rumble,Open Sans Semibold,35,&H002C00B4,&H000000FF,&H00FCFEF6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_7580_91_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H004A504F,&H000000FF,&H00D1DBE5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Text M,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,13,13,27,0
+Style: sign_10309_135_Gintoki_____Kagu,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,4,27,27,87,0
+Style: Text L,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,27,27,27,0
+Style: Rotten,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,27,320,45,0
+Style: sign_12520_171_Gintoki__Kagura_,Open Sans Semibold,26,&H0088D8E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,1,613,27,67,0
+Style: sign_13576_189_Enquiry,Open Sans Semibold,26,&H00444644,&H000000FF,&H00F4FCFC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,105,113,133,0
+Style: Text M Red,Open Sans Semibold,29,&H008981E9,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,24,0
+Style: sign_15577_221_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H00464D4E,&H000000FF,&H00DDE3E5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: sign_16552_239_MADAO_Hazard,Open Sans Semibold,35,&H0000000D,&H000000FF,&H00FDFEFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_20612_296_Super_MADAO_Brot,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,1,1,381,13,167,0
+Style: sign_21360_305_Gintama_Rumble_P,Open Sans Semibold,32,&H00162033,&H000000FF,&H006885CA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,325,133,16,0
+Style: Bandai_Namco - Copy,Open Sans Semibold,26,&H00EFF0F8,&H000000FF,&H004E4629,&H003F4031,1,0,0,0,100,100,0,0,1,2,1,8,255,111,27,0
+Style: sign_22449_314_Zoff_s_Eyewear,Open Sans Semibold,32,&H00121B1E,&H000000FF,&H004A6C79,&H00394432,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_24205_335_Guardian_Spirit,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H00342811,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,168,29,167,0
+Style: sign_24344_338_Guardian_spirits,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,27,27,27,0
+Style: sign_25442_356_One_word_and_you,Open Sans Semibold,32,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,60,27,27,0
+Style: Spirit R,Open Sans Semibold,24,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,467,47,27,0
+Style: Spirit Text L,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,7,27,27,27,0
+Style: Spirit Text R,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,9,27,64,40,0
+Style: sign_27989_394_Toilet,Open Sans Semibold,35,&H002F3B4E,&H000000FF,&H00D7DAD7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_31309_455_Kabuki_District_,Open Sans Semibold,26,&H0000000D,&H000000FF,&H00FEFCF0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_31513_456_Kabuki_District_,Open Sans Semibold,35,&H0000000D,&H000000FF,&H00FEFCF0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: sign_7580_91_Odd_Jobs_Gin_ Copy,Open Sans Semibold,26,&H00243439,&H000000FF,&H00637891,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,93,0
+Style: Text M2,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,13,307,141,0
+Style: Text M3,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,13,13,141,0
+Style: Text M4,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,13,13,216,0
+Style: Spirit L,Open Sans Semibold,24,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,47,467,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.57,0:00:12.57,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:09.45,0:00:12.57,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:01:41.68,0:01:43.08,Main,Gin,0000,0000,0000,,{\i1}Gintama Rumble{\i0}?
+Dialogue: 0,0:01:43.08,0:01:45.10,Main,Gin,0000,0000,0000,,{\an8}What the heck is this?
+Dialogue: 0,0:01:44.10,0:01:51.11,Warning,Warning,0000,0000,0000,,{\fad(500,540)}Enjoy {\i1}Gintama Rumble{\i0} in a bright room and at a safe distance from your TV!!
+Dialogue: 0,0:01:45.10,0:01:48.89,Main,Shin,0000,0000,0000,,{\an8}What do you mean? It's an upcoming game.
+Dialogue: 0,0:01:48.89,0:01:51.48,Main,Shin,0000,0000,0000,,{\an8}Following the success of \Nthe {\i1}Gintama{\i0} board game,
+Dialogue: 0,0:01:51.48,0:01:54.47,Main,Shin,0000,0000,0000,,{\an8}Bandai Namco went all-out to \Nmake another game adaptation.
+Dialogue: 0,0:01:54.47,0:01:58.58,Main,Kag,0000,0000,0000,,And it's an actual action game this time, \Nas you can tell from the "Rumble."
+Dialogue: 0,0:01:58.58,0:02:00.97,Main,Kag,0000,0000,0000,,It's got tons more money invested\Nin it than the board game.
+Dialogue: 0,0:02:00.97,0:02:05.83,Main,Gin,0000,0000,0000,,What's the point of making an action game \Nwhen we don't have any special moves?
+Dialogue: 0,0:02:05.83,0:02:07.58,Main,Gin,0000,0000,0000,,Talk about living in denial.
+Dialogue: 0,0:02:07.58,0:02:10.19,Main,Gin,0000,0000,0000,,At least it was kinda cute when they \Nmade the board game in desperation.
+Dialogue: 0,0:02:10.19,0:02:11.48,Main,Shin,0000,0000,0000,,Hey, quit complaining.
+Dialogue: 0,0:02:11.48,0:02:15.74,Main,Gin,0000,0000,0000,,What's even going on with the rights? \NDon't you think this is weird, Bamco?
+Dialogue: 0,0:02:11.48,0:02:21.49,sign_2985_16_missing,,0000,0000,0000,,Sugar Content
+Dialogue: 0,0:02:15.74,0:02:19.55,Main,Shin,0000,0000,0000,,Our protagonist discussing our \Ngame is weirder, if you ask me.
+Dialogue: 0,0:02:19.55,0:02:21.49,Main,Gin,0000,0000,0000,,True, we never really talked about it before.
+Dialogue: 0,0:02:21.49,0:02:26.95,Main,Gin,0000,0000,0000,,Regardless of who made games about \Nus or how badly they bombed,
+Dialogue: 0,0:02:26.95,0:02:28.22,Main,Gin,0000,0000,0000,,we pretended not to notice.
+Dialogue: 0,0:02:28.22,0:02:30.75,Main,Shin,0000,0000,0000,,Stop being rude, or we'll \Nnever get another game!
+Dialogue: 0,0:02:31.29,0:02:34.85,Main,Gin,0000,0000,0000,,Besides, the licensed-game genre has \Nalways been a hotbed of shitty games.
+Dialogue: 0,0:02:34.85,0:02:37.26,Main,Shin,0000,0000,0000,,They're not shitty! They're \Nmade with love and affection!
+Dialogue: 0,0:02:37.26,0:02:44.70,Main,Gin,0000,0000,0000,,But if we don't produce a hit soon, sponsors \Nmight give up on the whole franchise.
+Dialogue: 0,0:02:44.70,0:02:47.90,Main,Gin,0000,0000,0000,,That could lead to a reduction of \Ncross-media promotions and merch
+Dialogue: 0,0:02:47.90,0:02:49.83,Main,Gin,0000,0000,0000,,and ultimately affect even the anime.
+Dialogue: 0,0:02:49.83,0:02:51.65,Main,Shin,0000,0000,0000,,Uh, the anime isn't really one to talk.
+Dialogue: 0,0:02:52.07,0:02:56.44,Main,Gin,0000,0000,0000,,Talk about reckless, making an action game \Nwhile we weren't paying attention.
+Dialogue: 0,0:02:56.44,0:02:59.03,Main,Gin,0000,0000,0000,,It'll be in the bargain bin \Nwithin a few months, no doubt.
+Dialogue: 0,0:02:59.03,0:03:02.28,Main,Shin,0000,0000,0000,,Don't jinx it before the release! \NIt's gonna sell like hotcakes!
+Dialogue: 0,0:03:02.28,0:03:04.48,Main,Gin,0000,0000,0000,,I dunno about other Jump protags,
+Dialogue: 0,0:03:04.48,0:03:08.55,Main,Gin,0000,0000,0000,,but as an adult protag, I'm gonna \Npoint out problems when I see them.
+Dialogue: 0,0:03:08.55,0:03:10.00,Main,Shin,0000,0000,0000,,You're the biggest problem here!
+Dialogue: 0,0:03:10.00,0:03:13.67,Main,Shin,0000,0000,0000,,I've never heard of a protag \Nmeddling in his franchise's merch!
+Dialogue: 0,0:03:13.67,0:03:17.51,Main,Gin,0000,0000,0000,,I'm saying I can't just sit back \Nand let Bamco handle it all.
+Dialogue: 0,0:03:17.51,0:03:22.18,Main,Gin,0000,0000,0000,,In this day and age, any protag worth \Nhis salt has to oversee all the merch.
+Dialogue: 0,0:03:22.70,0:03:24.18,Main,Gin,0000,0000,0000,,On that note...
+Dialogue: 0,0:03:24.18,0:03:30.19,Ep Title,Title,0000,0000,0000,,{\fad(485,1)}The Line Between Godlike Games \Nand Shitty Games Is Paper-Thin
+Dialogue: 0,0:03:30.19,0:03:31.94,sign_4872_42_Bandai_Namco,Sign,0000,0000,0000,,Bandai Namco
+Dialogue: 0,0:03:31.94,0:03:34.94,sign_4914_43_Lab_A,Sign,0000,0000,0000,,Lab A
+Dialogue: 0,0:03:32.72,0:03:34.94,Main,Tama,0000,0000,0000,,Main system successfully infiltrated.
+Dialogue: 0,0:03:34.94,0:03:36.07,sign_4986_45_missing,,0000,0000,0000,,Authenticating
+Dialogue: 0,0:03:36.07,0:03:37.30,sign_5013_46_Unlocked,Sign,0000,0000,0000,,{\fad(1,417)}Unlocked
+Dialogue: 0,0:03:38.56,0:03:40.61,Main,Tama,0000,0000,0000,,Hacking complete.
+Dialogue: 0,0:03:40.61,0:03:44.05,Main,Gin,0000,0000,0000,,Great. Let's fix up {\i1}Gintama \NRumble{\i0} by ourselves.
+Dialogue: 0,0:03:44.05,0:03:46.45,Main,Shin,0000,0000,0000,,Hey! What do you think you're \Ndoing right before the release?!
+Dialogue: 0,0:03:46.96,0:03:50.43,Main,Gin,0000,0000,0000,,We're gonna do all we can to make a game \Nthat has a chance of selling a million.
+Dialogue: 0,0:03:50.43,0:03:51.24,Main,Shin,0000,0000,0000,,Yeah, right!
+Dialogue: 0,0:03:51.24,0:03:54.34,Main,Shin,0000,0000,0000,,Do you really think we're gonna get away \Nwith sneaking in here and doing whatever?
+Dialogue: 0,0:03:54.34,0:03:57.02,Main,Shin,0000,0000,0000,,They've almost finished \Nmaking a really fun game!
+Dialogue: 0,0:03:54.34,0:03:59.97,sign_5808_60_Gintama_Rumble,,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:03:57.02,0:03:59.97,Main,Shin,0000,0000,0000,,People with no game dev experience \Nshould keep their noses out of this!
+Dialogue: 0,0:03:59.97,0:04:02.68,Main,Gin,0000,0000,0000,,Don't be naïve.
+Dialogue: 0,0:04:02.68,0:04:04.96,Main,Gin,0000,0000,0000,,Sure, it might be a fun game.
+Dialogue: 0,0:04:04.96,0:04:06.92,Main,Gin,0000,0000,0000,,But I wanna ask Bamco this:
+Dialogue: 0,0:04:06.92,0:04:09.23,Main,Gin,0000,0000,0000,,"Do you guys really want to score a hit?"
+Dialogue: 0,0:04:09.23,0:04:11.94,sign_5808_60_Gintama_Rumble,Sign,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:04:09.68,0:04:11.94,Main,Gin,0000,0000,0000,,If they were serious about it,
+Dialogue: 0,0:04:11.94,0:04:17.48,sign_5808_60_Gintama_Rumble,Sign,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:04:13.15,0:04:14.53,Main,Gin,0000,0000,0000,,this is what would happen, obviously.
+Dialogue: 0,0:04:14.53,0:04:15.34,Main,Shin,0000,0000,0000,,Like hell!
+Dialogue: 0,0:04:15.34,0:04:17.48,Main,Shin,0000,0000,0000,,Don't try to claw your way \Ninto a super-hit series!
+Dialogue: 0,0:04:17.83,0:04:20.53,Main,Gin,0000,0000,0000,,There's a ton of them already, \Nso nobody'll notice if we slip ourselves in.
+Dialogue: 0,0:04:20.53,0:04:23.77,Main,Gin,0000,0000,0000,,Can't go wrong Tales-of-ing \Nbasically anything in life.
+Dialogue: 0,0:04:23.77,0:04:26.16,Main,Shin,0000,0000,0000,,What the hell is "Tales-of-ing"? \NWhat kinda verb is that?
+Dialogue: 0,0:04:26.16,0:04:30.08,Main,Gin,0000,0000,0000,,Ignoring our crude original work is fine.
+Dialogue: 0,0:04:30.51,0:04:33.43,Main,Gin,0000,0000,0000,,We're totally up for \NTales-of-ing off of them.
+Dialogue: 0,0:04:33.43,0:04:36.38,Main,Shin,0000,0000,0000,,More like Tales of hitching \Na ride on their backs!
+Dialogue: 0,0:04:36.38,0:04:38.46,Main,Shin,0000,0000,0000,,Talk about riding on \Nsomeone else's coattails!
+Dialogue: 0,0:04:38.84,0:04:40.59,Main,Tama,0000,0000,0000,,Roger.
+Dialogue: 0,0:04:40.59,0:04:42.41,Main,Tama,0000,0000,0000,,You want to be carried one way or another.
+Dialogue: 0,0:04:42.41,0:04:43.63,Main,Shin,0000,0000,0000,,Hey, Tama-san!
+Dialogue: 0,0:04:43.63,0:04:48.22,Main,Tama,0000,0000,0000,,So switching to a fantasy RPG, basically?
+Dialogue: 0,0:04:48.22,0:04:51.34,Main,Shin,0000,0000,0000,,Wait a sec! What about the "Rumble" part?
+Dialogue: 0,0:04:48.22,0:04:59.61,sign_5808_60_Gintama_Rumble,Sign,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:04:51.34,0:04:53.14,Main,Shin,0000,0000,0000,,That's the USP of this game, you know!
+Dialogue: 0,0:04:53.14,0:04:57.86,Main,Kag,0000,0000,0000,,That won't be hard to work around. We can \Njust name the protag Rumble or something.
+Dialogue: 0,0:04:57.86,0:04:59.61,Main,Shin,0000,0000,0000,,Who? This {\i1}will{\i0} be a {\i1}Gintama{\i0} game, right?
+Dialogue: 0,0:04:59.95,0:05:05.66,Main,Gin,0000,0000,0000,,Great idea. I really hate game \Nprotags who talk too much.
+Dialogue: 0,0:05:05.66,0:05:07.67,Main,Gin,0000,0000,0000,,In order to provide the best immersion,
+Dialogue: 0,0:05:07.67,0:05:11.02,Main,Gin,0000,0000,0000,,he should say nothing but \N"yes" and "no," like in DQ.
+Dialogue: 0,0:05:11.02,0:05:13.37,Main,Gin,0000,0000,0000,,So Gin-san doesn't have \Nto be the protag here.
+Dialogue: 0,0:05:14.75,0:05:17.52,Main,Gin,0000,0000,0000,,The protag has no personality, \Nonly speaks when required,
+Dialogue: 0,0:05:17.15,0:05:23.13,sign_7436_88_Tales_of_Rumble,Sign,0000,0000,0000,,Tales of Rumble
+Dialogue: 0,0:05:17.52,0:05:18.90,Main,Gin,0000,0000,0000,,and his name is Tales of Rumble.
+Dialogue: 0,0:05:18.90,0:05:20.75,Main,Shin,0000,0000,0000,,But Rumble's dripping with personality!
+Dialogue: 0,0:05:20.75,0:05:23.13,Main,Shin,0000,0000,0000,,Even if he doesn't say a word, \Nhis back tells the whole story!
+Dialogue: 0,0:05:23.13,0:05:30.14,sign_7580_91_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:05:23.13,0:05:30.14,sign_7580_91_Odd_Jobs_Gin_ Copy,Sign,0000,0000,0000,,Snack Otose
+Dialogue: 0,0:05:24.64,0:05:27.25,Main,Gin,0000,0000,0000,,Rumble comes to Edo, joins Odd Jobs,
+Dialogue: 0,0:05:27.25,0:05:30.14,Main,Gin,0000,0000,0000,,and rescues the kidnapped \Nprincess with us, is the story.
+Dialogue: 0,0:05:30.14,0:05:33.22,Main,Shin,0000,0000,0000,,Who would self-insert \Ninto this rugged old man?
+Dialogue: 0,0:05:33.22,0:05:35.15,Main,Shin,0000,0000,0000,,He's clearly the guy who \Nnormally kidnaps the princess!
+Dialogue: 0,0:05:38.79,0:05:42.65,Text M,Sign,0000,0000,0000,,Hello, Rumble. Welcome to Odd Jobs.
+Dialogue: 0,0:05:39.22,0:05:42.65,Main,Gin,0000,0000,0000,,Hello, Rumble. Welcome to Odd Jobs.
+Dialogue: 0,0:05:43.09,0:05:54.58,Text M,Sign,0000,0000,0000,,Before you join, I'd like to know your affinity. Is that okay?
+Dialogue: 0,0:05:43.34,0:05:49.35,Main,Gin,0000,0000,0000,,Before you join, I'd like to know \Nyour affinity. Is that okay?
+Dialogue: 0,0:05:49.14,0:05:54.58,Text M2,Sign,0000,0000,0000,,I'm S\NI'm M
+Dialogue: 0,0:05:50.80,0:05:52.66,Main,Shin,0000,0000,0000,,What happened to "yes" and "no"?!
+Dialogue: 0,0:05:52.66,0:05:54.58,Main,Shin,0000,0000,0000,,How many things could you \Nrespond to with that?!
+Dialogue: 0,0:05:54.58,0:05:59.06,Main,Gin,0000,0000,0000,,All an RPG protag needs to \Nsay is whether he's S or M.
+Dialogue: 0,0:05:59.06,0:06:01.82,Main,Gin,0000,0000,0000,,That'd let him choose his \Nsize at the armor shop, too.
+Dialogue: 0,0:05:59.31,0:06:02.55,Text M,,0000,0000,0000,,Which size armor would you like?
+Dialogue: 0,0:06:01.82,0:06:02.55,Text M3,Sign,0000,0000,0000,,I'm M
+Dialogue: 0,0:06:03.51,0:06:05.17,Main,Gin,0000,0000,0000,,Rumble's L-sized, though.
+Dialogue: 0,0:06:05.17,0:06:08.18,Main,Shin,0000,0000,0000,,What's the point, then? The leather \Narmor would be too tight on him!
+Dialogue: 0,0:06:08.52,0:06:14.99,Main,Gin,0000,0000,0000,,Also, you recover HP at Starbecks, not \Ninns, giving the game a modern, hip feel.
+Dialogue: 0,0:06:14.99,0:06:16.60,Main,Gin,0000,0000,0000,,The options should come in handy there, too.
+Dialogue: 0,0:06:16.96,0:06:23.61,Text M,Sign,0000,0000,0000,,Would you like that in short, tall, or grande?
+Dialogue: 0,0:06:19.59,0:06:20.80,Main,Shin,0000,0000,0000,,He can't order anything!
+Dialogue: 0,0:06:20.80,0:06:23.61,Main,Shin,0000,0000,0000,,The grande and stuff is too trendy \Nfor him! He's freaking out!
+Dialogue: 0,0:06:23.61,0:06:26.19,Main,Gin,0000,0000,0000,,Don't worry. HP might be difficult,
+Dialogue: 0,0:06:26.19,0:06:29.79,Main,Gin,0000,0000,0000,,but buying rope and candles from the \Nitem shop will let you recover MP.
+Dialogue: 0,0:06:29.97,0:06:34.08,Text M3,Sign,0000,0000,0000,,I'm M
+Dialogue: 0,0:06:30.64,0:06:32.12,Main,Shin,0000,0000,0000,,That's Masochist Points!
+Dialogue: 0,0:06:32.12,0:06:34.08,Main,Shin,0000,0000,0000,,Why is "M" the only choice \Nyou can make in this game?!
+Dialogue: 0,0:06:34.47,0:06:38.11,Main,Shin,0000,0000,0000,,Hey! Who the hell would want \Nto control such a gross protag?
+Dialogue: 0,0:06:38.11,0:06:42.44,Main,Gin,0000,0000,0000,,Relax. It only looks so graphic \Nbecause this is a cinematic scene.
+Dialogue: 0,0:06:45.67,0:06:47.37,Main,Gin,0000,0000,0000,,Most of the time, he'll be super-deformed.
+Dialogue: 0,0:06:47.37,0:06:49.43,Main,Shin,0000,0000,0000,,The protag is practically a corpse?
+Dialogue: 0,0:06:49.84,0:06:53.01,Main,Gin,0000,0000,0000,,Games these days are too reliant on FMVs.
+Dialogue: 0,0:06:53.01,0:06:55.71,Main,Gin,0000,0000,0000,,Graphics only need to be \Ndetailed in climactic scenes.
+Dialogue: 0,0:06:55.71,0:06:59.44,Main,Gin,0000,0000,0000,,The rest of the time, they should be \Nleft up to the player's imagination.
+Dialogue: 0,0:06:59.58,0:07:05.32,Text M,Sign,0000,0000,0000,,Shinpachi: "Big trouble, Gin-san!"
+Dialogue: 0,0:07:00.24,0:07:02.07,Main,Shin,0000,0000,0000,,What do you think you're \Nleaving to imagination?!
+Dialogue: 0,0:07:02.07,0:07:05.32,Main,Shin,0000,0000,0000,,What happened to the body? Are you saying \Nthat's a waste of resources, too?!
+Dialogue: 0,0:07:05.67,0:07:10.45,Text M,Sign,0000,0000,0000,,Someone kidnapped the princess.
+Dialogue: 0,0:07:06.24,0:07:08.74,Main,Shin,0000,0000,0000,,Hey! Why're the glasses \Ndragging a coffin around?!
+Dialogue: 0,0:07:08.74,0:07:10.45,Main,Shin,0000,0000,0000,,Does it mean what I think it means?!
+Dialogue: 0,0:07:10.45,0:07:12.78,Main,Kag,0000,0000,0000,,With that, we've got a full party.
+Dialogue: 0,0:07:12.78,0:07:15.97,Main,Gin,0000,0000,0000,,Yeah. The four of them will \Nnow begin their adventure.
+Dialogue: 0,0:07:16.96,0:07:21.27,sign_10309_135_Gintoki_____Kagu,Sign,0000,0000,0000,,Gintoki\N\N\NKagura\N\N\NRumble\N\N\NShinpachi
+Dialogue: 0,0:07:17.90,0:07:21.27,Main,Shin,0000,0000,0000,,They've practically been wiped out from \Nthe start! Hurry up and visit the church!
+Dialogue: 0,0:07:22.27,0:07:26.84,Text M3,Sign,0000,0000,0000,,A monster appeared.
+Dialogue: 0,0:07:22.59,0:07:24.02,Main,Kag,0000,0000,0000,,Look, an enemy.
+Dialogue: 0,0:07:23.86,0:07:26.84,Rotten,Sign,0000,0000,0000,,Rotten Shades (38)\N\N\NATK\NDEF\NWORK
+Dialogue: 0,0:07:24.72,0:07:26.84,Main,Shin,0000,0000,0000,,Why is everyone, ally or enemy, a corpse?!
+Dialogue: 0,0:07:27.24,0:07:29.62,Main,Shin,0000,0000,0000,,Why is Hasegawa-san a monster?!
+Dialogue: 0,0:07:29.62,0:07:32.91,Main,Gin,0000,0000,0000,,That's not Hasegawa-san. \NIt's Rotten Shades (38).
+Dialogue: 0,0:07:32.91,0:07:34.52,Main,Shin,0000,0000,0000,,So Hasegawa-san, then!
+Dialogue: 0,0:07:34.91,0:07:37.89,Text M,Sign,0000,0000,0000,,Rotten Shades calls for backup...
+Dialogue: 0,0:07:37.91,0:07:39.73,Text M,Sign,0000,0000,0000,,Rotten Shades calls for backup... \Nbut no help arrives.
+Dialogue: 0,0:07:40.67,0:07:42.23,Text M,Sign,0000,0000,0000,,Rotten Shades calls for backup...
+Dialogue: 0,0:07:42.25,0:07:44.11,Text M,Sign,0000,0000,0000,,Rotten Shades calls for backup... \Nbut no help arrives.
+Dialogue: 0,0:07:45.04,0:07:46.74,Text M,Sign,0000,0000,0000,,Rotten Shades calls for backup...
+Dialogue: 0,0:07:46.75,0:07:51.03,Text M,Sign,0000,0000,0000,,Rotten Shades calls for backup... \Nbut no help arrives, obviously.
+Dialogue: 0,0:07:49.16,0:07:51.03,Main,Shin,0000,0000,0000,,Somebody help him!
+Dialogue: 0,0:07:52.68,0:07:57.27,Text M,Sign,0000,0000,0000,,Rotten Shades is defeated.
+Dialogue: 0,0:07:54.38,0:07:58.12,Main,Shin,0000,0000,0000,,What did he even show up for? \NAll he's done is embarrass himself!
+Dialogue: 0,0:07:58.93,0:08:06.76,Text M,Sign,0000,0000,0000,,Rotten Shades gets up and looks at you\N like he wants work. Will you give him a job?
+Dialogue: 0,0:08:00.99,0:08:02.60,Main,Shin,0000,0000,0000,,"He wants work"? \NWhat's that supposed to mean?
+Dialogue: 0,0:08:02.60,0:08:05.86,Main,Shin,0000,0000,0000,,Wait, is he gonna join the party? \NYou can save the Rotten Shades?
+Dialogue: 0,0:08:06.76,0:08:09.13,Text M4,Sign,0000,0000,0000,,I'm S
+Dialogue: 0,0:08:07.42,0:08:09.71,Main,Shin,0000,0000,0000,,Somebody save him!
+Dialogue: 0,0:08:09.71,0:08:13.62,Main,Shin,0000,0000,0000,,I don't see a choice to \Nsave Rotten Shades (38)!
+Dialogue: 0,0:08:13.62,0:08:17.64,Main,Gin,0000,0000,0000,,Games have gotten too indifferent \Nto killing and looting, right?
+Dialogue: 0,0:08:17.64,0:08:23.15,Main,Gin,0000,0000,0000,,You kill monsters for XP and open \Nchests in strangers' homes for items.
+Dialogue: 0,0:08:23.56,0:08:26.39,Main,Gin,0000,0000,0000,,By giving the players a \Nchoice in this scenario,
+Dialogue: 0,0:08:26.39,0:08:29.38,Main,Gin,0000,0000,0000,,we want them to learn how much \Npeople sin in everyday life.
+Dialogue: 0,0:08:29.38,0:08:33.53,Main,Shin,0000,0000,0000,,Can we really make kids play a game \Nwhere they finish off a half-dead guy?
+Dialogue: 0,0:08:33.53,0:08:36.97,Main,Gin,0000,0000,0000,,Our lives are being supported \Nby countless deaths.
+Dialogue: 0,0:08:36.97,0:08:39.70,Main,Gin,0000,0000,0000,,We wanna teach kids that through this game.
+Dialogue: 0,0:08:39.70,0:08:43.22,Main,Gin,0000,0000,0000,,So the more Rotten Shades you kill, \Nthe more coffins you'll be dragging around.
+Dialogue: 0,0:08:43.22,0:08:45.55,Main,Shin,0000,0000,0000,,We don't need any more corpses!
+Dialogue: 0,0:08:46.55,0:08:49.17,Main,Shin,0000,0000,0000,,This is so depressing, it'll only \Nmake people lose motivation to play!
+Dialogue: 0,0:08:49.17,0:08:54.68,sign_12520_171_Gintoki__Kagura_,Sign,0000,0000,0000,,Gintoki\N\NKagura\N\NRumble\N\NShinpachi
+Dialogue: 0,0:08:50.14,0:08:52.13,Main,Kag,0000,0000,0000,,{\an8}We lost HP.
+Dialogue: 0,0:08:52.13,0:08:53.31,Main,Kag,0000,0000,0000,,{\an8}What caused it?
+Dialogue: 0,0:08:54.68,0:09:03.08,Text M,Sign,0000,0000,0000,,Gintoki\NJob: NEET
+Dialogue: 0,0:08:55.42,0:08:59.69,Main,Gin,0000,0000,0000,,Looks like I got infected by NEET in \Nthe fight against the Rotten Shades.
+Dialogue: 0,0:08:59.69,0:09:02.08,Main,Sign,0000,0000,0000,,Why is NEET a poison-like status effect?
+Dialogue: 0,0:09:02.71,0:09:07.43,Main,Gin,0000,0000,0000,,It reduces the motivation stat to zero, \Npreventing the use of items or heals.
+Dialogue: 0,0:09:03.08,0:09:10.94,Text L,Sign,0000,0000,0000,,{\an4}ATK\NDEF\NMOT\NWALK
+Dialogue: 0,0:09:07.43,0:09:10.94,Main,Gin,0000,0000,0000,,You also lose the energy to walk, \Nso HP is gradually lost.
+Dialogue: 0,0:09:11.30,0:09:12.82,Main,Gin,0000,0000,0000,,And eventually...
+Dialogue: 0,0:09:14.95,0:09:18.70,Text M Red,Sign,0000,0000,0000,,The party is wiped out.
+Dialogue: 0,0:09:16.74,0:09:18.70,Main,Shin,0000,0000,0000,,NEET is way too scary!
+Dialogue: 0,0:09:18.70,0:09:22.58,Main,Gin,0000,0000,0000,,Of course it is. Being a NEET is terrifying.
+Dialogue: 0,0:09:22.58,0:09:26.47,Main,Gin,0000,0000,0000,,You know how a lot of people are goofing \Noff after finishing their education lately?
+Dialogue: 0,0:09:26.47,0:09:29.65,Main,Gin,0000,0000,0000,,We want to show them how \Nimportant it is to work.
+Dialogue: 0,0:09:29.65,0:09:33.22,Main,Shin,0000,0000,0000,,But you're not. All you're showing \Nthem is an absurd fear of NEETdom!
+Dialogue: 0,0:09:33.22,0:09:47.75,sign_13576_189_Enquiry,Sign,0000,0000,0000,,Enquiries
+Dialogue: 0,0:09:33.53,0:09:38.46,Main,Gin,0000,0000,0000,,Don't worry. Those who are up for \Nthe fight will get another chance.
+Dialogue: 0,0:09:38.24,0:09:47.73,Text M,Sign,0000,0000,0000,,This is Hello Work. We can refer you to a workplace.
+Dialogue: 0,0:09:40.46,0:09:43.23,Main,Shin,0000,0000,0000,,What? You come back to life \Nat Hello Work, not a church?
+Dialogue: 0,0:09:43.23,0:09:47.23,Main,Gin,0000,0000,0000,,So long as you never give up, \Nyou can start anew over and over.
+Dialogue: 0,0:09:47.73,0:09:53.36,Text M,Sign,0000,0000,0000,,Choose your new job.
+Dialogue: 0,0:09:48.75,0:10:07.58,Text M3,Sign,0000,0000,0000,,S, please\NM, please
+Dialogue: 0,0:09:49.40,0:09:53.24,Main,Shin,0000,0000,0000,,Excuse me! In the end, S and M \Nare the only jobs I can take!
+Dialogue: 0,0:09:53.38,0:09:56.55,Text M,Sign,0000,0000,0000,,Choose quickly.
+Dialogue: 0,0:09:56.55,0:10:01.93,Text M,Sign,0000,0000,0000,,Choose quickly.\NCould you hurry up?
+Dialogue: 0,0:09:58.07,0:10:00.87,Main,Gin,0000,0000,0000,,Huh? The staff are acting weird.
+Dialogue: 0,0:10:01.93,0:10:04.02,Text M,Sign,0000,0000,0000,,It doesn't matter which.
+Dialogue: 0,0:10:04.02,0:10:05.39,Text M,Sign,0000,0000,0000,,It doesn't matter which.\NCome on...
+Dialogue: 0,0:10:05.39,0:10:07.58,Text M,Sign,0000,0000,0000,,It doesn't matter which.\NCome on...\NMan... This is a pain.
+Dialogue: 0,0:10:08.38,0:10:11.67,Text M Red,Sign,0000,0000,0000,,Hello Work is wiped out.
+Dialogue: 0,0:10:09.54,0:10:11.67,Main,Shin,0000,0000,0000,,NEET is way too scary!
+Dialogue: 0,0:10:11.67,0:10:15.15,Main,Shin,0000,0000,0000,,Why has it infected the\NHello Work staff, too?!
+Dialogue: 0,0:10:15.15,0:10:18.58,Main,Gin,0000,0000,0000,,Sometimes, even Hello Work \Npeople don't wanna work.
+Dialogue: 0,0:10:18.58,0:10:20.34,Main,Gin,0000,0000,0000,,I wanted to show the player that.
+Dialogue: 0,0:10:20.34,0:10:23.27,Main,Shin,0000,0000,0000,,Do you wanna make them work or not?
+Dialogue: 0,0:10:23.45,0:10:30.52,Text M Red,Sign,0000,0000,0000,,{\fad(843,1)}Edo is wiped out.
+Dialogue: 0,0:10:25.15,0:10:28.18,Main,Gin,0000,0000,0000,,At this point, all you can \Ndo is reset and start over.
+Dialogue: 0,0:10:28.18,0:10:30.52,Main,Shin,0000,0000,0000,,Who was it that said you can start \Nanew so long as you don't give up?!
+Dialogue: 0,0:10:30.52,0:10:31.71,Main,Gin,0000,0000,0000,,Shaddup!
+Dialogue: 0,0:10:31.71,0:10:36.15,Main,Gin,0000,0000,0000,,You think you can auto-revive when \Nyou're wiped out? Life ain't that easy!
+Dialogue: 0,0:10:36.47,0:10:38.52,Main,Gin,0000,0000,0000,,Those of us who grew up on {\i1}Wizardry{\i0}
+Dialogue: 0,0:10:38.52,0:10:43.06,Main,Gin,0000,0000,0000,,had to form another party to go recover \Nour bodies once we got wiped out.
+Dialogue: 0,0:10:43.06,0:10:45.14,Main,Gin,0000,0000,0000,,After all that trouble, we'd take \Nthem to the temple to revive,
+Dialogue: 0,0:10:45.14,0:10:47.34,Main,Gin,0000,0000,0000,,but sometimes we'd fail and \Nlose our characters forever.
+Dialogue: 0,0:10:47.34,0:10:48.70,Main,Shin,0000,0000,0000,,Enough with your "back in my day" crap!
+Dialogue: 0,0:10:48.70,0:10:52.17,Main,Shin,0000,0000,0000,,There's no way modern kids could \Ndeal with this masochistic design!
+Dialogue: 0,0:10:53.24,0:10:56.68,Main,Kag,0000,0000,0000,,That's it. Making them \Nreset is going too far.
+Dialogue: 0,0:10:56.68,0:10:59.61,sign_15577_221_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:10:56.68,0:10:59.61,sign_7580_91_Odd_Jobs_Gin_ Copy,Sign,0000,0000,0000,,Snack Otose
+Dialogue: 0,0:10:56.68,0:11:01.11,Main,Kag,0000,0000,0000,,We can just make them form a \Nnew party to save us NEETs.
+Dialogue: 0,0:11:01.82,0:11:06.43,Text M,Sign,0000,0000,0000,,Welcome to Kabuki District, Rumblee.
+Dialogue: 0,0:11:02.42,0:11:05.38,Main,Oto,0000,0000,0000,,Welcome to Kabuki District, Rumblee.
+Dialogue: 0,0:11:05.38,0:11:06.43,Main,Shin,0000,0000,0000,,Rumblee?!
+Dialogue: 0,0:11:07.12,0:11:09.03,Main,Kag,0000,0000,0000,,Rumble had a kid sister.
+Dialogue: 0,0:11:09.03,0:11:11.68,Main,Kag,0000,0000,0000,,She's come to Kabuki District \Nin order to save him.
+Dialogue: 0,0:11:11.68,0:11:13.69,Main,Shin,0000,0000,0000,,I get it! Twin protags!
+Dialogue: 0,0:11:13.84,0:11:18.72,Text M,Sign,0000,0000,0000,,I'm impressed by your resolve\N to save your NEET brother.
+Dialogue: 0,0:11:14.31,0:11:18.72,Main,Oto,0000,0000,0000,,I'm impressed by your resolve \Nto save your NEET brother.
+Dialogue: 0,0:11:18.72,0:11:23.24,Text M,Sign,0000,0000,0000,,But this town is overrun with NEET now.
+Dialogue: 0,0:11:19.28,0:11:23.24,Main,Oto,0000,0000,0000,,But this town is overrun with NEET now.
+Dialogue: 0,0:11:23.64,0:11:25.14,Text M,Sign,0000,0000,0000,,Rumblee,
+Dialogue: 0,0:11:23.76,0:11:26.76,Main,Oto,0000,0000,0000,,Rumblee, can you really...
+Dialogue: 0,0:11:25.14,0:11:27.96,Text M,Sign,0000,0000,0000,,Rumblee,\Ncan you really...
+Dialogue: 0,0:11:27.96,0:11:30.92,Text M,Sign,0000,0000,0000,,save your brother?!
+Dialogue: 0,0:11:27.96,0:11:31.43,Main,Oto,0000,0000,0000,,save your brother?!
+Dialogue: 0,0:11:37.36,0:11:43.10,sign_16552_239_MADAO_Hazard,Sign,0000,0000,0000,,{\fad(2000,1)}MADAO Hazard
+Dialogue: 0,0:11:37.76,0:11:40.30,Main,Voice,0000,0000,0000,,MADAO Hazard.
+Dialogue: 0,0:11:40.30,0:11:43.10,Main,Shin,0000,0000,0000,,It turned into a completely different game!
+Dialogue: 0,0:11:43.10,0:11:46.22,Main,Kag,0000,0000,0000,,Act Two, Tales of Madao Hazard,
+Dialogue: 0,0:11:46.22,0:11:51.77,Main,Kag,0000,0000,0000,,is a survival-horror game set in a \NKabuki District taken over by NEETs.
+Dialogue: 0,0:11:52.30,0:11:55.11,Main,Shin,0000,0000,0000,,Why have NEETs turned into \Na resident evil biohazard?!
+Dialogue: 0,0:11:57.08,0:12:00.23,Main,Kag,0000,0000,0000,,The player must cut through \Nwave after wave of NEETs.
+Dialogue: 0,0:12:00.23,0:12:02.64,Main,Shin,0000,0000,0000,,What happened to the girl who \Ncame here to save a NEET?!
+Dialogue: 0,0:12:03.19,0:12:06.83,Main,Kag,0000,0000,0000,,The objective is to reach NEET Rumble!
+Dialogue: 0,0:12:08.50,0:12:11.58,Main,Shin,0000,0000,0000,,Rumble's totally become the last boss!
+Dialogue: 0,0:12:11.98,0:12:17.84,Text M,Sign,0000,0000,0000,,Oh, no. Shinpachi's been completely consumed.
+Dialogue: 0,0:12:13.98,0:12:17.84,Main,Shin,0000,0000,0000,,What do you mean, "consumed"? \NJust how terrifying is the NEET virus?
+Dialogue: 0,0:12:18.11,0:12:20.63,Text M,Sign,0000,0000,0000,,Shinpachi... Rumble...
+Dialogue: 0,0:12:18.40,0:12:20.97,Main,Kag,0000,0000,0000,,Shinpachi... Rumble...
+Dialogue: 0,0:12:20.65,0:12:28.48,Text M,Sign,0000,0000,0000,,Don't give up! There must\N be a way to make them work!
+Dialogue: 0,0:12:20.97,0:12:22.23,Main,Gin,0000,0000,0000,,Don't give up!
+Dialogue: 0,0:12:22.23,0:12:25.39,Main,Gin,0000,0000,0000,,There must be a way to make them work!
+Dialogue: 0,0:12:25.39,0:12:28.48,Main,Shin,0000,0000,0000,,How come you two get to be Rumblee's \Nparty members and I don't?!
+Dialogue: 0,0:12:32.67,0:12:42.61,Text M,Sign,0000,0000,0000,,Fire that thing into their asses.\N It'll send them flying all the way to Hello Work.
+Dialogue: 0,0:12:33.26,0:12:36.21,Main,Mad,0000,0000,0000,,Fire that thing into their asses.
+Dialogue: 0,0:12:36.21,0:12:38.30,Main,Mad,0000,0000,0000,,It'll send them flying all \Nthe way to Hello Work.
+Dialogue: 0,0:12:38.30,0:12:42.61,Main,Shin,0000,0000,0000,,Hey! Why's the NEET who caused all this \Nshowing up now like he's here to help?!
+Dialogue: 0,0:12:42.76,0:12:46.16,Text M,Sign,0000,0000,0000,,However, there's only one work slot open.
+Dialogue: 0,0:12:43.32,0:12:46.69,Main,Mad,0000,0000,0000,,However, there's only one work slot open.
+Dialogue: 0,0:12:46.18,0:12:51.87,Text M,Sign,0000,0000,0000,,Unfortunately, one of the two will be\Nerased along with the NEET virus.
+Dialogue: 0,0:12:46.69,0:12:50.78,Main,Mad,0000,0000,0000,,Unfortunately, one of the two will \Nbe erased along with the NEET virus.
+Dialogue: 0,0:12:50.78,0:12:51.87,Main,Shin,0000,0000,0000,,Say what?!
+Dialogue: 0,0:12:52.19,0:12:55.94,Text M,Sign,0000,0000,0000,,Press A for Shinpachi-kun.\NPress B for Rumble.
+Dialogue: 0,0:12:52.62,0:12:56.37,Main,Mad,0000,0000,0000,,Press A for Shinpachi-kun.\NPress B for Rumble.
+Dialogue: 0,0:12:55.94,0:13:00.38,Text M,Sign,0000,0000,0000,,Press A for Shinpachi-kun.\NPress B for Rumble.\NNow, choose one!
+Dialogue: 0,0:12:56.37,0:12:58.47,Main,Mad,0000,0000,0000,,Now, choose one!
+Dialogue: 0,0:12:58.47,0:13:00.38,Main,Shin,0000,0000,0000,,H-How are you supposed to choose—
+Dialogue: 0,0:13:05.99,0:13:08.52,Text M3,Sign,0000,0000,0000,,I'm S
+Dialogue: 0,0:13:06.92,0:13:08.52,Main,Shin,0000,0000,0000,,You too?!
+Dialogue: 0,0:13:08.52,0:13:11.07,Main,Shin,0000,0000,0000,,In the end, all three NEETs got wiped out!
+Dialogue: 0,0:13:11.07,0:13:13.51,Main,Shin,0000,0000,0000,,Can both siblings only speak in S and Ms?!
+Dialogue: 0,0:13:13.51,0:13:16.40,Main,Shin,0000,0000,0000,,How the hell were they raised?!
+Dialogue: 0,0:13:16.82,0:13:18.28,Main,Kag,0000,0000,0000,,There you have it.
+Dialogue: 0,0:13:18.71,0:13:20.54,Main,Gin,0000,0000,0000,,Pretty good.
+Dialogue: 0,0:13:20.54,0:13:21.68,Main,Shin,0000,0000,0000,,Like hell it is!
+Dialogue: 0,0:13:21.68,0:13:24.40,Main,Shin,0000,0000,0000,,This game has nothing to do \Nwith even the G of {\i1}Gintama{\i0}!
+Dialogue: 0,0:13:24.40,0:13:27.26,Main,Shin,0000,0000,0000,,And what happened to the stuff about \Nthe kidnapped princess, anyway?!
+Dialogue: 0,0:13:27.26,0:13:31.11,Main,Gin,0000,0000,0000,,The princess doesn't exist anymore. \NEveryone turned into a NEET.
+Dialogue: 0,0:13:31.11,0:13:32.94,Main,Shin,0000,0000,0000,,Just how half-assed is this story?!
+Dialogue: 0,0:13:35.10,0:13:36.46,Main,Tama,0000,0000,0000,,Shinpachi-sama...
+Dialogue: 0,0:13:36.46,0:13:40.06,Main,Tama,0000,0000,0000,,The kidnapped princess, and the \Nslain Rumble and friends...
+Dialogue: 0,0:13:40.06,0:13:42.92,Main,Tama,0000,0000,0000,,There's one way to recover them all.
+Dialogue: 0,0:13:43.23,0:13:44.76,Main,Shin,0000,0000,0000,,Really, Tama-san?
+Dialogue: 0,0:13:45.38,0:13:47.18,Main,Tama,0000,0000,0000,,The princess is fine.
+Dialogue: 0,0:13:47.65,0:13:51.93,Main,Tama,0000,0000,0000,,Funnily enough, she escaped the NEET \Noutbreak because she was kidnapped.
+Dialogue: 0,0:13:52.35,0:13:55.95,Main,Tama,0000,0000,0000,,She was being held captive \Nby terrifying monsters
+Dialogue: 0,0:13:55.95,0:14:01.27,Main,Tama,0000,0000,0000,,in a world where no living \Nperson can ever set foot.
+Dialogue: 0,0:14:05.11,0:14:06.95,Main,Shin,0000,0000,0000,,D-Don't tell me...
+Dialogue: 0,0:14:07.64,0:14:13.24,Main,Tama,0000,0000,0000,,Yes. In order to gain tickets to \Nthe afterlife and save the princess,
+Dialogue: 0,0:14:13.24,0:14:16.96,Main,Tama,0000,0000,0000,,Rumble and gang risked their lives \Nand separated their bodies and souls.
+Dialogue: 0,0:14:17.52,0:14:22.82,Main,Tama,0000,0000,0000,,Their new forms showed no traces \Nof the time they spent as MADAOs.
+Dialogue: 0,0:14:23.54,0:14:26.43,Main,Tama,0000,0000,0000,,History would come to know them as...
+Dialogue: 0,0:14:26.70,0:14:32.22,sign_20612_296_Super_MADAO_Brot,Sign,0000,0000,0000,,{\fad(1376,1)}Super {\c&H4630EE&}MA{\c&H3FFD89&}DA{\c&H45FDFC&}O {\c&H0087C3&}Brothers
+Dialogue: 0,0:14:29.36,0:14:32.22,Main,Shin,0000,0000,0000,,{\an8}Forget recovering anything!\NIt just made an even bigger mess!
+Dialogue: 0,0:14:32.22,0:14:35.16,Main,Shin,0000,0000,0000,,Are you seriously going to start \Na third act at this point?
+Dialogue: 0,0:14:35.16,0:14:38.31,Main,Shin,0000,0000,0000,,How many coattails are you \Npeople gonna crap on?!
+Dialogue: 0,0:14:38.31,0:14:43.04,Main,Tama,0000,0000,0000,,But they've found work as plumbers now, \Nand the princess will be rescued, too.
+Dialogue: 0,0:14:43.04,0:14:44.47,Main,Tama,0000,0000,0000,,Everyone will be saved.
+Dialogue: 0,0:14:44.47,0:14:46.27,Main,Shin,0000,0000,0000,,Not Bamco!
+Dialogue: 0,0:14:46.27,0:14:50.62,Main,Gin,0000,0000,0000,,Okay, fine. We'll move on to a guy named \NBamco Lord van Damme as the protag and—
+Dialogue: 0,0:14:50.62,0:14:52.62,Main,Shin,0000,0000,0000,,Enough!
+Dialogue: 0,0:14:54.78,0:15:00.06,Main,G,0000,0000,0000,,So we can either go with something like \Nthis or the action game showed before.
+Dialogue: 0,0:14:57.89,0:15:03.76,sign_21360_305_Gintama_Rumble_P,Sign,0000,0000,0000,,Gintama Rumble Pitch
+Dialogue: 0,0:15:00.06,0:15:03.76,Main,G,0000,0000,0000,,Which should we release, President?
+Dialogue: 0,0:15:06.13,0:15:07.70,Bandai_Namco - Copy,Sign,0000,0000,0000,,Bandai Namco
+Dialogue: 0,0:15:06.13,0:15:07.70,Main,Prez,0000,0000,0000,,I'm S!
+Dialogue: 0,0:15:18.34,0:15:19.81,Main,Tae,0000,0000,0000,,Take care.
+Dialogue: 0,0:15:34.65,0:15:37.31,Internal,Shin,0000,0000,0000,,Uh, something seems off.
+Dialogue: 0,0:15:37.31,0:15:43.31,Ep Title,Title,0000,0000,0000,,{\fad(483,1)}Glasses Are a Part of the Soul
+Dialogue: 0,0:15:43.31,0:15:45.78,sign_22449_314_Zoff_s_Eyewear,Sign,0000,0000,0000,,Zoff's Eyewear
+Dialogue: 0,0:15:46.66,0:15:49.57,Main,Zo,0000,0000,0000,,So, what kind of glasses are you looking for?
+Dialogue: 0,0:15:50.34,0:15:52.77,Main,Zo,0000,0000,0000,,Normal ones like these.
+Dialogue: 0,0:15:52.77,0:15:54.58,Main,Zo,0000,0000,0000,,I broke them while half-asleep.
+Dialogue: 0,0:15:55.08,0:15:59.58,Main,Zo,0000,0000,0000,,All the trendy stores are too expen—wait, \Ndon't take it the wrong way!
+Dialogue: 0,0:15:59.92,0:16:06.40,Main,Zo,0000,0000,0000,,It's fine. We place more importance \Non visibility than appearance.
+Dialogue: 0,0:16:07.77,0:16:11.34,Main,Zo,0000,0000,0000,,Glasses take the place of their \Nwearer's eyes to see things.
+Dialogue: 0,0:16:11.34,0:16:14.33,Main,Zo,0000,0000,0000,,They're a second pair of eyes.
+Dialogue: 0,0:16:16.60,0:16:19.27,Main,Zo,0000,0000,0000,,Why don't you try these?
+Dialogue: 0,0:16:19.27,0:16:21.93,Main,Zo,0000,0000,0000,,They have a bit of a rock style, though.
+Dialogue: 0,0:16:21.93,0:16:23.78,Main,Shin,0000,0000,0000,,Uh, is this really rock?
+Dialogue: 0,0:16:23.78,0:16:26.69,Main,Zo,0000,0000,0000,,They're called the Curr Sedd Glasses.
+Dialogue: 0,0:16:26.69,0:16:28.99,Main,Shin,0000,0000,0000,,Curr Sedd Glasses?
+Dialogue: 0,0:16:28.99,0:16:36.11,Main,Zo,0000,0000,0000,,These will let you see through all the \Nworld's truths clearly and distinctly.
+Dialogue: 0,0:16:36.11,0:16:37.73,Main,Shin,0000,0000,0000,,Clearly and distinctly?
+Dialogue: 0,0:16:37.73,0:16:39.03,Main,Zo,0000,0000,0000,,Indeed.
+Dialogue: 0,0:16:39.03,0:16:43.00,Main,Zo,0000,0000,0000,,All of nature and creation, \Nclearly and distinctly.
+Dialogue: 0,0:16:43.35,0:16:45.92,Internal,Shin,0000,0000,0000,,Uh, this goes beyond clearly and distinctly.
+Dialogue: 0,0:16:45.92,0:16:49.16,Internal,Shin,0000,0000,0000,,I'm clearly and distinctly seeing \Nthings that I shouldn't be seeing.
+Dialogue: 0,0:16:49.16,0:16:51.49,Internal,Shin,0000,0000,0000,,"Curr Sedd Glasses"?
+Dialogue: 0,0:16:51.49,0:16:53.84,Internal,Shin,0000,0000,0000,,These are just cursed glasses!
+Dialogue: 0,0:16:56.57,0:17:00.56,sign_24205_335_Guardian_Spirit,Sign,0000,0000,0000,,Guardian\NSpirit
+Dialogue: 0,0:16:57.64,0:16:58.65,Main,Vo,0000,0000,0000,,Guardian spirit.
+Dialogue: 0,0:16:58.65,0:17:00.56,Internal,Shin,0000,0000,0000,,It started analyzing things!
+Dialogue: 0,0:17:02.37,0:17:04.58,sign_24344_338_Guardian_spirits,Sign,0000,0000,0000,,Guardian spirits are spirits\Nthat follow a person or other \Nentity and protect them. \NAlso known as tutelary deities\Nor guardian angels.
+Dialogue: 0,0:17:04.58,0:17:07.19,sign_24344_338_Guardian_spirits,Sign,0000,0000,0000,,Guardian spirits are spirits\Nthat follow a person or other \Nentity and protect them. \NAlso known as tutelary deities \Nor guardian angels.\N-Extract from Vikipedia
+Dialogue: 0,0:17:05.06,0:17:07.19,Internal,Shin,0000,0000,0000,,It just copy-pasted from Vikipedia?!
+Dialogue: 0,0:17:07.57,0:17:11.35,Internal,Shin,0000,0000,0000,,Why can I see guardian spirits? \NThese glasses are no joke!
+Dialogue: 0,0:17:11.35,0:17:14.00,Internal,Shin,0000,0000,0000,,And I can't unequip these cursed glasses!
+Dialogue: 0,0:17:14.91,0:17:16.73,Internal,Shin,0000,0000,0000,,That geezer!
+Dialogue: 0,0:17:16.73,0:17:18.50,Internal,Shin,0000,0000,0000,,What the hell does he think he's sold me?!
+Dialogue: 0,0:17:18.50,0:17:20.04,Internal,Shin,0000,0000,0000,,He'll pay for this!
+Dialogue: 0,0:17:21.81,0:17:23.90,Internal,Shin,0000,0000,0000,,Th-The store's gone...
+Dialogue: 0,0:17:26.61,0:17:28.24,Internal,Shin,0000,0000,0000,,No way.
+Dialogue: 0,0:17:28.24,0:17:32.54,Internal,Shin,0000,0000,0000,,Was that store itself an \Notherworldly eyewear store?
+Dialogue: 0,0:17:32.54,0:17:34.00,Internal,Shin,0000,0000,0000,,What am I to do?
+Dialogue: 0,0:17:34.84,0:17:36.55,sign_15577_221_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:17:35.48,0:17:36.87,Main,Shin,0000,0000,0000,,Gin-san!
+Dialogue: 0,0:17:36.87,0:17:38.93,Main,Shin,0000,0000,0000,,Please help me!
+Dialogue: 0,0:17:39.41,0:17:40.83,Main,Gin,0000,0000,0000,,What?
+Dialogue: 0,0:17:40.83,0:17:43.10,Main,Gin,0000,0000,0000,,I can't deal with all \Nthis noise so early, man.
+Dialogue: 0,0:17:43.62,0:17:45.76,Main,Gin,0000,0000,0000,,What is it? You see something scary?
+Dialogue: 0,0:17:48.17,0:17:50.61,sign_25442_356_One_word_and_you,Sign,0000,0000,0000,,One word and you're dead.
+Dialogue: 0,0:17:51.22,0:17:54.61,Main,Shin,0000,0000,0000,,N-No, it's nothing.
+Dialogue: 0,0:17:54.61,0:17:57.12,Internal,Shin,0000,0000,0000,,There was a huge one here, too!
+Dialogue: 0,0:17:57.12,0:18:00.32,Internal,Shin,0000,0000,0000,,Gin-san has one crazy guardian spirit!
+Dialogue: 0,0:18:00.32,0:18:03.74,Main,Gin,0000,0000,0000,,What's wrong with you? \NDo you wanna be killed?
+Dialogue: 0,0:18:03.74,0:18:06.37,Main,Shin,0000,0000,0000,,I-I'm sorry. Please don't kill me.
+Dialogue: 0,0:18:06.69,0:18:08.41,Main,Gin,0000,0000,0000,,Seriously, what's gotten into you?
+Dialogue: 0,0:18:08.41,0:18:10.49,Internal,Shin,0000,0000,0000,,Spirit, nothing! That's practically a monster!
+Dialogue: 0,0:18:10.49,0:18:14.63,Internal,Shin,0000,0000,0000,,Has this thing always been by Gin-san's \Nside since the anime started 10 years ago?
+Dialogue: 0,0:18:15.25,0:18:17.64,Main,Gin,0000,0000,0000,,I'm busy as shit this morning, y'know.
+Dialogue: 0,0:18:17.64,0:18:20.76,Main,Gin,0000,0000,0000,,I have so much to do, even an \Nextra arm wouldn't be enough.
+Dialogue: 0,0:18:20.76,0:18:22.16,Internal,Shin,0000,0000,0000,,But you're using six arms!
+Dialogue: 0,0:18:22.16,0:18:24.64,Internal,Shin,0000,0000,0000,,Your guardian spirit's helping \Nyou with your morning stuff!
+Dialogue: 0,0:18:25.69,0:18:27.82,Main,Gin,0000,0000,0000,,You should hurry up and get ready, too.
+Dialogue: 0,0:18:29.21,0:18:32.29,Main,Gin,0000,0000,0000,,We're being forced to take part \Nin the neighborhood sports meet.
+Dialogue: 0,0:18:29.21,0:18:35.40,Spirit L,Sign,0000,0000,0000,,Chew well.
+Dialogue: 0,0:18:30.70,0:18:35.40,Spirit R,Sign,0000,0000,0000,,What about rice?\NWant a normal serving or large?
+Dialogue: 0,0:18:32.29,0:18:33.06,Internal,Shin,0000,0000,0000,,What're you, a mom?!
+Dialogue: 0,0:18:33.06,0:18:35.40,Internal,Shin,0000,0000,0000,,And what does this look \Nlike without the glasses?
+Dialogue: 0,0:18:36.50,0:18:38.11,Main,Gin,0000,0000,0000,,Oh, the miso soup moved.
+Dialogue: 0,0:18:38.11,0:18:41.37,Internal,Shin,0000,0000,0000,,A guardian spirit was behind the \Nmoving miso soup phenomenon?
+Dialogue: 0,0:18:42.29,0:18:43.79,Main,Gin,0000,0000,0000,,I need to take a dump.
+Dialogue: 0,0:18:43.79,0:18:46.12,Internal,Shin,0000,0000,0000,,That's how the morning \Ncall of nature worked?!
+Dialogue: 0,0:18:47.58,0:18:50.82,Main,Gin,0000,0000,0000,,Huh? Hey, who forgot to flush their poop?!
+Dialogue: 0,0:18:52.44,0:18:55.63,Internal,Shin,0000,0000,0000,,The unflushed poop was a guardian spirit's?!
+Dialogue: 0,0:18:56.20,0:18:57.88,Internal,Shin,0000,0000,0000,,I-I had no idea
+Dialogue: 0,0:18:58.48,0:19:01.64,Internal,Shin,0000,0000,0000,,that they were supporting \Nour lifestyles this way.
+Dialogue: 0,0:19:02.01,0:19:04.89,Internal,Shin,0000,0000,0000,,But who knows what'd happen \Nto me if I exposed this?
+Dialogue: 0,0:19:05.34,0:19:09.41,Internal,Shin,0000,0000,0000,,Anyway, I can't believe Gin-san \Nhad such a rugged guardian spirit.
+Dialogue: 0,0:19:10.02,0:19:12.15,Internal,Shin,0000,0000,0000,,No wonder he's so strong.
+Dialogue: 0,0:19:12.15,0:19:16.12,Internal,Shin,0000,0000,0000,,Is he an ancestor of his, or \Nsome god his family worshiped?
+Dialogue: 0,0:19:16.67,0:19:18.17,Text L,Sign,0000,0000,0000,,Guardian Spirit Asuraman.
+Dialogue: 0,0:19:16.67,0:19:18.70,Main,Voice,0000,0000,0000,,Guardian Spirit Asuraman.
+Dialogue: 0,0:19:18.17,0:19:21.87,Spirit Text L,Sign,0000,0000,0000,,Guardian Spirit Asuraman.\NSakata Gintoki's guardian spirit.\NThe spirit of {\i1}Ginnikuman{\i0} erasers\Nhe got from capsule machines as a kid.
+Dialogue: 0,0:19:19.78,0:19:21.87,Internal,Shin,0000,0000,0000,,He was a Ginraser spirit?!
+Dialogue: 0,0:19:21.87,0:19:23.96,Internal,Shin,0000,0000,0000,,What the hell do you mean, \Nan eraser's spirit?!
+Dialogue: 0,0:19:24.47,0:19:34.38,Spirit Text R,Sign,0000,0000,0000,,He got seven Asuramans, \Nso he threw away six. \NThe vengeful malice of the six \Nformed a spirit that plots to \Nexact revenge on its host \Nwhen it gets the chance.
+Dialogue: 0,0:19:31.88,0:19:35.16,Internal,Shin,0000,0000,0000,,This is no guardian spirit! \NIt's just a vengeful ghost!
+Dialogue: 0,0:19:34.38,0:19:37.74,sign_27989_394_Toilet,Sign,0000,0000,0000,,Toilet
+Dialogue: 0,0:19:35.16,0:19:37.74,Main,Gin,0000,0000,0000,,Hey, we're out of toilet paper!
+Dialogue: 0,0:19:37.74,0:19:42.45,Spirit Text R,Sign,0000,0000,0000,,Special ability: making \Nminor things disappear\Nwith its eraser.
+Dialogue: 0,0:19:39.69,0:19:41.93,Internal,Shin,0000,0000,0000,,That's some petty revenge!
+Dialogue: 0,0:19:42.45,0:19:45.14,Main,Gin,0000,0000,0000,,Shinpachi! Bring me some TP!
+Dialogue: 0,0:19:44.39,0:19:46.39,Spirit R,Sign,0000,0000,0000,,I'll kill you if you bring it!!
+Dialogue: 0,0:19:45.14,0:19:47.04,Main,Gin,0000,0000,0000,,You there, Shinpachi?!
+Dialogue: 0,0:19:47.04,0:19:49.41,Main,Gin,0000,0000,0000,,{\an8}Hey! TP!
+Dialogue: 0,0:19:47.78,0:19:51.81,Internal,Shin,0000,0000,0000,,Sorry, Gin-san, but your guardian spirit \Nhas no intention of guarding you.
+Dialogue: 0,0:19:49.41,0:19:51.81,Main,Gin,0000,0000,0000,,{\an8}We're out of toilet paper, Shinpachi!
+Dialogue: 0,0:19:52.21,0:19:53.54,Main,Gin,0000,0000,0000,,Wake up, Kagura!
+Dialogue: 0,0:19:53.54,0:19:55.32,Main,Gin,0000,0000,0000,,Bring me toilet paper!
+Dialogue: 0,0:19:56.26,0:20:01.55,Main,AA,0000,0000,0000,,Quiet. Forget that, bring me booze.
+Dialogue: 0,0:20:01.55,0:20:03.82,Internal,Shin,0000,0000,0000,,Who the hell is this dude?!
+Dialogue: 0,0:20:04.82,0:20:06.22,Main,AA,0000,0000,0000,,Hup.
+Dialogue: 0,0:20:08.39,0:20:09.89,Spirit Text R,Sign,0000,0000,0000,,Guardian Spirit Alchu.
+Dialogue: 0,0:20:08.84,0:20:10.62,Main,Voice,0000,0000,0000,,Guardian Spirit Alchu.
+Dialogue: 0,0:20:09.89,0:20:12.92,Spirit Text R,Sign,0000,0000,0000,,Guardian Spirit Alchu.\NKagura's guardian spirit.\NThe spirit of a p***mon\Nthat's super popular with kids.
+Dialogue: 0,0:20:10.62,0:20:12.92,Internal,Shin,0000,0000,0000,,What do you mean, Alchu? \NWhat is it, a ripoff?!
+Dialogue: 0,0:20:13.40,0:20:22.59,Spirit Text L,Sign,0000,0000,0000,,A miraculous monster born \Nfrom a collaboration between\Na drunkard and the P***chu\Nstuffed toy Kagura made as\Na poor child who wanted to\Nbe part of the P***mon fad.
+Dialogue: 0,0:20:18.28,0:20:20.56,Flashback,Kag,0000,0000,0000,,No! My P***chu!
+Dialogue: 0,0:20:20.56,0:20:22.59,Internal,Shin,0000,0000,0000,,That drunkard looks familiar!
+Dialogue: 0,0:20:22.59,0:20:25.41,Internal,Shin,0000,0000,0000,,Actually, the spirit looks \Njust like him, too!
+Dialogue: 0,0:20:25.41,0:20:29.85,Spirit Text R,Sign,0000,0000,0000,,Swore absolute loyalty to the\Nshochu that gave birth to him, \Nstays with it, and protects it\Nat all times.
+Dialogue: 0,0:20:28.20,0:20:29.85,Main,Shin,0000,0000,0000,,He's just an alcoholic!
+Dialogue: 0,0:20:29.85,0:20:32.70,Main,Gin,0000,0000,0000,,Kagura! TP!
+Dialogue: 0,0:20:31.88,0:20:33.40,Main,AA,0000,0000,0000,,Oh, shut up.
+Dialogue: 0,0:20:33.40,0:20:36.86,Main,AA,0000,0000,0000,,Gimme a sec. I'll go call Master.
+Dialogue: 0,0:20:38.11,0:20:40.00,Main,AA,0000,0000,0000,,Master, shochu on the rocks.
+Dialogue: 0,0:20:40.00,0:20:41.49,Internal,Shin,0000,0000,0000,,Not a master bartender!
+Dialogue: 0,0:20:42.82,0:20:44.57,Main,AA,0000,0000,0000,,Wake up, Master.
+Dialogue: 0,0:20:44.57,0:20:47.24,Main,AA,0000,0000,0000,,We're out of shochu, Master.
+Dialogue: 0,0:20:48.90,0:20:50.45,Internal,Shin,0000,0000,0000,,Who wakes someone up like that?!
+Dialogue: 0,0:20:50.45,0:20:52.06,Main,Kag,0000,0000,0000,,Ew, something stinks!
+Dialogue: 0,0:20:52.06,0:20:54.92,Internal,Shin,0000,0000,0000,,Is that why she always \Nwakes up in a bad mood?!
+Dialogue: 0,0:20:55.52,0:20:58.23,Main,AA,0000,0000,0000,,Master, get me sake.
+Dialogue: 0,0:20:58.23,0:21:00.55,Main,AA,0000,0000,0000,,Sake, sake. Sake, okay?
+Dialogue: 0,0:21:00.89,0:21:02.63,Main,AA,0000,0000,0000,,{\an8}Sake, Sakay...
+Dialogue: 0,0:21:01.40,0:21:02.63,Main,Kag,0000,0000,0000,,So sleepy...
+Dialogue: 0,0:21:02.63,0:21:03.49,Main,AA,0000,0000,0000,,...kay.
+Dialogue: 0,0:21:03.49,0:21:04.77,Main,Kag,0000,0000,0000,,I wanna pee...
+Dialogue: 0,0:21:04.77,0:21:05.53,Main,AA,0000,0000,0000,,...kay.
+Dialogue: 0,0:21:05.53,0:21:06.80,Main,Kag,0000,0000,0000,,Going to the bathroom...
+Dialogue: 0,0:21:05.61,0:21:09.27,Spirit Text R,Sign,0000,0000,0000,,Since alcohol is his primary source\Nof energy, he's always requesting\Nmore sake from his master.
+Dialogue: 0,0:21:06.80,0:21:07.24,Main,AA,0000,0000,0000,,...kay.
+Dialogue: 0,0:21:07.24,0:21:09.28,Internal,Shin,0000,0000,0000,,The 'kays were coming from you?!
+Dialogue: 0,0:21:09.28,0:21:12.64,Internal,Shin,0000,0000,0000,,That wasn't a verbal tic? It was \Njust the ramblings of a drunkard?!
+Dialogue: 0,0:21:16.09,0:21:18.74,Main,Kag,0000,0000,0000,,Hey, somebody in there? Tell me...
+Dialogue: 0,0:21:17.32,0:21:18.74,Main,AA,0000,0000,0000,,...kay.
+Dialogue: 0,0:21:18.74,0:21:20.35,Main,Kag,0000,0000,0000,,What the heck? There's no response...
+Dialogue: 0,0:21:20.35,0:21:20.97,Main,AA,0000,0000,0000,,...kay.
+Dialogue: 0,0:21:20.97,0:21:23.07,Internal,Shin,0000,0000,0000,,Oh, I forgot about Gin-san.
+Dialogue: 0,0:21:24.68,0:21:29.08,Spirit Text L,Sign,0000,0000,0000,,Guardian Spirit TP Knight
+Dialogue: 0,0:21:25.22,0:21:27.33,Main,Voice,0000,0000,0000,,Guardian Spirit TP Knight.
+Dialogue: 0,0:21:27.33,0:21:29.08,Main,,0000,0000,0000,,Why are you a spirit now?!
+Dialogue: 0,0:21:29.51,0:21:35.83,Spirit Text R,Sign,0000,0000,0000,,The ill-will over a lack of TP and\Nnobody bringing it to him brings \Nthis spirit of Sakata Gintoki to life \Nevery morning.
+Dialogue: 0,0:21:32.01,0:21:35.83,Main,Shin,0000,0000,0000,,You turn into a spirit over no paper? \NYou do this crap every morning?!
+Dialogue: 0,0:21:37.94,0:21:43.40,Spirit Text R,Sign,0000,0000,0000,,While wandering to Matsu**to Kiyoshi for\Ntoilet paper, it also walks Sadaharu as\Nhis makeshift guardian spirit.
+Dialogue: 0,0:21:41.18,0:21:43.78,Internal,Shin,0000,0000,0000,,You were the one walking Sadaharu?!
+Dialogue: 0,0:21:45.13,0:21:47.04,Main,AA,0000,0000,0000,,Take care of him.
+Dialogue: 0,0:21:47.04,0:21:51.36,Internal,Shin,0000,0000,0000,,My ass! You guys are totally useless!
+Dialogue: 0,0:21:52.85,0:21:55.39,sign_31309_455_Kabuki_District_,Sign,0000,0000,0000,,Kabuki District Sports Meet
+Dialogue: 0,0:21:59.72,0:22:06.16,Main,Oto,0000,0000,0000,,Thank you all for taking time out of \Nyour busy schedules to be here today.
+Dialogue: 0,0:22:01.38,0:22:02.40,sign_31513_456_Kabuki_District_,Sign,0000,0000,0000,,Kabuki District Sports Meet
+Dialogue: 0,0:22:06.54,0:22:12.16,Main,Gin,0000,0000,0000,,Jeez, why do old men and cabaret \Ngirls have to race one another?
+Dialogue: 0,0:22:13.20,0:22:15.66,Internal,Shin,0000,0000,0000,,Old men and cabaret girls \Nwould be one thing...
+Dialogue: 0,0:22:18.76,0:22:22.25,Internal,Shin,0000,0000,0000,,But all I'm seeing is a \Ngreat underworld war!
+Dialogue: 0,0:22:23.92,0:22:25.84,TBC,Sign,0000,0000,0000,,To Be Continued
+Dialogue: 0,0:23:55.89,0:24:00.85,Ep Title,Title,0000,0000,0000,,{\fad(442,1)}Guardian Spirits Are Also\Na Part of the Soul
+Dialogue: 0,0:23:56.96,0:23:59.97,Main,Shin,0000,0000,0000,,You know, this isn't even the \Nright season for a sports meet!
+Dialogue: 0,0:24:00.85,0:24:05.94,Side Bar Top,TextR,0000,0000,0000,,Taking part in a big sports meet
+Dialogue: 0,0:24:00.85,0:24:05.94,Side Bar Bottom,TextL,0000,0000,0000,,while listening to Jingle Bells \Nhas its own charm.
+Dialogue: 0,0:24:05.94,0:24:12.28,Side Bar Top,TextR,0000,0000,0000,,But what becomes of Pachi-boy's glasses,
+Dialogue: 0,0:24:05.94,0:24:12.28,Side Bar Bottom,TextL,0000,0000,0000,,which have turned into \Nsomething quite bizarre?

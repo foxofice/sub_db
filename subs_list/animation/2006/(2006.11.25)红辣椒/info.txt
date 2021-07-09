@@ -1,0 +1,5 @@
+﻿chs: 红辣椒/盗梦侦探
+cht: 紅辣椒/盜夢偵探
+jp: パプリカ
+en: Paprika
+rome: Paprika

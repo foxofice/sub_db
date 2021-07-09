@@ -1,0 +1,5 @@
+﻿chs: 鲁邦三世 第一期
+cht: 魯邦三世 第一期
+jp: ルパン三世
+en: Lupin the Third TV
+rome: Lupin Sansei

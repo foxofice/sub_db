@@ -1,0 +1,5 @@
+﻿chs: 东京教父
+cht: 東京教父
+jp: 東京ゴッドファーザーズ
+en: Tokyo Godfathers
+rome: Tokyo Godfathers

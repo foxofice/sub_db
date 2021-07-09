@@ -1,0 +1,5 @@
+﻿chs: 攻壳机动队
+cht: 攻殻機動隊
+jp: GHOST IN THE SHELL / 攻殻機動隊
+en: GHOST IN THE SHELL
+rome: GHOST IN THE SHELL

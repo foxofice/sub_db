@@ -1,0 +1,5 @@
+﻿chs: 犬夜叉
+cht: 犬夜叉
+jp: 犬夜叉
+en: InuYasha
+rome: InuYasha

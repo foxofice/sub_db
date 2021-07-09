@@ -1,0 +1,5 @@
+﻿chs: ID-0
+cht: ID-0
+jp: アイディー・ゼロ
+en: ID 0
+rome: ID-0

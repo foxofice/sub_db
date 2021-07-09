@@ -1,0 +1,5 @@
+﻿chs: 大欺诈师
+cht: 大欺詐師
+jp: GREAT PRETENDER
+en: GREAT PRETENDER
+rome: Great Pretender

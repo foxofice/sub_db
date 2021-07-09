@@ -1,0 +1,39 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-07-29 11:13:47
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Higurashi_Kai
+Original Script:CASO&I.G
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,26,&H00FFFFFF,&HF0000000,&H001F0A79,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00150861,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:01.00,0:00:05.50,*Default,NTP,0000,0000,0000,,{\fad(500,0)}三四的狗 III
+Dialogue: 0,0:00:15.93,0:00:18.42,*Default,NTP,0000,0000,0000,,真难得  你会在这里
+Dialogue: 0,0:00:19.01,0:00:22.74,*Default,NTP,0000,0000,0000,,散步而已  只是顺便来看看祭典的准备
+Dialogue: 0,0:00:23.20,0:00:25.10,*Default,NTP,0000,0000,0000,,明天能放晴就好了
+Dialogue: 0,0:00:25.55,0:00:27.91,*Default,NTP,0000,0000,0000,,因下雨而中止就太可惜了
+Dialogue: 0,0:00:30.21,0:00:34.57,*Default,NTP,0000,0000,0000,,都花了这么大精力去准备的最好的祭典嘛
+Dialogue: 0,0:00:34.82,0:00:38.09,*Default,NTP,0000,0000,0000,,不可能会因下一点雨就中止啊
+Dialogue: 0,0:00:38.88,0:00:41.13,*Default,NTP,0000,0000,0000,,说得也是  再见
+Dialogue: 0,0:00:46.35,0:00:47.25,*Default,NTP,0000,0000,0000,,对了对了
+Dialogue: 0,0:00:48.94,0:00:52.94,*Default,NTP,0000,0000,0000,,知道次郎去哪里了吗
+Dialogue: 0,0:00:53.74,0:00:54.65,*Default,NTP,0000,0000,0000,,不知道
+Dialogue: 0,0:00:55.63,0:00:56.97,*Default,NTP,0000,0000,0000,,是这样吗
+Dialogue: 0,0:00:59.39,0:01:02.17,*Default,NTP,0000,0000,0000,,祭典的开幕真是让人期待啊
+Dialogue: 0,0:01:02.95,0:01:07.66,*Default,NTP,0000,0000,0000,,是啊  的确是让人期待的祭典的开幕啊！
+Dialogue: 0,0:01:10.55,0:01:11.82,*Default,NTP,0000,0000,0000,,待续

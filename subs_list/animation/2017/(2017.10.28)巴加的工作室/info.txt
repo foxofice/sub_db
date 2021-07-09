@@ -1,0 +1,5 @@
+﻿chs: 巴加的工作室
+cht: 巴加的工作室
+jp: バジャのスタジオ
+en: baja no studio
+rome: baja no studio

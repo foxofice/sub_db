@@ -1,0 +1,11 @@
+EPSON 太明朝体Ｂ
+FOT-ハミング Std D <FOT-Humming Std D>
+Times New Roman Bold
+方正标雅宋_GBK <FZYaSong-R-GBK>
+方正粗宋_GBK <FZCuSong-B09>
+方正正准黑_GBK <FZZhengHei-M-GBK>
+方正稚艺_GBK <FZZhiYi-M12>
+黑体 <SimHei>
+华文隶书 <STLiti>
+华文中宋 <STZhongsong>
+宋体 <SimSun>

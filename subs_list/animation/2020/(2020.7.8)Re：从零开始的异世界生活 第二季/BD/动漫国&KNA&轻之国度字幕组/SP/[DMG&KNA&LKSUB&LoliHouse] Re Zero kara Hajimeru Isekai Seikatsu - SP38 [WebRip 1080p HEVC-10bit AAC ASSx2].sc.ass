@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: [Re - Zero_kara_Hajimeru_Isekai_Seikatsu][SP38]
+Original Script: DMG&KNA&LKSUB
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0FFFFFF,&H009D3B53,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Staff,方正准圆_GBK,35,&H20FFFFFF,&HF0000000,&H20000000,&H000F0F0F,0,0,0,0,100,100,0,0,1,1.7,0,8,30,30,10,1
+Style: Title,方正兰亭粗黑_GBK,70,&H00CE98A0,&HF0FFFFFF,&H00FFFFFF,&H7DFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Staff——
+Dialogue: 0,0:02:42.78,0:02:46.95,Staff,,0,0,0,,{\fade(500,500)}本字幕由  动漫国&KNA&轻之国度字幕组  联合制作\N仅供试看,请支持购买正版音像制品
+Dialogue: 0,0:02:47.99,0:02:51.75,Staff,,0,0,0,,{\fade(500,500)}翻译&时轴:傻瓜三世   后期:小圣
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Title——
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\fn方正小标宋_GBK\fs+3\fad(0,0)\c&HAD6B77&\3c&HFFFFFF&\bord0\pos(992,287)}R{\fs-3}e{\r\c&H121621&\fn方正准圆_GBK\3c&HFFFFFF&\bord0}:{\r\c&H121621&}        {\fn方正小标宋_GBK\3c&HFFFFFF&\bord0}国\N\N\h\h\h\h\h{\fn方正兰亭粗黑_GBK}        {\fn方正小标宋_GBK\fs-2}   度
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(985,158)}动
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fad(0,0)\pos(1046,183)}漫
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(962,280)}KNA
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1031,270)}&
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1080,273)}轻
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1130,286)}之
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\fn方正小标宋_GBK\3c&HFFFFFF&\bord0\c&H121621&\fs-2\fad(0,0)\pos(1177,268)}国
+Dialogue: 0,0:00:10.65,0:00:15.66,Title,,0,0,0,,{\3c&HFFFFFF&\bord0\c&H121621&\fs18\fsp5\fad(0,0)\b0\pos(1052,207)}DMG&KNA&LKSUB
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:00.25,0:00:03.95,Default,,0,0,0,,居然抛下耍了个大帅的人跑了
+Dialogue: 0,0:00:04.14,0:00:06.15,Default,,0,0,0,,菜月真是叫人为难啊
+Dialogue: 0,0:00:07.70,0:00:10.62,Default,,0,0,0,,我知道  我只是想说说看而已
+Dialogue: 0,0:00:11.40,0:00:14.94,Default,,0,0,0,,Re:从零开始的休息时间  奥托日记
+Dialogue: 0,0:00:16.75,0:00:18.03,Default,,0,0,0,,我能做什么吗
+Dialogue: 0,0:00:19.70,0:00:23.74,Default,,0,0,0,,他到底什么时候  才肯让我安慰他呢
+Dialogue: 0,0:00:24.82,0:00:26.84,Default,,0,0,0,,就是现在  请你不要勉强…
+Dialogue: 0,0:00:27.08,0:00:29.03,Default,,0,0,0,,虽然我也在勉强自己吧
+Dialogue: 0,0:00:29.12,0:00:31.45,Default,,0,0,0,,但你真的不要勉强自己
+Dialogue: 0,0:00:31.58,0:00:33.02,Default,,0,0,0,,你果然…
+Dialogue: 0,0:00:33.04,0:00:33.78,Default,,0,0,0,,什么
+Dialogue: 0,0:00:34.33,0:00:36.02,Default,,0,0,0,,是喜欢我吗
+Dialogue: 0,0:00:36.06,0:00:37.68,Default,,0,0,0,,你又张口瞎说了啊
+Dialogue: 0,0:00:40.22,0:00:41.97,Default,,0,0,0,,这样真的很恶心
+Dialogue: 0,0:00:42.35,0:00:45.57,Default,,0,0,0,,再说了  你该不会不满足于帕特拉修的爱…
+Dialogue: 0,0:00:45.70,0:00:50.50,Default,,0,0,0,,于是对每个见到的人  都问这句话吧?
+Dialogue: 0,0:00:50.98,0:00:51.86,Default,,0,0,0,,不行吗
+Dialogue: 0,0:00:53.14,0:00:57.55,Default,,0,0,0,,老实说我现在真想有人能鼓励一下
+Dialogue: 0,0:00:58.58,0:01:01.52,Default,,0,0,0,,圣域内  住在大圣堂旁边龙车里的
+Dialogue: 0,0:01:01.67,0:01:03.16,Default,,0,0,0,,笔名Smacky Green先生
+Dialogue: 0,0:01:03.16,0:01:04.56,Default,,0,0,0,,你在说什么啊
+Dialogue: 0,0:01:04.56,0:01:07.74,Default,,0,0,0,,菜月昴  我是你的老观众了
+Dialogue: 0,0:01:07.85,0:01:09.14,Default,,0,0,0,,你是跟踪狂吗
+Dialogue: 0,0:01:09.14,0:01:10.21,Default,,0,0,0,,你在说什么啊
+Dialogue: 0,0:01:10.57,0:01:13.88,Default,,0,0,0,,就是这样的鼓励
+Dialogue: 0,0:01:14.14,0:01:17.09,Default,,0,0,0,,信也好传真也行  邮件也没问题
+Dialogue: 0,0:01:17.69,0:01:19.08,Default,,0,0,0,,邮箱地址请看这里
+Dialogue: 0,0:01:19.16,0:01:21.48,Default,,0,0,0,,传真邮件什么的我不懂
+Dialogue: 0,0:01:21.48,0:01:23.22,Default,,0,0,0,,但你准备装傻到什么时候?
+Dialogue: 0,0:01:23.49,0:01:28.10,Default,,0,0,0,,我就是想听到「我真是太喜欢你了」
+Dialogue: 0,0:01:31.01,0:01:34.32,Default,,0,0,0,,看你恢复平时的样子  我还是高兴的
+Dialogue: 0,0:01:35.48,0:01:40.91,Default,,0,0,0,,但是啊  我会关照你只是为了将来着想
+Dialogue: 0,0:01:41.15,0:01:42.42,Default,,0,0,0,,你懂了吗
+Dialogue: 0,0:01:42.88,0:01:44.77,Default,,0,0,0,,如果这个前提无法保证
+Dialogue: 0,0:01:44.96,0:01:47.42,Default,,0,0,0,,或者我自己遇上了危险
+Dialogue: 0,0:01:47.62,0:01:49.78,Default,,0,0,0,,那我可要抛下你开溜了
+Dialogue: 0,0:01:50.06,0:01:51.89,Default,,0,0,0,,请你记好了
+Dialogue: 0,0:01:51.89,0:01:54.08,Default,,0,0,0,,嗯  我知道啊
+Dialogue: 0,0:01:54.83,0:01:55.72,Default,,0,0,0,,你…
+Dialogue: 0,0:01:58.45,0:01:59.11,Default,,0,0,0,,怎么了
+Dialogue: 0,0:01:59.77,0:02:02.00,Default,,0,0,0,,没什么  我只是想起来了
+Dialogue: 0,0:02:02.49,0:02:03.76,Default,,0,0,0,,确实啊
+Dialogue: 0,0:02:05.28,0:02:09.86,Default,,0,0,0,,如果自己有危险了  就赶紧逃吗
+Dialogue: 0,0:02:09.86,0:02:11.07,Default,,0,0,0,,嗯  没错
+Dialogue: 0,0:02:11.07,0:02:12.50,Default,,0,0,0,,你是不会逃的
+Dialogue: 0,0:02:14.48,0:02:17.68,Default,,0,0,0,,你不会丢下我而逃跑的  奥托
+Dialogue: 0,0:02:20.00,0:02:23.91,Default,,0,0,0,,因为你是我的朋友啊
+Dialogue: 0,0:02:29.71,0:02:30.89,Default,,0,0,0,,真是意想不到
+Dialogue: 0,0:02:32.97,0:02:34.43,Default,,0,0,0,,一直都是这样吧
+Dialogue: 0,0:02:40.28,0:02:42.92,Default,,0,0,0,,菜月虽然在奇怪的地方看得很透
+Dialogue: 0,0:02:43.08,0:02:45.91,Default,,0,0,0,,但却对最重要的事一点都不明白
+Dialogue: 0,0:02:47.34,0:02:51.60,Default,,0,0,0,,好了  该去让他明白道理了
+Dialogue: 0,0:02:52.40,0:02:57.98,Default,,0,0,0,,毕竟我是他的朋友啊
+Comment: 0,0:00:00.00,0:00:00.08,Comment,,0,0,0,,

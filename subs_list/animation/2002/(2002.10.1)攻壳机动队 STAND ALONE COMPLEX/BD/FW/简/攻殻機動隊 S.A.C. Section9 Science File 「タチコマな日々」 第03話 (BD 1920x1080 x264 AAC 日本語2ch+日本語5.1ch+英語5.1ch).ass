@@ -1,0 +1,45 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 02:43:33
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.50,0:00:11.63,SP,NTP,0000,0000,0000,,掉下来…
+Dialogue: 0,0:00:13.28,0:00:14.57,SP,NTP,0000,0000,0000,,复活～
+Dialogue: 0,0:00:15.81,0:00:17.87,SP,NTP,0000,0000,0000,,真是天外飞来横祸啊
+Dialogue: 0,0:00:21.52,0:00:22.35,SP,NTP,0000,0000,0000,,奇怪？
+Dialogue: 0,0:00:22.35,0:00:24.42,SP,NTP,0000,0000,0000,,大家都被那东西干掉了吗？
+Dialogue: 0,0:00:24.42,0:00:27.66,SP,NTP,0000,0000,0000,,可是坏掉的方式跟我不一样耶
+Dialogue: 0,0:00:27.66,0:00:28.45,SP,NTP,0000,0000,0000,,嗯？
+Dialogue: 0,0:00:34.43,0:00:35.43,SP,NTP,0000,0000,0000,,这是什么？
+Dialogue: 0,0:00:35.43,0:00:37.27,SP,NTP,0000,0000,0000,,这是礼物啊！
+Dialogue: 0,0:00:37.27,0:00:39.76,SP,NTP,0000,0000,0000,,喔  礼物耶！
+Dialogue: 0,0:00:41.77,0:00:46.18,SP,NTP,0000,0000,0000,,这就是只有留守者才能得到的礼物是吗？
+Dialogue: 0,0:00:46.18,0:00:49.35,SP,NTP,0000,0000,0000,,少校并没有忘了我耶
+Dialogue: 0,0:00:49.35,0:00:50.81,SP,NTP,0000,0000,0000,,这么说来…
+Dialogue: 0,0:00:50.81,0:00:56.12,SP,NTP,0000,0000,0000,,这些家伙就是因为没有留守却想拿礼物，所以才被打坏的吧
+Dialogue: 0,0:00:56.12,0:00:58.15,SP,NTP,0000,0000,0000,,这里明明都写着危险了
+Dialogue: 0,0:00:58.15,0:01:01.29,SP,NTP,0000,0000,0000,,大家应该要好好想想字面上所代表的意义哪
+Dialogue: 0,0:01:01.29,0:01:02.59,SP,NTP,0000,0000,0000,,真是的
+Dialogue: 0,0:01:02.59,0:01:04.16,SP,NTP,0000,0000,0000,,杰尼西斯安得洛斯制
+Dialogue: 0,0:01:04.16,0:01:05.96,SP,NTP,0000,0000,0000,,Jely型电脑是吗？
+Dialogue: 0,0:01:06.53,0:01:07.50,SP,NTP,0000,0000,0000,,所谓的权利
+Dialogue: 0,0:01:07.50,0:01:11.17,SP,NTP,0000,0000,0000,,只有赋予确实负责跟执行任务的人
+Dialogue: 0,0:01:11.17,0:01:14.54,SP,NTP,0000,0000,0000,,那么我就…不客气了～
+Dialogue: 0,0:01:14.54,0:01:17.41,SP,NTP,0000,0000,0000,,喜欢喜欢…一片黑黑…
+Dialogue: 0,0:01:17.41,0:01:24.87,SP,NTP,0000,0000,0000,,喜欢…一片黑暗…
+Dialogue: 0,0:01:31.72,0:01:34.99,SP,NTP,0000,0000,0000,,喜欢…喜欢…

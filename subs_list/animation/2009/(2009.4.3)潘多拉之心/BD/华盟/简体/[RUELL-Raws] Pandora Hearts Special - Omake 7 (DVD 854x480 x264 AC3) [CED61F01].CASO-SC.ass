@@ -1,0 +1,117 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[Aegisub Project Garbage]
+Audio File: [RUELL-Raws] Pandora Hearts Special - Omake 7 (DVD 854x480 x264 AC3) [CED61F01].mkv
+Video File: [RUELL-Raws] Pandora Hearts Special - Omake 7 (DVD 854x480 x264 AC3) [CED61F01].mkv
+Video AR Mode: 4
+Video AR Value: 1.779167
+Video Zoom Percent: 0.875000
+Video Position: 5001
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.77,0:00:07.17,zhengwen,NTP,0,0,0,,潘多拉之心  附录小动画
+Dialogue: 0,0:00:09.42,0:00:10.74,zhengwen,NTP,0,0,0,,干嘛啊
+Dialogue: 0,0:00:10.94,0:00:13.25,zhengwen,NTP,0,0,0,,突然让人站在这种地方
+Dialogue: 0,0:00:13.34,0:00:15.52,zhengwen,NTP,0,0,0,,埃利奥特  就是那个啦
+Dialogue: 0,0:00:15.61,0:00:19.47,zhengwen,NTP,0,0,0,,啊？给购买了DVD的观众们说几句话？
+Dialogue: 0,0:00:20.11,0:00:25.83,zhengwen,NTP,0,0,0,,好  那我就给你们讲讲这本《圣骑士物语》的魅力所在
+Dialogue: 0,0:00:26.13,0:00:27.12,zhengwen,NTP,0,0,0,,是说这个吗
+Dialogue: 0,0:00:27.23,0:00:30.05,zhengwen,NTP,0,0,0,,总之  这个系列的真髓就在于
+Dialogue: 0,0:00:30.19,0:00:32.63,zhengwen,NTP,0,0,0,,主角艾德文的生存方式
+Dialogue: 0,0:00:33.15,0:00:35.64,zhengwen,NTP,0,0,0,,自尊心强  始终贯彻自己的信念
+Dialogue: 0,0:00:35.79,0:00:38.26,zhengwen,NTP,0,0,0,,真是太适合做主角了
+Dialogue: 0,0:00:38.72,0:00:39.40,zhengwen,NTP,0,0,0,,然而…
+Dialogue: 0,0:00:39.76,0:00:42.36,zhengwen,NTP,0,0,0,,为什么读者却一边倒地喜欢艾德加啊
+Dialogue: 0,0:00:42.70,0:00:44.36,zhengwen,NTP,0,0,0,,艾德加这种小角色啊
+Dialogue: 0,0:00:44.51,0:00:47.09,zhengwen,NTP,0,0,0,,不就是有主人艾德文他才…
+Dialogue: 0,0:00:47.15,0:00:48.92,zhengwen,NTP,0,0,0,,好了  到此为止
+Dialogue: 0,0:00:49.27,0:00:50.87,zhengwen,NTP,0,0,0,,我才说到一半
+Dialogue: 0,0:00:51.14,0:00:54.18,zhengwen,NTP,0,0,0,,我家主人太兴奋了  非常抱歉
+Dialogue: 0,0:00:54.40,0:00:58.47,zhengwen,NTP,0,0,0,,我代替主人向大家道谢
+Dialogue: 0,0:00:58.56,0:00:59.76,zhengwen,NTP,0,0,0,,给我等等
+Dialogue: 0,0:01:00.15,0:01:05.29,zhengwen,NTP,0,0,0,,感谢您购买潘多拉之心DVD第七卷
+Dialogue: 0,0:01:05.36,0:01:07.50,zhengwen,NTP,0,0,0,,你这样也算是我的侍从吗
+Dialogue: 0,0:01:07.99,0:01:12.46,zhengwen,NTP,0,0,0,,敬请期待接下来的《圣骑士物语》
+Dialogue: 0,0:01:15.07,0:01:20.12,zhushi,NTP,0,0,0,,（圣骑士cosplay）
+Dialogue: 0,0:01:18.38,0:01:19.73,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:01:21.24,0:01:29.00,zhushi,NTP,0,0,0,,（连环画）
+Dialogue: 0,0:01:21.87,0:01:23.43,zhengwen,NTP,0,0,0,,来吧  好孩子们
+Dialogue: 0,0:01:23.57,0:01:26.56,zhengwen,NTP,0,0,0,,《圣骑士物语》要开始了哦
+Dialogue: 0,0:01:27.66,0:01:29.30,zhengwen,NTP,0,0,0,,快点开始吧
+Dialogue: 0,0:01:29.54,0:01:30.37,zhengwen,NTP,0,0,0,,好期待
+Dialogue: 0,0:01:30.04,0:01:35.42,zhushi,NTP,0,0,0,,（圣骑士物语  连环画版）
+Dialogue: 0,0:01:32.05,0:01:33.69,zhengwen,NTP,0,0,0,,圣骑士物语
+Dialogue: 0,0:01:35.65,0:01:37.34,zhengwen,NTP,0,0,0,,这个故事的主角
+Dialogue: 0,0:01:37.44,0:01:41.59,zhengwen,NTP,0,0,0,,是地位非常微妙的子爵家四公子  艾德文
+Dialogue: 0,0:01:41.72,0:01:46.50,zhengwen,NTP,0,0,0,,故事说的是他带着一位名叫艾德加的侍从  步步攀升
+Dialogue: 0,0:01:47.56,0:01:49.62,zhengwen,NTP,0,0,0,,艾德文遇见了艾德加
+Dialogue: 0,0:01:49.77,0:01:54.89,zhengwen,NTP,0,0,0,,超越了各自的境遇  最终成为了羁绊很深的主仆
+Dialogue: 0,0:01:55.08,0:02:00.65,zhengwen,NTP,0,0,0,,「毫不惧怕受伤的心灵  这才正是我的武器」
+Dialogue: 0,0:02:01.03,0:02:02.89,zhengwen,NTP,0,0,0,,啊  真烦
+Dialogue: 0,0:02:03.11,0:02:05.22,zhengwen,NTP,0,0,0,,你说什么啊  这里太棒了啊
+Dialogue: 0,0:02:05.54,0:02:06.58,zhengwen,NTP,0,0,0,,哪里棒了
+Dialogue: 0,0:02:07.81,0:02:09.88,zhengwen,NTP,0,0,0,,之后  由于诸多原因事由
+Dialogue: 0,0:02:10.02,0:02:13.45,zhengwen,NTP,0,0,0,,侍从艾德加为保护主人而死
+Dialogue: 0,0:02:13.72,0:02:14.95,zhengwen,NTP,0,0,0,,这展开太快了吧
+Dialogue: 0,0:02:15.09,0:02:18.26,zhengwen,NTP,0,0,0,,等  等等等等  我还没读到那里呢
+Dialogue: 0,0:02:18.40,0:02:20.63,zhengwen,NTP,0,0,0,,是书迷就给我赶快看
+Dialogue: 0,0:02:21.80,0:02:24.14,zhengwen,NTP,0,0,0,,艾德文接受了艾德加死去的事实
+Dialogue: 0,0:02:24.29,0:02:26.79,zhengwen,NTP,0,0,0,,向他所遗留下的剑起誓
+Dialogue: 0,0:02:26.98,0:02:31.11,zhengwen,NTP,0,0,0,,「他的命运以及意念  都由我来背负下去」
+Dialogue: 0,0:02:31.94,0:02:33.38,zhengwen,NTP,0,0,0,,艾德加…
+Dialogue: 0,0:02:33.40,0:02:38.40,zhushi,NTP,0,0,0,,（RPG风(?)的cosplay）
+Dialogue: 0,0:02:33.40,0:02:38.40,zhushi,NTP,0,0,0,,（注：这张cos的是永恒传说）
+Dialogue: 0,0:02:36.34,0:02:38.01,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:02:40.01,0:02:43.90,zhengwen,NTP,0,0,0,,为了缅怀艾德加  艾德文一刀剪断了自己的头发
+Dialogue: 0,0:02:44.15,0:02:46.15,zhengwen,NTP,0,0,0,,这样一来呢  竟然…
+Dialogue: 0,0:02:46.44,0:02:50.97,zhengwen,NTP,0,0,0,,至今为止没有半点桃花运的他像脱胎换骨一般
+Dialogue: 0,0:02:51.53,0:02:55.07,zhengwen,NTP,0,0,0,,没错  艾德文人生中的春天到来了
+Dialogue: 0,0:02:55.09,0:02:55.61,zhengwen,NTP,0,0,0,,啊？
+Dialogue: 0,0:02:55.77,0:02:57.82,zhengwen,NTP,0,0,0,,哦  是这样啊
+Dialogue: 0,0:02:57.98,0:02:59.40,zhengwen,NTP,0,0,0,,这种情节我根本没听说过
+Dialogue: 0,0:02:59.61,0:03:03.55,zhengwen,NTP,0,0,0,,然而  这春天并不长
+Dialogue: 0,0:03:03.80,0:03:08.63,zhengwen,NTP,0,0,0,,有时是被人妻所骗  她的丈夫向艾德加提出决斗
+Dialogue: 0,0:03:08.79,0:03:09.55,zhengwen,NTP,0,0,0,,什么
+Dialogue: 0,0:03:09.81,0:03:15.07,zhengwen,NTP,0,0,0,,又有时是被以前交往的女人纠缠
+Dialogue: 0,0:03:16.34,0:03:19.31,zhengwen,NTP,0,0,0,,甚至还遇到结婚诈骗犯
+Dialogue: 0,0:03:20.60,0:03:23.93,zhengwen,NTP,0,0,0,,最后变得身无分文
+Dialogue: 0,0:03:24.26,0:03:27.35,zhengwen,NTP,0,0,0,,艾德文还真是背负了不得了的东西啊
+Dialogue: 0,0:03:27.46,0:03:28.58,zhengwen,NTP,0,0,0,,这怎么可能
+Dialogue: 0,0:03:28.75,0:03:32.42,zhengwen,NTP,0,0,0,,他成为圣骑士之日究竟是否会到来呢
+Dialogue: 0,0:03:33.41,0:03:36.20,zhengwen,NTP,0,0,0,,《圣骑士物语》系列陆续发行中
+Dialogue: 0,0:03:36.35,0:03:38.79,zhengwen,NTP,0,0,0,,敬请期待今后的故事
+Dialogue: 0,0:03:39.05,0:03:44.05,zhushi,NTP,0,0,0,,（战国武将cosplay）
+Dialogue: 0,0:03:39.05,0:03:44.05,zhushi,NTP,0,0,0,,（注：战国BASARA的cos，头上那个受字醒目！）
+Dialogue: 0,0:03:41.24,0:03:42.52,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:03:42.63,0:03:43.66,zhengwen,NTP,0,0,0,,是也
+Dialogue: 0,0:03:44.31,0:03:45.78,zhengwen,NTP,0,0,0,,下回预告
+Dialogue: 0,0:03:46.53,0:03:49.45,zhengwen,NTP,0,0,0,,圣骑士物语特别篇  就这么结束了吗
+Dialogue: 0,0:03:49.59,0:03:52.38,zhengwen,NTP,0,0,0,,什么  我还没说过瘾啊
+Dialogue: 0,0:03:52.58,0:03:55.37,zhengwen,NTP,0,0,0,,那还有20秒  请说
+Dialogue: 0,0:03:55.51,0:03:56.70,zhengwen,NTP,0,0,0,,那我上了
+Dialogue: 0,0:03:56.85,0:03:59.03,zhengwen,NTP,0,0,0,,该怎么说呢  真是太棒了啊
+Dialogue: 0,0:03:59.12,0:04:00.01,zhengwen,NTP,0,0,0,,你问我什么太棒了？
+Dialogue: 0,0:04:00.10,0:04:02.06,zhengwen,NTP,0,0,0,,当然是背负着残酷命运的艾德加
+Dialogue: 0,0:04:02.15,0:04:03.23,zhengwen,NTP,0,0,0,,第一次露出自己的感情
+Dialogue: 0,0:04:03.27,0:04:05.65,zhengwen,NTP,0,0,0,,向艾德文坦白一切的那段
+Dialogue: 0,0:04:05.98,0:04:08.09,zhengwen,NTP,0,0,0,,真的是太感人了
+Dialogue: 0,0:04:08.19,0:04:09.61,zhengwen,NTP,0,0,0,,这对主仆太棒了
+Dialogue: 0,0:04:09.74,0:04:12.30,zhengwen,NTP,0,0,0,,该说艾德加真是理想的侍从啊
+Dialogue: 0,0:04:12.44,0:04:15.01,zhengwen,NTP,0,0,0,,所以我也希望基尔变成这样
+Dialogue: 0,0:04:15.10,0:04:16.72,zhengwen,NTP,0,0,0,,虽然天天给他特训  但…
+Dialogue: 0,0:04:16.88,0:04:18.28,zhengwen,NTP,0,0,0,,好了  到此为止
+Dialogue: 0,0:04:18.38,0:04:20.08,zhengwen,NTP,0,0,0,,这算哪门子预告啊

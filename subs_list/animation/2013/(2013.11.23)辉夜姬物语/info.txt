@@ -1,0 +1,5 @@
+﻿chs: 辉夜姬物语/竹取物語
+cht: 輝夜姬物語/竹取物語
+jp: かぐや姫の物語
+en: The Tale of the Princess Kaguya
+rome: Kaguya-hime no Monogatari

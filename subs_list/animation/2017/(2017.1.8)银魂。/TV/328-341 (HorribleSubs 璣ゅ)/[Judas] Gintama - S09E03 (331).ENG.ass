@@ -1,0 +1,422 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Warning,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_917_9_Hokuto_Shinken,Open Sans Semibold,38,&H000D1619,&H000000FF,&H0091BBD9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_12983_147_Lawd,Open Sans Semibold,38,&H00061812,&H000000FF,&H00FCFFFC,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_4480_25_Hokuto_Shinken,Open Sans Semibold,38,&H000D1619,&H000000FF,&H00AAC7B4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,129,0
+Style: Ramen banner,Open Sans Semibold,32,&H00CDD0DA,&H000000FF,&H003A437E,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,129,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.82,0:00:04.82,Flashback,H,0000,0000,0000,,Here's your ramen!
+Dialogue: 0,0:00:04.82,0:00:06.30,Main,I,0000,0000,0000,,Late on New Year's Eve,
+Dialogue: 0,0:00:06.30,0:00:12.90,Main,I,0000,0000,0000,,that scruffy-looking man ordered not \NNew Year's soba, but a bowl of ramen.
+Dialogue: 0,0:00:13.38,0:00:15.79,Main,I,0000,0000,0000,,"I can't eat this much."
+Dialogue: 0,0:00:16.35,0:00:20.54,Main,I,0000,0000,0000,,Saying that, the man took two extra cups, \Ndivided his ramen into three portions,
+Dialogue: 0,0:00:20.88,0:00:23.05,Main,I,0000,0000,0000,,and shared them with my husband and me.
+Dialogue: 0,0:00:23.71,0:00:27.11,Main,I,0000,0000,0000,,And after devouring his \Nportion in an instant,
+Dialogue: 0,0:00:27.11,0:00:31.87,Main,I,0000,0000,0000,,he left, walking down the wintry \Nstreets with his stomach rumbling.
+Dialogue: 0,0:00:35.18,0:00:38.01,Main,I,0000,0000,0000,,The next year, and the year after that...
+Dialogue: 0,0:00:35.18,0:00:40.81,sign_917_9_Hokuto_Shinken,Sign,0000,0000,0000,,Hokuto Shinken
+Dialogue: 0,0:00:38.01,0:00:40.81,Main,I,0000,0000,0000,,Every New Year's Eve, that man would visit.
+Dialogue: 0,0:00:41.45,0:00:45.17,Main,I,0000,0000,0000,,He would always use \Nwhat little money he had
+Dialogue: 0,0:00:45.17,0:00:49.86,Main,I,0000,0000,0000,,to order a bowl of ramen \Nand share it with us.
+Dialogue: 0,0:00:50.29,0:00:53.10,Main,I,0000,0000,0000,,Each time, my husband would \Ndivide it into three portions,
+Dialogue: 0,0:00:53.10,0:00:57.79,Main,I,0000,0000,0000,,load one of them up with pork topping, \Nand serve it to the man.
+Dialogue: 0,0:00:58.29,0:01:01.79,Main,I,0000,0000,0000,,Meanwhile, he would slurp on \Nramen that was nothing but soup.
+Dialogue: 0,0:01:02.71,0:01:04.29,Flashback,H,0000,0000,0000,,Ikumatsu.
+Dialogue: 0,0:01:04.29,0:01:08.78,Flashback,H,0000,0000,0000,,This is our restaurant's \Nyear-end tradition now.
+Dialogue: 0,0:01:09.53,0:01:14.55,Flashback,H,0000,0000,0000,,Should anything happen to me, \Nmake sure you keep it going.
+Dialogue: 0,0:01:14.55,0:01:19.31,Main,I,0000,0000,0000,,That would turn out to be the last \Nbowl of ramen my husband ever made.
+Dialogue: 0,0:01:19.73,0:01:27.02,Main,I,0000,0000,0000,,It would also mark the end of the little \Nyear-end tradition the three of us shared.
+Dialogue: 0,0:01:33.61,0:01:39.58,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:01:36.45,0:01:39.58,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:03:07.90,0:03:13.82,Ep Title,Title,0000,0000,0000,,{\fad(400,1)}A Bowl of Ramen
+Dialogue: 0,0:03:13.82,0:03:15.74,sign_4480_25_Hokuto_Shinken,Sign,0000,0000,0000,,Hokuto Shinken
+Dialogue: 0,0:03:14.34,0:03:20.34,Warning,Warning,0000,0000,0000,,{\fad(590,575)}Watch the Slip Arc in a bright room\Nand at a safe distance from your TV!
+Dialogue: 0,0:03:14.53,0:03:18.32,Main,I,0000,0000,0000,,{\an8}He didn't come last New Year's Eve, either.
+Dialogue: 0,0:03:15.74,0:03:18.32,Ramen banner,,0000,0000,0000,,Ramen
+Dialogue: 0,0:03:18.32,0:03:22.53,Main,I,0000,0000,0000,,{\an8}Ever since my husband passed away, \Nhe hasn't shown up at all.
+Dialogue: 0,0:03:22.53,0:03:24.68,Main,I,0000,0000,0000,,He was a strange one.
+Dialogue: 0,0:03:24.68,0:03:28.12,Main,I,0000,0000,0000,,He clearly had no money to spare, \Nbut he'd share his ramen with us
+Dialogue: 0,0:03:28.12,0:03:29.96,Main,I,0000,0000,0000,,and then leave, still hungry.
+Dialogue: 0,0:03:30.83,0:03:32.96,Main,I,0000,0000,0000,,He must've been really lonely.
+Dialogue: 0,0:03:33.88,0:03:38.18,Main,I,0000,0000,0000,,Maybe he was coming here \Nfor company, not ramen.
+Dialogue: 0,0:03:38.61,0:03:41.12,Main,I,0000,0000,0000,,Who knows where he is \Nand what he's doing now?
+Dialogue: 0,0:03:41.12,0:03:43.49,Main,I,0000,0000,0000,,Meanwhile, here I am, \Nupholding my husband's last wish
+Dialogue: 0,0:03:43.49,0:03:46.90,Main,I,0000,0000,0000,,and waiting for him with a bowl \Nloaded up with pork topping.
+Dialogue: 0,0:03:47.33,0:03:48.65,Main,I,0000,0000,0000,,Here's your ramen—
+Dialogue: 0,0:03:49.23,0:03:52.25,Main,Shin,0000,0000,0000,,Don't try to hog the pork!
+Dialogue: 0,0:03:52.25,0:03:54.44,Main,Gin,0000,0000,0000,,Shut it! I'm the one who won big at pachinko!
+Dialogue: 0,0:03:54.44,0:03:56.52,Main,Gin,0000,0000,0000,,You sit there and sip on the soup!
+Dialogue: 0,0:03:56.52,0:03:59.61,Main,Kag,0000,0000,0000,,{\an8}The egg! Let me just have the egg!
+Dialogue: 0,0:03:57.75,0:03:59.60,Main,I,0000,0000,0000,,Jeez, you three.
+Dialogue: 0,0:03:59.60,0:04:03.90,Main,I,0000,0000,0000,,Why not drink a soup of the dirt in that \Nold man's nails while you're at it?
+Dialogue: 0,0:04:03.90,0:04:07.55,Main,I,0000,0000,0000,,I hope he's doing just as \Nwell as you seem to be.
+Dialogue: 0,0:04:07.55,0:04:09.25,Main,I,0000,0000,0000,,I can't help but be worried.
+Dialogue: 0,0:04:09.25,0:04:13.13,Main,Kat,0000,0000,0000,,Ikumatsu-dono, I would say \Nyour concern is unnecessary.
+Dialogue: 0,0:04:13.49,0:04:19.74,Main,Kat,0000,0000,0000,,If that poor, lonely man was coming here \Nseeking company at the end of the year,
+Dialogue: 0,0:04:19.74,0:04:22.85,Main,Kat,0000,0000,0000,,it's actually a good thing \Nthat he stopped showing up.
+Dialogue: 0,0:04:23.30,0:04:24.97,Main,Kat,0000,0000,0000,,He must've settled down in life
+Dialogue: 0,0:04:24.97,0:04:28.91,Main,Kat,0000,0000,0000,,and found someone he can eat traditional \NNew Year's food with instead of ramen.
+Dialogue: 0,0:04:28.91,0:04:32.15,Main,Kat,0000,0000,0000,,Or maybe the ramen here got \Nworse once you took over—
+Dialogue: 0,0:04:32.15,0:04:33.90,Main,I,0000,0000,0000,,Here's your soba!
+Dialogue: 0,0:04:34.50,0:04:36.61,Main,Shin,0000,0000,0000,,Y-You know that's not right, Katsura-san!
+Dialogue: 0,0:04:36.93,0:04:40.24,Main,Shin,0000,0000,0000,,Ikumatsu-san's ramen is the best in Edo! \NNo, the best in the universe!
+Dialogue: 0,0:04:40.24,0:04:43.13,Main,Shin,0000,0000,0000,,There's no doubt that man is just \Ndying to have it one more time, too!
+Dialogue: 0,0:04:43.13,0:04:44.41,Main,Shin,0000,0000,0000,,Right, Ikumatsu-san?
+Dialogue: 0,0:04:44.41,0:04:47.97,Main,Kag,0000,0000,0000,,He's got some nerve to not show any \Ngratitude after all that pork he ate.
+Dialogue: 0,0:04:47.97,0:04:51.97,Main,Kag,0000,0000,0000,,If he's got money now, he should come \Nback and share some ramen with us.
+Dialogue: 0,0:04:51.97,0:04:53.17,Main,Shin,0000,0000,0000,,What do you have to do with anything?
+Dialogue: 0,0:04:53.17,0:04:57.80,Main,I,0000,0000,0000,,This is a task my husband left to me \Nafter worrying about it until the end.
+Dialogue: 0,0:04:58.25,0:05:01.55,Main,I,0000,0000,0000,,Taking over the restaurant was all well \Nand good, but this lingers with me.
+Dialogue: 0,0:05:01.99,0:05:04.76,Main,I,0000,0000,0000,,And I haven't returned that scarf, either.
+Dialogue: 0,0:05:04.76,0:05:06.84,Main,I,0000,0000,0000,,But you're right.
+Dialogue: 0,0:05:06.84,0:05:12.05,Main,I,0000,0000,0000,,He must be leading such a happy life that \Nhe forgot all about this dingy ramen shop.
+Dialogue: 0,0:05:12.05,0:05:13.97,Main,I,0000,0000,0000,,I'll just assume that's what happened.
+Dialogue: 0,0:05:13.97,0:05:20.32,Main,I,0000,0000,0000,,Either way, there's nothing I can do \Nbut stay here and keep making ramen.
+Dialogue: 0,0:05:21.70,0:05:23.30,Main,Gin,0000,0000,0000,,Hey, Zura.
+Dialogue: 0,0:05:23.30,0:05:26.10,Main,Gin,0000,0000,0000,,Unlike you, I'm a busy man.
+Dialogue: 0,0:05:26.10,0:05:27.70,Main,Kat,0000,0000,0000,,I'm not Zura. I'm Katsura.
+Dialogue: 0,0:05:27.70,0:05:29.76,Main,Gin,0000,0000,0000,,I'm in luck today.
+Dialogue: 0,0:05:29.76,0:05:32.86,Main,Gin,0000,0000,0000,,The dice and the cards \Nare all waiting for me.
+Dialogue: 0,0:05:32.86,0:05:35.96,Main,Kat,0000,0000,0000,,What's that saying? A fool with a big \Nmouth and his money are soon parted?
+Dialogue: 0,0:05:36.52,0:05:39.85,Main,Kat,0000,0000,0000,,I said what I did earlier out of \Nconsideration for Ikumatsu-dono.
+Dialogue: 0,0:05:39.85,0:05:43.99,Main,Kat,0000,0000,0000,,But Gintoki, what do you think \Nhappened to that man, honestly?
+Dialogue: 0,0:05:43.99,0:05:48.35,Main,Gin,0000,0000,0000,,He had no home or family, \Nand he was old to boot, right?
+Dialogue: 0,0:05:48.35,0:05:50.72,Main,Gin,0000,0000,0000,,Probably died on the streets, at best.
+Dialogue: 0,0:05:50.72,0:05:52.38,Main,Kat,0000,0000,0000,,Probably.
+Dialogue: 0,0:05:52.38,0:05:55.35,Main,Kat,0000,0000,0000,,But that's only if the \Nman was truly homeless.
+Dialogue: 0,0:05:55.94,0:05:58.53,Main,Kat,0000,0000,0000,,This scarf he forgot at the restaurant...
+Dialogue: 0,0:05:58.53,0:06:02.17,Main,Kat,0000,0000,0000,,It's worn out from use, \Nbut it's a high-quality item.
+Dialogue: 0,0:06:02.17,0:06:06.49,Main,Kat,0000,0000,0000,,It would also have stuck out like a sore \Nthumb if a homeless man was wearing it.
+Dialogue: 0,0:06:06.92,0:06:08.76,Main,Kat,0000,0000,0000,,We might be able to find him.
+Dialogue: 0,0:06:08.76,0:06:10.66,Main,Kat,0000,0000,0000,,If he's still alive, that is.
+Dialogue: 0,0:06:11.22,0:06:14.41,Main,Kat,0000,0000,0000,,But if you truly are in luck today,
+Dialogue: 0,0:06:14.41,0:06:17.55,Main,Kat,0000,0000,0000,,I might be able to clear \Nmy tab at Hokuto Shinken.
+Dialogue: 0,0:06:17.55,0:06:20.72,Main,Gin,0000,0000,0000,,Not happening. Anyway, \Nwhat I want to know is...
+Dialogue: 0,0:06:20.72,0:06:24.33,Main,Gin,0000,0000,0000,,Zura, did you get all the way \Nto **** base with Ikumatsu?
+Dialogue: 0,0:06:26.05,0:06:28.85,Main,Kat,0000,0000,0000,,O-Of all the disgusting \Naccusations! Have some shame!
+Dialogue: 0,0:06:29.32,0:06:31.50,Main,Gin,0000,0000,0000,,I mean, you're always on \Nher side for some reason,
+Dialogue: 0,0:06:31.50,0:06:35.15,Main,Gin,0000,0000,0000,,and I keep running into you every \Ntime I go there for ramen lately.
+Dialogue: 0,0:06:35.15,0:06:36.81,Main,Gin,0000,0000,0000,,So you haven't sealed the deal yet, huh?
+Dialogue: 0,0:06:36.81,0:06:39.65,Main,Gin,0000,0000,0000,,And here I thought you'd already sucked \Non something else besides ramen.
+Dialogue: 0,0:06:39.65,0:06:41.13,Main,Kat,0000,0000,0000,,Don't be stupid!
+Dialogue: 0,0:06:41.13,0:06:44.35,Main,Kat,0000,0000,0000,,As if Ikumatsu-dono and I would \Never have ***, get **** and *****,
+Dialogue: 0,0:06:44.35,0:06:47.37,Main,Kat,0000,0000,0000,,or worse, **** like *******!
+Dialogue: 0,0:06:47.37,0:06:49.68,Main,Gin,0000,0000,0000,,Uh, I never said anything that vulgar.
+Dialogue: 0,0:06:50.42,0:06:54.01,Main,Gin,0000,0000,0000,,Yeah, you have always been the passive sort.
+Dialogue: 0,0:06:54.44,0:06:59.17,Main,Gin,0000,0000,0000,,So you wanna pound the pavement here and \Nthen pound Ikumatsu while you're at it, huh?
+Dialogue: 0,0:06:59.17,0:07:01.56,Main,Gin,0000,0000,0000,,If that's how it was, \Nyou shoulda said so sooner.
+Dialogue: 0,0:07:01.56,0:07:04.23,Main,Gin,0000,0000,0000,,I can give you a discount \Non the cupid service.
+Dialogue: 0,0:07:04.23,0:07:05.79,Main,Kat,0000,0000,0000,,I didn't ask for that!
+Dialogue: 0,0:07:05.79,0:07:08.73,Main,Gin,0000,0000,0000,,Don't play dumb! I know \Nyour tastes inside and out!
+Dialogue: 0,0:07:08.73,0:07:10.86,Main,Gin,0000,0000,0000,,{\an8}You've always been into married women.
+Dialogue: 0,0:07:08.73,0:07:10.86,Main,Shin,0000,0000,0000,,That's one weakness I didn't expect.
+Dialogue: 0,0:07:10.86,0:07:13.97,Main,Gin,0000,0000,0000,,Come to think of it, your first love \Nas a kid was a neighborhood widow—
+Dialogue: 0,0:07:14.85,0:07:18.96,Main,Kat,0000,0000,0000,,You dare insult a samurai?! Keep it up\Nand I won't hesitate to cut even you down!
+Dialogue: 0,0:07:18.96,0:07:21.44,Main,Kat,0000,0000,0000,,I'm not into married women!
+Dialogue: 0,0:07:21.93,0:07:23.12,Main,Kat,0000,0000,0000,,I'm into cuckoldry!
+Dialogue: 0,0:07:23.12,0:07:25.49,Main,Shin,0000,0000,0000,,You just exposed a fetish that's \Ntotally unbefitting a samurai!
+Dialogue: 0,0:07:25.49,0:07:28.12,Main,Kat,0000,0000,0000,,And it's not Ikumatsu-dono \Nthat I'm in love with!
+Dialogue: 0,0:07:28.12,0:07:29.74,Main,Kat,0000,0000,0000,,It's the taste of her soba!
+Dialogue: 0,0:07:30.13,0:07:32.25,Main,Kat,0000,0000,0000,,She inherited that from her husband,
+Dialogue: 0,0:07:32.25,0:07:35.88,Main,Kat,0000,0000,0000,,and I just want to make that \Nman eat it one more time.
+Dialogue: 0,0:07:35.88,0:07:38.50,Main,Kat,0000,0000,0000,,Eat that bowl of ramen she \Npromised her husband to serve.
+Dialogue: 0,0:07:38.50,0:07:40.70,Main,Gin,0000,0000,0000,,How admirable.
+Dialogue: 0,0:07:40.70,0:07:44.88,Main,Gin,0000,0000,0000,,You wanna pound the pavement to help her \Nfulfill her promise with your love rival?
+Dialogue: 0,0:07:45.46,0:07:48.47,Main,Kat,0000,0000,0000,,Unfortunately, we're not rivals in love.
+Dialogue: 0,0:07:48.47,0:07:50.51,Main,Kat,0000,0000,0000,,It's not something I will ever be.
+Dialogue: 0,0:07:51.32,0:07:56.57,Main,Kat,0000,0000,0000,,Because Ikumatsu-dono only \Nhas eyes for one man.
+Dialogue: 0,0:07:58.52,0:08:00.46,Main,Bum,0000,0000,0000,,Hey, what's all that about?
+Dialogue: 0,0:08:00.46,0:08:03.69,Main,Bum,0000,0000,0000,,That's one young newcomer.
+Dialogue: 0,0:08:03.69,0:08:05.19,Main,Kat,0000,0000,0000,,Pleased to meet you.
+Dialogue: 0,0:08:05.54,0:08:09.22,Main,Kat,0000,0000,0000,,I grew sick of being a samurai, \Nquit sticking swords in people,
+Dialogue: 0,0:08:09.22,0:08:11.28,Main,Kat,0000,0000,0000,,and chose to stick myself in a cardboard box.
+Dialogue: 0,0:08:11.28,0:08:13.49,Main,Kat,0000,0000,0000,,My name is Katsura Kuzutaro.
+Dialogue: 0,0:08:13.49,0:08:16.66,Main,Kat,0000,0000,0000,,I hope to get along with all of you. \NYou may casually call me Kuzura.
+Dialogue: 0,0:08:17.41,0:08:21.44,Main,Bum,0000,0000,0000,,For someone who grew sick of his life, \Nyou're awfully lively, Kuzura-san.
+Dialogue: 0,0:08:21.44,0:08:23.42,Main,Kat,0000,0000,0000,,I'm not Kuzura! I'm Katsura!
+Dialogue: 0,0:08:23.93,0:08:27.17,Main,Kat,0000,0000,0000,,And this here is my partner, Kuzuta—
+Dialogue: 0,0:08:27.42,0:08:29.80,Main,Gin,0000,0000,0000,,Hey, how did things end up this way?
+Dialogue: 0,0:08:29.80,0:08:32.66,Main,Bum,0000,0000,0000,,The other guy's got the same \Nlook in his eyes as us.
+Dialogue: 0,0:08:32.66,0:08:34.15,Main,Bum,0000,0000,0000,,Welcome, Kuzuta-san.
+Dialogue: 0,0:08:34.15,0:08:34.95,Main,Bum,0000,0000,0000,,Hey, nice to meetcha.
+Dialogue: 0,0:08:34.95,0:08:36.52,Main,Gin,0000,0000,0000,,As if! Don't lump me in with you lot!
+Dialogue: 0,0:08:36.88,0:08:40.32,Main,Kat,0000,0000,0000,,The best people to ask about a \Nhomeless man are the homeless.
+Dialogue: 0,0:08:40.32,0:08:43.65,Main,Kat,0000,0000,0000,,I came up with this cover to \Nmake them less wary of us...
+Dialogue: 0,0:08:43.65,0:08:47.68,Main,Kat,0000,0000,0000,,But I'm amazed you blended in \Ninstantly. That's my Kuzuta.
+Dialogue: 0,0:08:47.68,0:08:49.43,Main,Gin,0000,0000,0000,,That doesn't make me happy!
+Dialogue: 0,0:08:49.43,0:08:53.08,Main,Gin,0000,0000,0000,,I really should've gone looking for the \Nscarf store with Shinpachi and Kagura.
+Dialogue: 0,0:08:53.08,0:08:56.26,Main,Kat,0000,0000,0000,,Sorry, but who among you \Nknows a lot about this stuff?
+Dialogue: 0,0:08:56.26,0:08:59.29,Main,Kat,0000,0000,0000,,I have a lot of questions \Nregarding the cardboard life.
+Dialogue: 0,0:08:59.29,0:09:03.27,Main,Bum,0000,0000,0000,,Oh, then you should go meet the Lawd. \NYou can introduce yourself, too.
+Dialogue: 0,0:09:03.27,0:09:04.42,Main,Kat,0000,0000,0000,,The Lord?
+Dialogue: 0,0:09:04.42,0:09:09.23,Main,Bum,0000,0000,0000,,Yeah. The chief of cardboard boxes \Nand leader of all the homeless here.
+Dialogue: 0,0:09:08.48,0:09:11.05,sign_12983_147_Lawd,Sign,0000,0000,0000,,{\fad(930,1)}Lawd
+Dialogue: 0,0:09:09.23,0:09:11.05,Main,Bum,0000,0000,0000,,We call him Lawd, for \NLeader At the Waste Dump.
+Dialogue: 0,0:09:11.05,0:09:15.78,Main,Bum,0000,0000,0000,,The Lawd knows all, and he can \Nsolve most problems you might face.
+Dialogue: 0,0:09:15.78,0:09:18.52,Main,Musashi,0000,0000,0000,,What's going on? It's awfully noisy.
+Dialogue: 0,0:09:18.90,0:09:22.32,Main,Bum,0000,0000,0000,,It's the Lawd! The Lawd has \Ngraced us with his presence!
+Dialogue: 0,0:09:26.85,0:09:29.53,Main,Gin,0000,0000,0000,,Hey, what are you doing, Hasega—
+Dialogue: 0,0:09:30.12,0:09:34.53,Main,Mu,0000,0000,0000,,Men, throw these two out of Eden at once.
+Dialogue: 0,0:09:34.92,0:09:37.33,Main,Gin,0000,0000,0000,,Uh, what are you talking about? \NWhat the hell is "Eden"?
+Dialogue: 0,0:09:37.68,0:09:39.56,Main,Gin,0000,0000,0000,,Hey, stop talking through an interpreter.
+Dialogue: 0,0:09:39.56,0:09:42.26,Main,Gin,0000,0000,0000,,You're totally made in Japan.
+Dialogue: 0,0:09:42.26,0:09:45.54,Main,Mu,0000,0000,0000,,These two bring disaster wherever they go.
+Dialogue: 0,0:09:45.88,0:09:49.12,Main,Gin,0000,0000,0000,,Uh, I don't wanna hear that \Nfrom a walking disaster.
+Dialogue: 0,0:09:49.12,0:09:50.90,Main,Gin,0000,0000,0000,,I'm willing to ask as many times as it takes.
+Dialogue: 0,0:09:50.90,0:09:54.16,Main,Gin,0000,0000,0000,,What are you doing? Why are you \Nhere at your age, Hasega—
+Dialogue: 0,0:09:54.16,0:09:57.13,Main,Mu,0000,0000,0000,,Quit chanting the Hasegawa death spell!
+Dialogue: 0,0:09:57.13,0:09:59.86,Main,Gin,0000,0000,0000,,It's your damn name! And use \Nyour own mouth to speak!
+Dialogue: 0,0:09:59.86,0:10:01.61,Main,Gin,0000,0000,0000,,You're pissing me off!
+Dialogue: 0,0:10:01.97,0:10:04.68,Main,Mu,0000,0000,0000,,The lower realm's mores don't apply here.
+Dialogue: 0,0:10:04.68,0:10:05.69,Main,Mu,0000,0000,0000,,This is Eden.
+Dialogue: 0,0:10:05.69,0:10:09.22,Main,Mu,0000,0000,0000,,A different world where those who have \Nbeen liberated from everything gather.
+Dialogue: 0,0:10:09.22,0:10:10.36,Main,Gin,0000,0000,0000,,That so?
+Dialogue: 0,0:10:10.36,0:10:12.52,Main,Gin,0000,0000,0000,,I don't care if you're Hasegawa-san \Nor the Lawd anymore.
+Dialogue: 0,0:10:12.52,0:10:13.85,Main,Gin,0000,0000,0000,,Just trash either way.
+Dialogue: 0,0:10:13.85,0:10:14.92,Main,Mu,0000,0000,0000,,Who're you calling trash?!
+Dialogue: 0,0:10:14.92,0:10:17.79,Main,Gin,0000,0000,0000,,Say, did you ever see anyone \Nwearing this scarf—
+Dialogue: 0,0:10:17.79,0:10:18.70,Main,Mu,0000,0000,0000,,Can't answer that.
+Dialogue: 0,0:10:19.61,0:10:22.16,Main,Mu,0000,0000,0000,,Everyone here is truly free.
+Dialogue: 0,0:10:22.16,0:10:25.54,Main,Mu,0000,0000,0000,,Nobody is allowed to pry into \Nor bring up their past lives!
+Dialogue: 0,0:10:25.95,0:10:29.29,Main,Mu,0000,0000,0000,,And we have no information \Nto share with outsiders.
+Dialogue: 0,0:10:29.29,0:10:32.16,Main,Mu,0000,0000,0000,,If you wish to become one of us so badly,
+Dialogue: 0,0:10:32.16,0:10:35.25,Main,Mu,0000,0000,0000,,offer me 30 bags of empty cans and
+Dialogue: 0,0:10:35.25,0:10:38.05,Main,Mu,0000,0000,0000,,60 discarded convenience \Nstore lunch boxes as tribute.
+Dialogue: 0,0:10:38.05,0:10:41.45,Main,Mad,0000,0000,0000,,Got that, uh... Kuzuta-san, was it?
+Dialogue: 0,0:10:41.45,0:10:47.88,Main,Mad,0000,0000,0000,,Only the people who were at rock bottom in \Nthe lower world can make it to the top here.
+Dialogue: 0,0:10:47.88,0:10:50.32,Main,Gin,0000,0000,0000,,If you're gonna laugh, do it yourself!
+Dialogue: 0,0:10:51.73,0:10:53.90,Main,Bum,0000,0000,0000,,Lawd!
+Dialogue: 0,0:10:55.18,0:10:57.24,Main,West,0000,0000,0000,,Pick up empty cans?
+Dialogue: 0,0:10:57.24,0:10:59.07,Main,West,0000,0000,0000,,Save yer sleeptalkin' for when yer asleep.
+Dialogue: 0,0:10:59.07,0:11:03.37,Main,West,0000,0000,0000,,I thought we made it clear this was our yard.
+Dialogue: 0,0:11:03.37,0:11:06.06,Main,West,0000,0000,0000,,All the empty cans and discarded \Nconvenience store lunch boxes are ours!
+Dialogue: 0,0:11:06.06,0:11:08.33,Main,West,0000,0000,0000,,You louts hurry up and get \Noutta this park already!
+Dialogue: 0,0:11:08.33,0:11:09.72,Main,Gin,0000,0000,0000,,Who the heck are those guys?
+Dialogue: 0,0:11:09.72,0:11:10.68,Main,Bum,0000,0000,0000,,The Westside Gang!
+Dialogue: 0,0:11:10.68,0:11:14.39,Main,Bum,0000,0000,0000,,The armed cardboard gang who control \Nthe west side of this park!
+Dialogue: 0,0:11:14.39,0:11:16.44,Main,Gin,0000,0000,0000,,What the hell is an armed cardboard gang?
+Dialogue: 0,0:11:16.44,0:11:21.32,Main,Bum,0000,0000,0000,,They're upstarts that use violent oppression \Nto expand their rule on cardboard!
+Dialogue: 0,0:11:21.32,0:11:25.35,Main,Gin,0000,0000,0000,,Wait, what? Did we enter the Warring \NCardboard Era while I wasn't paying attention?
+Dialogue: 0,0:11:27.60,0:11:29.45,Main,Mu,0000,0000,0000,,Get outta here!
+Dialogue: 0,0:11:29.45,0:11:31.22,Main,Mu,0000,0000,0000,,This is a free utopia!
+Dialogue: 0,0:11:31.22,0:11:33.39,Main,Mu,0000,0000,0000,,We won't hand it over, no \Nmatter how many times you try.
+Dialogue: 0,0:11:33.39,0:11:35.86,Main,Gin,0000,0000,0000,,You're stepping on the Lawd! \NHe was trying to say something!
+Dialogue: 0,0:11:35.86,0:11:37.53,Main,Mu,0000,0000,0000,,We won't give in to violence!
+Dialogue: 0,0:11:37.53,0:11:40.27,Main,Mu,0000,0000,0000,,We only fall to our knees \Nin our cardboard boxes!
+Dialogue: 0,0:11:40.27,0:11:42.94,Main,Gin,0000,0000,0000,,But the Lawd's totally giving \Nin to violence beneath you!
+Dialogue: 0,0:11:42.94,0:11:45.62,Main,Gin,0000,0000,0000,,And this interpreter's just \Nrunning his mouth now, isn't he?
+Dialogue: 0,0:11:45.62,0:11:48.48,Main,Bum,0000,0000,0000,,Interpreter? What are you saying, Kuzuta-san?
+Dialogue: 0,0:11:48.48,0:11:50.54,Main,Bum,0000,0000,0000,,This is the Lawd.
+Dialogue: 0,0:11:50.89,0:11:53.34,Main,Gin,0000,0000,0000,,What?! {\i1}He{\i0} was the Lawd all along?!
+Dialogue: 0,0:11:53.34,0:11:56.88,Main,Gin,0000,0000,0000,,Then what was with the old man next \Nto him who was dressed all godlike?
+Dialogue: 0,0:11:56.88,0:11:59.89,Main,Bum,0000,0000,0000,,That's the guy always mumbling \Nsomething by the Lawd's side.
+Dialogue: 0,0:11:59.89,0:12:02.80,Main,Gin,0000,0000,0000,,In the end, you've hit rock \Nbottom in this world, too!
+Dialogue: 0,0:12:03.22,0:12:05.79,Main,Bro,0000,0000,0000,,Now there's a face that takes me back.
+Dialogue: 0,0:12:05.79,0:12:09.50,Main,Bro,0000,0000,0000,,I found an unexpected diamond \Nburied in the trash.
+Dialogue: 0,0:12:10.21,0:12:11.81,Main,Bro,0000,0000,0000,,I see.
+Dialogue: 0,0:12:11.81,0:12:14.33,Main,Bro,0000,0000,0000,,So you came here, too...
+Dialogue: 0,0:12:14.33,0:12:15.82,Main,Bro,0000,0000,0000,,Katsura!
+Dialogue: 0,0:12:15.82,0:12:17.32,Main,Kat,0000,0000,0000,,Y-You're...
+Dialogue: 0,0:12:21.30,0:12:22.24,Main,Gin,0000,0000,0000,,Who are you, again?
+Dialogue: 0,0:12:22.24,0:12:24.16,Main,Bro,0000,0000,0000,,Don't interpret for the \Npeople watching at home!
+Dialogue: 0,0:12:24.49,0:12:27.26,Main,Bro,0000,0000,0000,,Don't tell me you forgot...
+Dialogue: 0,0:12:27.26,0:12:30.29,Main,Bro,0000,0000,0000,,How you got me thrown in jail for that woman
+Dialogue: 0,0:12:30.29,0:12:34.17,Main,Bro,0000,0000,0000,,and reduced me to being homeless!
+Dialogue: 0,0:12:36.52,0:12:37.40,Main,Gin,0000,0000,0000,,I see.
+Dialogue: 0,0:12:37.40,0:12:39.37,Main,Gin,0000,0000,0000,,After crossing swords with \Nyou at the Land of Korin,
+Dialogue: 0,0:12:39.37,0:12:42.05,Main,Gin,0000,0000,0000,,I never expected you to return as a cyborg.
+Dialogue: 0,0:12:42.22,0:12:44.01,Main,Bro,0000,0000,0000,,That's Mercenary Tao!
+Dialogue: 0,0:12:44.01,0:12:45.81,Main,Bro,0000,0000,0000,,Just look at the quality \Ndifference in our comebacks!
+Dialogue: 0,0:12:46.81,0:12:50.06,Main,Kat,0000,0000,0000,,I remember now! You're Ikumatsu-dono's \Nbrother from back then...
+Dialogue: 0,0:12:50.71,0:12:53.60,Main,Kat,0000,0000,0000,,Fancy running into you here.
+Dialogue: 0,0:12:53.60,0:12:56.07,Main,Bro,0000,0000,0000,,I'd rather you didn't sum it up so easily.
+Dialogue: 0,0:12:56.07,0:13:01.02,Main,Bro,0000,0000,0000,,I mean, ever since then, I've lived my \Nlife thinking of nothing but you guys.
+Dialogue: 0,0:13:01.02,0:13:02.52,Main,Bro,0000,0000,0000,,You two ruined my life,
+Dialogue: 0,0:13:02.52,0:13:07.20,Main,Bro,0000,0000,0000,,so I was chomping at the bit for a \Nchance to get my revenge on you two!
+Dialogue: 0,0:13:07.68,0:13:11.76,Main,Kat,0000,0000,0000,,Oh? By becoming king of \Nthis cardboard mountain?
+Dialogue: 0,0:13:11.76,0:13:13.79,Main,Kat,0000,0000,0000,,Talk about a roundabout revenge.
+Dialogue: 0,0:13:13.79,0:13:18.09,Main,Bro,0000,0000,0000,,Look, I know that you're \Nhere to look for that man.
+Dialogue: 0,0:13:19.59,0:13:21.30,Main,Kat,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:13:21.30,0:13:23.24,Main,Bro,0000,0000,0000,,Don't play dumb.
+Dialogue: 0,0:13:23.24,0:13:24.72,Main,Bro,0000,0000,0000,,I know all about it.
+Dialogue: 0,0:13:25.14,0:13:29.72,Main,Bro,0000,0000,0000,,How my brother desperately looked for \Nhim here while he was still alive.
+Dialogue: 0,0:13:30.15,0:13:32.23,Main,Kat,0000,0000,0000,,Ikumatsu-dono's husband did what?!
+Dialogue: 0,0:13:32.55,0:13:37.23,Main,Bro,0000,0000,0000,,How that man visited that \Nfilthy ramen place every year,
+Dialogue: 0,0:13:37.23,0:13:41.24,Main,Bro,0000,0000,0000,,and just who he is, too.
+Dialogue: 0,0:13:44.64,0:13:48.74,Main,W,0000,0000,0000,,Um, if I may ask, where did you get this?
+Dialogue: 0,0:13:49.10,0:13:53.01,Main,Shin,0000,0000,0000,,Oh, we're looking for its owner, too.
+Dialogue: 0,0:13:53.01,0:13:57.75,Main,W,0000,0000,0000,,This crest on the lining \Ncertainly is Nishikiya's.
+Dialogue: 0,0:13:57.75,0:14:00.42,Main,Kag,0000,0000,0000,,Really? Does it ring any bells?
+Dialogue: 0,0:14:00.42,0:14:02.76,Main,Kag,0000,0000,0000,,Did some filthy old man come here to buy it?
+Dialogue: 0,0:14:03.08,0:14:07.76,Main,W,0000,0000,0000,,This isn't one of our products. \NIt belonged to the master of Nishikiya.
+Dialogue: 0,0:14:07.76,0:14:11.02,Main,Kag,0000,0000,0000,,Master? Like the boss of this place?
+Dialogue: 0,0:14:11.27,0:14:16.77,Main,W,0000,0000,0000,,Yes. I remember him wearing it \Nwith style whenever he went out.
+Dialogue: 0,0:14:17.40,0:14:20.58,Main,Shin,0000,0000,0000,,Where is he? Where is he now?
+Dialogue: 0,0:14:20.58,0:14:24.16,Main,W,0000,0000,0000,,He passed away around 20 years ago.
+Dialogue: 0,0:14:25.20,0:14:27.78,Main,W,0000,0000,0000,,Why would this thing show \Nup after all this time?
+Dialogue: 0,0:14:27.78,0:14:31.60,Main,Shin,0000,0000,0000,,Um, was it given away to \Nsomeone after he died?
+Dialogue: 0,0:14:31.60,0:14:34.29,Main,Shin,0000,0000,0000,,Are there any family members who might know?
+Dialogue: 0,0:14:34.29,0:14:36.20,Main,W,0000,0000,0000,,Just the young miss.
+Dialogue: 0,0:14:36.61,0:14:40.53,Main,W,0000,0000,0000,,But she was very young when her father died.
+Dialogue: 0,0:14:41.02,0:14:43.30,Main,W,0000,0000,0000,,She probably doesn't remember anything.
+Dialogue: 0,0:14:43.68,0:14:48.80,Main,W,0000,0000,0000,,Nishikiya is a textile store that the \Nmaster and mistress built themselves.
+Dialogue: 0,0:14:49.11,0:14:54.58,Main,W,0000,0000,0000,,Right when they'd overcome hard times \Nand put up shop, the master passed away.
+Dialogue: 0,0:14:54.58,0:14:58.63,Main,W,0000,0000,0000,,After that, the mistress made the \Nstore grow this big all by herself.
+Dialogue: 0,0:14:58.63,0:15:01.34,Main,W,0000,0000,0000,,But she died six years ago, too.
+Dialogue: 0,0:15:01.34,0:15:06.06,Main,W,0000,0000,0000,,On top of that, the young \Nmiss lost her husband.
+Dialogue: 0,0:15:06.06,0:15:08.57,Main,W,0000,0000,0000,,So even if she doesn't \Nremember anything anymore,
+Dialogue: 0,0:15:08.57,0:15:13.70,Main,W,0000,0000,0000,,I'm sure the young miss will \Nbe delighted if she sees this.
+Dialogue: 0,0:15:14.09,0:15:16.82,Main,I,0000,0000,0000,,I wonder about that.
+Dialogue: 0,0:15:16.82,0:15:18.92,Main,I,0000,0000,0000,,After having the scarf \Ntaken without permission
+Dialogue: 0,0:15:18.92,0:15:21.85,Main,I,0000,0000,0000,,and people sniffing around \Nwithout her knowing,
+Dialogue: 0,0:15:21.85,0:15:23.84,Main,I,0000,0000,0000,,even the gentle young miss might get angry.
+Dialogue: 0,0:15:24.17,0:15:25.72,Main,I,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:15:25.72,0:15:28.45,Main,I,0000,0000,0000,,Delivery for you, Osono-san.
+Dialogue: 0,0:15:28.45,0:15:34.35,Main,Bro,0000,0000,0000,,Katsura, I came here to kill that man.
+Dialogue: 0,0:15:34.35,0:15:39.84,Main,Bro,0000,0000,0000,,"That man" being Ikumatsu's dad, \Nwho is said to have died 20 years ago.
+Dialogue: 0,0:15:50.83,0:15:55.84,Main,I,0000,0000,0000,,Oh, you're trying to find that \Nhomeless man using this scarf?
+Dialogue: 0,0:15:55.84,0:15:58.59,Main,I,0000,0000,0000,,Jeez, you could've just told me.
+Dialogue: 0,0:15:58.59,0:16:03.44,Main,I,0000,0000,0000,,Sorry you went through all \Nthis trouble for my sake.
+Dialogue: 0,0:16:03.44,0:16:04.22,Main,I,0000,0000,0000,,Yes.
+Dialogue: 0,0:16:04.22,0:16:09.64,Main,I,0000,0000,0000,,The scarf belonged to Nishiki Matsugoro, \NNishikiya's founder, who died 20 years ago.
+Dialogue: 0,0:16:10.09,0:16:14.98,Main,I,0000,0000,0000,,And I'm Matsugoro's daughter, \NNishiki Ikumatsu.
+Dialogue: 0,0:16:15.69,0:16:19.91,Main,Shin,0000,0000,0000,,Y-You're Nishikiya's heiress?
+Dialogue: 0,0:16:20.87,0:16:24.40,Main,I,0000,0000,0000,,Sorry I didn't mention it. \NIt's just not me, you know?
+Dialogue: 0,0:16:24.40,0:16:27.00,Main,I,0000,0000,0000,,Running a ramen restaurant \Nsuits me much better, right?
+Dialogue: 0,0:16:27.00,0:16:28.79,Main,I,0000,0000,0000,,Of course it does.
+Dialogue: 0,0:16:28.79,0:16:32.30,Main,I,0000,0000,0000,,Nishikiya may be one of the \Ntop textile showrooms now,
+Dialogue: 0,0:16:32.30,0:16:36.40,Main,I,0000,0000,0000,,but until it was started, \Nwe lived in abject poverty.
+Dialogue: 0,0:16:36.40,0:16:39.11,Main,I,0000,0000,0000,,But while life was hard, we had fun.
+Dialogue: 0,0:16:39.11,0:16:43.76,Main,I,0000,0000,0000,,Even if we had nothing to eat, the three \Nof us supported one another as we lived.
+Dialogue: 0,0:16:44.27,0:16:49.25,Main,I,0000,0000,0000,,But it all came crashing down the moment \Nwe became able to live a decent life.
+Dialogue: 0,0:16:49.25,0:16:50.27,Main,I,0000,0000,0000,,Ironic, right?
+Dialogue: 0,0:16:50.74,0:16:54.27,Main,Shin,0000,0000,0000,,If I may ask, how did your father pass away?
+Dialogue: 0,0:16:54.58,0:16:57.70,Main,I,0000,0000,0000,,I was really young back \Nthen, so I have no idea.
+Dialogue: 0,0:16:58.17,0:17:03.16,Main,I,0000,0000,0000,,Besides, he was living elsewhere \Nwith his mistress back then.
+Dialogue: 0,0:17:04.70,0:17:07.25,Main,I,0000,0000,0000,,As soon as our store got on track,
+Dialogue: 0,0:17:07.25,0:17:10.20,Main,I,0000,0000,0000,,he apparently made a move on \None of the girls working here.
+Dialogue: 0,0:17:10.20,0:17:13.91,Main,I,0000,0000,0000,,Mom found out and threw him out.
+Dialogue: 0,0:17:13.91,0:17:17.46,Main,I,0000,0000,0000,,Not long after that, we heard \Nthat he'd died of illness.
+Dialogue: 0,0:17:18.11,0:17:22.71,Main,I,0000,0000,0000,,People were saying he deserved it for \Nabandoning his wife and daughter,
+Dialogue: 0,0:17:23.21,0:17:27.93,Main,I,0000,0000,0000,,but I still remember how \Nsad my mother looked then.
+Dialogue: 0,0:17:29.02,0:17:33.94,Main,I,0000,0000,0000,,I don't know how the scarf found \Nits way to that homeless man,
+Dialogue: 0,0:17:33.94,0:17:39.57,Main,I,0000,0000,0000,,but I'm guessing it means my dad \Nwas living a similar life to him.
+Dialogue: 0,0:17:39.57,0:17:43.63,Main,I,0000,0000,0000,,Thinking about it that way, I just \Ncan't think of him as any old man.
+Dialogue: 0,0:17:43.63,0:17:46.94,Main,I,0000,0000,0000,,Sorry I made you waste your time for me.
+Dialogue: 0,0:17:46.94,0:17:53.33,Main,I,0000,0000,0000,,Ultimately, maybe people are best off when \Nthey have to fight to live another day.
+Dialogue: 0,0:17:53.99,0:17:58.49,Main,I,0000,0000,0000,,The moment we have more than we \Nneed, our eyes start to wander.
+Dialogue: 0,0:17:58.49,0:18:03.47,Main,I,0000,0000,0000,,I feel like we could clearly see what \Nwas important when we were poor.
+Dialogue: 0,0:18:04.62,0:18:11.39,Main,I,0000,0000,0000,,If it weren't for that, I'm sure his \Neyes wouldn't have strayed from us.
+Dialogue: 0,0:18:11.39,0:18:17.36,Main,I,0000,0000,0000,,And we would've been able \Nto forgive him, too.
+Dialogue: 0,0:18:17.94,0:18:20.98,Main,Kat,0000,0000,0000,,Ikumatsu-dono's father is alive?!
+Dialogue: 0,0:18:20.98,0:18:25.61,Main,Bro,0000,0000,0000,,That's right. He was barely \Nscraping by in this dump.
+Dialogue: 0,0:18:25.99,0:18:30.79,Main,Kat,0000,0000,0000,,No way. You mean the homeless man who \Nkept visiting the restaurant was...
+Dialogue: 0,0:18:31.35,0:18:34.21,Main,Bro,0000,0000,0000,,Wait, you really didn't know?
+Dialogue: 0,0:18:34.66,0:18:38.63,Main,Bro,0000,0000,0000,,And Ikumatsu didn't realize \Nthat he was her father?
+Dialogue: 0,0:18:40.63,0:18:42.90,Main,Bro,0000,0000,0000,,That's funny.
+Dialogue: 0,0:18:42.90,0:18:46.76,Main,Bro,0000,0000,0000,,She forgot what her own dad looked like?
+Dialogue: 0,0:18:47.22,0:18:53.14,Main,Bro,0000,0000,0000,,Of course you'd forget about a scumbag \Nwho left his family for another woman.
+Dialogue: 0,0:18:53.60,0:18:54.75,Main,Bro,0000,0000,0000,,Isn't that right?
+Dialogue: 0,0:18:54.75,0:18:57.27,Main,Bro,0000,0000,0000,,How long are you gonna stay \Nsilent? I know you're here.
+Dialogue: 0,0:18:59.02,0:19:00.15,Main,Bro,0000,0000,0000,,Whatever.
+Dialogue: 0,0:19:00.15,0:19:04.32,Main,Bro,0000,0000,0000,,I'm sure the kindhearted Katsura-san \Ncan't sit tight after learning all this.
+Dialogue: 0,0:19:04.75,0:19:07.82,Main,Bro,0000,0000,0000,,Katsura, you bring Ikumatsu's old man to me.
+Dialogue: 0,0:19:07.82,0:19:08.82,Main,Kat,0000,0000,0000,,What?
+Dialogue: 0,0:19:08.82,0:19:11.59,Main,Bro,0000,0000,0000,,Don't get any funny ideas.
+Dialogue: 0,0:19:12.06,0:19:14.66,Main,Bro,0000,0000,0000,,I control pretty much all \Nthe homeless in this town.
+Dialogue: 0,0:19:15.25,0:19:20.50,Main,Bro,0000,0000,0000,,I think some starving homeless even camp \Nout at the dump near the Hokuto Shinken.
+Dialogue: 0,0:19:20.50,0:19:22.03,Main,Kat,0000,0000,0000,,You knave!
+Dialogue: 0,0:19:22.03,0:19:24.55,Main,Bro,0000,0000,0000,,This is my revenge.
+Dialogue: 0,0:19:24.55,0:19:27.82,Main,Bro,0000,0000,0000,,Bring me the head of the \Nfather of the woman you love.
+Dialogue: 0,0:19:33.34,0:19:36.35,Main,Bum,0000,0000,0000,,Lawd, what should we do?
+Dialogue: 0,0:19:36.70,0:19:38.81,Main,Bum,0000,0000,0000,,The Lawd was right.
+Dialogue: 0,0:19:38.81,0:19:41.70,Main,Bum,0000,0000,0000,,Those guys really brought about a disaster.
+Dialogue: 0,0:19:41.70,0:19:43.82,Main,Bum,0000,0000,0000,,We should've thrown them out right away.
+Dialogue: 0,0:19:43.82,0:19:47.61,Main,Bum,0000,0000,0000,,Who's Ikumatsu's old man, anyway? I've \Nnever even heard of someone like that.
+Dialogue: 0,0:19:47.61,0:19:49.50,Main,Mu,0000,0000,0000,,No need to worry.
+Dialogue: 0,0:19:49.50,0:19:52.87,Main,Mu,0000,0000,0000,,We already found Ikumatsu's father.
+Dialogue: 0,0:19:54.73,0:19:58.40,Main,Mu,0000,0000,0000,,Hurry up and take this man \Nin shades to that punk.
+Dialogue: 0,0:19:58.40,0:20:01.09,Main,Mad,0000,0000,0000,,What're you pulling the Lawd's strings for?!
+Dialogue: 0,0:20:01.09,0:20:03.43,Main,Mad,0000,0000,0000,,Who're you calling Ikumatsu's old man?!
+Dialogue: 0,0:20:03.43,0:20:05.61,Main,Kat,0000,0000,0000,,You must endure this, Hasegawa-dono.
+Dialogue: 0,0:20:05.61,0:20:08.57,Main,Kat,0000,0000,0000,,Ikumatsu-dono has practically \Nbeen taken hostage.
+Dialogue: 0,0:20:08.57,0:20:11.97,Main,Kat,0000,0000,0000,,We can't do anything unless we shut \Nup that knock-off Mercenary Tao.
+Dialogue: 0,0:20:11.97,0:20:15.22,Main,Mad,0000,0000,0000,,Before that, do something about \Nthis knock-off Commander Ikari!
+Dialogue: 0,0:20:15.22,0:20:20.81,Main,Mu,0000,0000,0000,,Listen up. Use Shades as a \Ndecoy to distract the enemy.
+Dialogue: 0,0:20:20.81,0:20:25.86,Main,Mu,0000,0000,0000,,In the meantime, I'll guide these men \Noutside the park via this secret passage.
+Dialogue: 0,0:20:25.86,0:20:28.05,Main,Mad,0000,0000,0000,,Why's the Lawd getting into it, too?
+Dialogue: 0,0:20:28.05,0:20:29.47,Main,Kat,0000,0000,0000,,Lawd...
+Dialogue: 0,0:20:30.87,0:20:34.78,Main,Mu,0000,0000,0000,,Instead of looking for her father,
+Dialogue: 0,0:20:34.78,0:20:38.33,Main,Mu,0000,0000,0000,,you must first ensure the daughter's safety.
+Dialogue: 0,0:20:38.33,0:20:39.79,Main,Mu,0000,0000,0000,,Don't lose sight of your cause.
+Dialogue: 0,0:20:40.14,0:20:45.38,Main,Mu,0000,0000,0000,,And my cause is... No matter whose \Nfather or how big a scumbag they are,
+Dialogue: 0,0:20:45.38,0:20:47.42,Main,Mu,0000,0000,0000,,I will protect everyone here!
+Dialogue: 0,0:20:47.42,0:20:50.05,Main,Mad,0000,0000,0000,,But you're not protecting me at all!
+Dialogue: 0,0:20:50.05,0:20:51.82,Main,Mu,0000,0000,0000,,We should work together.
+Dialogue: 0,0:20:51.82,0:20:53.71,Main,Bum,0000,0000,0000,,What are you talking about, Lawd?
+Dialogue: 0,0:20:53.71,0:20:56.72,Main,Bum,0000,0000,0000,,You're half-senile, fool. \NCan you really show them the way?
+Dialogue: 0,0:20:56.72,0:20:58.13,Main,Mu,0000,0000,0000,,Who're you calling a fool?!
+Dialogue: 0,0:20:58.13,0:21:00.89,Main,Mu,0000,0000,0000,,I plunged into the straight man \Nroutine the moment I was born!
+Dialogue: 0,0:21:00.89,0:21:01.81,Main,Mu,0000,0000,0000,,This way! Follow me!
+Dialogue: 0,0:21:02.29,0:21:04.31,Main,Bum,0000,0000,0000,,Where are you taking a plunge now?!
+Dialogue: 0,0:21:05.33,0:21:10.07,Main,Bum,0000,0000,0000,,Hey, we'll handle things here, \Nso take care of the Lawd.
+Dialogue: 0,0:21:10.07,0:21:13.30,Main,Mad,0000,0000,0000,,In the end, I get to lead \Nthis band of idiots?
+Dialogue: 0,0:21:13.30,0:21:16.58,Main,Mad,0000,0000,0000,,I'm done with this crap. I'm gonna \Nleave this place and find a proper job.
+Dialogue: 0,0:21:16.93,0:21:21.27,Main,Kat,0000,0000,0000,,I still can't believe that homeless \Nman was Ikumatsu-dono's father.
+Dialogue: 0,0:21:21.27,0:21:23.96,Main,Kat,0000,0000,0000,,He was going to see her \Nunbeknownst to all, huh?
+Dialogue: 0,0:21:24.43,0:21:28.21,Main,Kat,0000,0000,0000,,And he hid who he was due to the \Nguilt over abandoning his family?
+Dialogue: 0,0:21:28.21,0:21:32.34,Main,Kat,0000,0000,0000,,In that case, why did he \Nsuddenly stop showing up?
+Dialogue: 0,0:21:32.34,0:21:34.97,Main,Kat,0000,0000,0000,,Because he'd seen that his daughter \Nwas blessed with happiness?
+Dialogue: 0,0:21:35.33,0:21:39.30,Main,Gin,0000,0000,0000,,She lost her husband, and now a weird \Nguy with long hair is stalking her.
+Dialogue: 0,0:21:39.30,0:21:40.72,Main,Gin,0000,0000,0000,,Nobody would consider her blessed.
+Dialogue: 0,0:21:40.72,0:21:42.31,Main,Kat,0000,0000,0000,,I never stalked her!
+Dialogue: 0,0:21:42.31,0:21:44.80,Main,Gin,0000,0000,0000,,Keep it down. What if they hear you?
+Dialogue: 0,0:21:44.80,0:21:46.44,Main,Gin,0000,0000,0000,,You're not used to straight man\Nwork. Don't push yourself.
+Dialogue: 0,0:21:46.44,0:21:48.36,Main,Mu,0000,0000,0000,,Yeah! Let me plunge into the \Nstraight man routine instead!
+Dialogue: 0,0:21:48.91,0:21:51.11,Main,Mad,0000,0000,0000,,Seriously, where do you think \Nyou're taking a plunge?!
+Dialogue: 0,0:21:51.11,0:21:54.40,Main,Mad,0000,0000,0000,,{\an8}The Lawd's getting swept away!
+Dialogue: 0,0:21:52.41,0:21:54.40,Main,Gin,0000,0000,0000,,You've got it wrong, Hasegawa-san.
+Dialogue: 0,0:21:54.40,0:21:57.01,Main,Gin,0000,0000,0000,,This straight man really wants to \Nplunge into Ikumatsu's pus—
+Dialogue: 0,0:21:57.01,0:21:58.90,Main,Mad,0000,0000,0000,,Hey, knock it off!
+Dialogue: 0,0:21:58.90,0:22:01.09,Main,Mad,0000,0000,0000,,I can't handle these three stooges!
+Dialogue: 0,0:22:01.59,0:22:02.37,Main,Gin,0000,0000,0000,,H-Help!
+Dialogue: 0,0:22:02.76,0:22:04.04,Main,Gin,0000,0000,0000,,I... I can't swim!
+Dialogue: 0,0:22:02.76,0:22:04.04,Main,Kat,0000,0000,0000,,{\an8}Screw you!
+Dialogue: 0,0:22:04.04,0:22:06.88,Main,Kat,0000,0000,0000,,When did I say I wanted to plunge into \NIkumatsu-dono's *****, *****, or *******?
+Dialogue: 0,0:22:06.88,0:22:10.21,Main,Mad,0000,0000,0000,,Look, we don't have time for that! \NHelp me rescue him!
+Dialogue: 0,0:22:10.21,0:22:12.22,Main,Mu,0000,0000,0000,,I'll take the plunge instead!
+Dialogue: 0,0:22:12.22,0:22:13.53,Main,Mad,0000,0000,0000,,Why?!
+Dialogue: 0,0:22:13.53,0:22:15.84,Main,Mad,0000,0000,0000,,I can't deal with this!
+Dialogue: 0,0:22:14.34,0:22:15.84,TBC,,0000,0000,0000,,To Be Continued
+Dialogue: 0,0:23:45.93,0:23:55.90,Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:48.39,0:23:52.94,Main,Mad,0000,0000,0000,,Once this chaos blows over, \NI'm going to seriously look for a job.
+Dialogue: 0,0:23:52.94,0:23:55.61,Main,Mad,0000,0000,0000,,I mean it. This isn't a death \Nflag or anything, okay?
+Dialogue: 0,0:23:55.61,0:23:57.38,Main,Mad,0000,0000,0000,,I'm serious, by the way.
+Dialogue: 0,0:23:55.90,0:24:00.91,Ep Title,Title,0000,0000,0000,,{\fad(485,1)}A Family
+Dialogue: 0,0:23:57.38,0:23:59.49,Main,Gin,0000,0000,0000,,Next time: "A Family."
+Dialogue: 0,0:24:00.91,0:24:06.04,Side Bar Top,TextR,0000,0000,0000,,A series of surprising reveals
+Dialogue: 0,0:24:00.91,0:24:06.04,Side Bar Bottom,TextL,0000,0000,0000,,from a complex web of relationships.
+Dialogue: 0,0:24:06.04,0:24:12.50,Side Bar Top,TextR,0000,0000,0000,,The next episode features \Nso many twists and turns,
+Dialogue: 0,0:24:06.04,0:24:12.50,Side Bar Bottom,TextL,0000,0000,0000,,you'll stop worrying about who\Nwould ever hire Madao.

@@ -1,0 +1,5 @@
+﻿chs: 电脑线圈
+cht: 電腦綫圈
+jp: 電脳コイル
+en: Dennou Coil
+rome: Dennou Coil

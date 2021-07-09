@@ -1,0 +1,5 @@
+﻿chs: 猎人
+cht: 獵人
+jp: ハンター×ハンター
+en: Hunter X Hunter
+rome: Hunter X Hunter

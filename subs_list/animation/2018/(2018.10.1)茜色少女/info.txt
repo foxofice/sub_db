@@ -1,0 +1,5 @@
+﻿chs: 茜色少女
+cht: 茜色少女
+jp: あかねさす少女
+en: The Girl in Twilight
+rome: Akanesasu Shoujo

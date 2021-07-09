@@ -1,0 +1,5 @@
+﻿chs: 铁腕巴迪 DECODE
+cht: 鉄腕巴迪 DECODE
+jp: 鉄腕バーディー DECODE
+en: Birdy the Mighty: Decode
+rome: Tetsuwan Birdy Decod

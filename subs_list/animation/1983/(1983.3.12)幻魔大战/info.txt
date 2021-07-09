@@ -1,0 +1,5 @@
+﻿chs: 幻魔大战
+cht: 幻魔大戦
+jp: 幻魔大戦
+en: Harmagedon
+rome: Genma Taisen

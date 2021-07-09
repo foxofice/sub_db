@@ -1,0 +1,5 @@
+﻿chs: 幽灵公主
+cht: 幽靈公主
+jp: もののけ姫
+en: Princess Mononoke
+rome: Mononoke-hime

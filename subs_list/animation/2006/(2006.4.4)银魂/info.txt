@@ -1,0 +1,5 @@
+﻿chs: 银魂
+cht: 銀魂
+jp: 銀魂[ぎんたま]
+en: Gintama
+rome: Gintama

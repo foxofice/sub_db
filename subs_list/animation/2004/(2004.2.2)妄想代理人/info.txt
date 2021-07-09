@@ -1,0 +1,5 @@
+﻿chs: 妄想代理人
+cht: 妄想代理人
+jp: 妄想代理人
+en: Paranoia Agent
+rome: Paranoia Agent

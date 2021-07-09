@@ -1,0 +1,32 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 17:02:14
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.60,0:00:10.61,SP,NTP,0000,0000,0000,,那个被切成片段的防壁资料，有留下来吗？
+Dialogue: 0,0:00:10.61,0:00:12.58,SP,NTP,0000,0000,0000,,嗯
+Dialogue: 0,0:00:14.14,0:00:15.48,SP,NTP,0000,0000,0000,,就是这个
+Dialogue: 0,0:00:15.91,0:00:18.68,SP,NTP,0000,0000,0000,,不过话说回来，这个界面的圆形造形
+Dialogue: 0,0:00:18.68,0:00:20.55,SP,NTP,0000,0000,0000,,让人很容易联想到某样东西
+Dialogue: 0,0:00:21.12,0:00:23.02,SP,NTP,0000,0000,0000,,另外…
+Dialogue: 0,0:00:23.02,0:00:26.22,SP,NTP,0000,0000,0000,,你那个炮口盖也会让我联想到某样东西
+Dialogue: 0,0:00:27.49,0:00:29.48,SP,NTP,0000,0000,0000,,去给我捡回来～飞盘犬汪！
+Dialogue: 0,0:00:32.50,0:00:33.90,SP,NTP,0000,0000,0000,,啊…这真是太没道理了啦
+Dialogue: 0,0:00:33.90,0:00:34.63,SP,NTP,0000,0000,0000,,就是现在
+Dialogue: 0,0:00:34.63,0:00:36.79,SP,NTP,0000,0000,0000,,来个漂亮的跳跃接杀…
+Dialogue: 0,0:00:45.24,0:00:47.23,SP,NTP,0000,0000,0000,,因为这又不是嘴巴

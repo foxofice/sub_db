@@ -1,0 +1,32 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-26 17:49:38
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.35,0:00:09.84,SP,NTP,0000,0000,0000,,喂 坐在电视机前的小朋友们
+Dialogue: 0,0:00:10.05,0:00:13.75,SP,NTP,0000,0000,0000,,今天的科学讲座是塔奇克马不为人知的生态
+Dialogue: 0,0:00:14.08,0:00:16.63,SP,NTP,0000,0000,0000,,将会告诉大家什么秘密呢
+Dialogue: 0,0:00:16.63,0:00:18.42,SP,NTP,0000,0000,0000,,塔奇克马的生态
+Dialogue: 0,0:00:18.82,0:00:22.58,SP,NTP,0000,0000,0000,,我们塔奇克马从蛋中孵化出来后
+Dialogue: 0,0:00:23.11,0:00:27.40,SP,NTP,0000,0000,0000,,大概会蜕皮6、7次
+Dialogue: 0,0:00:28.33,0:00:32.56,SP,NTP,0000,0000,0000,,把最后一次蜕皮称作"羽化"
+Dialogue: 0,0:00:33.32,0:00:37.33,SP,NTP,0000,0000,0000,,塔奇克马不经过蛹就从幼虫变成成虫
+Dialogue: 0,0:00:37.44,0:00:41.68,SP,NTP,0000,0000,0000,,这种现象用难一点的话来说就是"不完全变态"
+Dialogue: 0,0:00:42.59,0:00:46.83,SP,NTP,0000,0000,0000,,这样大家稍微了解到一点塔奇克马的生态了吧
+Dialogue: 0,0:00:47.24,0:00:49.12,SP,NTP,0000,0000,0000,,今天的科学讲座到此为止
+Dialogue: 0,0:00:49.31,0:00:50.63,SP,NTP,0000,0000,0000,,大家下次再见

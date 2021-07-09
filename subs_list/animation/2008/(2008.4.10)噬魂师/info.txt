@@ -1,0 +1,5 @@
+﻿chs: 噬魂师
+cht: 噬魂師
+jp: ソウルイーター
+en: Soul Eater
+rome: Soul Eater

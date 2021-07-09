@@ -1,5 +1,5 @@
-﻿chs: 小小英雄-螃蟹与蛋与透明人
-cht: 小小英雄-螃蟹與蛋與透明人
+﻿chs: 小小英雄-螃蟹与蛋与透明人/小英雄-蟹和蛋和透明人-
+cht: 小小英雄-螃蟹與蛋與透明人/小英雄-蟹和蛋和透明人-
 jp: ちいさな英雄ーカニとタマゴと透明人間ー
 en: Chiisana Eiyuu ~Kani to Tamago to Toumei Ningen~
 rome: Chiisana Eiyuu ~Kani to Tamago to Toumei Ningen~

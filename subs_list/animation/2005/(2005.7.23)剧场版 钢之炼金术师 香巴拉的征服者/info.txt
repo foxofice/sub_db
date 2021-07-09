@@ -1,0 +1,5 @@
+﻿chs: 钢之炼金术师 香巴拉的征服者
+cht: 鋼之煉金術師 香巴拉的征服者
+jp: 劇場版 鋼の錬金術師 シャンバラを征[ゆ]く者
+en: Fullmetal Alchemist the Movie: Conqueror of Shamballa
+rome: Gekijouban Hagane no Renkinjutsushi: Shambala o Yuku Mono

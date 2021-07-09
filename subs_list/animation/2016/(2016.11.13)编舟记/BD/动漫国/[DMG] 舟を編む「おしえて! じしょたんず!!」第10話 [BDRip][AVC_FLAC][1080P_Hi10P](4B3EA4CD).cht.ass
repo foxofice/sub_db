@@ -1,0 +1,51 @@
+﻿[Script Info]
+Title: [Fune_o_Amu][SP10]
+Original Script: DMG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX: 1280
+PlayResY: 720
+Timer:100.0000
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,8,10,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.02,0:00:00.02,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.89,0:00:04.69,Default,,0,0,0,,教教我吧!  辭典小傢伙們!!
+Dialogue: 0,0:00:05.19,0:00:07.07,Default,,0,0,0,,咦  大家都在做什麼呢
+Dialogue: 0,0:00:07.40,0:00:10.11,Default,,0,0,0,,我們在畫釋義旁邊的插圖呢
+Dialogue: 0,0:00:11.24,0:00:13.03,Default,,0,0,0,,用照片不是更準確嗎
+Dialogue: 0,0:00:13.49,0:00:17.08,Default,,0,0,0,,確實  最近也有直接使用照片的辭典
+Dialogue: 0,0:00:17.08,0:00:18.95,Default,,0,0,0,,但現在還是以插圖為主
+Dialogue: 0,0:00:19.70,0:00:20.62,Default,,0,0,0,,為什麼呢
+Dialogue: 0,0:00:20.91,0:00:23.67,Default,,0,0,0,,因為插圖能更清楚地闡明特徵
+Dialogue: 0,0:00:24.21,0:00:26.83,Default,,0,0,0,,插圖既可以突出必要特徵
+Dialogue: 0,0:00:26.96,0:00:29.09,Default,,0,0,0,,也可以省略多餘的細節
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs20\c&H000100&\pos(161,165)\b1}單結
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs20\c&H000100&\pos(288,165)\b1}平結
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs20\c&H000100&\pos(161,283)\b1}牛結
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs20\c&H000100&\pos(288,283)\b1}八字結
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs15\c&H000100&\b1\pos(831,66)}梅花肉
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs15\c&H000100&\b1\pos(845,145)}里肌
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs15\c&H000100&\b1\pos(908,69)}腰內肉
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn方正细雅宋_GBK\bord0\fs15\c&H000100&\b1\pos(851.889,171.444)}五花肉
+Dialogue: 0,0:00:24.21,0:00:34.47,Default,,0,0,0,,{\fn@方正细雅宋_GBK\frz270\bord0\fs15\c&H000100&\b1\pos(921,149)}後腿肉
+Dialogue: 0,0:00:29.38,0:00:34.59,Default,,0,0,0,,而且  有些詞條表達的東西在現實中並不存在
+Dialogue: 0,0:00:34.88,0:00:36.51,Default,,0,0,0,,比如說  河童
+Dialogue: 0,0:00:36.84,0:00:37.80,Default,,0,0,0,,河童…
+Dialogue: 0,0:00:38.10,0:00:39.18,Default,,0,0,0,,河童…
+Dialogue: 0,0:00:39.31,0:00:40.18,Default,,0,0,0,,河童…
+Dialogue: 0,0:00:41.39,0:00:42.77,Default,,0,0,0,,河童不存在嗎?!
+Dialogue: 0,0:00:46.65,0:00:47.36,Default,,0,0,0,,沒事吧?!
+Dialogue: 0,0:00:47.40,0:00:48.56,Default,,0,0,0,,振作啊  小海!
+Dialogue: 0,0:00:48.56,0:00:49.57,Default,,0,0,0,,河…童…
+Dialogue: 0,0:00:50.69,0:00:52.90,Default,,0,0,0,,是不是哪裡搞錯了…
+Dialogue: 0,0:00:49.90,0:00:53.86,Default,,0,0,0,,{\fn@萝莉体 第二版\bord0\frz270\fsp10\c&H090E0C&\b1\pos(1016,301)}快要完工的\N\h\h\h小海面臨危機
+Comment: 0,0:00:00.02,0:00:00.02,Comment,,0,0,0,,

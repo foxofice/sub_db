@@ -1,0 +1,5 @@
+﻿chs: JOJO的奇妙冒险
+cht: JOJO的奇妙冒險
+jp: ジョジョの奇妙な冒険 (2012)
+en: JoJo`s Bizarre Adventure (2012)
+rome: JoJo no Kimyou na Bouken (2012)

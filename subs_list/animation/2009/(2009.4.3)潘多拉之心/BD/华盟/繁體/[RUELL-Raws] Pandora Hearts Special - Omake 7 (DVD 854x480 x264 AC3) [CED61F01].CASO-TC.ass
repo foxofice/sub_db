@@ -1,0 +1,111 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[Aegisub Project Garbage]
+Active Line: 7
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.77,0:00:07.17,zhengwen,NTP,0,0,0,,潘多拉之心  附錄小動畫
+Dialogue: 0,0:00:09.42,0:00:10.74,zhengwen,NTP,0,0,0,,幹嘛啊
+Dialogue: 0,0:00:10.94,0:00:13.25,zhengwen,NTP,0,0,0,,突然讓人站在這種地方
+Dialogue: 0,0:00:13.34,0:00:15.52,zhengwen,NTP,0,0,0,,埃利奧特  就是那個啦
+Dialogue: 0,0:00:15.61,0:00:19.47,zhengwen,NTP,0,0,0,,啊？給購買了DVD的觀眾們說幾句話？
+Dialogue: 0,0:00:20.11,0:00:25.83,zhengwen,NTP,0,0,0,,好  那我就給你們講講這本「聖騎士物語」的魅力所在
+Dialogue: 0,0:00:26.13,0:00:27.12,zhengwen,NTP,0,0,0,,是說這個嗎
+Dialogue: 0,0:00:27.23,0:00:30.05,zhengwen,NTP,0,0,0,,總之  這個系列的真髓就在於
+Dialogue: 0,0:00:30.19,0:00:32.63,zhengwen,NTP,0,0,0,,主角艾德文的生存方式
+Dialogue: 0,0:00:33.15,0:00:35.64,zhengwen,NTP,0,0,0,,自尊心強  始終貫徹自己的信念
+Dialogue: 0,0:00:35.79,0:00:38.26,zhengwen,NTP,0,0,0,,真是太適合做主角了
+Dialogue: 0,0:00:38.72,0:00:39.40,zhengwen,NTP,0,0,0,,然而…
+Dialogue: 0,0:00:39.76,0:00:42.36,zhengwen,NTP,0,0,0,,為什麼讀者卻一邊倒地喜歡艾德加啊
+Dialogue: 0,0:00:42.70,0:00:44.36,zhengwen,NTP,0,0,0,,艾德加這種小角色啊
+Dialogue: 0,0:00:44.51,0:00:47.09,zhengwen,NTP,0,0,0,,不就是有主人艾德文他才…
+Dialogue: 0,0:00:47.15,0:00:48.92,zhengwen,NTP,0,0,0,,好了  到此為止
+Dialogue: 0,0:00:49.27,0:00:50.87,zhengwen,NTP,0,0,0,,我才說到一半
+Dialogue: 0,0:00:51.14,0:00:54.18,zhengwen,NTP,0,0,0,,我家主人太興奮了  非常抱歉
+Dialogue: 0,0:00:54.40,0:00:58.47,zhengwen,NTP,0,0,0,,我代替主人向大家道謝
+Dialogue: 0,0:00:58.56,0:00:59.76,zhengwen,NTP,0,0,0,,給我等等
+Dialogue: 0,0:01:00.15,0:01:05.29,zhengwen,NTP,0,0,0,,感謝您購買潘多拉之心DVD第七卷
+Dialogue: 0,0:01:05.36,0:01:07.50,zhengwen,NTP,0,0,0,,你這樣也算是我的侍從嗎
+Dialogue: 0,0:01:07.99,0:01:12.46,zhengwen,NTP,0,0,0,,敬請期待接下來的「聖騎士物語」
+Dialogue: 0,0:01:15.07,0:01:20.12,zhushi,NTP,0,0,0,,（聖騎士cosplay）
+Dialogue: 0,0:01:18.38,0:01:19.73,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:01:21.24,0:01:29.00,zhushi,NTP,0,0,0,,（連環畫）
+Dialogue: 0,0:01:21.87,0:01:23.43,zhengwen,NTP,0,0,0,,來吧  好孩子們
+Dialogue: 0,0:01:23.57,0:01:26.56,zhengwen,NTP,0,0,0,,「聖騎士物語」要開始了哦
+Dialogue: 0,0:01:27.66,0:01:29.30,zhengwen,NTP,0,0,0,,快點開始吧
+Dialogue: 0,0:01:29.54,0:01:30.37,zhengwen,NTP,0,0,0,,好期待
+Dialogue: 0,0:01:30.04,0:01:35.42,zhushi,NTP,0,0,0,,（聖騎士物語  連環畫版）
+Dialogue: 0,0:01:32.05,0:01:33.69,zhengwen,NTP,0,0,0,,聖騎士物語
+Dialogue: 0,0:01:35.65,0:01:37.34,zhengwen,NTP,0,0,0,,這個故事的主角
+Dialogue: 0,0:01:37.44,0:01:41.59,zhengwen,NTP,0,0,0,,是地位非常微妙的子爵家四公子  艾德文
+Dialogue: 0,0:01:41.72,0:01:46.50,zhengwen,NTP,0,0,0,,故事說的是他帶著一位名叫艾德加的侍從  步步攀升
+Dialogue: 0,0:01:47.56,0:01:49.62,zhengwen,NTP,0,0,0,,艾德文遇見了艾德加
+Dialogue: 0,0:01:49.77,0:01:54.89,zhengwen,NTP,0,0,0,,超越了各自的境遇  最終成為了羈絆很深的主僕
+Dialogue: 0,0:01:55.08,0:02:00.65,zhengwen,NTP,0,0,0,,「毫不懼怕受傷的心靈  這才正是我的武器」
+Dialogue: 0,0:02:01.03,0:02:02.89,zhengwen,NTP,0,0,0,,啊  真煩
+Dialogue: 0,0:02:03.11,0:02:05.22,zhengwen,NTP,0,0,0,,你說什麼啊  這裡太棒了啊
+Dialogue: 0,0:02:05.54,0:02:06.58,zhengwen,NTP,0,0,0,,哪裡棒了
+Dialogue: 0,0:02:07.81,0:02:09.88,zhengwen,NTP,0,0,0,,之後  由於諸多原因事由
+Dialogue: 0,0:02:10.02,0:02:13.45,zhengwen,NTP,0,0,0,,侍從艾德加為保護主人而死
+Dialogue: 0,0:02:13.72,0:02:14.95,zhengwen,NTP,0,0,0,,這展開太快了吧
+Dialogue: 0,0:02:15.09,0:02:18.26,zhengwen,NTP,0,0,0,,等  等等等等  我還沒讀到那裡呢
+Dialogue: 0,0:02:18.40,0:02:20.63,zhengwen,NTP,0,0,0,,是書迷就給我趕快看
+Dialogue: 0,0:02:21.80,0:02:24.14,zhengwen,NTP,0,0,0,,艾德文接受了艾德加死去的事實
+Dialogue: 0,0:02:24.29,0:02:26.79,zhengwen,NTP,0,0,0,,向他所遺留下的劍起誓
+Dialogue: 0,0:02:26.98,0:02:31.11,zhengwen,NTP,0,0,0,,「他的命運以及意念  都由我來背負下去」
+Dialogue: 0,0:02:31.94,0:02:33.38,zhengwen,NTP,0,0,0,,艾德加…
+Dialogue: 0,0:02:33.40,0:02:38.40,zhushi,NTP,0,0,0,,（RPG風(?)的cosplay）
+Dialogue: 0,0:02:33.40,0:02:38.40,zhushi,NTP,0,0,0,,（注：這張cos的是永恆傳說）
+Dialogue: 0,0:02:36.34,0:02:38.01,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:02:40.01,0:02:43.90,zhengwen,NTP,0,0,0,,為了緬懷艾德加  艾德文一刀剪斷了自己的頭髮
+Dialogue: 0,0:02:44.15,0:02:46.15,zhengwen,NTP,0,0,0,,這樣一來呢  竟然…
+Dialogue: 0,0:02:46.44,0:02:50.97,zhengwen,NTP,0,0,0,,至今為止沒有半點桃花運的他像脫胎換骨一般
+Dialogue: 0,0:02:51.53,0:02:55.07,zhengwen,NTP,0,0,0,,沒錯  艾德文人生中的春天到來了
+Dialogue: 0,0:02:55.09,0:02:55.61,zhengwen,NTP,0,0,0,,啊？
+Dialogue: 0,0:02:55.77,0:02:57.82,zhengwen,NTP,0,0,0,,哦  是這樣啊
+Dialogue: 0,0:02:57.98,0:02:59.40,zhengwen,NTP,0,0,0,,這種情節我根本沒聽說過
+Dialogue: 0,0:02:59.61,0:03:03.55,zhengwen,NTP,0,0,0,,然而  這春天並不長
+Dialogue: 0,0:03:03.80,0:03:08.63,zhengwen,NTP,0,0,0,,有時是被人妻所騙  她的丈夫向艾德加提出決鬥
+Dialogue: 0,0:03:08.79,0:03:09.55,zhengwen,NTP,0,0,0,,什麼
+Dialogue: 0,0:03:09.81,0:03:15.07,zhengwen,NTP,0,0,0,,又有時是被以前交往的女人糾纏
+Dialogue: 0,0:03:16.34,0:03:19.31,zhengwen,NTP,0,0,0,,甚至還遇到結婚詐騙犯
+Dialogue: 0,0:03:20.60,0:03:23.93,zhengwen,NTP,0,0,0,,最後變得身無分文
+Dialogue: 0,0:03:24.26,0:03:27.35,zhengwen,NTP,0,0,0,,艾德文還真是背負了不得了的東西啊
+Dialogue: 0,0:03:27.46,0:03:28.58,zhengwen,NTP,0,0,0,,這怎麼可能
+Dialogue: 0,0:03:28.75,0:03:32.42,zhengwen,NTP,0,0,0,,他成為聖騎士之日究竟是否會到來呢
+Dialogue: 0,0:03:33.41,0:03:36.20,zhengwen,NTP,0,0,0,,「聖騎士物語」系列陸續發行中
+Dialogue: 0,0:03:36.35,0:03:38.79,zhengwen,NTP,0,0,0,,敬請期待今後的故事
+Dialogue: 0,0:03:39.05,0:03:44.05,zhushi,NTP,0,0,0,,（戰國武將cosplay）
+Dialogue: 0,0:03:39.05,0:03:44.05,zhushi,NTP,0,0,0,,（注：戰國BASARA的cos，頭上那個受字醒目！）
+Dialogue: 0,0:03:41.24,0:03:42.52,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:03:42.63,0:03:43.66,zhengwen,NTP,0,0,0,,是也
+Dialogue: 0,0:03:44.31,0:03:45.78,zhengwen,NTP,0,0,0,,下回預告
+Dialogue: 0,0:03:46.53,0:03:49.45,zhengwen,NTP,0,0,0,,聖騎士物語特別篇  就這麼結束了嗎
+Dialogue: 0,0:03:49.59,0:03:52.38,zhengwen,NTP,0,0,0,,什麼  我還沒說過癮啊
+Dialogue: 0,0:03:52.58,0:03:55.37,zhengwen,NTP,0,0,0,,那還有20秒  請說
+Dialogue: 0,0:03:55.51,0:03:56.70,zhengwen,NTP,0,0,0,,那我上了
+Dialogue: 0,0:03:56.85,0:03:59.03,zhengwen,NTP,0,0,0,,該怎麼說呢  真是太棒了啊
+Dialogue: 0,0:03:59.12,0:04:00.01,zhengwen,NTP,0,0,0,,你問我什麼太棒了？
+Dialogue: 0,0:04:00.10,0:04:02.06,zhengwen,NTP,0,0,0,,當然是背負著殘酷命運的艾德加
+Dialogue: 0,0:04:02.15,0:04:03.23,zhengwen,NTP,0,0,0,,第一次露出自己的感情
+Dialogue: 0,0:04:03.27,0:04:05.65,zhengwen,NTP,0,0,0,,向艾德文坦白一切的那段
+Dialogue: 0,0:04:05.98,0:04:08.09,zhengwen,NTP,0,0,0,,真的是太感人了
+Dialogue: 0,0:04:08.19,0:04:09.61,zhengwen,NTP,0,0,0,,這對主僕太棒了
+Dialogue: 0,0:04:09.74,0:04:12.30,zhengwen,NTP,0,0,0,,該說艾德加真是理想的侍從啊
+Dialogue: 0,0:04:12.44,0:04:15.01,zhengwen,NTP,0,0,0,,所以我也希望基爾變成這樣
+Dialogue: 0,0:04:15.10,0:04:16.72,zhengwen,NTP,0,0,0,,雖然天天給他特訓  但…
+Dialogue: 0,0:04:16.88,0:04:18.28,zhengwen,NTP,0,0,0,,好了  到此為止
+Dialogue: 0,0:04:18.38,0:04:20.08,zhengwen,NTP,0,0,0,,這算哪門子預告啊

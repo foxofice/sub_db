@@ -1,0 +1,5 @@
+﻿chs:银河铁道999 剧场版 
+cht: 銀河鉄道999 劇場版
+jp: 銀河鉄道999 映画版
+en: Galaxy Express 999 movies
+rome: Galaxy Express 999 movies

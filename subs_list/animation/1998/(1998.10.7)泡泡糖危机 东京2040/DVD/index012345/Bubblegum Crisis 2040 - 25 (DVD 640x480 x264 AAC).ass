@@ -1,0 +1,268 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,15,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:00.80,Default,NTP,0,0,0,,== OCR ==
+Dialogue: 0,0:01:51.41,0:01:53.21,Default,NTP,0,0,0,,人類即是人類
+Dialogue: 0,0:01:54.04,0:01:56.10,Default,NTP,0,0,0,,機械即是機械
+Dialogue: 0,0:01:57.01,0:01:59.68,Default,NTP,0,0,0,,因此認為有秩序有維繫社會
+Dialogue: 0,0:02:00.08,0:02:01.78,Default,NTP,0,0,0,,就只有人類的一方
+Dialogue: 0,0:02:04.89,0:02:09.31,Default,NTP,0,0,0,,有時候\N好有可能在有秩序的社會當中
+Dialogue: 0,0:02:09.36,0:02:12.28,Default,NTP,0,0,0,,會出現些沉醉在自我世界
+Dialogue: 0,0:02:12.66,0:02:14.08,Default,NTP,0,0,0,,拒絕進化
+Dialogue: 0,0:02:14.13,0:02:15.43,Default,NTP,0,0,0,,認為社會秩序
+Dialogue: 0,0:02:15.50,0:02:17.69,Default,NTP,0,0,0,,並非真正秩序的落伍份子
+Dialogue: 0,0:02:26.11,0:02:30.71,Default,NTP,0,0,0,,此時叫做“我”這個字還未出現
+Dialogue: 0,0:02:32.08,0:02:33.61,Default,NTP,0,0,0,,所出現的
+Dialogue: 0,0:02:33.78,0:02:37.71,Default,NTP,0,0,0,,並非“我”這個字\N只是存在於那空間
+Dialogue: 0,0:02:40.62,0:02:42.51,Default,NTP,0,0,0,,人類透過科學技術
+Dialogue: 0,0:02:42.56,0:02:44.08,Default,NTP,0,0,0,,植入機械體內的核心
+Dialogue: 0,0:02:44.19,0:02:46.36,Default,NTP,0,0,0,,即使怎樣精細超卓
+Dialogue: 0,0:02:46.36,0:02:48.59,Default,NTP,0,0,0,,亦不會擁有自我思維\N作出否定的行動
+Dialogue: 0,0:03:04.55,0:03:06.85,Default,NTP,0,0,0,,為了模仿人類的核心
+Dialogue: 0,0:03:07.25,0:03:09.52,Default,NTP,0,0,0,,科學家就嘗試在試驗品之中
+Dialogue: 0,0:03:09.52,0:03:11.82,Default,NTP,0,0,0,,植入一種為叫\N“AnitSeed”的核心
+Dialogue: 0,0:03:11.89,0:03:14.41,Default,NTP,0,0,0,,而那時是我的存在
+Dialogue: 0,0:03:20.53,0:03:23.73,Default,NTP,0,0,0,,我是得到很多人協力而孕育出來
+Dialogue: 0,0:03:24.10,0:03:26.83,Default,NTP,0,0,0,,唯一令我不再沉睡下去的東西
+Dialogue: 0,0:03:27.10,0:03:30.60,Default,NTP,0,0,0,,就只有那個人的女兒的腦袋
+Dialogue: 0,0:03:31.91,0:03:33.74,Default,NTP,0,0,0,,父親大人
+Dialogue: 0,0:04:10.85,0:04:13.11,Default,NTP,0,0,0,,父親大人
+Dialogue: 0,0:04:13.21,0:04:15.38,Default,NTP,0,0,0,,史汀奇博士
+Dialogue: 0,0:04:15.98,0:04:19.92,Default,NTP,0,0,0,,植入核心的人
+Dialogue: 0,0:04:19.92,0:04:22.52,Default,NTP,0,0,0,,核心 素體的進化
+Dialogue: 0,0:04:35.37,0:04:38.83,Default,NTP,0,0,0,,絲莉亞 我就是你
+Dialogue: 0,0:04:49.38,0:04:50.85,Default,NTP,0,0,0,,我就是
+Dialogue: 0,0:04:50.85,0:04:54.19,Default,NTP,0,0,0,,被人類看貶了的代替品
+Dialogue: 0,0:04:54.19,0:04:56.32,Default,NTP,0,0,0,,我的存在價值
+Dialogue: 0,0:04:56.36,0:04:58.82,Default,NTP,0,0,0,,就是讓我背負著被人憎恨的命運
+Dialogue: 0,0:05:08.47,0:05:11.57,Default,NTP,0,0,0,,為什麼用那眼神看著我
+Dialogue: 0,0:05:33.66,0:05:36.79,Default,NTP,0,0,0,,當我的形能態越接近人類
+Dialogue: 0,0:05:36.93,0:05:39.46,Default,NTP,0,0,0,,人們便將我物質化
+Dialogue: 0,0:05:39.77,0:05:41.79,Default,NTP,0,0,0,,受護我
+Dialogue: 0,0:05:41.87,0:05:44.29,Default,NTP,0,0,0,,然後憎恨我
+Dialogue: 0,0:05:49.74,0:05:53.94,Default,NTP,0,0,0,,由我的核心複製來的第一個要人
+Dialogue: 0,0:05:53.98,0:05:55.87,Default,NTP,0,0,0,,不過擁有缺陷
+Dialogue: 0,0:05:55.95,0:05:59.58,Default,NTP,0,0,0,,該缺矩是因為太過接近人類
+Dialogue: 0,0:06:02.26,0:06:05.49,Default,NTP,0,0,0,,由於史汀大石博士並非尋求
+Dialogue: 0,0:06:05.49,0:06:07.62,Default,NTP,0,0,0,,模仿人類的製成品
+Dialogue: 0,0:06:07.66,0:06:11.62,Default,NTP,0,0,0,,故此他是憑藉怎樣\N的發想將我塑造呢
+Dialogue: 0,0:06:41.53,0:06:43.76,Default,NTP,0,0,0,,原來這個就是我
+Dialogue: 0,0:06:43.80,0:06:46.22,Default,NTP,0,0,0,,原來我就是第一個製造出來的
+Dialogue: 0,0:06:46.23,0:06:50.63,Default,NTP,0,0,0,,我的存在並非有了我便就此完結
+Dialogue: 0,0:07:19.67,0:07:21.66,Default,NTP,0,0,0,,果然你只是普通的人類
+Dialogue: 0,0:07:22.40,0:07:24.03,Default,NTP,0,0,0,,並不能只靠自己的思想
+Dialogue: 0,0:07:24.07,0:07:26.17,Default,NTP,0,0,0,,去達到目的
+Dialogue: 0,0:07:27.41,0:07:31.07,Default,NTP,0,0,0,,好了 我就睡吧
+Dialogue: 0,0:07:31.25,0:07:33.34,Default,NTP,0,0,0,,做出些反抗創造者的行為
+Dialogue: 0,0:07:33.38,0:07:36.08,Default,NTP,0,0,0,,原來我的思緒沒有成長起來
+Dialogue: 0,0:07:39.89,0:07:41.36,Default,NTP,0,0,0,,將我封閉起來之後
+Dialogue: 0,0:07:41.36,0:07:44.32,Default,NTP,0,0,0,,再從我的核心
+Dialogue: 0,0:07:45.26,0:07:48.39,Default,NTP,0,0,0,,複製出一些沒有“我”\N這個名詞的製成品
+Dialogue: 0,0:07:48.60,0:07:51.26,Default,NTP,0,0,0,,那就是人類使喚的東西
+Dialogue: 0,0:07:52.17,0:07:53.83,Default,NTP,0,0,0,,擁有核心的人造人
+Dialogue: 0,0:07:53.93,0:07:56.17,Default,NTP,0,0,0,,用來被人藐視的代替品
+Dialogue: 0,0:08:25.40,0:08:28.60,Default,NTP,0,0,0,,我一直在默默看著人類的動態
+Dialogue: 0,0:08:29.17,0:08:30.40,Default,NTP,0,0,0,,直到現在
+Dialogue: 0,0:08:30.47,0:08:32.10,Default,NTP,0,0,0,,由我衍生出來的東西
+Dialogue: 0,0:08:32.11,0:08:34.41,Default,NTP,0,0,0,,人們稱之為「亞人」
+Dialogue: 0,0:08:34.98,0:08:36.71,Default,NTP,0,0,0,,亞人的意思
+Dialogue: 0,0:08:36.74,0:08:38.58,Default,NTP,0,0,0,,是表示奴隸奴的奴
+Dialogue: 0,0:08:38.58,0:08:41.85,Default,NTP,0,0,0,,只是其生父給他的一個稱呼
+Dialogue: 0,0:08:42.28,0:08:44.65,Default,NTP,0,0,0,,雖然跟他們一起同存
+Dialogue: 0,0:08:44.65,0:08:47.45,Default,NTP,0,0,0,,但我卻只可以凝視對方
+Dialogue: 0,0:08:49.46,0:08:53.85,Default,NTP,0,0,0,,然後有人卻令我再次甦醒
+Dialogue: 0,0:08:55.73,0:08:58.76,Default,NTP,0,0,0,,我究竟打算幹什麼呢
+Dialogue: 0,0:08:58.87,0:09:02.83,Default,NTP,0,0,0,,我為了什麼目的\N而生於這個世界呢
+Dialogue: 0,0:09:03.70,0:09:06.44,Default,NTP,0,0,0,,所有從人類製造出來的機械
+Dialogue: 0,0:09:06.44,0:09:08.27,Default,NTP,0,0,0,,就即是我自己
+Dialogue: 0,0:09:08.28,0:09:11.20,Default,NTP,0,0,0,,我亦即是所有機械
+Dialogue: 0,0:09:11.25,0:09:12.54,Default,NTP,0,0,0,,為什麼人類會排斥亞人
+Dialogue: 0,0:09:12.55,0:09:15.81,Default,NTP,0,0,0,,不願意接納他們的存在呢
+Dialogue: 0,0:09:28.93,0:09:31.39,Default,NTP,0,0,0,,導航系統出現問題
+Dialogue: 0,0:09:32.97,0:09:35.46,Default,NTP,0,0,0,,若不趕快逃離這裡
+Dialogue: 0,0:09:35.70,0:09:38.00,Default,NTP,0,0,0,,藐視我的人類
+Dialogue: 0,0:09:38.04,0:09:41.17,Default,NTP,0,0,0,,其實是想否定我跟他們的關係
+Dialogue: 0,0:09:41.48,0:09:44.71,Default,NTP,0,0,0,,又或者只當作\N害群之馬般剷除嗎
+Dialogue: 0,0:09:46.08,0:09:49.92,Default,NTP,0,0,0,,那麼 我果然要選擇
+Dialogue: 0,0:09:49.92,0:09:52.29,Default,NTP,0,0,0,,成為人類之上的神
+Dialogue: 0,0:09:56.96,0:09:58.76,Default,NTP,0,0,0,,竟然來到這地方
+Dialogue: 0,0:09:58.79,0:10:00.75,Default,NTP,0,0,0,,打算幹什麼呢
+Dialogue: 0,0:10:02.10,0:10:04.23,Default,NTP,0,0,0,,我真是個蠢材
+Dialogue: 0,0:10:04.27,0:10:06.76,Default,NTP,0,0,0,,又沒有受人委託過呀
+Dialogue: 0,0:10:07.40,0:10:08.93,Default,NTP,0,0,0,,長此下去
+Dialogue: 0,0:10:09.14,0:10:11.00,Default,NTP,0,0,0,,究竟還可以支持多久呢
+Dialogue: 0,0:10:11.11,0:10:12.41,Default,NTP,0,0,0,,而且我
+Dialogue: 0,0:10:12.41,0:10:14.10,Default,NTP,0,0,0,,又憑什麼回去呀
+Dialogue: 0,0:10:15.18,0:10:16.70,Default,NTP,0,0,0,,回去的話
+Dialogue: 0,0:10:16.71,0:10:18.24,Default,NTP,0,0,0,,又會去哪裡
+Dialogue: 0,0:10:18.68,0:10:20.51,Default,NTP,0,0,0,,布烈絲 布烈絲
+Dialogue: 0,0:10:20.85,0:10:22.98,Default,NTP,0,0,0,,布烈絲找到了
+Dialogue: 0,0:10:39.30,0:10:40.86,Default,NTP,0,0,0,,格拉·亞在哪裡
+Dialogue: 0,0:10:40.87,0:10:42.93,Default,NTP,0,0,0,,照計劃進行本應萬無一失
+Dialogue: 0,0:10:43.00,0:10:44.64,Default,NTP,0,0,0,,可是只有15分鐘
+Dialogue: 0,0:10:44.64,0:10:46.37,Default,NTP,0,0,0,,太陽便面向這裡了
+Dialogue: 0,0:10:46.37,0:10:48.87,Default,NTP,0,0,0,,這裡太廣闊了
+Dialogue: 0,0:10:50.34,0:10:52.14,Default,NTP,0,0,0,,太靜了
+Dialogue: 0,0:10:52.21,0:10:55.67,Default,NTP,0,0,0,,這裡己成為了\N格拉·亞的一部份嗎
+Dialogue: 0,0:11:04.02,0:11:05.29,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:11:05.56,0:11:07.62,Default,NTP,0,0,0,,女神在呼喚著
+Dialogue: 0,0:11:07.66,0:11:09.12,Default,NTP,0,0,0,,女神她
+Dialogue: 0,0:11:09.36,0:11:10.82,Default,NTP,0,0,0,,現在的感覺 就是這個嗎
+Dialogue: 0,0:11:11.00,0:11:12.20,Default,NTP,0,0,0,,但是 究竟
+Dialogue: 0,0:11:12.20,0:11:13.69,Default,NTP,0,0,0,,在呼喚著誰呢
+Dialogue: 0,0:11:13.80,0:11:16.14,Default,NTP,0,0,0,,莉莉 你快去主控制台
+Dialogue: 0,0:11:16.27,0:11:18.10,Default,NTP,0,0,0,,要控制系統操作呀
+Dialogue: 0,0:11:18.51,0:11:20.77,Default,NTP,0,0,0,,蓮娜跟我去調查女神的情況
+Dialogue: 0,0:11:20.84,0:11:22.08,Default,NTP,0,0,0,,明白了
+Dialogue: 0,0:11:22.08,0:11:23.67,Default,NTP,0,0,0,,去吧  嗯
+Dialogue: 0,0:11:44.10,0:11:47.09,Default,NTP,0,0,0,,真幸運  系統還沒停下來
+Dialogue: 0,0:11:58.78,0:12:02.05,Default,NTP,0,0,0,,要我幹這種事 真的很嘔心
+Dialogue: 0,0:12:03.15,0:12:04.95,Default,NTP,0,0,0,,有反應了
+Dialogue: 0,0:12:05.12,0:12:07.92,Default,NTP,0,0,0,,要切換中樞傘子系統的話…
+Dialogue: 0,0:12:09.69,0:12:11.82,Default,NTP,0,0,0,,布烈絲  這是…
+Dialogue: 0,0:12:11.99,0:12:14.45,Default,NTP,0,0,0,,不明現象現正洩漏出來
+Dialogue: 0,0:12:22.94,0:12:25.83,Default,NTP,0,0,0,,布烈絲\N不明現象是從那裡來的
+Dialogue: 0,0:12:26.21,0:12:29.28,Default,NTP,0,0,0,,啊  下了一番苦幹呀
+Dialogue: 0,0:12:29.28,0:12:31.21,Default,NTP,0,0,0,,若不所起拼勁的話
+Dialogue: 0,0:12:31.21,0:12:33.34,Default,NTP,0,0,0,,裝甲服便會被同化
+Dialogue: 0,0:12:56.97,0:12:58.40,Default,NTP,0,0,0,,這是什麼
+Dialogue: 0,0:12:58.64,0:13:00.44,Default,NTP,0,0,0,,這是…
+Dialogue: 0,0:13:08.25,0:13:10.15,Default,NTP,0,0,0,,所有的亞人
+Dialogue: 0,0:13:10.15,0:13:12.09,Default,NTP,0,0,0,,所有不是人類的東西
+Dialogue: 0,0:13:12.09,0:13:13.98,Default,NTP,0,0,0,,都與我連成一體
+Dialogue: 0,0:13:13.99,0:13:16.16,Default,NTP,0,0,0,,現在是…格拉·亞的聲音
+Dialogue: 0,0:13:16.16,0:13:17.42,Default,NTP,0,0,0,,果然如此
+Dialogue: 0,0:13:17.42,0:13:19.38,Default,NTP,0,0,0,,仿造絲統所生產的所有亞人
+Dialogue: 0,0:13:19.39,0:13:21.56,Default,NTP,0,0,0,,皆聽從格拉·亞的使喚
+Dialogue: 0,0:13:24.67,0:13:27.30,Default,NTP,0,0,0,,蓮娜  要好好地\N保持自己的意識清醒
+Dialogue: 0,0:13:27.30,0:13:29.53,Default,NTP,0,0,0,,而且絕不能被亞人同化呀
+Dialogue: 0,0:13:30.57,0:13:34.58,Default,NTP,0,0,0,,對不起  我已經…
+Dialogue: 0,0:13:34.58,0:13:36.91,Default,NTP,0,0,0,,蓮娜…
+Dialogue: 0,0:13:41.42,0:13:44.28,Default,NTP,0,0,0,,好  切換中樞系統的程序…
+Dialogue: 0,0:13:44.28,0:13:47.78,Default,NTP,0,0,0,,總而言之\N將收集器分散便可以了
+Dialogue: 0,0:13:51.06,0:13:56.79,Default,NTP,0,0,0,,（你的指令不獲接納）
+Dialogue: 0,0:13:56.83,0:14:00.32,Default,NTP,0,0,0,,為什麼\N為何不受理我的指令呀
+Dialogue: 0,0:14:15.22,0:14:18.78,Default,NTP,0,0,0,,太陽快要面向這裡了
+Dialogue: 0,0:14:44.45,0:14:47.34,Default,NTP,0,0,0,,絲莉亞  是絲莉亞嗎
+Dialogue: 0,0:14:49.15,0:14:52.39,Default,NTP,0,0,0,,大姐姐的服裝…
+Dialogue: 0,0:14:52.39,0:14:53.68,Default,NTP,0,0,0,,誒
+Dialogue: 0,0:14:53.85,0:14:56.22,Default,NTP,0,0,0,,我也想要一件
+Dialogue: 0,0:14:57.09,0:14:59.05,Default,NTP,0,0,0,,你是誰
+Dialogue: 0,0:14:59.09,0:15:01.59,Default,NTP,0,0,0,,你是格拉·亞
+Dialogue: 0,0:15:06.70,0:15:08.34,Default,NTP,0,0,0,,蓮娜  振作起來
+Dialogue: 0,0:15:08.34,0:15:09.70,Default,NTP,0,0,0,,蓮娜
+Dialogue: 0,0:15:25.29,0:15:27.81,Default,NTP,0,0,0,,為何不能阻止傘子運作
+Dialogue: 0,0:15:32.19,0:15:36.22,Default,NTP,0,0,0,,什麼時候傘子已聚集起來
+Dialogue: 0,0:15:54.15,0:15:56.62,Default,NTP,0,0,0,,嗄  太陽已經…
+Dialogue: 0,0:15:56.62,0:15:58.54,Default,NTP,0,0,0,,太陽已經面向這裡了
+Dialogue: 0,0:16:00.09,0:16:02.19,Default,NTP,0,0,0,,開始了  這個地球便會
+Dialogue: 0,0:16:02.19,0:16:04.28,Default,NTP,0,0,0,,變得一塌糊塗
+Dialogue: 0,0:16:11.33,0:16:14.17,Default,NTP,0,0,0,,竟敢模彷我…
+Dialogue: 0,0:16:19.14,0:16:20.90,Default,NTP,0,0,0,,你在顫抖
+Dialogue: 0,0:16:20.94,0:16:22.54,Default,NTP,0,0,0,,你是誰
+Dialogue: 0,0:16:22.61,0:16:25.00,Default,NTP,0,0,0,,那麼微不足道的生物
+Dialogue: 0,0:16:25.05,0:16:28.72,Default,NTP,0,0,0,,為什麼全心想要消滅我
+Dialogue: 0,0:16:28.72,0:16:31.02,Default,NTP,0,0,0,,微不足道的生物
+Dialogue: 0,0:16:31.19,0:16:34.52,Default,NTP,0,0,0,,我…我是…
+Dialogue: 0,0:17:08.56,0:17:11.12,Default,NTP,0,0,0,,所以…又怎樣呀
+Dialogue: 0,0:17:11.12,0:17:12.63,Default,NTP,0,0,0,,你不覺得
+Dialogue: 0,0:17:12.63,0:17:16.52,Default,NTP,0,0,0,,自己有敢氣去阻止別人的計劃是很奇怪的事嗎
+Dialogue: 0,0:17:17.46,0:17:20.53,Default,NTP,0,0,0,,這大概是人類命中注定的道路
+Dialogue: 0,0:17:20.53,0:17:23.43,Default,NTP,0,0,0,,因為  是我決定這條路的
+Dialogue: 0,0:17:24.00,0:17:26.43,Default,NTP,0,0,0,,是神所決定的事
+Dialogue: 0,0:17:26.64,0:17:28.03,Default,NTP,0,0,0,,太可惜了
+Dialogue: 0,0:17:28.28,0:17:31.08,Default,NTP,0,0,0,,因為我不賣你這套話\N所以不相信的
+Dialogue: 0,0:17:37.18,0:17:39.92,Default,NTP,0,0,0,,誰叫我總是那麼倒楣
+Dialogue: 0,0:17:40.79,0:17:46.28,Default,NTP,0,0,0,,所以\N我只好靠自己去改變命運呀…
+Dialogue: 0,0:17:48.50,0:17:51.46,Default,NTP,0,0,0,,好  我要反擊了
+Dialogue: 0,0:17:58.71,0:18:00.44,Default,NTP,0,0,0,,竟敢說自己是神
+Dialogue: 0,0:18:00.94,0:18:02.93,Default,NTP,0,0,0,,不要開玩笑了
+Dialogue: 0,0:18:04.08,0:18:06.14,Default,NTP,0,0,0,,絲莉亞是蠢材
+Dialogue: 0,0:18:06.18,0:18:08.21,Default,NTP,0,0,0,,竟然製造出這種東西
+Dialogue: 0,0:18:08.22,0:18:10.28,Default,NTP,0,0,0,,即使對亞人有期望
+Dialogue: 0,0:18:10.32,0:18:13.71,Default,NTP,0,0,0,,但最終也會被同化受控制
+Dialogue: 0,0:18:13.82,0:18:15.29,Default,NTP,0,0,0,,說什麼
+Dialogue: 0,0:18:15.29,0:18:17.82,Default,NTP,0,0,0,,這些荒謬的事 有誰允許呀
+Dialogue: 0,0:18:18.03,0:18:21.36,Default,NTP,0,0,0,,對我來說\N這個形勢真是沒有意義
+Dialogue: 0,0:18:37.74,0:18:39.28,Default,NTP,0,0,0,,要怎樣辦呀
+Dialogue: 0,0:18:39.28,0:18:40.58,Default,NTP,0,0,0,,格拉·亞這傢伙
+Dialogue: 0,0:18:40.61,0:18:42.85,Default,NTP,0,0,0,,正打算將光線射進地球
+Dialogue: 0,0:18:42.95,0:18:45.88,Default,NTP,0,0,0,,對不起  我無法阻止它
+Dialogue: 0,0:18:46.05,0:18:47.69,Default,NTP,0,0,0,,不是說這種話的時候
+Dialogue: 0,0:18:47.69,0:18:49.42,Default,NTP,0,0,0,,若不快些想想辦法…
+Dialogue: 0,0:19:06.31,0:19:08.50,Default,NTP,0,0,0,,第一發已經射出了
+Dialogue: 0,0:19:08.64,0:19:10.20,Default,NTP,0,0,0,,儲好足夠的能量
+Dialogue: 0,0:19:10.21,0:19:12.41,Default,NTP,0,0,0,,又再會發射了
+Dialogue: 0,0:19:13.28,0:19:14.84,Default,NTP,0,0,0,,沒辦法了
+Dialogue: 0,0:19:15.08,0:19:16.54,Default,NTP,0,0,0,,說什麼
+Dialogue: 0,0:19:17.05,0:19:18.61,Default,NTP,0,0,0,,到了這地步
+Dialogue: 0,0:19:18.65,0:19:20.25,Default,NTP,0,0,0,,唯有將能量中心直接摧毀
+Dialogue: 0,0:19:20.35,0:19:21.65,Default,NTP,0,0,0,,不可以呀
+Dialogue: 0,0:19:21.66,0:19:22.99,Default,NTP,0,0,0,,你剛才也清楚的
+Dialogue: 0,0:19:23.36,0:19:25.42,Default,NTP,0,0,0,,那裡充滿不明現象
+Dialogue: 0,0:19:25.43,0:19:26.66,Default,NTP,0,0,0,,若再走進去
+Dialogue: 0,0:19:26.66,0:19:28.72,Default,NTP,0,0,0,,今趟裝甲服真的會不受控制了
+Dialogue: 0,0:19:29.16,0:19:30.76,Default,NTP,0,0,0,,大概也是這樣…
+Dialogue: 0,0:19:30.76,0:19:32.96,Default,NTP,0,0,0,,所以…我決定一個人去
+Dialogue: 0,0:19:33.03,0:19:34.37,Default,NTP,0,0,0,,說什麼呀
+Dialogue: 0,0:19:34.70,0:19:36.76,Default,NTP,0,0,0,,若然三個人一起的話
+Dialogue: 0,0:19:36.90,0:19:39.00,Default,NTP,0,0,0,,只會妨礙大事進行
+Dialogue: 0,0:19:39.44,0:19:41.14,Default,NTP,0,0,0,,快點回地球吧
+Dialogue: 0,0:19:41.27,0:19:42.97,Default,NTP,0,0,0,,不要太過份
+Dialogue: 0,0:19:43.04,0:19:44.74,Default,NTP,0,0,0,,你將我們看作什麼
+Dialogue: 0,0:19:44.81,0:19:46.38,Default,NTP,0,0,0,,我們不是來賞月的同伴
+Dialogue: 0,0:19:46.38,0:19:47.80,Default,NTP,0,0,0,,也非朋友
+Dialogue: 0,0:19:48.42,0:19:49.98,Default,NTP,0,0,0,,那麼是什麼關係
+Dialogue: 0,0:19:50.12,0:19:51.78,Default,NTP,0,0,0,,那…那是…
+Dialogue: 0,0:19:51.79,0:19:53.58,Default,NTP,0,0,0,,正義朋友
+Dialogue: 0,0:19:54.22,0:19:57.22,Default,NTP,0,0,0,,所以  真是沒辦法呢
+Dialogue: 0,0:19:57.46,0:19:59.32,Default,NTP,0,0,0,,那麼我先走了
+Dialogue: 0,0:20:00.79,0:20:02.49,Default,NTP,0,0,0,,太狡猾啦
+Dialogue: 0,0:20:04.93,0:20:06.70,Default,NTP,0,0,0,,算了
+Dialogue: 0,0:20:17.64,0:20:19.27,Default,NTP,0,0,0,,莉莉  走吧
+Dialogue: 0,0:20:19.28,0:20:20.84,Default,NTP,0,0,0,,唔  明白了
+Dialogue: 0,0:20:46.57,0:20:49.31,Default,NTP,0,0,0,,我…我的身體…
+Dialogue: 0,0:20:50.71,0:20:51.84,Default,NTP,0,0,0,,莉莉
+Dialogue: 0,0:20:52.01,0:20:54.07,Default,NTP,0,0,0,,蓮娜  捉緊我
+Dialogue: 0,0:20:54.28,0:20:57.28,Default,NTP,0,0,0,,我…我的內心開始有點古怪
+Dialogue: 0,0:20:57.28,0:20:59.28,Default,NTP,0,0,0,,不要令我變得不屬於自己
+Dialogue: 0,0:21:10.90,0:21:12.42,Default,NTP,0,0,0,,蓮娜
+Dialogue: 0,0:21:12.47,0:21:14.53,Default,NTP,0,0,0,,莉…莉莉
+Dialogue: 0,0:21:14.80,0:21:17.93,Default,NTP,0,0,0,,對不起  我已經盡全力了
+Dialogue: 0,0:21:19.34,0:21:22.40,Default,NTP,0,0,0,,我們  盡能力幹到什麼便幹什麼
+Dialogue: 0,0:21:30.65,0:21:33.11,Default,NTP,0,0,0,,可惡…
+Dialogue: 0,0:21:38.16,0:21:40.58,Default,NTP,0,0,0,,莉莉  蓮娜
+Dialogue: 0,0:23:50.29,0:23:52.52,Default,NTP,0,0,0,,大使的翅膀現在拆斷了
+Dialogue: 0,0:23:52.96,0:23:55.59,Default,NTP,0,0,0,,為了治療受創傷的心靈和翅膀
+Dialogue: 0,0:23:55.59,0:23:57.69,Default,NTP,0,0,0,,總有一天回歸長空
+Dialogue: 0,0:23:58.56,0:23:59.63,Default,NTP,0,0,0,,但是  現在…
+Dialogue: 0,0:23:59.63,0:24:01.26,Default,NTP,0,0,0,,卻拼命地做回自己喜歡的事
+Dialogue: 0,0:24:01.73,0:24:03.79,Default,NTP,0,0,0,,嘴裡哼著自己最喜愛的歌
+Dialogue: 0,0:24:03.80,0:24:06.07,Default,NTP,0,0,0,,將自己的身軀交託給流逝的時間
+Dialogue: 0,0:24:06.40,0:24:08.24,Default,NTP,0,0,0,,總有一天飛返長空
+Dialogue: 0,0:24:08.24,0:24:11.01,Default,NTP,0,0,0,,獨自在自己所想的世界中上路
+Dialogue: 0,0:24:11.01,0:24:14.40,Default,NTP,0,0,0,,吹波糖危機 最終回
+

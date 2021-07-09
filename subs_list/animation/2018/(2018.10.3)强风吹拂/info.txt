@@ -1,0 +1,5 @@
+﻿chs: 强风吹拂
+cht: 强風吹拂
+jp: 風が強く吹いている
+en: Run with the Wind
+rome: Kaze ga Tsuyoku Fuite Iru

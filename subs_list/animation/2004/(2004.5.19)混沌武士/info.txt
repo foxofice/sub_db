@@ -1,0 +1,5 @@
+﻿chs: 混沌武士/琉球狂侍
+cht: 混沌武士/琉球狂侍
+jp: サムライチャンプルー
+en: Samurai Champloo
+rome: Samurai Champloo 

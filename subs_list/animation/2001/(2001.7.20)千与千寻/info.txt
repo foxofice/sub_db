@@ -1,0 +1,5 @@
+﻿chs: 千与千寻
+cht: 千與千尋
+jp: 千と千尋の神隠し
+en: Spirited Away
+rome: Sen to Chihiro no Kamikakushi

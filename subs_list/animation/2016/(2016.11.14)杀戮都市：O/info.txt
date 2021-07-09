@@ -1,0 +1,5 @@
+﻿chs: 杀戮都市：O
+cht: 殺戮都市：O
+jp: GANTZ:O
+en: GANTZ:O
+rome: Gantz O

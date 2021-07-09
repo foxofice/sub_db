@@ -1,0 +1,76 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん SP 02
+Original Script: Pussub&VCB-Studio
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗圆_GBK,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Title,@方正准圆_GBK,38,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,5,-90,1,3,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.82,0:00:04.43,Default,,0,0,0,,野崎君 野崎君
+Dialogue: 0,0:00:04.50,0:00:05.99,Default,,0,0,0,,是特典影片耶
+Dialogue: 0,0:00:06.05,0:00:07.21,Default,,0,0,0,,我們一起看吧
+Dialogue: 0,0:00:10.98,0:00:11.61,Default,,0,0,0,,咦
+Dialogue: 0,0:00:11.71,0:00:13.13,Default,,0,0,0,,咦咦 這怎麼回事
+Dialogue: 0,0:00:13.13,0:00:16.31,Default,,0,0,0,,咦 夢!? 這是夢嗎
+Dialogue: 0,0:00:17.47,0:00:22.51,Title,,0,0,0,,{\pos(600,255)\blur2}續·那個美男子是男性朋友
+Dialogue: 0,0:00:17.47,0:00:22.51,Title,,0,0,0,,{\pos(600,590)\blur2}還是男朋友
+Dialogue: 0,0:00:26.15,0:00:30.41,Default,,0,0,0,,咦 在那邊的是瀨尾學姐和之前的...
+Dialogue: 0,0:00:30.49,0:00:32.85,Default,,0,0,0,,還有溫泉 挺不錯的
+Dialogue: 0,0:00:32.97,0:00:35.25,Default,,0,0,0,,不過房間數不多
+Dialogue: 0,0:00:35.48,0:00:37.85,Default,,0,0,0,,要睡同一間才行 兩天一夜 要不要一起去?
+Dialogue: 0,0:00:38.68,0:00:41.33,Default,,0,0,0,,同一間房嗎...
+Dialogue: 0,0:00:41.36,0:00:43.03,Default,,0,0,0,,怎麼這樣...學姐
+Dialogue: 0,0:00:43.09,0:00:44.66,Default,,0,0,0,,妳什麼時候登上大人的階梯了啊
+Dialogue: 0,0:00:44.78,0:00:46.64,Default,,0,0,0,,那來枕頭大戰吧
+Dialogue: 0,0:00:47.08,0:00:48.31,Default,,0,0,0,,妳是小孩子嗎!?
+Dialogue: 0,0:00:52.82,0:00:54.86,Default,,0,0,0,,果然是男朋友?
+Dialogue: 0,0:00:53.08,0:00:56.33,Default,,0,0,0,,{\an8}不錯呢 枕頭大戰 好久沒玩了
+Dialogue: 0,0:00:55.16,0:00:57.01,Default,,0,0,0,,不 就算是男朋友
+Dialogue: 0,0:00:56.98,0:00:59.19,Default,,0,0,0,,那麼輕易就決定要去兩天一夜的旅行...
+Dialogue: 0,0:00:59.18,0:01:00.77,Default,,0,0,0,,那千代醬也要去嗎
+Dialogue: 0,0:01:00.85,0:01:01.84,Default,,0,0,0,,我去
+Dialogue: 0,0:01:01.85,0:01:03.76,Default,,0,0,0,,咦 佐倉學姐!?
+Dialogue: 0,0:01:04.09,0:01:05.33,Default,,0,0,0,,為什麼在這裡
+Dialogue: 0,0:01:05.51,0:01:07.92,Default,,0,0,0,,難道說他也在和佐倉學姐交往
+Dialogue: 0,0:01:08.13,0:01:10.77,Default,,0,0,0,,話說兩個人都立刻回答是怎麼回事
+Dialogue: 0,0:01:10.74,0:01:13.56,Default,,0,0,0,,正常的話不是應該要警戒一下、猶豫一下才對啊
+Dialogue: 0,0:01:13.78,0:01:14.90,Default,,0,0,0,,那御子柴呢
+Dialogue: 0,0:01:16.44,0:01:18.95,Default,,0,0,0,,不 在那之前先告訴我要去的地點和住宿的地點
+Dialogue: 0,0:01:19.11,0:01:22.26,Default,,0,0,0,,然後是要參加的成員...還有 房間裡有吹風機嗎
+Dialogue: 0,0:01:22.40,0:01:24.79,Default,,0,0,0,,御子柴學長也太謹慎了!!
+Dialogue: 0,0:01:34.87,0:01:37.58,Default,,0,0,0,,那下個假日一起去買泳裝吧
+Dialogue: 0,0:01:37.58,0:01:38.11,Default,,0,0,0,,好啊
+Dialogue: 0,0:01:38.08,0:01:38.71,Default,,0,0,0,,嗯
+Dialogue: 0,0:01:39.20,0:01:42.77,Default,,0,0,0,,因為她們這麼說 我總覺得很在意就來了...
+Dialogue: 0,0:01:43.18,0:01:45.20,Default,,0,0,0,,喔 若
+Dialogue: 0,0:01:46.21,0:01:48.13,Default,,0,0,0,,被發現了!!
+Dialogue: 0,0:01:50.28,0:01:52.10,Default,,0,0,0,,若 你看 這個
+Dialogue: 0,0:01:52.07,0:01:55.18,Default,,0,0,0,,真是的 結月 若松君很困擾喔
+Dialogue: 0,0:01:55.18,0:01:57.93,Default,,0,0,0,,有什麼關係 問問這傢伙的興趣吧
+Dialogue: 0,0:01:58.77,0:02:01.67,Default,,0,0,0,,男朋友也在一起讓我鬆了一口氣
+Dialogue: 0,0:02:01.96,0:02:05.05,Default,,0,0,0,,有兩個男人的話應該不會只有我被當成變態
+Dialogue: 0,0:02:06.68,0:02:09.48,Default,,0,0,0,,啊 吶吶 那邊的泳裝也好可愛
+Dialogue: 0,0:02:09.66,0:02:10.29,Default,,0,0,0,,哪個?
+Dialogue: 0,0:02:15.25,0:02:18.21,Default,,0,0,0,,這男的為什麼一直跟著我
+Dialogue: 0,0:02:18.57,0:02:20.18,Default,,0,0,0,,難道是變態嗎
+Dialogue: 0,0:02:24.56,0:02:26.01,Default,,0,0,0,,這件怎麼樣
+Dialogue: 0,0:02:25.98,0:02:28.27,Default,,0,0,0,,喔 不錯啊 這邊的也很適合妳
+Dialogue: 0,0:02:28.24,0:02:29.05,Default,,0,0,0,,是這樣嗎
+Dialogue: 0,0:02:29.23,0:02:32.42,Default,,0,0,0,,話說回來 他還真配合
+Dialogue: 0,0:02:32.58,0:02:34.80,Default,,0,0,0,,我覺得鹿島君適合這件
+Dialogue: 0,0:02:34.77,0:02:35.95,Default,,0,0,0,,咦 真的嗎
+Dialogue: 0,0:02:36.67,0:02:38.00,Default,,0,0,0,,試穿一下吧
+Dialogue: 0,0:02:38.00,0:02:38.93,Default,,0,0,0,,穿好之後給我看看
+Dialogue: 0,0:02:44.63,0:02:47.67,Default,,0,0,0,,我要穿的話 這種的是極限了
+Dialogue: 0,0:02:47.99,0:02:49.64,Default,,0,0,0,,請饒了我吧
+Dialogue: 0,0:02:50.29,0:02:51.52,Default,,0,0,0,,你在說啥啊
+Dialogue: 0,0:02:52.58,0:02:53.79,Default,,0,0,0,,會繼續嗎
+Dialogue: 0,0:02:55.29,0:02:56.52,Default,,0,0,0,,會繼續的

@@ -1,0 +1,5 @@
+﻿chs: 铁腕巴迪
+cht: 鉄腕巴迪
+jp: 鉄腕バーディー
+en: Birdy The Mighty
+rome: Tetsuwan Birdy

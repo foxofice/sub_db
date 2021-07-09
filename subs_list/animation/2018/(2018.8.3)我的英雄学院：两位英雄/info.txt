@@ -1,0 +1,5 @@
+﻿chs: 我的英雄学院：两位英雄
+cht: 我的英雄學院：兩位英雄
+jp: 僕のヒーローアカデミア THE MOVIE -2人の英雄[ヒーロー]-
+en: My Hero Academia: Two Heroes
+rome: Boku no Hero Academia the Movie: Futari no Hero

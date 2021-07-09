@@ -1,0 +1,5 @@
+﻿chs: JOJO的奇妙冒险 不灭钻石
+cht: JOJO的奇妙冒險 不滅鑽石
+jp: ジョジョの奇妙な冒険 ダイヤモンドは砕けない
+en: 	JoJo`s Bizarre Adventure: Diamond Is Unbreakable
+rome: JoJo no Kimyou na Bouken: Diamond wa Kudakenai

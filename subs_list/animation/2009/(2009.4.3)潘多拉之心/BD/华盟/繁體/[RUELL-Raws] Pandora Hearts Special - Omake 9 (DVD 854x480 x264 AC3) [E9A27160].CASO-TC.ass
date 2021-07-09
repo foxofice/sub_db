@@ -1,0 +1,74 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[Aegisub Project Garbage]
+Active Line: 6
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.46,0:00:07.23,zhengwen,NTP,0,0,0,,潘多拉之心  附錄小動畫
+Dialogue: 0,0:00:09.81,0:00:11.24,zhengwen,NTP,0,0,0,,終於見到了呢
+Dialogue: 0,0:00:12.06,0:00:15.51,zhengwen,NTP,0,0,0,,我一直很想見一見  對  就是你
+Dialogue: 0,0:00:15.77,0:00:21.15,zhengwen,NTP,0,0,0,,我將它獻給購買了潘多拉之心DVD第九卷的你
+Dialogue: 0,0:00:21.98,0:00:28.21,zhengwen,NTP,0,0,0,,不過  這不過是襯托美麗的你的小道具而已
+Dialogue: 0,0:00:33.04,0:00:35.17,zhengwen,NTP,0,0,0,,哎——呀——
+Dialogue: 0,0:00:39.71,0:00:41.65,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:00:47.61,0:00:50.14,zhengwen,NTP,0,0,0,,這裡是…什麼地方
+Dialogue: 0,0:00:50.91,0:00:54.38,zhengwen,NTP,0,0,0,,休息的空間  阿比斯
+Dialogue: 0,0:00:54.67,0:00:58.06,zhengwen,NTP,0,0,0,,為什麼大家都聚在這裡
+Dialogue: 0,0:00:58.25,0:01:02.53,zhengwen,NTP,0,0,0,,這回阿比斯的意志小姐特別招待我們來的
+Dialogue: 0,0:01:02.67,0:01:06.08,zhengwen,NTP,0,0,0,,就像慰勞旅行一樣吧
+Dialogue: 0,0:01:06.56,0:01:10.53,zhengwen,NTP,0,0,0,,雖然有幾個不知為何也在這裡的人
+Dialogue: 0,0:01:10.75,0:01:15.97,zhengwen,NTP,0,0,0,,不要這樣說嘛  不管哥哥去天涯海角我都會跟著的
+Dialogue: 0,0:01:16.19,0:01:18.21,zhengwen,NTP,0,0,0,,你明明知道的
+Dialogue: 0,0:01:19.90,0:01:23.28,zhengwen,NTP,0,0,0,,不過  這樣好嗎  那麼輕易就來到這裡
+Dialogue: 0,0:01:23.61,0:01:26.98,zhengwen,NTP,0,0,0,,好啦好啦  小事就不要計較了
+Dialogue: 0,0:01:30.16,0:01:35.09,zhengwen,NTP,0,0,0,,話伙回來  阿比斯餓意志在哪呢
+Dialogue: 0,0:01:41.40,0:01:43.09,zhengwen,NTP,0,0,0,,你們叫我了吧
+Dialogue: 0,0:01:45.95,0:01:48.00,zhengwen,NTP,0,0,0,,大家歡迎光臨
+Dialogue: 0,0:01:48.30,0:01:52.22,zhengwen,NTP,0,0,0,,這個只有看過DVD全九卷的特典映像的人
+Dialogue: 0,0:01:52.36,0:01:54.53,zhengwen,NTP,0,0,0,,才能看見的秘密空間
+Dialogue: 0,0:01:54.86,0:01:57.17,zhengwen,NTP,0,0,0,,可是  這裡不是…
+Dialogue: 0,0:01:57.24,0:02:00.70,zhengwen,NTP,0,0,0,,沒錯  這裡是那個時間錯亂的空間
+Dialogue: 0,0:02:00.89,0:02:05.92,zhengwen,NTP,0,0,0,,即使順利逃出  也不一定能回到原本所在的時間
+Dialogue: 0,0:02:08.07,0:02:09.63,zhengwen,NTP,0,0,0,,雖然話是這樣說啦
+Dialogue: 0,0:02:09.75,0:02:13.55,zhengwen,NTP,0,0,0,,不過今天就特別地送你們到想去的時間
+Dialogue: 0,0:02:13.80,0:02:16.06,zhengwen,NTP,0,0,0,,吐血價不收錢噢
+Dialogue: 0,0:02:16.19,0:02:17.86,zhengwen,NTP,0,0,0,,哦  好度量
+Dialogue: 0,0:02:18.01,0:02:20.64,zhengwen,NTP,0,0,0,,這樣真的好嗎
+Dialogue: 0,0:02:20.81,0:02:23.63,zhengwen,NTP,0,0,0,,作為餘興節目也太可疑了吧
+Dialogue: 0,0:02:23.88,0:02:25.86,zhengwen,NTP,0,0,0,,你要做得到就試試看啊
+Dialogue: 0,0:02:26.59,0:02:30.50,zhengwen,NTP,0,0,0,,好  那你想去哪隨便說
+Dialogue: 0,0:02:31.16,0:02:33.76,zhengwen,NTP,0,0,0,,那  我想吃肉
+Dialogue: 0,0:02:34.12,0:02:35.84,zhengwen,NTP,0,0,0,,好  謝謝惠顧
+Dialogue: 0,0:02:41.24,0:02:43.86,zhengwen,NTP,0,0,0,,我想消解壓力
+Dialogue: 0,0:02:49.10,0:02:52.08,zhengwen,NTP,0,0,0,,嗯  我就…
+Dialogue: 0,0:02:54.46,0:02:56.75,zhengwen,NTP,0,0,0,,我只要和奧茲在一起就…
+Dialogue: 0,0:02:59.28,0:03:02.25,zhengwen,NTP,0,0,0,,我只要和哥哥在一起  去哪都行
+Dialogue: 0,0:03:05.58,0:03:07.65,zhengwen,NTP,0,0,0,,就剩我和小艾可了嗎
+Dialogue: 0,0:03:07.76,0:03:08.75,zhengwen,NTP,0,0,0,,是艾可
+Dialogue: 0,0:03:13.64,0:03:16.16,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:03:16.76,0:03:18.45,zhengwen,NTP,0,0,0,,那  你呢
+Dialogue: 0,0:03:19.19,0:03:19.94,zhengwen,NTP,0,0,0,,我？
+Dialogue: 0,0:03:29.43,0:03:32.12,zhengwen,NTP,0,0,0,,哎——呀——
+Dialogue: 0,0:03:33.63,0:03:36.53,zhengwen,NTP,0,0,0,,好慢啊  你在做什麼啊  遲到了哦
+Dialogue: 0,0:03:36.77,0:03:38.89,zhengwen,NTP,0,0,0,,痛痛痛…
+Dialogue: 0,0:03:38.96,0:03:39.94,zhengwen,NTP,0,0,0,,算了
+Dialogue: 0,0:03:40.11,0:03:42.97,zhengwen,NTP,0,0,0,,你有什麼想去的地方就快說吧
+Dialogue: 0,0:03:44.08,0:03:46.55,zhengwen,NTP,0,0,0,,我也可以…？  那
+Dialogue: 0,0:03:56.47,0:03:58.01,zhengwen,NTP,0,0,0,,我們走吧  傑克
+Dialogue: 0,0:03:59.71,0:04:01.12,zhengwen,NTP,0,0,0,,一  二…三
+Dialogue: 0,0:04:04.22,0:04:10.04,zhengwen,NTP,0,0,0,,非常感謝各位觀看全九卷
+Dialogue: 0,0:04:10.04,0:04:15.08,zhushi,NTP,0,0,0,,（溫泉旅行-宴會上-）
+Dialogue: 0,0:04:11.72,0:04:14.14,zhengwen,NTP,0,0,0,,潘多拉之心

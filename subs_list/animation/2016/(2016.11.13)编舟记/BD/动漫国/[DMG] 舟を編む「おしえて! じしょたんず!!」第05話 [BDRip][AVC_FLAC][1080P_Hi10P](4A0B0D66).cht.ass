@@ -1,0 +1,45 @@
+﻿[Script Info]
+Title: [Fune_o_Amu][SP05]
+Original Script: DMG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX: 1280
+PlayResY: 720
+Timer:100.0000
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,8,10,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.81,0:00:04.73,Default,,0,0,0,,教教我吧!  辭典小傢伙們!!
+Dialogue: 0,0:00:04.90,0:00:05.81,Default,,0,0,0,,請…  請問
+Dialogue: 0,0:00:05.81,0:00:08.61,Default,,0,0,0,,被修訂是一種什麼樣的感覺呢
+Dialogue: 0,0:00:09.44,0:00:11.90,Default,,0,0,0,,啊?  小海你還沒被修訂過嗎
+Dialogue: 0,0:00:12.03,0:00:13.45,Default,,0,0,0,,我被修訂過一次哦
+Dialogue: 0,0:00:13.49,0:00:14.66,Default,,0,0,0,,我有兩次
+Dialogue: 0,0:00:14.82,0:00:16.20,Default,,0,0,0,,鄙人有五次
+Dialogue: 0,0:00:16.32,0:00:17.74,Default,,0,0,0,,不愧是大人
+Dialogue: 0,0:00:18.12,0:00:20.95,Default,,0,0,0,,修訂是和未知世界的相遇
+Dialogue: 0,0:00:21.00,0:00:22.33,Comment,,0,0,0,,{\fade(0,500)}舊詞彙
+Dialogue: 0,0:00:23.00,0:00:25.79,Comment,,0,0,0,,{\fade(300,0)}新詞彙
+Dialogue: 0,0:00:21.25,0:00:22.96,Default,,0,0,0,,體會失去的悲傷
+Dialogue: 0,0:00:23.12,0:00:26.00,Default,,0,0,0,,迎接嶄新的自我
+Dialogue: 0,0:00:26.04,0:00:28.88,Default,,0,0,0,,總是讓我們不斷成長
+Dialogue: 0,0:00:29.09,0:00:30.05,Default,,0,0,0,,那就是…
+Dialogue: 0,0:00:30.09,0:00:31.30,Default,,0,0,0,,簡直像戀愛一般
+Dialogue: 0,0:00:31.63,0:00:33.63,Default,,0,0,0,,小廣臉紅了
+Dialogue: 0,0:00:33.68,0:00:36.01,Default,,0,0,0,,修訂了五次  騙人的吧
+Dialogue: 0,0:00:36.18,0:00:37.26,Default,,0,0,0,,當然是真的
+Dialogue: 0,0:00:37.30,0:00:38.26,Default,,0,0,0,,被修訂時內心的雀躍…
+Dialogue: 0,0:00:38.30,0:00:39.31,Default,,0,0,0,,好激動啊
+Dialogue: 0,0:00:39.35,0:00:40.56,Default,,0,0,0,,總有一天我也會…
+Dialogue: 0,0:00:40.72,0:00:43.98,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\c&H030303&\pos(822,521)}【修訂】
+Dialogue: 0,0:00:40.72,0:00:43.98,Default,,0,0,0,,{\fn@方正中雅宋_GBK\frz270\fs45\bord0\c&H030303&\pos(665,385)}對書籍等內容的修改訂正
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,

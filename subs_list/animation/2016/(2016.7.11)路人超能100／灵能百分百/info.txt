@@ -1,0 +1,5 @@
+﻿chs: 路人超能100/灵能百分百
+cht: 路人超能100/靈能百分百
+jp: モブサイコ100
+en: Mob Psycho 100
+rome: Mobu Saiko Hyaku

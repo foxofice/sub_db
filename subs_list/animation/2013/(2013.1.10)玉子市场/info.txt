@@ -1,0 +1,5 @@
+﻿chs: 玉子市场
+cht: 玉子市場
+jp: たまこまーけっと
+en: Tamako Market
+rome: Tamako Market

@@ -1,0 +1,52 @@
+﻿[Script Info]
+; Made by Kamigami for education purpose only
+; Visit us at www.kamigami.org
+; 本字幕由诸神字幕组出品，仅供学习交流，禁止用于商业用途
+; 更多中日双语字幕，尽在 www.kamigami.org 和微博 @诸神字幕组
+Title: 编舟记
+Original Script: 诸神字幕组
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+YCbCr Matrix: TV.709
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OP-JP,EPSON 太明朝体Ｂ,28,&H00990000,&H00FFFFFF,&H00FFFFFF,&H000D2801,0,0,0,0,100,106,0,0,1,2,0,2,10,10,15,128
+Style: ED-JP,EPSON 太明朝体Ｂ,28,&H00FFFFFF,&H00FFFFFF,&H006F1712,&H000D2801,-1,0,0,0,100,106,0,0,1,2,0,2,10,10,10,128
+Style: STAFF,方正粗雅宋_GBK,36,&H00FFFFFF,&H000000FF,&H006F1712,&H64283D57,0,0,0,0,100,100,1,0,1,2,0,2,10,10,10,1
+Style: TEXT-JP,EPSON 太明朝体Ｂ,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.8,0,2,0,0,15,128
+Style: TEXT-JP(UP),EPSON 太明朝体Ｂ,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.8,0,8,10,10,10,128
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+; --- ;
+Comment: 0,0:00:01.94,0:00:03.94,TEXT-JP,,0,0,0,,-----TEXT JP-----
+Dialogue: 0,0:00:01.47,0:00:02.64,TEXT-JP,,0,0,0,,おしえて!
+Dialogue: 0,0:00:02.84,0:00:04.81,TEXT-JP,,0,0,0,,じしょたんず!!
+Dialogue: 0,0:00:05.48,0:00:08.19,TEXT-JP,,0,0,0,,海くんもそろそろ完成間近だな
+Dialogue: 0,0:00:08.98,0:00:11.11,TEXT-JP,,0,0,0,,ちゃんと真ん中にきていますね
+Dialogue: 0,0:00:11.11,0:00:12.61,TEXT-JP,,0,0,0,,どういうことですか
+Dialogue: 0,0:00:13.03,0:00:16.74,TEXT-JP,,0,0,0,,辞書というのは　「せ」で始まる言葉が真ん中にくると
+Dialogue: 0,0:00:16.74,0:00:18.62,TEXT-JP,,0,0,0,,バランスが良いと言われています
+Dialogue: 0,0:00:19.08,0:00:21.87,TEXT-JP,,0,0,0,,日本語は　単語の頭にくる音が
+Dialogue: 0,0:00:21.87,0:00:25.54,TEXT-JP,,0,0,0,,「あ」行「か」行「さ」行であることがとても多いんです
+Dialogue: 0,0:00:26.83,0:00:28.63,TEXT-JP,,0,0,0,,勉強になりました
+Dialogue: 0,0:00:29.21,0:00:33.72,TEXT-JP,,0,0,0,,ならしりとりって　「や」行や「ら」行で終われば勝ちやすいってこと
+Dialogue: 0,0:00:33.72,0:00:35.84,TEXT-JP,,0,0,0,,よーし　しりとりしようぜ
+Dialogue: 0,0:00:36.05,0:00:37.39,TEXT-JP,,0,0,0,,えーっと　じゃあ
+Dialogue: 0,0:00:37.39,0:00:38.18,TEXT-JP,,0,0,0,,「大辞林」
+Dialogue: 0,0:00:38.18,0:00:38.97,TEXT-JP,,0,0,0,,「広辞苑」
+Dialogue: 0,0:00:38.97,0:00:39.81,TEXT-JP,,0,0,0,,「大辞泉」
+Dialogue: 0,0:00:42.02,0:00:45.94,TEXT-JP,,0,0,0,,辞書は収録語のバランスが大事
+; --- ;
+Comment: 0,0:00:00.18,0:00:00.18,STAFF,,0,0,0,,-----STAFF-----
+Dialogue: 0,0:00:45.94,0:00:46.94,STAFF,,0,0,0,,{\an8}日听：9麻&Floria  翻译：天上ウテナ&裏spartan  日校：Ⅴ
+Dialogue: 0,0:00:45.94,0:00:46.94,STAFF,,0,0,0,,翻校：aeyou   时间轴：Foyzi    压制：有纪
+Dialogue: 0,0:00:00.05,0:00:03.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}本字幕由弑神字幕组出品，仅供学习交流，禁止用于商业用途
+Dialogue: 0,0:00:03.05,0:00:06.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}弑神成员为诸神新人，旨在提升做番水平，如有疏漏在所难免，还请看官多多包涵
+Dialogue: 0,0:00:06.05,0:00:09.05,STAFF,,0,0,0,,{\fad(200,200)\an8\fs36\bord1.2\fn方正粗雅宋_GBK\b0}更多中日双语字幕，尽在 sub.kamigami.org 及微博 @诸神字幕组
+; --- ;

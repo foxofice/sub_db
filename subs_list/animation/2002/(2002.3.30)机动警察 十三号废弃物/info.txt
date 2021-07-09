@@ -1,0 +1,5 @@
+﻿chs: 机动警察 十三号废弃物
+cht: 機動警察 十三號廢棄物
+jp: WXIII 機動警察パトレイバー
+en: Patlabor the Movie 3: WXIII
+rome: WXIII: Patlabor the Movie 3

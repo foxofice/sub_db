@@ -1,0 +1,450 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Warning,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_3472_15_Smithy,Open Sans Semibold,35,&H003D4038,&H000000FF,&H00E5EBE4,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,20,0
+Style: sign_12229_137_Sword_Fortune_Te,Open Sans Semibold,35,&H00050512,&H000000FF,&H002B2C80,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_18003_221_Special_Police_S,Open Sans Semibold,29,&H001C2D30,&H000000FF,&H005C869D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,653,13,221,0
+Style: sign_27933_358_Odd_Jobs_Ace_Sak,Open Sans Semibold,32,&H0027281F,&H000000FF,&H00FEFFFC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,24,0
+Style: Side Bar Top Yellow,Open Sans Semibold,38,&H0001FFFC,&H004B31E3,&H00000000,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.91,0:00:08.95,Main,G,0000,0000,0000,,Who goes there?
+Dialogue: 0,0:00:11.95,0:00:14.97,Main,G,0000,0000,0000,,You must be Senbe the Manslayer.
+Dialogue: 0,0:00:14.97,0:00:16.20,Main,G,0000,0000,0000,,Prepare to go down!
+Dialogue: 0,0:00:37.60,0:00:43.61,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:40.48,0:00:43.61,Slip Arc,OP Card,0000,0000,0000,,Slip Arc
+Dialogue: 0,0:02:12.92,0:02:14.32,Main,Tet,0000,0000,0000,,This is a great sword.
+Dialogue: 0,0:02:14.71,0:02:20.68,Warning,Warning,0000,0000,0000,,{\fad(470,540)}Watch the Slip Arc in a bright room\Nand at a safe distance from your TV!
+Dialogue: 0,0:02:15.04,0:02:16.83,Main,Tet,0000,0000,0000,,{\an8}It's nameless, but sharp.
+Dialogue: 0,0:02:16.83,0:02:19.88,Main,Tet,0000,0000,0000,,{\an8}Looks like it ran wild with \Nits wielder in the past,
+Dialogue: 0,0:02:19.88,0:02:22.41,Main,Tet,0000,0000,0000,,{\an8}but it's being taken care of now.
+Dialogue: 0,0:02:22.41,0:02:24.83,Main,Tet,0000,0000,0000,,Must belong to a retired general.
+Dialogue: 0,0:02:25.22,0:02:30.43,Main,Shin,0000,0000,0000,,Tetsuko-san, that sword is actually a \Nmemento of Otose-san's late husband.
+Dialogue: 0,0:02:30.84,0:02:31.84,Main,Tet,0000,0000,0000,,Oh...
+Dialogue: 0,0:02:31.84,0:02:37.59,sign_3472_15_Smithy,Sign,0000,0000,0000,,Smithy
+Dialogue: 0,0:02:32.37,0:02:34.87,Main,Tet,0000,0000,0000,,I'll deliver it nice and sharpened tomorrow.
+Dialogue: 0,0:02:34.87,0:02:37.59,Main,Tet,0000,0000,0000,,I'm sure it wants to go home soon, too.
+Dialogue: 0,0:02:37.59,0:02:42.29,Main,Kag,0000,0000,0000,,Tetsuko, you can talk to \Nswords? You're amazing!
+Dialogue: 0,0:02:42.29,0:02:43.86,Main,Tet,0000,0000,0000,,It's not like that.
+Dialogue: 0,0:02:43.86,0:02:47.39,Main,Kag,0000,0000,0000,,What about that one? What's it saying?
+Dialogue: 0,0:02:49.50,0:02:52.98,Main,Tet,0000,0000,0000,,The number of battles it's gone through \Nand the amount of blood it has spilled
+Dialogue: 0,0:02:52.98,0:02:55.07,Main,Tet,0000,0000,0000,,is way higher than any other sword.
+Dialogue: 0,0:02:55.40,0:02:59.57,Main,Tet,0000,0000,0000,,But it's been used as a weight for cup \Nramen way more than any other sword, too.
+Dialogue: 0,0:02:59.57,0:03:01.82,Main,Gin,0000,0000,0000,,{\an8}Man, I feel so much better.
+Dialogue: 0,0:02:59.57,0:03:03.07,Main,Tet,0000,0000,0000,,Perhaps due to its poor treatment, \NI can see it shrouded in malice.
+Dialogue: 0,0:03:01.82,0:03:04.08,Main,Gin,0000,0000,0000,,{\an8}I thought I was gonna wet myself.
+Dialogue: 0,0:03:03.07,0:03:04.08,Main,Kag,0000,0000,0000,,Malice?
+Dialogue: 0,0:03:04.08,0:03:06.48,Main,Tet,0000,0000,0000,,Yes. Rather than the blood of enemies,
+Dialogue: 0,0:03:07.30,0:03:08.96,Main,Tet,0000,0000,0000,,it thirsts for the blood of its wielder.
+Dialogue: 0,0:03:10.24,0:03:12.02,Main,Kag,0000,0000,0000,,Wow, you're right!
+Dialogue: 0,0:03:12.02,0:03:14.76,Main,Shin,0000,0000,0000,,You can tell when a sword \Nlooks down on its wielder?
+Dialogue: 0,0:03:14.76,0:03:15.90,Main,Shin,0000,0000,0000,,That's our master swordsmith!
+Dialogue: 0,0:03:15.90,0:03:19.42,Main,Kag,0000,0000,0000,,Though to be honest, we knew that, too.
+Dialogue: 0,0:03:19.42,0:03:21.44,Main,Gin,0000,0000,0000,,Master swordsmith, my ass!
+Dialogue: 0,0:03:21.44,0:03:24.12,Main,Gin,0000,0000,0000,,Why's a drawn sword just \Nlaying around right there?
+Dialogue: 0,0:03:24.12,0:03:27.22,Main,Gin,0000,0000,0000,,Should a smithy be treating \Nher products so badly?
+Dialogue: 0,0:03:27.22,0:03:28.52,Main,Tet,0000,0000,0000,,What's this sword?
+Dialogue: 0,0:03:29.80,0:03:31.10,Main,Tet,0000,0000,0000,,I don't remember it.
+Dialogue: 0,0:03:31.10,0:03:33.04,Main,Gin,0000,0000,0000,,Don't play dumb.
+Dialogue: 0,0:03:33.04,0:03:36.93,Main,Gin,0000,0000,0000,,Are you saying it came here by itself \Nto get a massage? To rub one out?
+Dialogue: 0,0:03:36.93,0:03:39.32,Main,Shin,0000,0000,0000,,This is a smithy! Not a brothel!
+Dialogue: 0,0:03:39.32,0:03:42.15,Main,Kag,0000,0000,0000,,Maybe it got kicked out of its \Nscabbard due to its low salary.
+Dialogue: 0,0:03:42.15,0:03:44.70,Main,Kag,0000,0000,0000,,Tetsuko, you should hear \Nout its complaints, too.
+Dialogue: 0,0:03:44.70,0:03:46.82,Main,Tet,0000,0000,0000,,Uh, complaints?
+Dialogue: 0,0:03:46.82,0:03:49.19,Main,Gin,0000,0000,0000,,Even I could hear those out.
+Dialogue: 0,0:03:49.19,0:03:50.93,Main,Gin,0000,0000,0000,,You seem really up for this, sir.
+Dialogue: 0,0:03:50.93,0:03:53.83,Main,Gin,0000,0000,0000,,Look at you, all naked \Nbefore we even get started.
+Dialogue: 0,0:03:53.83,0:03:58.01,Main,Gin,0000,0000,0000,,Your scabbard may have dumped you, \Nbut I'll make you forget about it all tonight.
+Dialogue: 0,0:03:58.38,0:04:03.06,Main,Gin,0000,0000,0000,,And then, you can get a fresh start as \Na wok in Gin-san's place tomorrow.
+Dialogue: 0,0:04:03.06,0:04:04.47,Main,Tet,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:04:04.47,0:04:06.99,Main,Gin,0000,0000,0000,,Got that, Tetsuko? Make us a nice wok.
+Dialogue: 0,0:04:06.99,0:04:10.31,Main,Shin,0000,0000,0000,,What are you doing? We don't \Neven know whose sword it is yet!
+Dialogue: 0,0:04:10.31,0:04:13.51,Main,Gin,0000,0000,0000,,Didn't you hear it? \NIt's sick of cutting things.
+Dialogue: 0,0:04:13.51,0:04:16.44,Main,Gin,0000,0000,0000,,It wants to stop hurting people \Nand start frying rice instead.
+Dialogue: 0,0:04:16.44,0:04:18.68,Main,Gin,0000,0000,0000,,We don't have a pan, so this is perfect.
+Dialogue: 0,0:04:18.68,0:04:20.74,Main,Shin,0000,0000,0000,,You need a fresh start more \Nthan it does, you bum!
+Dialogue: 0,0:04:21.64,0:04:26.43,Main,Gin,0000,0000,0000,,Ah, I don't know why, but I think I \Ncan hear the sword crying out in joy.
+Dialogue: 0,0:04:26.43,0:04:27.95,Main,Shin,0000,0000,0000,,Uh, sorry,
+Dialogue: 0,0:04:27.95,0:04:30.48,Main,Shin,0000,0000,0000,,but we can hear it, too.
+Dialogue: 0,0:04:30.48,0:04:33.52,Main,Shin,0000,0000,0000,,I don't know about crying out in joy. \NThis sounds more like dying screams.
+Dialogue: 0,0:04:34.46,0:04:37.46,Main,Gin,0000,0000,0000,,Huh? You can hear that, too?
+Dialogue: 0,0:04:39.98,0:04:41.47,Main,Kus,0000,0000,0000,,Bro...
+Dialogue: 0,0:04:42.07,0:04:44.01,Main,Kus,0000,0000,0000,,Whaddya think yer doin' ta me?
+Dialogue: 0,0:04:44.01,0:04:46.43,Main,Kus,0000,0000,0000,,Want me ta suck yer blood up?!
+Dialogue: 0,0:04:51.27,0:04:53.52,Main,Shin,0000,0000,0000,,Gin-san?!
+Dialogue: 0,0:04:53.52,0:04:59.57,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}3000 Leagues in Search of a Scabbard
+Dialogue: 0,0:04:59.57,0:05:01.03,sign_3472_15_Smithy,Sign,0000,0000,0000,,Smithy
+Dialogue: 0,0:05:00.34,0:05:01.03,Main,Kus,0000,0000,0000,,Yeesh.
+Dialogue: 0,0:05:02.38,0:05:06.55,Main,Kus,0000,0000,0000,,There's no tellin' what \Nsamurai these days get up ta.
+Dialogue: 0,0:05:06.55,0:05:08.21,Main,Kus,0000,0000,0000,,How scary.
+Dialogue: 0,0:05:08.21,0:05:10.24,Main,Kus,0000,0000,0000,,If I were any other sword, I woulda snapped.
+Dialogue: 0,0:05:10.24,0:05:13.43,Main,Kus,0000,0000,0000,,Be more careful. Most swords'll \Nlash out at the drop of a hat.
+Dialogue: 0,0:05:13.43,0:05:16.54,Main,Kus,0000,0000,0000,,Ya won't find many blunt, \Ngentle ones like me.
+Dialogue: 0,0:05:16.54,0:05:19.70,Main,Tet,0000,0000,0000,,S-Sorry about that.
+Dialogue: 0,0:05:20.35,0:05:23.20,Main,Kus,0000,0000,0000,,Well, as long as ya learned yer lesson.
+Dialogue: 0,0:05:23.20,0:05:25.70,Main,Kus,0000,0000,0000,,I'm not yellin' at ya 'cause I want ta.
+Dialogue: 0,0:05:25.70,0:05:27.94,Main,Kus,0000,0000,0000,,Thankfully, nobody got hurt,
+Dialogue: 0,0:05:27.94,0:05:31.46,Main,Kus,0000,0000,0000,,so let's call this water under the bridge.
+Dialogue: 0,0:05:31.46,0:05:34.06,Main,Kus,0000,0000,0000,,Well, thanks for the yummy tea. Take care.
+Dialogue: 0,0:05:35.06,0:05:38.31,Main,Gin,0000,0000,0000,,Like hell! I totally got hurt here!
+Dialogue: 0,0:05:38.31,0:05:40.84,Main,Gin,0000,0000,0000,,How long are you gonna stay stuck in my ass?
+Dialogue: 0,0:05:40.84,0:05:42.40,Main,Gin,0000,0000,0000,,And what the hell are you, anyway?
+Dialogue: 0,0:05:44.76,0:05:47.18,Main,Gin,0000,0000,0000,,What's with this thing? I can't get it out!
+Dialogue: 0,0:05:47.18,0:05:50.63,Main,Kus,0000,0000,0000,,Yer wastin' yer time, bro. We're a pair now.
+Dialogue: 0,0:05:50.63,0:05:53.43,Main,Kus,0000,0000,0000,,I finally found ya, my scabbard. \NI ain't never lettin' ya go.
+Dialogue: 0,0:05:53.43,0:05:54.66,Main,Gin,0000,0000,0000,,Did you just call my butthole a scabbard?
+Dialogue: 0,0:05:54.66,0:05:57.33,Main,Shin,0000,0000,0000,,Calm down, both of you. Calm down.
+Dialogue: 0,0:05:57.33,0:06:00.26,Main,Gin,0000,0000,0000,,How can I? I've got a sword in my ass!
+Dialogue: 0,0:06:00.26,0:06:02.82,Main,Kag,0000,0000,0000,,Oh, just shut up and sit down.
+Dialogue: 0,0:06:04.62,0:06:07.23,Main,Shin,0000,0000,0000,,P-Planet Excalibur?
+Dialogue: 0,0:06:07.23,0:06:10.59,Main,Kus,0000,0000,0000,,Aye. Believe it or not, I'm an actual Amanto,
+Dialogue: 0,0:06:10.59,0:06:13.06,Main,Kus,0000,0000,0000,,Kusanagi from Planet Excalibur.
+Dialogue: 0,0:06:13.37,0:06:15.06,Main,Tet,0000,0000,0000,,K-Kusanagi-san?
+Dialogue: 0,0:06:15.39,0:06:18.37,Main,Kus,0000,0000,0000,,I may be loiterin' about butt-naked \Nwithout a scabbard now,
+Dialogue: 0,0:06:18.37,0:06:21.36,Main,Kus,0000,0000,0000,,but when I was young, I was a famous sword.
+Dialogue: 0,0:06:21.36,0:06:24.32,Main,Shin,0000,0000,0000,,Uh, could you stop talking about \Nloitering butt-naked with that name?
+Dialogue: 0,0:06:24.32,0:06:27.85,Main,Kus,0000,0000,0000,,Us excaliburlings have bodies \Nmade of liquid metal.
+Dialogue: 0,0:06:27.85,0:06:32.00,Main,Kus,0000,0000,0000,,In other words, we can transform \Ninta anythin' we wanna be.
+Dialogue: 0,0:06:32.00,0:06:33.95,Main,Kus,0000,0000,0000,,We've transformed inta all kinds of weapons
+Dialogue: 0,0:06:33.95,0:06:37.88,Main,Kus,0000,0000,0000,,and taken part in wars on all \Nkinds of planets as mercenaries.
+Dialogue: 0,0:06:38.58,0:06:43.09,Main,Kus,0000,0000,0000,,I came ta Earth a long time \Nago when I smelled war here.
+Dialogue: 0,0:06:43.09,0:06:47.84,Main,Kus,0000,0000,0000,,Ever since, me and my wife Scabberina \Nhad been livin' as a very lovin' couple.
+Dialogue: 0,0:06:47.84,0:06:49.08,Main,Shin,0000,0000,0000,,Who the hell is Scabberina?
+Dialogue: 0,0:06:49.08,0:06:51.41,Main,Shin,0000,0000,0000,,Was your scabbard your wife?
+Dialogue: 0,0:06:51.41,0:06:54.47,Main,Kus,0000,0000,0000,,She was too good for me, I say.
+Dialogue: 0,0:06:54.78,0:06:58.73,Main,Kus,0000,0000,0000,,She always welcomed me \Nback with a warm smile.
+Dialogue: 0,0:06:59.50,0:07:01.66,Main,Kus,0000,0000,0000,,And back then, I was young, too.
+Dialogue: 0,0:07:01.66,0:07:04.57,Main,Kus,0000,0000,0000,,I thrust in and out of \Nher several times a day.
+Dialogue: 0,0:07:04.57,0:07:06.13,Main,Shin,0000,0000,0000,,Stop moving like that. What are you saying?
+Dialogue: 0,0:07:06.13,0:07:07.49,Main,Shin,0000,0000,0000,,Is it what I think it is?
+Dialogue: 0,0:07:07.49,0:07:11.95,Main,Kag,0000,0000,0000,,If you had such a beloved scabbard, \Nwhy are you naked now, Member Kusanagi?
+Dialogue: 0,0:07:11.95,0:07:13.50,Main,Shin,0000,0000,0000,,Stop calling him that!
+Dialogue: 0,0:07:13.50,0:07:15.59,Main,Tet,0000,0000,0000,,A sword and its scabbard are as one.
+Dialogue: 0,0:07:15.59,0:07:18.81,Main,Tet,0000,0000,0000,,They're like SM*P, which only functions \Nwhen all its members are present.
+Dialogue: 0,0:07:18.81,0:07:20.37,Main,Shin,0000,0000,0000,,You two are doing this \Non purpose, aren't you?!
+Dialogue: 0,0:07:21.03,0:07:26.25,Main,Kus,0000,0000,0000,,As time passed and I grew \Nolder, I lost my edge.
+Dialogue: 0,0:07:26.25,0:07:29.88,Main,Kus,0000,0000,0000,,Our owner put us up for sale at a pawn shop.
+Dialogue: 0,0:07:30.40,0:07:32.64,Main,Kus,0000,0000,0000,,For some reason, a buyer \Nwas found immediately,
+Dialogue: 0,0:07:32.64,0:07:35.16,Main,Kus,0000,0000,0000,,but I was dumped in a ditch.
+Dialogue: 0,0:07:35.16,0:07:39.15,Main,Kus,0000,0000,0000,,The buyer only wanted the \Nbeautiful Scabberina, not me.
+Dialogue: 0,0:07:41.14,0:07:45.32,Main,Kus,0000,0000,0000,,For decades since then, \NI've been lookin' for her,
+Dialogue: 0,0:07:45.32,0:07:48.14,Main,Kus,0000,0000,0000,,but I still have no idea where she is now.
+Dialogue: 0,0:07:48.14,0:07:52.23,Main,Kus,0000,0000,0000,,I went from smithy ta smithy, \Nhopin' ta meet a good scabbard,
+Dialogue: 0,0:07:52.23,0:07:54.75,Main,Kus,0000,0000,0000,,but that was a swing and a miss, too.
+Dialogue: 0,0:07:54.75,0:07:55.91,Main,Tet,0000,0000,0000,,So that's why you came to me?
+Dialogue: 0,0:07:56.39,0:07:59.90,Main,Kus,0000,0000,0000,,I lost my owner and my partner \N'cause I was so dull.
+Dialogue: 0,0:07:59.90,0:08:04.03,Main,Kus,0000,0000,0000,,So I gotta take them back \Nwith my own hands...
+Dialogue: 0,0:08:04.48,0:08:09.07,Main,Kus,0000,0000,0000,,The bright light from those days, \Nand my beloved other half.
+Dialogue: 0,0:08:09.07,0:08:14.09,Main,Kus,0000,0000,0000,,But I know from the bottom of my blade that \NI can't do anythin' as a lone dull blade.
+Dialogue: 0,0:08:14.09,0:08:18.31,Main,Kus,0000,0000,0000,,Doesn't matter if it's just a temporary \Nhome. I need an owner, a scabbard!
+Dialogue: 0,0:08:18.94,0:08:22.39,Main,Kus,0000,0000,0000,,I beg of ya, lend me yer ass for a while.
+Dialogue: 0,0:08:22.39,0:08:23.79,Main,Kus,0000,0000,0000,,C'mon, please.
+Dialogue: 0,0:08:25.19,0:08:28.75,Main,Shin,0000,0000,0000,,Okay! Come one, come all!
+Dialogue: 0,0:08:28.75,0:08:32.95,Main,Shin,0000,0000,0000,,Is the sword on your hip a \Ntreasure that brings good luck
+Dialogue: 0,0:08:32.95,0:08:35.27,Main,Shin,0000,0000,0000,,or a curse that brings misfortune?
+Dialogue: 0,0:08:35.27,0:08:37.08,Main,Shin,0000,0000,0000,,Don't you want to know?
+Dialogue: 0,0:08:37.08,0:08:42.58,sign_12229_137_Sword_Fortune_Te,Sign,0000,0000,0000,,Sword Fortune Telling
+Dialogue: 0,0:08:37.08,0:08:42.58,Main,Kag,0000,0000,0000,,Edo's best swordsmith, Murata Tetsuko, \Nwill ascertain your sword's quality!
+Dialogue: 0,0:08:43.06,0:08:46.10,Main,Shin,0000,0000,0000,,And we're willing to bleed \Nmoney on the first day!
+Dialogue: 0,0:08:46.10,0:08:48.79,Main,Shin,0000,0000,0000,,We'll look at your swords for free today!
+Dialogue: 0,0:08:48.79,0:08:51.03,Main,Shin,0000,0000,0000,,First come, first served!
+Dialogue: 0,0:08:51.03,0:08:52.34,Main,Kus,0000,0000,0000,,You guys...
+Dialogue: 0,0:08:53.04,0:08:56.34,Main,Tet,0000,0000,0000,,In truth, we want to check out not \Nthe swords, but their scabbards.
+Dialogue: 0,0:08:56.66,0:09:01.14,Main,Kus,0000,0000,0000,,Instead of just givin' me this \Nfilthy ass, you'd go so far for me?
+Dialogue: 0,0:09:01.14,0:09:03.35,Main,Tet,0000,0000,0000,,I'm not doing this for you.
+Dialogue: 0,0:09:03.35,0:09:05.02,Main,Tet,0000,0000,0000,,I'm a swordsmith.
+Dialogue: 0,0:09:05.44,0:09:08.18,Main,Tet,0000,0000,0000,,When there's a rusty sword of \Nrepute lying in front of me,
+Dialogue: 0,0:09:08.18,0:09:10.31,Main,Tet,0000,0000,0000,,do you really think I could \Nstop myself from sharpening it?
+Dialogue: 0,0:09:10.84,0:09:13.40,Main,Kus,0000,0000,0000,,T-Tetsuko-han!
+Dialogue: 0,0:09:15.03,0:09:18.87,Main,Tet,0000,0000,0000,,I'll lend you as many filthy asses as \Nyou want, so just shut up and sit tight.
+Dialogue: 0,0:09:19.37,0:09:23.20,Main,Kus,0000,0000,0000,,Sorry. I forgot I was lugging \Nthis filthy ass around.
+Dialogue: 0,0:09:25.26,0:09:27.21,Main,Gin,0000,0000,0000,,Who do you think this filthy ass belongs to?
+Dialogue: 0,0:09:27.62,0:09:30.96,Main,Gin,0000,0000,0000,,What gives you guys the right to \Ndecide the fate of my filthy ass?
+Dialogue: 0,0:09:30.96,0:09:32.42,Main,Gin,0000,0000,0000,,Wait, whose ass are you calling filthy?
+Dialogue: 0,0:09:32.42,0:09:33.99,Main,Shin,0000,0000,0000,,Not like we have a choice.
+Dialogue: 0,0:09:33.99,0:09:37.62,Main,Shin,0000,0000,0000,,He says he won't leave your \Nass until he finds a home.
+Dialogue: 0,0:09:37.62,0:09:41.56,Main,Kag,0000,0000,0000,,If you wanna be freed, we gotta \Nfind his separated scabbard.
+Dialogue: 0,0:09:41.56,0:09:42.74,Main,Gin,0000,0000,0000,,Quit messing—
+Dialogue: 0,0:09:42.74,0:09:46.35,Main,Shin,0000,0000,0000,,Oh, by the way, excaliburlings \Nare vampiric in nature.
+Dialogue: 0,0:09:46.35,0:09:47.69,Main,Shin,0000,0000,0000,,If you do anything stupid...
+Dialogue: 0,0:09:48.56,0:09:52.07,Main,Kus,0000,0000,0000,,Want me to suck up the \Nblood from yer entire body?
+Dialogue: 0,0:09:52.07,0:09:53.82,Main,Gin,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:09:54.23,0:09:58.07,Main,Gin,0000,0000,0000,,Would you like to be the \Nscabbard for my sword?
+Dialogue: 0,0:09:58.07,0:10:00.08,Main,G,0000,0000,0000,,Eek!
+Dialogue: 0,0:10:00.08,0:10:03.24,Main,Kus,0000,0000,0000,,C'mon, bro. Yer makin' yer \Nulterior motives too obvious.
+Dialogue: 0,0:10:03.24,0:10:05.79,Main,Kus,0000,0000,0000,,Ya'll never find me a scabbard like that.
+Dialogue: 0,0:10:05.79,0:10:08.66,Main,Gin,0000,0000,0000,,I don't wanna hear that from the one \Nsticking butt-naked into my butt.
+Dialogue: 0,0:10:08.66,0:10:10.09,Main,Kus,0000,0000,0000,,Just watch me.
+Dialogue: 0,0:10:10.09,0:10:11.84,Main,Kus,0000,0000,0000,,Hey, lady.
+Dialogue: 0,0:10:11.84,0:10:13.59,Main,Kus,0000,0000,0000,,Want me to suck yer ********* *****?
+Dialogue: 0,0:10:13.59,0:10:15.59,Main,G,0000,0000,0000,,Eek!
+Dialogue: 0,0:10:15.59,0:10:17.27,Main,Gin,0000,0000,0000,,I'll kill your blunt ass!
+Dialogue: 0,0:10:17.27,0:10:19.20,Main,Gin,0000,0000,0000,,Why are you getting me beaten up?
+Dialogue: 0,0:10:19.20,0:10:21.53,Main,Gin,0000,0000,0000,,Why do I have to do this?
+Dialogue: 0,0:10:21.53,0:10:24.60,Main,Kus,0000,0000,0000,,Crap, I messed up. Shoulda gone \Nwith "please suck my ****."
+Dialogue: 0,0:10:24.60,0:10:26.60,Main,Shin,0000,0000,0000,,What kind of scabbard are you looking for?!
+Dialogue: 0,0:10:26.60,0:10:28.64,Main,Shin,0000,0000,0000,,Nobody cares about the swords in your pants!
+Dialogue: 0,0:10:28.64,0:10:31.15,Main,Shin,0000,0000,0000,,Stick them in Tasty Stick \Npackaging or something!
+Dialogue: 0,0:10:31.15,0:10:34.48,Main,Shin,0000,0000,0000,,Aren't you looking for your wife Scabberina?
+Dialogue: 0,0:10:34.48,0:10:37.86,Main,Shin,0000,0000,0000,,Why are you trying to sneakily \Nfind a new scabbard?
+Dialogue: 0,0:10:37.86,0:10:39.48,Main,Shin,0000,0000,0000,,Take this more seriously!
+Dialogue: 0,0:10:39.48,0:10:42.91,Main,Shin,0000,0000,0000,,If you wanna find customers, talk \Nto people who are carrying swords!
+Dialogue: 0,0:10:44.91,0:10:48.30,Main,Gin,0000,0000,0000,,Ow, ow... Hey, what are you doing?
+Dialogue: 0,0:10:48.30,0:10:49.95,Main,Kus,0000,0000,0000,,N-Nah, i-it a-ain't me.
+Dialogue: 0,0:10:49.95,0:10:52.39,Main,Kus,0000,0000,0000,,Th-This is resonance.
+Dialogue: 0,0:10:52.39,0:10:53.15,Main,Gin,0000,0000,0000,,What?
+Dialogue: 0,0:10:53.15,0:10:56.09,Main,Kus,0000,0000,0000,,O-One of my own is nearby.
+Dialogue: 0,0:10:56.40,0:10:58.42,Main,Shin,0000,0000,0000,,Huh? Could it be Scabberina?
+Dialogue: 0,0:10:58.42,0:10:59.51,Main,Kus,0000,0000,0000,,N-Nah.
+Dialogue: 0,0:11:00.51,0:11:04.43,Main,Sen,0000,0000,0000,,Is it true that you're ascertaining \Nthe quality of swords?
+Dialogue: 0,0:11:04.78,0:11:07.91,Main,Sen,0000,0000,0000,,I'd love it if you could check mine as well.
+Dialogue: 0,0:11:07.91,0:11:09.44,Main,Sen,0000,0000,0000,,What do you see?
+Dialogue: 0,0:11:10.02,0:11:13.94,Main,Sen,0000,0000,0000,,Do you hear the screams of \Nall the people I've cut down?
+Dialogue: 0,0:11:13.94,0:11:18.19,Main,Sen,0000,0000,0000,,Or do you hear the sound of all \Nthe swords he's devoured breaking?
+Dialogue: 0,0:11:21.68,0:11:24.71,Main,Sen,0000,0000,0000,,Whoops, looks like we \Nhave an unwanted visitor.
+Dialogue: 0,0:11:24.71,0:11:26.93,Main,Sen,0000,0000,0000,,I'll come back some other time.
+Dialogue: 0,0:11:26.93,0:11:29.84,Main,Sen,0000,0000,0000,,I'm sure we'll meet again.
+Dialogue: 0,0:11:30.92,0:11:32.38,Main,Gin,0000,0000,0000,,What was with that guy?
+Dialogue: 0,0:11:32.90,0:11:34.88,Main,Shin,0000,0000,0000,,Are you sure, Kusanagi-san?
+Dialogue: 0,0:11:34.88,0:11:37.82,Main,Shin,0000,0000,0000,,That was an excaliburling, too, right?
+Dialogue: 0,0:11:37.82,0:11:41.28,Main,Shin,0000,0000,0000,,They might've known \Nsomething about Scabberina.
+Dialogue: 0,0:11:41.28,0:11:44.22,Main,Shin,0000,0000,0000,,N-No way... He'd come ta this planet, too?
+Dialogue: 0,0:11:45.43,0:11:48.30,Main,Shin,0000,0000,0000,,N-Never get involved with \Nthat guy. He's bad news.
+Dialogue: 0,0:11:48.30,0:11:49.54,Main,Shin,0000,0000,0000,,Kusanagi-san?
+Dialogue: 0,0:11:49.54,0:11:52.46,Main,Gin,0000,0000,0000,,Hey, knock it off. My \Nass can't take any more.
+Dialogue: 0,0:11:52.46,0:11:54.68,Main,Gin,0000,0000,0000,,You're not resonating, are you? \NYou're just trembling in fear!
+Dialogue: 0,0:11:53.43,0:11:56.62,Main,Oki,0000,0000,0000,,{\an8}Damn, he got away.
+Dialogue: 0,0:11:56.62,0:12:00.24,Main,Oki,0000,0000,0000,,Welp, if I go back empty-handed, \NHijikata-san will yell at me.
+Dialogue: 0,0:12:01.44,0:12:03.57,Main,Oki,0000,0000,0000,,Whatever. There's a perfect replacement.
+Dialogue: 0,0:12:04.01,0:12:06.76,Main,Oki,0000,0000,0000,,Boss, your usual wooden sword is one thing,
+Dialogue: 0,0:12:06.76,0:12:09.83,Main,Oki,0000,0000,0000,,but we can't have you carrying \Nthat around during the sword ban.
+Dialogue: 0,0:12:09.83,0:12:14.08,Main,Oki,0000,0000,0000,,You're under arrest for a Swords and \NFirearms Act violation and public indecency.
+Dialogue: 0,0:12:14.08,0:12:16.99,Main,Gin,0000,0000,0000,,What? Wait, this isn't what you think!
+Dialogue: 0,0:12:16.99,0:12:20.17,Main,Gin,0000,0000,0000,,Hey, stop clattering and say something!
+Dialogue: 0,0:12:20.17,0:12:23.18,Main,Kus,0000,0000,0000,,You got it wrong. I ain't tremblin'.
+Dialogue: 0,0:12:24.26,0:12:27.18,Main,Kus,0000,0000,0000,,I-I found her... I finally found her.
+Dialogue: 0,0:12:27.18,0:12:30.58,Main,Kus,0000,0000,0000,,That bro's scabbard... \NThat beautiful scabbard...
+Dialogue: 0,0:12:30.58,0:12:31.87,Main,Kus,0000,0000,0000,,There's no mistakin' it.
+Dialogue: 0,0:12:31.87,0:12:35.04,Main,Kus,0000,0000,0000,,It's my wife, Scabberina!
+Dialogue: 0,0:12:37.92,0:12:40.84,sign_18003_221_Special_Police_S,Sign,0000,0000,0000,,{\fad(735,1)}Special Police\NShinsengumi
+Dialogue: 0,0:12:39.73,0:12:41.76,Main,Kon,0000,0000,0000,,This is horrible.
+Dialogue: 0,0:12:41.76,0:12:43.32,Main,Kon,0000,0000,0000,,Have we identified the victim?
+Dialogue: 0,0:12:43.32,0:12:46.14,Main,Hij,0000,0000,0000,,Probably a Joi Rebel from some faction.
+Dialogue: 0,0:12:46.54,0:12:50.09,Main,Kon,0000,0000,0000,,The body's in tatters. Is it him again?
+Dialogue: 0,0:12:50.09,0:12:51.54,Main,Hij,0000,0000,0000,,No doubt about it.
+Dialogue: 0,0:12:51.54,0:12:54.44,Main,Hij,0000,0000,0000,,The massive cut that couldn't \Nbe inflicted by any mere human,
+Dialogue: 0,0:12:55.09,0:12:58.58,Main,Hij,0000,0000,0000,,the sword that seems like it \Nwas ripped off at the hilt...
+Dialogue: 0,0:12:59.24,0:13:02.57,Main,Hij,0000,0000,0000,,It has to be Senbe the Manslayer.
+Dialogue: 0,0:13:02.96,0:13:06.82,Main,Kon,0000,0000,0000,,The mad sword that had bakufu \Nofficials trembling in the past
+Dialogue: 0,0:13:07.14,0:13:10.83,Main,Kon,0000,0000,0000,,is now being used to shed the \Nblood of his own comrades?
+Dialogue: 0,0:13:11.36,0:13:14.62,Main,Hij,0000,0000,0000,,I'm perfectly okay with those \Nmites killing each other.
+Dialogue: 0,0:13:14.62,0:13:16.46,Main,Hij,0000,0000,0000,,But this bothers me.
+Dialogue: 0,0:13:17.10,0:13:21.46,Main,Hij,0000,0000,0000,,It's unthinkable that a man could've \Ndone this. What purpose does it serve?
+Dialogue: 0,0:13:22.18,0:13:24.22,Main,Hij,0000,0000,0000,,I heard a strange rumor.
+Dialogue: 0,0:13:24.22,0:13:26.98,Main,Hij,0000,0000,0000,,Apparently, before Senbe betrayed his group,
+Dialogue: 0,0:13:26.98,0:13:31.08,Main,Hij,0000,0000,0000,,he picked up a creepy black \Nsword from somewhere.
+Dialogue: 0,0:13:31.08,0:13:31.72,Main,Kon,0000,0000,0000,,A sword?
+Dialogue: 0,0:13:32.37,0:13:36.42,Main,Hij,0000,0000,0000,,Ever since he did, he became a different \Nperson and obsessed over it.
+Dialogue: 0,0:13:36.42,0:13:40.73,Main,Hij,0000,0000,0000,,He started acting strangely, \Nlike talking to the sword at times.
+Dialogue: 0,0:13:41.06,0:13:46.61,Main,Kon,0000,0000,0000,,Are you saying his objective isn't \Nslaying men, but the swords?
+Dialogue: 0,0:13:48.49,0:13:50.73,Main,Kon,0000,0000,0000,,Sure you're not overthinking this?
+Dialogue: 0,0:13:50.73,0:13:52.44,Main,Hij,0000,0000,0000,,I sure hope so.
+Dialogue: 0,0:13:52.44,0:13:56.21,Main,Hij,0000,0000,0000,,But I've been put through \Nhell by a sword, too.
+Dialogue: 0,0:13:56.21,0:14:00.88,Main,Kon,0000,0000,0000,,That reminds me. I saw Sogo talking \Nto his sword recently, too.
+Dialogue: 0,0:14:01.26,0:14:06.34,Main,Kon,0000,0000,0000,,He might suddenly become a serial \Nkiller too, or something!
+Dialogue: 0,0:14:08.13,0:14:09.64,Main,Oki,0000,0000,0000,,Oh, Hijikata-san.
+Dialogue: 0,0:14:09.99,0:14:13.10,Main,Oki,0000,0000,0000,,Sorry, but I'm borrowing your \Nroom to take this guy apart.
+Dialogue: 0,0:14:16.16,0:14:18.32,Main,Hij,0000,0000,0000,,Huh? What was that just now?
+Dialogue: 0,0:14:18.32,0:14:20.27,Main,Kon,0000,0000,0000,,What did he mean, take apart? \NWhat was that we just saw?
+Dialogue: 0,0:14:20.27,0:14:21.94,Main,Hij,0000,0000,0000,,Wait, Sogo!
+Dialogue: 0,0:14:20.71,0:14:21.94,Main,Hij,0000,0000,0000,,No! Please no!
+Dialogue: 0,0:14:21.94,0:14:23.79,Main,Kon,0000,0000,0000,,What are you doing in my room?
+Dialogue: 0,0:14:28.28,0:14:29.98,Main,Hij,0000,0000,0000,,Finally got it out.
+Dialogue: 0,0:14:29.98,0:14:31.59,Main,Oki,0000,0000,0000,,This won't do, boss.
+Dialogue: 0,0:14:31.59,0:14:33.91,Main,Kus,0000,0000,0000,,You gotta be more gentle with elders.
+Dialogue: 0,0:14:33.91,0:14:36.04,Main,Oki,0000,0000,0000,,Man, that was one hell of a surprise.
+Dialogue: 0,0:14:36.50,0:14:39.62,Main,Oki,0000,0000,0000,,I didn't expect someone other \Nthan me to own an excalibur.
+Dialogue: 0,0:14:39.62,0:14:41.77,Main,Oki,0000,0000,0000,,That's the boss. A real connoisseur.
+Dialogue: 0,0:14:42.26,0:14:46.05,Main,Shin,0000,0000,0000,,Gin-san, you can finally kiss \Ngoodbye to playing scabbard.
+Dialogue: 0,0:14:46.05,0:14:49.43,Main,Kus,0000,0000,0000,,Thank ya so much for \Nlending me yer filthy ass.
+Dialogue: 0,0:14:49.43,0:14:53.00,Main,Tet,0000,0000,0000,,No problem. We're glad this \Nfilthy ass was of use.
+Dialogue: 0,0:14:53.00,0:14:56.68,Main,Kag,0000,0000,0000,,Yeah. If you don't mind that \Nfilthy ass, come hang out again.
+Dialogue: 0,0:14:56.68,0:14:59.64,Main,Oki,0000,0000,0000,,Er, I'm not sure I follow.
+Dialogue: 0,0:15:00.08,0:15:02.56,Main,Oki,0000,0000,0000,,Are we bidding farewell to the boss's ass?
+Dialogue: 0,0:15:02.56,0:15:05.58,Main,Tet,0000,0000,0000,,The thing is, the scabbard holding your sword
+Dialogue: 0,0:15:05.58,0:15:08.79,Main,Tet,0000,0000,0000,,is apparently Kusanagi-san's \Nlong separated wife.
+Dialogue: 0,0:15:08.79,0:15:13.32,Main,Tet,0000,0000,0000,,So if possible, we'd like to send \Nhim back to his original home.
+Dialogue: 0,0:15:16.18,0:15:20.08,Main,Kus,0000,0000,0000,,Scabberina, you've been silent all this while.
+Dialogue: 0,0:15:20.08,0:15:21.37,Main,Kus,0000,0000,0000,,You must be mad, right?
+Dialogue: 0,0:15:21.37,0:15:22.97,Main,Kus,0000,0000,0000,,I'm truly sorry!
+Dialogue: 0,0:15:22.97,0:15:27.54,Main,Kus,0000,0000,0000,,I caused ya so much pain \N'cause I was so weak!
+Dialogue: 0,0:15:27.54,0:15:29.59,Main,Kus,0000,0000,0000,,But it's all right now.
+Dialogue: 0,0:15:29.59,0:15:31.28,Main,Kus,0000,0000,0000,,I swear ta protect ya.
+Dialogue: 0,0:15:31.28,0:15:33.01,Main,Kus,0000,0000,0000,,I'll never let ya go again.
+Dialogue: 0,0:15:33.01,0:15:36.92,Main,Kus,0000,0000,0000,,Could we make a fresh \Nstart as one sword again?
+Dialogue: 0,0:15:40.77,0:15:42.90,Main,Sca,0000,0000,0000,,Who're you, anyway?
+Dialogue: 0,0:15:43.81,0:15:46.10,Main,Sca,0000,0000,0000,,Could somebody tell me what's going on?
+Dialogue: 0,0:15:46.10,0:15:49.29,Main,Sca,0000,0000,0000,,Did he just propose to me out \Nof the blue? That's messed up!
+Dialogue: 0,0:15:49.29,0:15:52.42,Main,Sca,0000,0000,0000,,Who's this old fart? I'm scared, So-kun!
+Dialogue: 0,0:15:52.42,0:15:53.11,Main,Shin,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:53.11,0:15:57.52,Main,Kus,0000,0000,0000,,What're ya talkin' about, \NScabberina? It's me, Kusanagi!
+Dialogue: 0,0:15:57.52,0:16:01.12,Main,Kus,0000,0000,0000,,Did ya have ta wait so long \Nthat ya forgot about me?
+Dialogue: 0,0:16:01.12,0:16:04.17,Main,Kag,0000,0000,0000,,Hey, Member Kusanagi. \NDid you get the wrong Scabberina?
+Dialogue: 0,0:16:04.17,0:16:06.73,Main,Kus,0000,0000,0000,,Nah! I'd never mistake her!
+Dialogue: 0,0:16:06.73,0:16:07.91,Main,Kus,0000,0000,0000,,Right, Scabberina?
+Dialogue: 0,0:16:07.91,0:16:09.13,Main,Oki,0000,0000,0000,,Uh...
+Dialogue: 0,0:16:09.13,0:16:13.88,Main,Oki,0000,0000,0000,,Maybe you shouldn't dredge \Nup the past after so long.
+Dialogue: 0,0:16:13.88,0:16:17.14,Main,Oki,0000,0000,0000,,Everyone has memories they \Ndon't want to remember.
+Dialogue: 0,0:16:17.58,0:16:20.37,Main,Kus,0000,0000,0000,,Wh-What's that supposed ta mean?
+Dialogue: 0,0:16:20.37,0:16:22.77,Main,Oki,0000,0000,0000,,It means time has passed.
+Dialogue: 0,0:16:23.23,0:16:26.41,Main,Oki,0000,0000,0000,,She's living a new chapter in her life now.
+Dialogue: 0,0:16:26.41,0:16:29.69,Main,Oki,0000,0000,0000,,With me. Right, Scarlett?
+Dialogue: 0,0:16:29.69,0:16:32.36,Main,Sca,0000,0000,0000,,Stop it, So-kun! People are watching!
+Dialogue: 0,0:16:32.36,0:16:34.92,Main,Kus,0000,0000,0000,,Who're you callin' Scarlett?!
+Dialogue: 0,0:16:34.92,0:16:39.37,Main,Oki,0000,0000,0000,,She's happy as she is now, \Nso what're you doing here?
+Dialogue: 0,0:16:39.70,0:16:41.90,Main,Oki,0000,0000,0000,,Take the hint, honestly.
+Dialogue: 0,0:16:41.90,0:16:45.00,Main,Shin,0000,0000,0000,,This is starting to sound like a fight \Nbetween ex- and current boyfriends.
+Dialogue: 0,0:16:45.39,0:16:47.00,Main,Sca,0000,0000,0000,,Yeah, yeah!
+Dialogue: 0,0:16:47.00,0:16:49.52,Main,Sca,0000,0000,0000,,So-kun is my savior.
+Dialogue: 0,0:16:49.96,0:16:54.19,Main,Sca,0000,0000,0000,,Put on sale in a New York slum, \NI waited forever for a buyer.
+Dialogue: 0,0:16:54.19,0:16:57.51,Main,Sca,0000,0000,0000,,Nobody gave me a second \Nglance, but he bought me.
+Dialogue: 0,0:16:57.51,0:16:59.51,Main,Shin,0000,0000,0000,,New York? You were on sale in New York?!
+Dialogue: 0,0:17:00.85,0:17:04.28,Main,Sca,0000,0000,0000,,A worn-out scabbard, \Nand his big, hefty sword.
+Dialogue: 0,0:17:04.28,0:17:06.37,Main,Sca,0000,0000,0000,,I knew he was out of my league.
+Dialogue: 0,0:17:06.37,0:17:09.19,Main,Sca,0000,0000,0000,,I knew it was just a game. \NThat he wouldn't get serious.
+Dialogue: 0,0:17:09.19,0:17:11.15,Main,Shin,0000,0000,0000,,What is this, {\i1}Pretty Woman{\i0}?
+Dialogue: 0,0:17:11.82,0:17:14.87,Main,Sca,0000,0000,0000,,But he's always serious when playing around
+Dialogue: 0,0:17:14.87,0:17:18.00,Main,Sca,0000,0000,0000,,and always plays around when he's serious.
+Dialogue: 0,0:17:18.00,0:17:19.85,Main,Sca,0000,0000,0000,,That innocence of his gradually \Nthawed my frozen heart...
+Dialogue: 0,0:17:19.85,0:17:22.16,Main,Shin,0000,0000,0000,,Forget playing around, he basically \Nused and threw you from the start!
+Dialogue: 0,0:17:22.58,0:17:27.04,Main,Sca,0000,0000,0000,,Dunno who you are, but could \Nyou not get in our way?
+Dialogue: 0,0:17:27.04,0:17:30.04,Main,Sca,0000,0000,0000,,We're plenty happy right now.
+Dialogue: 0,0:17:30.04,0:17:32.01,Main,Kus,0000,0000,0000,,S-Scabberina...
+Dialogue: 0,0:17:32.01,0:17:33.52,Main,Oki,0000,0000,0000,,I don't know how it was in the past,
+Dialogue: 0,0:17:33.52,0:17:40.32,Main,Oki,0000,0000,0000,,but Scarlett is now crazy for my fat \NKikuichimonji RX-78 all the way inside.
+Dialogue: 0,0:17:40.32,0:17:42.43,Main,Sca,0000,0000,0000,,Stop it, So-kun!
+Dialogue: 0,0:17:42.43,0:17:44.06,Main,Sca,0000,0000,0000,,This is too embarrassing!
+Dialogue: 0,0:17:44.06,0:17:47.29,Main,Kus,0000,0000,0000,,Scabberina! This can't be!
+Dialogue: 0,0:17:47.29,0:17:49.06,Main,Kus,0000,0000,0000,,I won't accept this!
+Dialogue: 0,0:17:49.06,0:17:50.57,Main,Shin,0000,0000,0000,,Kusanagi-san!
+Dialogue: 0,0:17:51.40,0:17:53.99,Main,Gin,0000,0000,0000,,Why'd you come back here?!
+Dialogue: 0,0:17:53.99,0:17:55.50,Main,Shin,0000,0000,0000,,Kusanagi-san...
+Dialogue: 0,0:17:55.50,0:17:58.81,Main,Kag,0000,0000,0000,,Oh, no. He's closed himself off.
+Dialogue: 0,0:17:58.81,0:18:00.55,Main,Gin,0000,0000,0000,,My butthole is what's been closed off!
+Dialogue: 0,0:18:00.55,0:18:02.37,Main,Gin,0000,0000,0000,,It's gone all the way inside!
+Dialogue: 0,0:18:02.37,0:18:04.24,Main,Oki,0000,0000,0000,,Well, there you have it.
+Dialogue: 0,0:18:04.24,0:18:08.83,Main,Oki,0000,0000,0000,,Sorry, boss, but could you get \Nthat blunt ass outta here already?
+Dialogue: 0,0:18:12.80,0:18:14.32,Main,Shin,0000,0000,0000,,Gin-san?!
+Dialogue: 0,0:18:14.32,0:18:17.16,Main,Shin,0000,0000,0000,,And what were you guys doing? Eavesdropping?!
+Dialogue: 0,0:18:17.16,0:18:18.01,Main,All,0000,0000,0000,,Aw...
+Dialogue: 0,0:18:20.32,0:18:22.43,Main,Oki,0000,0000,0000,,What's the meaning of this, boss?
+Dialogue: 0,0:18:22.43,0:18:24.10,Main,Gin,0000,0000,0000,,You've gotta be kidding me.
+Dialogue: 0,0:18:24.10,0:18:26.41,Main,Gin,0000,0000,0000,,I'm not leaving with a lid on my ass.
+Dialogue: 0,0:18:26.41,0:18:28.35,Main,Gin,0000,0000,0000,,I'm constipated enough as it is.
+Dialogue: 0,0:18:28.77,0:18:33.36,Main,Oki,0000,0000,0000,,Shall I slice open your belly \Nand drag your guts out for you?
+Dialogue: 0,0:18:33.36,0:18:34.70,Main,Kon,0000,0000,0000,,Stop it, Sogo!
+Dialogue: 0,0:18:34.70,0:18:35.61,Main,Shin,0000,0000,0000,,You too, Gin-san!
+Dialogue: 0,0:18:35.61,0:18:38.45,Main,Gin,0000,0000,0000,,You guys stay out of this! This runt is mine!
+Dialogue: 0,0:18:39.73,0:18:43.83,Main,Gin,0000,0000,0000,,It's only right to settle a dispute \Nover swords with swords, yeah?
+Dialogue: 0,0:18:43.83,0:18:47.33,Main,Gin,0000,0000,0000,,A superior scabbard \Ndeserves a superior sword.
+Dialogue: 0,0:18:47.33,0:18:49.21,Main,Gin,0000,0000,0000,,Isn't that right, Sogo-kun?
+Dialogue: 0,0:18:49.21,0:18:49.83,Main,Oki,0000,0000,0000,,You mean...
+Dialogue: 0,0:18:50.30,0:18:52.34,Main,Gin,0000,0000,0000,,My sword and yours...
+Dialogue: 0,0:18:52.74,0:18:56.59,Main,Gin,0000,0000,0000,,Let's have a real sword fight to see \Nwhich deserves that scabbard more.
+Dialogue: 0,0:18:56.59,0:18:58.95,Main,Bo,0000,0000,0000,,Real sword fight?!
+Dialogue: 0,0:18:58.95,0:19:02.72,Main,Oki,0000,0000,0000,,Amusing. This is a chance \NI thought I'd never have.
+Dialogue: 0,0:19:02.72,0:19:03.82,Main,Kon,0000,0000,0000,,Stop it!
+Dialogue: 0,0:19:03.82,0:19:06.24,Main,Kon,0000,0000,0000,,If you two sadists clash,
+Dialogue: 0,0:19:06.24,0:19:09.54,Main,Kon,0000,0000,0000,,your sadism will repel and you-know-what...
+Dialogue: 0,0:19:09.54,0:19:10.70,Main,Kon,0000,0000,0000,,I'm a masochist!
+Dialogue: 0,0:19:10.70,0:19:14.40,Main,Hij,0000,0000,0000,,Don't take the bait, Sogo. The \NShinsengumi Code bans personal clashes.
+Dialogue: 0,0:19:14.40,0:19:17.36,Main,Gin,0000,0000,0000,,Oh, really? Personal clashes aren't allowed?
+Dialogue: 0,0:19:17.36,0:19:21.77,Main,Gin,0000,0000,0000,,That's weird. I remember having very \Npersonal clashes with a pair of morons before.
+Dialogue: 0,0:19:21.77,0:19:24.78,Main,Gin,0000,0000,0000,,Oh, I see. Those were more \Nlike "flashes," weren't they?
+Dialogue: 0,0:19:24.78,0:19:27.45,Main,Gin,0000,0000,0000,,Those two were defeated before \NI could even do anything,
+Dialogue: 0,0:19:27.45,0:19:30.16,Main,Gin,0000,0000,0000,,so they were clashes that \Nwere over in a flash, huh?
+Dialogue: 0,0:19:30.50,0:19:32.08,Main,Kon,0000,0000,0000,,The duel will take place tomorrow!
+Dialogue: 0,0:19:32.08,0:19:35.20,Main,Kon,0000,0000,0000,,It'll be held in the World \NClash Tournament venue!
+Dialogue: 0,0:19:32.08,0:19:43.93,sign_27933_358_Odd_Jobs_Ace_Sak,Sign,0000,0000,0000,,Odd Jobs Ace Sakata Gintoki vs. \NShinsengumi Ace Okita Sogo\N{\fs20}Deathmatch
+Dialogue: 0,0:19:35.20,0:19:37.15,Main,Hij,0000,0000,0000,,Have your neck washed and \Nready to be chopped off!
+Dialogue: 0,0:19:37.15,0:19:38.93,Main,Kag,0000,0000,0000,,Shaddup! He's not gonna wash his neck!
+Dialogue: 0,0:19:38.93,0:19:41.76,Main,Kag,0000,0000,0000,,He'll wash every part of his body \N{\i1}but{\i0} his neck with sponge gourd!
+Dialogue: 0,0:19:41.76,0:19:43.93,Main,Shin,0000,0000,0000,,Hey, what happened to the Shinsengumi Code?!
+Dialogue: 0,0:19:43.93,0:19:45.93,sign_3472_15_Smithy,Sign,0000,0000,0000,,Smithy
+Dialogue: 0,0:19:44.62,0:19:46.50,Main,Shin,0000,0000,0000,,What's wrong with you, Gin-san?
+Dialogue: 0,0:19:46.50,0:19:48.66,Main,Shin,0000,0000,0000,,Why'd you challenge him to that battle?
+Dialogue: 0,0:19:48.66,0:19:50.73,Main,Gin,0000,0000,0000,,It's not a battle. It's a buttle.
+Dialogue: 0,0:19:51.14,0:19:56.36,Main,Gin,0000,0000,0000,,You wouldn't understand how it feels \Nto have a sword stuck in your ass 24/7.
+Dialogue: 0,0:19:56.68,0:20:00.36,Main,Shin,0000,0000,0000,,I get wanting to be freed of the sword, \Nbut you're up against Okita-san,
+Dialogue: 0,0:20:00.87,0:20:03.99,Main,Shin,0000,0000,0000,,the genius swordsman said to be the \Nstrongest man in the Shinsengumi.
+Dialogue: 0,0:20:03.99,0:20:05.85,Main,Shin,0000,0000,0000,,And he's a super sadist to boot.
+Dialogue: 0,0:20:05.85,0:20:08.49,Main,Shin,0000,0000,0000,,He was one misstep away \Nfrom being a serial killer.
+Dialogue: 0,0:20:08.49,0:20:11.02,Main,Shin,0000,0000,0000,,He's a trashy scumbag whose \Ngood looks are all he has.
+Dialogue: 0,0:20:11.02,0:20:13.50,Main,Gin,0000,0000,0000,,Shinpachi, what do you have against him?
+Dialogue: 0,0:20:13.50,0:20:18.25,Main,Kag,0000,0000,0000,,Shaddup! My ace ain't \Ngonna lose to that runt!
+Dialogue: 0,0:20:18.25,0:20:22.76,Main,Kag,0000,0000,0000,,This guy was one misstep away \Nfrom being a NEET scumbag, too!
+Dialogue: 0,0:20:23.22,0:20:26.81,Main,Shin,0000,0000,0000,,Uh, that's not missing any steps. \NIt's Gin-san as we know him now.
+Dialogue: 0,0:20:26.81,0:20:28.77,Main,Gin,0000,0000,0000,,What's that supposed to mean, Shinpachi?
+Dialogue: 0,0:20:28.77,0:20:32.77,Main,Kag,0000,0000,0000,,Have more faith! Everybody is one \Nmisstep away from being a NEET!
+Dialogue: 0,0:20:32.77,0:20:33.52,Main,Shin,0000,0000,0000,,Like hell!
+Dialogue: 0,0:20:34.02,0:20:35.74,Main,Tet,0000,0000,0000,,Can I ask you something?
+Dialogue: 0,0:20:35.74,0:20:38.97,Main,Tet,0000,0000,0000,,You'll both use real swords \Nin the buttle tomorrow, right?
+Dialogue: 0,0:20:39.60,0:20:42.38,Main,Tet,0000,0000,0000,,How are you going to fight with that?
+Dialogue: 0,0:20:43.46,0:20:44.81,Main,Tet,0000,0000,0000,,One, two...
+Dialogue: 0,0:20:44.81,0:20:47.16,Main,Gin,0000,0000,0000,,Ow, ow, ow!
+Dialogue: 0,0:20:47.48,0:20:49.11,Main,Gin,0000,0000,0000,,Wait, time out! I can't... I can't!
+Dialogue: 0,0:20:49.11,0:20:52.81,Main,Gin,0000,0000,0000,,I'll become Shiina Kippei! I'll end \Nup like Shiina Kippei in {\i1}Outrage{\i0}!
+Dialogue: 0,0:20:52.81,0:20:57.55,Main,Kag,0000,0000,0000,,Pull it out or stop? Make up your \Ndamn mind, you stupid Duncan!
+Dialogue: 0,0:20:57.55,0:21:00.01,Main,Gin,0000,0000,0000,,They all look like villains! \NThey all look like Takeshi!
+Dialogue: 0,0:21:00.01,0:21:03.13,Main,Kag,0000,0000,0000,,Raise the horsepower, \Ndammit, you stupid bean!
+Dialogue: 0,0:21:03.44,0:21:05.80,Main,Gin,0000,0000,0000,,Wait, dammit, you stupid Gidayu...
+Dialogue: 0,0:21:08.64,0:21:11.32,Main,Kag,0000,0000,0000,,All right, keep jogging toward tomorrow!
+Dialogue: 0,0:21:11.32,0:21:13.53,Main,Kag,0000,0000,0000,,Eastward ho, dammit, you stupid Comaneci!
+Dialogue: 0,0:21:13.53,0:21:15.27,Main,Gin,0000,0000,0000,,You're getting your priorities mixed up!
+Dialogue: 0,0:21:15.27,0:21:19.13,Main,Gin,0000,0000,0000,,Enough! How long are you \Ngonna stay holed up in there?
+Dialogue: 0,0:21:19.13,0:21:20.49,Main,Gin,0000,0000,0000,,Just get out already!
+Dialogue: 0,0:21:20.49,0:21:24.46,Main,Kus,0000,0000,0000,,No! There's no way a blunt \Nsword like me could ever win!
+Dialogue: 0,0:21:24.46,0:21:28.33,Main,Kus,0000,0000,0000,,I'm so blunt, I can't even rend my \Nlong-severed marriage or my regrets...
+Dialogue: 0,0:21:28.33,0:21:30.91,Main,Kus,0000,0000,0000,,I'm just a corn potage Tasty Stick!
+Dialogue: 0,0:21:30.91,0:21:33.29,Main,Gin,0000,0000,0000,,Don't casually try to be the yummy \None, you stupid natto flavor!
+Dialogue: 0,0:21:33.29,0:21:35.20,Main,Tet,0000,0000,0000,,Have more faith in yourself, Kusanagi.
+Dialogue: 0,0:21:35.20,0:21:38.08,Main,Tet,0000,0000,0000,,The most important thing in a \Nsword isn't its cutting edge!
+Dialogue: 0,0:21:38.50,0:21:41.31,Main,Tet,0000,0000,0000,,It's the core that runs through its blade!
+Dialogue: 0,0:21:41.31,0:21:42.94,Main,Tet,0000,0000,0000,,People and swords are the same.
+Dialogue: 0,0:21:42.94,0:21:45.50,Main,Tet,0000,0000,0000,,Even if they run into brick walls, \Nas long as their cores stay intact,
+Dialogue: 0,0:21:45.50,0:21:47.05,Main,Tet,0000,0000,0000,,they can be beaten back \Ninto shape over and over!
+Dialogue: 0,0:21:47.84,0:21:51.60,Main,Tet,0000,0000,0000,,Your love for your scabbard \Nis the mark of a great sword.
+Dialogue: 0,0:21:51.60,0:21:53.97,Main,Tet,0000,0000,0000,,Leave the rest to a smithy.
+Dialogue: 0,0:21:53.97,0:21:57.86,Main,Kus,0000,0000,0000,,Tetsuko-han... Will you \Nbeat me back inta shape?
+Dialogue: 0,0:22:03.00,0:22:07.07,Main,Tet,0000,0000,0000,,Don't worry. I promise to turn \Nyou into the most splendid sword.
+Dialogue: 0,0:22:07.69,0:22:10.66,Main,Tet,0000,0000,0000,,I won't let anybody call \Nyou a dull ass anymore.
+Dialogue: 0,0:22:10.66,0:22:12.74,Main,Kus,0000,0000,0000,,I'm countin' on ya, Tetsuko-han!
+Dialogue: 0,0:22:12.74,0:22:13.87,Main,Tet,0000,0000,0000,,Sure! Here I go!
+Dialogue: 0,0:22:22.88,0:22:25.88,TBC,Sign,0000,0000,0000,,To Be Continued
+Dialogue: 0,0:23:55.93,0:24:00.89,Ep Title,Title,0000,0000,0000,,{\fad(440,1)}The Super Sadist and the Super Sadist
+Dialogue: 0,0:23:57.26,0:23:58.89,Main,Oki,0000,0000,0000,,Next time: "The Super Sadist..."
+Dialogue: 0,0:23:58.89,0:23:59.94,Main,Gin,0000,0000,0000,,"...and the Super Sadist."
+Dialogue: 0,0:24:00.89,0:24:05.90,Side Bar Top Yellow,TextR,0000,0000,0000,,Huh? Another multi-episode arc?
+Dialogue: 0,0:24:00.89,0:24:05.90,Side Bar Bottom,TextL,0000,0000,0000,,Yep. Another multi-episode arc.
+Dialogue: 0,0:24:05.90,0:24:12.32,Side Bar Top,TextR,0000,0000,0000,,But after doing arcs that lasted entire cours,
+Dialogue: 0,0:24:05.90,0:24:12.32,Side Bar Bottom,TextL,0000,0000,0000,,we can stick by our guns and still \Ncall this a collection of short stories.

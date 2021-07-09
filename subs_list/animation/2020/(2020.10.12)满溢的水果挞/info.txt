@@ -1,0 +1,5 @@
+﻿chs: 满溢的水果挞
+cht: 滿溢的水果撻
+jp: おちこぼれフルーツタルト 
+en: Dropout Idol Fruit Tart
+rome: Ochikobore Fruit Tart

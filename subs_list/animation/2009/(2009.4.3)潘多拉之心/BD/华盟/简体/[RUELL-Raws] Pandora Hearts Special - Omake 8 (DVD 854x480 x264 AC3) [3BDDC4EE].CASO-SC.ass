@@ -1,0 +1,94 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[Aegisub Project Garbage]
+Audio File: [RUELL-Raws] Pandora Hearts Special - Omake 8 (DVD 854x480 x264 AC3) [3BDDC4EE].mkv
+Video File: [RUELL-Raws] Pandora Hearts Special - Omake 8 (DVD 854x480 x264 AC3) [3BDDC4EE].mkv
+Video AR Mode: 4
+Video AR Value: 1.779167
+Video Position: 4816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.72,0:00:07.33,zhengwen,NTP,0,0,0,,潘多拉之心  附录小动画
+Dialogue: 0,0:00:09.50,0:00:12.00,zhengwen,NTP,0,0,0,,大家好
+Dialogue: 0,0:00:12.30,0:00:17.06,zhengwen,NTP,0,0,0,,谢谢你购买了潘多拉之心DVD第八卷
+Dialogue: 0,0:00:17.19,0:00:22.81,zhengwen,NTP,0,0,0,,看到这里  你一定非常了解潘多拉之心了吧
+Dialogue: 0,0:00:23.67,0:00:28.31,zhengwen,NTP,0,0,0,,不过  还有很多你所不知的真相哦
+Dialogue: 0,0:00:28.85,0:00:30.20,zhengwen,NTP,0,0,0,,想知道吗
+Dialogue: 0,0:00:31.08,0:00:32.83,zhengwen,NTP,0,0,0,,想知道吧
+Dialogue: 0,0:00:33.38,0:00:34.71,zhengwen,NTP,0,0,0,,这个嘛…
+Dialogue: 0,0:00:35.94,0:00:38.54,zhengwen,NTP,0,0,0,,这个感觉非常好  文森特大人
+Dialogue: 0,0:00:39.13,0:00:40.76,zhengwen,NTP,0,0,0,,就这样  就这样别动
+Dialogue: 0,0:00:41.16,0:00:43.26,zhengwen,NTP,0,0,0,,要拍得帅些哦  艾可
+Dialogue: 0,0:00:43.54,0:00:45.35,zhengwen,NTP,0,0,0,,是  文森特大人
+Dialogue: 0,0:00:47.77,0:00:50.33,zhengwen,NTP,0,0,0,,潘多拉之心啊  喵
+Dialogue: 0,0:00:45.58,0:00:50.59,zhengwen,NTP,0,0,0,,笑脸猫篇-少狗眼看人低-\N（注：NEEDLESS的照山最次）
+Dialogue: 0,0:00:52.09,0:00:54.06,zhushi,NTP,0,0,0,,新鲜金枪鱼装在罐头里
+Dialogue: 0,0:00:54.35,0:00:56.14,zhushi,NTP,0,0,0,,猫猫都最喜欢这个了
+Dialogue: 0,0:00:56.35,0:00:57.37,zhushi,NTP,0,0,0,,请认准肉球标志的
+Dialogue: 0,0:00:57.39,0:00:59.30,zhushi,NTP,0,0,0,,happy happy happy猫
+Dialogue: 0,0:00:59.79,0:01:01.72,zhushi,NTP,0,0,0,,狗狗也可以吃哦
+Dialogue: 0,0:01:03.54,0:01:06.78,zhushi,NTP,0,0,0,,各位  您是否有必要重新考虑一下自己的保险呢
+Dialogue: 0,0:01:07.03,0:01:08.82,zhushi,NTP,0,0,0,,会不会不知该如何选择呢
+Dialogue: 0,0:01:09.11,0:01:12.40,zhushi,NTP,0,0,0,,请您放心  行业排名第一的奈特雷生命保险公司
+Dialogue: 0,0:01:12.56,0:01:13.92,zhushi,NTP,0,0,0,,将免费为您提供咨询服务
+Dialogue: 0,0:01:14.36,0:01:16.63,zhengwen,NTP,0,0,0,,嗯喵？到底是谁啊喵
+Dialogue: 0,0:01:14.65,0:01:15.55,zhushi,NTP,0,0,0,,请拨打热线
+Dialogue: 0,0:01:16.14,0:01:19.49,zhushi,NTP,0,0,0,,节约保险费  由奈特雷生命保险公司为您服务
+Dialogue: 0,0:01:21.12,0:01:24.87,zhushi,NTP,0,0,0,,（笑脸猫的房间）
+Dialogue: 0,0:01:25.17,0:01:26.26,zhengwen,NTP,0,0,0,,来了喵
+Dialogue: 0,0:01:33.91,0:01:36.80,zhengwen,NTP,0,0,0,,原来是戴娜喵  快进来喵
+Dialogue: 0,0:01:46.79,0:01:48.33,zhengwen,NTP,0,0,0,,你听我说喵
+Dialogue: 0,0:01:50.02,0:01:51.63,zhengwen,NTP,0,0,0,,笑脸猫明明什么坏事都没做
+Dialogue: 0,0:01:51.67,0:01:54.40,zhengwen,NTP,0,0,0,,可大家总是欺负笑脸猫喵
+Dialogue: 0,0:01:55.46,0:02:00.34,zhengwen,NTP,0,0,0,,尤其是那帽商喵  老是叫我笨猫喵
+Dialogue: 0,0:02:01.39,0:02:04.88,zhengwen,NTP,0,0,0,,而且他性格也很坏喵
+Dialogue: 0,0:02:05.86,0:02:06.92,zhengwen,NTP,0,0,0,,我讨厌他喵
+Dialogue: 0,0:02:08.65,0:02:09.90,zhengwen,NTP,0,0,0,,基尔巴特喵？
+Dialogue: 0,0:02:10.25,0:02:12.25,zhengwen,NTP,0,0,0,,他我不大了解喵
+Dialogue: 0,0:02:12.68,0:02:15.85,zhengwen,NTP,0,0,0,,反正比笑脸猫要弱  应该没关系喵
+Dialogue: 0,0:02:17.16,0:02:20.76,zhengwen,NTP,0,0,0,,还有  总是在喝红茶的那女人很腹黑喵
+Dialogue: 0,0:02:22.15,0:02:23.77,zhengwen,NTP,0,0,0,,果然你也这么觉得喵
+Dialogue: 0,0:02:23.88,0:02:25.32,zhengwen,NTP,0,0,0,,和笑脸猫一样喵
+Dialogue: 0,0:02:26.04,0:02:27.95,zhengwen,NTP,0,0,0,,比起这些人  还是杰克难办喵
+Dialogue: 0,0:02:28.09,0:02:29.74,zhengwen,NTP,0,0,0,,我对付不来他喵
+Dialogue: 0,0:02:31.05,0:02:35.51,zhengwen,NTP,0,0,0,,他总是嘿嘿地笑着把艾莉丝带走喵
+Dialogue: 0,0:02:35.83,0:02:38.75,zhengwen,NTP,0,0,0,,笑脸猫也想和艾莉丝多玩会儿的喵
+Dialogue: 0,0:02:40.82,0:02:44.52,zhengwen,NTP,0,0,0,,潘多拉之心  喵喵
+Dialogue: 0,0:02:39.78,0:02:44.78,zhushi,NTP,0,0,0,,笑脸猫篇-猫篇-
+Dialogue: 0,0:02:47.09,0:02:50.05,zhengwen,NTP,0,0,0,,不过我还是最讨厌文森特喵
+Dialogue: 0,0:02:50.25,0:02:52.46,zhengwen,NTP,0,0,0,,又欺负笑脸猫  又欺负艾莉丝喵
+Dialogue: 0,0:02:52.50,0:02:56.18,zhengwen,NTP,0,0,0,,就是喵  他是性格最坏的家伙喵
+Dialogue: 0,0:02:56.62,0:02:59.94,zhengwen,NTP,0,0,0,,文森特是最差劲最讨厌的家伙喵
+Dialogue: 0,0:03:02.97,0:03:04.15,zhengwen,NTP,0,0,0,,怎么了喵
+Dialogue: 0,0:03:09.12,0:03:10.40,zhengwen,NTP,0,0,0,,笑脸猫～
+Dialogue: 0,0:03:14.91,0:03:17.82,zhengwen,NTP,0,0,0,,潘多拉之心  喵喵喵
+Dialogue: 0,0:03:13.06,0:03:18.07,zhushi,NTP,0,0,0,,笑脸猫篇-大怪兽-
+Dialogue: 0,0:03:18.17,0:03:19.83,zhengwen,NTP,0,0,0,,下回预告
+Dialogue: 0,0:03:20.11,0:03:21.68,zhengwen,NTP,0,0,0,,下回的潘多拉之心
+Dialogue: 0,0:03:21.81,0:03:25.28,zhengwen,NTP,0,0,0,,等等喵  笑脸猫也想做预告喵
+Dialogue: 0,0:03:26.35,0:03:29.44,zhengwen,NTP,0,0,0,,非常抱歉  这是艾可的任务
+Dialogue: 0,0:03:29.54,0:03:30.87,zhengwen,NTP,0,0,0,,请不要打岔
+Dialogue: 0,0:03:31.57,0:03:33.49,zhengwen,NTP,0,0,0,,就一会儿有什么关系喵
+Dialogue: 0,0:03:34.16,0:03:36.15,zhengwen,NTP,0,0,0,,下回的潘多拉之心
+Dialogue: 0,0:03:36.18,0:03:39.36,zhengwen,NTP,0,0,0,,笑脸猫要反击文森特喵
+Dialogue: 0,0:03:39.54,0:03:42.02,zhengwen,NTP,0,0,0,,把那家伙这样那样的
+Dialogue: 0,0:03:42.14,0:03:45.48,zhengwen,NTP,0,0,0,,弄得体无完肤碎尸万段
+Dialogue: 0,0:03:46.64,0:03:47.52,zhengwen,NTP,0,0,0,,笑脸猫
+Dialogue: 0,0:03:47.66,0:03:49.43,zhengwen,NTP,0,0,0,,啊  文森特大人
+Dialogue: 0,0:03:49.52,0:03:52.16,zhengwen,NTP,0,0,0,,笑脸猫好像还想让我陪他玩呢
+Dialogue: 0,0:03:54.05,0:03:58.53,zhengwen,NTP,0,0,0,,你这种家伙…你这种家伙…喵～～
+Dialogue: 0,0:03:59.92,0:04:01.19,zhengwen,NTP,0,0,0,,哎呀真是的

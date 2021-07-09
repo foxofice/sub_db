@@ -1,0 +1,68 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-01-03 22:10:58
+; // 版本: 0.73
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Higurashi_Kai
+Original Script:CASO&I.G
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,26,&H00FFFFFF,&HF0000000,&H001F0A79,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00150861,&H90000000,1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,134
+Style: yokoku,方正粗宋_GBK,27,&H00FFFFFF,&HF0000000,&H00000000,&H90000000,0,0,0,0,100,90,0,0.00,1,2,1,2,30,30,11,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.23,0:00:01.66,*Default,NTP,0000,0000,0000,,蕾娜
+Dialogue: 0,0:00:01.92,0:00:04.05,*Default,NTP,0000,0000,0000,,這次蟬鳴的實寫電影要開播了\N\N\N\N
+Dialogue: 0,0:00:04.12,0:00:04.80,*Default,NTP,0000,0000,0000,,你騙人！\N\N\N\N
+Dialogue: 0,0:00:05.80,0:00:08.74,*Default,NTP,0000,0000,0000,,特典還附送主題歌和迷你廣播劇CD\N\N\N\N
+Dialogue: 0,0:00:08.80,0:00:09.62,*Default,NTP,0000,0000,0000,,你騙人！\N\N\N\N
+Dialogue: 0,0:00:09.75,0:00:11.28,*Default,NTP,0000,0000,0000,,是真的
+Dialogue: 0,0:00:15.97,0:00:19.97,*Default,NTP,0000,0000,0000,,{\fad(500,500)}統統帶回家～☆迷你DVD\N2007 WINTER
+Dialogue: 0,0:00:20.47,0:00:25.47,*Default,NTP,0000,0000,0000,,{\fad(500,500)}我們將給來C73的各位播放一些有趣的影像！
+Dialogue: 0,0:00:25.97,0:00:31.47,zhushi,NTP,0000,0000,0000,,{\an2}{\fad(500,500)}首先是2008年1月25日發售DVD第5卷中\N先行收錄·TV未放送\N「次回預告動畫劇場」第10話預告的說☆
+Dialogue: 0,0:00:34.02,0:00:35.01,*Default,NTP,0000,0000,0000,,我是梨花的說
+Dialogue: 0,0:00:35.39,0:00:37.18,*Default,NTP,0000,0000,0000,,夏末也是很辛苦的時期
+Dialogue: 0,0:00:37.36,0:00:39.53,*Default,NTP,0000,0000,0000,,大家健康沒什麼問題吧
+Dialogue: 0,0:00:39.79,0:00:43.92,*Default,NTP,0000,0000,0000,,我有喝園崎家特製青汁飲料
+Dialogue: 0,0:00:44.07,0:00:45.11,*Default,NTP,0000,0000,0000,,精神咪啪咪啪
+Dialogue: 0,0:00:45.28,0:00:48.49,*Default,NTP,0000,0000,0000,,使用御社神大人的作祟神力在努力著
+Dialogue: 0,0:00:48.66,0:00:51.82,*Default,NTP,0000,0000,0000,,大家也要注意身體的說
+Dialogue: 0,0:00:52.16,0:00:54.25,*Default,NTP,0000,0000,0000,,那麼  下周的知了叫是？
+Dialogue: 0,0:00:54.63,0:00:57.04,*Default,NTP,0000,0000,0000,,有沙都子一個人坐電車
+Dialogue: 0,0:00:57.49,0:00:58.82,*Default,NTP,0000,0000,0000,,公由的田地
+Dialogue: 0,0:00:59.21,0:01:01.82,*Default,NTP,0000,0000,0000,,脫掉制服的詩音三個疑問
+Dialogue: 0,0:01:02.06,0:01:02.93,*Default,NTP,0000,0000,0000,,咪啪
+Dialogue: 0,0:01:03.64,0:01:05.17,*Default,NTP,0000,0000,0000,,啊嗚
+Dialogue: 0,0:01:05.57,0:01:06.16,yokoku,NTP,0000,0000,0000,,下回
+Dialogue: 0,0:01:06.44,0:01:08.15,yokoku,NTP,0000,0000,0000,,皆{\1c&H0000ff&}殺{\r}篇  其五
+Dialogue: 0,0:01:08.60,0:01:09.39,yokoku,NTP,0000,0000,0000,,{\fn方正准圆_GBK\b1}對決
+Dialogue: 0,0:01:10.08,0:01:12.78,*Default,NTP,0000,0000,0000,,下周也要來看的說
+Dialogue: 0,0:01:13.10,0:01:15.42,*Default,NTP,0000,0000,0000,,剪刀石頭布
+Dialogue: 0,0:01:21.01,0:01:26.56,zhushi,NTP,0000,0000,0000,,{\an2}{\fad(500,500)}同1月25日發售DVD第五卷\N本邦初次公開·新作影像特典\N「幕後☆知了(暫)」第九話的說☆
+Dialogue: 0,0:01:28.12,0:01:31.98,*Default,NTP,0000,0000,0000,,脫
+Dialogue: 0,0:01:32.27,0:01:35.16,*Default,NTP,0000,0000,0000,,一同跟隨我到地獄的盡頭吧！
+Dialogue: 0,0:01:35.41,0:01:36.22,*Default,NTP,0000,0000,0000,,哦！
+Dialogue: 0,0:01:36.49,0:01:41.18,*Default,NTP,0000,0000,0000,,K  K…
+Dialogue: 0,0:01:46.53,0:01:52.10,zhushi,NTP,0000,0000,0000,,{\an2}{\fad(500,500)}接下來是無字幕OP的說☆\N是連DVD亦未收錄的貴重影像哦
+Dialogue: 0,0:03:28.13,0:03:33.70,zhushi,NTP,0000,0000,0000,,{\an2}{\fad(500,500)}最後是無字幕ED的說☆\N這也是初次公開哦☆
+Dialogue: 0,0:05:04.75,0:05:10.30,zhushi,NTP,0000,0000,0000,,{\an2}{\fad(500,500)}今後也請多多支持「寒蟬鳴泣之時 解」的說☆\N讓我們在DVD裡再見吧！
+Dialogue: 0,0:05:11.97,0:05:13.25,*Default,NTP,0000,0000,0000,,寒蟬鳴泣之時 解  DVD系列
+Dialogue: 0,0:05:13.25,0:05:14.26,zhushi,NTP,0000,0000,0000,,{\an2}把DVD交出來
+Dialogue: 0,0:05:14.47,0:05:16.27,*Default,NTP,0000,0000,0000,,啊嗚啊嗚啊嗚啊嗚…
+Dialogue: 0,0:05:16.44,0:05:17.73,*Default,NTP,0000,0000,0000,,梨花！
+Dialogue: 0,0:05:17.94,0:05:18.65,*Default,NTP,0000,0000,0000,,哦！
+Dialogue: 0,0:05:18.86,0:05:20.73,*Default,NTP,0000,0000,0000,,你這傢伙對我的摩托車做什麼呢噢！！
+Dialogue: 0,0:05:19.82,0:05:20.78,zhushi,NTP,0000,0000,0000,,梨花小姐  那裡可沒有DVD哦
+Dialogue: 0,0:05:21.65,0:05:22.41,zhushi,NTP,0000,0000,0000,,{\an2}小此目叔叔已經預訂走了
+Dialogue: 0,0:05:22.41,0:05:23.78,zhushi,NTP,0000,0000,0000,,{\an2}不預訂的話一定會後悔的
+Dialogue: 0,0:05:23.78,0:05:25.75,zhushi,NTP,0000,0000,0000,,{\an2}第3期製作決定！\N最新情報請點擊oyashirosama.com！

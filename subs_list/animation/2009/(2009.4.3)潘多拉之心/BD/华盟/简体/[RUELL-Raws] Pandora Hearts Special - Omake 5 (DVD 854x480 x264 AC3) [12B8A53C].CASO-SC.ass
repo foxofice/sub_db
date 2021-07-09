@@ -1,0 +1,100 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[Aegisub Project Garbage]
+Audio File: [RUELL-Raws] Pandora Hearts Special - Omake 5 (DVD 854x480 x264 AC3) [12B8A53C].mkv
+Video File: [RUELL-Raws] Pandora Hearts Special - Omake 5 (DVD 854x480 x264 AC3) [12B8A53C].mkv
+Video AR Mode: 4
+Video AR Value: 1.779167
+Video Zoom Percent: 0.750000
+Active Line: 3
+Video Position: 5406
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,12,134
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H000000DD,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,12,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.37,0:00:07.18,zhengwen,NTP,0,0,0,,潘多拉之心  附录小动画
+Dialogue: 0,0:00:12.92,0:00:19.70,zhengwen,NTP,0,0,0,,哟～感谢你购买潘多拉之心DVD第五卷
+Dialogue: 0,0:00:19.87,0:00:22.66,zhengwen,NTP,0,0,0,,怎么  这回不是布雷克你是不是很失望啊
+Dialogue: 0,0:00:25.03,0:00:26.59,zhengwen,NTP,0,0,0,,这话只能在这儿说哦
+Dialogue: 0,0:00:26.65,0:00:28.22,zhengwen,NTP,0,0,0,,布雷克那家伙糖吃太多了
+Dialogue: 0,0:00:28.28,0:00:30.62,zhengwen,NTP,0,0,0,,生了蛀牙  疼得都哭出来了哦
+Dialogue: 0,0:00:30.68,0:00:32.24,zhengwen,NTP,0,0,0,,所以我代替他…
+Dialogue: 0,0:00:35.80,0:00:38.19,zhengwen,NTP,0,0,0,,那我们就此告辞了
+Dialogue: 0,0:00:45.33,0:00:50.38,zhushi,NTP,0,0,0,,潘多拉之心\N（海上运动）
+Dialogue: 0,0:00:45.85,0:00:47.18,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:00:52.86,0:00:55.18,zhengwen,NTP,0,0,0,,这是上次去海边夏令营的照片啊
+Dialogue: 0,0:00:55.91,0:00:57.21,zhengwen,NTP,0,0,0,,已经冲出来了啊
+Dialogue: 0,0:00:57.84,0:01:01.09,zhengwen,NTP,0,0,0,,如果有想要的照片就来写下名字哦
+Dialogue: 0,0:01:02.10,0:01:05.32,zhengwen,NTP,0,0,0,,心跳不已的潘多拉学园  part2
+Dialogue: 0,0:01:06.22,0:01:09.11,zhengwen,NTP,0,0,0,,哎呀  拍得真好呢
+Dialogue: 0,0:01:09.34,0:01:11.72,zhengwen,NTP,0,0,0,,不过这照片让人有点不好意思
+Dialogue: 0,0:01:12.51,0:01:17.38,zhengwen,NTP,0,0,0,,这是…为什么呢  有种很怀念的感觉
+Dialogue: 0,0:01:17.71,0:01:20.18,zhengwen,NTP,0,0,0,,虽然是一个礼拜前刚去过的呢
+Dialogue: 0,0:01:20.53,0:01:23.48,zhengwen,NTP,0,0,0,,你们看  艾莉丝小姐真可爱
+Dialogue: 0,0:01:23.82,0:01:28.76,zhengwen,NTP,0,0,0,,嗯…我在想海水的咸味再加上胡椒的话  很适合吃肉
+Dialogue: 0,0:01:28.99,0:01:30.87,zhengwen,NTP,0,0,0,,你原来在想这种事情么
+Dialogue: 0,0:01:31.04,0:01:31.96,zhengwen,NTP,0,0,0,,这是什么
+Dialogue: 0,0:01:32.22,0:01:34.64,zhengwen,NTP,0,0,0,,这就是如假包换的海藻头
+Dialogue: 0,0:01:35.07,0:01:36.21,zhengwen,NTP,0,0,0,,太假了
+Dialogue: 0,0:01:36.35,0:01:37.48,zhengwen,NTP,0,0,0,,连奥兹君都…
+Dialogue: 0,0:01:38.19,0:01:41.49,zhengwen,NTP,0,0,0,,天然海藻的护发效果如何呢
+Dialogue: 0,0:01:41.57,0:01:43.04,zhengwen,NTP,0,0,0,,不是用来护发的  不是护发的啊
+Dialogue: 0,0:01:43.66,0:01:46.44,zhengwen,NTP,0,0,0,,话说回来  那西瓜真是可惜了
+Dialogue: 0,0:01:46.46,0:01:48.10,zhengwen,NTP,0,0,0,,我的头可不是西瓜
+Dialogue: 0,0:01:48.26,0:01:50.74,zhengwen,NTP,0,0,0,,就是就是  是海藻头呢
+Dialogue: 0,0:01:50.91,0:01:52.07,zhengwen,NTP,0,0,0,,奥兹君～
+Dialogue: 0,0:01:53.33,0:01:57.43,zhengwen,NTP,0,0,0,,但是后来小艾可帮我们把西瓜平分了呢
+Dialogue: 0,0:01:58.78,0:02:01.17,zhengwen,NTP,0,0,0,,你们只顾自己去吃了刨冰啊
+Dialogue: 0,0:02:01.70,0:02:06.48,zhengwen,NTP,0,0,0,,是的  刨冰还是抹茶红豆牛奶冰最好吃了
+Dialogue: 0,0:02:06.66,0:02:10.50,zhengwen,NTP,0,0,0,,哎呀  我吃的抹茶红豆牛奶冰才是最棒的呢
+Dialogue: 0,0:02:10.85,0:02:12.85,zhengwen,NTP,0,0,0,,喂  你什么时候去吃的啊
+Dialogue: 0,0:02:13.15,0:02:14.12,zhengwen,NTP,0,0,0,,我喜欢夏威夷…
+Dialogue: 0,0:02:14.17,0:02:16.24,zhengwen,NTP,0,0,0,,我我！我喜欢柠檬味的
+Dialogue: 0,0:02:17.38,0:02:22.39,zhushi,NTP,0,0,0,,潘多拉之心\N（海上运动）
+Dialogue: 0,0:02:17.38,0:02:22.39,zhushi,NTP,0,0,0,,{\an7}（海里的海藻头）
+Dialogue: 0,0:02:19.06,0:02:20.90,zhengwen,NTP,0,0,0,,潘多拉之心
+Dialogue: 0,0:02:46.93,0:02:51.11,zhengwen,NTP,0,0,0,,哎呀  有什么事吗  基尔巴特老师
+Dialogue: 0,0:02:51.24,0:02:54.81,zhengwen,NTP,0,0,0,,那个…我想要照片所以来写名字…
+Dialogue: 0,0:02:54.93,0:02:56.89,zhengwen,NTP,0,0,0,,果然如此啊
+Dialogue: 0,0:02:57.49,0:03:00.39,zhengwen,NTP,0,0,0,,生鲜海藻头果然很有纪念意义吧
+Dialogue: 0,0:03:00.65,0:03:01.99,zhengwen,NTP,0,0,0,,那个我不要
+Dialogue: 0,0:03:02.31,0:03:03.27,zhengwen,NTP,0,0,0,,这样啊
+Dialogue: 0,0:03:06.15,0:03:07.45,zhengwen,NTP,0,0,0,,那你要哪张
+Dialogue: 0,0:03:08.97,0:03:10.63,zhengwen,NTP,0,0,0,,第三张
+Dialogue: 0,0:03:10.74,0:03:12.78,zhengwen,NTP,0,0,0,,哎  你要这张吗
+Dialogue: 0,0:03:15.80,0:03:18.14,zhengwen,NTP,0,0,0,,原来你是好这口的呀
+Dialogue: 0,0:03:18.82,0:03:20.27,zhengwen,NTP,0,0,0,,真重口味呢
+Dialogue: 0,0:03:20.48,0:03:22.36,zhengwen,NTP,0,0,0,,才不是  谁说的…
+Dialogue: 0,0:03:23.57,0:03:25.02,zhengwen,NTP,0,0,0,,这么说…
+Dialogue: 0,0:03:25.14,0:03:29.98,zhengwen,NTP,0,0,0,,那个…这个…就是说…不是那样的…
+Dialogue: 0,0:03:30.20,0:03:33.74,zhengwen,NTP,0,0,0,,啊不…也不能说不是那样的…
+Dialogue: 0,0:03:35.08,0:03:40.13,zhushi,NTP,0,0,0,,潘多拉之心\N（海上运动）
+Dialogue: 0,0:03:35.96,0:03:38.65,zhengwen,NTP,0,0,0,,潘多拉之～心
+Dialogue: 0,0:03:40.27,0:03:41.92,zhengwen,NTP,0,0,0,,下回预告
+Dialogue: 0,0:03:42.64,0:03:44.27,zhengwen,NTP,0,0,0,,下回可不得了哦
+Dialogue: 0,0:03:44.43,0:03:46.38,zhengwen,NTP,0,0,0,,奥兹的秘密  艾莉丝的秘密
+Dialogue: 0,0:03:46.49,0:03:49.27,zhengwen,NTP,0,0,0,,还有这回只公布了名字的人的秘密
+Dialogue: 0,0:03:49.32,0:03:52.54,zhengwen,NTP,0,0,0,,一个个被解明  让人目不暇接
+Dialogue: 0,0:03:52.65,0:03:56.16,zhengwen,NTP,0,0,0,,啊  基尔巴特还有你的秘密哦
+Dialogue: 0,0:03:56.31,0:03:58.41,zhengwen,NTP,0,0,0,,哎  我的？我可没听说啊
+Dialogue: 0,0:03:58.49,0:04:01.95,zhengwen,NTP,0,0,0,,你最大的谜团  那就是你怕猫的性格
+Dialogue: 0,0:04:02.10,0:04:05.72,zhengwen,NTP,0,0,0,,对此我会好好发表我做的调查结果的
+Dialogue: 0,0:04:06.31,0:04:10.28,zhengwen,NTP,0,0,0,,招财猫  睡猫  调皮猫  F-14雄猫
+Dialogue: 0,0:04:06.31,0:04:10.28,zhushi,NTP,0,0,0,,（注1：睡猫是日本日光东照宫的国宝级雕刻）
+Dialogue: 0,0:04:06.31,0:04:10.28,zhushi,NTP,0,0,0,,（注2：F-14战斗机，爱称为雄猫（Tomcat））
+Dialogue: 0,0:04:10.29,0:04:12.89,zhengwen,NTP,0,0,0,,还有在江户风俗村出没的丁髻猫
+Dialogue: 0,0:04:13.03,0:04:15.18,zhengwen,NTP,0,0,0,,从未来穿越来的青猫
+Dialogue: 0,0:04:15.35,0:04:18.75,zhengwen,NTP,0,0,0,,你的忍耐限度究竟是多少呢
+Dialogue: 0,0:04:18.84,0:04:20.96,zhengwen,NTP,0,0,0,,不要啊啊

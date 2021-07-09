@@ -1,0 +1,20 @@
+﻿[Script Info]
+Title: 雪飘工作室
+Original Script: 雪飘工作室字幕
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 854
+PlayResY: 480
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimSun,29,&H00000000,&HF0000000,&H66000000,&H22000000,-1,-1,0,0,100,100,0,0,1,0,0,5,0,0,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.16,0:00:04.46,*Default,,0,0,0,,{\fad(720,720)\move(427,270,427,360,0,2320)}梦
+Dialogue: 0,0:00:04.66,0:00:06.98,*Default,,0,0,0,,{\fad(720,720)\move(427,270,427,360,0,2320)}我徘徊在梦境之中
+Dialogue: 0,0:00:07.16,0:00:09.48,*Default,,0,0,0,,{\fad(720,720)\move(427,270,427,360,0,2320)}日夜轮回的梦
+Dialogue: 0,0:00:09.66,0:00:11.98,*Default,,0,0,0,,{\fad(720,720)\move(427,270,427,360,0,2320)}永无止境的梦
+Dialogue: 0,0:01:04.55,0:01:11.51,*Default,,0,0,0,,{\fad(1240,2100)\pos(427,320}嗯…一言为定

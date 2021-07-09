@@ -1,0 +1,46 @@
+[Script Info]
+; // 此字幕由PopSub生成  2009-12-25 02:43:21
+; // 版本: 0.76
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:Stand_Alone_Complex_SP
+Original Script:Fosky
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:800
+PlayResY:448
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SP,simhei,24,&H00FFFFFF,&H30000000,&H30000000,&H30000000,0,0,0,0,110,100,1,0.00,1,1,0,2,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.18,0:00:12.31,SP,NTP,0000,0000,0000,,我回来了～
+Dialogue: 0,0:00:12.31,0:00:13.51,SP,NTP,0000,0000,0000,,听我说、听我说
+Dialogue: 0,0:00:14.08,0:00:16.14,SP,NTP,0000,0000,0000,,奇怪，大家都不在啊
+Dialogue: 0,0:00:20.99,0:00:22.16,SP,NTP,0000,0000,0000,,什么来着…
+Dialogue: 0,0:00:22.16,0:00:24.66,SP,NTP,0000,0000,0000,,大家都被少校叫出去了
+Dialogue: 0,0:00:24.66,0:00:27.03,SP,NTP,0000,0000,0000,,目的地是…秘密？
+Dialogue: 0,0:00:27.03,0:00:27.73,SP,NTP,0000,0000,0000,,此外
+Dialogue: 0,0:00:27.73,0:00:29.97,SP,NTP,0000,0000,0000,,为了更积极的使用「语言」
+Dialogue: 0,0:00:29.97,0:00:32.46,SP,NTP,0000,0000,0000,,我们试着改用写纸条的方式留言
+Dialogue: 0,0:00:34.34,0:00:35.30,SP,NTP,0000,0000,0000,,真是的
+Dialogue: 0,0:00:35.30,0:00:37.64,SP,NTP,0000,0000,0000,,他们根本不懂语言的意义是什么
+Dialogue: 0,0:00:37.64,0:00:40.81,SP,NTP,0000,0000,0000,,这种时候他们应该要用高速的电讯传送嘛
+Dialogue: 0,0:00:40.81,0:00:42.38,SP,NTP,0000,0000,0000,,为什么传达这种事情
+Dialogue: 0,0:00:42.38,0:00:44.78,SP,NTP,0000,0000,0000,,却写了一堆看不懂的文章呢？
+Dialogue: 0,0:00:44.78,0:00:47.88,SP,NTP,0000,0000,0000,,不是看语言表面上的情报传递能力
+Dialogue: 0,0:00:47.88,0:00:51.49,SP,NTP,0000,0000,0000,,而是编排语言本身所具备的自我组织性
+Dialogue: 0,0:00:51.49,0:00:54.68,SP,NTP,0000,0000,0000,,这才是最重要的不是吗？
+Dialogue: 0,0:00:56.06,0:00:58.36,SP,NTP,0000,0000,0000,,这家伙…
+Dialogue: 0,0:01:01.20,0:01:04.53,SP,NTP,0000,0000,0000,,说起来呢从刚刚开始我就一直觉得在晃
+Dialogue: 0,0:01:04.53,0:01:07.43,SP,NTP,0000,0000,0000,,难不成是控制程式出现错误了吗？
+Dialogue: 0,0:01:08.10,0:01:11.00,SP,NTP,0000,0000,0000,,还是因为我受到了太大的刺激所致？
+Dialogue: 0,0:01:11.74,0:01:13.88,SP,NTP,0000,0000,0000,,自我诊断系统也没有异状啊…
+Dialogue: 0,0:01:13.88,0:01:15.21,SP,NTP,0000,0000,0000,,咦？
+Dialogue: 0,0:01:22.28,0:01:24.52,SP,NTP,0000,0000,0000,,奇怪！发生了什么事情？
+Dialogue: 0,0:01:24.52,0:01:27.11,SP,NTP,0000,0000,0000,,上面、上面啊！上面啦！
+Dialogue: 0,0:01:28.99,0:01:29.92,SP,NTP,0000,0000,0000,,真的假的？

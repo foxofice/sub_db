@@ -1,0 +1,30 @@
+﻿[Script Info]
+Title: 月刊少女野崎くん 08 Long Trailer
+Original Script: Flsnow
+Original Translation: ゼロ
+Original Editing: ゼロ
+Original Timing: 百百
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,冬青黑体简体中文 W3,50,&H00FFFFFF,&H00FFFFFF,&H00AF7800,&H00FFC800,0,0,0,0,100,100,0,0,1,1.5,0.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.82,0:00:04.49,Main,,0,0,0,,明天就是新款美少女手办的发售日了
+Dialogue: 0,0:00:04.56,0:00:07.50,Main,,0,0,0,,说起来为什么野崎和佐仓会一起去购物啊
+Dialogue: 0,0:00:08.32,0:00:11.07,Main,,0,0,0,,下集「学园的王子(女)大人(生)的烦恼」
+Dialogue: 0,0:00:11.42,0:00:13.79,Main,,0,0,0,,各位 即使一周见不到我感到孤独
+Dialogue: 0,0:00:14.12,0:00:15.14,Main,,0,0,0,,也不能哭泣哦
+Dialogue: 0,0:00:16.41,0:00:18.39,Main,,0,0,0,,我才没害羞呢 吵死了！
+Dialogue: 0,0:00:18.39,0:00:19.99,Main,,0,0,0,,诶 没人吐槽啊
+Dialogue: 0,0:00:20.05,0:00:22.60,Main,,0,0,0,,话说为什么我要一个人连个搭档都没有在这讲话啊
+Dialogue: 0,0:00:22.63,0:00:23.57,Main,,0,0,0,,才没有觉得寂寞
+Dialogue: 0,0:00:23.57,0:00:24.86,Main,,0,0,0,,我才没有觉得寂寞呢！
+Dialogue: 0,0:00:25.12,0:00:28.72,Main,,0,0,0,,哼 好男人总是与孤独为伴的
+Dialogue: 0,0:00:29.09,0:00:30.64,Main,,0,0,0,,我真的不觉得寂寞啊！

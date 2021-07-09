@@ -1,0 +1,5 @@
+﻿chs: DARKER THAN BLACK -黑之契约者-
+cht: DARKER THAN BLACK -黑之契約者-
+jp: DARKER THAN BLACK 黒の契約者
+en: Darker Than Black
+rome: Darker Than Black: Kuro no Keiyakusha

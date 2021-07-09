@@ -1,0 +1,30 @@
+﻿[Script Info]
+Title: Pandora Hearts
+Original Script: 华盟字幕社
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[Aegisub Project Garbage]
+Audio File: [RUELL-Raws] Pandora Hearts Special - TV Spot 3 (DVD 854x480 x264 AC3) [E0B6AD36].mkv
+Video File: [RUELL-Raws] Pandora Hearts Special - TV Spot 3 (DVD 854x480 x264 AC3) [E0B6AD36].mkv
+Video AR Mode: 4
+Video AR Value: 1.779167
+Video Zoom Percent: 1.000000
+Active Line: 4
+Video Position: 454
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,28,&H00FFFFFF,&H000000D5,&H00000000,&H50222222,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,1,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,zhengwen,NTP,0,0,0,,{\fad(0,600)}DVD發售中
+Dialogue: 0,0:00:04.76,0:00:08.81,zhengwen,NTP,0,0,0,,記得聽誰說過  那裡是吞噬一切的黑暗
+Dialogue: 0,0:00:09.56,0:00:11.77,zhengwen,NTP,0,0,0,,但是  並非完全沒有光明
+Dialogue: 0,0:00:12.78,0:00:14.86,zhengwen,NTP,0,0,0,,潘多拉之心DVD系列
+Dialogue: 0,0:00:15.05,0:00:16.21,zhengwen,NTP,0,0,0,,好評發售中

@@ -1,0 +1,437 @@
+﻿[Script Info]
+Title:(アニメ) Go！プリンセスプリキュア 第41話 「ゆいの夢！想いはキャンバスの中に…！」
+Synch Point: 0
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Original Translation: FLsnow
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Defau_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Flora_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H644E008C,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Merma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DF7900,&H64A85C00,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Twink_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000D75FE,&H64147AF8,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Scarl_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H000000FF,&H640000DD,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: Aroma_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00DC619B,&H647C254D,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: MissS_CN,Droid Sans Fallback,54,&H00FFFFFF,&H00FFFFFF,&H00555555,&H64000000,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: DDark_CN,Droid Sans Fallback,54,&H00000000,&H00FFFFFF,&H00DBDBDB,&H64FFFFFF,-1,0,0,0,100,100,1,0,1,2,2,2,10,10,15,1
+Style: OP-CN,方正细圆_GBK,35,&H00E3E3E3,&H000000FF,&HC8000000,&H64000000,-1,0,0,0,100,100,2,0,1,1,2,2,10,10,5,1
+Style: ED-CN,方正细圆_GBK,40,&H00FFFFFF,&H000000FF,&H009D2ECD,&H649028BD,0,0,0,0,100,100,2,0,1,2,0,2,10,10,5,1
+Style: EDFlora-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H00A436FD,&H644E008C,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+Style: EDMerma-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H00E3AA14,&H64A85C00,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+Style: EDTwink-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H000EBAE6,&H644B96CB,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+Style: EDScarl-CN,方正细圆_GBK,36,&H00FFFFFF,&H00FFFFFF,&H005225C6,&H641B07A2,0,0,0,0,100,100,2,0,1,2,0,2,10,10,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.64,0:00:04.85,Twink_CN,NTP,0,0,0,,这是希望王国的城堡么
+Dialogue: 0,0:00:07.11,0:00:08.98,Defau_CN,NTP,0,0,0,,充满着火焰的城堡所孕育出来
+Dialogue: 0,0:00:09.15,0:00:12.15,Defau_CN,NTP,0,0,0,,那时的光景深深映在我的眼帘里
+Dialogue: 0,0:00:18.47,0:00:22.90,Defau_CN,NTP,0,0,0,,我希望能将那份感动记录于绘画中
+Dialogue: 0,0:00:23.87,0:00:26.06,Defau_CN,NTP,0,0,0,,不知道有没有很好的将其表现出呢
+Dialogue: 0,0:00:26.23,0:00:27.69,Flora_CN,NTP,0,0,0,,做到了 做到了
+Dialogue: 0,0:00:29.25,0:00:35.37,Merma_CN,NTP,0,0,0,,对了 刚好梦之滨美术馆正举办绘画比赛
+Dialogue: 0,0:00:35.76,0:00:38.24,Merma_CN,NTP,0,0,0,,小唯你也去参加怎么样
+Dialogue: 0,0:00:38.51,0:00:40.16,Defau_CN,NTP,0,0,0,,比赛么
+Dialogue: 0,0:00:40.33,0:00:41.46,Twink_CN,NTP,0,0,0,,这不是挺好的嘛
+Dialogue: 0,0:00:41.67,0:00:44.94,Scarl_CN,NTP,0,0,0,,能让更多的人欣赏到唯的画呢
+Dialogue: 0,0:00:45.19,0:00:46.40,Merma_CN,NTP,0,0,0,,努力去试一把怎样
+Dialogue: 0,0:00:46.66,0:00:52.54,Defau_CN,NTP,0,0,0,,是呀 或许距离绘本作家这个梦想又近了一步了呢
+Dialogue: 0,0:00:53.12,0:00:54.45,Defau_CN,NTP,0,0,0,,我会去尝试的
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:02:56.30,0:02:57.88,Defau_CN,NTP,0,0,0,,比赛的主题是
+Dialogue: 0,0:02:58.02,0:03:00.59,Defau_CN,NTP,0,0,0,,大家的笑容么
+Dialogue: 0,0:03:01.00,0:03:04.24,Defau_CN,NTP,0,0,0,,也就是说能让大家露出笑容的画
+Dialogue: 0,0:03:04.80,0:03:07.04,Defau_CN,NTP,0,0,0,,不仅是技术和构图
+Dialogue: 0,0:03:07.23,0:03:11.21,Defau_CN,NTP,0,0,0,,还追求着符合主题的独创性呀
+Dialogue: 0,0:03:20.65,0:03:21.83,Aroma_CN,NTP,0,0,0,,怎么啦
+Dialogue: 0,0:03:26.29,0:03:30.64,Defau_CN,NTP,0,0,0,,比赛就意味着其他人的水平一定高
+Dialogue: 0,0:03:30.85,0:03:32.61,Defau_CN,NTP,0,0,0,,作画不能敷衍了事
+Dialogue: 0,0:03:33.02,0:03:35.83,Defau_CN,NTP,0,0,0,,必须画得好画得棒  对吧
+Dialogue: 0,0:03:38.19,0:03:40.97,Defau_CN,NTP,0,0,0,,我做得到吗
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:44.80,0:03:47.97,Defau_CN,NTP,0,0,0,,唯的梦想！心意在画布之中...！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:03:51.92,0:03:53.09,Defau_CN,NTP,0,0,0,,不是这样的
+Dialogue: 0,0:03:57.85,0:03:59.06,Defau_CN,NTP,0,0,0,,构图
+Dialogue: 0,0:04:05.97,0:04:09.45,Defau_CN,NTP,0,0,0,,不行 说到底 这个设计
+Dialogue: 0,0:04:11.66,0:04:15.26,Merma_CN,NTP,0,0,0,,话说 彼方又回希望王国去了
+Dialogue: 0,0:04:16.89,0:04:19.82,Aroma_CN,NTP,0,0,0,,好像是想调查点东西
+Dialogue: 0,0:04:29.38,0:04:31.70,MissS_CN,NTP,0,0,0,,彼方殿下不会有事吧
+Dialogue: 0,0:04:31.89,0:04:35.81,MissS_CN,NTP,0,0,0,,YES 火焰城堡的附近还是安全的
+Dialogue: 0,0:04:36.06,0:04:37.63,MissS_CN,NTP,0,0,0,,只要使用Royal Key的力量
+Dialogue: 0,0:04:37.84,0:04:41.30,MissS_CN,NTP,0,0,0,,马上就能回来这里了
+Dialogue: 0,0:04:41.47,0:04:42.53,Flora_CN,NTP,0,0,0,,这样啊
+Dialogue: 0,0:04:42.73,0:04:43.41,Flora_CN,NTP,0,0,0,,很好
+Dialogue: 0,0:04:43.59,0:04:45.18,Flora_CN,NTP,0,0,0,,那我也得加把劲了
+Dialogue: 0,0:04:45.50,0:04:48.44,Flora_CN,NTP,0,0,0,,Miss Shamour  训练就劳烦您了
+Dialogue: 0,0:04:48.63,0:04:52.24,MissS_CN,NTP,0,0,0,,YES 今天训练是料理哟
+Dialogue: 0,0:04:52.89,0:04:55.35,Twink_CN,NTP,0,0,0,,刚好肚子有些饿了 挺是时候的
+Dialogue: 0,0:04:56.89,0:04:59.70,Flora_CN,NTP,0,0,0,,小唯 好好加油
+Dialogue: 0,0:05:02.72,0:05:05.06,MissS_CN,NTP,0,0,0,,那么 Lesson start
+Dialogue: 0,0:05:09.35,0:05:11.44,Defau_CN,NTP,0,0,0,,我也得加把劲了
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:05:20.43,0:05:24.08,Defau_CN,NTP,0,0,0,,一定有其他人比我擅长这种类型吧
+Dialogue: 0,0:05:25.83,0:05:28.31,Defau_CN,NTP,0,0,0,,这种画能让人露出笑容么
+Dialogue: 0,0:05:33.20,0:05:37.28,Defau_CN,NTP,0,0,0,,话说  公主主题的作画行得通么
+Dialogue: 0,0:05:37.72,0:05:42.78,Defau_CN,NTP,0,0,0,,总觉得 变得越来越不知道画什么好了
+Dialogue: 0,0:05:50.23,0:05:51.72,Defau_CN,NTP,0,0,0,,怎么办
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:05:55.05,0:05:56.25,Flora_CN,NTP,0,0,0,,手工蛋糕
+Dialogue: 0,0:05:56.48,0:05:58.91,Flora_CN,NTP,0,0,0,,不知道小唯会不会开心呢
+Dialogue: 0,0:05:59.39,0:06:01.04,Flora_CN,NTP,0,0,0,,我回来啦
+Dialogue: 0,0:06:01.24,0:06:02.55,Flora_CN,NTP,0,0,0,,哎呀
+Dialogue: 0,0:06:21.94,0:06:23.55,Defau_CN,NTP,0,0,0,,要怎么做
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:38.08,0:06:38.90,Flora_CN,NTP,0,0,0,,疲劳的时候
+Dialogue: 0,0:06:39.07,0:06:40.64,Flora_CN,NTP,0,0,0,,蛋糕是最有效的！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:37.93,0:06:40.37,DDark_CN,NTP,0,0,0,,{\pos(404,240)}{\fs35}疲劳的时候
+Dialogue: 0,0:06:37.93,0:06:40.37,DDark_CN,NTP,0,0,0,,{\pos(465,307)}{\fs35}蛋糕是最有效的！
+Dialogue: 0,0:06:37.93,0:06:40.37,DDark_CN,NTP,0,0,0,,{\pos(518,381)}{\fs35}Miss Shamour教我做的
+Dialogue: 0,0:06:37.93,0:06:40.37,DDark_CN,NTP,0,0,0,,{\pos(453,461)}{\fs35}记得吃哟！
+Dialogue: 0,0:06:37.93,0:06:40.37,DDark_CN,NTP,0,0,0,,{\pos(471,533)}{\fs35}加油！
+Dialogue: 0,0:06:37.93,0:06:40.37,DDark_CN,NTP,0,0,0,,{\pos(702,564)}{\fs35}遥
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:47.62,0:06:49.29,Defau_CN,NTP,0,0,0,,小遥
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:06:54.55,0:06:55.57,Defau_CN,NTP,0,0,0,,我开动了
+Dialogue: 0,0:06:57.93,0:07:00.06,Defau_CN,NTP,0,0,0,,真美味
+Dialogue: 0,0:07:00.83,0:07:02.99,Defau_CN,NTP,0,0,0,,毕竟小遥也在支持着我
+Dialogue: 0,0:07:03.56,0:07:05.13,Defau_CN,NTP,0,0,0,,一定要画出好作品来
+Dialogue: 0,0:07:06.59,0:07:10.34,Defau_CN,NTP,0,0,0,,不过 能让大家露出笑容的画
+Dialogue: 0,0:07:10.54,0:07:12.38,Defau_CN,NTP,0,0,0,,你在画什么呀
+Dialogue: 0,0:07:13.25,0:07:14.64,Defau_CN,NTP,0,0,0,,望月老师
+Dialogue: 0,0:07:15.37,0:07:17.55,Defau_CN,NTP,0,0,0,,啊 没 那个
+Dialogue: 0,0:07:18.33,0:07:19.40,Defau_CN,NTP,0,0,0,,嗯？
+Dialogue: 0,0:07:19.74,0:07:21.13,Defau_CN,NTP,0,0,0,,哎呀 一片白
+Dialogue: 0,0:07:21.33,0:07:24.35,Defau_CN,NTP,0,0,0,,现...现在正在构思中
+Dialogue: 0,0:07:26.20,0:07:29.81,Defau_CN,NTP,0,0,0,,打算在这次比赛进行展示的
+Dialogue: 0,0:07:30.79,0:07:33.34,Defau_CN,NTP,0,0,0,,不过怎么画都觉得不够满意
+Dialogue: 0,0:07:34.99,0:07:36.88,Defau_CN,NTP,0,0,0,,摆着这样一张脸的话
+Dialogue: 0,0:07:37.15,0:07:39.79,Defau_CN,NTP,0,0,0,,能发现的事物也会变得发现不了的哟
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:07:40.34,0:07:42.56,Defau_CN,NTP,0,0,0,,别那么想不开啦
+Dialogue: 0,0:07:42.83,0:07:44.13,Defau_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:08:01.25,0:08:03.79,Defau_CN,NTP,0,0,0,,水黾红色的 A I U E O
+Dialogue: 0,0:08:04.00,0:08:06.63,Defau_CN,NTP,0,0,0,,水黾红色的 A I U E O
+Dialogue: 0,0:08:06.96,0:08:09.42,Defau_CN,NTP,0,0,0,,柿子树栗树 KA KI KU KE KO
+Dialogue: 0,0:08:09.72,0:08:12.59,Defau_CN,NTP,0,0,0,,柿子树栗树 KA KI KU KE KO
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,（估计是再练绕口令无实际意义）
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:08:12.96,0:08:16.34,Defau_CN,NTP,0,0,0,,加油 加油 光辉学园
+Dialogue: 0,0:08:16.52,0:08:18.02,Defau_CN,NTP,0,0,0,,加油 加油 光辉学园
+Dialogue: 0,0:08:18.17,0:08:20.09,Defau_CN,NTP,0,0,0,,耶
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:08:23.41,0:08:26.87,Defau_CN,NTP,0,0,0,,所有人都对我不闻不问的
+Dialogue: 0,0:08:32.99,0:08:37.28,Defau_CN,NTP,0,0,0,,光辉学园里聚集着充满梦想的学生啊
+Dialogue: 0,0:08:39.71,0:08:42.82,Defau_CN,NTP,0,0,0,,我待在这里真的好么
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:08:45.28,0:08:46.37,Twink_CN,NTP,0,0,0,,早～
+Dialogue: 0,0:08:46.71,0:08:48.64,Twink_CN,NTP,0,0,0,,我带慰问品过来啦
+Dialogue: 0,0:08:48.96,0:08:50.64,Scarl_CN,NTP,0,0,0,,很快就要到了吧
+Dialogue: 0,0:08:50.87,0:08:51.82,Scarl_CN,NTP,0,0,0,,比赛
+Dialogue: 0,0:08:52.02,0:08:52.67,Merma_CN,NTP,0,0,0,,怎么样了
+Dialogue: 0,0:08:52.89,0:08:54.14,Merma_CN,NTP,0,0,0,,感觉好像是已经完成了呀
+Dialogue: 0,0:08:54.36,0:08:56.83,Flora_CN,NTP,0,0,0,,有什么需要帮忙的话尽管说
+Dialogue: 0,0:08:57.19,0:08:58.49,Flora_CN,NTP,0,0,0,,比如揉揉肩啦
+Dialogue: 0,0:08:58.96,0:09:00.38,Defau_CN,NTP,0,0,0,,谢谢了
+Dialogue: 0,0:09:02.08,0:09:03.97,Defau_CN,NTP,0,0,0,,但是 抱歉
+Dialogue: 0,0:09:04.46,0:09:10.47,Defau_CN,NTP,0,0,0,,我还是打算放弃参加这次的比赛
+Dialogue: 0,0:09:17.66,0:09:21.32,Defau_CN,NTP,0,0,0,,抱歉 突然想起来我还有急事要办
+Dialogue: 0,0:09:22.61,0:09:24.02,Merma_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:09:30.34,0:09:32.92,DDark_CN,NTP,0,0,0,,我们已经不能那么悠闲了
+Dialogue: 0,0:09:33.84,0:09:35.60,DDark_CN,NTP,0,0,0,,你懂的吧
+Dialogue: 0,0:09:36.44,0:09:39.42,DDark_CN,NTP,0,0,0,,不会让她们继续如此地肆意妄为了
+Dialogue: 0,0:09:39.79,0:09:40.57,DDark_CN,NTP,0,0,0,,Stop
+Dialogue: 0,0:09:40.75,0:09:41.31,DDark_CN,NTP,0,0,0,,在
+Dialogue: 0,0:09:41.47,0:09:42.08,DDark_CN,NTP,0,0,0,,Freeze
+Dialogue: 0,0:09:42.22,0:09:43.10,DDark_CN,NTP,0,0,0,,在
+Dialogue: 0,0:09:43.47,0:09:46.63,DDark_CN,NTP,0,0,0,,让她们见识下强于以往的绝望
+Dialogue: 0,0:09:47.78,0:09:48.88,DDark_CN,NTP,0,0,0,,是
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:10:04.69,0:10:06.57,Defau_CN,NTP,0,0,0,,为什么会画不出来
+Dialogue: 0,0:10:09.64,0:10:11.52,Defau_CN,NTP,0,0,0,,啊 好漂亮
+Dialogue: 0,0:10:11.68,0:10:14.08,Defau_CN,NTP,0,0,0,,的确是很美丽地绽放着呢
+Dialogue: 0,0:10:14.92,0:10:17.55,Defau_CN,NTP,0,0,0,,那就试着画下来吧
+Dialogue: 0,0:10:17.71,0:10:19.12,Defau_CN,NTP,0,0,0,,好
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:10:20.53,0:10:21.79,Defau_CN,NTP,0,0,0,,望月老师
+Dialogue: 0,0:10:21.98,0:10:22.53,Defau_CN,NTP,0,0,0,,哎呀
+Dialogue: 0,0:10:22.69,0:10:23.63,Defau_CN,NTP,0,0,0,,你也一起来画吧
+Dialogue: 0,0:10:23.81,0:10:25.61,Defau_CN,NTP,0,0,0,,青空绘画教室
+Dialogue: 0,0:10:25.82,0:10:28.01,Defau_CN,NTP,0,0,0,,青空绘画教室？
+Dialogue: 0,0:10:28.26,0:10:32.55,Defau_CN,NTP,0,0,0,,有时候我会像这样教孩子们画画
+Dialogue: 0,0:10:33.10,0:10:34.68,Defau_CN,NTP,0,0,0,,这样啊
+Dialogue: 0,0:10:47.17,0:10:48.51,Defau_CN,NTP,0,0,0,,挺漂亮的呀
+Dialogue: 0,0:10:48.75,0:10:51.48,Defau_CN,NTP,0,0,0,,不过你为什么要让这么多的颜色混搭在一起呢
+Dialogue: 0,0:10:51.78,0:10:52.82,Defau_CN,NTP,0,0,0,,因为很可爱
+Dialogue: 0,0:10:54.20,0:10:55.96,Defau_CN,NTP,0,0,0,,这样比较可爱
+Dialogue: 0,0:10:59.12,0:11:01.14,Defau_CN,NTP,0,0,0,,确实是挺可爱的呢
+Dialogue: 0,0:11:02.26,0:11:03.93,Defau_CN,NTP,0,0,0,,你喜欢画画么
+Dialogue: 0,0:11:04.15,0:11:05.27,Defau_CN,NTP,0,0,0,,最喜欢了
+Dialogue: 0,0:11:05.47,0:11:06.28,Defau_CN,NTP,0,0,0,,为什么呢
+Dialogue: 0,0:11:06.48,0:11:09.78,Defau_CN,NTP,0,0,0,,因为很开心呀
+Dialogue: 0,0:11:12.05,0:11:15.15,Defau_CN,NTP,0,0,0,,这样啊 是呀
+Dialogue: 0,0:11:15.63,0:11:17.89,Defau_CN,NTP,0,0,0,,真是令人眼前一亮的色彩
+Dialogue: 0,0:11:18.55,0:11:20.33,Defau_CN,NTP,0,0,0,,望月老师
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:11:23.29,0:11:27.07,Defau_CN,NTP,0,0,0,,话说参加比赛的画还顺利么
+Dialogue: 0,0:11:27.56,0:11:28.97,Defau_CN,NTP,0,0,0,,那个...
+Dialogue: 0,0:11:30.78,0:11:33.63,Defau_CN,NTP,0,0,0,,其实我打算放弃的
+Dialogue: 0,0:11:33.96,0:11:36.88,Defau_CN,NTP,0,0,0,,我老是想着如何在比赛获奖
+Dialogue: 0,0:11:37.45,0:11:38.93,Defau_CN,NTP,0,0,0,,然后
+Dialogue: 0,0:11:39.15,0:11:41.58,Defau_CN,NTP,0,0,0,,变得看不见什么才是最重要的
+Dialogue: 0,0:11:42.48,0:11:44.72,Defau_CN,NTP,0,0,0,,也许是我忘记了
+Dialogue: 0,0:11:45.51,0:11:47.49,Defau_CN,NTP,0,0,0,,作画的愉悦
+Dialogue: 0,0:11:50.38,0:11:52.84,Defau_CN,NTP,0,0,0,,你找到了想要画的对象了么
+Dialogue: 0,0:11:54.32,0:11:58.31,Defau_CN,NTP,0,0,0,,暂时还不是很清楚 但是...
+Dialogue: 0,0:11:58.73,0:11:59.95,Defau_CN,NTP,0,0,0,,老师
+Dialogue: 0,0:12:00.14,0:12:02.65,Defau_CN,NTP,0,0,0,,能借我画具和画纸么
+Dialogue: 0,0:12:02.83,0:12:03.88,Defau_CN,NTP,0,0,0,,当然啦
+Dialogue: 0,0:12:04.05,0:12:05.47,Defau_CN,NTP,0,0,0,,谢谢你
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:12:14.40,0:12:15.40,DDark_CN,NTP,0,0,0,,Stop
+Dialogue: 0,0:12:15.54,0:12:16.55,DDark_CN,NTP,0,0,0,,Freeze
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:12:18.27,0:12:20.47,Defau_CN,NTP,0,0,0,,诶 那是什么呀
+Dialogue: 0,0:12:20.64,0:12:21.95,DDark_CN,NTP,0,0,0,,有很多的梦想
+Dialogue: 0,0:12:22.12,0:12:23.95,DDark_CN,NTP,0,0,0,,虽然很小不过挺强烈的
+Dialogue: 0,0:12:24.15,0:12:27.58,Defau_CN,NTP,0,0,0,,不行 不要夺走这些孩子们的梦想
+Dialogue: 0,0:12:27.90,0:12:28.83,DDark_CN,NTP,0,0,0,,别妨碍我们
+Dialogue: 0,0:12:29.02,0:12:30.22,DDark_CN,NTP,0,0,0,,妨碍我们的话
+Dialogue: 0,0:12:30.41,0:12:31.71,DDark_CN,NTP,0,0,0,,那就从你开始
+Dialogue: 0,0:12:36.58,0:12:37.33,DDark_CN,NTP,0,0,0,,什么
+Dialogue: 0,0:12:37.88,0:12:41.16,Defau_CN,NTP,0,0,0,,我不会让你们肆意妄为的
+Dialogue: 0,0:12:41.39,0:12:42.30,DDark_CN,NTP,0,0,0,,竟然抗住了
+Dialogue: 0,0:12:42.61,0:12:43.94,DDark_CN,NTP,0,0,0,,这家伙 究竟是
+Dialogue: 0,0:12:44.47,0:12:45.50,DDark_CN,NTP,0,0,0,,哈
+Dialogue: 0,0:12:49.01,0:12:52.11,Defau_CN,NTP,0,0,0,,我的梦想
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:12:59.55,0:13:00.98,Aroma_CN,NTP,0,0,0,,是绝望堡
+Dialogue: 0,0:13:01.18,0:13:01.94,Flora_CN,NTP,0,0,0,,各位
+Dialogue: 0,0:13:02.09,0:13:03.09,Merma_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:13:05.25,0:13:06.76,Flora_CN,NTP,0,0,0,,{\pos(465,705)}Precure
+Dialogue: 0,0:13:07.48,0:13:09.66,Flora_CN,NTP,0,0,0,,{\pos(485,705)}Princess Engage
+Dialogue: 0,0:13:05.25,0:13:06.76,Scarl_CN,NTP,0,0,0,,{\pos(830,705)}Precure
+Dialogue: 0,0:13:07.48,0:13:09.66,Scarl_CN,NTP,0,0,0,,{\pos(810,655)}Princess Engage
+Dialogue: 0,0:13:05.25,0:13:06.76,Twink_CN,NTP,0,0,0,,{\pos(160,705)}Precure
+Dialogue: 0,0:13:07.48,0:13:09.66,Twink_CN,NTP,0,0,0,,{\pos(185,655)}Princess Engage
+Dialogue: 0,0:13:05.25,0:13:06.76,Merma_CN,NTP,0,0,0,,{\pos(1160,705)}Precure
+Dialogue: 0,0:13:07.48,0:13:09.66,Merma_CN,NTP,0,0,0,,{\pos(1110,705)}Princess Engage
+Dialogue: 0,0:13:47.86,0:13:51.03,Flora_CN,NTP,0,0,0,,绽放的花朵公主
+Dialogue: 0,0:13:53.43,0:13:55.14,Flora_CN,NTP,0,0,0,,Cure Flora
+Dialogue: 0,0:13:56.88,0:14:00.89,Merma_CN,NTP,0,0,0,,澄澈的海洋公主
+Dialogue: 0,0:14:03.80,0:14:05.48,Merma_CN,NTP,0,0,0,,Cure Mermaid
+Dialogue: 0,0:14:09.13,0:14:11.49,Twink_CN,NTP,0,0,0,,闪耀的明星公主
+Dialogue: 0,0:14:14.18,0:14:15.81,Twink_CN,NTP,0,0,0,,Cure Twinkle
+Dialogue: 0,0:14:18.66,0:14:21.12,Scarl_CN,NTP,0,0,0,,真红的烈焰公主
+Dialogue: 0,0:14:24.74,0:14:26.29,Scarl_CN,NTP,0,0,0,,Cure Scarlet
+Dialogue: 0,0:14:28.72,0:14:29.47,Flora_CN,NTP,0,0,0,,坚强
+Dialogue: 0,0:14:29.67,0:14:30.65,Merma_CN,NTP,0,0,0,,温柔
+Dialogue: 0,0:14:30.86,0:14:31.86,Twink_CN,NTP,0,0,0,,美丽
+Dialogue: 0,0:14:32.38,0:14:33.40,Scarl_CN,NTP,0,0,0,,Go！
+Dialogue: 0,0:14:34.09,0:14:35.88,Flora_CN,NTP,0,0,0,,Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:14:38.36,0:14:40.04,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:14:41.69,0:14:42.77,Defau_CN,NTP,0,0,0,,你们几个
+Dialogue: 0,0:14:43.67,0:14:45.28,Defau_CN,NTP,0,0,0,,这里很危险
+Dialogue: 0,0:14:45.76,0:14:47.03,Flora_CN,NTP,0,0,0,,梦想老师
+Dialogue: 0,0:14:47.23,0:14:47.97,Defau_CN,NTP,0,0,0,,哎呀
+Dialogue: 0,0:14:48.23,0:14:49.33,Flora_CN,NTP,0,0,0,,快离开这里吧
+Dialogue: 0,0:14:49.60,0:14:51.38,Defau_CN,NTP,0,0,0,,你 好像在哪里
+Dialogue: 0,0:14:53.63,0:14:56.10,Flora_CN,NTP,0,0,0,,诶！ 啊 那是错觉吧
+Dialogue: 0,0:14:56.29,0:14:58.65,Flora_CN,NTP,0,0,0,,快点带孩子们到安全的地方去吧
+Dialogue: 0,0:14:58.81,0:15:00.99,Flora_CN,NTP,0,0,0,,这里就交给我们吧
+Dialogue: 0,0:15:01.91,0:15:02.71,Defau_CN,NTP,0,0,0,,不行的
+Dialogue: 0,0:15:02.89,0:15:05.19,Defau_CN,NTP,0,0,0,,我不能让其他人也牺牲了
+Dialogue: 0,0:15:05.37,0:15:06.26,Flora_CN,NTP,0,0,0,,诶
+Dialogue: 0,0:15:08.87,0:15:10.16,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:15:11.06,0:15:13.08,Defau_CN,NTP,0,0,0,,所以 还是快跑吧
+Dialogue: 0,0:15:13.91,0:15:16.06,Merma_CN,NTP,0,0,0,,我们会救出她的
+Dialogue: 0,0:15:16.24,0:15:17.45,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:15:23.50,0:15:24.76,Twink_CN,NTP,0,0,0,,请离开这里吧
+Dialogue: 0,0:15:25.19,0:15:26.80,Defau_CN,NTP,0,0,0,,你们究竟是
+Dialogue: 0,0:15:29.14,0:15:30.93,Defau_CN,NTP,0,0,0,,我马上去请求援助
+Dialogue: 0,0:15:31.14,0:15:32.81,Defau_CN,NTP,0,0,0,,你们可别勉强自己哈
+Dialogue: 0,0:15:34.90,0:15:35.81,Scarl_CN,NTP,0,0,0,,唯
+Dialogue: 0,0:15:36.00,0:15:37.61,Scarl_CN,NTP,0,0,0,,又勉强自己了啊
+Dialogue: 0,0:15:37.89,0:15:39.44,Flora_CN,NTP,0,0,0,,绝对会把你救出来的
+Dialogue: 0,0:15:39.64,0:15:40.74,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:15:46.31,0:15:48.43,Defau_CN,NTP,0,0,0,,梦想什么的不需要
+Dialogue: 0,0:15:48.80,0:15:51.43,Defau_CN,NTP,0,0,0,,绘本什么的怎样都好
+Dialogue: 0,0:15:51.62,0:15:52.77,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:15:53.57,0:15:54.94,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:15:56.54,0:15:58.44,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:15:58.97,0:16:00.79,Defau_CN,NTP,0,0,0,,是 谁
+Dialogue: 0,0:16:04.68,0:16:06.58,DDark_CN,NTP,0,0,0,,绝望...堡
+Dialogue: 0,0:16:12.24,0:16:13.69,Defau_CN,NTP,0,0,0,,那是
+Dialogue: 0,0:16:17.82,0:16:19.30,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:16:20.32,0:16:21.24,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:16:24.19,0:16:25.97,DDark_CN,NTP,0,0,0,,绝望
+Dialogue: 0,0:16:27.57,0:16:29.11,Defau_CN,NTP,0,0,0,,那是
+Dialogue: 0,0:16:33.73,0:16:35.29,Defau_CN,NTP,0,0,0,,我...
+Dialogue: 0,0:16:37.66,0:16:40.06,Flora_CN,NTP,0,0,0,,不要妨碍小唯的梦想
+Dialogue: 0,0:16:40.24,0:16:42.38,Merma_CN,NTP,0,0,0,,是呀 把小唯认真的梦想
+Dialogue: 0,0:16:42.56,0:16:44.30,Twink_CN,NTP,0,0,0,,一而再 再而三地利用
+Dialogue: 0,0:16:44.62,0:16:46.03,Scarl_CN,NTP,0,0,0,,不能原谅
+Dialogue: 0,0:16:51.15,0:16:52.79,Defau_CN,NTP,0,0,0,,大家
+Dialogue: 0,0:16:56.35,0:16:57.82,Defau_CN,NTP,0,0,0,,是呀
+Dialogue: 0,0:17:01.09,0:17:02.53,Flora_CN,NTP,0,0,0,,小唯的梦想
+Dialogue: 0,0:17:02.73,0:17:04.43,Flora_CN,NTP,0,0,0,,就由我们来守护
+Dialogue: 0,0:17:04.99,0:17:08.17,Defau_CN,NTP,0,0,0,,我想画的
+Dialogue: 0,0:17:09.66,0:17:11.38,Defau_CN,NTP,0,0,0,,是只有我才能画得出来的
+Dialogue: 0,0:17:11.60,0:17:12.39,Flora_CN,NTP,0,0,0,,坚强
+Dialogue: 0,0:17:12.55,0:17:13.57,Merma_CN,NTP,0,0,0,,温柔
+Dialogue: 0,0:17:13.73,0:17:14.97,Twink_CN,NTP,0,0,0,,美丽
+Dialogue: 0,0:17:15.15,0:17:16.67,Scarl_CN,NTP,0,0,0,,Precure的身影
+Dialogue: 0,0:17:19.96,0:17:22.92,Defau_CN,NTP,0,0,0,,必须从这里出去
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:25.26,0:17:25.88,DDark_CN,NTP,0,0,0,,嗯
+Dialogue: 0,0:17:26.11,0:17:26.88,DDark_CN,NTP,0,0,0,,什么
+Dialogue: 0,0:17:27.05,0:17:27.92,DDark_CN,NTP,0,0,0,,怎么了
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:29.32,0:17:30.86,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:17:32.00,0:17:33.24,Merma_CN,NTP,0,0,0,,意识...
+Dialogue: 0,0:17:33.43,0:17:34.85,Flora_CN,NTP,0,0,0,,等着 小唯
+Dialogue: 0,0:17:35.03,0:17:37.03,Flora_CN,NTP,0,0,0,,马上把你从那里救出来
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:38.01,0:17:39.60,DDark_CN,NTP,0,0,0,,绝望堡
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:45.32,0:17:46.56,Defau_CN,NTP,0,0,0,,一定要离开这里
+Dialogue: 0,0:17:46.88,0:17:50.14,Defau_CN,NTP,0,0,0,,我必须将其画下来
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:17:53.28,0:17:54.21,DDark_CN,NTP,0,0,0,,啊
+Dialogue: 0,0:17:54.40,0:17:55.00,DDark_CN,NTP,0,0,0,,这不可能
+Dialogue: 0,0:17:55.17,0:17:56.71,DDark_CN,NTP,0,0,0,,理应已经绝望了
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:18:00.98,0:18:03.84,Aroma_CN,NTP,0,0,0,,绝望堡的力量变弱了
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:18:07.84,0:18:09.02,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:18:09.38,0:18:10.48,Flora_CN,NTP,0,0,0,,各位
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:18:23.88,0:18:27.20,Flora_CN,NTP,0,0,0,,Mode Elegant Royal
+Dialogue: 0,0:18:59.20,0:19:01.95,Flora_CN,NTP,0,0,0,,Dress Up Royal
+Dialogue: 0,0:19:14.63,0:19:17.59,Flora_CN,NTP,0,0,0,,响彻吧！前往那遥远的彼方
+Dialogue: 0,0:19:23.41,0:19:27.52,Flora_CN,NTP,0,0,0,,Precure  Grand  Printemps
+Dialogue: 0,0:19:35.61,0:19:37.71,DDark_CN,NTP,0,0,0,,Dreaming
+Dialogue: 0,0:19:39.92,0:19:41.19,Flora_CN,NTP,0,0,0,,Blooming
+Dialogue: 0,0:19:48.14,0:19:49.59,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:19:57.32,0:19:58.12,DDark_CN,NTP,0,0,0,,怎么了
+Dialogue: 0,0:19:58.28,0:19:59.46,DDark_CN,NTP,0,0,0,,怎么一回事
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:01.30,0:20:02.34,Flora_CN,NTP,0,0,0,,打开
+Dialogue: 0,0:20:03.14,0:20:04.93,Flora_CN,NTP,0,0,0,,通往梦想的大门
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:10.65,0:20:13.93,Defau_CN,NTP,0,0,0,,去描绘那只有自己才能描绘的故事
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:14.45,0:20:16.08,Defau_CN,NTP,0,0,0,,想要去传达
+Dialogue: 0,0:20:16.25,0:20:18.90,Defau_CN,NTP,0,0,0,,梦想的力量
+Dialogue: 0,0:20:19.29,0:20:21.73,Defau_CN,NTP,0,0,0,,以及守护梦想的重要
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:24.19,0:20:25.60,Defau_CN,NTP,0,0,0,,谢谢你
+Dialogue: 0,0:20:26.63,0:20:28.32,Defau_CN,NTP,0,0,0,,来救我
+Dialogue: 0,0:20:28.52,0:20:30.20,Flora_CN,NTP,0,0,0,,小唯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:30.64,0:20:33.16,Defau_CN,NTP,0,0,0,,大家的声音传递给我了
+Dialogue: 0,0:20:33.34,0:20:35.12,Merma_CN,NTP,0,0,0,,在和绝望进行着战斗呢
+Dialogue: 0,0:20:35.29,0:20:36.94,Twink_CN,NTP,0,0,0,,这是太了不起了 唯唯
+Dialogue: 0,0:20:37.17,0:20:40.92,Defau_CN,NTP,0,0,0,,我呢 看着大家为了我在不断战斗着的身影
+Dialogue: 0,0:20:41.16,0:20:42.95,Defau_CN,NTP,0,0,0,,彻底醒悟了
+Dialogue: 0,0:20:44.29,0:20:46.12,Defau_CN,NTP,0,0,0,,我想描绘的
+Dialogue: 0,0:20:46.98,0:20:50.43,Defau_CN,NTP,0,0,0,,是为了守护梦想而战斗着的 各位的
+Dialogue: 0,0:20:50.96,0:20:53.10,Defau_CN,NTP,0,0,0,,Precure的身影
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:20:53.30,0:20:54.10,Scarl_CN,NTP,0,0,0,,唯
+Dialogue: 0,0:20:55.87,0:20:56.85,Defau_CN,NTP,0,0,0,,所以
+Dialogue: 0,0:20:57.03,0:20:59.55,Defau_CN,NTP,0,0,0,,比赛 我会再一次去努力的
+Dialogue: 0,0:20:59.96,0:21:03.37,Defau_CN,NTP,0,0,0,,我想向更多的人传递梦想的力量
+Dialogue: 0,0:21:03.88,0:21:06.52,Defau_CN,NTP,0,0,0,,所以我会画的
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:21:12.48,0:21:13.19,Defau_CN,NTP,0,0,0,,哎呀
+Dialogue: 0,0:21:13.39,0:21:15.45,Defau_CN,NTP,0,0,0,,谁都不在呢
+Dialogue: 0,0:21:15.84,0:21:17.58,Defau_CN,NTP,0,0,0,,真奇怪
+Dialogue: 0,0:21:18.70,0:21:22.19,Defau_CN,NTP,0,0,0,,也许是传言中的公主呢
+Dialogue: 0,0:21:22.42,0:21:23.55,Defau_CN,NTP,0,0,0,,传言
+Dialogue: 0,0:21:23.73,0:21:27.16,Defau_CN,NTP,0,0,0,,在学生们当中有这样的传言
+Dialogue: 0,0:21:27.35,0:21:29.71,Defau_CN,NTP,0,0,0,,存在着为守护梦想而战斗的公主
+Dialogue: 0,0:21:29.94,0:21:31.39,Defau_CN,NTP,0,0,0,,梦想
+Dialogue: 0,0:21:33.87,0:21:35.75,Defau_CN,NTP,0,0,0,,是呀
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:21:41.46,0:21:43.86,Defau_CN,NTP,0,0,0,,嗯 完成了
+Dialogue: 0,0:21:46.49,0:21:48.32,Aroma_CN,NTP,0,0,0,,这是Precure么
+Dialogue: 0,0:21:48.48,0:21:50.04,Flora_CN,NTP,0,0,0,,好漂亮呀
+Dialogue: 0,0:21:50.23,0:21:51.36,Flora_CN,NTP,0,0,0,,太棒了
+Dialogue: 0,0:21:52.79,0:21:54.19,Defau_CN,NTP,0,0,0,,谢谢
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:21:59.96,0:22:01.12,Defau_CN,NTP,0,0,0,,哎呀
+Dialogue: 0,0:22:01.69,0:22:04.24,Defau_CN,NTP,0,0,0,,挺好的嘛 画出来了呀
+Dialogue: 0,0:22:05.00,0:22:06.88,Defau_CN,NTP,0,0,0,,非常完美
+Dialogue: 0,0:22:08.05,0:22:11.01,DDark_CN,NTP,0,0,0,,{\frz15\pos(580,330)}梦想的彩虹
+Dialogue: 0,0:22:08.05,0:22:11.01,DDark_CN,NTP,0,0,0,,{\frz15\pos(597,461)}七濑 唯
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:22:11.72,0:22:13.60,Defau_CN,NTP,0,0,0,,哪怕只是一点点
+Dialogue: 0,0:22:13.89,0:22:18.54,Defau_CN,NTP,0,0,0,,也希望能向更多的人传递那耀眼的 梦想的力量
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:24:07.38,0:24:09.01,Flora_CN,NTP,0,0,0,,星星真是太棒了
+Dialogue: 0,0:24:09.86,0:24:11.59,Merma_CN,NTP,0,0,0,,能出席世界级的时装展
+Dialogue: 0,0:24:11.78,0:24:13.52,Merma_CN,NTP,0,0,0,,是个顶级模特都会为之倾心呢
+Dialogue: 0,0:24:13.70,0:24:15.33,Twink_CN,NTP,0,0,0,,别这么说啦 连南南都这样
+Dialogue: 0,0:24:15.48,0:24:17.31,Scarl_CN,NTP,0,0,0,,这样的话梦想就算是实现了吧
+Dialogue: 0,0:24:17.55,0:24:19.79,Twink_CN,NTP,0,0,0,,嗯 绝对不能失败
+Dialogue: 0,0:24:20.18,0:24:23.54,Twink_CN,NTP,0,0,0,,要所有人见识到天乃川星彩的认真
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:24:24.48,0:24:26.30,Flora_CN,NTP,0,0,0,,Go！Princess Precure
+Dialogue: 0,0:24:26.51,0:24:28.10,Flora_CN,NTP,0,0,0,,梦想还是Precure!?
+Dialogue: 0,0:24:28.29,0:24:30.29,Flora_CN,NTP,0,0,0,,光芒闪烁星彩所选择的道路！
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:24:30.83,0:24:32.07,Flora_CN,NTP,0,0,0,,朝着梦想 Go!Go!
+Dialogue: 0,0:24:32.26,0:24:33.53,Flora_CN,NTP,0,0,0,,贵安
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,OP-CN,NTP,0,0,0,,=========OP========
+Dialogue: 0,0:00:58.49,0:01:00.88,Flora_CN,NTP,0,0,0,,坚强 温柔 美丽
+Dialogue: 0,0:01:01.28,0:01:04.20,Flora_CN,NTP,0,0,0,,这是打算成为真正公主的四个人的故事
+Dialogue: 0,0:01:04.50,0:01:08.40,Flora_CN,NTP,0,0,0,,朝着梦想 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:01:14.11,0:01:20.37,OP-CN,NTP,0,0,0,,展翅高飞Princess 轻轻飘飘笔直飞向梦想!!
+Dialogue: 0,0:01:20.62,0:01:27.54,OP-CN,NTP,0,0,0,,努力之后Happy Come! 引发奇迹 Go! Princess Precure
+Dialogue: 0,0:01:31.88,0:01:36.88,OP-CN,NTP,0,0,0,,笑脸是宝石 女孩子是公主{\fnDroid Sans Fallback}♥　
+Dialogue: 0,0:01:37.05,0:01:42.97,OP-CN,NTP,0,0,0,,心里揪揪揪欢闹不已 打开那扇门吧
+Dialogue: 0,0:01:43.06,0:01:48.10,OP-CN,NTP,0,0,0,,雨天时道一声「贵安」 路被幸福所阻
+Dialogue: 0,0:01:48.27,0:01:54.19,OP-CN,NTP,0,0,0,,把坏蛋砰砰砰打败 我们将一直努力
+Dialogue: 0,0:01:54.36,0:02:01.45,OP-CN,NTP,0,0,0,,就像那照亮黑暗的火焰般 热情之心 幻作丝带
+Dialogue: 0,0:02:01.70,0:02:06.00,OP-CN,NTP,0,0,0,,携手实现 世界和平
+Dialogue: 0,0:02:09.33,0:02:15.34,OP-CN,NTP,0,0,0,,加油努力Princess 一路惊悚颤栗不会败于危机
+Dialogue: 0,0:02:15.84,0:02:20.43,OP-CN,NTP,0,0,0,,大家相伴一起 手牵手奋进！
+Dialogue: 0,0:02:20.59,0:02:26.68,OP-CN,NTP,0,0,0,,展翅高飞Princess 慢慢连起希望与光芒 不论到何时
+Dialogue: 0,0:02:26.98,0:02:34.07,OP-CN,NTP,0,0,0,,向着眼泪Say,Good Bye! 照亮未来的 Go! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:02:40.26,0:02:47.08,Defau_CN,NTP,0,0,0,,{\fad(200,0)\fnMicrosoft YaHei\b0\shad0\bord3}妇联大友团
+Dialogue: 0,0:02:47.08,0:02:51.06,Defau_CN,NTP,0,0,0,,{\fnMicrosoft YaHei\b0\shad0\bord3}翻译:落花 syan 杂务:时雨家的妹抖 繁化:BeNi 协力:ayukas 自助烤肉:蛇富帅
+Dialogue: 0,0:02:51.06,0:02:54.82,Defau_CN,NTP,0,0,0,,{\fad(0,200)\fnMicrosoft YaHei\b0\shad0\bord3}雪飘工作室 http://bbs.flsnow.net
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,ED2-2
+Dialogue: 0,0:22:44.40,0:22:47.21,EDMerma-CN,NTP,0,0,0,,想要实现 通往未来之路
+Dialogue: 0,0:22:47.36,0:22:50.07,EDMerma-CN,NTP,0,0,0,,若是将其称之为「梦想」
+Dialogue: 0,0:22:50.20,0:22:56.41,EDMerma-CN,NTP,0,0,0,,就和伙伴们一起奔跑吧
+Dialogue: 0,0:22:56.74,0:22:59.64,EDMerma-CN,NTP,0,0,0,,Let's GO! (GO!)  贵安
+Dialogue: 0,0:22:59.87,0:23:02.42,EDMerma-CN,NTP,0,0,0,,Let's GO! (GO!)  海的女儿!
+Dialogue: 0,0:23:02.54,0:23:08.42,EDMerma-CN,NTP,0,0,0,,漫无边际的大海宛如明镜
+Dialogue: 0,0:23:08.63,0:23:14.60,EDMerma-CN,NTP,0,0,0,,映照出南风与心灵
+Dialogue: 0,0:23:14.76,0:23:21.04,EDMerma-CN,NTP,0,0,0,,想去了解藏在心里的答案
+Dialogue: 0,0:23:21.27,0:23:24.15,EDMerma-CN,NTP,0,0,0,,今天拿出勇气
+Dialogue: 0,0:23:24.48,0:23:29.15,EDMerma-CN,NTP,0,0,0,,只为改变明天
+Dialogue: 0,0:23:30.07,0:23:33.03,EDMerma-CN,NTP,0,0,0,,快看公主们！ 尊贵的公主们！
+Dialogue: 0,0:23:33.13,0:23:36.70,EDMerma-CN,NTP,0,0,0,,在实现「梦想」之前不曾放弃
+Dialogue: 0,0:23:37.16,0:23:42.29,EDMerma-CN,NTP,0,0,0,,看啊！ 大家都在期待着
+Dialogue: 0,0:23:42.50,0:23:45.25,EDMerma-CN,NTP,0,0,0,,快看公主们！ 尊贵的公主们！
+Dialogue: 0,0:23:45.42,0:23:51.09,EDMerma-CN,NTP,0,0,0,,莎啦啦 这个世界与幸福如此相配
+Dialogue: 0,0:23:51.26,0:23:57.68,EDMerma-CN,NTP,0,0,0,,用希望的钥匙去释放吧！
+Dialogue: 0,0:23:57.97,0:24:03.02,EDMerma-CN,NTP,0,0,0,,Let's GO! Princess Precure
+Dialogue: 0,0:00:00.00,0:00:00.00,Defau_CN,NTP,0,0,0,,

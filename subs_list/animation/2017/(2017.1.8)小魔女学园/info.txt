@@ -1,0 +1,5 @@
+﻿chs: 小魔女学园
+cht: 小魔女學園
+jp: リトルウィッチアカデミア
+en: Little Witch Academia
+rome: Little Witch Academia

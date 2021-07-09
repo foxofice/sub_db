@@ -1,0 +1,5 @@
+﻿chs: 怪物之子
+cht: 怪物之子
+jp: バケモノの子
+en: The Boy and the Beast
+rome: Bakemono no Ko

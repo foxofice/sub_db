@@ -1,0 +1,21 @@
+﻿----------Staff----------
+方正粗雅宋_GBK <FZYaSong-B-GBK>
+Joane Stencil SemiBold
+----------Title----------
+【落落补】pop粗体
+----------ED----------
+FOT-キアロ Std B <FOT-Chiaro Std B>
+FOT-テロップ明朝 ProN H <FOT-TelopMin ProN H>
+FOT-筑紫Aオールド明朝 Pr6N D <FOT-TsukuAOldMin Pr6N D>
+方正时代宋 简繁 Bold <FZShiDaiSongJF Bold>
+方正FW筑紫A老明朝 简 D <FZFW ZhuZi A Old Mincho D>
+----------Text----------
+UDデジタル教科書体 StdN M <UDDigiKyokasho StdN M>
+仓耳今楷04 W04 <TsangerJinKai04 W04>
+----------Screen----------
+FOT-モード明朝Bラージ ProN H <FOT-ModeMinBLarge ProN H>
+仓耳今楷03 W05 <TsangerJinKai03 W05>
+方正卡通_GBK <FZKaTong-M19>
+汉仪新蒂芳草体 <Hanyi Senty Meadow>
+微软雅黑 <Microsoft YaHei>
+微软雅黑 Bold <Microsoft YaHei Bold>

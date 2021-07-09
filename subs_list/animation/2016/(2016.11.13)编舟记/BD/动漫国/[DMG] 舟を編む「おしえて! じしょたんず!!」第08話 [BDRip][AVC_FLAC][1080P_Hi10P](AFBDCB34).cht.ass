@@ -1,0 +1,42 @@
+﻿[Script Info]
+Title: [Fune_o_Amu][SP08]
+Original Script: DMG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX: 1280
+PlayResY: 720
+Timer:100.0000
+YCbCr Matrix: TV.709
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,50,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: Comment,方正准圆_GBK,39,&H00FFFFFF,&HF0000000,&H20000000,&H20F5F5F5,-1,0,0,0,100,100,0,0,1,2,0,8,10,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,——Text——
+Dialogue: 0,0:00:01.85,0:00:04.77,Default,,0,0,0,,教教我吧!  辭典小傢伙們!!
+Dialogue: 0,0:00:05.10,0:00:06.69,Default,,0,0,0,,哇  煥然一新呢
+Dialogue: 0,0:00:06.81,0:00:08.82,Default,,0,0,0,,果然十三年歲月流轉
+Dialogue: 0,0:00:08.82,0:00:10.32,Default,,0,0,0,,此處的變化也可謂引人奪目
+Dialogue: 0,0:00:10.44,0:00:13.11,Default,,0,0,0,,小海倒是沒怎麼變呢
+Dialogue: 0,0:00:13.36,0:00:14.20,Default,,0,0,0,,是的
+Dialogue: 0,0:00:14.32,0:00:16.24,Default,,0,0,0,,其實我還沒有編完
+Dialogue: 0,0:00:16.66,0:00:17.62,Default,,0,0,0,,還沒?
+Dialogue: 0,0:00:17.66,0:00:21.04,Default,,0,0,0,,如此一來就得重新確認是否有過時的釋義了
+Dialogue: 0,0:00:21.16,0:00:22.75,Default,,0,0,0,,話雖如此
+Dialogue: 0,0:00:22.91,0:00:25.50,Default,,0,0,0,,書桌都被整理得如此講究了
+Dialogue: 0,0:00:25.63,0:00:28.09,Default,,0,0,0,,小海的內容一定也會很時尚的
+Dialogue: 0,0:00:28.67,0:00:30.38,Default,,0,0,0,,不過這裡啊
+Dialogue: 0,0:00:30.88,0:00:32.97,Default,,0,0,0,,不覺得客場感爆棚嗎
+Dialogue: 0,0:00:33.55,0:00:34.47,Default,,0,0,0,,確實
+Dialogue: 0,0:00:34.63,0:00:37.39,Default,,0,0,0,,我會變成這麼耀眼的辭典嗎
+Dialogue: 0,0:00:38.64,0:00:40.18,Default,,0,0,0,,糟了  我們走錯片場了
+Dialogue: 0,0:00:40.35,0:00:41.27,Default,,0,0,0,,是真的
+Dialogue: 0,0:00:36.34,0:00:41.31,Default,,0,0,0,,{\fn萝莉体 第二版\fs30\bord0\c&HB9798F&\pos(976,180)}Northern Black   編輯部
+Dialogue: 0,0:00:41.89,0:00:44.23,Default,,0,0,0,,我們果然還是適合待在這裡
+Dialogue: 0,0:00:45.06,0:00:47.36,Default,,0,0,0,,辭典非一日可成
+Comment: 0,0:00:00.00,0:00:00.00,Comment,,0,0,0,,

@@ -1,0 +1,31 @@
+﻿「白箱」字幕簡略說明　　（詳細說明請見 https://bbs.vcb-s.com/thread-6895-1-1.html ）
+
+
+本字幕包可對應 [VCB-Studio] 新舊兩版的 BDrip，字幕檔名也已修改對應影片檔名，可直接複製使用
+
+　　　　1. 2020 新版　[VCB-Studio] SHIROBAKO / 白箱 / シロバコ 10-bit 1080p HEVC BDRip [Rev Fin]　34.9GB
+　　　　　　　　　　　https://share.dmhy.org/topics/view/548103_VCB-Studio_SHIROBAKO_10-bit_1080p_HEVC_BDRip_Rev_Fin.html
+
+　　　　2. 2015 舊版　[VCB-Studio] ShiroBako/白箱 10bit 1080p HEVC BDRip [Fin]　24.2GB
+　　　　　　　　　　　https://share.dmhy.org/topics/view/408215_VCB-Studio_ShiroBako_10bit_1080p_HEVC_BDRip_Fin.html
+
+
+各目錄下有「简体、繁體、台灣繁體」三種字幕，其中「简体、繁體」兩種，是只把原始 TV 版字幕調軸成 BDrip 版，未作其它任何修改的字幕
+　　　　　　　　　　　　　　　　　　　　　　　　「台灣繁體」則是除了調軸，再修正錯字／用字遣詞／其它各種細節的字幕
+
+
+字體包：链接: https://pan.baidu.com/s/1Ir2BQFMD7WC431wWnDB3dQ 提取码: p6ip
+
+
+字幕包同時也收錄了原始字幕，以備不時之需
+
+正片字幕取自　　　　　　　【华盟字幕社】[SHIROBAKO][白箱][01-24][720p_MP4][简繁外挂][TV合集]
+　　　　　　　　　　　　　https://share.dmhy.org/topics/view/393215_SHIROBAKO_01-24_720p_MP4_TV.html
+
+OVA1 及 SP1~5 字幕取自　　[光荣字幕·暗][白箱（SHIROBAKO）][Vol1-5][简繁外挂][BDRIP][MKV]
+　　　　　　　　　　　　　　https://share.dmhy.org/topics/view/400607_SHIROBAKO_Vol1-5_BDRIP_MKV.html
+
+OVA2 字幕取自　　　　　　　[异域-11番小队][白箱 ShiroBako][1-24+OVA][BDRIP][720P][华盟+光荣+兔子]　裡的兔子字幕組
+　　　　　　　　　　　　　　http://assrt.net/xml/sub/603/603821.xml
+
+在此也感謝【华盟字幕社】、[光荣字幕·暗]、兔子字幕組、[异域-11番小队]　為這些字幕所付出的辛勞
