@@ -1,0 +1,68 @@
+﻿codepage: 1252
+name: English
+
+// commmon
+0: OK
+1: Do you want to quit ?
+
+// toolStrip
+10: Update Database
+11: Advanced Search
+12: Languages
+13: Settings
+14: About
+15: browser local folder
+16: browser remote URL
+
+// mainform
+20: search by name
+21: by expression
+22: search
+23: {0:d} Record(s)
+24: {0:d} Movie(s)
+25: directory {0:s} not found
+26: There is no local data, do you want to download the latest subtitle index?
+
+// about
+30: changelog
+
+// settings
+40: subs path:
+
+// update_database
+50: start updating database
+51: stop updating database
+52: Time
+53: Log
+54: start updating database...
+55: downloading database file from remote server...
+56: subtitles local path not found
+57: manually stop updating database
+58: update database done
+59: update database failed
+60: (total {0:d} records，elapsed {1:s}）
+61: writing data to file {0:s} ...
+62: download database file done
+63: download database file failed
+64: use local subs data
+65: use remote subs data
+
+// search
+70: name: 
+71: sub name:
+72: sub extension:
+73: providers:
+74: desc:
+75: type:
+76: source:
+77: broadcast date
+78: reset conditions
+79: Search
+80: Are you sure to reset all conditions ?
+
+// config
+100: // subtitles path
+101: // database last update time
+102: // window size
+103: // window location
+104: // dataGridView style
