@@ -3,74 +3,80 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
-using System.Drawing;
 
 namespace sub_db
 {
 	internal class CONFIG
 	{
-		const string	m_k_OPTION__SUBS_PATH					= "subs_path";			// 字幕列表路径
-		const string	m_k_OPTION__LAST_UPDATA_DB_TIME			= "last_updata_db_time";// 最后更新数据库的时间
+		const string			m_k_CONFIG_FILE		= "Files\\config.txt";	// 配置文件的文件名
+		const string			m_k_CONFIG_FILE_TMP	= "Files\\config.tmp";	// 配置文件的文件名（临时）
+		internal static bool	m_s_dirty			= false;                // 设置是否已改变
 
-		const string	m_k_OPTION__WINDOW_WIDTH				= "window.width";		// 窗口宽度
-		const string	m_k_OPTION__WINDOW_HEIGHT				= "window.height";		// 窗口高度
+		#region OPTION
+		const string	OPTION__SUBS_PATH				= "subs.path";				// 字幕列表路径
+		const string	OPTION__SUBS_LAST_UPDATE_TIME	= "subs.last_update_time";	// 最后更新数据库的时间
 
-		const string	m_k_OPTION__WINDOW_X					= "window.x";			// 窗口 x 坐标
-		const string	m_k_OPTION__WINDOW_Y					= "window.y";			// 窗口 y 坐标
+		const string	OPTION__WINDOW_WIDTH			= "window.width";			// 窗口宽度
+		const string	OPTION__WINDOW_HEIGHT			= "window.height";			// 窗口高度
+
+		const string	OPTION__WINDOW_X				= "window.x";				// 窗口 x 坐标
+		const string	OPTION__WINDOW_Y				= "window.y";				// 窗口 y 坐标
 
 		// 数据网格的样式（width = 宽度、idx = 显示顺序索引）
-		const string	m_k_OPTION__COLUMN__TIME__WIDTH			= "column.time.width";
+		const string	OPTION__COLUMN_WIDTH__TIME		= "column.width.time";
 
-		const string	m_k_OPTION__COLUMN__NAME_CHS__WIDTH		= "column.name_chs.width";
-		const string	m_k_OPTION__COLUMN__NAME_CHT__WIDTH		= "column.name_cht.width";
-		const string	m_k_OPTION__COLUMN__NAME_JP__WIDTH		= "column.name_jp.width";
-		const string	m_k_OPTION__COLUMN__NAME_EN__WIDTH		= "column.name_en.width";
-		const string	m_k_OPTION__COLUMN__NAME_ROME__WIDTH	= "column.name_rome.width";
+		const string	OPTION__COLUMN_WIDTH__NAME_CHS	= "column.width.name_chs";
+		const string	OPTION__COLUMN_WIDTH__NAME_CHT	= "column.width.name_cht";
+		const string	OPTION__COLUMN_WIDTH__NAME_JP	= "column.width.name_jp";
+		const string	OPTION__COLUMN_WIDTH__NAME_EN	= "column.width.name_en";
+		const string	OPTION__COLUMN_WIDTH__NAME_ROME	= "column.width.name_rome";
 
-		const string	m_k_OPTION__COLUMN__TYPE__WIDTH			= "column.type.width";
-		const string	m_k_OPTION__COLUMN__SOURCE__WIDTH		= "column.source.width";
-		const string	m_k_OPTION__COLUMN__SUB_NAME__WIDTH		= "column.sub_name.width";
-		const string	m_k_OPTION__COLUMN__EXTENSION__WIDTH	= "column.extension.width";
-		const string	m_k_OPTION__COLUMN__PROVIDERS__WIDTH	= "column.providers.width";
-		const string	m_k_OPTION__COLUMN__DESC__WIDTH			= "column.desc.width";
-		const string	m_k_OPTION__COLUMN__PATH__WIDTH			= "column.path.width";
+		const string	OPTION__COLUMN_WIDTH__TYPE		= "column.width.type";
+		const string	OPTION__COLUMN_WIDTH__SOURCE	= "column.width.source";
+		const string	OPTION__COLUMN_WIDTH__SUB_NAME	= "column.width.sub_name";
+		const string	OPTION__COLUMN_WIDTH__EXTENSION	= "column.width.extension";
+		const string	OPTION__COLUMN_WIDTH__PROVIDERS	= "column.width.providers";
+		const string	OPTION__COLUMN_WIDTH__DESC		= "column.width.desc";
+		const string	OPTION__COLUMN_WIDTH__PATH		= "column.width.path";
 
-		const string	m_k_OPTION__COLUMN__TIME__IDX			= "column.time.idx";
+		const string	OPTION__COLUMN_IDX__TIME		= "column.idx.time";
 
-		const string	m_k_OPTION__COLUMN__NAME_CHS__IDX		= "column.name_chs.idx";
-		const string	m_k_OPTION__COLUMN__NAME_CHT__IDX		= "column.name_cht.idx";
-		const string	m_k_OPTION__COLUMN__NAME_JP__IDX		= "column.name_jp.idx";
-		const string	m_k_OPTION__COLUMN__NAME_EN__IDX		= "column.name_en.idx";
-		const string	m_k_OPTION__COLUMN__NAME_ROME__IDX		= "column.name_rome.idx";
+		const string	OPTION__COLUMN_IDX__NAME_CHS	= "column.idx.name_chs";
+		const string	OPTION__COLUMN_IDX__NAME_CHT	= "column.idx.name_cht";
+		const string	OPTION__COLUMN_IDX__NAME_JP		= "column.idx.name_jp";
+		const string	OPTION__COLUMN_IDX__NAME_EN		= "column.idx.name_en";
+		const string	OPTION__COLUMN_IDX__NAME_ROME	= "column.idx.name_rome";
 
-		const string	m_k_OPTION__COLUMN__TYPE__IDX			= "column.type.idx";
-		const string	m_k_OPTION__COLUMN__SOURCE__IDX			= "column.source.idx";
-		const string	m_k_OPTION__COLUMN__SUB_NAME__IDX		= "column.sub_name.idx";
-		const string	m_k_OPTION__COLUMN__EXTENSION__IDX		= "column.extension.idx";
-		const string	m_k_OPTION__COLUMN__PROVIDERS__IDX		= "column.providers.idx";
-		const string	m_k_OPTION__COLUMN__DESC__IDX			= "column.desc.idx";
-		const string	m_k_OPTION__COLUMN__PATH__IDX			= "column.path.idx";
+		const string	OPTION__COLUMN_IDX__TYPE		= "column.idx.type";
+		const string	OPTION__COLUMN_IDX__SOURCE		= "column.idx.source";
+		const string	OPTION__COLUMN_IDX__SUB_NAME	= "column.idx.sub_name";
+		const string	OPTION__COLUMN_IDX__EXTENSION	= "column.idx.extension";
+		const string	OPTION__COLUMN_IDX__PROVIDERS	= "column.idx.providers";
+		const string	OPTION__COLUMN_IDX__DESC		= "column.idx.desc";
+		const string	OPTION__COLUMN_IDX__PATH		= "column.idx.path";
+		#endregion
 
 		//==============================
 
-		static internal string		m_s_subs_path			= "../subs_list";	// 字幕列表路径
-		static internal DateTime	m_s_last_updata_db_time	= DateTime.MinValue;// 最后更新数据库的时间
-
-		static internal int			m_s_window_width		= 0;				// 窗口宽度
-		static internal int			m_s_window_height		= 0;				// 窗口高度
-
-		static internal int			m_s_window_x			= -1;				// 窗口 x 坐标
-		static internal int			m_s_window_y			= -1;				// 窗口 y 坐标
-
-		// 数据网格的样式（width = 宽度、idx = 显示顺序索引）
-		static internal int[]	m_s_column_width	= new int[(int)DATA.e_ColumnName.MAX]
+		internal class SUBS
 		{
-			-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+			internal static string		m_s_path				= "..\\subs_list";	// 字幕列表路径
+			internal static DateTime	m_s_last_update_time	= default;			// 最后更新数据库的时间
 		};
-		static internal int[]	m_s_column_idx		= new int[(int)DATA.e_ColumnName.MAX]
+
+		internal class WINDOW
 		{
-			-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+			internal static int	m_s_width	= 0;
+			internal static int	m_s_height	= 0;
+
+			internal static int	m_s_X		= -1;
+			internal static int	m_s_Y		= -1;
+		};
+
+		internal class DATA_GRID_VIEW
+		{
+			internal static int[]	m_s_Widths	= Enumerable.Repeat(-1, (int)DATA.e_Column.MAX).ToArray();
+			internal static int[]	m_s_Indices	= Enumerable.Repeat(-1, (int)DATA.e_Column.MAX).ToArray();
 		};
 
 		/*==============================================================
@@ -78,10 +84,17 @@ namespace sub_db
 		 *==============================================================*/
 		static internal void	read_config()
 		{
-			if(!File.Exists(PATH.m_k_CONFIG_FILENAME))
-				return;
+			string conf_file = m_k_CONFIG_FILE;
 
-			string[] lines = File.ReadAllLines(PATH.m_k_CONFIG_FILENAME, Encoding.UTF8);
+			if(!File.Exists(m_k_CONFIG_FILE))
+			{
+				if(!File.Exists(m_k_CONFIG_FILE_TMP))
+					return;
+
+				conf_file = m_k_CONFIG_FILE_TMP;
+			}
+
+			string[] lines = File.ReadAllLines(conf_file, Encoding.UTF8);
 
 			foreach(string line in lines)
 			{
@@ -95,276 +108,292 @@ namespace sub_db
 				if(idx < 0)
 					continue;
 
-				string w1 = line.Substring(0, idx).Trim().ToLower();
+				string w1 = line.Substring(0, idx).Trim();
 				string w2 = line.Substring(idx + 1).Trim();
 
-				if(w1 == m_k_OPTION__SUBS_PATH.ToLower())
+				// 字幕路径
+				if(string.Compare(w1, OPTION__SUBS_PATH, true) == 0)
 				{
-					m_s_subs_path = w2;
+					SUBS.m_s_path = w2;
 					continue;
 				}
 
-				if(w1 == m_k_OPTION__LAST_UPDATA_DB_TIME.ToLower())
+				// 最后更新数据库的时间
+				if(string.Compare(w1, OPTION__SUBS_LAST_UPDATE_TIME, true) == 0)
 				{
-					DateTime.TryParse(w2, out m_s_last_updata_db_time);
+					DateTime.TryParse(w2, out SUBS.m_s_last_update_time);
 					continue;
 				}
 
-				if(w1 == m_k_OPTION__WINDOW_WIDTH.ToLower())
+				// 窗口大小
+				if(string.Compare(w1, OPTION__WINDOW_WIDTH, true) == 0)
 				{
-					int.TryParse(w2, out m_s_window_width);
+					int.TryParse(w2, out WINDOW.m_s_width);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__WINDOW_HEIGHT, true) == 0)
+				{
+					int.TryParse(w2, out WINDOW.m_s_height);
 					continue;
 				}
 
-				if(w1 == m_k_OPTION__WINDOW_HEIGHT.ToLower())
+				// 窗口位置
+				if(string.Compare(w1, OPTION__WINDOW_X, true) == 0)
 				{
-					int.TryParse(w2, out m_s_window_height);
+					int.TryParse(w2, out WINDOW.m_s_X);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__WINDOW_Y, true) == 0)
+				{
+					int.TryParse(w2, out WINDOW.m_s_Y);
 					continue;
 				}
 
-				if(w1 == m_k_OPTION__WINDOW_X.ToLower())
+				// 数据网格（宽度）
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__TIME, true) == 0)
 				{
-					int.TryParse(w2, out m_s_window_x);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.time]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__NAME_CHS, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_chs]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__NAME_CHT, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_cht]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__NAME_JP, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_jp]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__NAME_EN, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_en]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__NAME_ROME, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_rome]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__TYPE, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.type]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__SOURCE, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.source]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__SUB_NAME, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.sub_name]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__EXTENSION, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.extension]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__PROVIDERS, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.providers]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__DESC, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.desc]);
+					continue;
+				}
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_WIDTH__PATH, true) == 0)
+				{
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.path]);
 					continue;
 				}
 
-				if(w1 == m_k_OPTION__WINDOW_Y.ToLower())
+				// 数据网格（索引）
+				if(string.Compare(w1, OPTION__COLUMN_IDX__TIME, true) == 0)
 				{
-					int.TryParse(w2, out m_s_window_y);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.time]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__TIME__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__NAME_CHS, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.time]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_chs]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_CHS__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__NAME_CHT, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.name_chs]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_cht]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_CHT__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__NAME_JP, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.name_cht]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_jp]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_JP__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__NAME_EN, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.name_jp]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_en]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_EN__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__NAME_ROME, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.name_en]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_rome]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_ROME__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__TYPE, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.name_rome]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.type]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__TYPE__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__SOURCE, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.type]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.source]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__SOURCE__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__SUB_NAME, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.source]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.sub_name]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__SUB_NAME__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__EXTENSION, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.sub_name]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.extension]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__EXTENSION__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__PROVIDERS, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.extension]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.providers]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__PROVIDERS__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__DESC, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.providers]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.desc]);
 					continue;
 				}
-
-				if(w1 == m_k_OPTION__COLUMN__DESC__WIDTH.ToLower())
+				//--------------------------------------------------
+				if(string.Compare(w1, OPTION__COLUMN_IDX__PATH, true) == 0)
 				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.desc]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__PATH__WIDTH.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_width[(int)DATA.e_ColumnName.path]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__TIME__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.time]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_CHS__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.name_chs]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_CHT__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.name_cht]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_JP__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.name_jp]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_EN__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.name_en]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__NAME_ROME__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.name_rome]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__TYPE__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.type]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__SOURCE__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.source]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__SUB_NAME__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.sub_name]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__EXTENSION__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.extension]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__PROVIDERS__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.providers]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__DESC__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.desc]);
-					continue;
-				}
-
-				if(w1 == m_k_OPTION__COLUMN__PATH__IDX.ToLower())
-				{
-					int.TryParse(w2, out m_s_column_idx[(int)DATA.e_ColumnName.path]);
+					int.TryParse(w2, out DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.path]);
 					continue;
 				}
 			}	// for
 
-			var mainform = frm_Mainform.m_s_mainform;
-
-			if(m_s_window_width == 0)
-				m_s_window_width = 1024;
-
-			if(m_s_window_height == 0)
-				m_s_window_height = 768;
-
-			mainform.Size = new Size(m_s_window_width, m_s_window_height);
-
-			if(m_s_window_x >= 0 && m_s_window_y >= 0)
-				mainform.DesktopLocation = new Point(m_s_window_x, m_s_window_y);
-
-			mainform.m_UpdateDatabase.append_log(	$"最后更新数据库的时间：{m_s_last_updata_db_time.ToString()}",
-													Color.Blue );
+			// 10: 最后更新数据库的时间：
+			COMMON.add_log($"{LANGUAGES.txt(10)}{SUBS.m_s_last_update_time.ToString("yyyy-MM-dd HH:mm:ss")}", Color.Blue);
 		}
 
 		/*==============================================================
-		 * 写入配置文件
+		 * 保存配置文件
 		 *==============================================================*/
-		static internal void	write_config()
+		static internal void	save_config()
 		{
-			List<string> lines = new List<string>();
+			if(!m_s_dirty)
+				return;
 
-			lines.Add(LANGUAGES.txt(100));	//「// 字幕路径」
-			lines.Add($"{m_k_OPTION__SUBS_PATH}: {m_s_subs_path}");
-			lines.Add("");
+			StringBuilder sb = new();
 
-			lines.Add(LANGUAGES.txt(101));	//「// 最后更新数据库的时间」
-			lines.Add($"{m_k_OPTION__LAST_UPDATA_DB_TIME}: {m_s_last_updata_db_time.ToString()}");
-			lines.Add("");
+			// 字幕路径
+			sb.AppendLine($"// {LANGUAGES.txt(20)}");	// 20: 字幕路径
+			sb.AppendLine($"{OPTION__SUBS_PATH}: {SUBS.m_s_path}");
+			sb.AppendLine();
 
-			lines.Add(LANGUAGES.txt(102));	//「// 窗口大小」
-			lines.Add($"{m_k_OPTION__WINDOW_WIDTH}: {m_s_window_width}");
-			lines.Add($"{m_k_OPTION__WINDOW_HEIGHT}: {m_s_window_height}");
-			lines.Add("");
+			// 最后更新数据库的时间
+			sb.AppendLine($"// {LANGUAGES.txt(21)}");	// 21: 最后更新数据库的时间
+			sb.AppendLine($"{OPTION__SUBS_LAST_UPDATE_TIME}: {SUBS.m_s_last_update_time}");
+			sb.AppendLine();
 
-			lines.Add(LANGUAGES.txt(103));	//「// 窗口位置」
-			lines.Add($"{m_k_OPTION__WINDOW_X}: {m_s_window_x}");
-			lines.Add($"{m_k_OPTION__WINDOW_Y}: {m_s_window_y}");
-			lines.Add("");
+			// 窗口大小
+			sb.AppendLine($"// {LANGUAGES.txt(22)}");	// 22: 窗口大小
+			sb.AppendLine($"{OPTION__WINDOW_WIDTH}: {WINDOW.m_s_width}");
+			sb.AppendLine($"{OPTION__WINDOW_HEIGHT}: {WINDOW.m_s_height}");
+			sb.AppendLine();
 
-			lines.Add(LANGUAGES.txt(104));	//「// 数据网格的样式（width = 宽度、idx = 显示顺序索引）」
-			lines.Add($"{m_k_OPTION__COLUMN__TIME__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.time]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_CHS__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.name_chs]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_CHT__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.name_cht]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_JP__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.name_jp]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_EN__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.name_en]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_ROME__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.name_rome]}");
-			lines.Add("");
-			lines.Add($"{m_k_OPTION__COLUMN__TYPE__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.type]}");
-			lines.Add($"{m_k_OPTION__COLUMN__SOURCE__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.source]}");
-			lines.Add($"{m_k_OPTION__COLUMN__SUB_NAME__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.sub_name]}");
-			lines.Add($"{m_k_OPTION__COLUMN__EXTENSION__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.extension]}");
-			lines.Add($"{m_k_OPTION__COLUMN__PROVIDERS__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.providers]}");
-			lines.Add($"{m_k_OPTION__COLUMN__DESC__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.desc]}");
-			lines.Add($"{m_k_OPTION__COLUMN__PATH__WIDTH}: {m_s_column_width[(int)DATA.e_ColumnName.path]}");
-			lines.Add("");
-			lines.Add($"{m_k_OPTION__COLUMN__TIME__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.time]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_CHS__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.name_chs]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_CHT__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.name_cht]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_JP__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.name_jp]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_EN__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.name_en]}");
-			lines.Add($"{m_k_OPTION__COLUMN__NAME_ROME__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.name_rome]}");
-			lines.Add("");
-			lines.Add($"{m_k_OPTION__COLUMN__TYPE__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.type]}");
-			lines.Add($"{m_k_OPTION__COLUMN__SOURCE__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.source]}");
-			lines.Add($"{m_k_OPTION__COLUMN__SUB_NAME__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.sub_name]}");
-			lines.Add($"{m_k_OPTION__COLUMN__EXTENSION__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.extension]}");
-			lines.Add($"{m_k_OPTION__COLUMN__PROVIDERS__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.providers]}");
-			lines.Add($"{m_k_OPTION__COLUMN__DESC__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.desc]}");
-			lines.Add($"{m_k_OPTION__COLUMN__PATH__IDX}: {m_s_column_idx[(int)DATA.e_ColumnName.path]}");
+			// 窗口位置
+			sb.AppendLine($"// {LANGUAGES.txt(23)}");	// 23: 窗口位置
+			sb.AppendLine($"{OPTION__WINDOW_X}: {WINDOW.m_s_X}");
+			sb.AppendLine($"{OPTION__WINDOW_Y}: {WINDOW.m_s_Y}");
+			sb.AppendLine();
 
-			File.WriteAllLines(PATH.m_k_CONFIG_FILENAME, lines, Encoding.UTF8);
+			// 数据网格
+			sb.AppendLine($"// {LANGUAGES.txt(24)}");	// 24: 数据网格
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__TIME}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.time]}");
+
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__NAME_CHS}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_chs]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__NAME_CHT}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_cht]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__NAME_JP}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_jp]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__NAME_EN}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_en]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__NAME_ROME}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.name_rome]}");
+			sb.AppendLine();
+
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__TYPE}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.type]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__SOURCE}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.source]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__SUB_NAME}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.sub_name]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__EXTENSION}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.extension]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__PROVIDERS}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.providers]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__DESC}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.desc]}");
+			sb.AppendLine($"{OPTION__COLUMN_WIDTH__PATH}: {DATA_GRID_VIEW.m_s_Widths[(int)DATA.e_Column.path]}");
+			sb.AppendLine();
+
+			sb.AppendLine($"{OPTION__COLUMN_IDX__TIME}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.time]}");
+
+			sb.AppendLine($"{OPTION__COLUMN_IDX__NAME_CHS}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_chs]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__NAME_CHT}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_cht]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__NAME_JP}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_jp]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__NAME_EN}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_en]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__NAME_ROME}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.name_rome]}");
+			sb.AppendLine();
+
+			sb.AppendLine($"{OPTION__COLUMN_IDX__TYPE}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.type]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__SOURCE}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.source]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__SUB_NAME}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.sub_name]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__EXTENSION}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.extension]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__PROVIDERS}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.providers]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__DESC}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.desc]}");
+			sb.AppendLine($"{OPTION__COLUMN_IDX__PATH}: {DATA_GRID_VIEW.m_s_Indices[(int)DATA.e_Column.path]}");
+
+			File.WriteAllText(m_k_CONFIG_FILE_TMP, sb.ToString(), Encoding.UTF8);
+
+			if(File.Exists(m_k_CONFIG_FILE))
+				File.Delete(m_k_CONFIG_FILE);
+
+			File.Move(m_k_CONFIG_FILE_TMP, m_k_CONFIG_FILE);
+
+			// 11: 保存配置文件 {0:s}
+			COMMON.add_log(string.Format(LANGUAGES.txt(11), m_k_CONFIG_FILE), Color.Blue);
+
+			m_s_dirty = false;
 		}
 	};
 }	// namespace sub_db

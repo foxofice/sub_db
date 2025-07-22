@@ -1,0 +1,90 @@
+﻿//-------------------------------------------------- c_HttpClient
+0: Server does not support range requests or Content-Length is unavailable
+1: Download was canceled
+
+//-------------------------------------------------- CONFIG
+10: database last update time:
+11: Save configuration file {0:s}
+
+20: Subtitles path
+21: database last update time
+22: Window size
+23: Window position
+24: Data Grid View
+
+//-------------------------------------------------- frm_About
+100: About
+101: Changelog:
+102: Official website
+103: OK
+
+//-------------------------------------------------- frm_Log
+150: Log
+151: Time
+152: Log
+
+//-------------------------------------------------- frm_Search
+200: Advanced Search
+201: Anime name:
+202: Subtitle name:
+203: Subtitle file extension:
+204: Provider/Subtitle group:
+205: Description:
+206: Type:
+207: Source:
+208: Broadcast date:
+209: Reset search conditions
+210: Search
+
+250: Reset search conditions?
+
+//-------------------------------------------------- frm_UpdateDatabase
+300: Update Database
+301: Local subtitle data -> db.xml
+302: Remote db.xml -> db.xml
+
+310: Local scan settings
+311: Remote download settings
+
+320: Full scan
+321: Partial scan
+322: Partial scan settings
+323: Type
+324: Year
+
+330: Dwnload threads:
+
+350: Start scanning
+351: Stop scanning
+352: Start downloading
+353: Stop downloading
+
+360: Performing database update...
+361: Local subtitle path {0:s} not found
+362: Missing {0:s}
+363: User stopped database update (duration {0:s})
+364: Database update completed (scanned {0:d}, total {1:d}, duration {2:s})
+365: Writing data to file {0:s} completed
+366: Downloading db.xml from remote server...
+367: Download db.xml completed
+368: Download db.xml failed ({0:s})
+
+//-------------------------------------------------- frm_Mainform - toolStrip
+400: Update Database
+401: Open local folder
+402: Open remote link
+403: Advanced Search
+404: Log
+405: Languages(语言)
+406: About
+
+//-------------------------------------------------- frm_Mainform
+420: Subtitle path:
+421: Search by name
+422: Search using query statement
+
+450: No local data found. would you like to download the latest db.xml ?
+451: {0:d} records
+452: {0:d} anime
+453: Do you want to exit the program ?
+454: Folder {0:s} not found

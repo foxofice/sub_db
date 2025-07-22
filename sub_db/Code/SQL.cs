@@ -11,14 +11,14 @@ namespace sub_db
 		/*==============================================================
 		 * 修正字符串（转义字符）
 		 *==============================================================*/
-		internal static string	fix_string(string str, bool fix_RowFilter = true)
+		internal static string	escape(string str, bool fix_RowFilter = true)
 		{
 			str = str.Replace("'", "''");
 
 			if(!fix_RowFilter)
 				return str;
 
-			StringBuilder sb = new StringBuilder();
+			StringBuilder sb = new();
 
 			foreach(char c in str)
 			{

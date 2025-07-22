@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "sub_db": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

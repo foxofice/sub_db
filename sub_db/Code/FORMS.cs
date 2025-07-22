@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace sub_db
 {
 	internal class FORMS
 	{
-		internal static ToolTip	m_s_Tooltip	= new ToolTip();
-
 		/*==============================================================
 		 * 执行委托
 		 *==============================================================*/
@@ -39,6 +36,23 @@ namespace sub_db
 			frm.BringToFront();
 			frm.Activate();
 			frm.WindowState = FormWindowState.Normal;
+		}
+
+		/*==============================================================
+		 * 设置 DoubleBuffered
+		 *==============================================================*/
+		internal static void	Set_DoubleBuffered(Control c, bool enabled)
+		{
+			if(c == null)
+				return;
+
+			var propertyInfo = typeof(Control).GetProperty(	"DoubleBuffered", 
+															System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic );
+
+			if(propertyInfo == null)
+				return;
+
+			propertyInfo.SetValue(c, enabled);
 		}
 	};
 }	// namespace sub_db

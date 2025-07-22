@@ -28,281 +28,250 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.label_Name = new System.Windows.Forms.Label();
-			this.textBox_Name = new System.Windows.Forms.TextBox();
-			this.radioButton_Time_EarlierThan = new System.Windows.Forms.RadioButton();
-			this.radioButton_Time_Equal = new System.Windows.Forms.RadioButton();
-			this.radioButton_Time_LaterThan = new System.Windows.Forms.RadioButton();
-			this.label_Type = new System.Windows.Forms.Label();
-			this.comboBox_Type = new System.Windows.Forms.ComboBox();
-			this.comboBox_Source = new System.Windows.Forms.ComboBox();
-			this.label_Source = new System.Windows.Forms.Label();
-			this.label_SubName = new System.Windows.Forms.Label();
-			this.textBox_SubName = new System.Windows.Forms.TextBox();
-			this.textBox_Extension = new System.Windows.Forms.TextBox();
-			this.label_Extension = new System.Windows.Forms.Label();
-			this.textBox_Providers = new System.Windows.Forms.TextBox();
-			this.label_Providers = new System.Windows.Forms.Label();
-			this.textBox_Desc = new System.Windows.Forms.TextBox();
-			this.label_Desc = new System.Windows.Forms.Label();
-			this.dateTimePicker_Time = new System.Windows.Forms.DateTimePicker();
-			this.checkBox_Time = new System.Windows.Forms.CheckBox();
-			this.button_Search = new System.Windows.Forms.Button();
-			this.linkLabel_Reset = new System.Windows.Forms.LinkLabel();
-			this.SuspendLayout();
+			label_Name = new Label();
+			textBox_Name = new TextBox();
+			label_SubName = new Label();
+			textBox_SubName = new TextBox();
+			label_Extension = new Label();
+			textBox_Extension = new TextBox();
+			label_Providers = new Label();
+			textBox_Providers = new TextBox();
+			label_Desc = new Label();
+			textBox_Desc = new TextBox();
+			label_Type = new Label();
+			comboBox_Type = new ComboBox();
+			label_Source = new Label();
+			comboBox_Source = new ComboBox();
+			checkBox_Time = new CheckBox();
+			dateTimePicker_Time = new DateTimePicker();
+			linkLabel_Reset = new LinkLabel();
+			button_Search = new Button();
+			comboBox_Time = new ComboBox();
+			SuspendLayout();
 			// 
 			// label_Name
 			// 
-			this.label_Name.AutoSize = true;
-			this.label_Name.Location = new System.Drawing.Point(12, 15);
-			this.label_Name.Name = "label_Name";
-			this.label_Name.Size = new System.Drawing.Size(65, 12);
-			this.label_Name.TabIndex = 0;
-			this.label_Name.Text = "影片名称：";
+			label_Name.AutoSize = true;
+			label_Name.Location = new Point(12, 15);
+			label_Name.Name = "label_Name";
+			label_Name.Size = new Size(65, 12);
+			label_Name.TabIndex = 1;
+			label_Name.Text = "番剧名称：";
 			// 
 			// textBox_Name
 			// 
-			this.textBox_Name.Location = new System.Drawing.Point(113, 12);
-			this.textBox_Name.Name = "textBox_Name";
-			this.textBox_Name.Size = new System.Drawing.Size(230, 21);
-			this.textBox_Name.TabIndex = 1;
-			// 
-			// radioButton_Time_EarlierThan
-			// 
-			this.radioButton_Time_EarlierThan.AutoSize = true;
-			this.radioButton_Time_EarlierThan.Checked = true;
-			this.radioButton_Time_EarlierThan.Enabled = false;
-			this.radioButton_Time_EarlierThan.Location = new System.Drawing.Point(116, 202);
-			this.radioButton_Time_EarlierThan.Name = "radioButton_Time_EarlierThan";
-			this.radioButton_Time_EarlierThan.Size = new System.Drawing.Size(29, 16);
-			this.radioButton_Time_EarlierThan.TabIndex = 15;
-			this.radioButton_Time_EarlierThan.TabStop = true;
-			this.radioButton_Time_EarlierThan.Text = "<";
-			this.radioButton_Time_EarlierThan.UseVisualStyleBackColor = true;
-			// 
-			// radioButton_Time_Equal
-			// 
-			this.radioButton_Time_Equal.AutoSize = true;
-			this.radioButton_Time_Equal.Enabled = false;
-			this.radioButton_Time_Equal.Location = new System.Drawing.Point(151, 202);
-			this.radioButton_Time_Equal.Name = "radioButton_Time_Equal";
-			this.radioButton_Time_Equal.Size = new System.Drawing.Size(29, 16);
-			this.radioButton_Time_Equal.TabIndex = 16;
-			this.radioButton_Time_Equal.Text = "=";
-			this.radioButton_Time_Equal.UseVisualStyleBackColor = true;
-			// 
-			// radioButton_Time_LaterThan
-			// 
-			this.radioButton_Time_LaterThan.AutoSize = true;
-			this.radioButton_Time_LaterThan.Enabled = false;
-			this.radioButton_Time_LaterThan.Location = new System.Drawing.Point(186, 202);
-			this.radioButton_Time_LaterThan.Name = "radioButton_Time_LaterThan";
-			this.radioButton_Time_LaterThan.Size = new System.Drawing.Size(29, 16);
-			this.radioButton_Time_LaterThan.TabIndex = 17;
-			this.radioButton_Time_LaterThan.Text = ">";
-			this.radioButton_Time_LaterThan.UseVisualStyleBackColor = true;
-			// 
-			// label_Type
-			// 
-			this.label_Type.AutoSize = true;
-			this.label_Type.Location = new System.Drawing.Point(12, 150);
-			this.label_Type.Name = "label_Type";
-			this.label_Type.Size = new System.Drawing.Size(41, 12);
-			this.label_Type.TabIndex = 10;
-			this.label_Type.Text = "类型：";
-			// 
-			// comboBox_Type
-			// 
-			this.comboBox_Type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox_Type.FormattingEnabled = true;
-			this.comboBox_Type.Location = new System.Drawing.Point(113, 147);
-			this.comboBox_Type.Name = "comboBox_Type";
-			this.comboBox_Type.Size = new System.Drawing.Size(230, 20);
-			this.comboBox_Type.TabIndex = 11;
-			// 
-			// comboBox_Source
-			// 
-			this.comboBox_Source.FormattingEnabled = true;
-			this.comboBox_Source.Location = new System.Drawing.Point(113, 173);
-			this.comboBox_Source.Name = "comboBox_Source";
-			this.comboBox_Source.Size = new System.Drawing.Size(230, 20);
-			this.comboBox_Source.TabIndex = 13;
-			// 
-			// label_Source
-			// 
-			this.label_Source.AutoSize = true;
-			this.label_Source.Location = new System.Drawing.Point(12, 176);
-			this.label_Source.Name = "label_Source";
-			this.label_Source.Size = new System.Drawing.Size(41, 12);
-			this.label_Source.TabIndex = 12;
-			this.label_Source.Text = "片源：";
+			textBox_Name.Location = new Point(167, 12);
+			textBox_Name.Name = "textBox_Name";
+			textBox_Name.Size = new Size(177, 21);
+			textBox_Name.TabIndex = 2;
 			// 
 			// label_SubName
 			// 
-			this.label_SubName.AutoSize = true;
-			this.label_SubName.Location = new System.Drawing.Point(12, 42);
-			this.label_SubName.Name = "label_SubName";
-			this.label_SubName.Size = new System.Drawing.Size(65, 12);
-			this.label_SubName.TabIndex = 2;
-			this.label_SubName.Text = "字幕名称：";
+			label_SubName.AutoSize = true;
+			label_SubName.Location = new Point(12, 42);
+			label_SubName.Name = "label_SubName";
+			label_SubName.Size = new Size(65, 12);
+			label_SubName.TabIndex = 3;
+			label_SubName.Text = "字幕名称：";
 			// 
 			// textBox_SubName
 			// 
-			this.textBox_SubName.Location = new System.Drawing.Point(113, 39);
-			this.textBox_SubName.Name = "textBox_SubName";
-			this.textBox_SubName.Size = new System.Drawing.Size(230, 21);
-			this.textBox_SubName.TabIndex = 3;
-			// 
-			// textBox_Extension
-			// 
-			this.textBox_Extension.Location = new System.Drawing.Point(113, 66);
-			this.textBox_Extension.Name = "textBox_Extension";
-			this.textBox_Extension.Size = new System.Drawing.Size(230, 21);
-			this.textBox_Extension.TabIndex = 5;
+			textBox_SubName.Location = new Point(167, 39);
+			textBox_SubName.Name = "textBox_SubName";
+			textBox_SubName.Size = new Size(177, 21);
+			textBox_SubName.TabIndex = 4;
 			// 
 			// label_Extension
 			// 
-			this.label_Extension.AutoSize = true;
-			this.label_Extension.Location = new System.Drawing.Point(12, 69);
-			this.label_Extension.Name = "label_Extension";
-			this.label_Extension.Size = new System.Drawing.Size(89, 12);
-			this.label_Extension.TabIndex = 4;
-			this.label_Extension.Text = "字幕文件后缀：";
+			label_Extension.AutoSize = true;
+			label_Extension.Location = new Point(12, 69);
+			label_Extension.Name = "label_Extension";
+			label_Extension.Size = new Size(89, 12);
+			label_Extension.TabIndex = 5;
+			label_Extension.Text = "字幕文件后缀：";
 			// 
-			// textBox_Providers
+			// textBox_Extension
 			// 
-			this.textBox_Providers.Location = new System.Drawing.Point(113, 93);
-			this.textBox_Providers.Name = "textBox_Providers";
-			this.textBox_Providers.Size = new System.Drawing.Size(230, 21);
-			this.textBox_Providers.TabIndex = 7;
+			textBox_Extension.Location = new Point(167, 66);
+			textBox_Extension.Name = "textBox_Extension";
+			textBox_Extension.Size = new Size(177, 21);
+			textBox_Extension.TabIndex = 6;
 			// 
 			// label_Providers
 			// 
-			this.label_Providers.AutoSize = true;
-			this.label_Providers.Location = new System.Drawing.Point(12, 96);
-			this.label_Providers.Name = "label_Providers";
-			this.label_Providers.Size = new System.Drawing.Size(95, 12);
-			this.label_Providers.TabIndex = 6;
-			this.label_Providers.Text = "提供者/字幕组：";
+			label_Providers.AutoSize = true;
+			label_Providers.Location = new Point(12, 96);
+			label_Providers.Name = "label_Providers";
+			label_Providers.Size = new Size(95, 12);
+			label_Providers.TabIndex = 7;
+			label_Providers.Text = "提供者/字幕组：";
 			// 
-			// textBox_Desc
+			// textBox_Providers
 			// 
-			this.textBox_Desc.Location = new System.Drawing.Point(113, 120);
-			this.textBox_Desc.Name = "textBox_Desc";
-			this.textBox_Desc.Size = new System.Drawing.Size(230, 21);
-			this.textBox_Desc.TabIndex = 9;
+			textBox_Providers.Location = new Point(167, 93);
+			textBox_Providers.Name = "textBox_Providers";
+			textBox_Providers.Size = new Size(177, 21);
+			textBox_Providers.TabIndex = 8;
 			// 
 			// label_Desc
 			// 
-			this.label_Desc.AutoSize = true;
-			this.label_Desc.Location = new System.Drawing.Point(12, 123);
-			this.label_Desc.Name = "label_Desc";
-			this.label_Desc.Size = new System.Drawing.Size(41, 12);
-			this.label_Desc.TabIndex = 8;
-			this.label_Desc.Text = "描述：";
+			label_Desc.AutoSize = true;
+			label_Desc.Location = new Point(12, 123);
+			label_Desc.Name = "label_Desc";
+			label_Desc.Size = new Size(41, 12);
+			label_Desc.TabIndex = 9;
+			label_Desc.Text = "描述：";
 			// 
-			// dateTimePicker_Time
+			// textBox_Desc
 			// 
-			this.dateTimePicker_Time.Enabled = false;
-			this.dateTimePicker_Time.Location = new System.Drawing.Point(221, 199);
-			this.dateTimePicker_Time.Name = "dateTimePicker_Time";
-			this.dateTimePicker_Time.Size = new System.Drawing.Size(122, 21);
-			this.dateTimePicker_Time.TabIndex = 18;
+			textBox_Desc.Location = new Point(167, 120);
+			textBox_Desc.Name = "textBox_Desc";
+			textBox_Desc.Size = new Size(177, 21);
+			textBox_Desc.TabIndex = 10;
+			// 
+			// label_Type
+			// 
+			label_Type.AutoSize = true;
+			label_Type.Location = new Point(12, 150);
+			label_Type.Name = "label_Type";
+			label_Type.Size = new Size(41, 12);
+			label_Type.TabIndex = 11;
+			label_Type.Text = "类型：";
+			// 
+			// comboBox_Type
+			// 
+			comboBox_Type.FormattingEnabled = true;
+			comboBox_Type.Location = new Point(167, 147);
+			comboBox_Type.Name = "comboBox_Type";
+			comboBox_Type.Size = new Size(177, 20);
+			comboBox_Type.TabIndex = 12;
+			// 
+			// label_Source
+			// 
+			label_Source.AutoSize = true;
+			label_Source.Location = new Point(12, 176);
+			label_Source.Name = "label_Source";
+			label_Source.Size = new Size(41, 12);
+			label_Source.TabIndex = 13;
+			label_Source.Text = "片源：";
+			// 
+			// comboBox_Source
+			// 
+			comboBox_Source.FormattingEnabled = true;
+			comboBox_Source.Location = new Point(167, 173);
+			comboBox_Source.Name = "comboBox_Source";
+			comboBox_Source.Size = new Size(177, 20);
+			comboBox_Source.TabIndex = 14;
 			// 
 			// checkBox_Time
 			// 
-			this.checkBox_Time.AutoSize = true;
-			this.checkBox_Time.Location = new System.Drawing.Point(14, 203);
-			this.checkBox_Time.Name = "checkBox_Time";
-			this.checkBox_Time.Size = new System.Drawing.Size(96, 16);
-			this.checkBox_Time.TabIndex = 14;
-			this.checkBox_Time.Text = "影片放送日期";
-			this.checkBox_Time.UseVisualStyleBackColor = true;
-			this.checkBox_Time.CheckedChanged += new System.EventHandler(this.CheckBox_Time_CheckedChanged);
+			checkBox_Time.AutoSize = true;
+			checkBox_Time.Location = new Point(12, 201);
+			checkBox_Time.Name = "checkBox_Time";
+			checkBox_Time.Size = new Size(84, 16);
+			checkBox_Time.TabIndex = 15;
+			checkBox_Time.Text = "放送日期：";
+			checkBox_Time.UseVisualStyleBackColor = true;
+			checkBox_Time.CheckedChanged += checkBox_Time_CheckedChanged;
 			// 
-			// button_Search
+			// dateTimePicker_Time
 			// 
-			this.button_Search.Location = new System.Drawing.Point(12, 255);
-			this.button_Search.Name = "button_Search";
-			this.button_Search.Size = new System.Drawing.Size(331, 23);
-			this.button_Search.TabIndex = 20;
-			this.button_Search.Text = "搜索";
-			this.button_Search.UseVisualStyleBackColor = true;
-			this.button_Search.Click += new System.EventHandler(this.Button_Search_Click);
+			dateTimePicker_Time.Enabled = false;
+			dateTimePicker_Time.Location = new Point(212, 199);
+			dateTimePicker_Time.Name = "dateTimePicker_Time";
+			dateTimePicker_Time.Size = new Size(132, 21);
+			dateTimePicker_Time.TabIndex = 17;
 			// 
 			// linkLabel_Reset
 			// 
-			this.linkLabel_Reset.AutoSize = true;
-			this.linkLabel_Reset.Location = new System.Drawing.Point(12, 226);
-			this.linkLabel_Reset.Name = "linkLabel_Reset";
-			this.linkLabel_Reset.Size = new System.Drawing.Size(77, 12);
-			this.linkLabel_Reset.TabIndex = 19;
-			this.linkLabel_Reset.TabStop = true;
-			this.linkLabel_Reset.Text = "重置搜索条件";
-			this.linkLabel_Reset.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel_Reset_LinkClicked);
+			linkLabel_Reset.AutoSize = true;
+			linkLabel_Reset.Location = new Point(12, 223);
+			linkLabel_Reset.Name = "linkLabel_Reset";
+			linkLabel_Reset.Size = new Size(77, 12);
+			linkLabel_Reset.TabIndex = 18;
+			linkLabel_Reset.TabStop = true;
+			linkLabel_Reset.Text = "重置搜索条件";
+			linkLabel_Reset.LinkClicked += linkLabel_Reset_LinkClicked;
+			// 
+			// button_Search
+			// 
+			button_Search.Location = new Point(12, 238);
+			button_Search.Name = "button_Search";
+			button_Search.Size = new Size(332, 23);
+			button_Search.TabIndex = 19;
+			button_Search.Text = "搜索";
+			button_Search.UseVisualStyleBackColor = true;
+			button_Search.Click += button_Search_Click;
+			// 
+			// comboBox_Time
+			// 
+			comboBox_Time.DropDownStyle = ComboBoxStyle.DropDownList;
+			comboBox_Time.Enabled = false;
+			comboBox_Time.FormattingEnabled = true;
+			comboBox_Time.Items.AddRange(new object[] { "<", "=", ">" });
+			comboBox_Time.Location = new Point(167, 199);
+			comboBox_Time.Name = "comboBox_Time";
+			comboBox_Time.Size = new Size(39, 20);
+			comboBox_Time.TabIndex = 16;
 			// 
 			// frm_Search
 			// 
-			this.AcceptButton = this.button_Search;
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(355, 290);
-			this.Controls.Add(this.linkLabel_Reset);
-			this.Controls.Add(this.button_Search);
-			this.Controls.Add(this.checkBox_Time);
-			this.Controls.Add(this.radioButton_Time_EarlierThan);
-			this.Controls.Add(this.dateTimePicker_Time);
-			this.Controls.Add(this.radioButton_Time_Equal);
-			this.Controls.Add(this.radioButton_Time_LaterThan);
-			this.Controls.Add(this.label_Desc);
-			this.Controls.Add(this.textBox_Desc);
-			this.Controls.Add(this.label_Providers);
-			this.Controls.Add(this.textBox_Providers);
-			this.Controls.Add(this.label_Extension);
-			this.Controls.Add(this.textBox_Extension);
-			this.Controls.Add(this.textBox_SubName);
-			this.Controls.Add(this.label_SubName);
-			this.Controls.Add(this.label_Source);
-			this.Controls.Add(this.comboBox_Source);
-			this.Controls.Add(this.comboBox_Type);
-			this.Controls.Add(this.label_Type);
-			this.Controls.Add(this.textBox_Name);
-			this.Controls.Add(this.label_Name);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.Name = "frm_Search";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "高级查找";
-			this.TopMost = true;
-			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Search_FormClosing);
-			this.Load += new System.EventHandler(this.frm_Search_Load);
-			this.ResumeLayout(false);
-			this.PerformLayout();
-
+			AutoScaleDimensions = new SizeF(6F, 12F);
+			AutoScaleMode = AutoScaleMode.Font;
+			ClientSize = new Size(356, 273);
+			Controls.Add(comboBox_Time);
+			Controls.Add(button_Search);
+			Controls.Add(linkLabel_Reset);
+			Controls.Add(dateTimePicker_Time);
+			Controls.Add(checkBox_Time);
+			Controls.Add(comboBox_Source);
+			Controls.Add(comboBox_Type);
+			Controls.Add(textBox_Desc);
+			Controls.Add(label_Source);
+			Controls.Add(textBox_Providers);
+			Controls.Add(label_Type);
+			Controls.Add(label_Desc);
+			Controls.Add(textBox_Extension);
+			Controls.Add(label_Providers);
+			Controls.Add(textBox_SubName);
+			Controls.Add(label_Extension);
+			Controls.Add(textBox_Name);
+			Controls.Add(label_SubName);
+			Controls.Add(label_Name);
+			Font = new Font("新宋体", 9F);
+			FormBorderStyle = FormBorderStyle.FixedSingle;
+			Margin = new Padding(3, 2, 3, 2);
+			MaximizeBox = false;
+			MinimizeBox = false;
+			Name = "frm_Search";
+			StartPosition = FormStartPosition.CenterScreen;
+			Text = "高级查找";
+			FormClosing += frm_Search_FormClosing;
+			Load += frm_Search_Load;
+			ResumeLayout(false);
+			PerformLayout();
 		}
 
 		#endregion
-		private System.Windows.Forms.TextBox textBox_Name;
-		private System.Windows.Forms.RadioButton radioButton_Time_EarlierThan;
-		private System.Windows.Forms.RadioButton radioButton_Time_Equal;
-		private System.Windows.Forms.RadioButton radioButton_Time_LaterThan;
-		private System.Windows.Forms.TextBox textBox_SubName;
-		private System.Windows.Forms.TextBox textBox_Extension;
-		private System.Windows.Forms.TextBox textBox_Providers;
-		private System.Windows.Forms.TextBox textBox_Desc;
-		private System.Windows.Forms.DateTimePicker dateTimePicker_Time;
-		internal System.Windows.Forms.Label label_Name;
-		internal System.Windows.Forms.Label label_Type;
-		internal System.Windows.Forms.Label label_Source;
-		internal System.Windows.Forms.Label label_SubName;
-		internal System.Windows.Forms.Label label_Extension;
-		internal System.Windows.Forms.Label label_Providers;
-		internal System.Windows.Forms.Label label_Desc;
-		internal System.Windows.Forms.CheckBox checkBox_Time;
-		internal System.Windows.Forms.LinkLabel linkLabel_Reset;
-		internal System.Windows.Forms.Button button_Search;
-		internal System.Windows.Forms.ComboBox comboBox_Type;
-		internal System.Windows.Forms.ComboBox comboBox_Source;
+
+		private Label label_Name;
+		private TextBox textBox_Name;
+		private Label label_SubName;
+		private TextBox textBox_SubName;
+		private Label label_Extension;
+		private TextBox textBox_Extension;
+		private Label label_Providers;
+		private TextBox textBox_Providers;
+		private Label label_Desc;
+		private TextBox textBox_Desc;
+		private Label label_Type;
+		private ComboBox comboBox_Type;
+		private Label label_Source;
+		private ComboBox comboBox_Source;
+		private CheckBox checkBox_Time;
+		private DateTimePicker dateTimePicker_Time;
+		private LinkLabel linkLabel_Reset;
+		private Button button_Search;
+		private ComboBox comboBox_Time;
 	}
 }

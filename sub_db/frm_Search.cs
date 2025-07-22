@@ -1,5 +1,4 @@
-﻿using Microsoft.International.Converters.TraditionalChineseToSimplifiedConverter;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.International.Converters.TraditionalChineseToSimplifiedConverter;
 
 namespace sub_db
 {
@@ -20,17 +20,16 @@ namespace sub_db
 
 		#region Winform 事件
 		/*==============================================================
-		 * 窗口加载时
+		 * 窗口加载/窗口关闭
 		 *==============================================================*/
 		private void frm_Search_Load(object sender, EventArgs e)
 		{
-			this.Icon	= IMAGE.img2icon(Resource1.Logo);
-			this.Text	= string.Format(LANGUAGES.txt(11));	// 高级查找
-		}
+			this.Icon = IMAGE.get_exe_icon();
 
-		/*==============================================================
-		 * 窗口关闭时
-		 *==============================================================*/
+			update_Type_List();
+			update_Source_List();
+		}
+		//--------------------------------------------------
 		private void frm_Search_FormClosing(object sender, FormClosingEventArgs e)
 		{
 			e.Cancel = true;
@@ -38,22 +37,20 @@ namespace sub_db
 		}
 
 		/*==============================================================
-		 * 影片放送日期
+		 * 番剧放送日期
 		 *==============================================================*/
-		private void CheckBox_Time_CheckedChanged(object sender, EventArgs e)
+		private void checkBox_Time_CheckedChanged(object sender, EventArgs e)
 		{
-			radioButton_Time_EarlierThan.Enabled	= checkBox_Time.Checked;
-			radioButton_Time_Equal.Enabled			= checkBox_Time.Checked;
-			radioButton_Time_LaterThan.Enabled		= checkBox_Time.Checked;
-			dateTimePicker_Time.Enabled				= checkBox_Time.Checked;
+			comboBox_Time.Enabled		= checkBox_Time.Checked;
+			dateTimePicker_Time.Enabled	= checkBox_Time.Checked;
 		}
 
 		/*==============================================================
 		 * 重置搜索条件
 		 *==============================================================*/
-		private void LinkLabel_Reset_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		private void linkLabel_Reset_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
 		{
-			if(MessageBox.Show(	LANGUAGES.txt(80),	// 是否重置搜索条件？
+			if(MessageBox.Show(	LANGUAGES.txt(250),	// 250: 是否重置搜索条件？
 								$"{COMMON.m_k_PROGRAM_NAME} {COMMON.m_k_VERSION}",
 								MessageBoxButtons.YesNo,
 								MessageBoxIcon.Question,
@@ -65,19 +62,19 @@ namespace sub_db
 			textBox_Extension.Clear();
 			textBox_Providers.Clear();
 			textBox_Desc.Clear();
-			comboBox_Type.SelectedIndex				= -1;
-			comboBox_Source.Text					= "";
-			checkBox_Time.Checked					= false;
-			radioButton_Time_EarlierThan.Checked	= true;
-			dateTimePicker_Time.Value				= DateTime.Now;
+			comboBox_Type.SelectedIndex	= -1;
+			comboBox_Source.Text		= "";
+			checkBox_Time.Checked		= false;
+			comboBox_Time.SelectedIndex	= 0;
+			dateTimePicker_Time.Value	= DateTime.Now;
 		}
 
 		/*==============================================================
 		 * 搜索
 		 *==============================================================*/
-		private void Button_Search_Click(object sender, EventArgs e)
+		private void button_Search_Click(object sender, EventArgs e)
 		{
-			StringBuilder sb = new StringBuilder();
+			StringBuilder sb = new();
 
 			int count = 0;
 
@@ -85,72 +82,79 @@ namespace sub_db
 			{
 				++count;
 
-				string fix_Name_chs = SQL.fix_string(ChineseConverter.Convert(textBox_Name.Text, ChineseConversionDirection.TraditionalToSimplified));
-				string fix_Name_cht = SQL.fix_string(ChineseConverter.Convert(textBox_Name.Text, ChineseConversionDirection.SimplifiedToTraditional));
+				string fix_Name = SQL.escape(textBox_Name.Text);
 
-				sb.Append($"([name_chs] like '%{fix_Name_chs}%' or [name_chs] like '%{fix_Name_cht}%' or ");
-				sb.Append($"[name_cht] like '%{fix_Name_chs}%' or [name_cht] like '%{fix_Name_cht}%' or ");
-				sb.Append($"[name_jp] like '%{fix_Name_chs}%' or [name_jp] like '%{fix_Name_cht}%' or ");
-				sb.Append($"[name_en] like '%{fix_Name_chs}%' or ");
-				sb.Append($"[name_rome] like '%{fix_Name_chs}%')");
+				List<string> list = COMMON.GenerateSimplifiedTraditionalCombinations(fix_Name);
+
+				sb.Append("(");
+
+				foreach(string s in list)
+				{
+					sb.Append($"[name_chs] LIKE '%{s}%' OR ");
+					sb.Append($"[name_cht] LIKE '%{s}%' OR ");
+				}	// for
+
+				sb.Append($"[name_jp] LIKE '%{fix_Name}%' OR ");
+				sb.Append($"[name_en] LIKE '%{fix_Name}%' OR ");
+				sb.Append($"[name_rome] LIKE '%{fix_Name}%')");
 			}
 
 			if(textBox_SubName.TextLength > 0)
 			{
 				++count;
 
-				string fix_SubName = SQL.fix_string(textBox_SubName.Text);
+				string fix_SubName = SQL.escape(textBox_SubName.Text);
 
 				if(sb.Length > 0)
-					sb.Append(" and ");
+					sb.Append(" AND ");
 
-				sb.Append($"([sub_name] like '%{fix_SubName}%')");
+				sb.Append($"([sub_name] LIKE '%{fix_SubName}%')");
 			}
 
 			if(textBox_Extension.TextLength > 0)
 			{
 				++count;
 
-				string fix_Extension = SQL.fix_string(textBox_Extension.Text);
+				string fix_Extension = SQL.escape(textBox_Extension.Text);
 
 				if(sb.Length > 0)
-					sb.Append(" and ");
+					sb.Append(" AND ");
 
-				sb.Append($"([extension] like '%{fix_Extension}%')");
+				sb.Append($"([extension] LIKE '%{fix_Extension}%')");
 			}
 
 			if(textBox_Providers.TextLength > 0)
 			{
 				++count;
 
-				string fix_Providers = SQL.fix_string(textBox_Providers.Text);
+				string fix_Providers = SQL.escape(textBox_Providers.Text);
 
 				if(sb.Length > 0)
-					sb.Append(" and ");
+					sb.Append(" AND ");
 
-				sb.Append($"([providers] like '%{fix_Providers}%')");
+				sb.Append($"([providers] LIKE '%{fix_Providers}%')");
 			}
 
 			if(textBox_Desc.TextLength > 0)
 			{
 				++count;
 
-				string fix_Desc = SQL.fix_string(textBox_Desc.Text);
+				string fix_Desc = SQL.escape(textBox_Desc.Text);
 
 				if(sb.Length > 0)
-					sb.Append(" and ");
+					sb.Append(" AND ");
 
-				sb.Append($"([desc] like '%{fix_Desc}%')");
+				sb.Append($"([desc] LIKE '%{fix_Desc}%')");
 			}
 
 			if(comboBox_Type.SelectedIndex > 0)
 			{
 				++count;
 
-				string fix_Type = SQL.fix_string(comboBox_Type.Text);
+				string fix_Type = SQL.escape(comboBox_Type.Text);
 
 				if(sb.Length > 0)
-					sb.Append(" and ");
+					sb.Append(" AND ");
 
 				sb.Append($"([type] = '{fix_Type}')");
 			}
@@ -159,48 +163,74 @@ namespace sub_db
 			{
 				++count;
 
-				string fix_Source = SQL.fix_string(comboBox_Source.Text);
+				string fix_Source = SQL.escape(comboBox_Source.Text);
 
 				if(sb.Length > 0)
-					sb.Append(" and ");
+					sb.Append(" AND ");
 
-				sb.Append($"([source] like '%{fix_Source}%')");
+				sb.Append($"([source] LIKE '%{fix_Source}%')");
 			}
 
-			if(checkBox_Time.Checked)
+			if(checkBox_Time.Checked && comboBox_Time.SelectedIndex >= 0)
 			{
 				++count;
 
 				if(sb.Length > 0)
-					sb.Append(" and ");
+					sb.Append(" AND ");
 
-				string op = "";
-
-				if(radioButton_Time_EarlierThan.Checked)
-					op = "<";
-				else if(radioButton_Time_Equal.Checked)
-					op = "=";
-				else
-					op = ">";
-
-				sb.Append(string.Format("([time] {0:s} '{1:d}-{2:d}-{3:d}')",
-										op,
-										dateTimePicker_Time.Value.Year,
-										dateTimePicker_Time.Value.Month,
-										dateTimePicker_Time.Value.Day));
-			}
-
-			if(count == 1)
-			{
-				sb.Remove(0, 1);
-				sb.Remove(sb.Length - 1, 1);
+				sb.Append($"([time] {comboBox_Time.Text} '{dateTimePicker_Time.Value.ToString("yyyy-MM-dd")}')");
 			}
 
 			this.Close();
 
-			frm_Mainform.m_s_mainform.radioButton_SearchBySQL.Checked	= true;
-			frm_Mainform.m_s_mainform.textBox_Filter.Text				= sb.ToString();
+			frm_Mainform.m_s_mainform.set_SQL_filter(sb.ToString());
 			frm_Mainform.m_s_mainform.do_search();
+		}
+		#endregion
+
+		/*==============================================================
+		 * 更新 Type 列表
+		 *==============================================================*/
+		internal void update_Type_List()
+		{
+			comboBox_Type.Items.Clear();
+
+			string[] types = DATA.get_types(true);
+			if(types.Length == 0)
+				types = DATA.get_types(false);
+
+			foreach(string type in types)
+				comboBox_Type.Items.Add(type);
+		}
+
+		/*==============================================================
+		 * 更新 Source 列表
+		 *==============================================================*/
+		internal void update_Source_List()
+		{
+			comboBox_Source.Items.Clear();
+
+			foreach(string source in DATA.m_s_source_list)
+				comboBox_Source.Items.Add(source);
+		}
+
+		#region 多语言
+		/*==============================================================
+		 * 更新多语言文本
+		 *==============================================================*/
+		internal void update_language_text()
+		{
+			this.Text				= LANGUAGES.txt(200);	// 200: 高级查找
+			label_Name.Text			= LANGUAGES.txt(201);	// 201: 番剧名称：
+			label_SubName.Text		= LANGUAGES.txt(202);	// 202: 字幕名称：
+			label_Extension.Text	= LANGUAGES.txt(203);	// 203: 字幕文件后缀：
+			label_Providers.Text	= LANGUAGES.txt(204);	// 204: 提供者/字幕组：
+			label_Desc.Text			= LANGUAGES.txt(205);	// 205: 描述：
+			label_Type.Text			= LANGUAGES.txt(206);	// 206: 类型：
+			label_Source.Text		= LANGUAGES.txt(207);	// 207: 片源：
+			checkBox_Time.Text		= LANGUAGES.txt(208);	// 208: 放送日期：
+			linkLabel_Reset.Text	= LANGUAGES.txt(209);	// 209: 重置搜索条件
+			button_Search.Text		= LANGUAGES.txt(210);	// 210: 搜索
 		}
 		#endregion
 	};
